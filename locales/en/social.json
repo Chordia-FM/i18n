@@ -1,0 +1,59 @@
+{
+	"block": {
+		"confirmLabel": "Block",
+		"confirmMessage": "Block @{handle}? You won't be able to add each other as friends.",
+		"confirmTitle": "Block user"
+	},
+	"discovery": {
+		"addFriend": "Add friend",
+		"friendsStatus": "Friends",
+		"requestSent": "Request sent",
+		"sending": "Sending…"
+	},
+	"friends": {
+		"confirmRemove": "Confirm?",
+		"empty": "No friends yet - search to add some",
+		"heading": "Friends ({count})",
+		"removing": "Removing…",
+		"title": "Friends"
+	},
+	"modMenu": {
+		"blocked": "Blocked",
+		"report": "Report",
+		"reported": "Reported"
+	},
+	"page": {
+		"title": "Friends"
+	},
+	"profile": {
+		"eyebrow": "Profile",
+		"itemPlays": "{count, plural, one {# play} other {# plays}}",
+		"joinedDate": "{date, date, ::yMMMM}",
+		"joinedLabel": "joined {date}",
+		"loadError": "Couldn't load this profile.",
+		"noActivity": "No listening activity yet.",
+		"notFound": "No user with that handle.",
+		"private": {
+			"description": "{name} only shares their listening with friends.",
+			"title": "This profile is private"
+		},
+		"recentlyPlayed": "Recently played",
+		"topArtists": "Top artists",
+		"topTracks": "Top tracks",
+		"totalPlays": "{count, plural, one {# play} other {# plays}}",
+		"totalPlaysCount": "{count}"
+	},
+	"report": {
+		"promptMessage": "Report @{handle} — what's the issue?"
+	},
+	"requests": {
+		"accept": "Accept",
+		"accepting": "Accepting…",
+		"pendingHeading": "Pending requests ({count})"
+	},
+	"search": {
+		"noResults": "No users found.",
+		"placeholder": "Search by handle or display name…",
+		"searching": "Searching…"
+	}
+}

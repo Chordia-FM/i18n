@@ -1,0 +1,5 @@
+{
+	"nothingPlaying": "Nada en reproducción todavía.",
+	"plays": "{count, plural, one {# reproducción} other {# reproducciones}}",
+	"monthlyListeners": "{count, plural, one {# oyente mensual} other {# oyentes mensuales}}"
+}

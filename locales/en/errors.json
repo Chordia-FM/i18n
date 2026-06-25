@@ -1,0 +1,105 @@
+{
+	"account": {
+		"emailChangeFailed": "Could not start email change."
+	},
+	"admin": {
+		"deleteSelf": "Use account settings to delete your own account.",
+		"invalidReportAction": "Action must be “resolved” or “dismissed”."
+	},
+	"auth": {
+		"badCredentials": "Incorrect email or password.",
+		"displayNameLength": "Display name must be 1–64 characters.",
+		"emailInUse": "That email is already in use.",
+		"emailInvalid": "A valid email address is required.",
+		"handleChars": "Username may contain only letters, digits, “_” and “-”, and must start with a letter or digit.",
+		"handleLength": "Username must be 2–32 characters.",
+		"passwordLength": "Password must be {min}–{max} characters.",
+		"passwordRange": "Password must be 8–1024 characters.",
+		"twoFactorAlreadyEnabled": "Two-factor authentication is already enabled — disable it first.",
+		"twoFactorNotEnabled": "Two-factor authentication is not enabled.",
+		"twoFactorStartFirst": "Start two-factor setup first."
+	},
+	"catalog": {
+		"albumLoadFailed": "Failed to load",
+		"artistLoadFailed": "Failed to load",
+		"artistNameTaken": "Another artist already has that name.",
+		"labelLoadFailed": "Couldn't load this label",
+		"unknownArtist": "Unknown artist.",
+		"unknownImageHash": "Unknown image."
+	},
+	"changeFailed": "Couldn't save that change — please try again.",
+	"directory": {
+		"serverOffline": "That server is offline."
+	},
+	"discovery": {
+		"dailyMixFailed": "Couldn't build this mix",
+		"radioFailed": "Couldn't build this radio"
+	},
+	"failedToLoad": "Failed to load",
+	"friends": {
+		"cannotFriendSelf": "You can't send a friend request to yourself."
+	},
+	"generic": "Failed",
+	"image": {
+		"empty": "The image is empty.",
+		"fetchFailed": "Couldn't fetch that image.",
+		"hashMismatch": "Image content didn't match the expected hash.",
+		"invalidUrl": "Invalid image URL.",
+		"tooLarge": "Image is too large (max 8 MiB)."
+	},
+	"insights": {
+		"compareSelf": "You can't compare with yourself.",
+		"compatibilityNotFound": "No user with that handle.",
+		"compatibilityPrivate": "That user's listening activity is private.",
+		"loadFriendActivityFailed": "Failed to load friend activity",
+		"loadHistoryFailed": "Failed to load history",
+		"loadStatsFailed": "Failed to load stats",
+		"pagingPair": "before_ms and before_id must be provided together."
+	},
+	"label": {
+		"nameTaken": "Another label already has that name."
+	},
+	"library": {
+		"limitReached": "Library limit reached for this account."
+	},
+	"lyrics": {
+		"noLines": "There are no lyric lines to save."
+	},
+	"moderation": {
+		"blockSelf": "You can't block yourself.",
+		"reasonRequired": "A reason (≤200 characters) is required."
+	},
+	"noFields": "No fields to update.",
+	"oauth": {
+		"missingCode": "Missing authorization code."
+	},
+	"pins": {
+		"unknownKind": "Unknown pin kind."
+	},
+	"playlist": {
+		"limitReached": "Playlist limit reached for this account."
+	},
+	"route": {
+		"message": "An unexpected error interrupted this page. You can try again or head back home.",
+		"title": "Something went wrong"
+	},
+	"saveFailed": "Failed to save",
+	"share": {
+		"withSelf": "You can't share with yourself."
+	},
+	"twoFactor": {
+		"invalidCode": "Invalid code.",
+		"setupFailed": "Could not start 2FA setup."
+	},
+	"user": {
+		"handleGenFailed": "Couldn't generate a unique handle for this Discord account.",
+		"handleOrEmailTaken": "That handle or email is already taken.",
+		"handleTaken": "That handle is already taken.",
+		"notFound": "No user with that handle."
+	},
+	"validation": {
+		"nameOrIconRequired": "A name or icon is required.",
+		"nameRequired": "Name is required."
+	},
+	"valueEmpty": "Value cannot be empty."
+}

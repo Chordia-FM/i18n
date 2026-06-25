@@ -1,0 +1,186 @@
+{
+	"artists": {
+		"empty": "No artists yet - the catalog may still be syncing.",
+		"title": "Artists"
+	},
+	"card": {
+		"editTitle": "Edit this library",
+		"moveDown": "Move down (lower priority)",
+		"moveUp": "Move up (higher priority)",
+		"shareTitle": "Share this library",
+		"trackCount": "{count, plural, one {# track} other {# tracks}}"
+	},
+	"edit": {
+		"albumsLabel": "Albums",
+		"dedupeLabel": "De-duplicate - keep only the highest-quality copy when files land in the same place (otherwise they get (2), (3)… suffixes)",
+		"deleteConfirm": {
+			"confirmLabel": "Remove",
+			"message": "Remove this library? Your files stay on disk; it's removed from Chordia.",
+			"title": "Remove library"
+		},
+		"deleteFailed": "Delete failed",
+		"fallbackToAlbums": "{template} (falls back to Albums)",
+		"foldersHelp": "Untick a folder to keep it out of this library. Unticking a folder disables everything inside it.",
+		"foldersTitle": "Included folders",
+		"foldersUpdateFailed": "Failed to update folders",
+		"foldersUpdated": "Folders updated - re-scanning…",
+		"iconLabel": "Icon",
+		"iconSaveFailed": "Failed to save icon",
+		"iconSaved": "Icon saved",
+		"nameSaved": "Name saved",
+		"noSubFolders": "No sub-folders to manage.",
+		"organizeConfirm": {
+			"confirmLabel": "Continue",
+			"messageDedupe": "This moves files on disk into the new layout and deletes lower-quality duplicates. Continue?",
+			"messagePlain": "This moves files on disk into the new layout. Your audio isn't altered, only relocated. Continue?",
+			"title": "Organize files"
+		},
+		"organizeDisabled": "Organize disabled",
+		"organizeFailed": "Failed to update organize",
+		"organizeHelp": "Lay this library's audio files out on disk from a template. Folders are created as needed and scanned automatically.",
+		"organizeStatus": "Organizing files…",
+		"organizeTitle": "Organize files",
+		"organizeToggle": "Organize this library's files",
+		"pairedDeviceFolders": "To edit folders, open this page on the device where you paired this server.",
+		"pairedDeviceOrganize": "To change this, open this page on the device where you paired this server.",
+		"removeHelp": "Removes it from Chordia. Your audio files are not touched.",
+		"removeTitle": "Remove library",
+		"renameFailed": "Rename failed",
+		"rescanAll": "Rescan all files",
+		"rescanFailed": "Rescan failed",
+		"rescanHelp": "Re-reads every file from disk (metadata, added/removed tracks).",
+		"rescanStatus": "Rescanning all files…",
+		"rescanning": "Rescanning…",
+		"saveFolders": "Save folders",
+		"singlesLabel": "Singles (no album)",
+		"templateHelp": "Variables: {vars}. Empty parts are skipped and the file extension is added automatically. Tracks with no album use the Singles template; files we can't identify (no artist tag) use the Unidentified one.",
+		"title": "Edit library",
+		"unknownLabel": "Unidentified tracks"
+	},
+	"downloads": {
+		"clearConfirm": {
+			"message": "Remove all downloaded songs from this device?",
+			"title": "Clear downloads"
+		},
+		"clearError": "Couldn't clear downloads",
+		"emptyState": "Songs you download play without a connection. Use the Download action on any track to save it here.",
+		"eyebrow": "Available offline",
+		"navLabel": "Downloads",
+		"removeError": "Couldn't remove download",
+		"removeTooltip": "Remove download",
+		"songCount": "{count, plural, one {# song} other {# songs}}",
+		"storedOnDevice": "stored on this device",
+		"title": "Downloads"
+	},
+	"hidden": {
+		"hide": "Hide this song",
+		"unhide": "Unhide"
+	},
+	"liked": {
+		"empty": "Songs you like will show up here. Tap the heart on any track.",
+		"eyebrow": "Playlist",
+		"remove": "Remove from Liked Songs",
+		"save": "Save to Liked Songs",
+		"songCount": "{count, plural, one {# song} other {# songs}}",
+		"title": "Liked Songs"
+	},
+	"likedSongs": "Liked Songs",
+	"list": {
+		"empty": {
+			"hint": "Start your library server and pair it from the {settingsLink}.",
+			"settingsLink": "Settings page",
+			"title": "No libraries yet."
+		},
+		"loading": "Loading libraries…",
+		"newLibrary": "New library",
+		"sharedWithYou": "Shared with you",
+		"title": "Your Libraries"
+	},
+	"metadata": {
+		"intro": "Edit metadata for this library only. Your changes apply across your views; anything you leave blank keeps the original value. Global catalog edits live in the admin page.",
+		"noMatches": "No matches.",
+		"searchPlaceholder": "Search artists, albums, or tracks…",
+		"title": "Metadata"
+	},
+	"new": {
+		"addFailed": "Failed to add library",
+		"adding": "Adding…",
+		"backLink": "All libraries",
+		"browseFailed": "Browse failed",
+		"folderLabel": "Folder on the server",
+		"nameLabel": "Library name",
+		"namePlaceholder": "My Music",
+		"noFolderChosen": "No folder chosen",
+		"noServer": "No paired server found on this device. Pair a library server from {settingsLink} first.",
+		"noSubFolders": "No sub-folders here",
+		"serverLabel": "{names} · {host}",
+		"serverSelectHint": "This new library will be created on the selected server.",
+		"serverSelectLabel": "Library server",
+		"submit": "Add library",
+		"title": "New library"
+	},
+	"pin": {
+		"pin": "Pin",
+		"unpin": "Unpin"
+	},
+	"setup": {
+		"addFolderFailed": "Failed to add folder",
+		"addLibraries": {
+			"addFolder": "Add folder",
+			"adding": "Adding…",
+			"description": "Browse the library server's filesystem to pick where your music lives. You can add more folders later from settings.",
+			"finish": "Finish setup",
+			"formTitle": "Add a folder",
+			"skip": "Skip for now",
+			"title": "Add music folders"
+		},
+		"browseErrorStatus": "Browse error: {status}",
+		"done": {
+			"addLater": "You can add music folders anytime from {settingsLink}.",
+			"foldersAdded": "{count, plural, one {# folder added.} other {# folders added.}} Scanning is running in the background - tracks will appear shortly.",
+			"goToLibrary": "Go to library",
+			"title": "Library server connected!"
+		},
+		"hubRejectedToken": "The Hub rejected the session token. Try logging out and back in, then retry pairing.",
+		"insideDataMusic": "Inside {path} on the server",
+		"listDirFailed": "Failed to list directory",
+		"missingParams": "Missing setup parameters. Please open the link printed in the library server terminal.",
+		"noFolderSelected": "No folder selected",
+		"noSubdirectories": "No subdirectories here",
+		"pair": {
+			"connect": "Connect",
+			"connecting": "Connecting…",
+			"description": "This will link {url} to your Chordia account.",
+			"title": "Connect library server"
+		},
+		"pairingFailed": "Pairing failed",
+		"sessionExpired": "Your session has expired - please log out and back in, then retry.",
+		"step": {
+			"addFolders": "Add folders",
+			"done": "Done",
+			"pair": "Pair"
+		}
+	},
+	"share": {
+		"dialogLabel": "Share \"{name}\"",
+		"failed": "Failed to share",
+		"filterFriends": "Filter friends…",
+		"findPeople": "Find people",
+		"friendLabel": "Friend",
+		"noFriends": "You have no friends to share with yet.",
+		"permission": "Permission",
+		"permissionStreamDownload": "Stream + download",
+		"permissionStreamOnly": "Stream only",
+		"selectFriend": "Select a friend…",
+		"sharing": "Sharing…",
+		"submit": "Share library",
+		"success": "Library shared successfully.",
+		"title": "Share \"{name}\""
+	},
+	"sidebar": {
+		"pinned": "Pinned",
+		"playlists": "Playlists",
+		"yourLibrary": "Your Library"
+	},
+	"trackCount": "{count, plural, one {# track} other {# tracks}}"
+}

@@ -1,0 +1,25 @@
+# Crowdin configuration for the shared @chordia/i18n catalogs (run the CLI from this directory).
+#
+# `en` is the single source of truth; Crowdin produces one folder per target language. Values are
+# ICU MessageFormat held as plain JSON strings. Enable "ICU Message Syntax" in the Crowdin project
+# settings so placeholders/plurals are parsed and validated (do not use the i18next plural type, which
+# expects key suffixes; we keep ICU inline).
+#
+# Regional variants: the output folder is the BCP-47 locale (`%locale%` becomes `en-GB`, `pt-BR`, and
+# so on), so regional targets land in `locales/en-GB/` etc. and the runtime resolves them from exact
+# to base to default (a regional catalog only needs the keys it overrides). For a generic language
+# that should live at the bare code (e.g. `locales/es/`, not `locales/es-ES/`), set Crowdin Language
+# Mapping for that target so its `locale` placeholder is the 2-letter code. Add `en-GB`/`es-MX`/etc.
+# as target languages in the project and they appear here automatically, with no code change
+# (SUPPORTED_LOCALES is derived).
+#
+# Auth comes from the environment (set in CI / locally), never committed:
+"project_id_env": CROWDIN_PROJECT_ID
+"api_token_env": CROWDIN_PERSONAL_TOKEN
+
+preserve_hierarchy: true
+
+files:
+  - source: /locales/en/**/*.json
+    translation: /locales/%locale%/**/%original_file_name%
+    type: json

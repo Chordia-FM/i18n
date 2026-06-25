@@ -1,0 +1,24 @@
+{
+	"nav": {
+		"listen": "Escuchar",
+		"library": "Biblioteca",
+		"friends": "Amigos",
+		"signIn": "Iniciar sesión"
+	},
+	"userMenu": {
+		"libraries": "Bibliotecas",
+		"stats": "Estadísticas",
+		"settings": "Ajustes",
+		"admin": "Administración",
+		"signOut": "Cerrar sesión"
+	},
+	"notFound": {
+		"title": "Página no encontrada",
+		"body": "Esta página no existe.",
+		"goHome": "Ir al inicio"
+	},
+	"language": {
+		"label": "Idioma",
+		"description": "Idioma usado en toda la interfaz."
+	}
+}

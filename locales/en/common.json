@@ -1,0 +1,124 @@
+{
+	"a11y": {
+		"dismissNotification": "Dismiss notification",
+		"playTrack": "Play {title}"
+	},
+	"actions": {
+		"cancel": "Cancel",
+		"changeImage": "Change image",
+		"clearAll": "Clear all",
+		"close": "Close",
+		"confirm": "Confirm",
+		"delete": "Delete",
+		"done": "Done",
+		"download": "Download",
+		"edit": "Edit",
+		"find": "Find",
+		"goHome": "Go home",
+		"more": "More",
+		"moveDown": "Move down",
+		"moveUp": "Move up",
+		"ok": "OK",
+		"open": "Open",
+		"pin": "Pin",
+		"play": "Play",
+		"remove": "Remove",
+		"rename": "Rename",
+		"reset": "Reset",
+		"save": "Save",
+		"search": "Search",
+		"seeMore": "See more",
+		"share": "Share",
+		"showLess": "Show less",
+		"showMore": "Show more",
+		"signOut": "Sign out",
+		"tryAgain": "Try again",
+		"undo": "Undo",
+		"unpin": "Unpin",
+		"verify": "Verify"
+	},
+	"appName": "Chordia",
+	"commandPalette": {
+		"hint": {
+			"go": "Go",
+			"open": "Open",
+			"play": "Play"
+		},
+		"noMatches": "No matches.",
+		"placeholder": "Search music or jump to a page…",
+		"title": "Command palette",
+		"typeToSearch": "Type to search."
+	},
+	"error": {
+		"failedToLoad": "Failed to load"
+	},
+	"errors": {
+		"saveFailed": "Save failed."
+	},
+	"fields": {
+		"artist": "Artist",
+		"country": "Country",
+		"description": "Description",
+		"label": "Label",
+		"name": "Name",
+		"title": "Title",
+		"type": "Type",
+		"year": "Year"
+	},
+	"fileBrowser": {
+		"browse": "Browse",
+		"goUp": "Go up",
+		"useThisFolder": "Use this folder"
+	},
+	"language": {
+		"description": "Language used across the interface.",
+		"label": "Language"
+	},
+	"nav": {
+		"allLibraries": "All libraries",
+		"friends": "Friends",
+		"home": "Home",
+		"library": "Library",
+		"listen": "Listen",
+		"search": "Search",
+		"settings": "Settings",
+		"signIn": "Sign in"
+	},
+	"notFound": {
+		"body": "This page doesn't exist.",
+		"goHome": "Go home",
+		"title": "Page not found"
+	},
+	"or": "or",
+	"sidebar": {
+		"collapse": "Collapse sidebar",
+		"expand": "Expand sidebar",
+		"resize": "Resize sidebar"
+	},
+	"state": {
+		"loading": "Loading…",
+		"off": "Off",
+		"on": "On"
+	},
+	"states": {
+		"loading": "Loading…",
+		"off": "Off",
+		"saving": "Saving…",
+		"verifying": "Verifying…"
+	},
+	"status": {
+		"saved": "Saved",
+		"sending": "Sending…"
+	},
+	"update": {
+		"available": "A new version is available.",
+		"refresh": "Refresh"
+	},
+	"userMenu": {
+		"admin": "Admin",
+		"libraries": "Libraries",
+		"settings": "Settings",
+		"signOut": "Sign out",
+		"stats": "Stats"
+	}
+}

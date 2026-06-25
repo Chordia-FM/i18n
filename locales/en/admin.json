@@ -1,0 +1,86 @@
+{
+	"audit": {
+		"createdAt": "{date}",
+		"empty": "No actions yet.",
+		"title": "Audit log"
+	},
+	"editCatalog": {
+		"title": "Edit catalog metadata"
+	},
+	"enrichment": {
+		"description": "Re-fetch artwork, artist images, bios, release dates and genres for everything in your libraries. Useful after adding Last.fm / fanart.tv API keys. Runs in the background and is rate-limited, so a large library fills in gradually.",
+		"nothingToRefresh": "Nothing to refresh yet.",
+		"refetch": "Re-fetch metadata",
+		"refetching": "{count, plural, one {Re-fetching # item in the background…} other {Re-fetching # items in the background…}}",
+		"startFailed": "Failed to start.",
+		"starting": "Starting…",
+		"title": "Metadata enrichment"
+	},
+	"metadata": {
+		"artistSubtitle": "{albumCount, plural, one {# album} other {# albums}} · {trackCount, plural, one {# track} other {# tracks}}",
+		"artworkAlt": "Artwork",
+		"artworkLoadError": "Couldn't load artwork — try again.",
+		"bannerLabel": "banner",
+		"browseArtwork": "Browse artwork (icon + banner)",
+		"browseCovers": "Browse covers",
+		"browseLogos": "Browse logos (fanart.tv)",
+		"currentArtistHint": "Currently {name}. Search to re-attribute to a different artist.",
+		"editAlbumTitle": "Edit album (global)",
+		"editArtistTitle": "Edit artist (global)",
+		"editLabelTitle": "Edit label (global)",
+		"editTrackTitle": "Edit track (global)",
+		"fields": {
+			"bio": "Bio",
+			"defunct": "Defunct (blank = active)",
+			"founded": "Founded",
+			"genres": "Genres (comma-separated)"
+		},
+		"findArtistPlaceholder": "Find artist…",
+		"imageFetchFailed": "Couldn't fetch that image.",
+		"imageUploadFailed": "Image upload failed.",
+		"intro": "Edit the shared catalog that everyone sees — rename an artist, album or track, replace its artwork, or re-attribute a release to a different artist. These changes are global and permanent (unlike per-library edits). Every change is recorded in the audit log.",
+		"labelLoadError": "Couldn't load the label.",
+		"labelSubtitle": "{count, plural, one {# album} other {# albums}}",
+		"loadError": "Couldn't load the current metadata.",
+		"logoAlt": "Logo",
+		"logoUploadFailed": "Logo upload failed.",
+		"noAlbumCovers": "No covers found — the album needs a MusicBrainz match.",
+		"noArtistArtwork": "No online artwork found — needs a fanart.tv key + a MusicBrainz match.",
+		"noArtistsFound": "No artists found.",
+		"noLogos": "No logos found — needs a fanart.tv key + a MusicBrainz match.",
+		"noMatches": "No matches.",
+		"reattributeTo": "Re-attribute to {name}",
+		"searchPlaceholder": "Search artists, albums, or tracks…",
+		"uploadBanner": "Upload banner",
+		"uploadCover": "Upload cover",
+		"uploadIcon": "Upload icon",
+		"uploadLogo": "Upload logo",
+		"useThisArt": "Use this {kind}",
+		"useThisLogo": "Use this logo"
+	},
+	"noAccess": {
+		"backToApp": "Back to the app",
+		"body": "You don't have access to site administration. {link}.",
+		"title": "Admin"
+	},
+	"reports": {
+		"createdAt": "{date}",
+		"dismiss": "Dismiss",
+		"empty": "No open reports.",
+		"resolve": "Resolve",
+		"title": "Reports",
+		"titleWithCount": "{count, plural, one {Reports (# open)} other {Reports (# open)}}"
+	},
+	"title": "Site administration",
+	"users": {
+		"deleteConfirm": "Permanently delete @{handle} and ALL their data? This cannot be undone.",
+		"deleteTitle": "Delete user",
+		"searchPlaceholder": "Search handle, email, or name…",
+		"suspend": "Suspend",
+		"suspendConfirm": "Suspend @{handle}? They'll be signed out and unable to log in.",
+		"suspendTitle": "Suspend user",
+		"suspendedBadge": "suspended",
+		"title": "Users",
+		"unsuspend": "Unsuspend"
+	}
+}

@@ -1,0 +1,157 @@
+{
+	"chart": {
+		"activity": {
+			"ariaLabel": "Listening activity over time"
+		},
+		"dayLabel": "{date, date, ::MMMd}",
+		"noActivityPeriod": "No activity in this period",
+		"noActivityYet": "No activity yet",
+		"peak": "Peak: {count, plural, one {# play} other {# plays}} on {date}{month}",
+		"peakMonthQualifier": " (month)",
+		"playsTooltip": "{date}: {count, plural, one {# play} other {# plays}}"
+	},
+	"clock": {
+		"axis": {
+			"11p": "11p",
+			"12a": "12a",
+			"12p": "12p",
+			"6a": "6a",
+			"6p": "6p"
+		},
+		"hourTooltip": "{hour}:00 — {count, plural, one {# play} other {# plays}}"
+	},
+	"compatibility": {
+		"compare": "Compare",
+		"handlePlaceholder": "friend's handle",
+		"percent": "{pct}%",
+		"sharedArtists": "Artists you both love",
+		"title": "Taste compatibility",
+		"youAnd": "You & {name}"
+	},
+	"duration": {
+		"days": "{days}d",
+		"daysHours": "{days}d {hours}h",
+		"hoursMinutes": "{hours}h {minutes}m",
+		"minutes": "{minutes}m"
+	},
+	"empty": {
+		"history": {
+			"body": "Tracks you play will show up here.",
+			"title": "No history yet"
+		},
+		"overview": {
+			"body": "Start listening and your stats will appear here.",
+			"title": "Nothing yet"
+		},
+		"social": {
+			"body": "When your friends listen to music (and share their activity), it shows up here.",
+			"title": "Quiet in here"
+		}
+	},
+	"heatmap": {
+		"ariaLabel": "Daily listening heatmap",
+		"dayLabel": "{date, date, ::EEEMMMd}",
+		"dayTooltip": "{date}: {count, plural, one {# play} other {# plays}}",
+		"less": "Less",
+		"more": "More",
+		"scaleAriaLabel": "Activity intensity scale, less to more"
+	},
+	"history": {
+		"beginning": "That's the beginning of your history.",
+		"playedAtTitle": "{date}"
+	},
+	"nav": {
+		"title": "Listening insights"
+	},
+	"panels": {
+		"activity": "Activity",
+		"byWeekday": "By weekday",
+		"calendar": "Calendar",
+		"listeningClock": "Listening clock"
+	},
+	"period": {
+		"halfYear": "6 months",
+		"month": "30 days",
+		"overall": "All time",
+		"quarter": "3 months",
+		"week": "7 days",
+		"year": "12 months"
+	},
+	"recentlyPlayed": "Recently Played",
+	"relative": {
+		"hoursAgo": "{hours}h ago",
+		"justNow": "just now",
+		"minutesAgo": "{minutes}m ago",
+		"shortDate": "{date}",
+		"today": "today",
+		"yesterday": "yesterday"
+	},
+	"social": {
+		"friendActivity": "Friend Activity",
+		"listeningNow": "Listening now"
+	},
+	"stats": {
+		"dateLabel": "{date, date, ::yMMMd}",
+		"duration": "{days}d {hours}h / {hours}h {minutes}m / {minutes}m",
+		"firstPlayed": "First played",
+		"lastPlayed": "Last played",
+		"plays": "Plays",
+		"playsValue": "{count, number}",
+		"rankBadge": "#{rank} most played",
+		"sparkline": {
+			"ariaLabel": "Monthly play trend"
+		},
+		"time": "Time",
+		"timeListened": "Time Listened",
+		"title": "Your stats",
+		"uniqueArtists": "Unique Artists",
+		"uniqueArtistsValue": "{count}",
+		"uniqueTracks": "Unique Tracks",
+		"uniqueTracksValue": "{count}"
+	},
+	"tabs": {
+		"history": "history",
+		"overview": "overview",
+		"social": "social"
+	},
+	"title": "Listening",
+	"top": {
+		"albums": "Top Albums",
+		"artists": "Top Artists",
+		"genres": "Top Genres",
+		"playsCount": "{count, plural, one {# play} other {# plays}}",
+		"tracks": "Top Tracks"
+	},
+	"weekday": {
+		"fri": "Fri",
+		"mon": "Mon",
+		"playsValue": "{count, number}",
+		"sat": "Sat",
+		"sun": "Sun",
+		"thu": "Thu",
+		"tue": "Tue",
+		"wed": "Wed"
+	},
+	"wrapped": {
+		"downloaded": "Saved your Wrapped card.",
+		"failed": "Couldn't create the card. Please try again.",
+		"heading": "Chordia Wrapped",
+		"minutesListened": "minutes listened",
+		"periodTitle": {
+			"halfYear": "Your last 6 months in music",
+			"month": "Your month in music",
+			"overall": "Your all-time stats",
+			"quarter": "Your last 3 months in music",
+			"week": "Your week in music",
+			"year": "Your year in music"
+		},
+		"shareButton": "Share",
+		"shared": "Shared your Wrapped card.",
+		"sharedFallback": "Couldn't share — saved the card to your downloads instead.",
+		"sharing": "Sharing…",
+		"statLine": "{artists, number} artists · {tracks, number} tracks",
+		"topArtists": "Top artists",
+		"topGenre": "Top genre",
+		"topTracks": "Top tracks"
+	}
+}

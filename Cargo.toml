@@ -1,0 +1,19 @@
+[package]
+name = "chordia-i18n"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.85"
+description = "Shared localization catalogs + ICU MessageFormat formatter for the Chordia ecosystem (single source of truth, synced with Crowdin)."
+license = "AGPL-3.0-or-later"
+
+[dependencies]
+serde_json = "1"
+# Embeds ./locales into the binary so any Rust consumer is self-contained (nothing to deploy beside it).
+include_dir = "0.7"
+# Correct CLDR plural categories per locale (focused ICU4X component, compiled data baked in).
+icu_plurals = { version = "1", features = ["compiled_data"] }
+icu_locid = "1"
+
+[lib]
+name = "chordia_i18n"
+path = "src/lib.rs"

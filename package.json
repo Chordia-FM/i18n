@@ -1,0 +1,13 @@
+{
+  "name": "@chordia/i18n",
+  "version": "0.1.0",
+  "description": "Shared localization catalogs (ICU MessageFormat) for the Chordia ecosystem. Single source of truth, synced with Crowdin.",
+  "license": "AGPL-3.0-or-later",
+  "type": "module",
+  "types": "./index.ts",
+  "exports": {
+    ".": "./index.ts",
+    "./locales/*": "./locales/*"
+  },
+  "files": ["index.ts", "locales"]
+}

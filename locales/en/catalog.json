@@ -1,0 +1,165 @@
+{
+	"actions": {
+		"editMetadata": "Edit metadata"
+	},
+	"album": {
+		"card": {
+			"artistYearJoin": "{artist} · {year}"
+		},
+		"count": "{count, plural, one {# album} other {# albums}}",
+		"download": {
+			"albumTitle": "Download album",
+			"busy": "Downloading…",
+			"done": "Downloaded",
+			"failed": "Download failed",
+			"removePartial": "Removed {removed}, {failed} failed",
+			"removeTitle": "Remove downloads",
+			"removed": "Removed downloads",
+			"savedCount": "{count, plural, one {Downloaded # song} other {Downloaded # songs}}",
+			"savedPartial": "Downloaded {saved}, {failed} failed"
+		},
+		"durationHrMin": "{count, plural, one {# hr} other {# hr}} {minutes} min",
+		"durationMin": "{minutes} min",
+		"genresJoin": "{genres}",
+		"releaseDate": "{date, date, long}",
+		"songCount": "{count, plural, one {# song} other {# songs}}",
+		"typesJoin": "{types}"
+	},
+	"artist": {
+		"albums": "Albums",
+		"born": "Born {year}",
+		"card": {
+			"albumCount": "{count, plural, one {# album} other {# albums}}"
+		},
+		"factsJoin": "{facts}",
+		"formed": "Formed {year}",
+		"genresJoin": "{genres}",
+		"labelMetaJoin": "{span} · {releases}",
+		"labels": "Labels",
+		"namesJoin": "{artists}",
+		"popular": "Popular",
+		"radio": "Radio",
+		"relatedArtists": "Related artists",
+		"relation": {
+			"alias": "Also known as",
+			"member": "Member of / members",
+			"related": "Related"
+		},
+		"releaseCount": "{count, plural, one {# release} other {# releases}}"
+	},
+	"artistNamesJoin": "{names}",
+	"edit": {
+		"artOptionAlt": "{kind}",
+		"artworkAlt": "artwork",
+		"bannerSet": "Banner set ✓",
+		"browseAlbumCovers": "Browse album covers",
+		"browseArtwork": "Browse artwork (fanart.tv)",
+		"field": {
+			"album": "Album",
+			"artist": "Artist",
+			"bio": "Bio",
+			"discNo": "Disc #",
+			"genre": "Genre",
+			"genres": "Genres (comma-separated)",
+			"label": "Label",
+			"name": "Name",
+			"title": "Title",
+			"trackNo": "Track #",
+			"type": "Type",
+			"year": "Year"
+		},
+		"helpText": "Leave a field blank to keep the original. Changes are stored for this library only, unless you enable “Override globally”.",
+		"noArtworkAlbum": "No covers found — the album needs a MusicBrainz match.",
+		"noArtworkArtist": "No online artwork found — needs a fanart.tv API key and a MusicBrainz match.",
+		"overrideGlobally": {
+			"help": "Also show this edit across your whole catalog (your highest-priority library wins). Doesn't change the original or affect other users.",
+			"label": "Override globally"
+		},
+		"reset": {
+			"confirmMessage": "Reset to original metadata? This clears your edits for this item.",
+			"confirmTitle": "Reset metadata"
+		},
+		"resetToOriginal": "Reset to original",
+		"title": {
+			"album": "Edit album",
+			"artist": "Edit artist",
+			"track": "Edit track"
+		},
+		"uploadBanner": "Upload banner",
+		"uploadCover": "Upload cover",
+		"uploadImage": "Upload image",
+		"useThisArt": "Use this {kind}"
+	},
+	"entity": {
+		"artist": "Artist"
+	},
+	"label": {
+		"albumCount": "{count, plural, one {# album} other {# albums}}",
+		"albumCountWithPrefix": "Label · {count, plural, one {# album} other {# albums}}",
+		"eyebrow": "Label",
+		"factsSeparator": "type · country · lifespan",
+		"formerNames": "{name1}, {name2}",
+		"formerly": "Formerly {names}",
+		"lifespan": {
+			"founded": "Founded {year}",
+			"range": "{from} – {to}",
+			"until": "Until {year}"
+		},
+		"noAlbums": "No albums."
+	},
+	"labels": {
+		"empty": "No labels yet — they fill in as your catalog is enriched from MusicBrainz.",
+		"title": "Labels"
+	},
+	"lyrics": {
+		"heading": "Lyrics",
+		"placeholderPlain": "First line\nSecond line",
+		"placeholderSynced": "[00:00.00] First line\n[00:04.20] Second line",
+		"plainHelp": "Plain lyrics — one line each, no timing.",
+		"resetDone": "Reset to auto-fetched lyrics",
+		"resetError": "Couldn't reset lyrics",
+		"resetToAuto": "Reset to auto",
+		"resetToAutoTitle": "Forget this edit and re-fetch from the provider",
+		"save": "Save lyrics",
+		"saveError": "Couldn't save lyrics",
+		"saved": "Lyrics saved",
+		"sharedNote": "Shared across all libraries. ",
+		"syncedHelp": "One line per lyric, each prefixed with a timestamp like [00:12.34]; untimed lines are dropped.",
+		"syncedLabel": "Synced (LRC timing)"
+	},
+	"search": {
+		"placeholder": "Artists, albums, or songs"
+	},
+	"section": {
+		"albums": "Albums",
+		"artists": "Artists",
+		"labels": "Labels",
+		"songs": "Songs",
+		"tracks": "Tracks"
+	},
+	"songCount": "{count, plural, one {# song} other {# songs}}",
+	"track": {
+		"column": {
+			"album": "Album",
+			"dateAdded": "Date added",
+			"plays": "Plays",
+			"title": "Title"
+		},
+		"download": {
+			"exists": "Already downloaded",
+			"removeAction": "Remove download",
+			"removeError": "Couldn't remove download",
+			"removed": "Removed download",
+			"savedNamed": "Downloaded {title}"
+		},
+		"playAria": "Play {title} by {artist}",
+		"playsNumber": "{n, number}",
+		"relTime": {
+			"daysAgo": "{count, plural, one {# day ago} other {# days ago}}",
+			"fullDate": "{date, date, medium}",
+			"today": "Today",
+			"yesterday": "Yesterday"
+		}
+	},
+	"trackCount": "{count, plural, one {# track} other {# tracks}}"
+}

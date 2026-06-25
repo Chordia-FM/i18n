@@ -1,0 +1,176 @@
+{
+	"account": {
+		"avatarUrl": "Avatar URL",
+		"changeEmail": "Change email",
+		"displayName": "Display name",
+		"emailChangeSent": "Check your new inbox for a confirmation link.",
+		"handle": "Handle",
+		"handleHint": "Letters, digits, “_” and “-”. Must be unique.",
+		"handlePlaceholder": "yourname",
+		"newEmailPlaceholder": "new@example.com",
+		"resendVerification": "Resend verification email",
+		"saveProfile": "Save profile",
+		"sendConfirmation": "Send confirmation",
+		"title": "Account",
+		"verificationSent": "Sent — check your inbox"
+	},
+	"appearance": {
+		"accentColour": "Accent colour",
+		"accentHexAria": "Accent hex",
+		"customAccentAria": "Custom accent colour",
+		"customColour": "Custom colour",
+		"customColourHint": "Pick any colour - buttons, highlights and the background tint follow it.",
+		"title": "Appearance"
+	},
+	"data": {
+		"body": "Download everything Chordia stores about you, or permanently delete your account and all its data.",
+		"deleteAccountConfirm": "Permanently delete your account and ALL your data — listening history, playlists, libraries, and friends? This cannot be undone.",
+		"deleteAccountTitle": "Delete account",
+		"deleteFailedBody": "Could not delete your account right now. Please try again.",
+		"deleteFailedTitle": "Deletion failed",
+		"deleteForever": "Delete forever",
+		"exportFailedBody": "Could not export your data right now. Please try again.",
+		"exportFailedTitle": "Export failed",
+		"exportMyData": "Export my data",
+		"title": "Your data"
+	},
+	"downloads": {
+		"browserStorageName": "This device (browser storage)",
+		"bytes": "{bytes} B / {kb} KB / {mb} MB / {gb} GB",
+		"serverNote": "Music libraries themselves are added and organized on your Chordia library server, not here. Saving downloads to a custom folder (with your own path + organization layout) is coming to the desktop app.",
+		"thisDevice": {
+			"description": "Downloaded songs are stored on this device and play without a connection.",
+			"empty": "Use the Download action on any track or album.",
+			"title": "This device (browser storage)",
+			"usage": "{count, plural, one {# song} other {# songs}} · {size}."
+		},
+		"title": "Downloads",
+		"unsupportedDestination": "\"{destination}\" downloads need the desktop app"
+	},
+	"eq": {
+		"preset": {
+			"acoustic": "Acoustic",
+			"bassBoost": "Bass Boost",
+			"bassReducer": "Bass Reducer",
+			"classical": "Classical",
+			"electronic": "Electronic",
+			"flat": "Flat",
+			"hipHop": "Hip-Hop",
+			"jazz": "Jazz",
+			"loudness": "Loudness",
+			"pop": "Pop",
+			"rock": "Rock",
+			"trebleBoost": "Treble Boost",
+			"trebleReducer": "Treble Reducer",
+			"vocal": "Vocal"
+		}
+	},
+	"equalizer": {
+		"title": "Equalizer"
+	},
+	"playback": {
+		"autoplay": {
+			"desc": "Keep playing similar music when the queue ends.",
+			"label": "Autoplay"
+		},
+		"crossfade": {
+			"desc": "Overlap and blend the end of each track into the next.",
+			"label": "Crossfade",
+			"value": "{seconds}s"
+		},
+		"normalize": {
+			"desc": "Even out loudness across tracks (ReplayGain).",
+			"label": "Normalize volume"
+		},
+		"preload": {
+			"desc": "Download upcoming queue tracks ahead of time for instant, gap-free playback. Higher uses more data.",
+			"label": "Preload next tracks"
+		},
+		"quality": {
+			"dataSaver": {
+				"desc": "~96 kbps Opus - minimal data.",
+				"label": "Data Saver"
+			},
+			"high": {
+				"desc": "~256 kbps AAC - transparent for most.",
+				"label": "High"
+			},
+			"normal": {
+				"desc": "~128 kbps - balanced.",
+				"label": "Normal"
+			},
+			"original": {
+				"desc": "Bit-perfect source. Highest bandwidth.",
+				"label": "Lossless"
+			}
+		},
+		"streamingQuality": "Streaming quality",
+		"title": "Playback"
+	},
+	"privacy": {
+		"activityVisibility": {
+			"desc": "Who can see your recent plays and compare taste with you.",
+			"label": "Activity visibility"
+		},
+		"emailNotifications": {
+			"desc": "Get an email for friend requests and other account activity.",
+			"label": "Email notifications"
+		},
+		"scrobble": {
+			"desc": "Record what you play for your stats and Wrapped.",
+			"label": "Scrobble listens"
+		},
+		"title": "Privacy",
+		"visibility": {
+			"friends": "Friends",
+			"private": "Only me",
+			"public": "Everyone"
+		}
+	},
+	"quality": {
+		"dataSaver": {
+			"desc": "~96 kbps Opus — minimal data.",
+			"label": "Data Saver"
+		},
+		"high": {
+			"desc": "~256 kbps AAC — transparent for most.",
+			"label": "High"
+		},
+		"lossless": {
+			"desc": "Bit-perfect source. Highest bandwidth.",
+			"label": "Lossless"
+		},
+		"normal": {
+			"desc": "~128 kbps — balanced.",
+			"label": "Normal"
+		},
+		"title": "Streaming quality"
+	},
+	"sessions": {
+		"body": "Where you're signed in. Revoke any device you don't recognize.",
+		"lastActive": "Last active {date}",
+		"lastActiveDate": "{date}",
+		"signOutEverywhere": "Sign out everywhere",
+		"signOutEverywhereConfirm": "Sign out of all devices? You'll need to sign in again.",
+		"thisDevice": "This device",
+		"title": "Devices & sessions",
+		"unknownDevice": "Unknown device"
+	},
+	"title": "Settings",
+	"twoFactor": {
+		"addHint": "Add a second factor (an authenticator app) for extra account security.",
+		"disable": "Disable 2FA",
+		"enable": "Enable 2FA",
+		"enableCta": "Enable two-factor auth",
+		"enabledHint": "2FA is enabled. To turn it off, enter a current code or a recovery code.",
+		"qrAlt": "Two-factor QR code",
+		"recoveryIntro": "2FA is on. Save these recovery codes somewhere safe — each works once if you lose your authenticator.",
+		"scanHint": "Scan this with your authenticator app, then enter the 6-digit code to confirm.",
+		"secretManual": "Or enter this secret manually: {secret}",
+		"title": "Two-factor authentication"
+	},
+	"verifyEmail": {
+		"body": "We sent a verification link to your email. Didn't get it? Resend it below.",
+		"title": "Verify your email"
+	}
+}

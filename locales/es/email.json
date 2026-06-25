@@ -1,0 +1,31 @@
+{
+	"collabInvite": {
+		"body": "{inviter} te añadió como colaborador en la lista de reproducción “{playlist}”.",
+		"cta": "Abrir la lista",
+		"hint": "Ahora puedes añadir y quitar canciones.",
+		"subject": "Te añadieron a una lista de reproducción de Chordia"
+	},
+	"footer": {
+		"manage": "Puedes desactivar estos correos en Ajustes de Chordia → Notificaciones."
+	},
+	"friendRequest": {
+		"body": "{name} quiere conectar contigo en Chordia.",
+		"cta": "Ver perfil",
+		"heading": "Nueva solicitud de amistad",
+		"subject": "{name} te envió una solicitud de amistad"
+	},
+	"passwordReset": {
+		"body": "Alguien solicitó restablecer la contraseña de tu cuenta de Chordia.",
+		"cta": "Restablecer tu contraseña",
+		"expiry": "Este enlace caduca en 1 hora.",
+		"ignore": "Si no fuiste tú, puedes ignorar este correo sin problema.",
+		"subject": "Restablece tu contraseña de Chordia"
+	},
+	"verifyEmail": {
+		"body": "Confirma tu dirección de correo para terminar de configurar tu cuenta.",
+		"cta": "Verificar tu correo",
+		"expiry": "Este enlace caduca en 24 horas.",
+		"heading": "Te damos la bienvenida a Chordia",
+		"subject": "Verifica tu correo de Chordia"
+	}
+}

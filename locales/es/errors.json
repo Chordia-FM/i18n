@@ -1,0 +1,18 @@
+{
+	"valueEmpty": "El valor no puede estar vacío.",
+	"noFields": "No hay campos para actualizar.",
+	"label": {
+		"nameTaken": "Otro sello ya tiene ese nombre."
+	},
+	"auth": {
+		"badCredentials": "Correo o contraseña incorrectos.",
+		"emailInUse": "Ese correo ya está en uso.",
+		"passwordLength": "La contraseña debe tener entre {min} y {max} caracteres."
+	},
+	"friends": {
+		"cannotFriendSelf": "No puedes enviarte una solicitud de amistad a ti mismo."
+	},
+	"validation": {
+		"nameRequired": "El nombre es obligatorio."
+	}
+}

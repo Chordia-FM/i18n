@@ -1,0 +1,105 @@
+{
+	"actions": {
+		"rename": "Rename playlist"
+	},
+	"addError": "Couldn't add to playlist",
+	"addToNamed": "Add to {playlist}",
+	"addToPlaylist": "Add to playlist",
+	"addedToast": "Added to {playlist}",
+	"collaborators": {
+		"addError": "Couldn't add that collaborator",
+		"collaborative": "Collaborative",
+		"invite": "+ Invite",
+		"invitePrompt": "Invite a collaborator by handle",
+		"invited": "Invited @{handle}",
+		"justYou": "Just you",
+		"removeTitle": "Remove {name}",
+		"removed": "Removed {name}"
+	},
+	"confirm": {
+		"deleteMessage": "Delete \"{name}\"?",
+		"deleteTitle": "Delete playlist"
+	},
+	"cover": {
+		"change": "Change image",
+		"remove": "Remove image"
+	},
+	"delete": {
+		"confirmBody": "Delete this playlist?",
+		"title": "Delete playlist"
+	},
+	"empty": "This playlist is empty. Add songs from the “⋯” menu on any track.",
+	"kindLabel": "Playlist",
+	"leave": {
+		"confirmBody": "Leave this collaborative playlist?",
+		"confirmLabel": "Leave",
+		"title": "Leave playlist"
+	},
+	"menuEmpty": "No playlists",
+	"new": "New playlist",
+	"prompt": {
+		"newName": "Playlist name",
+		"rename": "Rename playlist"
+	},
+	"removeFromPlaylist": "Remove from playlist",
+	"sharedWithYou": " · shared with you",
+	"smart": {
+		"addRule": "Add rule",
+		"autoUpdating": " · auto-updating",
+		"bool": {
+			"false": "false",
+			"true": "true"
+		},
+		"created": "Smart playlist created",
+		"delete": {
+			"confirmBody": "Delete this smart playlist?",
+			"title": "Delete smart playlist"
+		},
+		"description": "Rules resolve to matching tracks automatically.",
+		"editRules": "Edit rules",
+		"editTitle": "Edit smart playlist",
+		"empty": "No tracks match these rules yet. Try loosening them with “Edit rules”.",
+		"field": {
+			"album": "Album",
+			"artist": "Artist",
+			"genre": "Genre",
+			"liked": "Liked",
+			"plays": "Plays",
+			"title": "Title",
+			"year": "Year"
+		},
+		"kindLabel": "Smart playlist",
+		"limit": "Limit",
+		"match": "Match",
+		"matchMode": {
+			"all": "all",
+			"any": "any"
+		},
+		"namePlaceholder": "Playlist name",
+		"new": "New smart playlist",
+		"newTitle": "New smart playlist",
+		"ofTheseRules": "of these rules:",
+		"op": {
+			"contains": "contains",
+			"equals": "is",
+			"is": "is"
+		},
+		"removeRule": "Remove rule",
+		"saveError": "Couldn't save the smart playlist",
+		"sort": {
+			"plays": "Plays",
+			"random": "Random",
+			"title": "Title"
+		},
+		"sortBy": "Sort by",
+		"updated": "Smart playlist updated",
+		"valuePlaceholder": "value"
+	},
+	"songCount": "{count, plural, one {# song} other {# songs}}",
+	"toast": {
+		"createFailed": "Couldn't create playlist",
+		"created": "Created \"{name}\"",
+		"deleteFailed": "Couldn't delete playlist",
+		"deleted": "Deleted \"{name}\""
+	}
+}

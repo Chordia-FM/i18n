@@ -1,0 +1,126 @@
+{
+	"controls": {
+		"mute": "Mute",
+		"next": "Next",
+		"pause": "Pause",
+		"play": "Play",
+		"previous": "Previous",
+		"repeat": "Repeat",
+		"seek": "Seek",
+		"shuffle": "Shuffle",
+		"unmute": "Unmute",
+		"volume": "Volume"
+	},
+	"eqPreset": {
+		"acoustic": "Acoustic",
+		"bassBoost": "Bass Boost",
+		"bassReducer": "Bass Reducer",
+		"classical": "Classical",
+		"electronic": "Electronic",
+		"flat": "Flat",
+		"hipHop": "Hip-Hop",
+		"jazz": "Jazz",
+		"loudness": "Loudness",
+		"pop": "Pop",
+		"rock": "Rock",
+		"trebleBoost": "Treble Boost",
+		"trebleReducer": "Treble Reducer",
+		"vocal": "Vocal"
+	},
+	"equalizer": {
+		"bandFreq": "Band {n} freq",
+		"bandWidth": "Band {n} width (Q)",
+		"close": "Close equalizer",
+		"deletePreset": "Delete {name}",
+		"dragHint": "Drag a node to shape the curve",
+		"dragHintParametric": " · drag sideways for frequency · scroll for width (Q)",
+		"enable": "Enable equalizer",
+		"freqDisplay": "{freq}Hz",
+		"graph": {
+			"ariaLabel": "Equalizer response - drag the band nodes to shape the sound",
+			"title": "Equalizer response curve"
+		},
+		"parametric": "Parametric",
+		"preamp": "Preamp",
+		"preampDisplay": "{value} dB",
+		"presetCustom": "Custom",
+		"presetSelect": "EQ preset",
+		"presetsGroup": "Presets",
+		"savePreset": "Save preset",
+		"savePresetPlaceholder": "Save current as preset…",
+		"title": "Equalizer",
+		"yourPresetsGroup": "Your presets"
+	},
+	"fullscreen": {
+		"enter": "Fullscreen",
+		"exit": "Exit fullscreen"
+	},
+	"lyrics": {
+		"loading": "Loading lyrics…",
+		"none": "No lyrics available for this track.",
+		"nothingPlaying": "Nothing playing.",
+		"returnToCurrent": "Return to current line",
+		"title": "Lyrics"
+	},
+	"monthlyListeners": "{count, plural, one {# monthly listener} other {# monthly listeners}}",
+	"nowPlaying": {
+		"aboutArtist": "About {name}",
+		"albumFallback": "Album",
+		"playingFrom": "Playing from"
+	},
+	"notPlaying": "Not playing",
+	"nothingPlaying": "Nothing playing yet.",
+	"plays": "{count, plural, one {# play} other {# plays}}",
+	"queue": {
+		"add": "Add to queue",
+		"empty": "Queue is empty.",
+		"nextUp": "Next up",
+		"nothingPlayed": "Nothing played yet.",
+		"playNext": "Play next",
+		"recentlyPlayed": "Recently played",
+		"removeFromQueue": "Remove from queue",
+		"repeatOne": "Repeat one is on - this song will keep replaying.",
+		"thenRepeating": "Then repeating",
+		"title": "Queue"
+	},
+	"quality": {
+		"change": "Change",
+		"dataPerHourGb": "~{value} GB/hour",
+		"dataPerHourMb": "~{value} MB/hour",
+		"khz": "{value} kHz",
+		"loudness": "Loudness",
+		"lossless": "Lossless",
+		"lossy": "Lossy",
+		"originalSourceFile": "Original source file",
+		"source": "Source",
+		"spatial": " · Spatial",
+		"streaming": "Streaming",
+		"streamingRate": "~{kbps} kbps · {data}",
+		"title": "File quality",
+		"upTo": "Up to {value}"
+	},
+	"sleepTimer": {
+		"endOfTrack": "End of track",
+		"minutes": "{count, plural, one {# minute} other {# minutes}}",
+		"oneHour": "1 hour",
+		"title": "Sleep timer",
+		"turnOff": "Turn off"
+	},
+	"visualizer": {
+		"autoCycle": "Auto-cycle styles",
+		"close": "Close visualizer",
+		"nextStyle": "Next style",
+		"nothingPlaying": "Play something to see the visualizer.",
+		"open": "Visualizer",
+		"previousStyle": "Previous style",
+		"style": {
+			"bars": "Spectrum bars",
+			"mirror": "Mirror wave",
+			"particles": "Particle bloom",
+			"radial": "Radial spectrum",
+			"scope": "Oscilloscope",
+			"spectrogram": "Spectrogram"
+		},
+		"unavailable": "Visualizer unavailable on this source."
+	}
+}
