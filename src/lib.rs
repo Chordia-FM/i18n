@@ -91,7 +91,10 @@ fn match_supported(tag: &str) -> Option<String> {
     if let Some(c) = by_lower.get(base) {
         return Some(c.clone());
     }
-    sorted.iter().find(|k| base_lang(&k.to_lowercase()) == base).cloned()
+    sorted
+        .iter()
+        .find(|k| base_lang(&k.to_lowercase()) == base)
+        .cloned()
 }
 
 /// Resolve the locale to use: an explicit user preference wins, then the `Accept-Language` header
@@ -114,7 +117,11 @@ pub fn resolve_locale(accept_language: Option<&str>, user_locale: Option<&str>) 
                     return None;
                 }
                 let q = bits
-                    .find_map(|p| p.trim().strip_prefix("q=").and_then(|v| v.trim().parse().ok()))
+                    .find_map(|p| {
+                        p.trim()
+                            .strip_prefix("q=")
+                            .and_then(|v| v.trim().parse().ok())
+                    })
                     .unwrap_or(1.0);
                 (q > 0.0).then_some((q, tag))
             })
@@ -130,7 +137,11 @@ pub fn resolve_locale(accept_language: Option<&str>, user_locale: Option<&str>) 
 }
 
 /// Look up `"ns:dotted.key"` for a locale; returns the raw (unformatted) ICU string.
-fn lookup<'a>(catalog: &'a HashMap<String, HashMap<String, Value>>, locale: &str, key: &str) -> Option<&'a str> {
+fn lookup<'a>(
+    catalog: &'a HashMap<String, HashMap<String, Value>>,
+    locale: &str,
+    key: &str,
+) -> Option<&'a str> {
     let (ns, path) = key.split_once(':')?;
     let mut node = catalog.get(locale)?.get(ns)?;
     for seg in path.split('.') {
@@ -307,8 +318,9 @@ fn select_plural_arm(body: &str, locale: &str, n: i64) -> String {
 fn plural_category(locale: &str, n: i64) -> &'static str {
     use icu_plurals::{PluralCategory, PluralRuleType, PluralRules};
     let loc: icu_locid::Locale = locale.parse().unwrap_or(icu_locid::Locale::UND);
-    let rules = PluralRules::try_new(&loc.into(), PluralRuleType::Cardinal)
-        .or_else(|_| PluralRules::try_new(&icu_locid::Locale::UND.into(), PluralRuleType::Cardinal));
+    let rules = PluralRules::try_new(&loc.into(), PluralRuleType::Cardinal).or_else(|_| {
+        PluralRules::try_new(&icu_locid::Locale::UND.into(), PluralRuleType::Cardinal)
+    });
     let Ok(rules) = rules else { return "other" };
     match rules.category_for(n) {
         PluralCategory::Zero => "zero",
@@ -353,7 +365,11 @@ mod tests {
     #[test]
     fn interpolates_and_falls_back() {
         // From email.json (en). Missing locale falls back to en.
-        let s = t("zz", "email:friendRequest.subject", &json!({ "name": "Ada" }));
+        let s = t(
+            "zz",
+            "email:friendRequest.subject",
+            &json!({ "name": "Ada" }),
+        );
         assert_eq!(s, "Ada sent you a friend request");
     }
 
@@ -367,7 +383,10 @@ mod tests {
 
     #[test]
     fn missing_key_echoes() {
-        assert_eq!(t("en", "common:nope.nope", &Value::Null), "common:nope.nope");
+        assert_eq!(
+            t("en", "common:nope.nope", &Value::Null),
+            "common:nope.nope"
+        );
     }
 
     #[test]
