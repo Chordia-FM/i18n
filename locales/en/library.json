@@ -87,8 +87,7 @@
 	"likedSongs": "Liked Songs",
 	"list": {
 		"empty": {
-			"hint": "Start your library server and pair it from the {settingsLink}.",
-			"settingsLink": "Settings page",
+			"hint": "Start your library server, then open the setup link it prints in its terminal to pair.",
 			"title": "No libraries yet."
 		},
 		"loading": "Loading libraries…",
@@ -111,7 +110,7 @@
 		"nameLabel": "Library name",
 		"namePlaceholder": "My Music",
 		"noFolderChosen": "No folder chosen",
-		"noServer": "No paired server found on this device. Pair a library server from {settingsLink} first.",
+		"noServer": "No paired server found on this device. Start your library server and open the setup link it prints to pair first.",
 		"noSubFolders": "No sub-folders here",
 		"serverLabel": "{names} · {host}",
 		"serverSelectHint": "This new library will be created on the selected server.",
