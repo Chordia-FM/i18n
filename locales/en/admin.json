@@ -71,6 +71,23 @@
 		"title": "Reports",
 		"titleWithCount": "{count, plural, one {Reports (# open)} other {Reports (# open)}}"
 	},
+	"suggestions": {
+		"approve": "Approve",
+		"current": "Current",
+		"deny": "Deny",
+		"empty": "No pending suggestions.",
+		"field": {
+			"banner": "Banner",
+			"bio": "Bio",
+			"genres": "Genres",
+			"image": "Image",
+			"name": "Name"
+		},
+		"none": "None",
+		"suggested": "Suggested",
+		"title": "Metadata suggestions",
+		"titleWithCount": "{count, plural, one {Metadata suggestions (# pending)} other {Metadata suggestions (# pending)}}"
+	},
 	"title": "Site administration",
 	"users": {
 		"deleteConfirm": "Permanently delete @{handle} and ALL their data? This cannot be undone.",

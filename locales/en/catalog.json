@@ -27,10 +27,12 @@
 	},
 	"artist": {
 		"albums": "Albums",
+		"appearsOn": "Appears on",
 		"born": "Born {year}",
 		"card": {
 			"albumCount": "{count, plural, one {# album} other {# albums}}"
 		},
+		"discography": "Discography",
 		"factsJoin": "{facts}",
 		"formed": "Formed {year}",
 		"genresJoin": "{genres}",
@@ -126,6 +128,32 @@
 		"sharedNote": "Shared across all libraries. ",
 		"syncedHelp": "One line per lyric, each prefixed with a timestamp like [00:12.34]; untimed lines are dropped.",
 		"syncedLabel": "Synced (LRC timing)"
+	},
+	"report": {
+		"action": "Report",
+		"allLibraries": "All my libraries",
+		"bannerSet": "New banner ready ✓",
+		"changeBanner": "Change banner",
+		"changeImage": "Change image",
+		"field": {
+			"bio": "Bio",
+			"genres": "Genres (comma-separated)",
+			"name": "Name",
+			"note": "Note for reviewers (optional)"
+		},
+		"genresHint": "Separate multiple genres with commas.",
+		"helpText": "Edit {name}'s details below. Save changes to a library you own instantly, or submit them as a suggestion for everyone (an admin reviews those). Only changed fields are sent.",
+		"imageAlt": "Artist image",
+		"libraryTarget": "Choose which library to save to",
+		"noteHint": "Only sent with a suggestion. Anything that helps reviewers (e.g. a source link).",
+		"saveFailed": "Couldn't save your changes.",
+		"saveToLibrary": "Save to library",
+		"savedToAll": "Saved to all your libraries.",
+		"savedToLibrary": "Saved to {name}.",
+		"submit": "Submit suggestion",
+		"submitFailed": "Couldn't send your suggestion.",
+		"suggestionSent": "Suggestion sent for review.",
+		"title": "Edit artist details"
 	},
 	"search": {
 		"placeholder": "Artists, albums, or songs"

@@ -1,0 +1,146 @@
+{
+	"nav": "Manager",
+	"title": "Library Manager",
+	"subtitle": "Track your coverage and find what you're missing.",
+	"loadFailed": "Couldn't load coverage.",
+	"coverage": {
+		"albumLabel": "Album coverage",
+		"artistLabel": "Artists complete",
+		"ownedOfTotal": "{owned} of {total} releases owned",
+		"touched": "{count} artists tracked",
+		"complete": "{count} complete",
+		"pending": "{count} awaiting discography",
+		"fetching": "Fetching discographies in the background. Coverage will fill in shortly.",
+		"empty": "No coverage yet. Once your libraries finish syncing and discographies are fetched, your coverage appears here."
+	},
+	"libraries": {
+		"title": "Libraries in coverage",
+		"hint": "Uncheck a library to leave it out of the coverage math.",
+		"includeShared": "Include libraries shared with me",
+		"owned": "Owned",
+		"shared": "Shared",
+		"counts": "{tracks} tracks · {albums} albums · {artists} artists"
+	},
+	"artists": {
+		"title": "Your artists",
+		"subtitle": "Open an artist to see which albums you're missing.",
+		"empty": "No artists yet. Sync a library to get started."
+	},
+	"artist": {
+		"complete": "{pct}% complete",
+		"owned": "In your library",
+		"missing": "Missing",
+		"missingCount": "{count} missing",
+		"noMissing": "You have every release we know about for this artist.",
+		"noMbid": "No MusicBrainz match for this artist yet, so coverage isn't available.",
+		"fetching": "Fetching discography…",
+		"loadFailed": "Couldn't load coverage for this artist.",
+		"back": "Back to Manager"
+	},
+	"album": {
+		"back": "Back to Manager",
+		"coverage": "{owned} of {total} tracks",
+		"disc": "Disc {n}",
+		"editionCount": "{count} edition",
+		"editionCount_other": "{count} editions",
+		"remaster": "Remaster",
+		"owned": "In your library",
+		"fetching": "fetching tracklist…",
+		"noTracks": "No tracklist available for this album yet.",
+		"loadFailed": "Couldn't load this album's tracklist."
+	},
+	"tabs": {
+		"coverage": "Coverage",
+		"discover": "Discover",
+		"follows": "Following",
+		"downloads": "Downloads",
+		"settings": "Settings"
+	},
+	"discover": {
+		"title": "Discover",
+		"subtitle": "Search all of music to find artists and albums you don't have yet.",
+		"placeholder": "Search artists and albums…",
+		"hint": "Type at least 2 characters to search.",
+		"searching": "Searching…",
+		"noResults": "No matches. Try a different search.",
+		"artists": "Artists",
+		"releases": "Releases",
+		"owned": "In library",
+		"available": "Not in library",
+		"allTypes": "All",
+		"type": {
+			"Album": "Albums",
+			"EP": "EPs",
+			"Single": "Singles",
+			"Broadcast": "Sessions",
+			"Other": "Other"
+		}
+	},
+	"follows": {
+		"title": "Following",
+		"subtitle": "Artists you follow. New releases surface in your missing list automatically.",
+		"empty": "You're not following anyone yet. Open an artist in Discover and tap Follow.",
+		"unfollow": "Unfollow",
+		"loadFailed": "Couldn't load your follows."
+	},
+	"follow": {
+		"follow": "Follow",
+		"following": "Following"
+	},
+	"download": {
+		"button": "Download",
+		"queued": "Added to the download queue",
+		"failed": "Couldn't queue the download",
+		"noLibrary": "No download-enabled library yet. Set up Prowlarr + qBittorrent on a library first.",
+		"chooseLibrary": "Download into…",
+		"notEnabled": "Downloads aren't enabled on that library.",
+		"ackTitle": "Before you download",
+		"ackMessage": "Chordia ships no indexers or trackers. Downloads use the Prowlarr and qBittorrent you configured, and you are responsible for the legality of what you acquire in your jurisdiction.",
+		"ackConfirm": "I understand"
+	},
+	"queue": {
+		"title": "Downloads",
+		"subtitle": "Your download activity.",
+		"empty": "No downloads yet. Hit Download on a missing album to start one.",
+		"cancel": "Cancel",
+		"retry": "Retry",
+		"choose": "Choose source",
+		"pickHint": "We weren't sure which release is the exact album, so pick the right one.",
+		"loadFailed": "Couldn't load your downloads.",
+		"status": {
+			"queued": "Queued",
+			"claimed": "Starting",
+			"searching": "Searching",
+			"grabbing": "Grabbing",
+			"downloading": "Downloading",
+			"importing": "Importing",
+			"completed": "Completed",
+			"failed": "Failed",
+			"no_results": "No sources found",
+			"cancelled": "Cancelled",
+			"awaiting_selection": "Choose a source"
+		}
+	},
+	"settings": {
+		"title": "Manager settings",
+		"subtitle": "Quality profiles and per-library download status.",
+		"profiles": "Quality profiles",
+		"profilesHint": "Downloads always pick the best available source within a profile's allowed formats.",
+		"default": "Default",
+		"makeDefault": "Make default",
+		"preferSeeders": "Prefer more seeders",
+		"newProfile": "New profile",
+		"name": "Name",
+		"formats": "Allowed formats (best first)",
+		"maxSize": "Max size (MB, optional)",
+		"save": "Save",
+		"delete": "Delete",
+		"created": "Profile saved",
+		"saveFailed": "Couldn't save the profile",
+		"libraries": "Library download status",
+		"librariesHint": "Enable downloads by configuring Prowlarr + qBittorrent in each library's chordia-library.toml.",
+		"enabled": "Downloads enabled",
+		"disabled": "Downloads off",
+		"indexers": "{count} indexers"
+	}
+}

@@ -27,6 +27,7 @@
 		"reset": "Reset",
 		"save": "Save",
 		"search": "Search",
+		"seeAll": "See all",
 		"seeMore": "See more",
 		"share": "Share",
 		"showLess": "Show less",
@@ -94,6 +95,17 @@
 		"collapse": "Collapse sidebar",
 		"expand": "Expand sidebar",
 		"resize": "Resize sidebar"
+	},
+	"image": {
+		"adjust": "Adjust",
+		"adjustTitle": "Adjust image",
+		"rotateLeft": "Rotate left",
+		"rotateRight": "Rotate right",
+		"flipHorizontal": "Flip horizontal",
+		"flipVertical": "Flip vertical",
+		"hint": "Drag to reposition · zoom in to reframe",
+		"reset": "Reset",
+		"zoom": "Zoom"
 	},
 	"state": {
 		"loading": "Loading…",
