@@ -38,6 +38,12 @@
 		"genresJoin": "{genres}",
 		"labelMetaJoin": "{span} · {releases}",
 		"labels": "Labels",
+		"liveAlbum": {
+			"card": "All live recordings",
+			"label": "Live collection",
+			"subtitle": "{count, plural, one {From # album} other {From # albums}}",
+			"title": "{name} — Live"
+		},
 		"namesJoin": "{artists}",
 		"popular": "Popular",
 		"radio": "Radio",
@@ -47,7 +53,11 @@
 			"member": "Member of / members",
 			"related": "Related"
 		},
-		"releaseCount": "{count, plural, one {# release} other {# releases}}"
+		"releaseCount": "{count, plural, one {# release} other {# releases}}",
+		"versions": {
+			"instrumental": "Instrumental",
+			"live": "Live"
+		}
 	},
 	"artistNamesJoin": "{names}",
 	"edit": {
