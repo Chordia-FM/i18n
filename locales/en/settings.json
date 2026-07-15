@@ -22,6 +22,20 @@
 		"customColourHint": "Pick any colour - buttons, highlights and the background tint follow it.",
 		"title": "Appearance"
 	},
+	"connections": {
+		"title": "Connections",
+		"lastfm": {
+			"label": "Last.fm",
+			"desc": "Scrobble your plays to Last.fm automatically.",
+			"connect": "Connect",
+			"disconnect": "Disconnect",
+			"connectedAs": "Connected as {username}",
+			"connectedToast": "Connected to Last.fm as {username}",
+			"disconnected": "Last.fm disconnected",
+			"failed": "Couldn’t connect Last.fm",
+			"connecting": "Connecting Last.fm…"
+		}
+	},
 	"data": {
 		"body": "Download everything Chordia stores about you, or permanently delete your account and all its data.",
 		"deleteAccountConfirm": "Permanently delete your account and ALL your data — listening history, playlists, libraries, and friends? This cannot be undone.",
