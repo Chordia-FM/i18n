@@ -74,6 +74,10 @@
 			"Single": "Singles",
 			"Broadcast": "Sessions",
 			"Other": "Other"
+		},
+		"version": {
+			"instrumental": "Instrumental",
+			"live": "Live"
 		}
 	},
 	"follows": {

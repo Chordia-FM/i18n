@@ -183,6 +183,8 @@
 			"plays": "Plays",
 			"title": "Title"
 		},
+		"explicit": "Explicit",
+		"clean": "Clean",
 		"download": {
 			"exists": "Already downloaded",
 			"removeAction": "Remove download",
