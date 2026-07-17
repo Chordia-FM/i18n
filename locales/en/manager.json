@@ -123,7 +123,9 @@
 			"no_results": "No sources found",
 			"cancelled": "Cancelled",
 			"awaiting_selection": "Choose a source"
-		}
+		},
+		"requestedBy": "requested by @{handle}",
+		"intoLibrary": "into @{handle}'s library"
 	},
 	"settings": {
 		"title": "Manager settings",
@@ -145,6 +147,10 @@
 		"librariesHint": "Enable downloads by configuring Prowlarr + qBittorrent in each library's chordia-library.toml.",
 		"enabled": "Downloads enabled",
 		"disabled": "Downloads off",
-		"indexers": "{count} indexers"
+		"indexers": "{count} indexers",
+		"destinationTitle": "Download destination",
+		"destinationHelp": "Where new download requests land. Friends' libraries appear here when they've given you request access.",
+		"destinationAsk": "Ask every time",
+		"destinationSaved": "Default destination saved."
 	}
 }

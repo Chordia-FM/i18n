@@ -184,5 +184,24 @@
 		"playlists": "Playlists",
 		"yourLibrary": "Your Library"
 	},
-	"trackCount": "{count, plural, one {# track} other {# tracks}}"
+	"trackCount": "{count, plural, one {# track} other {# tracks}}",
+	"shareManager": {
+		"title": "Friends & sharing",
+		"help": "Who has access to this library, what they're doing with it, and what they're allowed to do.",
+		"empty": "Not shared with anyone yet. Add a friend below to give them access.",
+		"addFriend": "Add friend",
+		"revoke": "Remove access",
+		"canRequest": "Can request downloads",
+		"directories": "Libraries:",
+		"thisLibrary": "This library",
+		"grantAccess": "Give access to {name}",
+		"removeAccess": "Remove access to {name}",
+		"streamingNow": "Streaming now: {title} — {artist}",
+		"statsLine": "{requests} requested · {downloads} downloaded · {plays} plays · {time} listened",
+		"lastPlayed": "last played {date}",
+		"updateFailed": "Couldn't update sharing — try again.",
+		"timeDaysHours": "{days}d {hours}h",
+		"timeHoursMinutes": "{hours}h {minutes}m",
+		"timeMinutes": "{minutes}m"
+	}
 }
