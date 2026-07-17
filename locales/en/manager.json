@@ -109,6 +109,7 @@
 		"retry": "Retry",
 		"choose": "Choose source",
 		"pickHint": "We weren't sure which release is the exact album, so pick the right one.",
+		"selectFailed": "Couldn't pin that source — the job may have moved on. Refresh and pick again.",
 		"loadFailed": "Couldn't load your downloads.",
 		"status": {
 			"queued": "Queued",
