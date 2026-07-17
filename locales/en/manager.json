@@ -152,5 +152,12 @@
 		"destinationHelp": "Where new download requests land. Friends' libraries appear here when they've given you request access.",
 		"destinationAsk": "Ask every time",
 		"destinationSaved": "Default destination saved."
+	},
+	"upgrade": {
+		"check": "Check for better quality",
+		"queued": "Upgrade check queued — watch Downloads. If a strictly better source exists it'll download; otherwise the job ends quietly.",
+		"inProgress": "An upgrade or download for this album is already in flight.",
+		"notIdentified": "This album isn't matched to MusicBrainz yet, so there's nothing reliable to search for.",
+		"failed": "Couldn't queue the upgrade check."
 	}
 }
