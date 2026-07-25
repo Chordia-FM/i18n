@@ -1,5 +1,6 @@
 {
 	"controls": {
+		"fullscreen": "Fullscreen",
 		"mute": "Mute",
 		"next": "Next",
 		"pause": "Pause",
@@ -9,7 +10,9 @@
 		"seek": "Seek",
 		"shuffle": "Shuffle",
 		"unmute": "Unmute",
-		"volume": "Volume"
+		"volume": "Volume",
+		"volumeButton": "Volume button",
+		"volumeSlider": "Volume slider"
 	},
 	"eqPreset": {
 		"acoustic": "Acoustic",
