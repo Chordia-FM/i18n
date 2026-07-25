@@ -17,6 +17,18 @@
 		"body": "Esta página no existe.",
 		"goHome": "Ir al inicio"
 	},
+	"keybinds": {
+		"closeDialog": "Cerrar diálogo",
+		"commandPalette": "Paleta de comandos",
+		"help": "Atajos de teclado",
+		"quickSearch": "Búsqueda rápida",
+		"section": {
+			"general": "General",
+			"navigation": "Navegación",
+			"player": "Reproductor"
+		},
+		"toggleRightSidebar": "Alternar barra lateral derecha"
+	},
 	"language": {
 		"label": "Idioma",
 		"description": "Idioma usado en toda la interfaz."

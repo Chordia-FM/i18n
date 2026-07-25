@@ -71,6 +71,18 @@
 		"goUp": "Go up",
 		"useThisFolder": "Use this folder"
 	},
+	"keybinds": {
+		"closeDialog": "Close dialog",
+		"commandPalette": "Command palette",
+		"help": "Keyboard shortcuts",
+		"quickSearch": "Quick search",
+		"section": {
+			"general": "General",
+			"navigation": "Navigation",
+			"player": "Player"
+		},
+		"toggleRightSidebar": "Toggle right sidebar"
+	},
 	"language": {
 		"description": "Language used across the interface.",
 		"label": "Language"
