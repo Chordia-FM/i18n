@@ -165,7 +165,10 @@
 			"description": "Used to place listening activity on your local calendar. Follow this device leaves the choice to each client.",
 			"detect": "Detect",
 			"followClient": "Follow this device",
-			"label": "Time zone"
+			"label": "Time zone",
+			"noMatches": "No time zones match your search",
+			"search": "Search time zones…",
+			"zoneWithOffset": "{zone} ({offset})"
 		},
 		"title": "Region"
 	},

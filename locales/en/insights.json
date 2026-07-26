@@ -4,27 +4,21 @@
 			"ariaLabel": "Listening activity over time"
 		},
 		"dayLabel": "{date, date, ::MMMd}",
+		"monthLabel": "{date, date, ::yMMM}",
 		"noActivityPeriod": "No activity in this period",
 		"noActivityYet": "No activity yet",
-		"peak": "Peak: {count, plural, one {# play} other {# plays}} on {date}{month}",
-		"peakMonthQualifier": " (month)",
-		"playsTooltip": "{date}: {count, plural, one {# play} other {# plays}}"
+		"peak": "Peak: {count, plural, one {# play} other {# plays}} · {date}",
+		"plays": "{count, plural, one {# play} other {# plays}}",
+		"timezoneNote": "Times shown in {timezone}"
 	},
 	"clock": {
-		"axis": {
-			"11p": "11p",
-			"12a": "12a",
-			"12p": "12p",
-			"6a": "6a",
-			"6p": "6p"
-		},
-		"hourTooltip": "{hour}:00 — {count, plural, one {# play} other {# plays}}"
+		"ariaLabel": "Listening activity by hour of day",
+		"peak": "Busiest hour: {hour} · {count, plural, one {# play} other {# plays}}"
 	},
 	"clockGrid": {
 		"ariaLabel": "Listening activity by weekday and hour in {timezone}",
-		"cellTooltip": "{day} at {hour}:00 in {timezone} — {count, plural, one {# play} other {# plays}}",
-		"hourLabel": "{hour}",
-		"timezone": "Times shown in {timezone}"
+		"busiest": "Busiest: {day} · {hour}",
+		"cellLabel": "{day} · {hour}"
 	},
 	"compatibility": {
 		"compare": "Compare",
@@ -57,10 +51,10 @@
 	"heatmap": {
 		"ariaLabel": "Daily listening heatmap",
 		"dayLabel": "{date, date, ::EEEMMMd}",
-		"dayTooltip": "{date}: {count, plural, one {# play} other {# plays}}",
 		"less": "Less",
 		"more": "More",
-		"scaleAriaLabel": "Activity intensity scale, less to more"
+		"scaleAriaLabel": "Activity intensity scale, less to more",
+		"summary": "{count, plural, one {# play} other {# plays}} across {days, plural, one {# active day} other {# active days}}"
 	},
 	"history": {
 		"beginning": "That's the beginning of your history.",
@@ -72,7 +66,6 @@
 	"panels": {
 		"activity": "Activity",
 		"byWeekday": "By weekday",
-		"calendar": "Calendar",
 		"clockHeatmap": "Listening by weekday and hour",
 		"listeningClock": "Listening clock"
 	},
