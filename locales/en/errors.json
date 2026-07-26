@@ -51,6 +51,7 @@
 		"compareSelf": "You can't compare with yourself.",
 		"compatibilityNotFound": "No user with that handle.",
 		"compatibilityPrivate": "That user's listening activity is private.",
+		"invalidTimezone": "Unknown time zone “{timezone}”.",
 		"loadFriendActivityFailed": "Failed to load friend activity",
 		"loadHistoryFailed": "Failed to load history",
 		"loadStatsFailed": "Failed to load stats",

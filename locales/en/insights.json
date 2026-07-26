@@ -20,6 +20,12 @@
 		},
 		"hourTooltip": "{hour}:00 — {count, plural, one {# play} other {# plays}}"
 	},
+	"clockGrid": {
+		"ariaLabel": "Listening activity by weekday and hour in {timezone}",
+		"cellTooltip": "{day} at {hour}:00 in {timezone} — {count, plural, one {# play} other {# plays}}",
+		"hourLabel": "{hour}",
+		"timezone": "Times shown in {timezone}"
+	},
 	"compatibility": {
 		"compare": "Compare",
 		"handlePlaceholder": "friend's handle",
@@ -67,6 +73,7 @@
 		"activity": "Activity",
 		"byWeekday": "By weekday",
 		"calendar": "Calendar",
+		"clockHeatmap": "Listening by weekday and hour",
 		"listeningClock": "Listening clock"
 	},
 	"period": {

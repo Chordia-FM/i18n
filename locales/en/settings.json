@@ -160,6 +160,15 @@
 		},
 		"title": "Streaming quality"
 	},
+	"region": {
+		"timezone": {
+			"description": "Used to place listening activity on your local calendar. Follow this device leaves the choice to each client.",
+			"detect": "Detect",
+			"followClient": "Follow this device",
+			"label": "Time zone"
+		},
+		"title": "Region"
+	},
 	"sessions": {
 		"body": "Where you're signed in. Revoke any device you don't recognize.",
 		"lastActive": "Last active {date}",
