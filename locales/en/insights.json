@@ -32,7 +32,8 @@
 		"days": "{days}d",
 		"daysHours": "{days}d {hours}h",
 		"hoursMinutes": "{hours}h {minutes}m",
-		"minutes": "{minutes}m"
+		"minutes": "{minutes}m",
+		"seconds": "{seconds}s"
 	},
 	"empty": {
 		"history": {
@@ -46,6 +47,53 @@
 		"social": {
 			"body": "When your friends listen to music (and share their activity), it shows up here.",
 			"title": "Quiet in here"
+		}
+	},
+	"entity": {
+		"alltime": "{count, plural, one {# play} other {# plays}} all-time",
+		"crumb": "Stats",
+		"eyebrow": {
+			"album": "Album stats",
+			"artist": "Artist stats",
+			"track": "Track stats"
+		},
+		"listened": "{time} listened",
+		"never": {
+			"album": "Play this album and your listening stats will build here.",
+			"artist": "Play something by this artist and your listening stats will build here.",
+			"hub": "{count, plural, one {# play} other {# plays}} across everyone on this hub so far.",
+			"title": "No plays yet",
+			"track": "Play this track and your listening stats will build here."
+		},
+		"quiet": {
+			"cta": "Show all time",
+			"lastPlayed": "You last played this {ago}.",
+			"title": "Nothing in this period"
+		},
+		"share": {
+			"caption": "{pct} of {total, plural, one {# play} other {# plays}} across everyone"
+		},
+		"since": "since {date}",
+		"tiles": {
+			"activeDays": "{count, plural, one {on # day} other {across # days}}",
+			"activeMonths": "{count, plural, one {in # month} other {across # months}}",
+			"perPlay": "≈{duration} per play",
+			"rank": "Rank",
+			"rankOf": {
+				"album": "of {total, plural, one {# album} other {# albums}} you played",
+				"artist": "of {total, plural, one {# artist} other {# artists}} you played",
+				"track": "of {total, plural, one {# track} other {# tracks}} you played"
+			},
+			"rankValue": "#{rank, number}"
+		},
+		"title": "Listening stats",
+		"top": {
+			"albums": "Your top albums",
+			"tracks": "Your top tracks",
+			"unplayed": "{count, plural, one {# track} other {# tracks}} on this album had no plays in this period"
+		},
+		"window": {
+			"everything": "Every play you've logged"
 		}
 	},
 	"heatmap": {
@@ -98,6 +146,8 @@
 		"plays": "Plays",
 		"playsValue": "{count, number}",
 		"rankBadge": "#{rank} most played",
+		"rankOf": "#{rank, number} of {total, number}",
+		"seeAll": "See full stats",
 		"sparkline": {
 			"ariaLabel": "Monthly play trend"
 		},
