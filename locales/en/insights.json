@@ -177,7 +177,8 @@
 	"genreFlow": {
 		"ariaLabel": "Genre share of your listening over time",
 		"empty": "No genre data in this window yet",
-		"other": "Other"
+		"other": "Other",
+		"otherCount": "Other · {count, plural, one {# genre} other {# genres}}"
 	},
 	"heatmap": {
 		"ariaLabel": "Daily listening heatmap",
@@ -221,7 +222,9 @@
 		"title": "Nothing in this period"
 	},
 	"ratio": {
-		"ariaLabel": "{tracks, number} tracks, {albums, number} albums and {artists, number} artists as nested rings"
+		"ariaLabel": "{tracks, number} tracks, {albums, number} albums and {artists, number} artists as nested rings",
+		"caption": "Distinct tracks, albums, and artists you played in this window. Each ring's sweep compares its count against your {count, plural, one {# track} other {# tracks}}.",
+		"shareOfTracks": "· {pct} of tracks"
 	},
 	"recentlyPlayed": "Recently Played",
 	"records": {
