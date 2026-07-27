@@ -160,9 +160,9 @@
 		"uniqueTracksValue": "{count}"
 	},
 	"tabs": {
-		"history": "history",
-		"overview": "overview",
-		"social": "social"
+		"history": "History",
+		"overview": "Overview",
+		"social": "Social"
 	},
 	"title": "Listening",
 	"top": {
