@@ -31,7 +31,7 @@
 	"decades": {
 		"ariaLabel": "Plays by album release decade",
 		"empty": "Not enough release dates to chart decades yet",
-		"headline": "{pct} of your plays come from the {decade}s",
+		"headline": "{pct} of these plays come from the {decade}s",
 		"label": "{decade}s",
 		"tipLabel": "{decade}s · {pct} of plays",
 		"undated": "{pct} of plays have no release date and aren't shown here"
@@ -46,7 +46,7 @@
 	},
 	"discovery": {
 		"empty": {
-			"body": "Play some music and your discovery stats will build here.",
+			"body": "{person, select, them {Their discovery stats will build here as they listen.} other {Play some music and your discovery stats will build here.}}",
 			"title": "Nothing to discover yet"
 		},
 		"kinds": {
@@ -55,7 +55,7 @@
 			"track": "Tracks"
 		},
 		"mix": {
-			"headline": "of your plays were tracks you'd never played before",
+			"headline": "of these plays were tracks never played before",
 			"meterAriaLabel": "Share of plays that were first-time tracks",
 			"new": "First plays · {pct}",
 			"repeats": "On repeat · {pct}",
@@ -92,7 +92,7 @@
 			"newTracks": "New tracks",
 			"ofPlayed": "of {count, number} played"
 		},
-		"topNewArtists": "Artists you discovered"
+		"topNewArtists": "Artists discovered"
 	},
 	"duration": {
 		"days": "{days}d",
@@ -103,11 +103,11 @@
 	},
 	"empty": {
 		"history": {
-			"body": "Tracks you play will show up here.",
+			"body": "{person, select, them {Tracks they play will show up here.} other {Tracks you play will show up here.}}",
 			"title": "No history yet"
 		},
 		"overview": {
-			"body": "Start listening and your stats will appear here.",
+			"body": "{person, select, them {Once they start listening, their stats will appear here.} other {Start listening and your stats will appear here.}}",
 			"title": "Nothing yet"
 		},
 		"social": {
@@ -159,11 +159,11 @@
 			"unplayed": "{count, plural, one {# track} other {# tracks}} on this album had no plays in this period"
 		},
 		"window": {
-			"everything": "Every play you've logged"
+			"everything": "Every play on record"
 		}
 	},
 	"fingerprint": {
-		"ariaLabel": "Your listening fingerprint across five measures",
+		"ariaLabel": "Listening fingerprint across five measures",
 		"average": "Hub average",
 		"axes": {
 			"concentration": "Focus",
@@ -176,7 +176,7 @@
 		"you": "You"
 	},
 	"genreFlow": {
-		"ariaLabel": "Genre share of your listening over time",
+		"ariaLabel": "Genre share of listening over time",
 		"empty": "No genre data in this window yet",
 		"other": "Other",
 		"otherCount": "Other · {count, plural, one {# genre} other {# genres}}"
@@ -190,13 +190,13 @@
 		"summary": "{count, plural, one {# play} other {# plays}} across {days, plural, one {# active day} other {# active days}}"
 	},
 	"history": {
-		"beginning": "That's the beginning of your history."
+		"beginning": "That's the earliest play on record."
 	},
 	"nav": {
 		"title": "Listening insights"
 	},
 	"overview": {
-		"firstWindow": "Your first window on record — comparisons will appear once there's history behind it."
+		"firstWindow": "{person, select, them {Their first window on record — comparisons will appear once there's history behind it.} other {Your first window on record — comparisons will appear once there's history behind it.}}"
 	},
 	"panels": {
 		"activity": "Activity",
@@ -224,44 +224,44 @@
 	},
 	"ratio": {
 		"ariaLabel": "{tracks, number} tracks, {albums, number} albums and {artists, number} artists as nested rings",
-		"caption": "Distinct tracks, albums, and artists you played in this window. Each ring's sweep compares its count against your {count, plural, one {# track} other {# tracks}}.",
+		"caption": "Distinct tracks, albums, and artists played in this window. Each ring's sweep compares its count against the {count, plural, one {# track} other {# tracks}}.",
 		"shareOfTracks": "· {pct} of tracks"
 	},
 	"recentlyPlayed": "Recently Played",
 	"records": {
 		"empty": {
-			"body": "Streaks, records, and milestones build as you listen.",
+			"body": "{person, select, them {Streaks, records, and milestones build as they listen.} other {Streaks, records, and milestones build as you listen.}}",
 			"title": "No records yet"
 		},
 		"milestones": {
-			"beginning": "Every library starts somewhere — round-number milestones will land here as your plays add up.",
+			"beginning": "{person, select, them {Every library starts somewhere — round-number milestones will land here as their plays add up.} other {Every library starts somewhere — round-number milestones will land here as your plays add up.}}",
 			"chip": "All time",
 			"curveAriaLabel": "Cumulative plays over time, one point per milestone",
-			"first": "Your first play",
-			"ordinal": "{ordinal, selectordinal, one {Your #st play} two {Your #nd play} few {Your #rd play} other {Your #th play}}",
+			"first": "First play",
+			"ordinal": "{ordinal, selectordinal, one {#st play} two {#nd play} few {#rd play} other {#th play}}",
 			"title": "Milestones"
 		},
 		"onThisDay": {
-			"empty": "No memories on this date yet — they'll gather here once your history is a year deep.",
+			"empty": "{person, select, them {No memories on this date yet — they'll gather here once their history is a year deep.} other {No memories on this date yet — they'll gather here once your history is a year deep.}}",
 			"title": "On this day",
 			"yearsAgo": "{count, plural, one {# year ago} other {# years ago}}"
 		},
 		"sessions": {
-			"ariaLabel": "Your longest listening sessions",
+			"ariaLabel": "The longest listening sessions",
 			"longest": "Longest: {duration} · {date}",
 			"meta": "{tracks, plural, one {# track} other {# tracks}}",
 			"metaWithArtist": "{tracks, plural, one {# track} other {# tracks}} · mostly {artist}",
 			"title": "Longest sessions"
 		},
 		"streaks": {
-			"alsoLongest": "Your longest ever",
+			"alsoLongest": "Longest ever",
 			"current": "Current streak",
 			"days": "{count, plural, one {# day} other {# days}}",
 			"detail": "{range} · {plays, plural, one {# play} other {# plays}}",
 			"live": "Active — keep it going",
 			"longest": "Longest streak",
 			"noCurrent": {
-				"body": "Play something today to start one.",
+				"body": "{person, select, them {Nothing active right now.} other {Play something today to start one.}}",
 				"title": "No streak right now"
 			}
 		},
@@ -282,19 +282,19 @@
 	},
 	"shareGrid": {
 		"album": {
-			"title": "Album grid",
 			"ariaLabel": "Grid of your most played album covers for this period",
-			"infoToggle": "Album info on grid"
+			"infoToggle": "Album info on grid",
+			"title": "Album grid"
 		},
 		"artist": {
-			"title": "Artist grid",
 			"ariaLabel": "Artist grid preview",
-			"infoToggle": "Artist info on grid"
+			"infoToggle": "Artist info on grid",
+			"title": "Artist grid"
 		},
 		"bordersToggle": "Include borders",
 		"download": "Download",
-		"downloading": "Rendering…",
 		"downloaded": "Saved your album grid.",
+		"downloading": "Rendering…",
 		"failed": "Couldn't create the grid. Please try again."
 	},
 	"social": {
