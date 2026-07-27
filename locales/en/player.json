@@ -14,6 +14,13 @@
 		"volumeButton": "Volume button",
 		"volumeSlider": "Volume slider"
 	},
+	"devices": {
+		"current": "Current target",
+		"none": "No playback devices found.",
+		"pressPlay": "Press play to start here",
+		"thisTab": "This tab",
+		"title": "Playback device"
+	},
 	"eqPreset": {
 		"acoustic": "Acoustic",
 		"bassBoost": "Bass Boost",
