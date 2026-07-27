@@ -28,6 +28,22 @@
 		"title": "Taste compatibility",
 		"youAnd": "You & {name}"
 	},
+	"decades": {
+		"ariaLabel": "Plays by album release decade",
+		"empty": "Not enough release dates to chart decades yet",
+		"headline": "{pct} of your plays come from the {decade}s",
+		"label": "{decade}s",
+		"tipLabel": "{decade}s · {pct} of plays",
+		"undated": "{pct} of plays have no release date and aren't shown here"
+	},
+	"delta": {
+		"downAria": "Down {pct} vs the previous period",
+		"flat": "0%",
+		"flatAria": "Unchanged from the previous period",
+		"new": "New",
+		"newAria": "nothing in the previous period to compare against",
+		"upAria": "Up {pct} vs the previous period"
+	},
 	"discovery": {
 		"empty": {
 			"body": "Play some music and your discovery stats will build here.",
@@ -145,6 +161,24 @@
 			"everything": "Every play you've logged"
 		}
 	},
+	"fingerprint": {
+		"ariaLabel": "Your listening fingerprint across five measures",
+		"average": "Hub average",
+		"axes": {
+			"concentration": "Focus",
+			"consistency": "Consistency",
+			"discovery": "Discovery",
+			"replay": "Replay",
+			"variance": "Volatility"
+		},
+		"axisWithAverage": "{axis} · hub average {pct}",
+		"you": "You"
+	},
+	"genreFlow": {
+		"ariaLabel": "Genre share of your listening over time",
+		"empty": "No genre data in this window yet",
+		"other": "Other"
+	},
 	"heatmap": {
 		"ariaLabel": "Daily listening heatmap",
 		"dayLabel": "{date, date, ::EEEMMMd}",
@@ -160,11 +194,18 @@
 	"nav": {
 		"title": "Listening insights"
 	},
+	"overview": {
+		"firstWindow": "Your first window on record — comparisons will appear once there's history behind it."
+	},
 	"panels": {
 		"activity": "Activity",
 		"byWeekday": "By weekday",
 		"clockHeatmap": "Listening by weekday and hour",
-		"listeningClock": "Listening clock"
+		"decades": "Music by decade",
+		"fingerprint": "Listening fingerprint",
+		"genreFlow": "Genres over time",
+		"listeningClock": "Listening clock",
+		"musicRatio": "Music ratio"
 	},
 	"period": {
 		"halfYear": "6 months",
@@ -178,6 +219,9 @@
 		"body": "Nothing was played in this window.",
 		"cta": "Show all time",
 		"title": "Nothing in this period"
+	},
+	"ratio": {
+		"ariaLabel": "{tracks, number} tracks, {albums, number} albums and {artists, number} artists as nested rings"
 	},
 	"recentlyPlayed": "Recently Played",
 	"records": {
@@ -268,6 +312,11 @@
 		"genres": "Top Genres",
 		"playsCount": "{count, plural, one {# play} other {# plays}}",
 		"tracks": "Top Tracks"
+	},
+	"topCard": {
+		"album": "Top album",
+		"artist": "Top artist",
+		"track": "Top track"
 	},
 	"weekday": {
 		"fri": "Fri",
