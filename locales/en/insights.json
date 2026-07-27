@@ -1,4 +1,14 @@
 {
+	"albumGrid": {
+		"ariaLabel": "Grid of your most played album covers for this period",
+		"bordersToggle": "Include borders",
+		"download": "Download",
+		"downloaded": "Saved your album grid.",
+		"downloading": "Rendering…",
+		"failed": "Couldn't create the grid. Please try again.",
+		"infoToggle": "Album info on grid",
+		"title": "Album grid"
+	},
 	"chart": {
 		"activity": {
 			"ariaLabel": "Listening activity over time"
@@ -189,8 +199,7 @@
 		"summary": "{count, plural, one {# play} other {# plays}} across {days, plural, one {# active day} other {# active days}}"
 	},
 	"history": {
-		"beginning": "That's the beginning of your history.",
-		"playedAtTitle": "{date}"
+		"beginning": "That's the beginning of your history."
 	},
 	"nav": {
 		"title": "Listening insights"
@@ -235,6 +244,7 @@
 		"milestones": {
 			"beginning": "Every library starts somewhere — round-number milestones will land here as your plays add up.",
 			"chip": "All time",
+			"curveAriaLabel": "Cumulative plays over time, one point per milestone",
 			"first": "Your first play",
 			"ordinal": "{ordinal, selectordinal, one {Your #st play} two {Your #nd play} few {Your #rd play} other {Your #th play}}",
 			"title": "Milestones"
@@ -245,6 +255,8 @@
 			"yearsAgo": "{count, plural, one {# year ago} other {# years ago}}"
 		},
 		"sessions": {
+			"ariaLabel": "Your longest listening sessions",
+			"longest": "Longest: {duration} · {date}",
 			"meta": "{tracks, plural, one {# track} other {# tracks}}",
 			"metaWithArtist": "{tracks, plural, one {# track} other {# tracks}} · mostly {artist}",
 			"title": "Longest sessions"
