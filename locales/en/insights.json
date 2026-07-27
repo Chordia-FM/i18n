@@ -28,6 +28,55 @@
 		"title": "Taste compatibility",
 		"youAnd": "You & {name}"
 	},
+	"discovery": {
+		"empty": {
+			"body": "Play some music and your discovery stats will build here.",
+			"title": "Nothing to discover yet"
+		},
+		"kinds": {
+			"album": "Albums",
+			"artist": "Artists",
+			"track": "Tracks"
+		},
+		"mix": {
+			"headline": "of your plays were tracks you'd never played before",
+			"meterAriaLabel": "Share of plays that were first-time tracks",
+			"new": "First plays · {pct}",
+			"repeats": "On repeat · {pct}",
+			"title": "New vs familiar"
+		},
+		"movers": {
+			"climbedBy": "Up {count, plural, one {# place} other {# places}}",
+			"climbers": "Climbers",
+			"empty": {
+				"body": "Chart movement compares this window with the one before it — it appears once both have plays.",
+				"title": "Nothing to compare yet"
+			},
+			"fallers": "Fallers",
+			"fellBy": "Down {count, plural, one {# place} other {# places}}",
+			"needsWindow": "Chart movement compares a window with the one before it — pick a shorter period to see it.",
+			"new": "New",
+			"newcomers": "New entries",
+			"none": "No movement here this window.",
+			"reentry": "Back on the chart",
+			"title": "Chart moves",
+			"vsPrevious": {
+				"halfYear": "vs the 6 months before",
+				"month": "vs the 30 days before",
+				"quarter": "vs the 3 months before",
+				"week": "vs the 7 days before",
+				"year": "vs the 12 months before"
+			},
+			"wasRank": "was #{rank, number}"
+		},
+		"tiles": {
+			"newAlbums": "New albums",
+			"newArtists": "New artists",
+			"newTracks": "New tracks",
+			"ofPlayed": "of {count, number} played"
+		},
+		"topNewArtists": "Artists you discovered"
+	},
 	"duration": {
 		"days": "{days}d",
 		"daysHours": "{days}d {hours}h",
@@ -125,7 +174,53 @@
 		"week": "7 days",
 		"year": "12 months"
 	},
+	"quietWindow": {
+		"body": "Nothing was played in this window.",
+		"cta": "Show all time",
+		"title": "Nothing in this period"
+	},
 	"recentlyPlayed": "Recently Played",
+	"records": {
+		"empty": {
+			"body": "Streaks, records, and milestones build as you listen.",
+			"title": "No records yet"
+		},
+		"milestones": {
+			"beginning": "Every library starts somewhere — round-number milestones will land here as your plays add up.",
+			"chip": "All time",
+			"first": "Your first play",
+			"ordinal": "{ordinal, selectordinal, one {Your #st play} two {Your #nd play} few {Your #rd play} other {Your #th play}}",
+			"title": "Milestones"
+		},
+		"onThisDay": {
+			"empty": "No memories on this date yet — they'll gather here once your history is a year deep.",
+			"title": "On this day",
+			"yearsAgo": "{count, plural, one {# year ago} other {# years ago}}"
+		},
+		"sessions": {
+			"meta": "{tracks, plural, one {# track} other {# tracks}}",
+			"metaWithArtist": "{tracks, plural, one {# track} other {# tracks}} · mostly {artist}",
+			"title": "Longest sessions"
+		},
+		"streaks": {
+			"alsoLongest": "Your longest ever",
+			"current": "Current streak",
+			"days": "{count, plural, one {# day} other {# days}}",
+			"detail": "{range} · {plays, plural, one {# play} other {# plays}}",
+			"live": "Active — keep it going",
+			"longest": "Longest streak",
+			"noCurrent": {
+				"body": "Play something today to start one.",
+				"title": "No streak right now"
+			}
+		},
+		"tiles": {
+			"activeDays": "Active days",
+			"activeDaysOf": "of {count, number} in this window",
+			"biggestDay": "Biggest day",
+			"playsPerDay": "Plays per day"
+		}
+	},
 	"relative": {
 		"hoursAgo": "{hours}h ago",
 		"justNow": "just now",
@@ -160,8 +255,10 @@
 		"uniqueTracksValue": "{count}"
 	},
 	"tabs": {
+		"discovery": "Discovery",
 		"history": "History",
 		"overview": "Overview",
+		"records": "Records",
 		"social": "Social"
 	},
 	"title": "Listening",
