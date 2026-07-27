@@ -141,6 +141,7 @@
 	"userMenu": {
 		"admin": "Admin",
 		"libraries": "Libraries",
+		"profile": "Your profile",
 		"settings": "Settings",
 		"signOut": "Sign out",
 		"stats": "Stats"
