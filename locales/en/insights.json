@@ -1,14 +1,4 @@
 {
-	"albumGrid": {
-		"ariaLabel": "Grid of your most played album covers for this period",
-		"bordersToggle": "Include borders",
-		"download": "Download",
-		"downloaded": "Saved your album grid.",
-		"downloading": "Rendering…",
-		"failed": "Couldn't create the grid. Please try again.",
-		"infoToggle": "Album info on grid",
-		"title": "Album grid"
-	},
 	"chart": {
 		"activity": {
 			"ariaLabel": "Listening activity over time"
@@ -87,6 +77,7 @@
 			"reentry": "Back on the chart",
 			"title": "Chart moves",
 			"vsPrevious": {
+				"day": "vs the 24 hours before",
 				"halfYear": "vs the 6 months before",
 				"month": "vs the 30 days before",
 				"quarter": "vs the 3 months before",
@@ -218,6 +209,7 @@
 		"musicRatio": "Music ratio"
 	},
 	"period": {
+		"day": "24 hours",
 		"halfYear": "6 months",
 		"month": "30 days",
 		"overall": "All time",
@@ -287,6 +279,23 @@
 		"shortDate": "{date}",
 		"today": "today",
 		"yesterday": "yesterday"
+	},
+	"shareGrid": {
+		"album": {
+			"title": "Album grid",
+			"ariaLabel": "Grid of your most played album covers for this period",
+			"infoToggle": "Album info on grid"
+		},
+		"artist": {
+			"title": "Artist grid",
+			"ariaLabel": "Artist grid preview",
+			"infoToggle": "Artist info on grid"
+		},
+		"bordersToggle": "Include borders",
+		"download": "Download",
+		"downloading": "Rendering…",
+		"downloaded": "Saved your album grid.",
+		"failed": "Couldn't create the grid. Please try again."
 	},
 	"social": {
 		"friendActivity": "Friend Activity",
