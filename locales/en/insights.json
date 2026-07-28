@@ -206,7 +206,8 @@
 		"fingerprint": "Listening fingerprint",
 		"genreFlow": "Genres over time",
 		"listeningClock": "Listening clock",
-		"musicRatio": "Music ratio"
+		"musicRatio": "Music ratio",
+		"topGenres": "Top genres"
 	},
 	"period": {
 		"day": "24 hours",
