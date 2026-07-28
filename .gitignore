@@ -1,19 +1,17 @@
-# Rust
-/target/
-**/*.rs.bk
-*.pdb
 
-# Node / JS
-node_modules/
-*.local
-
+!.env.example
 # Env & secrets
+# Node / JS
+# OS / editor
+# Rust
+**/*.rs.bk
+*.local
+*.pdb
+*.swp
+.DS_Store
 .env
 .env.*
-!.env.example
-
-# OS / editor
-.DS_Store
-Thumbs.db
 .idea/
-*.swp
+/target/
+Thumbs.db
+node_modules/

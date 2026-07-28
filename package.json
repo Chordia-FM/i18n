@@ -9,5 +9,15 @@
     ".": "./index.ts",
     "./locales/*": "./locales/*"
   },
-  "files": ["index.ts", "locales"]
+  "files": ["index.ts", "locales"],
+  "scripts": {
+    "crowdin:lint": "crowdin config lint",
+    "crowdin:push": "crowdin upload sources",
+    "crowdin:push-drafts": "crowdin upload translations --no-auto-approve-imported --no-import-eq-suggestions",
+    "crowdin:pull": "crowdin download",
+    "crowdin:status": "crowdin status translation"
+  },
+  "devDependencies": {
+    "@crowdin/cli": "^4.15.0"
+  }
 }
