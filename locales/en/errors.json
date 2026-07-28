@@ -55,6 +55,7 @@
 		"loadFriendActivityFailed": "Failed to load friend activity",
 		"loadHistoryFailed": "Failed to load history",
 		"loadStatsFailed": "Failed to load stats",
+		"milestoneRange": "Pick a play number of 1 or more.",
 		"pagingPair": "before_ms and before_id must be provided together."
 	},
 	"label": {

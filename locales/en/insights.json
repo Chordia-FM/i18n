@@ -239,6 +239,11 @@
 			"chip": "All time",
 			"curveAriaLabel": "Cumulative plays over time, one point per milestone",
 			"first": "First play",
+			"lookup": {
+				"label": "Look up a play",
+				"outOfRange": "There aren't that many plays on record yet.",
+				"submit": "Find it"
+			},
 			"ordinal": "{ordinal, selectordinal, one {#st play} two {#nd play} few {#rd play} other {#th play}}",
 			"title": "Milestones"
 		},
