@@ -67,6 +67,36 @@ export const LOCALE_NAMES: Record<string, string> = {
 	es: "Español",
 };
 
+/**
+ * Flag shown beside each language in the picker.
+ *
+ * Flags mean countries and these are languages, so the mapping is a convention, not a fact:
+ * Spanish is not only Spain's, and Portuguese here is explicitly Brazil's. It stays an explicit
+ * table rather than something derived from the region subtag precisely because those choices
+ * deserve to be looked at rather than computed — and because a bare language like `es` has no
+ * region to derive from. A locale absent from this table renders without a flag.
+ */
+export const LOCALE_FLAGS: Record<string, string> = {
+	en: "\u{1F1FA}\u{1F1F8}",
+	"en-GB": "\u{1F1EC}\u{1F1E7}",
+	es: "\u{1F1EA}\u{1F1F8}",
+	fr: "\u{1F1EB}\u{1F1F7}",
+	de: "\u{1F1E9}\u{1F1EA}",
+	ja: "\u{1F1EF}\u{1F1F5}",
+	ko: "\u{1F1F0}\u{1F1F7}",
+	"pt-BR": "\u{1F1E7}\u{1F1F7}",
+};
+
+/**
+ * Flag emoji for a locale, or undefined when there is no sensible one.
+ *
+ * Falls back from an exact match to the base language, so a future `es-MX` shows Spain's flag
+ * rather than nothing until someone decides it deserves Mexico's.
+ */
+export function localeFlag(code: string): string | undefined {
+	return LOCALE_FLAGS[code] ?? LOCALE_FLAGS[baseLang(code)];
+}
+
 /** Human-readable native name for a locale code, for the language picker. */
 export function localeName(code: string): string {
 	const curated = LOCALE_NAMES[code];
