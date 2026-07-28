@@ -141,6 +141,7 @@
 			"album": "Play this album and your listening stats will build here.",
 			"artist": "Play something by this artist and your listening stats will build here.",
 			"hub": "{count, plural, one {# play} other {# plays}} across everyone on this hub so far.",
+			"showEveryone": "Show everyone's stats",
 			"title": "No plays yet",
 			"track": "Play this track and your listening stats will build here."
 		},
@@ -148,6 +149,10 @@
 			"cta": "Show all time",
 			"lastPlayed": "You last played this {ago}.",
 			"title": "Nothing in this period"
+		},
+		"scope": {
+			"global": "Everyone",
+			"me": "You"
 		},
 		"share": {
 			"caption": "{pct} of {total, plural, one {# play} other {# plays}} across everyone"
