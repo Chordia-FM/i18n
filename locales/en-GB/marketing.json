@@ -1,0 +1,32 @@
+{
+	"cta": {
+		"github": "View on GitHub",
+		"openApp": "Open app"
+	},
+	"eyebrow": "Own your audio · share it your way",
+	"footer": {
+		"github": "GitHub",
+		"license": "Open source · AGPL-3.0 ·"
+	},
+	"hero": {
+		"paragraph": "A hybrid, self-hosted music ecosystem. Absolute ownership of your library, with the connected, social streaming experience - in bit-perfect fidelity."
+	},
+	"pillars": {
+		"liveRooms": {
+			"body": "Synchronized listening parties with chat, votes, and turn-taking DJs. You hear your own copy when you own it; your library relays the rest.",
+			"title": "Live listening rooms"
+		},
+		"ownIt": {
+			"body": "Keep your library at home on a NAS or Pi, or run it on a cloud server - either way the music is yours. It streams bit-perfect (FLAC, ALAC, WAV, Dolby Atmos) straight to your devices, and Chordia never stores or routes your audio.",
+			"title": "Own it, host it anywhere"
+		},
+		"selectiveSharing": {
+			"body": "Organize music into separate libraries - \"Hi-Fi Archive\", \"Family Collection\" - and share each one with exactly the friends you choose.",
+			"title": "Selective sharing"
+		},
+		"wrapped": {
+			"body": "Every play is scrobbled to your global account and kept forever - weekly, monthly, and yearly insights that survive any server move.",
+			"title": "Lifetime Wrapped"
+		}
+	}
+}
