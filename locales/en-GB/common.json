@@ -89,10 +89,15 @@
 	},
 	"nav": {
 		"allLibraries": "All libraries",
+		"closeMenu": "Close menu",
 		"friends": "Friends",
 		"home": "Home",
+		"insights": "Listening",
 		"library": "Library",
 		"listen": "Listen",
+		"menu": "Menu",
+		"more": "More",
+		"openMenu": "Open menu",
 		"search": "Search",
 		"settings": "Settings",
 		"signIn": "Sign in"
