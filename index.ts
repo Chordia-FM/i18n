@@ -65,6 +65,10 @@ export const NAMESPACES: string[] = Object.keys(resources[DEFAULT_LOCALE] ?? {})
 export const LOCALE_NAMES: Record<string, string> = {
 	en: "English",
 	es: "Español",
+	// Joke locales. Intl.DisplayNames cannot name a private-use subtag, so these have to be
+	// curated — and by the same convention every other entry follows, each is written in itself.
+	"en-x-pirate": "Pirate Speak",
+	"en-x-piglatin": "Igpay Atinlay",
 };
 
 /**
@@ -85,6 +89,8 @@ export const LOCALE_FLAGS: Record<string, string> = {
 	ja: "\u{1F1EF}\u{1F1F5}",
 	ko: "\u{1F1F0}\u{1F1F7}",
 	"pt-BR": "\u{1F1E7}\u{1F1F7}",
+	"en-x-pirate": "\u{1F3F4}\u{200D}\u{2620}\u{FE0F}",
+	"en-x-piglatin": "\u{1F437}",
 };
 
 /**

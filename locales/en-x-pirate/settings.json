@@ -1,0 +1,104 @@
+{
+	"account": {
+		"emailChangeSent": "Check yer new inbox fer a confirmation link.",
+		"handleHint": "Letters, digits, “_” an' “-”. Must be unique.",
+		"saveProfile": "Stow profile",
+		"verificationSent": "Sent — check yer inbox"
+	},
+	"appearance": {
+		"customColourHint": "Pick any colour - buttons, highlights an' th' background tint follow it."
+	},
+	"connections": {
+		"lastfm": {
+			"desc": "Scrobble yer plays t' Last.fm automatically.",
+			"connect": "Lash on",
+			"connectedToast": "Connected t' Last.fm as {username}",
+			"connecting": "Connectin' Last.fm…"
+		}
+	},
+	"data": {
+		"body": "Plunder everythin' Chordia stores about ye, or permanently scuttle yer account an' all its data.",
+		"deleteAccountConfirm": "Permanently scuttle yer account an' ALL yer data — listenin' history, charts, hoards, an' hearties? This cannot be undone.",
+		"deleteAccountTitle": "Scuttle account",
+		"deleteFailedBody": "Could not scuttle yer account right now. Pray try again.",
+		"deleteForever": "Send t' Davy Jones",
+		"exportFailedBody": "Could not export yer data right now. Pray try again.",
+		"exportMyData": "Export me data",
+		"title": "Yer data"
+	},
+	"downloads": {
+		"serverNote": "Shanties hoards themselves be added an' organized on yer Chordia hoard server, not here. Stowin' booty t' a custom folder (wi' yer own path + organization layout) be comin' t' th' desktop app.",
+		"thisDevice": {
+			"description": "Plundered shanties be stored on this device an' play without a connection.",
+			"empty": "Use th' Plunder action on any ditty or treasure.",
+			"usage": "{count, plural, one {# shanty} other {# shanties}} · {size}."
+		},
+		"title": "Booty",
+		"unsupportedDestination": "\"{destination}\" booty need th' desktop app"
+	},
+	"playback": {
+		"autoplay": {
+			"desc": "Keep playin' similar shanties when th' muster ends."
+		},
+		"crossfade": {
+			"desc": "Overlap an' blend th' end o' each ditty into th' next."
+		},
+		"normalize": {
+			"desc": "Even out loudness across ditties (ReplayGain)."
+		},
+		"preload": {
+			"desc": "Plunder upcomin' muster ditties ahead o' time fer instant, gap-free playback. Higher uses more data.",
+			"label": "Preload next ditties"
+		},
+		"quality": {
+			"high": {
+				"desc": "~256 kbps AAC - transparent fer most."
+			}
+		},
+		"streamingQuality": "Streamin' quality"
+	},
+	"privacy": {
+		"activityVisibility": {
+			"desc": "Who can see yer recent plays an' compare taste wi' ye."
+		},
+		"emailNotifications": {
+			"desc": "Get an email fer matey requests an' other account activity."
+		},
+		"scrobble": {
+			"desc": "Record what ye play fer yer stats an' Wrapped."
+		},
+		"visibility": {
+			"friends": "Hearties",
+			"public": "All hands"
+		}
+	},
+	"quality": {
+		"high": {
+			"desc": "~256 kbps AAC — transparent fer most."
+		},
+		"title": "Streamin' quality"
+	},
+	"region": {
+		"timezone": {
+			"description": "Used t' place listenin' activity on yer local calendar. Follow this device leaves th' choice t' each client.",
+			"noMatches": "No time zones match yer hunt",
+			"search": "Hunt time zones…"
+		}
+	},
+	"sessions": {
+		"body": "Where ye be signed in. Revoke any device ye don't recognize.",
+		"signOutEverywhere": "Abandon all ships",
+		"signOutEverywhereConfirm": "Sign out o' all devices? Ye'll need t' sign in again."
+	},
+	"title": "Riggin'",
+	"twoFactor": {
+		"addHint": "Add a second factor (an authenticator app) fer extra account security.",
+		"enabledHint": "2FA be enabled. T' turn it off, enter a current code or a recovery code.",
+		"recoveryIntro": "2FA be on. Stow these recovery codes somewhere safe — each works once if ye lose yer authenticator.",
+		"scanHint": "Scan this wi' yer authenticator app, then enter th' 6-digit code t' confirm."
+	},
+	"verifyEmail": {
+		"body": "We sent a verification link t' yer email. Didn't get it? Resend it below.",
+		"title": "Verify yer email"
+	}
+}

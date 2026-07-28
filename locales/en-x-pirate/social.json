@@ -1,0 +1,45 @@
+{
+	"block": {
+		"confirmMessage": "Block @{handle}? Ye won't be able t' add each other as hearties.",
+		"confirmTitle": "Block deckhand"
+	},
+	"discovery": {
+		"addFriend": "Add matey",
+		"friendsStatus": "Hearties",
+		"sending": "Sendin'…"
+	},
+	"friends": {
+		"confirmRemove": "Aye or nay?",
+		"empty": "No hearties yet - press-gang a few",
+		"heading": "Hearties ({count})",
+		"removing": "Removin'…",
+		"title": "Hearties"
+	},
+	"page": {
+		"title": "Hearties"
+	},
+	"profile": {
+		"noActivity": "No listenin' activity yet.",
+		"notFound": "No deckhand wi' that handle.",
+		"private": {
+			"description": "{name} only divvies their listenin' wi' hearties.",
+			"title": "These waters be private"
+		},
+		"recentlyPlayed": "Last heard on deck",
+		"topArtists": "Choicest minstrels",
+		"topTracks": "Choicest ditties"
+	},
+	"report": {
+		"promptMessage": "Report @{handle} — what's th' issue?"
+	},
+	"requests": {
+		"accept": "Welcome aboard",
+		"accepting": "Acceptin'…",
+		"pendingHeading": "Pendin' requests ({count})"
+	},
+	"search": {
+		"noResults": "No crew spied.",
+		"placeholder": "Hunt by handle or display name…",
+		"searching": "Huntin'…"
+	}
+}

@@ -1,0 +1,78 @@
+{
+	"admin": {
+		"deleteSelf": "Use account riggin' t' scuttle yer own account."
+	},
+	"auth": {
+		"badCredentials": "Wrong email or watchword, matey.",
+		"emailInUse": "That email be already in use.",
+		"emailInvalid": "A valid email address be required.",
+		"handleChars": "Username may contain only letters, digits, “_” an' “-”, an' must start wi' a letter or digit.",
+		"passwordLength": "Watchword must be {min}–{max} characters.",
+		"passwordRange": "Watchword must be 8–1024 characters.",
+		"twoFactorAlreadyEnabled": "Two-factor authentication be already enabled — disable it first.",
+		"twoFactorNotEnabled": "Two-factor authentication be not enabled."
+	},
+	"catalog": {
+		"albumLoadFailed": "Lost at sea",
+		"artistLoadFailed": "Lost at sea"
+	},
+	"changeFailed": "Couldn't stow that change — pray try again.",
+	"directory": {
+		"serverOffline": "That server be offline."
+	},
+	"failedToLoad": "Lost at sea",
+	"friends": {
+		"cannotFriendSelf": "Ye can't send a matey request t' yerself."
+	},
+	"generic": "Sunk",
+	"image": {
+		"empty": "Th' image be empty.",
+		"hashMismatch": "Image content didn't match th' expected hash.",
+		"tooLarge": "Image be too large (max 8 MiB)."
+	},
+	"insights": {
+		"compareSelf": "Ye can't compare wi' yerself.",
+		"compatibilityNotFound": "No deckhand wi' that handle.",
+		"compatibilityPrivate": "That user's listenin' activity be private.",
+		"loadFriendActivityFailed": "Failed t' load matey activity",
+		"loadHistoryFailed": "Failed t' load history",
+		"loadStatsFailed": "Failed t' load stats",
+		"milestoneRange": "Pick a play number o' 1 or more.",
+		"pagingPair": "before_ms an' before_id must be provided together."
+	},
+	"library": {
+		"limitReached": "Hoard limit reached fer this account."
+	},
+	"lyrics": {
+		"noLines": "Thar be no lyric lines t' stow."
+	},
+	"moderation": {
+		"blockSelf": "Ye can't block yerself.",
+		"reasonRequired": "A reason (≤200 characters) be required."
+	},
+	"noFields": "No fields t' update.",
+	"oauth": {
+		"missingCode": "Missin' authorization code."
+	},
+	"playlist": {
+		"limitReached": "Chart limit reached fer this account."
+	},
+	"route": {
+		"message": "A rogue wave swamped this page. Try yer luck again, or sail back t' port.",
+		"title": "We struck a reef"
+	},
+	"saveFailed": "Couldn't stow it",
+	"share": {
+		"withSelf": "Ye can't divvy up wi' yerself."
+	},
+	"user": {
+		"handleGenFailed": "Couldn't generate a unique handle fer this Discord account.",
+		"handleOrEmailTaken": "That handle or email be already taken.",
+		"handleTaken": "That handle be already taken.",
+		"notFound": "No deckhand wi' that handle."
+	},
+	"validation": {
+		"nameOrIconRequired": "A name or icon be required.",
+		"nameRequired": "Name be required."
+	}
+}

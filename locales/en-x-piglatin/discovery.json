@@ -1,0 +1,39 @@
+{
+	"dailyMix": {
+		"label": "Ailyday Ixmay"
+	},
+	"greeting": {
+		"afternoon": "Oodgay afternoonway",
+		"evening": "Oodgay eveningway",
+		"morning": "Oodgay orningmay"
+	},
+	"home": {
+		"emptyState": "Othingnay erehay etyay - airpay away ibrarylay erversay andway ouryay atalogcay illway appearway."
+	},
+	"jumpBackIn": {
+		"emptyState": "Ingsthay ouyay'evay ayedplay ecentlyray illway owshay upway erehay.",
+		"title": "Umpjay ackbay inway"
+	},
+	"madeForYou": {
+		"emptyState": "Istenlay otay oremay usicmay andway ouryay ailyday ixesmay illway appearway erehay.",
+		"title": "Ademay orfay ouyay"
+	},
+	"mix": {
+		"noTracksToast": "Isthay ixmay ashay onay ayableplay ackstray etyay",
+		"playTitle": "Ayplay {title}",
+		"playingToast": "Ayingplay {title}"
+	},
+	"radio": {
+		"label": "Adioray",
+		"pin": "Inpay adioray"
+	},
+	"shelf": {
+		"jumpBackIn": "Umpjay ackbay inway",
+		"madeFor": "Ademay orfay {name}",
+		"madeForYou": "ouyay",
+		"recommended": "Ecommendedray orfay ouyay",
+		"trendingAlbums": "Endingtray albumsway",
+		"trendingArtists": "Endingtray artistsway",
+		"yourLibraries": "Ouryay ibrarieslay"
+	}
+}

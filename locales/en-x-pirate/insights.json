@@ -1,0 +1,248 @@
+{
+	"chart": {
+		"activity": {
+			"ariaLabel": "Listenin' activity o'er time"
+		}
+	},
+	"charts": {
+		"empty": {
+			"body": "{person, select, them {Their hoard will rank here once they start listenin'.} other {Yer hoard ranks here once ye have some plays.}}",
+			"title": "Nothin' t' chart yet"
+		},
+		"next": "Onward",
+		"previous": "Astern",
+		"showing": "{from}–{to} o' {total}"
+	},
+	"clock": {
+		"ariaLabel": "Listenin' activity by hour o' day"
+	},
+	"clockGrid": {
+		"ariaLabel": "Listenin' activity by weekday an' hour in {timezone}"
+	},
+	"compatibility": {
+		"handlePlaceholder": "matey's handle",
+		"sharedArtists": "Artists ye both love",
+		"youAnd": "Ye & {name}"
+	},
+	"decades": {
+		"ariaLabel": "Plays by treasure release decade",
+		"empty": "Not enough release dates t' chart decades yet",
+		"headline": "{pct} o' these plays come from th' {decade}s",
+		"tipLabel": "{decade}s · {pct} o' plays",
+		"undated": "{pct} o' plays have no release date an' ain't shown here"
+	},
+	"delta": {
+		"downAria": "Down {pct} vs th' previous period",
+		"flatAria": "Unchanged from th' previous period",
+		"newAria": "nothin' in th' previous period t' compare against",
+		"upAria": "Up {pct} vs th' previous period"
+	},
+	"discovery": {
+		"empty": {
+			"body": "{person, select, them {Their discovery stats will build here as they listen.} other {Play some shanties an' yer discovery stats will build here.}}",
+			"title": "Nothin' t' discover yet"
+		},
+		"kinds": {
+			"album": "Treasures",
+			"track": "Ditties"
+		},
+		"mix": {
+			"headline": "o' these plays were ditties ne'er played afore",
+			"meterAriaLabel": "Divvy up o' plays that were first-time ditties"
+		},
+		"movers": {
+			"empty": {
+				"body": "Chart movement compares this window wi' th' one afore it — it appears once both have plays.",
+				"title": "Nothin' t' compare yet"
+			},
+			"needsWindow": "Chart movement compares a window wi' th' one afore it — pick a shorter period t' see it.",
+			"reentry": "Back on th' chart",
+			"vsPrevious": {
+				"day": "vs th' 24 hours afore",
+				"halfYear": "vs th' 6 months afore",
+				"month": "vs th' 30 days afore",
+				"quarter": "vs th' 3 months afore",
+				"week": "vs th' 7 days afore",
+				"year": "vs th' 12 months afore"
+			},
+			"wasRank": "were #{rank, number}"
+		},
+		"tiles": {
+			"newAlbums": "New treasures",
+			"newTracks": "New ditties",
+			"ofPlayed": "o' {count, number} played"
+		}
+	},
+	"empty": {
+		"history": {
+			"body": "{person, select, them {Ditties they play will show up here.} other {Ditties ye play will show up here.}}"
+		},
+		"overview": {
+			"body": "{person, select, them {Once they start listenin', their stats will appear here.} other {Start listenin' an' yer stats will appear here.}}",
+			"title": "Nothin' yet"
+		},
+		"social": {
+			"body": "When yer hearties listen t' shanties (an' divvy up their activity), it shows up here.",
+			"title": "Quiet as th' deep"
+		}
+	},
+	"entity": {
+		"eyebrow": {
+			"album": "Treasure stats",
+			"track": "Ditty stats"
+		},
+		"never": {
+			"album": "Play this treasure an' yer listenin' stats will build here.",
+			"artist": "Play somethin' by this artist an' yer listenin' stats will build here.",
+			"hub": "{count, plural, one {# play} other {# plays}} across all hands on this hub so far.",
+			"showEveryone": "Show all hands' stats",
+			"track": "Play this ditty an' yer listenin' stats will build here."
+		},
+		"quiet": {
+			"lastPlayed": "Ye last played this {ago}.",
+			"title": "Nothin' in this period"
+		},
+		"scope": {
+			"global": "All hands",
+			"me": "Ye"
+		},
+		"share": {
+			"caption": "{pct} o' {total, plural, one {# play} other {# plays}} across all hands"
+		},
+		"tiles": {
+			"rankOf": {
+				"album": "o' {total, plural, one {# treasure} other {# treasures}} ye played",
+				"artist": "o' {total, plural, one {# artist} other {# artists}} ye played",
+				"track": "o' {total, plural, one {# ditty} other {# ditties}} ye played"
+			}
+		},
+		"title": "Listenin' stats",
+		"top": {
+			"albums": "Yer choicest treasures",
+			"tracks": "Yer choicest ditties",
+			"unplayed": "{count, plural, one {# ditty} other {# ditties}} on this treasure had no plays in this period"
+		}
+	},
+	"fingerprint": {
+		"ariaLabel": "Listenin' fingerprint across five measures",
+		"you": "Ye"
+	},
+	"genreFlow": {
+		"ariaLabel": "Genre divvy up o' listenin' o'er time"
+	},
+	"heatmap": {
+		"ariaLabel": "Daily listenin' heatmap",
+		"scaleAriaLabel": "Activity intensity scale, less t' more"
+	},
+	"history": {
+		"beginning": "That's th' earliest play on record."
+	},
+	"nav": {
+		"title": "Listenin' insights"
+	},
+	"overview": {
+		"firstWindow": "{person, select, them {Their first window on record — comparisons will appear once thar be history behind it.} other {Yer first window on record — comparisons will appear once thar be history behind it.}}"
+	},
+	"panels": {
+		"clockHeatmap": "Listenin' by weekday an' hour",
+		"decades": "Shanties by decade",
+		"fingerprint": "Listenin' fingerprint",
+		"genreFlow": "Genres o'er time",
+		"listeningClock": "Listenin' clock",
+		"musicRatio": "Shanties ratio",
+		"topGenres": "Choicest genres"
+	},
+	"quietWindow": {
+		"body": "Nothin' were played in this window.",
+		"title": "Nothin' in this period"
+	},
+	"ratio": {
+		"ariaLabel": "{tracks, number} ditties, {albums, number} treasures an' {artists, number} artists as nested rings",
+		"caption": "Distinct ditties, treasures, an' artists played in this window. Each ring's sweep compares its count against th' {count, plural, one {# ditty} other {# ditties}}.",
+		"shareOfTracks": "· {pct} o' ditties"
+	},
+	"recentlyPlayed": "Last Heard on Deck",
+	"records": {
+		"empty": {
+			"body": "{person, select, them {Streaks, records, an' milestones build as they listen.} other {Streaks, records, an' milestones build as ye listen.}}"
+		},
+		"milestones": {
+			"beginning": "{person, select, them {Every hoard starts somewhere — round-number milestones will land here as their plays add up.} other {Every hoard starts somewhere — round-number milestones will land here as yer plays add up.}}",
+			"curveAriaLabel": "Cumulative plays o'er time, one point per milestone",
+			"lookup": {
+				"outOfRange": "Thar ain't that many plays on record yet.",
+				"submit": "Spy it"
+			}
+		},
+		"onThisDay": {
+			"empty": "{person, select, them {No memories on this date yet — they'll gather here once their history be a year deep.} other {No memories on this date yet — they'll gather here once yer history be a year deep.}}"
+		},
+		"sessions": {
+			"ariaLabel": "Th' longest listenin' sessions",
+			"meta": "{tracks, plural, one {# ditty} other {# ditties}}",
+			"metaWithArtist": "{tracks, plural, one {# ditty} other {# ditties}} · mostly {artist}"
+		},
+		"streaks": {
+			"alsoLongest": "Longest e'er",
+			"live": "Active — keep it goin'",
+			"noCurrent": {
+				"body": "{person, select, them {Nothin' active right now.} other {Play somethin' today t' start one.}}"
+			}
+		},
+		"tiles": {
+			"activeDaysOf": "o' {count, number} in this window"
+		}
+	},
+	"shareGrid": {
+		"album": {
+			"ariaLabel": "Grid o' yer most played treasure covers fer this period",
+			"infoToggle": "Treasure info on grid",
+			"title": "Treasure grid"
+		},
+		"download": "Plunder",
+		"downloaded": "Stowed yer treasure grid.",
+		"downloading": "Renderin'…",
+		"failed": "Couldn't create th' grid. Pray try again."
+	},
+	"social": {
+		"friendActivity": "Crew's Doin's",
+		"listeningNow": "Listenin' now"
+	},
+	"stats": {
+		"rankOf": "#{rank, number} o' {total, number}",
+		"title": "Yer stats",
+		"uniqueTracks": "Unique Ditties"
+	},
+	"title": "Listenin'",
+	"top": {
+		"albums": "Choicest Treasures",
+		"artists": "Choicest Minstrels",
+		"genres": "Choicest Genres",
+		"tracks": "Choicest Ditties"
+	},
+	"topCard": {
+		"album": "Choicest treasure",
+		"artist": "Choicest minstrel",
+		"track": "Choicest ditty"
+	},
+	"wrapped": {
+		"downloaded": "Stowed yer Wrapped card.",
+		"failed": "Couldn't create th' card. Pray try again.",
+		"periodTitle": {
+			"halfYear": "Yer last 6 months in shanties",
+			"month": "Yer month in shanties",
+			"overall": "Yer all-time stats",
+			"quarter": "Yer last 3 months in shanties",
+			"week": "Yer week in shanties",
+			"year": "Yer year in shanties"
+		},
+		"shareButton": "Divvy up",
+		"shared": "Divvied yer Wrapped card.",
+		"sharedFallback": "Couldn't divvy up — stowed th' card t' yer booty instead.",
+		"sharing": "Divvyin' up…",
+		"statLine": "{artists, number} artists · {tracks, number} ditties",
+		"topArtists": "Choicest minstrels",
+		"topGenre": "Choicest genre",
+		"topTracks": "Choicest ditties"
+	}
+}

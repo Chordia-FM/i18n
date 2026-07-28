@@ -1,0 +1,61 @@
+{
+	"controls": {
+		"mute": "Muzzle th' parrot",
+		"next": "Onward",
+		"pause": "Avast!",
+		"play": "Strike up",
+		"previous": "Astern",
+		"unmute": "Free th' parrot"
+	},
+	"devices": {
+		"none": "No playback devices spied.",
+		"pressPlay": "Press play t' start here"
+	},
+	"equalizer": {
+		"deletePreset": "Scuttle {name}",
+		"dragHint": "Drag a node t' shape th' curve",
+		"dragHintParametric": " · drag sideways fer frequency · scroll fer width (Q)",
+		"graph": {
+			"ariaLabel": "Equalizer response - drag th' band nodes t' shape th' sound"
+		},
+		"savePreset": "Stow preset",
+		"savePresetPlaceholder": "Stow current as preset…",
+		"yourPresetsGroup": "Yer presets"
+	},
+	"lyrics": {
+		"loading": "Loadin' lyrics…",
+		"none": "No lyrics available fer this ditty.",
+		"nothingPlaying": "All quiet on deck.",
+		"returnToCurrent": "Return t' current line"
+	},
+	"nowPlaying": {
+		"aboutArtist": "Th' legend o' {name}",
+		"albumFallback": "Treasure",
+		"playingFrom": "Playin' from",
+		"title": "Now playin'"
+	},
+	"notPlaying": "Becalmed",
+	"nothingPlaying": "All quiet on deck.",
+	"queue": {
+		"add": "Add t' th' muster",
+		"empty": "Th' muster be empty.",
+		"nothingPlayed": "Nothin' played yet.",
+		"playNext": "Strike up next",
+		"recentlyPlayed": "Last heard on deck",
+		"removeFromQueue": "Cast off from th' muster",
+		"repeatOne": "Repeat one be on - this shanty will keep replayin'.",
+		"thenRepeating": "Then repeatin'",
+		"title": "Th' muster"
+	},
+	"quality": {
+		"streaming": "Streamin'",
+		"upTo": "Up t' {value}"
+	},
+	"sleepTimer": {
+		"endOfTrack": "End o' ditty",
+		"title": "Dogwatch timer"
+	},
+	"visualizer": {
+		"nothingPlaying": "Strike up a shanty t' see th' visualizer."
+	}
+}

@@ -1,0 +1,83 @@
+{
+	"a11y": {
+		"playTrack": "Strike up {title}"
+	},
+	"actions": {
+		"cancel": "Belay that",
+		"clearAll": "Clear th' decks",
+		"close": "Batten down",
+		"confirm": "Aye aye",
+		"delete": "Scuttle",
+		"done": "Shipshape",
+		"download": "Plunder",
+		"find": "Spy",
+		"goHome": "Back t' port",
+		"ok": "Aye",
+		"play": "Strike up",
+		"remove": "Cast off",
+		"save": "Stow it",
+		"search": "Hunt",
+		"share": "Divvy up",
+		"signOut": "Abandon ship",
+		"tryAgain": "Give 'er another go",
+		"undo": "As ye were"
+	},
+	"commandPalette": {
+		"hint": {
+			"play": "Strike up"
+		},
+		"noMatches": "Nary a match.",
+		"placeholder": "Hunt shanties or jump t' a page…",
+		"typeToSearch": "Type t' hunt."
+	},
+	"error": {
+		"failedToLoad": "Lost at sea"
+	},
+	"errors": {
+		"saveFailed": "Couldn't stow it."
+	},
+	"keybinds": {
+		"quickSearch": "Quick hunt"
+	},
+	"language": {
+		"description": "Language used across th' interface."
+	},
+	"nav": {
+		"allLibraries": "All hoards",
+		"friends": "Hearties",
+		"home": "Port",
+		"library": "Hoard",
+		"search": "Hunt",
+		"settings": "Riggin'",
+		"signIn": "Come aboard"
+	},
+	"notFound": {
+		"body": "Nothin' here but open sea.",
+		"goHome": "Back t' port",
+		"title": "Fell off th' map"
+	},
+	"image": {
+		"hint": "Drag t' reposition · zoom in t' reframe"
+	},
+	"state": {
+		"loading": "Heave ho…"
+	},
+	"states": {
+		"loading": "Heave ho…",
+		"saving": "Stowin'…",
+		"verifying": "Verifyin'…"
+	},
+	"status": {
+		"saved": "Stowed",
+		"sending": "Sendin'…"
+	},
+	"update": {
+		"available": "A new version be available."
+	},
+	"userMenu": {
+		"libraries": "Hoards",
+		"profile": "Yer profile",
+		"settings": "Riggin'",
+		"signOut": "Abandon ship"
+	}
+}

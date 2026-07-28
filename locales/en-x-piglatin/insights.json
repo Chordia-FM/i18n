@@ -1,0 +1,378 @@
+{
+	"chart": {
+		"activity": {
+			"ariaLabel": "Isteninglay activityway overway imetay"
+		},
+		"noActivityPeriod": "Onay activityway inway isthay eriodpay",
+		"noActivityYet": "Onay activityway etyay",
+		"peak": "Eakpay: {count, plural, one {# ayplay} other {# aysplay}} · {date}",
+		"plays": "{count, plural, one {# ayplay} other {# aysplay}}"
+	},
+	"charts": {
+		"down": "Ownday {count, plural, one {# aceplay} other {# acesplay}}",
+		"empty": {
+			"body": "{person, select, them {Eirthay ibrarylay illway ankray erehay onceway eythay artstay isteninglay.} other {Ouryay ibrarylay anksray erehay onceway ouyay avehay omesay aysplay.}}",
+			"title": "Othingnay otay artchay etyay"
+		},
+		"held": "Eldhay itsway aceplay",
+		"new": "Ewnay",
+		"next": "Extnay",
+		"previous": "Eviouspray",
+		"showing": "{from}–{to} ofway {total}",
+		"up": "Upway {count, plural, one {# aceplay} other {# acesplay}}"
+	},
+	"clock": {
+		"ariaLabel": "Isteninglay activityway ybay ourhay ofway ayday",
+		"peak": "Usiestbay ourhay: {hour} · {count, plural, one {# ayplay} other {# aysplay}}"
+	},
+	"clockGrid": {
+		"ariaLabel": "Isteninglay activityway ybay eekdayway andway ourhay inway {timezone}",
+		"busiest": "Usiestbay: {day} · {hour}"
+	},
+	"compatibility": {
+		"compare": "Omparecay",
+		"handlePlaceholder": "iendfray's andlehay",
+		"sharedArtists": "Artistsway ouyay othbay ovelay",
+		"title": "Astetay ompatibilitycay",
+		"youAnd": "Ouyay & {name}"
+	},
+	"decades": {
+		"ariaLabel": "Aysplay ybay albumway eleaseray ecadeday",
+		"empty": "Otnay enoughway eleaseray atesday otay artchay ecadesday etyay",
+		"headline": "{pct} ofway esethay aysplay omecay omfray ethay {decade}s",
+		"tipLabel": "{decade}s · {pct} ofway aysplay",
+		"undated": "{pct} ofway aysplay avehay onay eleaseray ateday andway arenway't ownshay erehay"
+	},
+	"delta": {
+		"downAria": "Ownday {pct} vs ethay eviouspray eriodpay",
+		"flatAria": "Unchangedway omfray ethay eviouspray eriodpay",
+		"new": "Ewnay",
+		"newAria": "othingnay inway ethay eviouspray eriodpay otay omparecay againstway",
+		"upAria": "Upway {pct} vs ethay eviouspray eriodpay"
+	},
+	"discovery": {
+		"empty": {
+			"body": "{person, select, them {Eirthay iscoveryday atsstay illway uildbay erehay asway eythay istenlay.} other {Ayplay omesay usicmay andway ouryay iscoveryday atsstay illway uildbay erehay.}}",
+			"title": "Othingnay otay iscoverday etyay"
+		},
+		"kinds": {
+			"album": "Albumsway",
+			"artist": "Artistsway",
+			"track": "Ackstray"
+		},
+		"mix": {
+			"headline": "ofway esethay aysplay ereway ackstray evernay ayedplay eforebay",
+			"meterAriaLabel": "Areshay ofway aysplay atthay ereway irstfay-imetay ackstray",
+			"new": "Irstfay aysplay · {pct}",
+			"repeats": "Onway epeatray · {pct}",
+			"title": "Ewnay vs amiliarfay"
+		},
+		"movers": {
+			"climbedBy": "Upway {count, plural, one {# aceplay} other {# acesplay}}",
+			"climbers": "Imbersclay",
+			"empty": {
+				"body": "Artchay ovementmay omparescay isthay indowway ithway ethay oneway eforebay itway — itway appearsway onceway othbay avehay aysplay.",
+				"title": "Othingnay otay omparecay etyay"
+			},
+			"fallers": "Allersfay",
+			"fellBy": "Ownday {count, plural, one {# aceplay} other {# acesplay}}",
+			"needsWindow": "Artchay ovementmay omparescay away indowway ithway ethay oneway eforebay itway — ickpay away ortershay eriodpay otay eesay itway.",
+			"new": "Ewnay",
+			"newcomers": "Ewnay entriesway",
+			"none": "Onay ovementmay erehay isthay indowway.",
+			"reentry": "Ackbay onway ethay artchay",
+			"title": "Artchay ovesmay",
+			"vsPrevious": {
+				"day": "vs ethay 24 ourshay eforebay",
+				"halfYear": "vs ethay 6 onthsmay eforebay",
+				"month": "vs ethay 30 aysday eforebay",
+				"quarter": "vs ethay 3 onthsmay eforebay",
+				"week": "vs ethay 7 aysday eforebay",
+				"year": "vs ethay 12 onthsmay eforebay"
+			},
+			"wasRank": "asway #{rank, number}"
+		},
+		"tiles": {
+			"newAlbums": "Ewnay albumsway",
+			"newArtists": "Ewnay artistsway",
+			"newTracks": "Ewnay ackstray",
+			"ofPlayed": "ofway {count, number} ayedplay"
+		},
+		"topNewArtists": "Artistsway iscoveredday"
+	},
+	"empty": {
+		"history": {
+			"body": "{person, select, them {Ackstray eythay ayplay illway owshay upway erehay.} other {Ackstray ouyay ayplay illway owshay upway erehay.}}",
+			"title": "Onay istoryhay etyay"
+		},
+		"overview": {
+			"body": "{person, select, them {Onceway eythay artstay isteninglay, eirthay atsstay illway appearway erehay.} other {Artstay isteninglay andway ouryay atsstay illway appearway erehay.}}",
+			"title": "Othingnay etyay"
+		},
+		"social": {
+			"body": "Enwhay ouryay iendsfray istenlay otay usicmay (andway areshay eirthay activityway), itway owsshay upway erehay.",
+			"title": "Uietqay inway erehay"
+		}
+	},
+	"entity": {
+		"alltime": "{count, plural, one {# ayplay} other {# aysplay}} allway-imetay",
+		"crumb": "Atsstay",
+		"eyebrow": {
+			"album": "Albumway atsstay",
+			"artist": "Artistway atsstay",
+			"track": "Acktray atsstay"
+		},
+		"listened": "{time} istenedlay",
+		"never": {
+			"album": "Ayplay isthay albumway andway ouryay isteninglay atsstay illway uildbay erehay.",
+			"artist": "Ayplay omethingsay ybay isthay artistway andway ouryay isteninglay atsstay illway uildbay erehay.",
+			"hub": "{count, plural, one {# ayplay} other {# aysplay}} acrossway everyoneway onway isthay ubhay osay arfay.",
+			"showEveryone": "Owshay everyoneway's atsstay",
+			"title": "Onay aysplay etyay",
+			"track": "Ayplay isthay acktray andway ouryay isteninglay atsstay illway uildbay erehay."
+		},
+		"quiet": {
+			"cta": "Owshay allway imetay",
+			"lastPlayed": "Ouyay astlay ayedplay isthay {ago}.",
+			"title": "Othingnay inway isthay eriodpay"
+		},
+		"scope": {
+			"global": "Everyoneway",
+			"me": "Ouyay"
+		},
+		"share": {
+			"caption": "{pct} ofway {total, plural, one {# ayplay} other {# aysplay}} acrossway everyoneway"
+		},
+		"since": "incesay {date}",
+		"tiles": {
+			"activeDays": "{count, plural, one {onway # ayday} other {acrossway # aysday}}",
+			"activeMonths": "{count, plural, one {inway # onthmay} other {acrossway # onthsmay}}",
+			"perPlay": "≈{duration} erpay ayplay",
+			"rank": "Ankray",
+			"rankOf": {
+				"album": "ofway {total, plural, one {# albumway} other {# albumsway}} ouyay ayedplay",
+				"artist": "ofway {total, plural, one {# artistway} other {# artistsway}} ouyay ayedplay",
+				"track": "ofway {total, plural, one {# acktray} other {# ackstray}} ouyay ayedplay"
+			}
+		},
+		"title": "Isteninglay atsstay",
+		"top": {
+			"albums": "Ouryay optay albumsway",
+			"tracks": "Ouryay optay ackstray",
+			"unplayed": "{count, plural, one {# acktray} other {# ackstray}} onway isthay albumway adhay onay aysplay inway isthay eriodpay"
+		},
+		"window": {
+			"everything": "Everyway ayplay onway ecordray"
+		}
+	},
+	"fingerprint": {
+		"ariaLabel": "Isteninglay ingerprintfay acrossway ivefay easuresmay",
+		"average": "Ubhay averageway",
+		"axes": {
+			"concentration": "Ocusfay",
+			"consistency": "Onsistencycay",
+			"discovery": "Iscoveryday",
+			"replay": "Eplayray",
+			"variance": "Olatilityvay"
+		},
+		"axisWithAverage": "{axis} · ubhay averageway {pct}",
+		"you": "Ouyay"
+	},
+	"genreFlow": {
+		"ariaLabel": "Enregay areshay ofway isteninglay overway imetay",
+		"empty": "Onay enregay ataday inway isthay indowway etyay",
+		"other": "Otherway",
+		"otherCount": "Otherway · {count, plural, one {# enregay} other {# enresgay}}"
+	},
+	"heatmap": {
+		"ariaLabel": "Ailyday isteninglay eatmaphay",
+		"less": "Esslay",
+		"more": "Oremay",
+		"scaleAriaLabel": "Activityway intensityway alescay, esslay otay oremay",
+		"summary": "{count, plural, one {# ayplay} other {# aysplay}} acrossway {days, plural, one {# activeway ayday} other {# activeway aysday}}"
+	},
+	"history": {
+		"beginning": "Atthay's ethay earliestway ayplay onway ecordray."
+	},
+	"nav": {
+		"title": "Isteninglay insightsway"
+	},
+	"overview": {
+		"firstWindow": "{person, select, them {Eirthay irstfay indowway onway ecordray — omparisonscay illway appearway onceway erethay's istoryhay ehindbay itway.} other {Ouryay irstfay indowway onway ecordray — omparisonscay illway appearway onceway erethay's istoryhay ehindbay itway.}}"
+	},
+	"panels": {
+		"activity": "Activityway",
+		"byWeekday": "Ybay eekdayway",
+		"clockHeatmap": "Isteninglay ybay eekdayway andway ourhay",
+		"decades": "Usicmay ybay ecadeday",
+		"fingerprint": "Isteninglay ingerprintfay",
+		"genreFlow": "Enresgay overway imetay",
+		"listeningClock": "Isteninglay ockclay",
+		"musicRatio": "Usicmay atioray",
+		"topGenres": "Optay enresgay"
+	},
+	"period": {
+		"day": "24 ourshay",
+		"halfYear": "6 onthsmay",
+		"month": "30 aysday",
+		"overall": "Allway imetay",
+		"quarter": "3 onthsmay",
+		"week": "7 aysday",
+		"year": "12 onthsmay"
+	},
+	"quietWindow": {
+		"body": "Othingnay asway ayedplay inway isthay indowway.",
+		"cta": "Owshay allway imetay",
+		"title": "Othingnay inway isthay eriodpay"
+	},
+	"ratio": {
+		"ariaLabel": "{tracks, number} ackstray, {albums, number} albumsway andway {artists, number} artistsway asway estednay ingsray",
+		"caption": "Istinctday ackstray, albumsway, andway artistsway ayedplay inway isthay indowway. Eachway ingray's eepsway omparescay itsway ountcay againstway ethay {count, plural, one {# acktray} other {# ackstray}}.",
+		"shareOfTracks": "· {pct} ofway ackstray"
+	},
+	"recentlyPlayed": "Ecentlyray Ayedplay",
+	"records": {
+		"empty": {
+			"body": "{person, select, them {Eaksstray, ecordsray, andway ilestonesmay uildbay asway eythay istenlay.} other {Eaksstray, ecordsray, andway ilestonesmay uildbay asway ouyay istenlay.}}",
+			"title": "Onay ecordsray etyay"
+		},
+		"milestones": {
+			"beginning": "{person, select, them {Everyway ibrarylay artsstay omewheresay — oundray-umbernay ilestonesmay illway andlay erehay asway eirthay aysplay addway upway.} other {Everyway ibrarylay artsstay omewheresay — oundray-umbernay ilestonesmay illway andlay erehay asway ouryay aysplay addway upway.}}",
+			"chip": "Allway imetay",
+			"curveAriaLabel": "Umulativecay aysplay overway imetay, oneway ointpay erpay ilestonemay",
+			"first": "Irstfay ayplay",
+			"lookup": {
+				"label": "Ooklay upway away ayplay",
+				"outOfRange": "Erethay arenway't atthay anymay aysplay onway ecordray etyay.",
+				"submit": "Indfay itway"
+			},
+			"ordinal": "{ordinal, selectordinal, one {#st ayplay} two {#nd ayplay} few {#rd ayplay} other {#th ayplay}}",
+			"title": "Ilestonesmay"
+		},
+		"onThisDay": {
+			"empty": "{person, select, them {Onay emoriesmay onway isthay ateday etyay — eythay'll athergay erehay onceway eirthay istoryhay isway away earyay eepday.} other {Onay emoriesmay onway isthay ateday etyay — eythay'll athergay erehay onceway ouryay istoryhay isway away earyay eepday.}}",
+			"title": "Onway isthay ayday",
+			"yearsAgo": "{count, plural, one {# earyay agoway} other {# earsyay agoway}}"
+		},
+		"sessions": {
+			"ariaLabel": "Ethay ongestlay isteninglay essionssay",
+			"longest": "Ongestlay: {duration} · {date}",
+			"meta": "{tracks, plural, one {# acktray} other {# ackstray}}",
+			"metaWithArtist": "{tracks, plural, one {# acktray} other {# ackstray}} · ostlymay {artist}",
+			"title": "Ongestlay essionssay"
+		},
+		"streaks": {
+			"alsoLongest": "Ongestlay everway",
+			"current": "Urrentcay eakstray",
+			"days": "{count, plural, one {# ayday} other {# aysday}}",
+			"detail": "{range} · {plays, plural, one {# ayplay} other {# aysplay}}",
+			"live": "Activeway — eepkay itway oinggay",
+			"longest": "Ongestlay eakstray",
+			"noCurrent": {
+				"body": "{person, select, them {Othingnay activeway ightray ownay.} other {Ayplay omethingsay odaytay otay artstay oneway.}}",
+				"title": "Onay eakstray ightray ownay"
+			}
+		},
+		"tiles": {
+			"activeDays": "Activeway aysday",
+			"activeDaysOf": "ofway {count, number} inway isthay indowway",
+			"biggestDay": "Iggestbay ayday",
+			"playsPerDay": "Aysplay erpay ayday"
+		}
+	},
+	"relative": {
+		"hoursAgo": "{hours}h agoway",
+		"justNow": "ustjay ownay",
+		"minutesAgo": "{minutes}m agoway",
+		"today": "odaytay",
+		"yesterday": "esterdayyay"
+	},
+	"shareGrid": {
+		"album": {
+			"ariaLabel": "Idgray ofway ouryay ostmay ayedplay albumway overscay orfay isthay eriodpay",
+			"infoToggle": "Albumway infoway onway idgray",
+			"title": "Albumway idgray"
+		},
+		"artist": {
+			"ariaLabel": "Artistway idgray eviewpray",
+			"infoToggle": "Artistway infoway onway idgray",
+			"title": "Artistway idgray"
+		},
+		"bordersToggle": "Includeway ordersbay",
+		"download": "Ownloadday",
+		"downloaded": "Avedsay ouryay albumway idgray.",
+		"downloading": "Enderingray…",
+		"failed": "Ouldncay't eatecray ethay idgray. Easeplay ytray againway."
+	},
+	"social": {
+		"friendActivity": "Iendfray Activityway",
+		"listeningNow": "Isteninglay ownay"
+	},
+	"stats": {
+		"firstPlayed": "Irstfay ayedplay",
+		"lastPlayed": "Astlay ayedplay",
+		"plays": "Aysplay",
+		"rankBadge": "#{rank} ostmay ayedplay",
+		"rankOf": "#{rank, number} ofway {total, number}",
+		"seeAll": "Eesay ullfay atsstay",
+		"sparkline": {
+			"ariaLabel": "Onthlymay ayplay endtray"
+		},
+		"time": "Imetay",
+		"timeListened": "Imetay Istenedlay",
+		"title": "Ouryay atsstay",
+		"uniqueArtists": "Uniqueway Artistsway",
+		"uniqueTracks": "Uniqueway Ackstray"
+	},
+	"tabs": {
+		"charts": "Artschay",
+		"discovery": "Iscoveryday",
+		"history": "Istoryhay",
+		"overview": "Overviewway",
+		"records": "Ecordsray",
+		"social": "Ocialsay"
+	},
+	"title": "Isteninglay",
+	"top": {
+		"albums": "Optay Albumsway",
+		"artists": "Optay Artistsway",
+		"genres": "Optay Enresgay",
+		"playsCount": "{count, plural, one {# ayplay} other {# aysplay}}",
+		"tracks": "Optay Ackstray"
+	},
+	"topCard": {
+		"album": "Optay albumway",
+		"artist": "Optay artistway",
+		"track": "Optay acktray"
+	},
+	"weekday": {
+		"fri": "Ifray",
+		"mon": "Onmay",
+		"sat": "Atsay",
+		"sun": "Unsay",
+		"thu": "Uthay",
+		"tue": "Uetay",
+		"wed": "Edway"
+	},
+	"wrapped": {
+		"downloaded": "Avedsay ouryay Wrapped ardcay.",
+		"failed": "Ouldncay't eatecray ethay ardcay. Easeplay ytray againway.",
+		"minutesListened": "inutesmay istenedlay",
+		"periodTitle": {
+			"halfYear": "Ouryay astlay 6 onthsmay inway usicmay",
+			"month": "Ouryay onthmay inway usicmay",
+			"overall": "Ouryay allway-imetay atsstay",
+			"quarter": "Ouryay astlay 3 onthsmay inway usicmay",
+			"week": "Ouryay eekway inway usicmay",
+			"year": "Ouryay earyay inway usicmay"
+		},
+		"shareButton": "Areshay",
+		"shared": "Aredshay ouryay Wrapped ardcay.",
+		"sharedFallback": "Ouldncay't areshay — avedsay ethay ardcay otay ouryay ownloadsday insteadway.",
+		"sharing": "Aringshay…",
+		"statLine": "{artists, number} artistsway · {tracks, number} ackstray",
+		"topArtists": "Optay artistsway",
+		"topGenre": "Optay enregay",
+		"topTracks": "Optay ackstray"
+	}
+}

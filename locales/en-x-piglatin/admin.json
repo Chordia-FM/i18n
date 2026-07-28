@@ -1,0 +1,101 @@
+{
+	"audit": {
+		"empty": "Onay actionsway etyay.",
+		"title": "Auditway oglay"
+	},
+	"editCatalog": {
+		"title": "Editway atalogcay etadatamay"
+	},
+	"enrichment": {
+		"description": "Eray-etchfay artworkway, artistway imagesway, iosbay, eleaseray atesday andway enresgay orfay everythingway inway ouryay ibrarieslay. Usefulway afterway addingway Last.fm / fanart.tv API eyskay. Unsray inway ethay ackgroundbay andway isway ateray-imitedlay, osay away argelay ibrarylay illsfay inway aduallygray.",
+		"nothingToRefresh": "Othingnay otay efreshray etyay.",
+		"refetch": "Eray-etchfay etadatamay",
+		"refetching": "{count, plural, one {Eray-etchingfay # itemway inway ethay ackgroundbay…} other {Eray-etchingfay # itemsway inway ethay ackgroundbay…}}",
+		"startFailed": "Ailedfay otay artstay.",
+		"starting": "Artingstay…",
+		"title": "Etadatamay enrichmentway"
+	},
+	"metadata": {
+		"artistSubtitle": "{albumCount, plural, one {# albumway} other {# albumsway}} · {trackCount, plural, one {# acktray} other {# ackstray}}",
+		"artworkAlt": "Artworkway",
+		"artworkLoadError": "Ouldncay't oadlay artworkway — ytray againway.",
+		"bannerLabel": "annerbay",
+		"browseArtwork": "Owsebray artworkway (iconway + annerbay)",
+		"browseCovers": "Owsebray overscay",
+		"browseLogos": "Owsebray ogoslay (fanart.tv)",
+		"currentArtistHint": "Urrentlycay {name}. Earchsay otay eray-attributeway otay away ifferentday artistway.",
+		"editAlbumTitle": "Editway albumway (obalglay)",
+		"editArtistTitle": "Editway artistway (obalglay)",
+		"editLabelTitle": "Editway abellay (obalglay)",
+		"editTrackTitle": "Editway acktray (obalglay)",
+		"fields": {
+			"bio": "Iobay",
+			"defunct": "Efunctday (ankblay = activeway)",
+			"founded": "Oundedfay",
+			"genres": "Enresgay (ommacay-eparatedsay)"
+		},
+		"findArtistPlaceholder": "Indfay artistway…",
+		"imageFetchFailed": "Ouldncay't etchfay atthay imageway.",
+		"imageUploadFailed": "Imageway uploadway ailedfay.",
+		"intro": "Editway ethay aredshay atalogcay atthay everyoneway eessay — enameray anway artistway, albumway orway acktray, eplaceray itsway artworkway, orway eray-attributeway away eleaseray otay away ifferentday artistway. Esethay angeschay areway obalglay andway ermanentpay (unlikeway erpay-ibrarylay editsway). Everyway angechay isway ecordedray inway ethay auditway oglay.",
+		"labelLoadError": "Ouldncay't oadlay ethay abellay.",
+		"labelSubtitle": "{count, plural, one {# albumway} other {# albumsway}}",
+		"loadError": "Ouldncay't oadlay ethay urrentcay etadatamay.",
+		"logoAlt": "Ogolay",
+		"logoUploadFailed": "Ogolay uploadway ailedfay.",
+		"noAlbumCovers": "Onay overscay oundfay — ethay albumway eedsnay away MusicBrainz atchmay.",
+		"noArtistArtwork": "Onay onlineway artworkway oundfay — eedsnay away fanart.tv eykay + away MusicBrainz atchmay.",
+		"noArtistsFound": "Onay artistsway oundfay.",
+		"noLogos": "Onay ogoslay oundfay — eedsnay away fanart.tv eykay + away MusicBrainz atchmay.",
+		"noMatches": "Onay atchesmay.",
+		"reattributeTo": "Eray-attributeway otay {name}",
+		"searchPlaceholder": "Earchsay artistsway, albumsway, orway ackstray…",
+		"uploadBanner": "Uploadway annerbay",
+		"uploadCover": "Uploadway overcay",
+		"uploadIcon": "Uploadway iconway",
+		"uploadLogo": "Uploadway ogolay",
+		"useThisArt": "Useway isthay {kind}",
+		"useThisLogo": "Useway isthay ogolay"
+	},
+	"noAccess": {
+		"backToApp": "Ackbay otay ethay appway",
+		"body": "Ouyay onday't avehay accessway otay itesay administrationway. {link}.",
+		"title": "Adminway"
+	},
+	"reports": {
+		"dismiss": "Ismissday",
+		"empty": "Onay openway eportsray.",
+		"resolve": "Esolveray",
+		"title": "Eportsray",
+		"titleWithCount": "{count, plural, one {Eportsray (# openway)} other {Eportsray (# openway)}}"
+	},
+	"suggestions": {
+		"approve": "Approveway",
+		"current": "Urrentcay",
+		"deny": "Enyday",
+		"empty": "Onay endingpay uggestionssay.",
+		"field": {
+			"banner": "Annerbay",
+			"bio": "Iobay",
+			"genres": "Enresgay",
+			"image": "Imageway",
+			"name": "Amenay"
+		},
+		"none": "Onenay",
+		"suggested": "Uggestedsay",
+		"title": "Etadatamay uggestionssay",
+		"titleWithCount": "{count, plural, one {Etadatamay uggestionssay (# endingpay)} other {Etadatamay uggestionssay (# endingpay)}}"
+	},
+	"title": "Itesay administrationway",
+	"users": {
+		"deleteConfirm": "Ermanentlypay eleteday @{handle} andway ALL eirthay ataday? Isthay annotcay ebay undoneway.",
+		"deleteTitle": "Eleteday userway",
+		"searchPlaceholder": "Earchsay andlehay, emailway, orway amenay…",
+		"suspend": "Uspendsay",
+		"suspendConfirm": "Uspendsay @{handle}? Eythay'll ebay ignedsay outway andway unableway otay oglay inway.",
+		"suspendTitle": "Uspendsay userway",
+		"suspendedBadge": "uspendedsay",
+		"title": "Usersway",
+		"unsuspend": "Unsuspendway"
+	}
+}

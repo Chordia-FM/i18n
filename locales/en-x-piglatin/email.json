@@ -1,0 +1,31 @@
+{
+	"collabInvite": {
+		"body": "{inviter} addedway ouyay asway away ollaboratorcay onway ethay aylistplay “{playlist}”.",
+		"cta": "Openway ethay aylistplay",
+		"hint": "Ouyay ancay ownay addway andway emoveray ackstray.",
+		"subject": "Ouyay ereway addedway otay away Chordia aylistplay"
+	},
+	"footer": {
+		"manage": "Ouyay ancay urntay esethay emailsway offway inway Chordia Ettingssay → Otificationsnay."
+	},
+	"friendRequest": {
+		"body": "{name} antsway otay onnectcay ithway ouyay onway Chordia.",
+		"cta": "Iewvay ofilepray",
+		"heading": "Ewnay iendfray equestray",
+		"subject": "{name} entsay ouyay away iendfray equestray"
+	},
+	"passwordReset": {
+		"body": "Omeonesay equestedray away asswordpay esetray orfay ouryay Chordia accountway.",
+		"cta": "Esetray ouryay asswordpay",
+		"expiry": "Isthay inklay expiresway inway 1 ourhay.",
+		"ignore": "Ifway ouyay idnday't equestray isthay, ouyay ancay afelysay ignoreway isthay emailway.",
+		"subject": "Esetray ouryay Chordia asswordpay"
+	},
+	"verifyEmail": {
+		"body": "Easeplay onfirmcay ouryay emailway addressway otay inishfay ettingsay upway ouryay accountway.",
+		"cta": "Erifyvay ouryay emailway",
+		"expiry": "Isthay inklay expiresway inway 24 ourshay.",
+		"heading": "Elcomeway otay Chordia",
+		"subject": "Erifyvay ouryay Chordia emailway"
+	}
+}

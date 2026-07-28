@@ -1,0 +1,133 @@
+{
+	"controls": {
+		"fullscreen": "Ullscreenfay",
+		"mute": "Utemay",
+		"next": "Extnay",
+		"pause": "Ausepay",
+		"play": "Ayplay",
+		"previous": "Eviouspray",
+		"repeat": "Epeatray",
+		"seek": "Eeksay",
+		"shuffle": "Uffleshay",
+		"unmute": "Unmuteway",
+		"volume": "Olumevay",
+		"volumeButton": "Olumevay uttonbay",
+		"volumeSlider": "Olumevay iderslay"
+	},
+	"devices": {
+		"current": "Urrentcay argettay",
+		"none": "Onay aybackplay evicesday oundfay.",
+		"pressPlay": "Esspray ayplay otay artstay erehay",
+		"thisTab": "Isthay abtay",
+		"title": "Aybackplay eviceday"
+	},
+	"eqPreset": {
+		"acoustic": "Acousticway",
+		"bassBoost": "Assbay Oostbay",
+		"bassReducer": "Assbay Educerray",
+		"classical": "Assicalclay",
+		"electronic": "Electronicway",
+		"flat": "Atflay",
+		"hipHop": "Iphay-Ophay",
+		"jazz": "Azzjay",
+		"loudness": "Oudnesslay",
+		"pop": "Oppay",
+		"rock": "Ockray",
+		"trebleBoost": "Ebletray Oostbay",
+		"trebleReducer": "Ebletray Educerray",
+		"vocal": "Ocalvay"
+	},
+	"equalizer": {
+		"bandFreq": "Andbay {n} eqfray",
+		"bandWidth": "Andbay {n} idthway (Q)",
+		"close": "Oseclay equalizerway",
+		"deletePreset": "Eleteday {name}",
+		"dragHint": "Agdray away odenay otay apeshay ethay urvecay",
+		"dragHintParametric": " · agdray idewayssay orfay equencyfray · ollscray orfay idthway (Q)",
+		"enable": "Enableway equalizerway",
+		"graph": {
+			"ariaLabel": "Equalizerway esponseray - agdray ethay andbay odesnay otay apeshay ethay oundsay",
+			"title": "Equalizerway esponseray urvecay"
+		},
+		"parametric": "Arametricpay",
+		"preamp": "Eamppray",
+		"presetCustom": "Ustomcay",
+		"presetSelect": "EQ esetpray",
+		"presetsGroup": "Esetspray",
+		"savePreset": "Avesay esetpray",
+		"savePresetPlaceholder": "Avesay urrentcay asway esetpray…",
+		"title": "Equalizerway",
+		"yourPresetsGroup": "Ouryay esetspray"
+	},
+	"fullscreen": {
+		"enter": "Ullscreenfay",
+		"exit": "Exitway ullscreenfay"
+	},
+	"lyrics": {
+		"loading": "Oadinglay yricslay…",
+		"none": "Onay yricslay availableway orfay isthay acktray.",
+		"nothingPlaying": "Othingnay ayingplay.",
+		"returnToCurrent": "Eturnray otay urrentcay inelay",
+		"title": "Yricslay"
+	},
+	"monthlyListeners": "{count, plural, one {# onthlymay istenerlay} other {# onthlymay istenerslay}}",
+	"nowPlaying": {
+		"aboutArtist": "Aboutway {name}",
+		"albumFallback": "Albumway",
+		"playingFrom": "Ayingplay omfray",
+		"title": "Ownay ayingplay"
+	},
+	"notPlaying": "Otnay ayingplay",
+	"nothingPlaying": "Othingnay ayingplay etyay.",
+	"plays": "{count, plural, one {# ayplay} other {# aysplay}}",
+	"queue": {
+		"add": "Addway otay ueueqay",
+		"empty": "Ueueqay isway emptyway.",
+		"nextUp": "Extnay upway",
+		"nothingPlayed": "Othingnay ayedplay etyay.",
+		"playNext": "Ayplay extnay",
+		"recentlyPlayed": "Ecentlyray ayedplay",
+		"removeFromQueue": "Emoveray omfray ueueqay",
+		"repeatOne": "Epeatray oneway isway onway - isthay ongsay illway eepkay eplayingray.",
+		"thenRepeating": "Enthay epeatingray",
+		"title": "Ueueqay"
+	},
+	"quality": {
+		"change": "Angechay",
+		"dataPerHourGb": "~{value} GB/ourhay",
+		"dataPerHourMb": "~{value} MB/ourhay",
+		"loudness": "Oudnesslay",
+		"lossless": "Osslesslay",
+		"lossy": "Ossylay",
+		"originalSourceFile": "Originalway ourcesay ilefay",
+		"source": "Ourcesay",
+		"spatial": " · Atialspay",
+		"streaming": "Eamingstray",
+		"title": "Ilefay ualityqay",
+		"upTo": "Upway otay {value}"
+	},
+	"sleepTimer": {
+		"endOfTrack": "Endway ofway acktray",
+		"minutes": "{count, plural, one {# inutemay} other {# inutesmay}}",
+		"oneHour": "1 ourhay",
+		"title": "Eepslay imertay",
+		"turnOff": "Urntay offway"
+	},
+	"visualizer": {
+		"autoCycle": "Autoway-yclecay ylesstay",
+		"close": "Oseclay isualizervay",
+		"nextStyle": "Extnay ylestay",
+		"nothingPlaying": "Ayplay omethingsay otay eesay ethay isualizervay.",
+		"open": "Isualizervay",
+		"previousStyle": "Eviouspray ylestay",
+		"style": {
+			"bars": "Ectrumspay arsbay",
+			"mirror": "Irrormay aveway",
+			"particles": "Articlepay oomblay",
+			"radial": "Adialray ectrumspay",
+			"scope": "Oscilloscopeway",
+			"spectrogram": "Ectrogramspay"
+		},
+		"unavailable": "Isualizervay unavailableway onway isthay ourcesay."
+	}
+}

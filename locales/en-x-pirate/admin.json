@@ -1,0 +1,43 @@
+{
+	"enrichment": {
+		"description": "Re-fetch artwork, artist images, bios, release dates an' genres fer everythin' in yer hoards. Useful after addin' Last.fm / fanart.tv API keys. Runs in th' background an' be rate-limited, so a large hoard fills in gradually.",
+		"nothingToRefresh": "Nothin' t' refresh yet.",
+		"refetching": "{count, plural, one {Re-fetchin' # item in th' background…} other {Re-fetchin' # items in th' background…}}",
+		"startFailed": "Failed t' start.",
+		"starting": "Startin'…"
+	},
+	"metadata": {
+		"artistSubtitle": "{albumCount, plural, one {# treasure} other {# treasures}} · {trackCount, plural, one {# ditty} other {# ditties}}",
+		"currentArtistHint": "Currently {name}. Hunt t' re-attribute t' a different artist.",
+		"editAlbumTitle": "Edit treasure (global)",
+		"editTrackTitle": "Edit ditty (global)",
+		"findArtistPlaceholder": "Spy artist…",
+		"intro": "Edit th' divvied catalog that all hands sees — rename an artist, treasure or ditty, replace its artwork, or re-attribute a release t' a different artist. These changes be global an' permanent (unlike per-hoard edits). Every change be recorded in th' audit log.",
+		"labelLoadError": "Couldn't load th' label.",
+		"labelSubtitle": "{count, plural, one {# treasure} other {# treasures}}",
+		"loadError": "Couldn't load th' current metadata.",
+		"noAlbumCovers": "No covers spied — th' treasure needs a MusicBrainz match.",
+		"noArtistArtwork": "No online artwork spied — needs a fanart.tv key + a MusicBrainz match.",
+		"noArtistsFound": "No artists spied.",
+		"noLogos": "No logos spied — needs a fanart.tv key + a MusicBrainz match.",
+		"noMatches": "Nary a match.",
+		"reattributeTo": "Re-attribute t' {name}",
+		"searchPlaceholder": "Hunt artists, treasures, or ditties…"
+	},
+	"noAccess": {
+		"backToApp": "Back t' th' app",
+		"body": "Ye don't have access t' site administration. {link}."
+	},
+	"suggestions": {
+		"empty": "No pendin' suggestions.",
+		"titleWithCount": "{count, plural, one {Metadata suggestions (# pendin')} other {Metadata suggestions (# pendin')}}"
+	},
+	"users": {
+		"deleteConfirm": "Permanently scuttle @{handle} an' ALL their data? This cannot be undone.",
+		"deleteTitle": "Scuttle deckhand",
+		"searchPlaceholder": "Hunt handle, email, or name…",
+		"suspendConfirm": "Suspend @{handle}? They'll be signed out an' unable t' log in.",
+		"suspendTitle": "Suspend deckhand",
+		"title": "Crew"
+	}
+}

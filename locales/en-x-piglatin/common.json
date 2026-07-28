@@ -1,0 +1,147 @@
+{
+	"a11y": {
+		"dismissNotification": "Ismissday otificationnay",
+		"playTrack": "Ayplay {title}"
+	},
+	"actions": {
+		"cancel": "Ancelcay",
+		"changeImage": "Angechay imageway",
+		"clearAll": "Earclay allway",
+		"close": "Oseclay",
+		"confirm": "Onfirmcay",
+		"delete": "Eleteday",
+		"done": "Oneday",
+		"download": "Ownloadday",
+		"edit": "Editway",
+		"find": "Indfay",
+		"goHome": "Ogay omehay",
+		"more": "Oremay",
+		"moveDown": "Ovemay ownday",
+		"moveUp": "Ovemay upway",
+		"open": "Openway",
+		"pin": "Inpay",
+		"play": "Ayplay",
+		"remove": "Emoveray",
+		"rename": "Enameray",
+		"reset": "Esetray",
+		"save": "Avesay",
+		"search": "Earchsay",
+		"seeAll": "Eesay allway",
+		"seeMore": "Eesay oremay",
+		"share": "Areshay",
+		"showLess": "Owshay esslay",
+		"showMore": "Owshay oremay",
+		"signOut": "Ignsay outway",
+		"tryAgain": "Ytray againway",
+		"undo": "Undoway",
+		"unpin": "Unpinway",
+		"verify": "Erifyvay"
+	},
+	"commandPalette": {
+		"hint": {
+			"go": "Ogay",
+			"open": "Openway",
+			"play": "Ayplay"
+		},
+		"noMatches": "Onay atchesmay.",
+		"placeholder": "Earchsay usicmay orway umpjay otay away agepay…",
+		"title": "Ommandcay alettepay",
+		"typeToSearch": "Ypetay otay earchsay."
+	},
+	"error": {
+		"failedToLoad": "Ailedfay otay oadlay"
+	},
+	"errors": {
+		"saveFailed": "Avesay ailedfay."
+	},
+	"fields": {
+		"artist": "Artistway",
+		"country": "Ountrycay",
+		"description": "Escriptionday",
+		"label": "Abellay",
+		"name": "Amenay",
+		"title": "Itletay",
+		"type": "Ypetay",
+		"year": "Earyay"
+	},
+	"fileBrowser": {
+		"browse": "Owsebray",
+		"goUp": "Ogay upway",
+		"useThisFolder": "Useway isthay olderfay"
+	},
+	"keybinds": {
+		"closeDialog": "Oseclay ialogday",
+		"commandPalette": "Ommandcay alettepay",
+		"help": "Eyboardkay ortcutsshay",
+		"quickSearch": "Uickqay earchsay",
+		"section": {
+			"general": "Eneralgay",
+			"navigation": "Avigationnay",
+			"player": "Ayerplay"
+		},
+		"toggleRightSidebar": "Oggletay ightray idebarsay"
+	},
+	"language": {
+		"description": "Anguagelay usedway acrossway ethay interfaceway.",
+		"label": "Anguagelay"
+	},
+	"nav": {
+		"allLibraries": "Allway ibrarieslay",
+		"friends": "Iendsfray",
+		"home": "Omehay",
+		"library": "Ibrarylay",
+		"listen": "Istenlay",
+		"search": "Earchsay",
+		"settings": "Ettingssay",
+		"signIn": "Ignsay inway"
+	},
+	"notFound": {
+		"body": "Isthay agepay oesnday't existway.",
+		"goHome": "Ogay omehay",
+		"title": "Agepay otnay oundfay"
+	},
+	"or": "orway",
+	"sidebar": {
+		"collapse": "Ollapsecay idebarsay",
+		"expand": "Expandway idebarsay",
+		"resize": "Esizeray idebarsay"
+	},
+	"image": {
+		"adjust": "Adjustway",
+		"adjustTitle": "Adjustway imageway",
+		"rotateLeft": "Otateray eftlay",
+		"rotateRight": "Otateray ightray",
+		"flipHorizontal": "Ipflay orizontalhay",
+		"flipVertical": "Ipflay erticalvay",
+		"hint": "Agdray otay epositionray · oomzay inway otay eframeray",
+		"reset": "Esetray",
+		"zoom": "Oomzay"
+	},
+	"state": {
+		"loading": "Oadinglay…",
+		"off": "Offway",
+		"on": "Onway"
+	},
+	"states": {
+		"loading": "Oadinglay…",
+		"off": "Offway",
+		"saving": "Avingsay…",
+		"verifying": "Erifyingvay…"
+	},
+	"status": {
+		"saved": "Avedsay",
+		"sending": "Endingsay…"
+	},
+	"update": {
+		"available": "Away ewnay ersionvay isway availableway.",
+		"refresh": "Efreshray"
+	},
+	"userMenu": {
+		"admin": "Adminway",
+		"libraries": "Ibrarieslay",
+		"profile": "Ouryay ofilepray",
+		"settings": "Ettingssay",
+		"signOut": "Ignsay outway",
+		"stats": "Atsstay"
+	}
+}

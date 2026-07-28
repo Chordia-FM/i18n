@@ -1,0 +1,107 @@
+{
+	"account": {
+		"emailChangeFailed": "Ouldcay otnay artstay emailway angechay."
+	},
+	"admin": {
+		"deleteSelf": "Useway accountway ettingssay otay eleteday ouryay ownway accountway.",
+		"invalidReportAction": "Actionway ustmay ebay “esolvedray” orway “ismissedday”."
+	},
+	"auth": {
+		"badCredentials": "Incorrectway emailway orway asswordpay.",
+		"displayNameLength": "Isplayday amenay ustmay ebay 1–64 aracterschay.",
+		"emailInUse": "Atthay emailway isway alreadyway inway useway.",
+		"emailInvalid": "Away alidvay emailway addressway isway equiredray.",
+		"handleChars": "Usernameway aymay ontaincay onlyway etterslay, igitsday, “_” andway “-”, andway ustmay artstay ithway away etterlay orway igitday.",
+		"handleLength": "Usernameway ustmay ebay 2–32 aracterschay.",
+		"passwordLength": "Asswordpay ustmay ebay {min}–{max} aracterschay.",
+		"passwordRange": "Asswordpay ustmay ebay 8–1024 aracterschay.",
+		"twoFactorAlreadyEnabled": "Otway-actorfay authenticationway isway alreadyway enabledway — isableday itway irstfay.",
+		"twoFactorNotEnabled": "Otway-actorfay authenticationway isway otnay enabledway.",
+		"twoFactorStartFirst": "Artstay otway-actorfay etupsay irstfay."
+	},
+	"catalog": {
+		"albumLoadFailed": "Ailedfay otay oadlay",
+		"artistLoadFailed": "Ailedfay otay oadlay",
+		"artistNameTaken": "Anotherway artistway alreadyway ashay atthay amenay.",
+		"labelLoadFailed": "Ouldncay't oadlay isthay abellay",
+		"unknownArtist": "Unknownway artistway.",
+		"unknownImageHash": "Unknownway imageway."
+	},
+	"changeFailed": "Ouldncay't avesay atthay angechay — easeplay ytray againway.",
+	"directory": {
+		"serverOffline": "Atthay erversay isway offlineway."
+	},
+	"discovery": {
+		"dailyMixFailed": "Ouldncay't uildbay isthay ixmay",
+		"radioFailed": "Ouldncay't uildbay isthay adioray"
+	},
+	"failedToLoad": "Ailedfay otay oadlay",
+	"friends": {
+		"cannotFriendSelf": "Ouyay ancay't endsay away iendfray equestray otay ourselfyay."
+	},
+	"generic": "Ailedfay",
+	"image": {
+		"empty": "Ethay imageway isway emptyway.",
+		"fetchFailed": "Ouldncay't etchfay atthay imageway.",
+		"hashMismatch": "Imageway ontentcay idnday't atchmay ethay expectedway ashhay.",
+		"invalidUrl": "Invalidway imageway URL.",
+		"tooLarge": "Imageway isway ootay argelay (axmay 8 MiB)."
+	},
+	"insights": {
+		"compareSelf": "Ouyay ancay't omparecay ithway ourselfyay.",
+		"compatibilityNotFound": "Onay userway ithway atthay andlehay.",
+		"compatibilityPrivate": "Atthay userway's isteninglay activityway isway ivatepray.",
+		"invalidTimezone": "Unknownway imetay onezay “{timezone}”.",
+		"loadFriendActivityFailed": "Ailedfay otay oadlay iendfray activityway",
+		"loadHistoryFailed": "Ailedfay otay oadlay istoryhay",
+		"loadStatsFailed": "Ailedfay otay oadlay atsstay",
+		"milestoneRange": "Ickpay away ayplay umbernay ofway 1 orway oremay.",
+		"pagingPair": "before_ms andway before_id ustmay ebay ovidedpray ogethertay."
+	},
+	"label": {
+		"nameTaken": "Anotherway abellay alreadyway ashay atthay amenay."
+	},
+	"library": {
+		"limitReached": "Ibrarylay imitlay eachedray orfay isthay accountway."
+	},
+	"lyrics": {
+		"noLines": "Erethay areway onay yriclay ineslay otay avesay."
+	},
+	"moderation": {
+		"blockSelf": "Ouyay ancay't ockblay ourselfyay.",
+		"reasonRequired": "Away easonray (≤200 aracterschay) isway equiredray."
+	},
+	"noFields": "Onay ieldsfay otay updateway.",
+	"oauth": {
+		"missingCode": "Issingmay authorizationway odecay."
+	},
+	"pins": {
+		"unknownKind": "Unknownway inpay indkay."
+	},
+	"playlist": {
+		"limitReached": "Aylistplay imitlay eachedray orfay isthay accountway."
+	},
+	"route": {
+		"message": "Anway unexpectedway errorway interruptedway isthay agepay. Ouyay ancay ytray againway orway eadhay ackbay omehay.",
+		"title": "Omethingsay entway ongwray"
+	},
+	"saveFailed": "Ailedfay otay avesay",
+	"share": {
+		"withSelf": "Ouyay ancay't areshay ithway ourselfyay."
+	},
+	"twoFactor": {
+		"invalidCode": "Invalidway odecay.",
+		"setupFailed": "Ouldcay otnay artstay 2FA etupsay."
+	},
+	"user": {
+		"handleGenFailed": "Ouldncay't enerategay away uniqueway andlehay orfay isthay Discord accountway.",
+		"handleOrEmailTaken": "Atthay andlehay orway emailway isway alreadyway akentay.",
+		"handleTaken": "Atthay andlehay isway alreadyway akentay.",
+		"notFound": "Onay userway ithway atthay andlehay."
+	},
+	"validation": {
+		"nameOrIconRequired": "Away amenay orway iconway isway equiredray.",
+		"nameRequired": "Amenay isway equiredray."
+	},
+	"valueEmpty": "Aluevay annotcay ebay emptyway."
+}

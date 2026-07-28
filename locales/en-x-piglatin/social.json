@@ -1,0 +1,57 @@
+{
+	"block": {
+		"confirmLabel": "Ockblay",
+		"confirmMessage": "Ockblay @{handle}? Ouyay onway't ebay ableway otay addway eachway otherway asway iendsfray.",
+		"confirmTitle": "Ockblay userway"
+	},
+	"discovery": {
+		"addFriend": "Addway iendfray",
+		"friendsStatus": "Iendsfray",
+		"requestSent": "Equestray entsay",
+		"sending": "Endingsay…"
+	},
+	"friends": {
+		"confirmRemove": "Onfirmcay?",
+		"empty": "Onay iendsfray etyay - earchsay otay addway omesay",
+		"heading": "Iendsfray ({count})",
+		"removing": "Emovingray…",
+		"title": "Iendsfray"
+	},
+	"modMenu": {
+		"blocked": "Ockedblay",
+		"report": "Eportray",
+		"reported": "Eportedray"
+	},
+	"page": {
+		"title": "Iendsfray"
+	},
+	"profile": {
+		"eyebrow": "Ofilepray",
+		"itemPlays": "{count, plural, one {# ayplay} other {# aysplay}}",
+		"joinedLabel": "oinedjay {date}",
+		"loadError": "Ouldncay't oadlay isthay ofilepray.",
+		"noActivity": "Onay isteninglay activityway etyay.",
+		"notFound": "Onay userway ithway atthay andlehay.",
+		"private": {
+			"description": "{name} onlyway aresshay eirthay isteninglay ithway iendsfray.",
+			"title": "Isthay ofilepray isway ivatepray"
+		},
+		"recentlyPlayed": "Ecentlyray ayedplay",
+		"topArtists": "Optay artistsway",
+		"topTracks": "Optay ackstray",
+		"totalPlays": "{count, plural, one {# ayplay} other {# aysplay}}"
+	},
+	"report": {
+		"promptMessage": "Eportray @{handle} — atwhay's ethay issueway?"
+	},
+	"requests": {
+		"accept": "Acceptway",
+		"accepting": "Acceptingway…",
+		"pendingHeading": "Endingpay equestsray ({count})"
+	},
+	"search": {
+		"noResults": "Onay usersway oundfay.",
+		"placeholder": "Earchsay ybay andlehay orway isplayday amenay…",
+		"searching": "Earchingsay…"
+	}
+}

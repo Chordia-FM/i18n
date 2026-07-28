@@ -1,0 +1,22 @@
+{
+	"eyebrow": "Own yer audio · divvy up it yer way",
+	"hero": {
+		"paragraph": "A hybrid, self-hosted shanties ecosystem. Absolute ownership o' yer hoard, wi' th' connected, social streamin' experience - in bit-perfect fidelity."
+	},
+	"pillars": {
+		"liveRooms": {
+			"body": "Synchronized listenin' parties wi' chat, votes, an' turn-takin' DJs. Ye hear yer own copy when ye own it; yer hoard relays th' rest.",
+			"title": "Live listenin' rooms"
+		},
+		"ownIt": {
+			"body": "Keep yer hoard at port on a NAS or Pi, or run it on a cloud server - either way th' shanties be yers. It streams bit-perfect (FLAC, ALAC, WAV, Dolby Atmos) straight t' yer devices, an' Chordia ne'er stores or routes yer audio."
+		},
+		"selectiveSharing": {
+			"body": "Organize shanties into separate hoards - \"Ahoy-Fi Archive\", \"Family Collection\" - an' divvy up each one wi' exactly th' hearties ye choose.",
+			"title": "Selective divvyin' up"
+		},
+		"wrapped": {
+			"body": "Every play be scrobbled t' yer global account an' kept forever - weekly, monthly, an' yearly insights that survive any server move."
+		}
+	}
+}

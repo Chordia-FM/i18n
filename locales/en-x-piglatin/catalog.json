@@ -1,0 +1,199 @@
+{
+	"actions": {
+		"editMetadata": "Editway etadatamay"
+	},
+	"album": {
+		"count": "{count, plural, one {# albumway} other {# albumsway}}",
+		"download": {
+			"albumTitle": "Ownloadday albumway",
+			"busy": "Ownloadingday…",
+			"done": "Ownloadedday",
+			"failed": "Ownloadday ailedfay",
+			"removePartial": "Emovedray {removed}, {failed} ailedfay",
+			"removeTitle": "Emoveray ownloadsday",
+			"removed": "Emovedray ownloadsday",
+			"savedCount": "{count, plural, one {Ownloadedday # ongsay} other {Ownloadedday # ongssay}}",
+			"savedPartial": "Ownloadedday {saved}, {failed} ailedfay"
+		},
+		"durationHrMin": "{count, plural, one {# hr} other {# hr}} {minutes} inmay",
+		"durationMin": "{minutes} inmay",
+		"songCount": "{count, plural, one {# ongsay} other {# ongssay}}"
+	},
+	"artist": {
+		"albums": "Albumsway",
+		"appearsOn": "Appearsway onway",
+		"born": "Ornbay {year}",
+		"card": {
+			"albumCount": "{count, plural, one {# albumway} other {# albumsway}}"
+		},
+		"discography": "Iscographyday",
+		"formed": "Ormedfay {year}",
+		"labels": "Abelslay",
+		"liveAlbum": {
+			"card": "Allway ivelay ecordingsray",
+			"label": "Ivelay ollectioncay",
+			"subtitle": "{count, plural, one {Omfray # albumway} other {Omfray # albumsway}}",
+			"title": "{name} — Ivelay"
+		},
+		"popular": "Opularpay",
+		"radio": "Adioray",
+		"relatedArtists": "Elatedray artistsway",
+		"relation": {
+			"alias": "Alsoway ownknay asway",
+			"member": "Embermay ofway / embersmay",
+			"related": "Elatedray"
+		},
+		"releaseCount": "{count, plural, one {# eleaseray} other {# eleasesray}}",
+		"versions": {
+			"instrumental": "Instrumentalway",
+			"live": "Ivelay"
+		}
+	},
+	"edit": {
+		"artworkAlt": "artworkway",
+		"bannerSet": "Annerbay etsay ✓",
+		"browseAlbumCovers": "Owsebray albumway overscay",
+		"browseArtwork": "Owsebray artworkway (fanart.tv)",
+		"field": {
+			"album": "Albumway",
+			"artist": "Artistway",
+			"bio": "Iobay",
+			"discNo": "Iscday #",
+			"genre": "Enregay",
+			"genres": "Enresgay (ommacay-eparatedsay)",
+			"label": "Abellay",
+			"name": "Amenay",
+			"title": "Itletay",
+			"trackNo": "Acktray #",
+			"type": "Ypetay",
+			"year": "Earyay"
+		},
+		"helpText": "Eavelay away ieldfay ankblay otay eepkay ethay originalway. Angeschay areway oredstay orfay isthay ibrarylay onlyway, unlessway ouyay enableway “Overrideway oballyglay”.",
+		"noArtworkAlbum": "Onay overscay oundfay — ethay albumway eedsnay away MusicBrainz atchmay.",
+		"noArtworkArtist": "Onay onlineway artworkway oundfay — eedsnay away fanart.tv API eykay andway away MusicBrainz atchmay.",
+		"overrideGlobally": {
+			"help": "Alsoway owshay isthay editway acrossway ouryay olewhay atalogcay (ouryay ighesthay-ioritypray ibrarylay insway). Oesnday't angechay ethay originalway orway affectway otherway usersway.",
+			"label": "Overrideway oballyglay"
+		},
+		"reset": {
+			"confirmMessage": "Esetray otay originalway etadatamay? Isthay earsclay ouryay editsway orfay isthay itemway.",
+			"confirmTitle": "Esetray etadatamay"
+		},
+		"resetToOriginal": "Esetray otay originalway",
+		"title": {
+			"album": "Editway albumway",
+			"artist": "Editway artistway",
+			"track": "Editway acktray"
+		},
+		"uploadBanner": "Uploadway annerbay",
+		"uploadCover": "Uploadway overcay",
+		"uploadImage": "Uploadway imageway",
+		"useThisArt": "Useway isthay {kind}"
+	},
+	"entity": {
+		"artist": "Artistway"
+	},
+	"genres": {
+		"counts": "{albumsFormatted} {albums, plural, one {albumway} other {albumsway}} · {artistsFormatted} {artists, plural, one {artistway} other {artistsway}}",
+		"empty": "Onay enresgay etyay — eythay arriveway ithway albumway etadatamay asway ouryay ibrarylay isway enrichedway.",
+		"eyebrow": "Enregay",
+		"notFound": "Onay albumsway arrycay atthay enregay.",
+		"title": "Enresgay",
+		"topAlbums": "Optay albumsway",
+		"topArtists": "Optay artistsway",
+		"variants": "Alsoway aggedtay: {list}"
+	},
+	"label": {
+		"albumCount": "{count, plural, one {# albumway} other {# albumsway}}",
+		"albumCountWithPrefix": "Abellay · {count, plural, one {# albumway} other {# albumsway}}",
+		"eyebrow": "Abellay",
+		"factsSeparator": "ypetay · ountrycay · ifespanlay",
+		"formerly": "Ormerlyfay {names}",
+		"lifespan": {
+			"founded": "Oundedfay {year}",
+			"until": "Untilway {year}"
+		},
+		"noAlbums": "Onay albumsway."
+	},
+	"labels": {
+		"empty": "Onay abelslay etyay — eythay illfay inway asway ouryay atalogcay isway enrichedway omfray MusicBrainz.",
+		"title": "Abelslay"
+	},
+	"lyrics": {
+		"heading": "Yricslay",
+		"placeholderPlain": "Irstfay inelay\nEcondsay inelay",
+		"placeholderSynced": "[00:00.00] Irstfay inelay\n[00:04.20] Econdsay inelay",
+		"plainHelp": "Ainplay yricslay — oneway inelay eachway, onay imingtay.",
+		"resetDone": "Esetray otay autoway-etchedfay yricslay",
+		"resetError": "Ouldncay't esetray yricslay",
+		"resetToAuto": "Esetray otay autoway",
+		"resetToAutoTitle": "Orgetfay isthay editway andway eray-etchfay omfray ethay oviderpray",
+		"save": "Avesay yricslay",
+		"saveError": "Ouldncay't avesay yricslay",
+		"saved": "Yricslay avedsay",
+		"sharedNote": "Aredshay acrossway allway ibrarieslay. ",
+		"syncedHelp": "Oneway inelay erpay yriclay, eachway efixedpray ithway away imestamptay ikelay [00:12.34]; untimedway ineslay areway oppeddray.",
+		"syncedLabel": "Yncedsay (LRC imingtay)"
+	},
+	"report": {
+		"action": "Eportray",
+		"allLibraries": "Allway ymay ibrarieslay",
+		"bannerSet": "Ewnay annerbay eadyray ✓",
+		"changeBanner": "Angechay annerbay",
+		"changeImage": "Angechay imageway",
+		"field": {
+			"bio": "Iobay",
+			"genres": "Enresgay (ommacay-eparatedsay)",
+			"name": "Amenay",
+			"note": "Otenay orfay eviewersray (optionalway)"
+		},
+		"genresHint": "Eparatesay ultiplemay enresgay ithway ommascay.",
+		"helpText": "Editway {name}'s etailsday elowbay. Avesay angeschay otay away ibrarylay ouyay ownway instantlyway, orway ubmitsay emthay asway away uggestionsay orfay everyoneway (anway adminway eviewsray osethay). Onlyway angedchay ieldsfay areway entsay.",
+		"imageAlt": "Artistway imageway",
+		"libraryTarget": "Oosechay ichwhay ibrarylay otay avesay otay",
+		"noteHint": "Onlyway entsay ithway away uggestionsay. Anythingway atthay elpshay eviewersray (e.g. away ourcesay inklay).",
+		"saveFailed": "Ouldncay't avesay ouryay angeschay.",
+		"saveToLibrary": "Avesay otay ibrarylay",
+		"savedToAll": "Avedsay otay allway ouryay ibrarieslay.",
+		"savedToLibrary": "Avedsay otay {name}.",
+		"submit": "Ubmitsay uggestionsay",
+		"submitFailed": "Ouldncay't endsay ouryay uggestionsay.",
+		"suggestionSent": "Uggestionsay entsay orfay eviewray.",
+		"title": "Editway artistway etailsday"
+	},
+	"search": {
+		"placeholder": "Artistsway, albumsway, orway ongssay"
+	},
+	"section": {
+		"albums": "Albumsway",
+		"artists": "Artistsway",
+		"labels": "Abelslay",
+		"songs": "Ongssay",
+		"tracks": "Ackstray"
+	},
+	"songCount": "{count, plural, one {# ongsay} other {# ongssay}}",
+	"track": {
+		"clean": "Eanclay",
+		"column": {
+			"album": "Albumway",
+			"dateAdded": "Ateday addedway",
+			"plays": "Aysplay",
+			"title": "Itletay"
+		},
+		"download": {
+			"exists": "Alreadyway ownloadedday",
+			"removeAction": "Emoveray ownloadday",
+			"removeError": "Ouldncay't emoveray ownloadday",
+			"removed": "Emovedray ownloadday",
+			"savedNamed": "Ownloadedday {title}"
+		},
+		"explicit": "Explicitway",
+		"playAria": "Ayplay {title} ybay {artist}",
+		"relTime": {
+			"daysAgo": "{count, plural, one {# ayday agoway} other {# aysday agoway}}",
+			"today": "Odaytay",
+			"yesterday": "Esterdayyay"
+		}
+	},
+	"trackCount": "{count, plural, one {# acktray} other {# ackstray}}"
+}

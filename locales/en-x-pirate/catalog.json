@@ -1,0 +1,118 @@
+{
+	"album": {
+		"count": "{count, plural, one {# treasure} other {# treasures}}",
+		"download": {
+			"albumTitle": "Plunder treasure",
+			"busy": "Plunderin'…",
+			"done": "Plundered",
+			"failed": "Plunder failed",
+			"removeTitle": "Cast off booty",
+			"removed": "Removed booty",
+			"savedCount": "{count, plural, one {Plundered # shanty} other {Plundered # shanties}}",
+			"savedPartial": "Plundered {saved}, {failed} failed"
+		},
+		"songCount": "{count, plural, one {# shanty} other {# shanties}}"
+	},
+	"artist": {
+		"albums": "Treasures",
+		"card": {
+			"albumCount": "{count, plural, one {# treasure} other {# treasures}}"
+		},
+		"liveAlbum": {
+			"card": "All live recordin's",
+			"subtitle": "{count, plural, one {From # treasure} other {From # treasures}}"
+		},
+		"radio": "Pirate radio",
+		"relation": {
+			"member": "Member o' / members"
+		}
+	},
+	"edit": {
+		"browseAlbumCovers": "Browse treasure covers",
+		"field": {
+			"album": "Treasure",
+			"trackNo": "Ditty #"
+		},
+		"helpText": "Leave a field blank t' keep th' original. Changes be stored fer this hoard only, unless ye enable “Override globally”.",
+		"noArtworkAlbum": "No covers spied — th' treasure needs a MusicBrainz match.",
+		"noArtworkArtist": "No online artwork spied — needs a fanart.tv API key an' a MusicBrainz match.",
+		"overrideGlobally": {
+			"help": "Also show this edit across yer whole catalog (yer highest-priority hoard wins). Doesn't change th' original or affect other crew."
+		},
+		"reset": {
+			"confirmMessage": "Reset t' original metadata? This clears yer edits fer this item."
+		},
+		"resetToOriginal": "Reset t' original",
+		"title": {
+			"album": "Edit treasure",
+			"track": "Edit ditty"
+		}
+	},
+	"genres": {
+		"counts": "{albumsFormatted} {albums, plural, one {treasure} other {treasures}} · {artistsFormatted} {artists, plural, one {artist} other {artists}}",
+		"empty": "No genres yet — they arrive wi' treasure metadata as yer hoard be enriched.",
+		"notFound": "No treasures carry that genre.",
+		"topAlbums": "Choicest treasures",
+		"topArtists": "Choicest minstrels"
+	},
+	"label": {
+		"albumCount": "{count, plural, one {# treasure} other {# treasures}}",
+		"albumCountWithPrefix": "Label · {count, plural, one {# treasure} other {# treasures}}",
+		"noAlbums": "No treasures."
+	},
+	"labels": {
+		"empty": "No labels yet — they fill in as yer catalog be enriched from MusicBrainz."
+	},
+	"lyrics": {
+		"plainHelp": "Plain lyrics — one line each, no timin'.",
+		"resetDone": "Reset t' auto-fetched lyrics",
+		"resetToAuto": "Reset t' auto",
+		"resetToAutoTitle": "Forget this edit an' re-fetch from th' provider",
+		"save": "Stow lyrics",
+		"saveError": "Couldn't stow lyrics",
+		"saved": "Lyrics stowed",
+		"sharedNote": "Divvied across all hoards. ",
+		"syncedHelp": "One line per lyric, each prefixed wi' a timestamp like [00:12.34]; untimed lines be dropped.",
+		"syncedLabel": "Synced (LRC timin')"
+	},
+	"report": {
+		"allLibraries": "All me hoards",
+		"field": {
+			"note": "Note fer reviewers (optional)"
+		},
+		"genresHint": "Separate multiple genres wi' commas.",
+		"helpText": "Edit {name}'s details below. Stow changes t' a hoard ye own instantly, or submit 'em as a suggestion fer all hands (an admin reviews those). Only changed fields be sent.",
+		"libraryTarget": "Choose which hoard t' stow t'",
+		"noteHint": "Only sent wi' a suggestion. Anythin' that helps reviewers (e.g. a source link).",
+		"saveFailed": "Couldn't stow yer changes.",
+		"saveToLibrary": "Stow t' hoard",
+		"savedToAll": "Stowed t' all yer hoards.",
+		"savedToLibrary": "Stowed t' {name}.",
+		"submitFailed": "Couldn't send yer suggestion.",
+		"suggestionSent": "Suggestion sent fer review."
+	},
+	"search": {
+		"placeholder": "Artists, treasures, or shanties"
+	},
+	"section": {
+		"albums": "Treasures",
+		"songs": "Shanties",
+		"tracks": "Ditties"
+	},
+	"songCount": "{count, plural, one {# shanty} other {# shanties}}",
+	"track": {
+		"column": {
+			"album": "Treasure"
+		},
+		"download": {
+			"exists": "Already plundered",
+			"removeAction": "Cast off plunder",
+			"removeError": "Couldn't cast off plunder",
+			"removed": "Removed plunder",
+			"savedNamed": "Plundered {title}"
+		},
+		"explicit": "Salty",
+		"playAria": "Strike up {title} by {artist}"
+	},
+	"trackCount": "{count, plural, one {# ditty} other {# ditties}}"
+}

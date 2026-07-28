@@ -1,0 +1,28 @@
+{
+	"collabInvite": {
+		"body": "{inviter} added ye as a collaborator on th' chart “{playlist}”.",
+		"cta": "Open th' chart",
+		"hint": "Ye can now add an' cast off ditties.",
+		"subject": "Ye were added t' a Chordia chart"
+	},
+	"footer": {
+		"manage": "Ye can turn these emails off in Chordia Riggin' → Notifications."
+	},
+	"friendRequest": {
+		"body": "{name} wants t' connect wi' ye on Chordia.",
+		"heading": "New matey request",
+		"subject": "{name} sent ye a matey request"
+	},
+	"passwordReset": {
+		"body": "Someone requested a watchword reset fer yer Chordia account.",
+		"cta": "Reset yer watchword",
+		"ignore": "If ye didn't request this, ye can safely ignore this email.",
+		"subject": "Reset yer Chordia watchword"
+	},
+	"verifyEmail": {
+		"body": "Pray confirm yer email address t' finish settin' up yer account.",
+		"cta": "Verify yer email",
+		"heading": "Welcome aboard Chordia",
+		"subject": "Verify yer Chordia email"
+	}
+}

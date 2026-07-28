@@ -1,0 +1,38 @@
+{
+	"dailyMix": {
+		"label": "Daily Grog"
+	},
+	"greeting": {
+		"afternoon": "Afternoon, me hearty",
+		"evening": "Evenin', me hearty",
+		"morning": "Mornin', me hearty"
+	},
+	"home": {
+		"emptyState": "Nothin' here yet - pair a hoard server an' yer catalog will appear."
+	},
+	"jumpBackIn": {
+		"emptyState": "Things ye've played recently will show up here.",
+		"title": "Climb back aboard"
+	},
+	"madeForYou": {
+		"emptyState": "Listen t' more shanties an' yer daily mixes will appear here.",
+		"title": "Charted fer ye"
+	},
+	"mix": {
+		"noTracksToast": "This mix has no playable ditties yet",
+		"playTitle": "Strike up {title}",
+		"playingToast": "Playin' {title}"
+	},
+	"radio": {
+		"label": "Pirate radio"
+	},
+	"shelf": {
+		"jumpBackIn": "Climb back aboard",
+		"madeFor": "Charted fer {name}",
+		"madeForYou": "ye",
+		"recommended": "Th' quartermaster's picks",
+		"trendingAlbums": "Treasures makin' waves",
+		"trendingArtists": "Artists makin' waves",
+		"yourLibraries": "Yer hoards"
+	}
+}

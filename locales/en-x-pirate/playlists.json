@@ -1,0 +1,70 @@
+{
+	"actions": {
+		"rename": "Rename chart"
+	},
+	"addError": "Couldn't add t' chart",
+	"addToNamed": "Add t' {playlist}",
+	"addToPlaylist": "Add t' chart",
+	"addedToast": "Added t' {playlist}",
+	"collaborators": {
+		"justYou": "Just ye",
+		"removeTitle": "Cast off {name}"
+	},
+	"confirm": {
+		"deleteMessage": "Scuttle \"{name}\"?",
+		"deleteTitle": "Scuttle chart"
+	},
+	"cover": {
+		"remove": "Cast off image"
+	},
+	"delete": {
+		"confirmBody": "Scuttle this chart?",
+		"title": "Scuttle chart"
+	},
+	"empty": "This chart be empty. Add shanties from th' “⋯” menu on any ditty.",
+	"kindLabel": "Chart",
+	"leave": {
+		"confirmBody": "Leave this collaborative chart?",
+		"confirmLabel": "Jump ship",
+		"title": "Leave chart"
+	},
+	"menuEmpty": "No charts",
+	"new": "New chart",
+	"prompt": {
+		"newName": "Chart name",
+		"rename": "Rename chart"
+	},
+	"removeFromPlaylist": "Cast off from chart",
+	"sharedWithYou": " · divvied wi' ye",
+	"smart": {
+		"autoUpdating": " · auto-updatin'",
+		"created": "Cunning chart created",
+		"delete": {
+			"confirmBody": "Scuttle this cunning chart?",
+			"title": "Scuttle cunning chart"
+		},
+		"description": "Rules resolve t' matchin' ditties automatically.",
+		"editTitle": "Edit cunning chart",
+		"empty": "No ditties match these rules yet. Try loosenin' 'em wi' “Edit rules”.",
+		"field": {
+			"album": "Treasure"
+		},
+		"kindLabel": "Cunning chart",
+		"namePlaceholder": "Chart name",
+		"new": "New cunning chart",
+		"newTitle": "New cunning chart",
+		"ofTheseRules": "o' these rules:",
+		"op": {
+			"equals": "be",
+			"is": "be"
+		},
+		"removeRule": "Cast off rule",
+		"saveError": "Couldn't stow th' cunning chart",
+		"updated": "Cunning chart updated"
+	},
+	"songCount": "{count, plural, one {# shanty} other {# shanties}}",
+	"toast": {
+		"createFailed": "Couldn't create chart",
+		"deleteFailed": "Couldn't scuttle chart"
+	}
+}

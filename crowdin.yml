@@ -29,3 +29,10 @@ files:
   - source: /locales/en/**/*.json
     translation: /locales/%locale%/**/%original_file_name%
     type: json
+    # The joke locales are generated from English by scripts/generate-fun-locales.mjs, not
+    # translated. Uploading them would put machine-mangled English in front of human translators
+    # and invite Crowdin to treat `en-x-pirate` as a target language needing 1,418 strings of
+    # attention. They are regenerated on every English change, so nothing here needs syncing.
+    ignore:
+      - /locales/en-x-pirate/**
+      - /locales/en-x-piglatin/**

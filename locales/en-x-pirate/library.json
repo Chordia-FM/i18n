@@ -1,0 +1,169 @@
+{
+	"artists": {
+		"empty": "No artists yet - th' catalog may still be syncin'."
+	},
+	"card": {
+		"editTitle": "Edit this hoard",
+		"shareTitle": "Divvy up this hoard",
+		"trackCount": "{count, plural, one {# ditty} other {# ditties}}"
+	},
+	"edit": {
+		"albumsLabel": "Treasures",
+		"dedupeLabel": "De-duplicate - keep only th' highest-quality copy when files land in th' same place (otherwise they get (2), (3)… suffixes)",
+		"deleteConfirm": {
+			"confirmLabel": "Cast off",
+			"message": "Cast off this hoard? Yer files stay on disk; it's removed from Chordia.",
+			"title": "Cast off hoard"
+		},
+		"deleteFailed": "Scuttle failed",
+		"fallbackToAlbums": "{template} (falls back t' Treasures)",
+		"foldersHelp": "Untick a folder t' keep it out o' this hoard. Untickin' a folder disables everythin' inside it.",
+		"foldersUpdateFailed": "Failed t' update folders",
+		"foldersUpdated": "Folders updated - re-scannin'…",
+		"iconSaveFailed": "Failed t' stow icon",
+		"iconSaved": "Icon stowed",
+		"nameSaved": "Name stowed",
+		"noSubFolders": "No sub-folders t' manage.",
+		"organizeConfirm": {
+			"messageDedupe": "This moves files on disk into th' new layout an' deletes lower-quality duplicates. Continue?",
+			"messagePlain": "This moves files on disk into th' new layout. Yer audio ain't altered, only relocated. Continue?"
+		},
+		"organizeFailed": "Failed t' update organize",
+		"organizeHelp": "Lay this hoard's audio files out on disk from a template. Folders be created as needed an' scanned automatically.",
+		"organizeStatus": "Organizin' files…",
+		"organizeToggle": "Organize this hoard's files",
+		"pairedDeviceFolders": "T' edit folders, open this page on th' device where ye paired this server.",
+		"pairedDeviceOrganize": "T' change this, open this page on th' device where ye paired this server.",
+		"removeHelp": "Removes it from Chordia. Yer audio files be not touched.",
+		"removeTitle": "Cast off hoard",
+		"rescanProgress": "Rescannin'…",
+		"rescanHelp": "Re-reads every file from disk (metadata, added/removed ditties). Full re-index also re-processes unchanged files. Use it t' apply changes like edition mergin' t' an existin' hoard.",
+		"rescanStatus": "Rescannin' all files…",
+		"rescanning": "Rescannin'…",
+		"saveFolders": "Stow folders",
+		"singlesLabel": "Singles (no treasure)",
+		"templateHelp": "Variables: {vars}. Empty parts be skipped an' th' file extension be added automatically. {edition} be th' deluxe/special qualifier (empty fer th' standard edition, so it collapses), an' {disc} only appears fer multi-disc treasures. Ditties wi' no treasure use th' Singles template; files we can't identify (no artist tag) use th' Unidentified one.",
+		"title": "Edit hoard",
+		"unknownLabel": "Unidentified ditties"
+	},
+	"downloads": {
+		"clearConfirm": {
+			"message": "Cast off all plundered shanties from this device?",
+			"title": "Clear booty"
+		},
+		"clearError": "Couldn't clear booty",
+		"emptyState": "Shanties ye plunder play without a connection. Use th' Plunder action on any ditty t' stow it here.",
+		"eyebrow": "Plays even adrift",
+		"navLabel": "Booty",
+		"removeError": "Couldn't cast off plunder",
+		"removeTooltip": "Cast off plunder",
+		"songCount": "{count, plural, one {# shanty} other {# shanties}}",
+		"storedOnDevice": "stashed in yer sea chest",
+		"title": "Booty"
+	},
+	"hidden": {
+		"hide": "Hide this shanty"
+	},
+	"liked": {
+		"empty": "Shanties ye like will show up here. Tap th' heart on any ditty.",
+		"eyebrow": "Chart",
+		"remove": "Cast out o' Treasured Shanties",
+		"save": "Stow in Treasured Shanties",
+		"songCount": "{count, plural, one {# shanty} other {# shanties}}",
+		"title": "Treasured Shanties"
+	},
+	"likedSongs": "Treasured Shanties",
+	"list": {
+		"empty": {
+			"hint": "Start yer hoard server, then open th' setup link it prints in its terminal t' pair.",
+			"title": "No hoards yet."
+		},
+		"loading": "Loadin' hoards…",
+		"newLibrary": "New hoard",
+		"sharedWithYou": "Divvied wi' ye",
+		"title": "Yer Hoards"
+	},
+	"metadata": {
+		"intro": "Edit metadata fer this hoard only. Yer changes apply across yer views; anythin' ye leave blank keeps th' original value. Global catalog edits live in th' admin page.",
+		"noMatches": "Nary a match.",
+		"searchPlaceholder": "Hunt artists, treasures, or ditties…"
+	},
+	"new": {
+		"addFailed": "Failed t' add hoard",
+		"adding": "Addin'…",
+		"backLink": "All hoards",
+		"folderLabel": "Folder on th' server",
+		"nameLabel": "Hoard name",
+		"namePlaceholder": "Me Shanties",
+		"noServer": "No paired server spied on this device. Start yer hoard server an' open th' setup link it prints t' pair first.",
+		"serverSelectHint": "This new hoard will be created on th' selected server.",
+		"serverSelectLabel": "Hoard server",
+		"submit": "Add hoard",
+		"title": "New hoard"
+	},
+	"setup": {
+		"addFolderFailed": "Failed t' add folder",
+		"addLibraries": {
+			"adding": "Addin'…",
+			"description": "Browse th' hoard server's filesystem t' pick where yer shanties lives. Ye can add more folders later from riggin'.",
+			"skip": "Skip fer now",
+			"title": "Add shanties folders"
+		},
+		"browseErrorStatus": "Browse calamity: {status}",
+		"done": {
+			"addLater": "Ye can add shanties folders anytime from {settingsLink}.",
+			"foldersAdded": "{count, plural, one {# folder added.} other {# folders added.}} Scannin' be runnin' in th' background - ditties will appear shortly.",
+			"goToLibrary": "Go t' hoard",
+			"title": "Ship's lashed alongside!"
+		},
+		"hubRejectedToken": "Th' Hub rejected th' session token. Try loggin' out an' back in, then retry pairin'.",
+		"insideDataMusic": "Inside {path} on th' server",
+		"listDirFailed": "Failed t' list directory",
+		"missingParams": "Missin' setup parameters. Pray open th' link printed in th' hoard server terminal.",
+		"pair": {
+			"connect": "Lash on",
+			"connecting": "Comin' alongside…",
+			"description": "This will link {url} t' yer Chordia account.",
+			"title": "Connect hoard server"
+		},
+		"pairingFailed": "Th' mooring didn't hold",
+		"sessionExpired": "Yer session has expired - pray log out an' back in, then retry.",
+		"step": {
+			"done": "Shipshape"
+		}
+	},
+	"share": {
+		"dialogLabel": "Divvy up \"{name}\"",
+		"failed": "Failed t' divvy up",
+		"filterFriends": "Filter hearties…",
+		"findPeople": "Spy scallywags",
+		"friendLabel": "Matey",
+		"noFriends": "Ye have no hearties t' divvy up wi' yet.",
+		"permissionStreamDownload": "Stream + plunder",
+		"selectFriend": "Select a matey…",
+		"sharing": "Divvyin' up…",
+		"submit": "Divvy up hoard",
+		"success": "Hoard divvied successfully.",
+		"title": "Divvy up \"{name}\""
+	},
+	"sidebar": {
+		"playlists": "Charts",
+		"yourLibrary": "Yer Hoard"
+	},
+	"trackCount": "{count, plural, one {# ditty} other {# ditties}}",
+	"shareManager": {
+		"title": "Hearties & spoils",
+		"help": "Who has access t' this hoard, what they're doin' wi' it, an' what they're allowed t' do.",
+		"empty": "Not divvied wi' anyone yet. Add a matey below t' give 'em access.",
+		"addFriend": "Add matey",
+		"revoke": "Cast off access",
+		"canRequest": "Can request booty",
+		"directories": "Hoards:",
+		"thisLibrary": "This hoard",
+		"grantAccess": "Give access t' {name}",
+		"removeAccess": "Cast off access t' {name}",
+		"streamingNow": "Streamin' now: {title} — {artist}",
+		"statsLine": "{requests} requested · {downloads} plundered · {plays} plays · {time} listened",
+		"updateFailed": "Couldn't update divvyin' up — try again."
+	}
+}
