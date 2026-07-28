@@ -51,9 +51,11 @@
 		"compareSelf": "You can't compare with yourself.",
 		"compatibilityNotFound": "No user with that handle.",
 		"compatibilityPrivate": "That user's listening activity is private.",
+		"invalidTimezone": "Unknown time zone “{timezone}”.",
 		"loadFriendActivityFailed": "Failed to load friend activity",
 		"loadHistoryFailed": "Failed to load history",
 		"loadStatsFailed": "Failed to load stats",
+		"milestoneRange": "Pick a play number of 1 or more.",
 		"pagingPair": "before_ms and before_id must be provided together."
 	},
 	"label": {
