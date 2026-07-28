@@ -61,6 +61,15 @@
 		"title": "Equalizer",
 		"yourPresetsGroup": "Your presets"
 	},
+	"expanded": {
+		"collapse": "Collapse player",
+		"expand": "Open full player",
+		"nowPlaying": "Now playing",
+		"lyrics": "Lyrics",
+		"queue": "Queue",
+		"more": "More options",
+		"tabs": "Player view"
+	},
 	"fullscreen": {
 		"enter": "Fullscreen",
 		"exit": "Exit fullscreen"
@@ -73,27 +82,15 @@
 		"title": "Lyrics"
 	},
 	"monthlyListeners": "{count, plural, one {# monthly listener} other {# monthly listeners}}",
+	"notPlaying": "Not playing",
+	"nothingPlaying": "Nothing playing yet.",
 	"nowPlaying": {
 		"aboutArtist": "About {name}",
 		"albumFallback": "Album",
 		"playingFrom": "Playing from",
 		"title": "Now playing"
 	},
-	"notPlaying": "Not playing",
-	"nothingPlaying": "Nothing playing yet.",
 	"plays": "{count, plural, one {# play} other {# plays}}",
-	"queue": {
-		"add": "Add to queue",
-		"empty": "Queue is empty.",
-		"nextUp": "Next up",
-		"nothingPlayed": "Nothing played yet.",
-		"playNext": "Play next",
-		"recentlyPlayed": "Recently played",
-		"removeFromQueue": "Remove from queue",
-		"repeatOne": "Repeat one is on - this song will keep replaying.",
-		"thenRepeating": "Then repeating",
-		"title": "Queue"
-	},
 	"quality": {
 		"change": "Change",
 		"dataPerHourGb": "~{value} GB/hour",
@@ -109,6 +106,20 @@
 		"streamingRate": "~{kbps} kbps · {data}",
 		"title": "File quality",
 		"upTo": "Up to {value}"
+	},
+	"queue": {
+		"add": "Add to queue",
+		"addedAlbum_one": "Added 1 track to the queue",
+		"addedAlbum_other": "Added {{count}} tracks to the queue",
+		"empty": "Queue is empty.",
+		"nextUp": "Next up",
+		"nothingPlayed": "Nothing played yet.",
+		"playNext": "Play next",
+		"recentlyPlayed": "Recently played",
+		"removeFromQueue": "Remove from queue",
+		"repeatOne": "Repeat one is on - this song will keep replaying.",
+		"thenRepeating": "Then repeating",
+		"title": "Queue"
 	},
 	"sleepTimer": {
 		"endOfTrack": "End of track",
