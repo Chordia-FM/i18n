@@ -1,10 +1,137 @@
 {
 	"controls": {
 		"fullscreen": "Pantalla completa",
+		"mute": "Silenciar",
+		"next": "Siguiente",
+		"pause": "Pausar",
+		"play": "Reproducir",
+		"previous": "Anterior",
+		"repeat": "Repetir",
+		"seek": "Buscar",
+		"shuffle": "Aleatorio",
+		"unmute": "Activar sonido",
+		"volume": "Volumen",
 		"volumeButton": "Botón de volumen",
 		"volumeSlider": "Deslizador de volumen"
 	},
+	"devices": {
+		"current": "Actual target",
+		"none": "No se encontraron dispositivos de reproducción.",
+		"pressPlay": "Press reproducción a start aquí",
+		"thisTab": "Esta pestaña",
+		"title": "Dispositivo de reproducción"
+	},
+	"eqPreset": {
+		"acoustic": "Acústico",
+		"bassBoost": "Refuerzo de graves",
+		"bassReducer": "Reducción de graves",
+		"classical": "Clásica",
+		"electronic": "Electrónica",
+		"flat": "Plano",
+		"hipHop": "Hip-Hop",
+		"jazz": "Jazz",
+		"loudness": "Sonoridad",
+		"pop": "Pop",
+		"rock": "Rock",
+		"trebleBoost": "Refuerzo de agudos",
+		"trebleReducer": "Reducción de agudos",
+		"vocal": "Vocal"
+	},
+	"equalizer": {
+		"bandFreq": "Frec. de banda {n}",
+		"bandWidth": "Ancho de banda {n} (Q)",
+		"close": "Cerrar ecualizador",
+		"deletePreset": "Eliminar {name}",
+		"dragHint": "Drag un node a shape el curve",
+		"dragHintParametric": " · drag sideways para frequency · scroll para width (Q)",
+		"enable": "Activar equalizer",
+		"freqDisplay": "{freq} Hz",
+		"graph": {
+			"ariaLabel": "Ecualizador response - drag el band nodes a shape el sound",
+			"title": "Ecualizador response curve"
+		},
+		"parametric": "Paramétrico",
+		"preamp": "Preamplificador",
+		"preampDisplay": "{value} dB",
+		"presetCustom": "Personalizado",
+		"presetSelect": "Preajuste de ecualizador",
+		"presetsGroup": "Preajustes",
+		"savePreset": "Guardar preajuste",
+		"savePresetPlaceholder": "Guardar actual como preset…",
+		"title": "Ecualizador",
+		"yourPresetsGroup": "Tu presets"
+	},
+	"fullscreen": {
+		"enter": "Pantalla completa",
+		"exit": "Salir de pantalla completa"
+	},
+	"lyrics": {
+		"loading": "Cargando lyrics…",
+		"none": "No hay letras disponibles para esta pista.",
+		"nothingPlaying": "No se está reproduciendo nada.",
+		"returnToCurrent": "Return a actual line",
+		"title": "Letras"
+	},
+	"monthlyListeners": "{count, plural, one {# oyente mensual} other {# oyentes mensuales}}",
+	"nowPlaying": {
+		"aboutArtist": "Sobre {name}",
+		"albumFallback": "Álbum",
+		"playingFrom": "Reproduciendo desde",
+		"title": "Reproduciendo ahora"
+	},
+	"notPlaying": "Sin reproducción",
 	"nothingPlaying": "Nada en reproducción todavía.",
 	"plays": "{count, plural, one {# reproducción} other {# reproducciones}}",
-	"monthlyListeners": "{count, plural, one {# oyente mensual} other {# oyentes mensuales}}"
+	"queue": {
+		"add": "Añadir a la cola",
+		"empty": "La cola está vacía.",
+		"nextUp": "Siguiente subir",
+		"nothingPlayed": "Nothing reproducido aún.",
+		"playNext": "Reproducir a continuación",
+		"recentlyPlayed": "Reproducido recientemente",
+		"removeFromQueue": "Quitar de la cola",
+		"repeatOne": "Repetir one is en - este canción will keep replaying.",
+		"thenRepeating": "Luego se repite",
+		"title": "Cola"
+	},
+	"quality": {
+		"change": "Cambiar",
+		"dataPerHourGb": "~{value} GB/hora",
+		"dataPerHourMb": "~{value} MB/hora",
+		"khz": "{value} kHz",
+		"loudness": "Sonoridad",
+		"lossless": "Sin pérdida",
+		"lossy": "Con pérdida",
+		"originalSourceFile": "Archivo fuente original",
+		"source": "Fuente",
+		"spatial": " · Espacial",
+		"streaming": "Streaming",
+		"streamingRate": "~{kbps} kbps · {data}",
+		"title": "Calidad del archivo",
+		"upTo": "Subir a {value}"
+	},
+	"sleepTimer": {
+		"endOfTrack": "Fin de la pista",
+		"minutes": "{count, plural, one {# minute} other {# minutes}}",
+		"oneHour": "1 hora",
+		"title": "Temporizador de apagado",
+		"turnOff": "Desactivar"
+	},
+	"visualizer": {
+		"autoCycle": "Alternar estilos automáticamente",
+		"close": "Cerrar visualizador",
+		"nextStyle": "Siguiente style",
+		"nothingPlaying": "Reproduce algo a see el visualizer.",
+		"open": "Visualizador",
+		"previousStyle": "Anterior style",
+		"style": {
+			"bars": "Barras de espectro",
+			"mirror": "Onda espejo",
+			"particles": "Floración de partículas",
+			"radial": "Espectro radial",
+			"scope": "Osciloscopio",
+			"spectrogram": "Espectrograma"
+		},
+		"unavailable": "Visualizador unavailable en este fuente."
+	}
 }

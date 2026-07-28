@@ -1,0 +1,103 @@
+{
+	"audit": {
+		"createdAt": "{date}",
+		"empty": "Nenhuma ação ainda.",
+		"title": "Registro de auditoria"
+	},
+	"editCatalog": {
+		"title": "Editar metadados do catálogo"
+	},
+	"enrichment": {
+		"description": "Busque novamente obras de arte, imagens de artistas, biografias, datas de lançamento e gêneros para tudo em suas bibliotecas. Útil após adicionar chaves de API Last.fm / fanart.tv. É executado em segundo plano e tem taxa limitada, portanto, uma grande biblioteca é preenchida gradualmente.",
+		"nothingToRefresh": "Nada para atualizar ainda.",
+		"refetch": "Buscar novamente os metadados",
+		"refetching": "{count, plural, one {Rebuscando # item em segundo plano…} other {Rebuscando # itens em segundo plano…}}",
+		"startFailed": "Falha ao iniciar.",
+		"starting": "Começando…",
+		"title": "Enriquecimento de metadados"
+	},
+	"metadata": {
+		"artistSubtitle": "{albumCount, plural, one {# álbum} other {# álbuns}} · {trackCount, plural, one {# faixa} other {# faixas}}",
+		"artworkAlt": "Arte",
+		"artworkLoadError": "Não foi possível carregar a arte. Tente novamente.",
+		"bannerLabel": "bandeira",
+		"browseArtwork": "Navegar pela arte (ícone + banner)",
+		"browseCovers": "Navegar pelas capas",
+		"browseLogos": "Procure logotipos (fanart.tv)",
+		"currentArtistHint": "Atualmente {name}. Pesquise para reatribuir a um artista diferente.",
+		"editAlbumTitle": "Editar álbum (global)",
+		"editArtistTitle": "Editar artista (global)",
+		"editLabelTitle": "Editar rótulo (global)",
+		"editTrackTitle": "Editar trilha (global)",
+		"fields": {
+			"bio": "Biografia",
+			"defunct": "Extinto (em branco = ativo)",
+			"founded": "Fundado",
+			"genres": "Gêneros (separados por vírgula)"
+		},
+		"findArtistPlaceholder": "Encontre artista…",
+		"imageFetchFailed": "Não foi possível buscar essa imagem.",
+		"imageUploadFailed": "Falha no upload da imagem.",
+		"intro": "Edite o catálogo compartilhado que todos veem: renomeie um artista, álbum ou faixa, substitua sua capa ou reatribua um lançamento a um artista diferente. Essas alterações são globais e permanentes (ao contrário das edições por biblioteca). Cada alteração é registrada no log de auditoria.",
+		"labelLoadError": "Não foi possível carregar a etiqueta.",
+		"labelSubtitle": "{count, plural, one {# álbum} other {# álbuns}}",
+		"loadError": "Não foi possível carregar os metadados atuais.",
+		"logoAlt": "Logotipo",
+		"logoUploadFailed": "Falha no upload do logotipo.",
+		"noAlbumCovers": "Nenhuma capa encontrada — o álbum precisa de uma correspondência do MusicBrainz.",
+		"noArtistArtwork": "Nenhuma arte online encontrada – precisa de uma chave fanart.tv + uma correspondência MusicBrainz.",
+		"noArtistsFound": "Nenhum artista encontrado.",
+		"noLogos": "Nenhum logotipo encontrado – precisa de uma chave fanart.tv + uma correspondência MusicBrainz.",
+		"noMatches": "Nenhuma correspondência.",
+		"reattributeTo": "Reatribuir a {name}",
+		"searchPlaceholder": "Pesquise artistas, álbuns ou faixas…",
+		"uploadBanner": "Carregar faixa",
+		"uploadCover": "Carregar capa",
+		"uploadIcon": "Ícone de upload",
+		"uploadLogo": "Carregar logotipo",
+		"useThisArt": "Use este {kind}",
+		"useThisLogo": "Use este logotipo"
+	},
+	"noAccess": {
+		"backToApp": "Voltar para o aplicativo",
+		"body": "Você não tem acesso à administração do site. {link}.",
+		"title": "Administrador"
+	},
+	"reports": {
+		"createdAt": "{date}",
+		"dismiss": "Dispensar",
+		"empty": "Nenhum relatório aberto.",
+		"resolve": "Resolver",
+		"title": "Relatórios",
+		"titleWithCount": "{count, plural, one {Relatórios (# abertos)} other {Relatórios (# abertos)}}"
+	},
+	"suggestions": {
+		"approve": "Aprovar",
+		"current": "Atual",
+		"deny": "Negar",
+		"empty": "Nenhuma sugestão pendente.",
+		"field": {
+			"banner": "Bandeira",
+			"bio": "Biografia",
+			"genres": "Gêneros",
+			"image": "Imagem",
+			"name": "Nome"
+		},
+		"none": "Nenhum",
+		"suggested": "Sugerido",
+		"title": "Sugestões de metadados",
+		"titleWithCount": "{count, plural, one {Sugestões de metadados (# pendentes)} other {Sugestões de metadados (# pendentes)}}"
+	},
+	"title": "Administração do site",
+	"users": {
+		"deleteConfirm": "Excluir permanentemente @{handle} e TODOS os seus dados? Isto não pode ser desfeito.",
+		"deleteTitle": "Excluir usuário",
+		"searchPlaceholder": "Pesquisar identificador, e-mail ou nome…",
+		"suspend": "Suspender",
+		"suspendConfirm": "Suspender @{handle}? Eles serão desconectados e não poderão fazer login.",
+		"suspendTitle": "Suspender usuário",
+		"suspendedBadge": "suspenso",
+		"title": "Usuários",
+		"unsuspend": "Cancelar suspensão"
+	}
+}

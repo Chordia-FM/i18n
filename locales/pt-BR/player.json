@@ -1,0 +1,137 @@
+{
+	"controls": {
+		"fullscreen": "Tela cheia",
+		"mute": "Mudo",
+		"next": "Próximo",
+		"pause": "Pausa",
+		"play": "Jogar",
+		"previous": "Anterior",
+		"repeat": "Repetir",
+		"seek": "Procure",
+		"shuffle": "Embaralhar",
+		"unmute": "Ativar som",
+		"volume": "Volume",
+		"volumeButton": "Botão de volume",
+		"volumeSlider": "Controle deslizante de volume"
+	},
+	"devices": {
+		"current": "Meta atual",
+		"none": "Nenhum dispositivo de reprodução encontrado.",
+		"pressPlay": "Aperte play para começar aqui",
+		"thisTab": "Esta guia",
+		"title": "Dispositivo de reprodução"
+	},
+	"eqPreset": {
+		"acoustic": "Acústico",
+		"bassBoost": "Aumento de graves",
+		"bassReducer": "Redutor de graves",
+		"classical": "Clássico",
+		"electronic": "Eletrônico",
+		"flat": "Plano",
+		"hipHop": "Hip Hop",
+		"jazz": "Jazz",
+		"loudness": "Volume",
+		"pop": "Pop",
+		"rock": "Rocha",
+		"trebleBoost": "Aumento de agudos",
+		"trebleReducer": "Redutor de agudos",
+		"vocal": "Vocal"
+	},
+	"equalizer": {
+		"bandFreq": "Banda {n} frequência",
+		"bandWidth": "Largura da banda {n} (Q)",
+		"close": "Fechar equalizador",
+		"deletePreset": "Excluir {name}",
+		"dragHint": "Arraste um nó para moldar a curva",
+		"dragHintParametric": "· arraste para o lado para ver a frequência · role para ver a largura (Q)",
+		"enable": "Habilitar equalizador",
+		"freqDisplay": "{freq}Hz",
+		"graph": {
+			"ariaLabel": "Resposta do equalizador - arraste os nós da banda para moldar o som",
+			"title": "Curva de resposta do equalizador"
+		},
+		"parametric": "Paramétrico",
+		"preamp": "Pré-amplificador",
+		"preampDisplay": "{value}dB",
+		"presetCustom": "Personalizado",
+		"presetSelect": "Predefinição de equalização",
+		"presetsGroup": "Predefinições",
+		"savePreset": "Salvar predefinição",
+		"savePresetPlaceholder": "Salvar atual como predefinido…",
+		"title": "Equalizador",
+		"yourPresetsGroup": "Suas predefinições"
+	},
+	"fullscreen": {
+		"enter": "Tela cheia",
+		"exit": "Sair da tela cheia"
+	},
+	"lyrics": {
+		"loading": "Carregando letras…",
+		"none": "Nenhuma letra disponível para esta faixa.",
+		"nothingPlaying": "Nada de jogo.",
+		"returnToCurrent": "Retornar à linha atual",
+		"title": "Letras"
+	},
+	"monthlyListeners": "{count, plural, one {# ouvinte mensal} other {# ouvintes mensais}}",
+	"nowPlaying": {
+		"aboutArtist": "Sobre {name}",
+		"albumFallback": "Álbum",
+		"playingFrom": "Jogando de",
+		"title": "Agora jogando"
+	},
+	"notPlaying": "Não estou jogando",
+	"nothingPlaying": "Nada tocando ainda.",
+	"plays": "{count, plural, one {# reprodução} other {# reprodução}}",
+	"queue": {
+		"add": "Adicionar à fila",
+		"empty": "A fila está vazia.",
+		"nextUp": "Próximo",
+		"nothingPlayed": "Nada foi jogado ainda.",
+		"playNext": "Jogue a seguir",
+		"recentlyPlayed": "Jogado recentemente",
+		"removeFromQueue": "Remover da fila",
+		"repeatOne": "A repetição está ativada - esta música continuará sendo reproduzida.",
+		"thenRepeating": "Então repetindo",
+		"title": "Fila"
+	},
+	"quality": {
+		"change": "Mudança",
+		"dataPerHourGb": "~{value} GB/hora",
+		"dataPerHourMb": "~{value} MB/hora",
+		"khz": "{value} kHz",
+		"loudness": "Volume",
+		"lossless": "Sem perdas",
+		"lossy": "Com perdas",
+		"originalSourceFile": "Arquivo fonte original",
+		"source": "Fonte",
+		"spatial": "· Espacial",
+		"streaming": "Transmissão",
+		"streamingRate": "~{kbps} kbps · {data}",
+		"title": "Qualidade do arquivo",
+		"upTo": "Até {value}"
+	},
+	"sleepTimer": {
+		"endOfTrack": "Fim da pista",
+		"minutes": "{count, plural, one {# minuto} other {# minutos}}",
+		"oneHour": "1 hora",
+		"title": "Temporizador",
+		"turnOff": "Desligue"
+	},
+	"visualizer": {
+		"autoCycle": "Estilos de ciclo automático",
+		"close": "Fechar visualizador",
+		"nextStyle": "Próximo estilo",
+		"nothingPlaying": "Toque algo para ver o visualizador.",
+		"open": "Visualizador",
+		"previousStyle": "Estilo anterior",
+		"style": {
+			"bars": "Barras de espectro",
+			"mirror": "Onda de espelho",
+			"particles": "Floração de partículas",
+			"radial": "Espectro radial",
+			"scope": "Osciloscópio",
+			"spectrogram": "Espectrograma"
+		},
+		"unavailable": "Visualizador indisponível nesta fonte."
+	}
+}

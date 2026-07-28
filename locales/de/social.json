@@ -1,0 +1,59 @@
+{
+	"block": {
+		"confirmLabel": "Sperren",
+		"confirmMessage": "Block @{handle}? Sie können sich nicht gegenseitig als Freunde hinzufügen.",
+		"confirmTitle": "Benutzer blockieren"
+	},
+	"discovery": {
+		"addFriend": "Freund hinzufügen",
+		"friendsStatus": "Freunde",
+		"requestSent": "Anfrage gesendet",
+		"sending": "Senden…"
+	},
+	"friends": {
+		"confirmRemove": "Bestätigen?",
+		"empty": "Noch keine Freunde – suchen Sie, um welche hinzuzufügen",
+		"heading": "Freunde ({count})",
+		"removing": "Entfernen…",
+		"title": "Freunde"
+	},
+	"modMenu": {
+		"blocked": "Blockiert",
+		"report": "Bericht",
+		"reported": "Gemeldet"
+	},
+	"page": {
+		"title": "Freunde"
+	},
+	"profile": {
+		"eyebrow": "Profil",
+		"itemPlays": "{count, plural, one {# spielen} other {# spielt}}",
+		"joinedDate": "{date, date, ::yMMMM}",
+		"joinedLabel": "beigetreten{date}",
+		"loadError": "Dieses Profil konnte nicht geladen werden.",
+		"noActivity": "Noch keine Höraktivität.",
+		"notFound": "Kein Benutzer mit diesem Handle.",
+		"private": {
+			"description": "{name}teilt ihr Zuhören nur mit Freunden.",
+			"title": "Dieses Profil ist privat"
+		},
+		"recentlyPlayed": "Kürzlich gespielt",
+		"topArtists": "Top-Künstler",
+		"topTracks": "Top-Titel",
+		"totalPlays": "{count, plural, one {# spielen} other {# spielt}}",
+		"totalPlaysCount": "{count}"
+	},
+	"report": {
+		"promptMessage": "Bericht @{handle}– Was ist das Problem?"
+	},
+	"requests": {
+		"accept": "Akzeptieren",
+		"accepting": "Akzeptieren…",
+		"pendingHeading": "Ausstehende Anfragen ({count})"
+	},
+	"search": {
+		"noResults": "Keine Benutzer gefunden.",
+		"placeholder": "Nach Handle oder Anzeigename suchen…",
+		"searching": "Suche..."
+	}
+}

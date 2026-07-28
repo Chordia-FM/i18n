@@ -1,0 +1,32 @@
+{
+	"cta": {
+		"github": "Auf GitHub ansehen",
+		"openApp": "App öffnen"
+	},
+	"eyebrow": "Besitzen Sie Ihr Audiomaterial und teilen Sie es auf Ihre Art und Weise",
+	"footer": {
+		"github": "GitHub",
+		"license": "Open Source · AGPL-3.0 ·"
+	},
+	"hero": {
+		"paragraph": "Ein hybrides, selbst gehostetes Musik-Ökosystem. Absolutes Eigentum an Ihrer Bibliothek mit dem vernetzten Social-Streaming-Erlebnis – in nahezu perfekter Wiedergabetreue."
+	},
+	"pillars": {
+		"liveRooms": {
+			"body": "Synchronisierte Hörpartys mit Chat, Abstimmungen und abwechselnden DJs. Sie hören Ihr eigenes Exemplar, wenn Sie es besitzen; Ihre Bibliothek leitet den Rest weiter.",
+			"title": "Live-Hörräume"
+		},
+		"ownIt": {
+			"body": "Bewahren Sie Ihre Bibliothek zu Hause auf einem NAS oder Pi auf oder führen Sie sie auf einem Cloud-Server aus – so oder so gehört die Musik Ihnen. Es streamt bitgenau (FLAC, ALAC, WAV, Dolby Atmos) direkt auf Ihre Geräte und Chordia speichert oder leitet Ihr Audio niemals weiter.",
+			"title": "Besitzen Sie es und hosten Sie es überall"
+		},
+		"selectiveSharing": {
+			"body": "Organisieren Sie Musik in separaten Bibliotheken – „Hi-Fi-Archiv“, „Familiensammlung“ – und teilen Sie jede mit genau den Freunden, die Sie auswählen.",
+			"title": "Selektives Teilen"
+		},
+		"wrapped": {
+			"body": "Jedes Spiel wird auf Ihr globales Konto übertragen und für immer gespeichert – wöchentliche, monatliche und jährliche Einblicke, die jeden Serverumzug überdauern.",
+			"title": "Lebenslang verpackt"
+		}
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"dailyMix": {
+		"label": "데일리 믹스"
+	},
+	"greeting": {
+		"afternoon": "좋은 오후입니다",
+		"evening": "좋은 저녁입니다",
+		"morning": "좋은 아침입니다"
+	},
+	"home": {
+		"emptyState": "Nothing here yet - pair 라이브러리 server 및 내 catalog will appear."
+	},
+	"jumpBackIn": {
+		"emptyState": "Things you've played recently will 표시 up here.",
+		"title": "다시 듣기"
+	},
+	"madeForYou": {
+		"emptyState": "감상 으로 more 음악 및 내 daily mixes will appear here.",
+		"title": "맞춤 추천"
+	},
+	"mix": {
+		"noTracksToast": "이 mix has 없음 playable 트랙 yet",
+		"playTitle": "재생 {title}",
+		"playingToast": "재생ing {title}"
+	},
+	"radio": {
+		"label": "라디오",
+		"pin": "고정 radio"
+	},
+	"shelf": {
+		"jumpBackIn": "다시 듣기",
+		"madeFor": "Made 용 {name}",
+		"madeForYou": "당신",
+		"recommended": "회원님을 위한 추천",
+		"trendingAlbums": "인기 앨범",
+		"trendingArtists": "인기 아티스트",
+		"yourLibraries": "내 라이브러리"
+	}
+}

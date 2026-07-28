@@ -1,0 +1,32 @@
+{
+	"cta": {
+		"github": "View 에 GitHub",
+		"openApp": "열기 app"
+	},
+	"eyebrow": "Own 내 audio · 공유 it 내 way",
+	"footer": {
+		"github": "GitHub",
+		"license": "열기 source · AGPL-3.0 ·"
+	},
+	"hero": {
+		"paragraph": "hybrid, self-hosted 음악 ecosystem. Absolute ownership 의 내 라이브러리, 함께 connected, social streaming experience - 에 bit-perfect fidelity."
+	},
+	"pillars": {
+		"liveRooms": {
+			"body": "Synchronized 감상 parties 함께 chat, votes, 및 turn-taking DJs. 회원님 hear 내 own copy when 회원님 own it; 내 라이브러리 relays rest.",
+			"title": "라이브 감상 rooms"
+		},
+		"ownIt": {
+			"body": "Keep 내 라이브러리 에 home 에 NAS 또는 Pi, 또는 run it 에 cloud server - either way 음악 is yours. It streams bit-perfect (FLAC, ALAC, WAV, Dolby Atmos) straight 으로 내 devices, 및 Chordia never stores 또는 routes 내 audio.",
+			"title": "소유하고 어디서나 호스팅하세요."
+		},
+		"selectiveSharing": {
+			"body": "Organize 음악 into separate 라이브러리 - \"Hi-Fi Archive\", \"Family Collection\" - 및 공유 each one 함께 exactly 친구 회원님 choose.",
+			"title": "선택적 공유"
+		},
+		"wrapped": {
+			"body": "Every 재생 is scrobbled 으로 내 global 계정 및 kept forever - weekly, monthly, 및 yearly insights 해당 survive any server move.",
+			"title": "평생 포장됨"
+		}
+	}
+}

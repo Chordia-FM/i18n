@@ -1,0 +1,105 @@
+{
+	"actions": {
+		"rename": "Cambiar nombre lista"
+	},
+	"addError": "No se pudo añadir a lista",
+	"addToNamed": "Añadir a {playlist}",
+	"addToPlaylist": "Añadir a la lista",
+	"addedToast": "Added a {playlist}",
+	"collaborators": {
+		"addError": "No se pudo añadir ese collaborator",
+		"collaborative": "Colaborativa",
+		"invite": "+ Invitar",
+		"invitePrompt": "Invite un collaborator por handle",
+		"invited": "Invitado @{handle}",
+		"justYou": "Just tú",
+		"removeTitle": "Quitar {name}",
+		"removed": "Se eliminó a {name}"
+	},
+	"confirm": {
+		"deleteMessage": "Eliminar \"{name}\"?",
+		"deleteTitle": "Eliminar lista"
+	},
+	"cover": {
+		"change": "Cambiar imagen",
+		"remove": "Quitar imagen"
+	},
+	"delete": {
+		"confirmBody": "Eliminar este lista?",
+		"title": "Eliminar lista"
+	},
+	"empty": "Este lista is vacío. Añadir canciones desde el “⋯” menu en any pista.",
+	"kindLabel": "Lista",
+	"leave": {
+		"confirmBody": "Salir este collaborative lista?",
+		"confirmLabel": "Salir",
+		"title": "Salir lista"
+	},
+	"menuEmpty": "No listas",
+	"new": "Nueva lista",
+	"prompt": {
+		"newName": "Lista nombre",
+		"rename": "Cambiar nombre lista"
+	},
+	"removeFromPlaylist": "Quitar de la lista",
+	"sharedWithYou": " · compartido con tú",
+	"smart": {
+		"addRule": "Añadir rule",
+		"autoUpdating": " · actualización automática",
+		"bool": {
+			"false": "falso",
+			"true": "verdadero"
+		},
+		"created": "Lista inteligente created",
+		"delete": {
+			"confirmBody": "Eliminar este smart lista?",
+			"title": "Eliminar smart lista"
+		},
+		"description": "Rules resolve a matching pistas automatically.",
+		"editRules": "Editar rules",
+		"editTitle": "Editar lista inteligente",
+		"empty": "No pistas match these rules aún. Try loosening ellos con “Editar rules”.",
+		"field": {
+			"album": "Álbum",
+			"artist": "Artista",
+			"genre": "Género",
+			"liked": "Que te gustan",
+			"plays": "Reproducciones",
+			"title": "Título",
+			"year": "Año"
+		},
+		"kindLabel": "Lista inteligente",
+		"limit": "Límite",
+		"match": "Coincidir",
+		"matchMode": {
+			"all": "todos",
+			"any": "cualquiera"
+		},
+		"namePlaceholder": "Lista nombre",
+		"new": "Nueva lista inteligente",
+		"newTitle": "Nueva lista inteligente",
+		"ofTheseRules": "de these rules:",
+		"op": {
+			"contains": "contiene",
+			"equals": "es",
+			"is": "es"
+		},
+		"removeRule": "Quitar rule",
+		"saveError": "No se pudo guardar el smart lista",
+		"sort": {
+			"plays": "Reproducciones",
+			"random": "Aleatorio",
+			"title": "Título"
+		},
+		"sortBy": "Sort por",
+		"updated": "Lista inteligente updated",
+		"valuePlaceholder": "valor"
+	},
+	"songCount": "{count, plural, one {# song} other {# songs}}",
+	"toast": {
+		"createFailed": "No se pudo crear lista",
+		"created": "Se creó \"{name}\"",
+		"deleteFailed": "No se pudo eliminar lista",
+		"deleted": "Se eliminó \"{name}\""
+	}
+}

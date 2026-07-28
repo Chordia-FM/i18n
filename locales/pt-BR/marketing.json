@@ -1,0 +1,32 @@
+{
+	"cta": {
+		"github": "Ver no GitHub",
+		"openApp": "Abrir aplicativo"
+	},
+	"eyebrow": "Tenha seu áudio · compartilhe-o do seu jeito",
+	"footer": {
+		"github": "GitHub",
+		"license": "Código aberto · AGPL-3.0 ·"
+	},
+	"hero": {
+		"paragraph": "Um ecossistema musical híbrido e auto-hospedado. Propriedade absoluta da sua biblioteca, com a experiência de streaming social conectada - com fidelidade perfeita."
+	},
+	"pillars": {
+		"liveRooms": {
+			"body": "Festas de audição sincronizadas com bate-papo, votações e DJs que se revezam. Você ouve sua própria cópia quando a possui; sua biblioteca transmite o resto.",
+			"title": "Salas de escuta ao vivo"
+		},
+		"ownIt": {
+			"body": "Mantenha sua biblioteca em casa em um NAS ou Pi, ou execute-a em um servidor em nuvem – de qualquer forma, a música é sua. Ele transmite bits perfeitos (FLAC, ALAC, WAV, Dolby Atmos) diretamente para seus dispositivos, e o Chordia nunca armazena ou roteia seu áudio.",
+			"title": "Adquira-o e hospede-o em qualquer lugar"
+		},
+		"selectiveSharing": {
+			"body": "Organize as músicas em bibliotecas separadas - \"Arquivo Hi-Fi\", \"Coleção Família\" - e compartilhe cada uma delas exatamente com os amigos que você escolher.",
+			"title": "Compartilhamento seletivo"
+		},
+		"wrapped": {
+			"body": "Cada jogada é armazenada em sua conta global e mantida para sempre - informações semanais, mensais e anuais que sobrevivem a qualquer movimentação de servidor.",
+			"title": "Embrulhado para toda a vida"
+		}
+	}
+}

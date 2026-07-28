@@ -1,0 +1,59 @@
+{
+	"block": {
+		"confirmLabel": "블록",
+		"confirmMessage": "Block @{handle}? 회원님 won't be able 으로 add each 기타 as 친구.",
+		"confirmTitle": "사용자 차단"
+	},
+	"discovery": {
+		"addFriend": "Add 친구",
+		"friendsStatus": "친구",
+		"requestSent": "요청 전송됨",
+		"sending": "전송 중…"
+	},
+	"friends": {
+		"confirmRemove": "확인?",
+		"empty": "없음 친구 yet - 검색 으로 add some",
+		"heading": "친구 ({count})",
+		"removing": "제거 중...",
+		"title": "친구"
+	},
+	"modMenu": {
+		"blocked": "차단됨",
+		"report": "신고",
+		"reported": "신고ed"
+	},
+	"page": {
+		"title": "친구"
+	},
+	"profile": {
+		"eyebrow": "프로필",
+		"itemPlays": "{count, plural, 기타 {# plays}}",
+		"joinedDate": "{date, date, ::yMMMM}",
+    "joinedLabel": "{date}에 가입",
+		"loadError": "Couldn't load 이 profile.",
+		"noActivity": "없음 감상 활동 yet.",
+		"notFound": "없음 user 함께 해당 handle.",
+		"private": {
+			"description": "{name} only shares their 감상 함께 친구.",
+			"title": "이 profile is 비공개"
+		},
+		"recentlyPlayed": "최근 재생됨",
+		"topArtists": "인기 아티스트",
+		"topTracks": "인기 트랙s",
+		"totalPlays": "{count, plural, 기타 {# plays}}",
+		"totalPlaysCount": "{count}"
+	},
+	"report": {
+		"promptMessage": "신고 @{handle} — what's issue?"
+	},
+	"requests": {
+		"accept": "수락",
+		"accepting": "수락 중…",
+    "pendingHeading": "대기 중인 요청 ({count})"
+	},
+	"search": {
+		"noResults": "없음 users found.",
+		"placeholder": "검색 기준 handle 또는 display 이름…",
+		"searching": "검색ing…"
+	}
+}

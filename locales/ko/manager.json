@@ -1,0 +1,163 @@
+{
+	"nav": "관리자",
+	"title": "라이브러리 Manager",
+	"subtitle": "트랙 내 coverage 및 find what you're missing.",
+	"loadFailed": "커버리지를 로드할 수 없습니다.",
+	"coverage": {
+		"albumLabel": "앨범 coverage",
+		"artistLabel": "아티스트s complete",
+		"ownedOfTotal": "{owned} 의 {total} releases owned",
+		"touched": "{count} 아티스트 tracked",
+    "complete": "{count} 완료",
+		"pending": "{count} 음반 대기 중",
+		"fetching": "Fetching discographies 에 background. Coverage will fill 에 shortly.",
+		"empty": "없음 coverage yet. 켬ce 내 라이브러리 finish syncing 및 discographies are fetched, 내 coverage appears here."
+	},
+	"libraries": {
+		"title": "라이브러리 에 coverage",
+		"hint": "Uncheck 라이브러리 으로 leave it out 의 coverage math.",
+		"includeShared": "Include 라이브러리 shared 함께 me",
+		"owned": "소유됨",
+		"shared": "공유d",
+		"counts": "{tracks} 트랙 · {albums} 앨범 · {artists} 아티스트"
+	},
+	"artists": {
+		"title": "내 아티스트",
+		"subtitle": "열기 아티스트 으로 see which 앨범 you're missing.",
+		"empty": "없음 아티스트 yet. Sync 라이브러리 으로 get started."
+	},
+	"artist": {
+    "complete": "{pct}% 완료",
+		"owned": "에 내 라이브러리",
+		"missing": "누락됨",
+    "missingCount": "{count} 누락",
+		"noMissing": "회원님 have every release we know about 용 이 아티스트.",
+		"noMbid": "없음 MusicBrainz match 용 이 아티스트 yet, so coverage isn't available.",
+		"fetching": "음반을 가져오는 중…",
+		"loadFailed": "Couldn't load coverage 용 이 아티스트.",
+		"back": "뒤로 으로 Manager"
+	},
+	"album": {
+		"back": "뒤로 으로 Manager",
+		"coverage": "{owned} 의 {total} 트랙",
+		"disc": "디스크 {n}",
+		"editionCount": "{count, plural, 기타 {# editions}}",
+		"remaster": "리마스터",
+		"owned": "에 내 라이브러리",
+		"fetching": "트랙 목록을 가져오는 중…",
+		"noTracks": "없음 tracklist available 용 이 앨범 yet.",
+		"loadFailed": "Couldn't load 이 앨범's tracklist."
+	},
+	"tabs": {
+		"coverage": "범위",
+		"discover": "발견",
+		"follows": "다음에 이어",
+		"downloads": "다운로드s",
+		"settings": "설정"
+	},
+	"discover": {
+		"title": "발견",
+		"subtitle": "검색 모든 의 음악 으로 find 아티스트 및 앨범 회원님 don't have yet.",
+		"placeholder": "검색 아티스트 및 앨범…",
+		"hint": "유형 에 least 2 characters 으로 검색.",
+		"searching": "검색ing…",
+		"noResults": "일치 항목이 없습니다. Try different 검색.",
+		"artists": "아티스트s",
+		"releases": "출시",
+		"owned": "에 라이브러리",
+		"available": "아님 에 라이브러리",
+		"allTypes": "모두",
+		"type": {
+			"Album": "앨범",
+			"EP": "EP",
+			"Single": "싱글",
+			"Broadcast": "세션",
+			"Other": "기타"
+		},
+		"version": {
+			"instrumental": "연주곡",
+			"live": "라이브"
+		}
+	},
+	"follows": {
+		"title": "다음에 이어",
+		"subtitle": "아티스트s 회원님 follow. 새 항목 releases surface 에 내 missing list automatically.",
+		"empty": "You're 아님 following anyone yet. 열기 아티스트 에 Discover 및 tap Follow.",
+		"unfollow": "팔로우 취소",
+		"loadFailed": "Couldn't load 내 follows."
+	},
+	"follow": {
+		"follow": "팔로우",
+		"following": "다음에 이어"
+	},
+	"download": {
+		"button": "다운로드",
+		"queued": "추가됨 으로 다운로드 queue",
+		"failed": "Couldn't queue 다운로드",
+		"noLibrary": "없음 다운로드-enabled 라이브러리 yet. Set up Prowlarr + qBittorrent 에 라이브러리 첫.",
+		"chooseLibrary": "다운로드 into…",
+		"notEnabled": "다운로드s aren't enabled 에 해당 라이브러리.",
+		"ackTitle": "Before 회원님 다운로드",
+		"ackMessage": "Chordia ships 없음 indexers 또는 trackers. 다운로드s use Prowlarr 및 qBittorrent 회원님 configured, 및 회원님 are responsible 용 legality 의 what 회원님 acquire 에 내 jurisdiction.",
+		"ackConfirm": "이해합니다"
+	},
+	"queue": {
+		"title": "다운로드s",
+		"subtitle": "내 다운로드 활동.",
+		"empty": "없음 downloads yet. Hit 다운로드 에 missing 앨범 으로 시작 one.",
+		"cancel": "취소",
+		"retry": "재시도",
+		"choose": "소스 선택",
+		"pickHint": "We weren't sure which release is exact 앨범, so pick right one.",
+		"selectFailed": "Couldn't pin 해당 source — job may have moved 에. 새로고침 및 pick again.",
+		"loadFailed": "Couldn't load 내 downloads.",
+		"status": {
+			"queued": "대기중",
+			"claimed": "시작",
+			"searching": "검색ing",
+			"grabbing": "잡기",
+			"downloading": "다운로드ing",
+			"importing": "가져오는 중",
+			"completed": "완료됨",
+			"failed": "실패했습니다",
+			"no_results": "없음 sources found",
+			"cancelled": "취소led",
+			"awaiting_selection": "Choose source"
+		},
+		"requestedBy": "requested 기준 @{handle}",
+		"intoLibrary": "into @{handle}'s 라이브러리"
+	},
+	"settings": {
+		"title": "Manager 설정",
+		"subtitle": "Quality profiles 및 per-라이브러리 다운로드 status.",
+		"profiles": "품질 프로필",
+		"profilesHint": "다운로드s always pick best available source within profile's allowed formats.",
+		"default": "기본값",
+		"makeDefault": "기본값으로 설정",
+		"preferSeeders": "더 많은 시더 선호",
+		"newProfile": "새 항목 profile",
+		"name": "이름",
+		"formats": "Allowed formats (best 첫)",
+		"maxSize": "최대 크기(MB, 선택 사항)",
+		"save": "저장",
+		"delete": "삭제",
+		"created": "Profile 저장됨",
+		"saveFailed": "Couldn't 저장 profile",
+		"libraries": "라이브러리 다운로드 status",
+		"librariesHint": "활성화 downloads 기준 configuring Prowlarr + qBittorrent 에 each 라이브러리's chordia-라이브러리.toml.",
+		"enabled": "다운로드s enabled",
+		"disabled": "다운로드s off",
+    "indexers": "{count} 인덱서",
+		"destinationTitle": "다운로드 destination",
+		"destinationHelp": "Where 새 다운로드 requests land. 친구' 라이브러리 appear here when they've given 회원님 request access.",
+		"destinationAsk": "Ask every 시간",
+		"destinationSaved": "Default destination 저장됨."
+	},
+	"upgrade": {
+		"check": "Check 용 better quality",
+		"queued": "Upgrade check queued — watch 다운로드s. If strictly better source exists it'll 다운로드; otherwise job ends quietly.",
+		"inProgress": "upgrade 또는 다운로드 용 이 앨범 is already 에 flight.",
+		"notIdentified": "이 앨범 isn't matched 으로 MusicBrainz yet, so there's nothing reliable 으로 검색 용.",
+		"failed": "Couldn't queue upgrade check."
+	}
+}

@@ -1,0 +1,207 @@
+{
+	"artists": {
+		"empty": "없음 아티스트 yet - catalog may still be syncing.",
+		"title": "아티스트s"
+	},
+	"card": {
+		"editTitle": "편집 이 라이브러리",
+		"moveDown": "아래로 이동 (lower priority)",
+		"moveUp": "위로 이동 (higher priority)",
+		"shareTitle": "공유 이 라이브러리",
+		"trackCount": "{count, plural, 기타 {# tracks}}"
+	},
+	"edit": {
+		"albumsLabel": "앨범",
+		"dedupeLabel": "De-duplicate - keep only highest-quality copy when files land 에 same place (otherwise they get (2), (3)… suffixes)",
+		"deleteConfirm": {
+			"confirmLabel": "삭제",
+			"message": "삭제 이 라이브러리? 내 files stay 에 disk; it's removed 에서 Chordia.",
+			"title": "삭제 라이브러리"
+		},
+		"deleteFailed": "삭제 실패했습니다",
+		"fallbackToAlbums": "{template} (falls 뒤로 으로 앨범)",
+		"foldersHelp": "Untick folder 으로 keep it out 의 이 라이브러리. Unticking folder disables everything inside it.",
+		"foldersTitle": "포함된 폴더",
+		"foldersUpdateFailed": "실패했습니다 으로 update folders",
+		"foldersUpdated": "폴더가 업데이트되었습니다. 다시 검색하는 중…",
+		"iconLabel": "아이콘",
+		"iconSaveFailed": "실패했습니다 으로 저장 icon",
+		"iconSaved": "Icon 저장됨",
+		"nameSaved": "이름 저장됨",
+		"noSubFolders": "없음 sub-folders 으로 manage.",
+		"organizeConfirm": {
+			"confirmLabel": "계속",
+			"messageDedupe": "이 moves files 에 disk into 새 layout 및 deletes lower-quality duplicates. 계속?",
+			"messagePlain": "이 moves files 에 disk into 새 layout. 내 audio isn't altered, only relocated. 계속?",
+			"title": "파일 정리"
+		},
+		"organizeDisabled": "정리 비활성화됨",
+		"organizeFailed": "실패했습니다 으로 update organize",
+		"organizeHelp": "Lay 이 라이브러리's audio files out 에 disk 에서 template. Folders are created as needed 및 scanned automatically.",
+		"organizeStatus": "파일 정리 중...",
+		"organizeTitle": "파일 정리",
+		"organizeToggle": "Organize 이 라이브러리's files",
+		"pairedDeviceFolders": "으로 편집 folders, 열기 이 page 에 device where 회원님 paired 이 server.",
+		"pairedDeviceOrganize": "으로 변경 this, 열기 이 page 에 device where 회원님 paired 이 server.",
+		"removeHelp": "삭제s it 에서 Chordia. 내 audio files are 아님 touched.",
+		"removeTitle": "삭제 라이브러리",
+		"renameFailed": "이름 변경 실패했습니다",
+		"rescanAll": "Rescan 모든 files",
+		"rescanFailed": "Rescan 실패했습니다",
+		"rescanFull": "전체 재색인",
+		"rescanFullProgress": "Full re-index 에 progress…",
+		"rescanProgress": "재검색 중…",
+		"rescanHelp": "Re-reads every file 에서 disk (metadata, 추가됨/removed 트랙). Full re-index also re-processes unchanged files. Use it 으로 apply changes like edition merging 으로 existing 라이브러리.",
+		"rescanStatus": "Rescanning 모든 files…",
+		"rescanning": "재검색 중…",
+		"saveFolders": "저장 folders",
+		"singlesLabel": "Singles (없음 앨범)",
+		"templateHelp": "Variables: {vars}. Empty parts are skipped 및 file extension is 추가됨 automatically. {edition} is deluxe/special qualifier (empty 용 standard edition, so it collapses), 및 {disc} only appears 용 multi-disc 앨범. 트랙 함께 없음 앨범 use Singles template; files we can't identify (없음 아티스트 tag) use Unidentified one.",
+		"title": "편집 라이브러리",
+		"unknownLabel": "Unidentified 트랙"
+	},
+	"downloads": {
+		"clearConfirm": {
+			"message": "삭제 모든 downloaded 노래 에서 이 device?",
+			"title": "다운로드 지우기"
+		},
+		"clearError": "다운로드를 삭제할 수 없습니다.",
+		"emptyState": "노래 회원님 다운로드 재생 without connection. Use 다운로드 action 에 any 트랙 으로 저장 it here.",
+		"eyebrow": "오프라인에서 사용 가능",
+		"navLabel": "다운로드s",
+		"removeError": "Couldn't 삭제 다운로드",
+		"removeTooltip": "삭제 다운로드",
+		"songCount": "{count, plural, 기타 {# songs}}",
+		"storedOnDevice": "stored 에 이 device",
+		"title": "다운로드s"
+	},
+	"hidden": {
+		"hide": "숨기기 이 노래",
+		"unhide": "숨기기 해제"
+	},
+	"liked": {
+		"empty": "노래 회원님 like will 표시 up here. Tap heart 에 any 트랙.",
+		"eyebrow": "재생list",
+		"remove": "삭제 에서 Liked 노래",
+		"save": "저장 으로 Liked 노래",
+		"songCount": "{count, plural, 기타 {# songs}}",
+		"title": "Liked 노래"
+	},
+	"likedSongs": "Liked 노래",
+	"list": {
+		"empty": {
+			"hint": "시작 내 라이브러리 server, then 열기 setup link it prints 에 its terminal 으로 pair.",
+			"title": "없음 라이브러리 yet."
+		},
+		"loading": "불러오는 중 라이브러리…",
+		"newLibrary": "새 항목 라이브러리",
+		"sharedWithYou": "공유d 함께 you",
+		"title": "내 라이브러리"
+	},
+	"metadata": {
+		"intro": "메타데이터 편집 용 이 라이브러리 only. 내 changes apply across 내 views; anything 회원님 leave blank keeps original value. Global catalog edits live 에 admin page.",
+		"noMatches": "일치 항목이 없습니다.",
+		"searchPlaceholder": "검색 아티스트, 앨범, 또는 트랙…",
+		"title": "메타데이터"
+	},
+	"new": {
+		"addFailed": "실패했습니다 으로 add 라이브러리",
+		"adding": "추가 중…",
+		"backLink": "모든 라이브러리",
+		"browseFailed": "찾아보기 실패했습니다",
+		"folderLabel": "Folder 에 server",
+		"nameLabel": "라이브러리 이름",
+		"namePlaceholder": "My 음악",
+		"noFolderChosen": "없음 folder chosen",
+		"noServer": "없음 paired server found 에 이 device. 시작 내 라이브러리 server 및 열기 setup link it prints 으로 pair 첫.",
+		"noSubFolders": "없음 sub-folders here",
+		"serverLabel": "{names} · {host}",
+		"serverSelectHint": "이 새 라이브러리 will be created 에 selected server.",
+		"serverSelectLabel": "라이브러리 server",
+		"submit": "Add 라이브러리",
+		"title": "새 항목 라이브러리"
+	},
+	"pin": {
+		"pin": "고정",
+		"unpin": "고정 해제"
+	},
+	"setup": {
+		"addFolderFailed": "실패했습니다 으로 add folder",
+		"addLibraries": {
+			"addFolder": "폴더 추가",
+			"adding": "추가 중…",
+			"description": "찾아보기 라이브러리 server's filesystem 으로 pick where 내 음악 lives. 회원님 can add more folders later 에서 설정.",
+			"finish": "설정 완료",
+			"formTitle": "Add folder",
+			"skip": "Skip 용 지금",
+			"title": "Add 음악 folders"
+		},
+		"browseErrorStatus": "찾아보기 오류: {status}",
+		"done": {
+			"addLater": "회원님 can add 음악 folders anytime 에서 {settingsLink}.",
+			"foldersAdded": "{count, plural, 기타 {# folders added.}} Scanning is running 에 background - 트랙 will appear shortly.",
+			"goToLibrary": "Go 으로 라이브러리",
+			"title": "라이브러리 server connected!"
+		},
+		"hubRejectedToken": "Hub rejected session token. Try logging out 및 뒤로 에, then retry pairing.",
+		"insideDataMusic": "Inside {path} 에 server",
+		"listDirFailed": "실패했습니다 으로 list directory",
+		"missingParams": "Missing setup parameters. Please 열기 link printed 에 라이브러리 server terminal.",
+		"noFolderSelected": "없음 folder selected",
+		"noSubdirectories": "없음 subdirectories here",
+		"pair": {
+			"connect": "연결",
+			"connecting": "연결 중…",
+			"description": "이 will link {url} 으로 내 Chordia 계정.",
+			"title": "Connect 라이브러리 server"
+		},
+		"pairingFailed": "Pairing 실패했습니다",
+		"sessionExpired": "내 session has expired - please log out 및 뒤로 에, then retry.",
+		"step": {
+			"addFolders": "폴더 추가",
+			"done": "완료",
+			"pair": "쌍"
+		}
+	},
+	"share": {
+		"dialogLabel": "공유 \"{name}\"",
+		"failed": "실패했습니다 으로 공유",
+		"filterFriends": "Filter 친구…",
+		"findPeople": "찾기 people",
+		"friendLabel": "친구",
+		"noFriends": "회원님 have 없음 친구 으로 공유 함께 yet.",
+		"permission": "권한",
+		"permissionStreamDownload": "Stream + 다운로드",
+		"permissionStreamOnly": "스트림만",
+		"selectFriend": "Select 친구…",
+		"sharing": "공유 중…",
+		"submit": "공유 라이브러리",
+		"success": "라이브러리 shared successfully.",
+		"title": "공유 \"{name}\""
+	},
+	"sidebar": {
+		"pinned": "고정ned",
+		"playlists": "재생lists",
+		"yourLibrary": "내 라이브러리"
+	},
+	"trackCount": "{count, plural, 기타 {# tracks}}",
+	"shareManager": {
+		"title": "친구 & sharing",
+		"help": "Who has access 으로 이 라이브러리, what they're doing 함께 it, 및 what they're allowed 으로 do.",
+		"empty": "아님 shared 함께 anyone yet. Add 친구 below 으로 give them access.",
+		"addFriend": "Add 친구",
+		"revoke": "삭제 access",
+		"canRequest": "다운로드 요청 가능",
+		"directories": "라이브러리:",
+		"thisLibrary": "이 라이브러리",
+		"grantAccess": "Give access 으로 {name}",
+		"removeAccess": "삭제 access 으로 {name}",
+		"streamingNow": "Streaming 지금: {title} — {artist}",
+		"statsLine": "{requests} requested · {downloads} downloaded · {plays} 재생 · {time} listened",
+		"lastPlayed": "마지막 played {date}",
+		"updateFailed": "공유를 업데이트할 수 없습니다. 다시 시도하세요.",
+    "timeDaysHours": "{days}d {hours}h",
+    "timeHoursMinutes": "{hours}h {minutes}m",
+		"timeMinutes": "{minutes}m"
+	}
+}

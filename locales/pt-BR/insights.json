@@ -1,0 +1,402 @@
+{
+	"chart": {
+		"activity": {
+			"ariaLabel": "Atividade auditiva ao longo do tempo"
+		},
+		"dayLabel": "{date, date, ::MMMd}",
+		"hourLabel": "{date, time, ::j}",
+		"monthLabel": "{date, date, ::yMMM}",
+		"noActivityPeriod": "Nenhuma atividade neste período",
+		"noActivityYet": "Nenhuma atividade ainda",
+		"peak": "Pico: {count, plural, one {# reprodução} other {# reprodução}} · {date}",
+		"plays": "{count, plural, one {# reprodução} other {# reprodução}}"
+	},
+	"charts": {
+		"down": "Abaixo {count, plural, one {# lugar} other {# lugares}}",
+		"empty": {
+			"body": "{person, select, them {A biblioteca deles será classificada aqui assim que começarem a ouvir.} other {Sua biblioteca será classificada aqui assim que você tiver algumas peças.}}",
+			"title": "Nada para mapear ainda"
+		},
+		"held": "Manteve seu lugar",
+		"new": "Novo",
+		"next": "Próximo",
+		"previous": "Anterior",
+		"showing": "{from}–{to} de {total}",
+		"up": "Acima {count, plural, one {# lugar} other {# lugares}}"
+	},
+	"clock": {
+		"ariaLabel": "Atividade auditiva por hora do dia",
+		"peak": "Horário de maior movimento: {hour} · {count, plural, one {# play} other {# play}}"
+	},
+	"clockGrid": {
+		"ariaLabel": "Atividade auditiva por dia da semana e hora em {timezone}",
+		"busiest": "Mais movimentado: {day} · {hour}",
+		"cellLabel": "{day} · {hour}"
+	},
+	"compatibility": {
+		"compare": "Comparar",
+		"handlePlaceholder": "punho de amigo",
+		"percent": "{pct}%",
+		"sharedArtists": "Artistas que vocês dois amam",
+		"title": "Compatibilidade de sabor",
+		"youAnd": "Você e {name}"
+	},
+	"decades": {
+		"ariaLabel": "Reproduções por década de lançamento do álbum",
+		"empty": "Ainda não há datas de lançamento suficientes para traçar décadas",
+		"headline": "{pct} dessas peças vêm dos {decade}s",
+		"label": "{decade}s",
+		"tipLabel": "{decade}s · {pct} de peças",
+		"undated": "{pct} das peças não têm data de lançamento e não são mostradas aqui"
+	},
+	"delta": {
+		"downAria": "Queda de {pct} em relação ao período anterior",
+		"flat": "0%",
+		"flatAria": "Inalterado em relação ao período anterior",
+		"new": "Novo",
+		"newAria": "nada no período anterior para comparar com",
+		"upAria": "Aumento de {pct} em relação ao período anterior"
+	},
+	"discovery": {
+		"empty": {
+			"body": "{person, select, them {Suas estatísticas de descoberta aumentarão aqui enquanto eles ouvem.} other {Toque um pouco de música e suas estatísticas de descoberta serão aumentadas aqui.}}",
+			"title": "Nada para descobrir ainda"
+		},
+		"kinds": {
+			"album": "Álbuns",
+			"artist": "Artistas",
+			"track": "Faixas"
+		},
+		"mix": {
+			"headline": "dessas peças eram faixas nunca tocadas antes",
+			"meterAriaLabel": "Parcela de reproduções que eram faixas inéditas",
+			"new": "Primeiras jogadas · {pct}",
+			"repeats": "Repetindo · {pct}",
+			"title": "Novo versus familiar"
+		},
+		"movers": {
+			"climbedBy": "Acima {count, plural, one {# lugar} other {# lugares}}",
+			"climbers": "Escaladores",
+			"empty": {
+				"body": "O movimento do gráfico compara esta janela com a anterior – ela aparece quando ambas têm jogadas.",
+				"title": "Nada para comparar ainda"
+			},
+			"fallers": "Quedas",
+			"fellBy": "Abaixo {count, plural, one {# lugar} other {# lugares}}",
+			"needsWindow": "O movimento do gráfico compara uma janela com a anterior – escolha um período mais curto para vê-lo.",
+			"new": "Novo",
+			"newcomers": "Novas entradas",
+			"none": "Nenhum movimento aqui nesta janela.",
+			"reentry": "De volta ao gráfico",
+			"title": "Movimentos do gráfico",
+			"vsPrevious": {
+				"day": "versus as 24 horas anteriores",
+				"halfYear": "versus os 6 meses anteriores",
+				"month": "versus os 30 dias anteriores",
+				"quarter": "versus os 3 meses anteriores",
+				"week": "versus os 7 dias anteriores",
+				"year": "versus os 12 meses anteriores"
+			},
+			"wasRank": "era #{rank, number}"
+		},
+		"tiles": {
+			"newAlbums": "Novos álbuns",
+			"newArtists": "Novos artistas",
+			"newTracks": "Novas faixas",
+			"ofPlayed": "de {count, number} jogado"
+		},
+		"topNewArtists": "Artistas descobertos"
+	},
+	"duration": {
+		"days": "{days}d",
+		"daysHours": "{days}d {hours}h",
+		"hoursMinutes": "{hours}h {minutes}m",
+		"minutes": "{minutes}m",
+		"seconds": "{seconds}s"
+	},
+	"empty": {
+		"history": {
+			"body": "{person, select, them {As faixas que eles tocam aparecerão aqui.} other {As faixas que você toca aparecerão aqui.}}",
+			"title": "Ainda não há histórico"
+		},
+		"overview": {
+			"body": "{person, select, them {Assim que começarem a ouvir, suas estatísticas aparecerão aqui.} other {Comece a ouvir e suas estatísticas aparecerão aqui.}}",
+			"title": "Nada ainda"
+		},
+		"social": {
+			"body": "Quando seus amigos ouvem música (e compartilham suas atividades), ela aparece aqui.",
+			"title": "Tranquilo aqui"
+		}
+	},
+	"entity": {
+		"alltime": "{count, plural, one {# jogar} other {# jogar}} de todos os tempos",
+		"crumb": "Estatísticas",
+		"eyebrow": {
+			"album": "Estatísticas do álbum",
+			"artist": "Estatísticas do artista",
+			"track": "Acompanhar estatísticas"
+		},
+		"listened": "{time} ouviu",
+		"never": {
+			"album": "Toque este álbum e suas estatísticas de audição aumentarão aqui.",
+			"artist": "Toque algo deste artista e suas estatísticas de audição aumentarão aqui.",
+			"hub": "{count, plural, one {#play} other {#plays}} para todos neste hub até agora.",
+			"showEveryone": "Mostrar as estatísticas de todos",
+			"title": "Nenhuma peça ainda",
+			"track": "Toque esta faixa e suas estatísticas de audição aumentarão aqui."
+		},
+		"quiet": {
+			"cta": "Mostrar todos os tempos",
+			"lastPlayed": "Você jogou este {ago} pela última vez.",
+			"title": "Nada neste período"
+		},
+		"scope": {
+			"global": "Todos",
+			"me": "Você"
+		},
+		"share": {
+			"caption": "{pct} de {total, plural, one {# play} other {# play}} para todos"
+		},
+		"since": "desde {date}",
+		"tiles": {
+			"activeDays": "{count, plural, one {em # dia} other {em # dias}}",
+			"activeMonths": "{count, plural, one {em # mês} other {em # meses}}",
+			"perPlay": "≈{duration} por jogada",
+			"rank": "Classificação",
+			"rankOf": {
+				"album": "de {total, plural, one {# álbum} other {# álbuns}} que você tocou",
+				"artist": "de {total, plural, one {# artista} other {# artistas}} que você tocou",
+				"track": "de {total, plural, one {# faixa} other {# faixas}} que você tocou"
+			},
+			"rankValue": "#{rank, number}"
+		},
+		"title": "Estatísticas de audição",
+		"top": {
+			"albums": "Seus melhores álbuns",
+			"tracks": "Suas principais faixas",
+			"unplayed": "{count, plural, one {# faixa} other {# faixas}} deste álbum não teve reproduções neste período"
+		},
+		"window": {
+			"everything": "Cada peça registrada"
+		}
+	},
+	"fingerprint": {
+		"ariaLabel": "Ouvindo impressões digitais em cinco medidas",
+		"average": "Média central",
+		"axes": {
+			"concentration": "Foco",
+			"consistency": "Consistência",
+			"discovery": "Descoberta",
+			"replay": "Repetir",
+			"variance": "Volatilidade"
+		},
+		"axisWithAverage": "{axis} · média do cubo {pct}",
+		"you": "Você"
+	},
+	"genreFlow": {
+		"ariaLabel": "Participação do gênero na audição ao longo do tempo",
+		"empty": "Ainda não há dados de gênero nesta janela",
+		"other": "Outro",
+		"otherCount": "Outros · {count, plural, one {# gênero} other {# gêneros}}"
+	},
+	"heatmap": {
+		"ariaLabel": "Mapa de calor de escuta diária",
+		"dayLabel": "{date, date, ::EEEMMMd}",
+		"less": "Menos",
+		"more": "Mais",
+		"scaleAriaLabel": "Escala de intensidade de atividade, menos para mais",
+		"summary": "{count, plural, one {# play} other {# play}} em {days, plural, one {# dia ativo} other {# dias ativos}}"
+	},
+	"history": {
+		"beginning": "Essa é a primeira peça já registrada."
+	},
+	"nav": {
+		"title": "Insights de escuta"
+	},
+	"overview": {
+		"firstWindow": "{person, select, them {Sua primeira janela registrada - as comparações aparecerão assim que houver um histórico por trás dela.} other {Sua primeira janela registrada - as comparações aparecerão assim que houver um histórico por trás dela.}}"
+	},
+	"panels": {
+		"activity": "Atividade",
+		"byWeekday": "Por dia da semana",
+		"clockHeatmap": "Ouvindo por dia da semana e hora",
+		"decades": "Música por década",
+		"fingerprint": "Ouvindo impressão digital",
+		"genreFlow": "Gêneros ao longo do tempo",
+		"listeningClock": "Relógio de escuta",
+		"musicRatio": "Proporção musical",
+		"topGenres": "Principais gêneros"
+	},
+	"period": {
+		"day": "24 horas",
+		"halfYear": "6 meses",
+		"month": "30 dias",
+		"overall": "Todo o tempo",
+		"quarter": "3 meses",
+		"week": "7 dias",
+		"year": "12 meses"
+	},
+	"quietWindow": {
+		"body": "Nada foi reproduzido nesta janela.",
+		"cta": "Mostrar todos os tempos",
+		"title": "Nada neste período"
+	},
+	"ratio": {
+		"ariaLabel": "Faixas {tracks, number}, álbuns {albums, number} e artistas {artists, number} como anéis aninhados",
+		"caption": "Faixas, álbuns e artistas distintos reproduzidos nesta janela. A varredura de cada anel compara sua contagem com {count, plural, one {# faixa} ​​other {# faixas}}.",
+		"shareOfTracks": "· {pct} de faixas"
+	},
+	"recentlyPlayed": "Jogado recentemente",
+	"records": {
+		"empty": {
+			"body": "{person, select, them {Sequências, recordes e marcos aumentam à medida que ouvem.} other {Sequências, recordes e marcos aumentam enquanto você ouve.}}",
+			"title": "Ainda não há registros"
+		},
+		"milestones": {
+			"beginning": "{person, select, them {Toda biblioteca começa em algum lugar - marcos de números redondos chegarão aqui à medida que suas peças forem somadas.} other {Toda biblioteca começa em algum lugar - marcos de números redondos chegarão aqui conforme suas peças forem somadas.}}",
+			"chip": "Todo o tempo",
+			"curveAriaLabel": "Jogadas cumulativas ao longo do tempo, um ponto por marco",
+			"first": "Primeira jogada",
+			"lookup": {
+				"label": "Procure uma peça",
+				"outOfRange": "Ainda não há muitas peças gravadas.",
+				"submit": "Encontre"
+			},
+			"ordinal": "{ordinal, selectordinal, one {#ª reprodução} other {#ª reprodução}}",
+			"title": "Marcos"
+		},
+		"onThisDay": {
+			"empty": "{person, select, them {Nenhuma memória desta data ainda - eles se reunirão aqui quando sua história completar um ano.} other {Nenhuma memória nesta data ainda - eles se reunirão aqui quando sua história completar um ano.}}",
+			"title": "Neste dia",
+			"yearsAgo": "{count, plural, one {# ano atrás} other {# anos atrás}}"
+		},
+		"sessions": {
+			"ariaLabel": "As sessões de escuta mais longas",
+			"longest": "Mais longo: {duration} · {date}",
+			"meta": "{tracks, plural, one {# faixa} other {# faixas}}",
+			"metaWithArtist": "{tracks, plural, one {# faixa} other {# faixas}} · principalmente {artist}",
+			"title": "Sessões mais longas"
+		},
+		"streaks": {
+			"alsoLongest": "O mais longo de todos",
+			"current": "Sequência atual",
+			"days": "{count, plural, one {# dia} other {# dias}}",
+			"detail": "{range} · {plays, plural, one {# reprodução} other {# reprodução}}",
+			"live": "Ativo – continue assim",
+			"longest": "Sequência mais longa",
+			"noCurrent": {
+				"body": "{person, select, them {Nada ativo no momento.} other {Jogue algo hoje para iniciar um.}}",
+				"title": "Nenhuma sequência agora"
+			}
+		},
+		"tiles": {
+			"activeDays": "Dias ativos",
+			"activeDaysOf": "de {count, number} nesta janela",
+			"biggestDay": "Maior dia",
+			"playsPerDay": "Jogadas por dia"
+		}
+	},
+	"relative": {
+		"hoursAgo": "{hours}h atrás",
+		"justNow": "agora mesmo",
+		"minutesAgo": "{minutes}m atrás",
+		"shortDate": "{date}",
+		"today": "hoje",
+		"yesterday": "ontem"
+	},
+	"shareGrid": {
+		"album": {
+			"ariaLabel": "Grade das capas de seus álbuns mais tocadas neste período",
+			"infoToggle": "Informações do álbum na grade",
+			"title": "Grade de álbum"
+		},
+		"artist": {
+			"ariaLabel": "Visualização da grade do artista",
+			"infoToggle": "Informações do artista na grade",
+			"title": "Grade de artistas"
+		},
+		"bordersToggle": "Incluir fronteiras",
+		"download": "Baixar",
+		"downloaded": "Salvou sua grade de álbum.",
+		"downloading": "Renderizando…",
+		"failed": "Não foi possível criar a grade. Por favor, tente novamente."
+	},
+	"social": {
+		"friendActivity": "Atividade de amigo",
+		"listeningNow": "Ouvindo agora"
+	},
+	"stats": {
+		"dateLabel": "{date, date, ::yMMMd}",
+		"duration": "{days}d {hours}h / {hours}h {minutes}m / {minutes}m",
+		"firstPlayed": "Jogado pela primeira vez",
+		"lastPlayed": "Jogado pela última vez",
+		"plays": "Peças",
+		"playsValue": "{count, number}",
+		"rankBadge": "#{rank} mais jogado",
+		"rankOf": "#{rank, number} de {total, number}",
+		"seeAll": "Veja estatísticas completas",
+		"sparkline": {
+			"ariaLabel": "Tendência de jogo mensal"
+		},
+		"time": "Hora",
+		"timeListened": "Tempo ouvido",
+		"title": "Suas estatísticas",
+		"uniqueArtists": "Artistas Únicos",
+		"uniqueArtistsValue": "{count}",
+		"uniqueTracks": "Faixas únicas",
+		"uniqueTracksValue": "{count}"
+	},
+	"tabs": {
+		"charts": "Gráficos",
+		"discovery": "Descoberta",
+		"history": "História",
+		"overview": "Visão geral",
+		"records": "Registros",
+		"social": "Sociais"
+	},
+	"title": "Ouvindo",
+	"top": {
+		"albums": "Principais álbuns",
+		"artists": "Principais artistas",
+		"genres": "Principais gêneros",
+		"playsCount": "{count, plural, one {# reprodução} other {# reprodução}}",
+		"tracks": "Principais faixas"
+	},
+	"topCard": {
+		"album": "Melhor álbum",
+		"artist": "Melhor artista",
+		"track": "Faixa principal"
+	},
+	"weekday": {
+		"fri": "Sexta-feira",
+		"mon": "segunda-feira",
+		"playsValue": "{count, number}",
+		"sat": "Sábado",
+		"sun": "Sol",
+		"thu": "Qui",
+		"tue": "Terça",
+		"wed": "Quarta"
+	},
+	"wrapped": {
+		"downloaded": "Salvou seu cartão embrulhado.",
+		"failed": "Não foi possível criar o cartão. Por favor, tente novamente.",
+		"heading": "Chordia embrulhada",
+		"minutesListened": "minutos ouvidos",
+		"periodTitle": {
+			"halfYear": "Seus últimos 6 meses na música",
+			"month": "Seu mês na música",
+			"overall": "Suas estatísticas de todos os tempos",
+			"quarter": "Seus últimos 3 meses na música",
+			"week": "Sua semana na música",
+			"year": "Seu ano na música"
+		},
+		"shareButton": "Compartilhar",
+		"shared": "Compartilhou seu cartão embrulhado.",
+		"sharedFallback": "Não foi possível compartilhar. Em vez disso, salvei o cartão nos seus downloads.",
+		"sharing": "Compartilhando…",
+		"statLine": "Artistas de {artists, number} · Faixas de {tracks, number}",
+		"topArtists": "Principais artistas",
+		"topGenre": "Gênero principal",
+		"topTracks": "Principais faixas"
+	}
+}

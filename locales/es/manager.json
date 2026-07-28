@@ -1,0 +1,163 @@
+{
+	"nav": "Gestor",
+	"title": "Administrador de biblioteca",
+	"subtitle": "Pista tu coverage y find what estás faltante.",
+	"loadFailed": "No se pudo load coverage.",
+	"coverage": {
+		"albumLabel": "Álbum coverage",
+		"artistLabel": "Artistas completo",
+		"ownedOfTotal": "{owned} de {total} releases owned",
+		"touched": "{count} artistas tracked",
+		"complete": "{count} completo",
+		"pending": "{count} esperando discografía",
+		"fetching": "Fetching discographies en el background. Coverage will fill en shortly.",
+		"empty": "No coverage aún. Once tu bibliotecas finish syncing y discographies are fetched, tu coverage appears aquí."
+	},
+	"libraries": {
+		"title": "Bibliotecas en coverage",
+		"hint": "Uncheck un biblioteca a salir it out de el coverage math.",
+		"includeShared": "Include bibliotecas compartido con me",
+		"owned": "Propia",
+		"shared": "Compartido",
+		"counts": "{tracks} pistas · {albums} álbumes · {artists} artistas"
+	},
+	"artists": {
+		"title": "Tu artistas",
+		"subtitle": "Abrir un artista a see which álbumes estás faltante.",
+		"empty": "No artistas aún. Sync un biblioteca a get started."
+	},
+	"artist": {
+		"complete": "{pct}% completo",
+		"owned": "In tu biblioteca",
+		"missing": "Faltante",
+		"missingCount": "{count} faltante",
+		"noMissing": "Tú have cada release nosotros know sobre para este artista.",
+		"noMbid": "No MusicBrainz match para este artista aún, so coverage no está disponible.",
+		"fetching": "Obteniendo discografía…",
+		"loadFailed": "No se pudo load coverage para este artista.",
+		"back": "Volver a Manager"
+	},
+	"album": {
+		"back": "Volver a Manager",
+		"coverage": "{owned} de {total} pistas",
+		"disc": "Disco {n}",
+		"editionCount": "{count, plural, one {# edition} other {# editions}}",
+		"remaster": "Remasterización",
+		"owned": "In tu biblioteca",
+		"fetching": "obteniendo lista de pistas…",
+		"noTracks": "No tracklist disponible para este álbum aún.",
+		"loadFailed": "No se pudo load este album's tracklist."
+	},
+	"tabs": {
+		"coverage": "Cobertura",
+		"discover": "Descubrir",
+		"follows": "Siguiendo",
+		"downloads": "Descargas",
+		"settings": "Ajustes"
+	},
+	"discover": {
+		"title": "Descubrir",
+		"subtitle": "Buscar todos de música a find artistas y álbumes tú no have aún.",
+		"placeholder": "Buscar artistas y álbumes…",
+		"hint": "Tipo en least 2 characters a buscar.",
+		"searching": "Buscando…",
+		"noResults": "No matches. Try un different buscar.",
+		"artists": "Artistas",
+		"releases": "Lanzamientos",
+		"owned": "In biblioteca",
+		"available": "Not en biblioteca",
+		"allTypes": "Todos",
+		"type": {
+			"Album": "Álbumes",
+			"EP": "EP",
+			"Single": "Sencillos",
+			"Broadcast": "Sesiones",
+			"Other": "Otro"
+		},
+		"version": {
+			"instrumental": "Instrumental",
+			"live": "En vivo"
+		}
+	},
+	"follows": {
+		"title": "Siguiendo",
+		"subtitle": "Artistas tú seguir. Nuevo releases surface en tu faltante lista automatically.",
+		"empty": "Estás no siguiendo anyone aún. Abrir un artista en Discover y tap Seguir.",
+		"unfollow": "Dejar de seguir",
+		"loadFailed": "No se pudo load tu follows."
+	},
+	"follow": {
+		"follow": "Seguir",
+		"following": "Siguiendo"
+	},
+	"download": {
+		"button": "Descargar",
+		"queued": "Added a el descargar queue",
+		"failed": "No se pudo queue el descargar",
+		"noLibrary": "No descargar-enabled biblioteca aún. Set subir Prowlarr + qBittorrent en un biblioteca primero.",
+		"chooseLibrary": "Descargar en…",
+		"notEnabled": "Downloads aren't enabled en ese biblioteca.",
+		"ackTitle": "Before tú descargar",
+		"ackMessage": "Chordia ships no indexers o trackers. Downloads usar el Prowlarr y qBittorrent tú configured, y tú are responsible para el legality de what tú acquire en tu jurisdiction.",
+		"ackConfirm": "Lo entiendo"
+	},
+	"queue": {
+		"title": "Descargas",
+		"subtitle": "Tu descargar actividad.",
+		"empty": "No downloads aún. Hit Descargar en un faltante álbum a start one.",
+		"cancel": "Cancelar",
+		"retry": "Reintentar",
+		"choose": "Elegir fuente",
+		"pickHint": "Nosotros weren't sure which release is el exact álbum, so pick el right one.",
+		"selectFailed": "No se pudo pin ese fuente — el job may have moved en. Refresh y pick de nuevo.",
+		"loadFailed": "No se pudo load tu downloads.",
+		"status": {
+			"queued": "En cola",
+			"claimed": "Iniciando",
+			"searching": "Buscando",
+			"grabbing": "Obteniendo",
+			"downloading": "Descargando",
+			"importing": "Importando",
+			"completed": "Completado",
+			"failed": "Error",
+			"no_results": "No se encontraron fuentes",
+			"cancelled": "Cancelada",
+			"awaiting_selection": "Elegir un fuente"
+		},
+		"requestedBy": "requested por @{handle}",
+		"intoLibrary": "en @{handle}'s biblioteca"
+	},
+	"settings": {
+		"title": "Ajustes del administrador",
+		"subtitle": "Perfiles de calidad y per-biblioteca descargar status.",
+		"profiles": "Perfiles de calidad",
+		"profilesHint": "Downloads always pick el best disponible fuente within un profile's allowed formats.",
+		"default": "Predeterminada",
+		"makeDefault": "Establecer como predeterminada",
+		"preferSeeders": "Prefer más seeders",
+		"newProfile": "Nuevo perfil",
+		"name": "Nombre",
+		"formats": "Allowed formats (best primero)",
+		"maxSize": "Tamaño máx. (MB, opcional)",
+		"save": "Guardar",
+		"delete": "Eliminar",
+		"created": "Perfil guardado",
+		"saveFailed": "No se pudo guardar el perfil",
+		"libraries": "Biblioteca descargar status",
+		"librariesHint": "Activar downloads por configuring Prowlarr + qBittorrent en each library's chordia-biblioteca.toml.",
+		"enabled": "Descargas activadas",
+		"disabled": "Descargas desactivadas",
+		"indexers": "{count} indexadores",
+		"destinationTitle": "Destino de descarga",
+		"destinationHelp": "Where nuevo descargar requests land. Amigos' bibliotecas appear aquí cuando they've given tú solicitud acceso.",
+		"destinationAsk": "Ask cada tiempo",
+		"destinationSaved": "Default destination guardado."
+	},
+	"upgrade": {
+		"check": "Check para better calidad",
+		"queued": "Upgrade check queued — watch Downloads. If un strictly better fuente exists it'll descargar; otherwise el job ends quietly.",
+		"inProgress": "An upgrade o descargar para este álbum is already en flight.",
+		"notIdentified": "Este álbum no está matched a MusicBrainz aún, so there's nothing reliable a buscar para.",
+		"failed": "No se pudo queue el upgrade check."
+	}
+}

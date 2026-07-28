@@ -1,0 +1,137 @@
+{
+	"controls": {
+		"fullscreen": "Vollbild",
+		"mute": "Stumm",
+		"next": "Nächste",
+		"pause": "Pause",
+		"play": "Spielen",
+		"previous": "Vorherige",
+		"repeat": "Wiederholen",
+		"seek": "Suchen",
+		"shuffle": "Zufallsmodus",
+		"unmute": "Stummschaltung aufheben",
+		"volume": "Volumen",
+		"volumeButton": "Lautstärketaste",
+		"volumeSlider": "Lautstärkeregler"
+	},
+	"devices": {
+		"current": "Aktuelles Ziel",
+		"none": "Keine Wiedergabegeräte gefunden.",
+		"pressPlay": "Drücken Sie Play, um hier zu beginnen",
+		"thisTab": "Diese Registerkarte",
+		"title": "Wiedergabegerät"
+	},
+	"eqPreset": {
+		"acoustic": "Akustisch",
+		"bassBoost": "Bass-Boost",
+		"bassReducer": "Bassreduzierer",
+		"classical": "Klassisch",
+		"electronic": "Elektronisch",
+		"flat": "Wohnung",
+		"hipHop": "Hip Hop",
+		"jazz": "Jazz",
+		"loudness": "Lautstärke",
+		"pop": "Pop",
+		"rock": "Felsen",
+		"trebleBoost": "Höhenverstärkung",
+		"trebleReducer": "Höhenreduzierer",
+		"vocal": "Gesang"
+	},
+	"equalizer": {
+		"bandFreq": "Band{n}Frequenz",
+		"bandWidth": "Band{n}Breite (Q)",
+		"close": "Knapper Ausgleich",
+		"deletePreset": "Löschen{name}",
+		"dragHint": "Ziehen Sie einen Knoten, um die Kurve zu formen",
+		"dragHintParametric": "· Seitwärts ziehen für Frequenz · Scrollen für Breite (Q)",
+		"enable": "Equalizer aktivieren",
+		"freqDisplay": "{freq}Hz",
+		"graph": {
+			"ariaLabel": "Equalizer-Reaktion – Ziehen Sie die Bandknoten, um den Klang zu formen",
+			"title": "Reaktionskurve des Equalizers"
+		},
+		"parametric": "Parametrisch",
+		"preamp": "Vorverstärker",
+		"preampDisplay": "{value}dB",
+		"presetCustom": "Brauch",
+		"presetSelect": "EQ-Voreinstellung",
+		"presetsGroup": "Voreinstellungen",
+		"savePreset": "Voreinstellung speichern",
+		"savePresetPlaceholder": "Aktuelles als Voreinstellung speichern…",
+		"title": "Equalizer",
+		"yourPresetsGroup": "Ihre Voreinstellungen"
+	},
+	"fullscreen": {
+		"enter": "Vollbild",
+		"exit": "Beenden Sie den Vollbildmodus"
+	},
+	"lyrics": {
+		"loading": "Liedtext wird geladen…",
+		"none": "Für diesen Titel sind keine Liedtexte verfügbar.",
+		"nothingPlaying": "Nichts spielt.",
+		"returnToCurrent": "Zurück zur aktuellen Zeile",
+		"title": "Text"
+	},
+	"monthlyListeners": "{count, plural, one {# monatlicher Hörer} other {# monatliche Zuhörer}}",
+	"nowPlaying": {
+		"aboutArtist": "Um{name}",
+		"albumFallback": "Album",
+		"playingFrom": "Spielen ab",
+		"title": "Jetzt spielen"
+	},
+	"notPlaying": "Spielt nicht",
+	"nothingPlaying": "Es wird noch nichts abgespielt.",
+	"plays": "{count, plural, one {# spielen} other {# spielt}}",
+	"queue": {
+		"add": "Zur Warteschlange hinzufügen",
+		"empty": "Die Warteschlange ist leer.",
+		"nextUp": "Als nächstes",
+		"nothingPlayed": "Es wurde noch nichts gespielt.",
+		"playNext": "Als nächstes spielen",
+		"recentlyPlayed": "Kürzlich gespielt",
+		"removeFromQueue": "Aus der Warteschlange entfernen",
+		"repeatOne": "„Eins wiederholen“ ist aktiviert – dieses Lied wird immer wieder abgespielt.",
+		"thenRepeating": "Dann wiederholen",
+		"title": "Warteschlange"
+	},
+	"quality": {
+		"change": "Ändern",
+		"dataPerHourGb": "~{value}GB/Stunde",
+		"dataPerHourMb": "~{value}MB/Stunde",
+		"khz": "{value}kHz",
+		"loudness": "Lautstärke",
+		"lossless": "Verlustfrei",
+		"lossy": "Verlustbehaftet",
+		"originalSourceFile": "Originalquelldatei",
+		"source": "Quelle",
+		"spatial": "· Räumlich",
+		"streaming": "Streaming",
+		"streamingRate": "~{kbps}kbit/s ·{data}",
+		"title": "Dateiqualität",
+		"upTo": "Bis zu{value}"
+	},
+	"sleepTimer": {
+		"endOfTrack": "Ende der Strecke",
+		"minutes": "{count, plural, one {# Minute} other {# Minuten}}",
+		"oneHour": "1 Stunde",
+		"title": "Sleep-Timer",
+		"turnOff": "Ausschalten"
+	},
+	"visualizer": {
+		"autoCycle": "Auto-Cycle-Stile",
+		"close": "Schließen Sie den Visualizer",
+		"nextStyle": "Nächster Stil",
+		"nothingPlaying": "Spielen Sie etwas ab, um den Visualizer zu sehen.",
+		"open": "Visualisierer",
+		"previousStyle": "Vorheriger Stil",
+		"style": {
+			"bars": "Spektrumbalken",
+			"mirror": "Spiegelwelle",
+			"particles": "Partikelblüte",
+			"radial": "Radiales Spektrum",
+			"scope": "Oszilloskop",
+			"spectrogram": "Spektrogramm"
+		},
+		"unavailable": "Visualizer ist für diese Quelle nicht verfügbar."
+	}
+}

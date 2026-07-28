@@ -1,0 +1,31 @@
+{
+	"collabInvite": {
+		"body": "{inviter} 추가됨 회원님 as collaborator 에 플레이리스트 “{playlist}”.",
+		"cta": "플레이리스트 열기",
+		"hint": "회원님 can 지금 add 및 삭제 트랙.",
+		"subject": "회원님 were 추가됨 으로 Chordia 플레이리스트"
+	},
+	"footer": {
+		"manage": "회원님 can turn these emails off 에 Chordia 설정 → Notifications."
+	},
+	"friendRequest": {
+		"body": "{name} wants 으로 connect 함께 회원님 에 Chordia.",
+		"cta": "프로필 보기",
+		"heading": "새 친구 요청",
+		"subject": "{name} sent 회원님 친구 request"
+	},
+	"passwordReset": {
+		"body": "Someone requested 비밀번호 reset 용 내 Chordia 계정.",
+		"cta": "비밀번호 재설정",
+		"expiry": "이 link expires 에 1 시간.",
+		"ignore": "If 회원님 didn't request this, 회원님 can safely ignore 이 이메일.",
+		"subject": "재설정 내 Chordia 비밀번호"
+	},
+	"verifyEmail": {
+		"body": "Please confirm 내 이메일 address 으로 finish setting up 내 계정.",
+		"cta": "이메일 인증",
+		"expiry": "이 link expires 에 24 시간.",
+		"heading": "Chordia에 오신 것을 환영합니다",
+		"subject": "인증 내 Chordia 이메일"
+	}
+}

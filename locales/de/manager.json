@@ -1,0 +1,163 @@
+{
+	"nav": "Verwaltung",
+	"title": "Bibliotheksmanager",
+	"subtitle": "Verfolgen Sie Ihren Versicherungsschutz und finden Sie heraus, was Ihnen fehlt.",
+	"loadFailed": "Die Abdeckung konnte nicht geladen werden.",
+	"coverage": {
+		"albumLabel": "Albumabdeckung",
+		"artistLabel": "Künstler abgeschlossen",
+		"ownedOfTotal": "{owned}von{total}Veröffentlichungen im Besitz",
+		"touched": "{count}Künstler verfolgt",
+		"complete": "{count}vollständig",
+		"pending": "{count}warte auf die Diskographie",
+		"fetching": "Diskografien im Hintergrund abrufen. Der Versicherungsschutz wird in Kürze ausgeschöpft sein.",
+		"empty": "Noch keine Abdeckung. Sobald die Synchronisierung Ihrer Bibliotheken abgeschlossen ist und die Diskografien abgerufen wurden, wird Ihre Berichterstattung hier angezeigt."
+	},
+	"libraries": {
+		"title": "Bibliotheken im Angebot",
+		"hint": "Deaktivieren Sie eine Bibliothek, um sie aus der Abdeckungsberechnung auszuschließen.",
+		"includeShared": "Mit mir geteilte Bibliotheken einschließen",
+		"owned": "Im Besitz",
+		"shared": "Geteilt",
+		"counts": "{tracks}Spuren ·{albums}Alben ·{artists}Künstler"
+	},
+	"artists": {
+		"title": "Ihre Künstler",
+		"subtitle": "Öffnen Sie einen Künstler, um zu sehen, welche Alben Sie vermissen.",
+		"empty": "Noch keine Künstler. Synchronisieren Sie eine Bibliothek, um loszulegen."
+	},
+	"artist": {
+		"complete": "{pct}% vollständig",
+		"owned": "In Ihrer Bibliothek",
+		"missing": "Fehlen",
+		"missingCount": "{count}fehlen",
+		"noMissing": "Sie haben alle Veröffentlichungen, die wir für diesen Künstler kennen.",
+		"noMbid": "Für diesen Künstler gibt es noch kein MusicBrainz-Match, daher ist keine Berichterstattung verfügbar.",
+		"fetching": "Diskographie wird abgerufen…",
+		"loadFailed": "Die Berichterstattung für diesen Künstler konnte nicht geladen werden.",
+		"back": "Zurück zum Manager"
+	},
+	"album": {
+		"back": "Zurück zum Manager",
+		"coverage": "{owned}von{total}Spuren",
+		"disc": "Scheibe{n}",
+		"editionCount": "{count, plural, one {# Ausgabe} other {# Ausgaben}}",
+		"remaster": "Remaster",
+		"owned": "In Ihrer Bibliothek",
+		"fetching": "Trackliste wird abgerufen…",
+		"noTracks": "Für dieses Album ist noch keine Tracklist verfügbar.",
+		"loadFailed": "Die Trackliste dieses Albums konnte nicht geladen werden."
+	},
+	"tabs": {
+		"coverage": "Abdeckung",
+		"discover": "Entdecken",
+		"follows": "Nachfolgend",
+		"downloads": "Downloads",
+		"settings": "Einstellungen"
+	},
+	"discover": {
+		"title": "Entdecken",
+		"subtitle": "Durchsuchen Sie die gesamte Musik, um Künstler und Alben zu finden, die Sie noch nicht haben.",
+		"placeholder": "Suchen Sie nach Künstlern und Alben…",
+		"hint": "Geben Sie für die Suche mindestens 2 Zeichen ein.",
+		"searching": "Suche...",
+		"noResults": "Keine Übereinstimmungen. Versuchen Sie es mit einer anderen Suche.",
+		"artists": "Künstler",
+		"releases": "Veröffentlichungen",
+		"owned": "In der Bibliothek",
+		"available": "Nicht in der Bibliothek",
+		"allTypes": "Alle",
+		"type": {
+			"Album": "Alben",
+			"EP": "EPs",
+			"Single": "Einzel",
+			"Broadcast": "Sitzungen",
+			"Other": "Andere"
+		},
+		"version": {
+			"instrumental": "Instrumental",
+			"live": "Live"
+		}
+	},
+	"follows": {
+		"title": "Nachfolgend",
+		"subtitle": "Künstler, denen Sie folgen. Neue Veröffentlichungen werden automatisch in Ihrer fehlenden Liste angezeigt.",
+		"empty": "Du folgst noch niemandem. Öffnen Sie einen Künstler in Discover und tippen Sie auf „Folgen“.",
+		"unfollow": "Nicht mehr folgen",
+		"loadFailed": "Deine Follower konnten nicht geladen werden."
+	},
+	"follow": {
+		"follow": "Folgen",
+		"following": "Nachfolgend"
+	},
+	"download": {
+		"button": "Herunterladen",
+		"queued": "Zur Download-Warteschlange hinzugefügt",
+		"failed": "Der Download konnte nicht in die Warteschlange gestellt werden",
+		"noLibrary": "Noch keine herunterladbare Bibliothek. Richten Sie Prowlarr + qBittorrent zunächst in einer Bibliothek ein.",
+		"chooseLibrary": "Herunterladen in…",
+		"notEnabled": "Downloads sind für diese Bibliothek nicht aktiviert.",
+		"ackTitle": "Bevor Sie herunterladen",
+		"ackMessage": "Chordia liefert keine Indexer oder Tracker. Für Downloads werden Prowlarr und qBittorrent verwendet, die Sie konfiguriert haben, und Sie sind für die Rechtmäßigkeit dessen, was Sie in Ihrem Land erwerben, verantwortlich.",
+		"ackConfirm": "Ich verstehe"
+	},
+	"queue": {
+		"title": "Downloads",
+		"subtitle": "Ihre Download-Aktivität.",
+		"empty": "Noch keine Downloads. Klicken Sie bei einem fehlenden Album auf „Herunterladen“, um eines zu starten.",
+		"cancel": "Stornieren",
+		"retry": "Wiederholen",
+		"choose": "Quelle wählen",
+		"pickHint": "Wir waren uns nicht sicher, welche Veröffentlichung das genaue Album ist, also wählen Sie das richtige aus.",
+		"selectFailed": "Diese Quelle konnte nicht angeheftet werden – der Auftrag wurde möglicherweise verschoben. Aktualisieren und erneut auswählen.",
+		"loadFailed": "Ihre Downloads konnten nicht geladen werden.",
+		"status": {
+			"queued": "In der Warteschlange",
+			"claimed": "Beginnt",
+			"searching": "Suchen",
+			"grabbing": "Zupackend",
+			"downloading": "Herunterladen",
+			"importing": "Importieren",
+			"completed": "Vollendet",
+			"failed": "Fehlgeschlagen",
+			"no_results": "Keine Quellen gefunden",
+			"cancelled": "Abgesagt",
+			"awaiting_selection": "Wählen Sie eine Quelle"
+		},
+		"requestedBy": "angefordert von @{handle}",
+		"intoLibrary": "hinein @{handle}'s Bibliothek"
+	},
+	"settings": {
+		"title": "Managereinstellungen",
+		"subtitle": "Qualitätsprofile und Downloadstatus pro Bibliothek.",
+		"profiles": "Qualitätsprofile",
+		"profilesHint": "Für Downloads wird immer die beste verfügbare Quelle innerhalb der zulässigen Formate eines Profils ausgewählt.",
+		"default": "Standard",
+		"makeDefault": "Als Standard festlegen",
+		"preferSeeders": "Bevorzugen Sie mehr Sämaschinen",
+		"newProfile": "Neues Profil",
+		"name": "Name",
+		"formats": "Zulässige Formate (am besten zuerst)",
+		"maxSize": "Maximale Größe (MB, optional)",
+		"save": "Speichern",
+		"delete": "Löschen",
+		"created": "Profil gespeichert",
+		"saveFailed": "Das Profil konnte nicht gespeichert werden",
+		"libraries": "Downloadstatus der Bibliothek",
+		"librariesHint": "Aktivieren Sie Downloads, indem Sie Prowlarr + qBittorrent in der chordia-library.toml jeder Bibliothek konfigurieren.",
+		"enabled": "Downloads aktiviert",
+		"disabled": "Downloads aus",
+		"indexers": "{count}Indexer",
+		"destinationTitle": "Ziel herunterladen",
+		"destinationHelp": "Wo neue Download-Anfragen landen. Die Bibliotheken von Freunden werden hier angezeigt, wenn sie Ihnen eine Zugriffsanfrage erteilt haben.",
+		"destinationAsk": "Fragen Sie jedes Mal",
+		"destinationSaved": "Standardziel gespeichert."
+	},
+	"upgrade": {
+		"check": "Achten Sie auf eine bessere Qualität",
+		"queued": "Upgrade-Check in der Warteschlange – Downloads ansehen. Wenn es eine absolut bessere Quelle gibt, wird diese heruntergeladen. andernfalls endet die Arbeit stillschweigend.",
+		"inProgress": "Ein Upgrade oder Download für dieses Album ist bereits in Planung.",
+		"notIdentified": "Dieses Album ist noch nicht mit MusicBrainz verknüpft, daher gibt es keine verlässliche Suche.",
+		"failed": "Die Upgrade-Prüfung konnte nicht in die Warteschlange gestellt werden."
+	}
+}

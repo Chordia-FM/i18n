@@ -1,0 +1,105 @@
+{
+	"actions": {
+		"rename": "Playlist umbenennen"
+	},
+	"addError": "Konnte nicht zur Playlist hinzugefügt werden",
+	"addToNamed": "Hinzufügen zu{playlist}",
+	"addToPlaylist": "Zur Playlist hinzufügen",
+	"addedToast": "Hinzugefügt{playlist}",
+	"collaborators": {
+		"addError": "Dieser Mitarbeiter konnte nicht hinzugefügt werden",
+		"collaborative": "Kollaborativ",
+		"invite": "+ Einladen",
+		"invitePrompt": "Laden Sie einen Mitarbeiter per Benutzername ein",
+		"invited": "Eingeladen @{handle}",
+		"justYou": "Nur du",
+		"removeTitle": "Entfernen{name}",
+		"removed": "ENTFERNT{name}"
+	},
+	"confirm": {
+		"deleteMessage": "Löschen \"{name}„?",
+		"deleteTitle": "Playlist löschen"
+	},
+	"cover": {
+		"change": "Bild ändern",
+		"remove": "Bild entfernen"
+	},
+	"delete": {
+		"confirmBody": "Diese Playlist löschen?",
+		"title": "Playlist löschen"
+	},
+	"empty": "Diese Playlist ist leer. Fügen Sie Lieder aus dem „⋯“-Menü zu einem beliebigen Titel hinzu.",
+	"kindLabel": "Wiedergabeliste",
+	"leave": {
+		"confirmBody": "Diese gemeinsame Playlist verlassen?",
+		"confirmLabel": "Verlassen",
+		"title": "Playlist verlassen"
+	},
+	"menuEmpty": "Keine Playlists",
+	"new": "Neue Playlist",
+	"prompt": {
+		"newName": "Name der Wiedergabeliste",
+		"rename": "Playlist umbenennen"
+	},
+	"removeFromPlaylist": "Aus Playlist entfernen",
+	"sharedWithYou": "· mit Ihnen geteilt",
+	"smart": {
+		"addRule": "Regel hinzufügen",
+		"autoUpdating": "· Automatische Aktualisierung",
+		"bool": {
+			"false": "FALSCH",
+			"true": "WAHR"
+		},
+		"created": "Intelligente Playlist erstellt",
+		"delete": {
+			"confirmBody": "Diese intelligente Playlist löschen?",
+			"title": "Intelligente Playlist löschen"
+		},
+		"description": "Regeln werden automatisch auf passende Tracks aufgelöst.",
+		"editRules": "Regeln bearbeiten",
+		"editTitle": "Bearbeiten Sie die intelligente Wiedergabeliste",
+		"empty": "Bisher entsprechen keine Titel diesen Regeln. Versuchen Sie, sie mit „Regeln bearbeiten“ zu lockern.",
+		"field": {
+			"album": "Album",
+			"artist": "Künstler",
+			"genre": "Genre",
+			"liked": "Gefallen",
+			"plays": "Spielt",
+			"title": "Titel",
+			"year": "Jahr"
+		},
+		"kindLabel": "Intelligente Playlist",
+		"limit": "Limit",
+		"match": "Übereinstimmen",
+		"matchMode": {
+			"all": "alle",
+			"any": "beliebig"
+		},
+		"namePlaceholder": "Name der Wiedergabeliste",
+		"new": "Neue intelligente Playlist",
+		"newTitle": "Neue intelligente Playlist",
+		"ofTheseRules": "dieser Regeln:",
+		"op": {
+			"contains": "enthält",
+			"equals": "Ist",
+			"is": "Ist"
+		},
+		"removeRule": "Regel entfernen",
+		"saveError": "Die Smart Playlist konnte nicht gespeichert werden",
+		"sort": {
+			"plays": "Spielt",
+			"random": "Zufällig",
+			"title": "Titel"
+		},
+		"sortBy": "Sortieren nach",
+		"updated": "Intelligente Playlist aktualisiert",
+		"valuePlaceholder": "Wert"
+	},
+	"songCount": "{count, plural, one {# Lied} other {# Lieder}}",
+	"toast": {
+		"createFailed": "Playlist konnte nicht erstellt werden",
+		"created": "Erstellt \"{name}\"",
+		"deleteFailed": "Die Wiedergabeliste konnte nicht gelöscht werden",
+		"deleted": "Gelöscht \"{name}\""
+	}
+}

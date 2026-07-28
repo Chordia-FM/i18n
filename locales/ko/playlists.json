@@ -1,0 +1,105 @@
+{
+	"actions": {
+		"rename": "이름 변경 플레이리스트"
+	},
+	"addError": "Couldn't add 으로 플레이리스트",
+	"addToNamed": "Add 으로 {playlist}",
+	"addToPlaylist": "Add 으로 플레이리스트",
+	"addedToast": "추가됨 으로 {playlist}",
+	"collaborators": {
+		"addError": "Couldn't add 해당 collaborator",
+		"collaborative": "협력",
+		"invite": "+ 초대",
+		"invitePrompt": "Invite collaborator 기준 handle",
+    "invited": "초대됨 @{handle}",
+		"justYou": "너뿐이야",
+		"removeTitle": "삭제 {name}",
+		"removed": "삭제d {name}"
+	},
+	"confirm": {
+		"deleteMessage": "삭제 \"{name}\"?",
+		"deleteTitle": "삭제 플레이리스트"
+	},
+	"cover": {
+		"change": "이미지 변경",
+		"remove": "삭제 이미지"
+	},
+	"delete": {
+		"confirmBody": "삭제 이 플레이리스트?",
+		"title": "삭제 플레이리스트"
+	},
+	"empty": "이 플레이리스트 is empty. Add 노래 에서 the “⋯” menu 에 any 트랙.",
+	"kindLabel": "재생list",
+	"leave": {
+		"confirmBody": "Leave 이 collaborative 플레이리스트?",
+		"confirmLabel": "나가기",
+		"title": "Leave 플레이리스트"
+	},
+	"menuEmpty": "없음 플레이리스트",
+	"new": "새 항목 플레이리스트",
+	"prompt": {
+		"newName": "재생list 이름",
+		"rename": "이름 변경 플레이리스트"
+	},
+	"removeFromPlaylist": "삭제 에서 플레이리스트",
+	"sharedWithYou": " · shared 함께 you",
+	"smart": {
+		"addRule": "규칙 추가",
+		"autoUpdating": " · 자동 업데이트 중",
+		"bool": {
+			"false": "거짓",
+			"true": "참"
+		},
+		"created": "Smart 플레이리스트 created",
+		"delete": {
+			"confirmBody": "삭제 이 smart 플레이리스트?",
+			"title": "삭제 smart 플레이리스트"
+		},
+		"description": "Rules resolve 으로 matching 트랙 automatically.",
+		"editRules": "편집 rules",
+		"editTitle": "편집 smart 플레이리스트",
+		"empty": "없음 트랙 match these rules yet. Try loosening them 함께 “편집 rules”.",
+		"field": {
+			"album": "앨범",
+			"artist": "아티스트",
+			"genre": "장르",
+			"liked": "좋아요",
+			"plays": "재생",
+			"title": "제목",
+			"year": "연도"
+		},
+		"kindLabel": "Smart 플레이리스트",
+		"limit": "한계",
+		"match": "경기",
+		"matchMode": {
+			"all": "모두",
+			"any": "모든"
+		},
+		"namePlaceholder": "재생list 이름",
+		"new": "새 항목 smart 플레이리스트",
+		"newTitle": "새 항목 smart 플레이리스트",
+		"ofTheseRules": "의 these rules:",
+		"op": {
+			"contains": "포함",
+			"equals": "는",
+			"is": "는"
+		},
+		"removeRule": "삭제 rule",
+		"saveError": "Couldn't 저장 smart 플레이리스트",
+		"sort": {
+			"plays": "재생",
+			"random": "임의",
+			"title": "제목"
+		},
+		"sortBy": "Sort 기준",
+		"updated": "Smart 플레이리스트 updated",
+		"valuePlaceholder": "값"
+	},
+	"songCount": "{count, plural, 기타 {# songs}}",
+	"toast": {
+		"createFailed": "Couldn't 생성 플레이리스트",
+    "created": "\"{name}\" 생성됨",
+		"deleteFailed": "Couldn't delete 플레이리스트",
+		"deleted": "삭제d \"{name}\""
+	}
+}

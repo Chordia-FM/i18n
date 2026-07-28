@@ -1,18 +1,107 @@
 {
-	"valueEmpty": "El valor no puede estar vacío.",
-	"noFields": "No hay campos para actualizar.",
-	"label": {
-		"nameTaken": "Otro sello ya tiene ese nombre."
+	"account": {
+		"emailChangeFailed": "Could no start correo cambiar."
+	},
+	"admin": {
+		"deleteSelf": "Usar cuenta ajustes a eliminar tu own cuenta.",
+		"invalidReportAction": "Action must be “resolved” o “dismissed”."
 	},
 	"auth": {
 		"badCredentials": "Correo o contraseña incorrectos.",
+		"displayNameLength": "Display nombre must be 1–64 characters.",
 		"emailInUse": "Ese correo ya está en uso.",
-		"passwordLength": "La contraseña debe tener entre {min} y {max} caracteres."
+		"emailInvalid": "A valid correo address is required.",
+		"handleChars": "Username may contain solo letters, digits, “_” y “-”, y must start con un letter o digit.",
+		"handleLength": "El nombre de usuario debe tener entre 2 y 32 caracteres.",
+		"passwordLength": "La contraseña debe tener entre {min} y {max} caracteres.",
+		"passwordRange": "Contraseña must be 8–1024 characters.",
+		"twoFactorAlreadyEnabled": "Autenticación de dos factores is already enabled — desactivar it primero.",
+		"twoFactorNotEnabled": "Autenticación de dos factores is no enabled.",
+		"twoFactorStartFirst": "Start two-factor setup primero."
 	},
+	"catalog": {
+		"albumLoadFailed": "Error a load",
+		"artistLoadFailed": "Error a load",
+		"artistNameTaken": "Another artista already has ese nombre.",
+		"labelLoadFailed": "No se pudo load este label",
+		"unknownArtist": "Desconocido artista.",
+		"unknownImageHash": "Desconocido imagen."
+	},
+	"changeFailed": "No se pudo guardar ese cambiar — please try de nuevo.",
+	"directory": {
+		"serverOffline": "Ese servidor is offline."
+	},
+	"discovery": {
+		"dailyMixFailed": "No se pudo build este mix",
+		"radioFailed": "No se pudo build este radio"
+	},
+	"failedToLoad": "Error a load",
 	"friends": {
 		"cannotFriendSelf": "No puedes enviarte una solicitud de amistad a ti mismo."
 	},
+	"generic": "Error",
+	"image": {
+		"empty": "El imagen is vacío.",
+		"fetchFailed": "No se pudo fetch ese imagen.",
+		"hashMismatch": "Imagen content didn't match el expected hash.",
+		"invalidUrl": "Invalid imagen URL.",
+		"tooLarge": "Imagen is too large (max 8 MiB)."
+	},
+	"insights": {
+		"compareSelf": "Tú can't compare con yourself.",
+		"compatibilityNotFound": "No usuario con ese handle.",
+		"compatibilityPrivate": "Ese user's escucha actividad is privado.",
+		"invalidTimezone": "Desconocido tiempo zone “{timezone}”.",
+		"loadFriendActivityFailed": "Error a load amigo actividad",
+		"loadHistoryFailed": "Error a load historial",
+		"loadStatsFailed": "Error a load stats",
+		"milestoneRange": "Pick un reproducción number de 1 o más.",
+		"pagingPair": "before_ms y before_id must be provided together."
+	},
+	"label": {
+		"nameTaken": "Otro sello ya tiene ese nombre."
+	},
+	"library": {
+		"limitReached": "Biblioteca limit reached para este cuenta."
+	},
+	"lyrics": {
+		"noLines": "There are no lyric lines a guardar."
+	},
+	"moderation": {
+		"blockSelf": "Tú can't block yourself.",
+		"reasonRequired": "Se requiere un motivo (≤200 caracteres)."
+	},
+	"noFields": "No hay campos para actualizar.",
+	"oauth": {
+		"missingCode": "Faltante authorization code."
+	},
+	"pins": {
+		"unknownKind": "Desconocido pin kind."
+	},
+	"playlist": {
+		"limitReached": "Reproducirlist limit reached para este cuenta."
+	},
+	"route": {
+		"message": "An unexpected error interrupted este página. Tú can try de nuevo o head volver inicio.",
+		"title": "Algo salió mal"
+	},
+	"saveFailed": "Error a guardar",
+	"share": {
+		"withSelf": "Tú can't share con yourself."
+	},
+	"twoFactor": {
+		"invalidCode": "Código no válido.",
+		"setupFailed": "Could no start 2FA setup."
+	},
+	"user": {
+		"handleGenFailed": "No se pudo generate un unique handle para este Discord cuenta.",
+		"handleOrEmailTaken": "Ese handle o correo is already taken.",
+		"handleTaken": "Ese handle is already taken.",
+		"notFound": "No usuario con ese handle."
+	},
 	"validation": {
+		"nameOrIconRequired": "A nombre o icon is required.",
 		"nameRequired": "El nombre es obligatorio."
-	}
+	},
+	"valueEmpty": "El valor no puede estar vacío."
 }

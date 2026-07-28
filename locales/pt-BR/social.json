@@ -1,0 +1,59 @@
+{
+	"block": {
+		"confirmLabel": "Bloquear",
+		"confirmMessage": "Bloquear @{handle}? Vocês não poderão se adicionar como amigos.",
+		"confirmTitle": "Bloquear usuário"
+	},
+	"discovery": {
+		"addFriend": "Adicionar amigo",
+		"friendsStatus": "Amigos",
+		"requestSent": "Solicitação enviada",
+		"sending": "Enviando…"
+	},
+	"friends": {
+		"confirmRemove": "Confirmar?",
+		"empty": "Ainda não há amigos - pesquise para adicionar alguns",
+		"heading": "Amigos ({count})",
+		"removing": "Removendo…",
+		"title": "Amigos"
+	},
+	"modMenu": {
+		"blocked": "Bloqueado",
+		"report": "Relatório",
+		"reported": "Relatado"
+	},
+	"page": {
+		"title": "Amigos"
+	},
+	"profile": {
+		"eyebrow": "Perfil",
+		"itemPlays": "{count, plural, one {# reprodução} other {# reprodução}}",
+		"joinedDate": "{date, date, ::yMMMM}",
+		"joinedLabel": "juntou-se a {date}",
+		"loadError": "Não foi possível carregar este perfil.",
+		"noActivity": "Nenhuma atividade de escuta ainda.",
+		"notFound": "Nenhum usuário com esse identificador.",
+		"private": {
+			"description": "{name} só compartilha sua audição com amigos.",
+			"title": "Este perfil é privado"
+		},
+		"recentlyPlayed": "Jogado recentemente",
+		"topArtists": "Principais artistas",
+		"topTracks": "Principais faixas",
+		"totalPlays": "{count, plural, one {# reprodução} other {# reprodução}}",
+		"totalPlaysCount": "{count}"
+	},
+	"report": {
+		"promptMessage": "Relatório @ {handle} – qual é o problema?"
+	},
+	"requests": {
+		"accept": "Aceitar",
+		"accepting": "Aceitando…",
+		"pendingHeading": "Solicitações pendentes ({count})"
+	},
+	"search": {
+		"noResults": "Nenhum usuário encontrado.",
+		"placeholder": "Pesquise por identificador ou nome de exibição…",
+		"searching": "Procurando…"
+	}
+}

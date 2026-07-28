@@ -1,0 +1,107 @@
+{
+	"account": {
+		"emailChangeFailed": "Não foi possível iniciar a alteração do e-mail."
+	},
+	"admin": {
+		"deleteSelf": "Use as configurações da conta para excluir sua própria conta.",
+		"invalidReportAction": "A ação deve ser “resolvida” ou “rejeitada”."
+	},
+	"auth": {
+		"badCredentials": "E-mail ou senha incorretos.",
+		"displayNameLength": "O nome de exibição deve ter de 1 a 64 caracteres.",
+		"emailInUse": "Esse e-mail já está em uso.",
+		"emailInvalid": "É necessário um endereço de e-mail válido.",
+		"handleChars": "O nome de usuário pode conter apenas letras, dígitos, “_” e “-”, e deve começar com uma letra ou dígito.",
+		"handleLength": "O nome de usuário deve ter de 2 a 32 caracteres.",
+		"passwordLength": "A senha deve ter caracteres {min}–{max}.",
+		"passwordRange": "A senha deve ter de 8 a 1.024 caracteres.",
+		"twoFactorAlreadyEnabled": "A autenticação de dois fatores já está ativada – desative-a primeiro.",
+		"twoFactorNotEnabled": "A autenticação de dois fatores não está habilitada.",
+		"twoFactorStartFirst": "Inicie primeiro a configuração de dois fatores."
+	},
+	"catalog": {
+		"albumLoadFailed": "Falha ao carregar",
+		"artistLoadFailed": "Falha ao carregar",
+		"artistNameTaken": "Outro artista já tem esse nome.",
+		"labelLoadFailed": "Não foi possível carregar este marcador",
+		"unknownArtist": "Artista desconhecido.",
+		"unknownImageHash": "Imagem desconhecida."
+	},
+	"changeFailed": "Não foi possível salvar a alteração. Tente novamente.",
+	"directory": {
+		"serverOffline": "Esse servidor está offline."
+	},
+	"discovery": {
+		"dailyMixFailed": "Não foi possível criar esse mix",
+		"radioFailed": "Não foi possível construir este rádio"
+	},
+	"failedToLoad": "Falha ao carregar",
+	"friends": {
+		"cannotFriendSelf": "Você não pode enviar um pedido de amizade para si mesmo."
+	},
+	"generic": "Falha",
+	"image": {
+		"empty": "A imagem está vazia.",
+		"fetchFailed": "Não foi possível buscar essa imagem.",
+		"hashMismatch": "O conteúdo da imagem não corresponde ao hash esperado.",
+		"invalidUrl": "URL de imagem inválido.",
+		"tooLarge": "A imagem é muito grande (máx. 8 MiB)."
+	},
+	"insights": {
+		"compareSelf": "Você não pode se comparar consigo mesmo.",
+		"compatibilityNotFound": "Nenhum usuário com esse identificador.",
+		"compatibilityPrivate": "A atividade de escuta desse usuário é privada.",
+		"invalidTimezone": "Fuso horário desconhecido “{timezone}”.",
+		"loadFriendActivityFailed": "Falha ao carregar a atividade do amigo",
+		"loadHistoryFailed": "Falha ao carregar o histórico",
+		"loadStatsFailed": "Falha ao carregar estatísticas",
+		"milestoneRange": "Escolha um número de jogo de 1 ou mais.",
+		"pagingPair": "before_ms e before_id devem ser fornecidos juntos."
+	},
+	"label": {
+		"nameTaken": "Outra gravadora já tem esse nome."
+	},
+	"library": {
+		"limitReached": "O limite da biblioteca foi atingido para esta conta."
+	},
+	"lyrics": {
+		"noLines": "Não há linhas de letras para salvar."
+	},
+	"moderation": {
+		"blockSelf": "Você não pode se bloquear.",
+		"reasonRequired": "É necessário um motivo (≤200 caracteres)."
+	},
+	"noFields": "Nenhum campo para atualizar.",
+	"oauth": {
+		"missingCode": "Código de autorização ausente."
+	},
+	"pins": {
+		"unknownKind": "Tipo de alfinete desconhecido."
+	},
+	"playlist": {
+		"limitReached": "Limite de playlist atingido para esta conta."
+	},
+	"route": {
+		"message": "Um erro inesperado interrompeu esta página. Você pode tentar novamente ou voltar para casa.",
+		"title": "Algo deu errado"
+	},
+	"saveFailed": "Falha ao salvar",
+	"share": {
+		"withSelf": "Você não pode compartilhar consigo mesmo."
+	},
+	"twoFactor": {
+		"invalidCode": "Código inválido.",
+		"setupFailed": "Não foi possível iniciar a configuração 2FA."
+	},
+	"user": {
+		"handleGenFailed": "Não foi possível gerar um identificador exclusivo para esta conta do Discord.",
+		"handleOrEmailTaken": "Esse identificador ou e-mail já está em uso.",
+		"handleTaken": "Esse identificador já está em uso.",
+		"notFound": "Nenhum usuário com esse identificador."
+	},
+	"validation": {
+		"nameOrIconRequired": "É necessário um nome ou ícone.",
+		"nameRequired": "O nome é obrigatório."
+	},
+	"valueEmpty": "O valor não pode estar vazio."
+}

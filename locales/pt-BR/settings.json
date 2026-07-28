@@ -1,0 +1,202 @@
+{
+	"account": {
+		"avatarUrl": "URL do avatar",
+		"changeEmail": "Alterar e-mail",
+		"displayName": "Nome de exibição",
+		"emailChangeSent": "Verifique sua nova caixa de entrada para obter um link de confirmação.",
+		"handle": "Alça",
+		"handleHint": "Letras, dígitos, “_” e “-”. Deve ser único.",
+		"handlePlaceholder": "seunome",
+		"newEmailPlaceholder": "novo@exemplo.com",
+		"resendVerification": "Reenviar e-mail de verificação",
+		"saveProfile": "Salvar perfil",
+		"sendConfirmation": "Enviar confirmação",
+		"title": "Conta",
+		"verificationSent": "Enviado – verifique sua caixa de entrada"
+	},
+	"appearance": {
+		"accentColour": "Cor de destaque",
+		"accentHexAria": "Hexadecimal de acento",
+		"customAccentAria": "Cor de destaque personalizada",
+		"customColour": "Cor personalizada",
+		"customColourHint": "Escolha qualquer cor - botões, destaques e a tonalidade do fundo seguem-na.",
+		"title": "Aparência"
+	},
+	"connections": {
+		"title": "Conexões",
+		"lastfm": {
+			"label": "Última.fm",
+			"desc": "Scrobble suas peças para Last.fm automaticamente.",
+			"connect": "Conectar",
+			"disconnect": "Desconectar",
+			"connectedAs": "Conectado como {username}",
+			"connectedToast": "Conectado ao Last.fm como {username}",
+			"disconnected": "Last.fm desconectado",
+			"failed": "Não foi possível conectar o Last.fm",
+			"connecting": "Conectando Last.fm…"
+		}
+	},
+	"data": {
+		"body": "Baixe tudo o que o Chordia armazena sobre você ou exclua permanentemente sua conta e todos os seus dados.",
+		"deleteAccountConfirm": "Excluir permanentemente sua conta e TODOS os seus dados – histórico de audição, playlists, bibliotecas e amigos? Isto não pode ser desfeito.",
+		"deleteAccountTitle": "Excluir conta",
+		"deleteFailedBody": "Não foi possível excluir sua conta agora. Por favor, tente novamente.",
+		"deleteFailedTitle": "Falha na exclusão",
+		"deleteForever": "Excluir definitivamente",
+		"exportFailedBody": "Não foi possível exportar seus dados no momento. Por favor, tente novamente.",
+		"exportFailedTitle": "Falha na exportação",
+		"exportMyData": "Exportar meus dados",
+		"title": "Seus dados"
+	},
+	"downloads": {
+		"browserStorageName": "Este dispositivo (armazenamento do navegador)",
+		"bytes": "{bytes} B / {kb} KB / {mb} MB / {gb} GB",
+		"serverNote": "As próprias bibliotecas de música são adicionadas e organizadas no servidor da biblioteca Chordia, não aqui. Salvar downloads em uma pasta personalizada (com seu próprio caminho + layout de organização) chegará ao aplicativo de desktop.",
+		"thisDevice": {
+			"description": "As músicas baixadas são armazenadas neste dispositivo e reproduzidas sem conexão.",
+			"empty": "Use a ação Download em qualquer faixa ou álbum.",
+			"title": "Este dispositivo (armazenamento do navegador)",
+			"usage": "{count, plural, one {# música} other {# músicas}} · {size}."
+		},
+		"title": "Transferências",
+		"unsupportedDestination": "Os downloads \"{destination}\" precisam do aplicativo de desktop"
+	},
+	"eq": {
+		"preset": {
+			"acoustic": "Acústico",
+			"bassBoost": "Aumento de graves",
+			"bassReducer": "Redutor de graves",
+			"classical": "Clássico",
+			"electronic": "Eletrônico",
+			"flat": "Plano",
+			"hipHop": "Hip Hop",
+			"jazz": "Jazz",
+			"loudness": "Volume",
+			"pop": "Pop",
+			"rock": "Rocha",
+			"trebleBoost": "Aumento de agudos",
+			"trebleReducer": "Redutor de agudos",
+			"vocal": "Vocal"
+		}
+	},
+	"equalizer": {
+		"title": "Equalizador"
+	},
+	"playback": {
+		"autoplay": {
+			"desc": "Continue tocando músicas semelhantes quando a fila terminar.",
+			"label": "Reprodução automática"
+		},
+		"crossfade": {
+			"desc": "Sobreponha e misture o final de cada faixa com a próxima.",
+			"label": "Crossfade",
+			"value": "{seconds}s"
+		},
+		"normalize": {
+			"desc": "Equilibre o volume nas faixas (ReplayGain).",
+			"label": "Normalizar o volume"
+		},
+		"preload": {
+			"desc": "Baixe as próximas faixas da fila com antecedência para uma reprodução instantânea e sem intervalos. Maior usa mais dados.",
+			"label": "Pré-carregar as próximas faixas"
+		},
+		"quality": {
+			"dataSaver": {
+				"desc": "~96 kbps Opus - dados mínimos.",
+				"label": "Economia de dados"
+			},
+			"high": {
+				"desc": "~256 kbps AAC - transparente para a maioria.",
+				"label": "Alto"
+			},
+			"normal": {
+				"desc": "~128 kbps - balanceado.",
+				"label": "Normais"
+			},
+			"original": {
+				"desc": "Fonte perfeita. Maior largura de banda.",
+				"label": "Sem perdas"
+			}
+		},
+		"streamingQuality": "Qualidade de transmissão",
+		"title": "Reprodução"
+	},
+	"privacy": {
+		"activityVisibility": {
+			"desc": "Quem pode ver suas jogadas recentes e comparar o gosto com você.",
+			"label": "Visibilidade da atividade"
+		},
+		"emailNotifications": {
+			"desc": "Receba um e-mail para solicitações de amizade e outras atividades da conta.",
+			"label": "Notificações por e-mail"
+		},
+		"scrobble": {
+			"desc": "Grave o que você toca para suas estatísticas e embrulhado.",
+			"label": "Scrobble escuta"
+		},
+		"title": "Privacidade",
+		"visibility": {
+			"friends": "Amigos",
+			"private": "Só eu",
+			"public": "Todos"
+		}
+	},
+	"quality": {
+		"dataSaver": {
+			"desc": "~96 kbps Opus – dados mínimos.",
+			"label": "Economia de dados"
+		},
+		"high": {
+			"desc": "~256 kbps AAC — transparente para a maioria.",
+			"label": "Alto"
+		},
+		"lossless": {
+			"desc": "Fonte perfeita. Maior largura de banda.",
+			"label": "Sem perdas"
+		},
+		"normal": {
+			"desc": "~128 kbps — balanceado.",
+			"label": "Normais"
+		},
+		"title": "Qualidade de transmissão"
+	},
+	"region": {
+		"timezone": {
+			"description": "Usado para colocar atividades auditivas em seu calendário local. Seguir este dispositivo deixa a escolha para cada cliente.",
+			"detect": "Detectar",
+			"followClient": "Siga este dispositivo",
+			"label": "Fuso horário",
+			"noMatches": "Nenhum fuso horário corresponde à sua pesquisa",
+			"search": "Pesquisar fusos horários…",
+			"zoneWithOffset": "{zone} ({offset})"
+		},
+		"title": "Região"
+	},
+	"sessions": {
+		"body": "Onde você está conectado. Revogue qualquer dispositivo que você não reconhece.",
+		"lastActive": "Último {date} ativo",
+		"lastActiveDate": "{date}",
+		"signOutEverywhere": "Sair de todos os lugares",
+		"signOutEverywhereConfirm": "Sair de todos os dispositivos? Você precisará fazer login novamente.",
+		"thisDevice": "Este dispositivo",
+		"title": "Dispositivos e sessões",
+		"unknownDevice": "Dispositivo desconhecido"
+	},
+	"title": "Configurações",
+	"twoFactor": {
+		"addHint": "Adicione um segundo fator (um aplicativo autenticador) para segurança extra da conta.",
+		"disable": "Desativar 2FA",
+		"enable": "Habilitar 2FA",
+		"enableCta": "Habilitar autenticação de dois fatores",
+		"enabledHint": "2FA está habilitado. Para desligá-lo, insira um código atual ou um código de recuperação.",
+		"qrAlt": "Código QR de dois fatores",
+		"recoveryIntro": "2FA está ativado. Salve esses códigos de recuperação em algum lugar seguro – cada um funciona uma vez se você perder seu autenticador.",
+		"scanHint": "Digitalize isso com seu aplicativo autenticador e insira o código de 6 dígitos para confirmar.",
+		"secretManual": "Ou insira este segredo manualmente: {secret}",
+		"title": "Autenticação de dois fatores"
+	},
+	"verifyEmail": {
+		"body": "Enviamos um link de verificação para seu e-mail. Não entendeu? Reenvie abaixo.",
+		"title": "Verifique seu e-mail"
+	}
+}

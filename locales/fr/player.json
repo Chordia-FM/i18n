@@ -1,0 +1,137 @@
+{
+	"controls": {
+		"fullscreen": "Plein écran",
+		"mute": "Muet",
+		"next": "Suivant",
+		"pause": "Pause",
+		"play": "Jouer",
+		"previous": "Précédent",
+		"repeat": "Répéter",
+		"seek": "Rechercher",
+		"shuffle": "Mélanger",
+		"unmute": "Activer le son",
+		"volume": "Volume",
+		"volumeButton": "Bouton volume",
+		"volumeSlider": "Curseur de volume"
+	},
+	"devices": {
+		"current": "Cible actuelle",
+		"none": "Aucun périphérique de lecture trouvé.",
+		"pressPlay": "Appuyez sur play pour commencer ici",
+		"thisTab": "Cet onglet",
+		"title": "Appareil de lecture"
+	},
+	"eqPreset": {
+		"acoustic": "Acoustique",
+		"bassBoost": "Augmentation des basses",
+		"bassReducer": "Réducteur de basse",
+		"classical": "Classique",
+		"electronic": "Électronique",
+		"flat": "Plat",
+		"hipHop": "Hip-Hop",
+		"jazz": "Jazz",
+		"loudness": "Volume sonore",
+		"pop": "Pop",
+		"rock": "Rocher",
+		"trebleBoost": "Boost des aigus",
+		"trebleReducer": "Réducteur d'aigus",
+		"vocal": "Voix"
+	},
+	"equalizer": {
+		"bandFreq": "Bande {n} fréquence",
+		"bandWidth": "Largeur de bande {n} (Q)",
+		"close": "Fermer l'égaliseur",
+		"deletePreset": "Supprimer {name}",
+		"dragHint": "Faites glisser un nœud pour façonner la courbe",
+		"dragHintParametric": "· faites glisser latéralement pour la fréquence · faites défiler pour la largeur (Q)",
+		"enable": "Activer l'égaliseur",
+		"freqDisplay": "{freq}Hz",
+		"graph": {
+			"ariaLabel": "Réponse de l'égaliseur - faites glisser les nœuds de bande pour façonner le son",
+			"title": "Courbe de réponse de l'égaliseur"
+		},
+		"parametric": "Paramétrique",
+		"preamp": "Préampli",
+		"preampDisplay": "{value} dB",
+		"presetCustom": "Personnalisé",
+		"presetSelect": "Préréglage d'égalisation",
+		"presetsGroup": "Préréglages",
+		"savePreset": "Enregistrer le préréglage",
+		"savePresetPlaceholder": "Enregistrer le courant comme préréglage…",
+		"title": "Égaliseur",
+		"yourPresetsGroup": "Vos préréglages"
+	},
+	"fullscreen": {
+		"enter": "Plein écran",
+		"exit": "Quitter le plein écran"
+	},
+	"lyrics": {
+		"loading": "Chargement des paroles…",
+		"none": "Aucune parole disponible pour ce morceau.",
+		"nothingPlaying": "Rien ne joue.",
+		"returnToCurrent": "Revenir à la ligne actuelle",
+		"title": "Paroles"
+	},
+	"monthlyListeners": "{count, plural, one {# auditeur mensuel} other {# auditeurs mensuels}}",
+	"nowPlaying": {
+		"aboutArtist": "À propos de {name}",
+		"albumFallback": "Album",
+		"playingFrom": "Jouer à partir de",
+		"title": "Je joue en ce moment"
+	},
+	"notPlaying": "Je ne joue pas",
+	"nothingPlaying": "Rien ne joue encore.",
+	"plays": "{count, plural, one {# lecture} other {# lectures}}",
+	"queue": {
+		"add": "Ajouter à la file d'attente",
+		"empty": "La file d'attente est vide.",
+		"nextUp": "Ensuite",
+		"nothingPlayed": "Rien n'a encore été joué.",
+		"playNext": "Jouer ensuite",
+		"recentlyPlayed": "Joué récemment",
+		"removeFromQueue": "Supprimer de la file d'attente",
+		"repeatOne": "La répétition est activée - cette chanson continuera à être jouée.",
+		"thenRepeating": "Puis en répétant",
+		"title": "File d'attente"
+	},
+	"quality": {
+		"change": "Changement",
+		"dataPerHourGb": "~{value} Go/heure",
+		"dataPerHourMb": "~{value} Mo/heure",
+		"khz": "{value}kHz",
+		"loudness": "Volume sonore",
+		"lossless": "Sans perte",
+		"lossy": "Avec perte",
+		"originalSourceFile": "Fichier source d'origine",
+		"source": "Source",
+		"spatial": "· Spatiale",
+		"streaming": "Diffusion en continu",
+		"streamingRate": "~{kbps} kbit/s · {data}",
+		"title": "Qualité du fichier",
+		"upTo": "Jusqu'à {value}"
+	},
+	"sleepTimer": {
+		"endOfTrack": "Fin de piste",
+		"minutes": "{count, plural, one {# minute} other {# minutes}}",
+		"oneHour": "1 heure",
+		"title": "Minuterie de mise en veille",
+		"turnOff": "Éteindre"
+	},
+	"visualizer": {
+		"autoCycle": "Styles de cycle automatique",
+		"close": "Fermer le visualiseur",
+		"nextStyle": "Style suivant",
+		"nothingPlaying": "Jouez quelque chose pour voir le visualiseur.",
+		"open": "Visualiseur",
+		"previousStyle": "Style précédent",
+		"style": {
+			"bars": "Barres de spectre",
+			"mirror": "Vague miroir",
+			"particles": "Floraison de particules",
+			"radial": "Spectre radial",
+			"scope": "Oscilloscope",
+			"spectrogram": "Spectrogramme"
+		},
+		"unavailable": "Visualiseur indisponible sur cette source."
+	}
+}

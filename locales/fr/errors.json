@@ -1,0 +1,107 @@
+{
+	"account": {
+		"emailChangeFailed": "Impossible de démarrer la modification de l'adresse e-mail."
+	},
+	"admin": {
+		"deleteSelf": "Utilisez les paramètres du compte pour supprimer votre propre compte.",
+		"invalidReportAction": "L'action doit être « résolue » ou « rejetée »."
+	},
+	"auth": {
+		"badCredentials": "Email ou mot de passe incorrect.",
+		"displayNameLength": "Le nom d’affichage doit comporter entre 1 et 64 caractères.",
+		"emailInUse": "Cet e-mail est déjà utilisé.",
+		"emailInvalid": "Une adresse e-mail valide est requise.",
+		"handleChars": "Le nom d'utilisateur ne peut contenir que des lettres, des chiffres, « _ » et « - » et doit commencer par une lettre ou un chiffre.",
+		"handleLength": "Le nom d’utilisateur doit comporter entre 2 et 32 caractères.",
+		"passwordLength": "Le mot de passe doit contenir des caractères {min}–{max}.",
+		"passwordRange": "Le mot de passe doit comporter entre 8 et 1 024 caractères.",
+		"twoFactorAlreadyEnabled": "L'authentification à deux facteurs est déjà activée : désactivez-la d'abord.",
+		"twoFactorNotEnabled": "L'authentification à deux facteurs n'est pas activée.",
+		"twoFactorStartFirst": "Commencez par démarrer la configuration à deux facteurs."
+	},
+	"catalog": {
+		"albumLoadFailed": "Échec du chargement",
+		"artistLoadFailed": "Échec du chargement",
+		"artistNameTaken": "Un autre artiste porte déjà ce nom.",
+		"labelLoadFailed": "Impossible de charger ce libellé",
+		"unknownArtist": "Artiste inconnu.",
+		"unknownImageHash": "Image inconnue."
+	},
+	"changeFailed": "Impossible d'enregistrer cette modification. Veuillez réessayer.",
+	"directory": {
+		"serverOffline": "Ce serveur est hors ligne."
+	},
+	"discovery": {
+		"dailyMixFailed": "Je n'ai pas pu créer ce mix",
+		"radioFailed": "Je n'ai pas pu construire cette radio"
+	},
+	"failedToLoad": "Échec du chargement",
+	"friends": {
+		"cannotFriendSelf": "Vous ne pouvez pas vous envoyer une demande d'amitié."
+	},
+	"generic": "Échec",
+	"image": {
+		"empty": "L'image est vide.",
+		"fetchFailed": "Impossible de récupérer cette image.",
+		"hashMismatch": "Le contenu de l'image ne correspondait pas au hachage attendu.",
+		"invalidUrl": "URL de l'image invalide.",
+		"tooLarge": "L'image est trop grande (max 8 Mio)."
+	},
+	"insights": {
+		"compareSelf": "Vous ne pouvez pas comparer avec vous-même.",
+		"compatibilityNotFound": "Aucun utilisateur avec ce handle.",
+		"compatibilityPrivate": "L'activité d'écoute de cet utilisateur est privée.",
+		"invalidTimezone": "Fuseau horaire inconnu « {timezone} ».",
+		"loadFriendActivityFailed": "Échec du chargement de l'activité d'un ami",
+		"loadHistoryFailed": "Échec du chargement de l'historique",
+		"loadStatsFailed": "Échec du chargement des statistiques",
+		"milestoneRange": "Choisissez un numéro de jeu de 1 ou plus.",
+		"pagingPair": "before_ms et before_id doivent être fournis ensemble."
+	},
+	"label": {
+		"nameTaken": "Un autre label porte déjà ce nom."
+	},
+	"library": {
+		"limitReached": "Limite de bibliothèque atteinte pour ce compte."
+	},
+	"lyrics": {
+		"noLines": "Il n'y a pas de lignes de paroles à enregistrer."
+	},
+	"moderation": {
+		"blockSelf": "Vous ne pouvez pas vous bloquer.",
+		"reasonRequired": "Un motif (≤200 caractères) est requis."
+	},
+	"noFields": "Aucun champ à mettre à jour.",
+	"oauth": {
+		"missingCode": "Code d'autorisation manquant."
+	},
+	"pins": {
+		"unknownKind": "Type de broche inconnu."
+	},
+	"playlist": {
+		"limitReached": "Limite de playlist atteinte pour ce compte."
+	},
+	"route": {
+		"message": "Une erreur inattendue a interrompu cette page. Vous pouvez réessayer ou rentrer chez vous.",
+		"title": "Quelque chose s'est mal passé"
+	},
+	"saveFailed": "Échec de l'enregistrement",
+	"share": {
+		"withSelf": "Vous ne pouvez pas partager avec vous-même."
+	},
+	"twoFactor": {
+		"invalidCode": "Code invalide.",
+		"setupFailed": "Impossible de démarrer la configuration 2FA."
+	},
+	"user": {
+		"handleGenFailed": "Impossible de générer un identifiant unique pour ce compte Discord.",
+		"handleOrEmailTaken": "Ce pseudo ou cet e-mail est déjà pris.",
+		"handleTaken": "Cette poignée est déjà prise.",
+		"notFound": "Aucun utilisateur avec ce handle."
+	},
+	"validation": {
+		"nameOrIconRequired": "Un nom ou une icône est requis.",
+		"nameRequired": "Le nom est requis."
+	},
+	"valueEmpty": "La valeur ne peut pas être vide."
+}

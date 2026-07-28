@@ -1,0 +1,107 @@
+{
+	"account": {
+		"emailChangeFailed": "Could 아님 시작 이메일 변경."
+	},
+	"admin": {
+		"deleteSelf": "Use 계정 설정 으로 delete 내 own 계정.",
+		"invalidReportAction": "Action must be “resolved” 또는 “dismissed”."
+	},
+	"auth": {
+		"badCredentials": "이메일 또는 비밀번호가 올바르지 않습니다.",
+		"displayNameLength": "Display 이름 must be 1–64 characters.",
+		"emailInUse": "해당 이메일 is already 에 use.",
+		"emailInvalid": "유효한 이메일 주소가 필요합니다.",
+		"handleChars": "사용자 이름 may contain only letters, digits, “_” 및 “-”, 및 must 시작 함께 letter 또는 digit.",
+		"handleLength": "사용자 이름 must be 2–32 characters.",
+		"passwordLength": "비밀번호 must be {min}–{max} characters.",
+		"passwordRange": "비밀번호 must be 8–1024 characters.",
+		"twoFactorAlreadyEnabled": "2단계 인증 is already enabled — 비활성화 it 첫.",
+		"twoFactorNotEnabled": "2단계 인증 is 아님 enabled.",
+		"twoFactorStartFirst": "시작 two-factor setup 첫."
+	},
+	"catalog": {
+		"albumLoadFailed": "불러오지 못했습니다",
+		"artistLoadFailed": "불러오지 못했습니다",
+		"artistNameTaken": "Another 아티스트 already has 해당 이름.",
+		"labelLoadFailed": "Couldn't load 이 label",
+		"unknownArtist": "알 수 없는 아티스트입니다.",
+		"unknownImageHash": "알 수 없는 이미지입니다."
+	},
+	"changeFailed": "Couldn't 저장 해당 변경 — please try again.",
+	"directory": {
+		"serverOffline": "서버가 오프라인입니다."
+	},
+	"discovery": {
+		"dailyMixFailed": "Couldn't build 이 mix",
+		"radioFailed": "Couldn't build 이 radio"
+	},
+	"failedToLoad": "불러오지 못했습니다",
+	"friends": {
+		"cannotFriendSelf": "회원님 can't send 친구 request 으로 yourself."
+	},
+	"generic": "실패했습니다",
+	"image": {
+		"empty": "이미지 is empty.",
+		"fetchFailed": "이미지를 가져올 수 없습니다.",
+		"hashMismatch": "이미지 content didn't match expected hash.",
+		"invalidUrl": "Invalid 이미지 URL.",
+		"tooLarge": "이미지 is too large (max 8 MiB)."
+	},
+	"insights": {
+		"compareSelf": "회원님 can't compare 함께 yourself.",
+		"compatibilityNotFound": "없음 user 함께 해당 handle.",
+		"compatibilityPrivate": "해당 user's 감상 활동 is 비공개.",
+		"invalidTimezone": "알 수 없음 시간 zone “{timezone}”.",
+		"loadFriendActivityFailed": "불러오지 못했습니다 친구 활동",
+		"loadHistoryFailed": "불러오지 못했습니다 기록",
+		"loadStatsFailed": "불러오지 못했습니다 통계",
+		"milestoneRange": "Pick 재생 number 의 1 또는 more.",
+		"pagingPair": "before_ms 및 before_id must be provided together."
+	},
+	"label": {
+		"nameTaken": "Another label already has 해당 이름."
+	},
+	"library": {
+		"limitReached": "라이브러리 limit reached 용 이 계정."
+	},
+	"lyrics": {
+		"noLines": "There are 없음 lyric lines 으로 저장."
+	},
+	"moderation": {
+		"blockSelf": "회원님 can't block yourself.",
+		"reasonRequired": "reason (≤200 characters) is required."
+	},
+	"noFields": "업데이트할 항목이 없습니다.",
+	"oauth": {
+		"missingCode": "인증 코드가 누락되었습니다."
+	},
+	"pins": {
+		"unknownKind": "알 수 없음 pin kind."
+	},
+	"playlist": {
+		"limitReached": "재생list limit reached 용 이 계정."
+	},
+	"route": {
+		"message": "unexpected 오류 interrupted 이 page. 회원님 can try again 또는 head 뒤로 home.",
+		"title": "문제가 발생했습니다"
+	},
+	"saveFailed": "실패했습니다 으로 저장",
+	"share": {
+		"withSelf": "회원님 can't 공유 함께 yourself."
+	},
+	"twoFactor": {
+		"invalidCode": "유효하지 않은 코드입니다.",
+		"setupFailed": "Could 아님 시작 2FA setup."
+	},
+	"user": {
+		"handleGenFailed": "Couldn't generate unique handle 용 이 Discord 계정.",
+		"handleOrEmailTaken": "해당 handle 또는 이메일 is already taken.",
+		"handleTaken": "해당 handle is already taken.",
+		"notFound": "없음 user 함께 해당 handle."
+	},
+	"validation": {
+		"nameOrIconRequired": "이름 또는 icon is required.",
+		"nameRequired": "이름 is required."
+	},
+	"valueEmpty": "값은 비워둘 수 없습니다."
+}

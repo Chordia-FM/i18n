@@ -1,0 +1,39 @@
+{
+	"dailyMix": {
+		"label": "Mistura diária"
+	},
+	"greeting": {
+		"afternoon": "Boa tarde",
+		"evening": "Boa noite",
+		"morning": "Bom dia"
+	},
+	"home": {
+		"emptyState": "Nada aqui ainda - emparelhe um servidor de biblioteca e seu catálogo aparecerá."
+	},
+	"jumpBackIn": {
+		"emptyState": "Coisas que você jogou recentemente aparecerão aqui.",
+		"title": "Volte para dentro"
+	},
+	"madeForYou": {
+		"emptyState": "Ouça mais músicas e seus mixes diários aparecerão aqui.",
+		"title": "Feito para você"
+	},
+	"mix": {
+		"noTracksToast": "Este mix ainda não tem faixas reproduzíveis",
+		"playTitle": "Jogar {title}",
+		"playingToast": "Jogando {title}"
+	},
+	"radio": {
+		"label": "Rádio",
+		"pin": "Pin rádio"
+	},
+	"shelf": {
+		"jumpBackIn": "Volte para dentro",
+		"madeFor": "Feito para {name}",
+		"madeForYou": "você",
+		"recommended": "Recomendado para você",
+		"trendingAlbums": "Álbuns populares",
+		"trendingArtists": "Artistas populares",
+		"yourLibraries": "Suas bibliotecas"
+	}
+}

@@ -1,0 +1,202 @@
+{
+	"account": {
+		"avatarUrl": "URL de l'avatar",
+		"changeEmail": "Changer d'e-mail",
+		"displayName": "Nom d'affichage",
+		"emailChangeSent": "Vérifiez votre nouvelle boîte de réception pour un lien de confirmation.",
+		"handle": "Poignée",
+		"handleHint": "Lettres, chiffres, « _ » et « - ». Doit être unique.",
+		"handlePlaceholder": "votre nom",
+		"newEmailPlaceholder": "nouveau@exemple.com",
+		"resendVerification": "Renvoyer l'e-mail de vérification",
+		"saveProfile": "Enregistrer le profil",
+		"sendConfirmation": "Envoyer une confirmation",
+		"title": "Compte",
+		"verificationSent": "Envoyé — vérifiez votre boîte de réception"
+	},
+	"appearance": {
+		"accentColour": "Couleur d'accentuation",
+		"accentHexAria": "Accentuation hexagonale",
+		"customAccentAria": "Couleur d'accent personnalisée",
+		"customColour": "Couleur personnalisée",
+		"customColourHint": "Choisissez n'importe quelle couleur - les boutons, les surbrillances et la teinte d'arrière-plan la suivent.",
+		"title": "Apparence"
+	},
+	"connections": {
+		"title": "Connexions",
+		"lastfm": {
+			"label": "Dernier.fm",
+			"desc": "Scrobblez automatiquement vos écoutes sur Last.fm.",
+			"connect": "Se connecter",
+			"disconnect": "Déconnecter",
+			"connectedAs": "Connecté en tant que {username}",
+			"connectedToast": "Connecté à Last.fm en tant que {username}",
+			"disconnected": "Last.fm déconnecté",
+			"failed": "Impossible de se connecter à Last.fm",
+			"connecting": "Connexion de Last.fm…"
+		}
+	},
+	"data": {
+		"body": "Téléchargez tout ce que Chordia stocke sur vous, ou supprimez définitivement votre compte et toutes ses données.",
+		"deleteAccountConfirm": "Supprimer définitivement votre compte et TOUTES vos données : historique d'écoute, listes de lecture, bibliothèques et amis ? Cela ne peut pas être annulé.",
+		"deleteAccountTitle": "Supprimer le compte",
+		"deleteFailedBody": "Impossible de supprimer votre compte pour le moment. Veuillez réessayer.",
+		"deleteFailedTitle": "La suppression a échoué",
+		"deleteForever": "Supprimer pour toujours",
+		"exportFailedBody": "Impossible d'exporter vos données pour le moment. Veuillez réessayer.",
+		"exportFailedTitle": "Échec de l'exportation",
+		"exportMyData": "Exporter mes données",
+		"title": "Vos données"
+	},
+	"downloads": {
+		"browserStorageName": "Cet appareil (stockage du navigateur)",
+		"bytes": "{bytes} B / {kb} Ko / {mb} Mo / {gb} Go",
+		"serverNote": "Les bibliothèques musicales elles-mêmes sont ajoutées et organisées sur votre serveur de bibliothèque Chordia, pas ici. L'enregistrement des téléchargements dans un dossier personnalisé (avec votre propre chemin + disposition d'organisation) arrive sur l'application de bureau.",
+		"thisDevice": {
+			"description": "Les chansons téléchargées sont stockées sur cet appareil et lues sans connexion.",
+			"empty": "Utilisez l'action Télécharger sur n'importe quelle piste ou album.",
+			"title": "Cet appareil (stockage du navigateur)",
+			"usage": "{count, plural, one {# chanson} other {# chansons}} · {size}."
+		},
+		"title": "Téléchargements",
+		"unsupportedDestination": "Les téléchargements \"{destination}\" nécessitent l'application de bureau"
+	},
+	"eq": {
+		"preset": {
+			"acoustic": "Acoustique",
+			"bassBoost": "Augmentation des basses",
+			"bassReducer": "Réducteur de basse",
+			"classical": "Classique",
+			"electronic": "Électronique",
+			"flat": "Plat",
+			"hipHop": "Hip-Hop",
+			"jazz": "Jazz",
+			"loudness": "Volume sonore",
+			"pop": "Pop",
+			"rock": "Rocher",
+			"trebleBoost": "Boost des aigus",
+			"trebleReducer": "Réducteur d'aigus",
+			"vocal": "Voix"
+		}
+	},
+	"equalizer": {
+		"title": "Égaliseur"
+	},
+	"playback": {
+		"autoplay": {
+			"desc": "Continuez à jouer de la musique similaire lorsque la file d'attente se termine.",
+			"label": "Lecture automatique"
+		},
+		"crossfade": {
+			"desc": "Superposez et mélangez la fin de chaque piste avec la suivante.",
+			"label": "Fondu enchaîné",
+			"value": "{seconds}s"
+		},
+		"normalize": {
+			"desc": "Uniformisez le volume sur toutes les pistes (ReplayGain).",
+			"label": "Normaliser le volume"
+		},
+		"preload": {
+			"desc": "Téléchargez à l'avance les pistes de la file d'attente à venir pour une lecture instantanée et sans interruption. Plus haut utilise plus de données.",
+			"label": "Précharger les pistes suivantes"
+		},
+		"quality": {
+			"dataSaver": {
+				"desc": "~96 kbps Opus - données minimales.",
+				"label": "Économiseur de données"
+			},
+			"high": {
+				"desc": "~ 256 kbps AAC - transparent pour la plupart.",
+				"label": "Élevé"
+			},
+			"normal": {
+				"desc": "~128 kbps - équilibré.",
+				"label": "Normale"
+			},
+			"original": {
+				"desc": "Source un peu parfaite. Bande passante la plus élevée.",
+				"label": "Sans perte"
+			}
+		},
+		"streamingQuality": "Qualité de diffusion",
+		"title": "Lecture"
+	},
+	"privacy": {
+		"activityVisibility": {
+			"desc": "Qui peut voir vos pièces récentes et comparer vos goûts.",
+			"label": "Visibilité de l'activité"
+		},
+		"emailNotifications": {
+			"desc": "Recevez un e-mail pour les demandes d'amis et autres activités du compte.",
+			"label": "Notifications par courrier électronique"
+		},
+		"scrobble": {
+			"desc": "Enregistrez ce que vous jouez pour vos statistiques et Wrapped.",
+			"label": "Scrobble écoute"
+		},
+		"title": "Confidentialité",
+		"visibility": {
+			"friends": "Amis",
+			"private": "Seulement moi",
+			"public": "Tout le monde"
+		}
+	},
+	"quality": {
+		"dataSaver": {
+			"desc": "~ 96 kbps Opus — données minimales.",
+			"label": "Économiseur de données"
+		},
+		"high": {
+			"desc": "~ 256 kbps AAC — transparent pour la plupart.",
+			"label": "Élevé"
+		},
+		"lossless": {
+			"desc": "Source un peu parfaite. Bande passante la plus élevée.",
+			"label": "Sans perte"
+		},
+		"normal": {
+			"desc": "~ 128 kbps — équilibré.",
+			"label": "Normale"
+		},
+		"title": "Qualité de diffusion"
+	},
+	"region": {
+		"timezone": {
+			"description": "Utilisé pour placer une activité d'écoute sur votre calendrier local. Suivre ce dispositif laisse le choix à chaque client.",
+			"detect": "Détecter",
+			"followClient": "Suivre cet appareil",
+			"label": "Fuseau horaire",
+			"noMatches": "Aucun fuseau horaire ne correspond à votre recherche",
+			"search": "Rechercher des fuseaux horaires…",
+			"zoneWithOffset": "{zone} ({offset})"
+		},
+		"title": "Région"
+	},
+	"sessions": {
+		"body": "Où vous êtes connecté. Révoquez tout appareil que vous ne reconnaissez pas.",
+		"lastActive": "Dernière activité : {date}",
+		"lastActiveDate": "{date}",
+		"signOutEverywhere": "Déconnectez-vous partout",
+		"signOutEverywhereConfirm": "Se déconnecter de tous les appareils ? Vous devrez vous reconnecter.",
+		"thisDevice": "Cet appareil",
+		"title": "Appareils et sessions",
+		"unknownDevice": "Appareil inconnu"
+	},
+	"title": "Paramètres",
+	"twoFactor": {
+		"addHint": "Ajoutez un deuxième facteur (une application d'authentification) pour une sécurité supplémentaire du compte.",
+		"disable": "Désactiver 2FA",
+		"enable": "Activer 2FA",
+		"enableCta": "Activer l'authentification à deux facteurs",
+		"enabledHint": "2FA est activé. Pour le désactiver, entrez un code actuel ou un code de récupération.",
+		"qrAlt": "Code QR à deux facteurs",
+		"recoveryIntro": "2FA est activé. Enregistrez ces codes de récupération dans un endroit sûr : chacun fonctionne une fois si vous perdez votre authentificateur.",
+		"scanHint": "Scannez-le avec votre application d'authentification, puis entrez le code à 6 chiffres pour confirmer.",
+		"secretManual": "Ou saisissez ce secret manuellement : {secret}",
+		"title": "Authentification à deux facteurs"
+	},
+	"verifyEmail": {
+		"body": "Nous avons envoyé un lien de vérification à votre adresse e-mail. Vous ne l'avez pas compris ? Renvoyez-le ci-dessous.",
+		"title": "Vérifiez votre email"
+	}
+}

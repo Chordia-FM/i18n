@@ -1,0 +1,207 @@
+{
+	"artists": {
+		"empty": "Noch keine Künstler – der Katalog wird möglicherweise noch synchronisiert.",
+		"title": "Künstler"
+	},
+	"card": {
+		"editTitle": "Bearbeiten Sie diese Bibliothek",
+		"moveDown": "Nach unten verschieben (niedrigere Priorität)",
+		"moveUp": "Nach oben verschieben (höhere Priorität)",
+		"shareTitle": "Teilen Sie diese Bibliothek",
+		"trackCount": "{count, plural, one {# Schiene} other {# Titel}}"
+	},
+	"edit": {
+		"albumsLabel": "Alben",
+		"dedupeLabel": "Deduplizieren – Behalten Sie nur die Kopie mit der höchsten Qualität bei, wenn Dateien am selben Ort landen (ansonsten erhalten sie die Suffixe (2), (3) ...)",
+		"deleteConfirm": {
+			"confirmLabel": "Entfernen",
+			"message": "Diese Bibliothek entfernen? Ihre Dateien bleiben auf der Festplatte; es wurde aus Chordia entfernt.",
+			"title": "Bibliothek entfernen"
+		},
+		"deleteFailed": "Das Löschen ist fehlgeschlagen",
+		"fallbackToAlbums": "{template}(fällt auf Alben zurück)",
+		"foldersHelp": "Deaktivieren Sie einen Ordner, um ihn aus dieser Bibliothek auszuschließen. Wenn Sie das Häkchen bei einem Ordner entfernen, wird alles darin deaktiviert.",
+		"foldersTitle": "Enthaltene Ordner",
+		"foldersUpdateFailed": "Ordner konnten nicht aktualisiert werden",
+		"foldersUpdated": "Ordner aktualisiert – erneuter Scan…",
+		"iconLabel": "Symbol",
+		"iconSaveFailed": "Symbol konnte nicht gespeichert werden",
+		"iconSaved": "Symbol gespeichert",
+		"nameSaved": "Name gespeichert",
+		"noSubFolders": "Keine zu verwaltenden Unterordner.",
+		"organizeConfirm": {
+			"confirmLabel": "Weitermachen",
+			"messageDedupe": "Dadurch werden Dateien auf der Festplatte in das neue Layout verschoben und Duplikate mit geringerer Qualität gelöscht. Weitermachen?",
+			"messagePlain": "Dadurch werden Dateien auf der Festplatte in das neue Layout verschoben. Ihr Audio wird nicht verändert, sondern nur verschoben. Weitermachen?",
+			"title": "Dateien organisieren"
+		},
+		"organizeDisabled": "Behinderte organisieren",
+		"organizeFailed": "Organisation konnte nicht aktualisiert werden",
+		"organizeHelp": "Legen Sie die Audiodateien dieser Bibliothek anhand einer Vorlage auf der Festplatte ab. Ordner werden nach Bedarf erstellt und automatisch gescannt.",
+		"organizeStatus": "Dateien organisieren…",
+		"organizeTitle": "Dateien organisieren",
+		"organizeToggle": "Organisieren Sie die Dateien dieser Bibliothek",
+		"pairedDeviceFolders": "Um Ordner zu bearbeiten, öffnen Sie diese Seite auf dem Gerät, mit dem Sie diesen Server gekoppelt haben.",
+		"pairedDeviceOrganize": "Um dies zu ändern, öffnen Sie diese Seite auf dem Gerät, mit dem Sie diesen Server gekoppelt haben.",
+		"removeHelp": "Entfernt es aus Chordia. Ihre Audiodateien werden nicht berührt.",
+		"removeTitle": "Bibliothek entfernen",
+		"renameFailed": "Umbenennen fehlgeschlagen",
+		"rescanAll": "Scannen Sie alle Dateien erneut",
+		"rescanFailed": "Der erneute Scan ist fehlgeschlagen",
+		"rescanFull": "Vollständige Neuindizierung",
+		"rescanFullProgress": "Vollständige Neuindizierung in Bearbeitung…",
+		"rescanProgress": "Erneut scannen…",
+		"rescanHelp": "Liest jede Datei erneut von der Festplatte (Metadaten, hinzugefügte/entfernte Titel). Bei der vollständigen Neuindizierung werden auch unveränderte Dateien erneut verarbeitet. Verwenden Sie es, um Änderungen wie das Zusammenführen von Editionen auf eine vorhandene Bibliothek anzuwenden.",
+		"rescanStatus": "Alle Dateien werden erneut gescannt…",
+		"rescanning": "Erneut scannen…",
+		"saveFolders": "Ordner speichern",
+		"singlesLabel": "Singles (kein Album)",
+		"templateHelp": "Variablen:{vars}. Leere Teile werden übersprungen und die Dateierweiterung wird automatisch hinzugefügt.{edition}ist das Deluxe-/Spezial-Qualifikationsmerkmal (leer für die Standard-Edition, sodass es ausgeblendet wird) und{disc}erscheint nur bei Multi-Disc-Alben. Titel ohne Album verwenden die Singles-Vorlage. Dateien, die wir nicht identifizieren können (kein Künstler-Tag), verwenden die Option „Unidentifiziert“.",
+		"title": "Bibliothek bearbeiten",
+		"unknownLabel": "Unbekannte Spuren"
+	},
+	"downloads": {
+		"clearConfirm": {
+			"message": "Alle heruntergeladenen Songs von diesem Gerät entfernen?",
+			"title": "Downloads löschen"
+		},
+		"clearError": "Downloads konnten nicht gelöscht werden",
+		"emptyState": "Von Ihnen heruntergeladene Songs werden ohne Verbindung abgespielt. Verwenden Sie die Download-Aktion für einen beliebigen Track, um ihn hier zu speichern.",
+		"eyebrow": "Offline verfügbar",
+		"navLabel": "Downloads",
+		"removeError": "Der Download konnte nicht entfernt werden",
+		"removeTooltip": "Download entfernen",
+		"songCount": "{count, plural, one {# Lied} other {# Lieder}}",
+		"storedOnDevice": "auf diesem Gerät gespeichert",
+		"title": "Downloads"
+	},
+	"hidden": {
+		"hide": "Verstecke dieses Lied",
+		"unhide": "Einblenden"
+	},
+	"liked": {
+		"empty": "Songs, die Ihnen gefallen, werden hier angezeigt. Tippen Sie auf das Herz einer beliebigen Spur.",
+		"eyebrow": "Wiedergabeliste",
+		"remove": "Aus „Gefällt mir“-Songs entfernen",
+		"save": "Unter „Gefällt mir“-Songs speichern",
+		"songCount": "{count, plural, one {# Lied} other {# Lieder}}",
+		"title": "Gefallene Lieder"
+	},
+	"likedSongs": "Gefallene Lieder",
+	"list": {
+		"empty": {
+			"hint": "Starten Sie Ihren Bibliotheksserver und öffnen Sie dann den Setup-Link, den er in seinem Terminal zum Koppeln ausgibt.",
+			"title": "Noch keine Bibliotheken."
+		},
+		"loading": "Bibliotheken werden geladen…",
+		"newLibrary": "Neue Bibliothek",
+		"sharedWithYou": "Mit Ihnen geteilt",
+		"title": "Ihre Bibliotheken"
+	},
+	"metadata": {
+		"intro": "Bearbeiten Sie Metadaten nur für diese Bibliothek. Ihre Änderungen gelten für alle Ihre Ansichten. Alles, was Sie leer lassen, behält den ursprünglichen Wert. Globale Katalogänderungen werden live auf der Admin-Seite vorgenommen.",
+		"noMatches": "Keine Übereinstimmungen.",
+		"searchPlaceholder": "Suchen Sie nach Künstlern, Alben oder Titeln ...",
+		"title": "Metadaten"
+	},
+	"new": {
+		"addFailed": "Bibliothek konnte nicht hinzugefügt werden",
+		"adding": "Hinzufügen…",
+		"backLink": "Alle Bibliotheken",
+		"browseFailed": "Durchsuchen fehlgeschlagen",
+		"folderLabel": "Ordner auf dem Server",
+		"nameLabel": "Bibliotheksname",
+		"namePlaceholder": "Meine Musik",
+		"noFolderChosen": "Kein Ordner ausgewählt",
+		"noServer": "Auf diesem Gerät wurde kein gekoppelter Server gefunden. Starten Sie Ihren Bibliotheksserver und öffnen Sie den Setup-Link, den er ausdruckt, um ihn zuerst zu koppeln.",
+		"noSubFolders": "Hier gibt es keine Unterordner",
+		"serverLabel": "{names}·{host}",
+		"serverSelectHint": "Diese neue Bibliothek wird auf dem ausgewählten Server erstellt.",
+		"serverSelectLabel": "Bibliotheksserver",
+		"submit": "Bibliothek hinzufügen",
+		"title": "Neue Bibliothek"
+	},
+	"pin": {
+		"pin": "Stift",
+		"unpin": "Lösen"
+	},
+	"setup": {
+		"addFolderFailed": "Ordner konnte nicht hinzugefügt werden",
+		"addLibraries": {
+			"addFolder": "Ordner hinzufügen",
+			"adding": "Hinzufügen…",
+			"description": "Durchsuchen Sie das Dateisystem des Bibliotheksservers, um auszuwählen, wo Ihre Musik gespeichert ist. Sie können später über die Einstellungen weitere Ordner hinzufügen.",
+			"finish": "Beenden Sie die Einrichtung",
+			"formTitle": "Fügen Sie einen Ordner hinzu",
+			"skip": "Überspringen Sie es vorerst",
+			"title": "Musikordner hinzufügen"
+		},
+		"browseErrorStatus": "Fehler beim Durchsuchen:{status}",
+		"done": {
+			"addLater": "Sie können jederzeit Musikordner hinzufügen{settingsLink}.",
+			"foldersAdded": "{count, plural, one {# Ordner hinzugefügt.} other {# Ordner hinzugefügt.}}Der Scanvorgang läuft im Hintergrund – Titel werden in Kürze angezeigt.",
+			"goToLibrary": "Gehe in die Bibliothek",
+			"title": "Bibliotheksserver verbunden!"
+		},
+		"hubRejectedToken": "Der Hub hat das Sitzungstoken abgelehnt. Versuchen Sie, sich abzumelden und erneut anzumelden, und wiederholen Sie dann die Kopplung.",
+		"insideDataMusic": "Innen{path}auf dem Server",
+		"listDirFailed": "Verzeichnis konnte nicht aufgelistet werden",
+		"missingParams": "Fehlende Setup-Parameter. Bitte öffnen Sie den im Bibliotheksserver-Terminal ausgedruckten Link.",
+		"noFolderSelected": "Kein Ordner ausgewählt",
+		"noSubdirectories": "Keine Unterverzeichnisse hier",
+		"pair": {
+			"connect": "Verbinden",
+			"connecting": "Verbinden…",
+			"description": "Dies wird verlinkt{url}zu Ihrem Chordia-Konto.",
+			"title": "Bibliotheksserver anschließen"
+		},
+		"pairingFailed": "Die Kopplung ist fehlgeschlagen",
+		"sessionExpired": "Ihre Sitzung ist abgelaufen. Bitte melden Sie sich ab und wieder an und versuchen Sie es dann erneut.",
+		"step": {
+			"addFolders": "Ordner hinzufügen",
+			"done": "Erledigt",
+			"pair": "Paar"
+		}
+	},
+	"share": {
+		"dialogLabel": "Aktie \"{name}\"",
+		"failed": "Teilen fehlgeschlagen",
+		"filterFriends": "Freunde filtern…",
+		"findPeople": "Finden Sie Leute",
+		"friendLabel": "Freund",
+		"noFriends": "Sie haben noch keine Freunde, mit denen Sie etwas teilen können.",
+		"permission": "Erlaubnis",
+		"permissionStreamDownload": "Streamen + herunterladen",
+		"permissionStreamOnly": "Nur Stream",
+		"selectFriend": "Wählen Sie einen Freund aus…",
+		"sharing": "Teilen…",
+		"submit": "Bibliothek teilen",
+		"success": "Bibliothek erfolgreich freigegeben.",
+		"title": "Aktie \"{name}\""
+	},
+	"sidebar": {
+		"pinned": "Angepinnt",
+		"playlists": "Wiedergabelisten",
+		"yourLibrary": "Ihre Bibliothek"
+	},
+	"trackCount": "{count, plural, one {# Schiene} other {# Titel}}",
+	"shareManager": {
+		"title": "Freunde & Teilen",
+		"help": "Wer hat Zugriff auf diese Bibliothek, was macht er damit und was darf er tun?",
+		"empty": "Noch mit niemandem geteilt. Fügen Sie unten einen Freund hinzu, um ihm Zugriff zu gewähren.",
+		"addFriend": "Freund hinzufügen",
+		"revoke": "Zugriff entfernen",
+		"canRequest": "Kann Downloads anfordern",
+		"directories": "Bibliotheken:",
+		"thisLibrary": "Diese Bibliothek",
+		"grantAccess": "Zugriff gewähren{name}",
+		"removeAccess": "Zugriff auf entfernen{name}",
+		"streamingNow": "Jetzt streamen:{title}—{artist}",
+		"statsLine": "{requests}angefordert ·{downloads}heruntergeladen ·{plays}spielt ·{time}hörte zu",
+		"lastPlayed": "zuletzt gespielt{date}",
+		"updateFailed": "Die Freigabe konnte nicht aktualisiert werden. Versuchen Sie es erneut.",
+		"timeDaysHours": "{days}D{hours}H",
+		"timeHoursMinutes": "{hours}H{minutes}M",
+		"timeMinutes": "{minutes}M"
+	}
+}

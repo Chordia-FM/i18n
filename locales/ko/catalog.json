@@ -1,0 +1,215 @@
+{
+	"actions": {
+		"editMetadata": "메타데이터 편집"
+	},
+	"album": {
+		"card": {
+			"artistYearJoin": "{artist} · {year}"
+		},
+		"count": "{count, plural, 기타 {# albums}}",
+		"download": {
+			"albumTitle": "앨범 다운로드",
+			"busy": "다운로드 중…",
+			"done": "다운로드됨",
+			"failed": "다운로드에 실패했습니다",
+			"removePartial": "삭제d {removed}, {failed} 실패했습니다",
+			"removeTitle": "다운로드 삭제",
+			"removed": "다운로드를 삭제했습니다",
+			"savedCount": "{count, plural, 기타 {다운로드됨 # songs}}",
+			"savedPartial": "다운로드됨 {saved}, {failed} 실패했습니다"
+		},
+		"durationHrMin": "{count, plural, 기타 {# hr}} {minutes} min",
+		"durationMin": "{minutes} 분",
+		"genresJoin": "{genres}",
+		"releaseDate": "{date, date, long}",
+		"songCount": "{count, plural, 기타 {# songs}}",
+		"typesJoin": "{types}"
+	},
+	"artist": {
+		"albums": "앨범",
+		"appearsOn": "수록 앨범",
+		"born": "태어남 {year}",
+		"card": {
+			"albumCount": "{count, plural, 기타 {# albums}}"
+		},
+		"discography": "디스코그래피",
+		"factsJoin": "{facts}",
+		"formed": "형성됨 {year}",
+		"genresJoin": "{genres}",
+		"labelMetaJoin": "{span} · {releases}",
+		"labels": "레이블",
+		"liveAlbum": {
+			"card": "모든 live recordings",
+			"label": "라이브 collection",
+			"subtitle": "{count, plural, 기타 {From # albums}}",
+			"title": "{name} — 라이브"
+		},
+		"namesJoin": "{artists}",
+		"popular": "인기",
+		"radio": "라디오",
+		"relatedArtists": "관련 아티스트",
+		"relation": {
+			"alias": "다른 이름",
+			"member": "Member 의 / members",
+			"related": "관련"
+		},
+		"releaseCount": "{count, plural, 기타 {# releases}}",
+		"versions": {
+			"instrumental": "연주곡",
+			"live": "라이브"
+		}
+	},
+	"artistNamesJoin": "{names}",
+	"edit": {
+		"artOptionAlt": "{kind}",
+		"artworkAlt": "작품",
+		"bannerSet": "배너 세트 ✓",
+		"browseAlbumCovers": "찾아보기 앨범 covers",
+		"browseArtwork": "찾아보기 artwork (fanart.tv)",
+		"field": {
+			"album": "앨범",
+			"artist": "아티스트",
+			"bio": "소개",
+			"discNo": "디스크 번호",
+			"genre": "장르",
+			"genres": "장르 (comma-separated)",
+			"label": "레이블",
+			"name": "이름",
+			"title": "제목",
+			"trackNo": "트랙 #",
+			"type": "유형",
+			"year": "연도"
+		},
+		"helpText": "Leave field blank 으로 keep original. Changes are stored 용 이 라이브러리 only, unless 회원님 활성화 “Override globally”.",
+		"noArtworkAlbum": "없음 covers found — 앨범 needs MusicBrainz match.",
+		"noArtworkArtist": "없음 online artwork found — needs fanart.tv API key 및 MusicBrainz match.",
+		"overrideGlobally": {
+			"help": "Also 표시 이 편집 across 내 whole catalog (내 highest-priority 라이브러리 wins). Doesn't 변경 original 또는 affect 기타 users.",
+			"label": "전역적으로 재정의"
+		},
+		"reset": {
+			"confirmMessage": "원본으로 재설정 metadata? 이 clears 내 edits 용 이 item.",
+			"confirmTitle": "메타데이터 재설정"
+		},
+		"resetToOriginal": "원본으로 재설정",
+		"title": {
+			"album": "앨범 편집",
+			"artist": "아티스트 편집",
+			"track": "트랙 편집"
+		},
+		"uploadBanner": "배너 업로드",
+		"uploadCover": "커버 업로드",
+		"uploadImage": "이미지 업로드",
+		"useThisArt": "이것을 사용하세요 {kind}"
+	},
+	"entity": {
+		"artist": "아티스트"
+	},
+	"genres": {
+    "counts": "{albumsFormatted} {albums, plural, other {앨범}} · {artistsFormatted} {artists, plural, other {아티스트}}",
+		"empty": "없음 genres yet — they arrive 함께 앨범 metadata as 내 라이브러리 is enriched.",
+		"eyebrow": "장르",
+		"notFound": "없음 앨범 carry 해당 genre.",
+		"title": "장르",
+		"topAlbums": "인기 앨범",
+		"topArtists": "인기 아티스트",
+		"variants": "또한 태그됨: {list}"
+	},
+	"label": {
+		"albumCount": "{count, plural, 기타 {# albums}}",
+		"albumCountWithPrefix": "레이블 · {count, plural, 기타 {# albums}}",
+		"eyebrow": "레이블",
+		"factsSeparator": "type · 국가 · lifespan",
+		"formerNames": "{name1}, {name2}",
+		"formerly": "이전에는 {names}",
+		"lifespan": {
+			"founded": "설립 {year}",
+			"range": "{from} – {to}",
+			"until": "{year}"
+		},
+		"noAlbums": "앨범이 없습니다."
+	},
+	"labels": {
+		"empty": "없음 labels yet — they fill 에 as 내 catalog is enriched 에서 MusicBrainz.",
+		"title": "레이블"
+	},
+	"lyrics": {
+		"heading": "가사",
+		"placeholderPlain": "첫 line\nSecond line",
+		"placeholderSynced": "[00:00.00] 첫 line\n[00:04.20] Second line",
+		"plainHelp": "Plain lyrics — one line each, 없음 timing.",
+		"resetDone": "재설정 으로 auto-fetched lyrics",
+		"resetError": "가사를 재설정할 수 없습니다.",
+		"resetToAuto": "재설정 으로 auto",
+		"resetToAutoTitle": "Forget 이 편집 및 re-fetch 에서 provider",
+		"save": "가사 저장",
+		"saveError": "Couldn't 저장 lyrics",
+		"saved": "가사를 저장했습니다",
+		"sharedNote": "공유d across 모든 라이브러리. ",
+		"syncedHelp": "켬e line per lyric, each prefixed 함께 timestamp like [00:12.34]; untimed lines are dropped.",
+		"syncedLabel": "동기화됨(LRC 타이밍)"
+	},
+	"report": {
+		"action": "신고",
+		"allLibraries": "내 모든 라이브러리",
+		"bannerSet": "새 항목 banner ready ✓",
+		"changeBanner": "배너 변경",
+		"changeImage": "이미지 변경",
+		"field": {
+			"bio": "소개",
+			"genres": "장르 (comma-separated)",
+			"name": "이름",
+			"note": "Note 용 reviewers (optional)"
+		},
+		"genresHint": "Separate multiple genres 함께 commas.",
+		"helpText": "편집 {name}'s details below. 저장 changes 으로 라이브러리 회원님 own instantly, 또는 submit them as suggestion 용 everyone (admin reviews those). 켬ly changed fields are sent.",
+		"imageAlt": "아티스트 이미지",
+		"libraryTarget": "Choose which 라이브러리 으로 저장 으로",
+		"noteHint": "켬ly sent 함께 suggestion. Anything 해당 helps reviewers (e.g. source link).",
+		"saveFailed": "Couldn't 저장 내 changes.",
+		"saveToLibrary": "라이브러리에 저장",
+		"savedToAll": "저장d 으로 모든 내 라이브러리.",
+		"savedToLibrary": "저장d 으로 {name}.",
+		"submit": "제안 제출",
+		"submitFailed": "Couldn't send 내 suggestion.",
+		"suggestionSent": "Suggestion sent 용 review.",
+		"title": "아티스트 정보 편집"
+	},
+	"search": {
+		"placeholder": "아티스트, 앨범 또는 노래"
+	},
+	"section": {
+		"albums": "앨범",
+		"artists": "아티스트s",
+		"labels": "레이블",
+		"songs": "노래",
+		"tracks": "트랙"
+	},
+	"songCount": "{count, plural, 기타 {# songs}}",
+	"track": {
+		"clean": "클린",
+		"column": {
+			"album": "앨범",
+			"dateAdded": "추가 날짜",
+			"plays": "재생",
+			"title": "제목"
+		},
+		"download": {
+			"exists": "이미 다운로드됨",
+			"removeAction": "삭제 다운로드",
+			"removeError": "Couldn't 삭제 다운로드",
+			"removed": "삭제d 다운로드",
+			"savedNamed": "다운로드됨 {title}"
+		},
+		"explicit": "명시적",
+		"playAria": "재생 {title} 기준 {artist}",
+		"playsNumber": "{n, number}",
+		"relTime": {
+			"daysAgo": "{count, plural, 기타 {# days ago}}",
+			"fullDate": "{date, date, medium}",
+			"today": "오늘",
+			"yesterday": "어제"
+		}
+	},
+	"trackCount": "{count, plural, 기타 {# tracks}}"
+}

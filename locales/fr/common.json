@@ -1,0 +1,149 @@
+{
+	"a11y": {
+		"dismissNotification": "Rejeter la notification",
+		"playTrack": "Jouer à {title}"
+	},
+	"actions": {
+		"cancel": "Annuler",
+		"changeImage": "Changer l'image",
+		"clearAll": "Tout effacer",
+		"close": "Fermer",
+		"confirm": "Confirmer",
+		"delete": "Supprimer",
+		"done": "Terminé",
+		"download": "Télécharger",
+		"edit": "Modifier",
+		"find": "Trouver",
+		"goHome": "Rentre chez toi",
+		"more": "Plus",
+		"moveDown": "Descendre",
+		"moveUp": "Monter",
+		"ok": "D'accord",
+		"open": "Ouvert",
+		"pin": "Épingle",
+		"play": "Jouer",
+		"remove": "Supprimer",
+		"rename": "Renommer",
+		"reset": "Réinitialiser",
+		"save": "Enregistrer",
+		"search": "Rechercher",
+		"seeAll": "Voir tout",
+		"seeMore": "Voir plus",
+		"share": "Partager",
+		"showLess": "Afficher moins",
+		"showMore": "Afficher plus",
+		"signOut": "Se déconnecter",
+		"tryAgain": "Réessayez",
+		"undo": "Annuler",
+		"unpin": "Désépingler",
+		"verify": "Vérifier"
+	},
+	"appName": "Chordia",
+	"commandPalette": {
+		"hint": {
+			"go": "Allez",
+			"open": "Ouvert",
+			"play": "Jouer"
+		},
+		"noMatches": "Aucun match.",
+		"placeholder": "Recherchez de la musique ou accédez à une page…",
+		"title": "Palette de commandes",
+		"typeToSearch": "Tapez pour rechercher."
+	},
+	"error": {
+		"failedToLoad": "Échec du chargement"
+	},
+	"errors": {
+		"saveFailed": "L'enregistrement a échoué."
+	},
+	"fields": {
+		"artist": "Artiste",
+		"country": "Pays",
+		"description": "Descriptif",
+		"label": "Étiquette",
+		"name": "Nom",
+		"title": "Titre",
+		"type": "Tapez",
+		"year": "Année"
+	},
+	"fileBrowser": {
+		"browse": "Parcourir",
+		"goUp": "Monter",
+		"useThisFolder": "Utiliser ce dossier"
+	},
+	"keybinds": {
+		"closeDialog": "Fermer la boîte de dialogue",
+		"commandPalette": "Palette de commandes",
+		"help": "Raccourcis clavier",
+		"quickSearch": "Recherche rapide",
+		"section": {
+			"general": "Général",
+			"navigation": "Navigation",
+			"player": "Joueur"
+		},
+		"toggleRightSidebar": "Basculer la barre latérale droite"
+	},
+	"language": {
+		"description": "Langue utilisée dans l'interface.",
+		"label": "Langue"
+	},
+	"nav": {
+		"allLibraries": "Toutes les bibliothèques",
+		"friends": "Amis",
+		"home": "Accueil",
+		"library": "Bibliothèque",
+		"listen": "Ecoute",
+		"search": "Rechercher",
+		"settings": "Paramètres",
+		"signIn": "Connectez-vous"
+	},
+	"notFound": {
+		"body": "Cette page n'existe pas.",
+		"goHome": "Rentre chez toi",
+		"title": "Page introuvable"
+	},
+	"or": "ou",
+	"sidebar": {
+		"collapse": "Réduire la barre latérale",
+		"expand": "Développer la barre latérale",
+		"resize": "Redimensionner la barre latérale"
+	},
+	"image": {
+		"adjust": "Ajuster",
+		"adjustTitle": "Ajuster l'image",
+		"rotateLeft": "Faire pivoter à gauche",
+		"rotateRight": "Faire pivoter à droite",
+		"flipHorizontal": "Retourner horizontalement",
+		"flipVertical": "Retourner verticalement",
+		"hint": "Faites glisser pour repositionner · zoomez pour recadrer",
+		"reset": "Réinitialiser",
+		"zoom": "Zoomer"
+	},
+	"state": {
+		"loading": "Chargement…",
+		"off": "Désactivé",
+		"on": "Sur"
+	},
+	"states": {
+		"loading": "Chargement…",
+		"off": "Désactivé",
+		"saving": "Sauvegarde…",
+		"verifying": "Vérification…"
+	},
+	"status": {
+		"saved": "Enregistré",
+		"sending": "Envoi…"
+	},
+	"update": {
+		"available": "Une nouvelle version est disponible.",
+		"refresh": "Actualiser"
+	},
+	"userMenu": {
+		"admin": "Administrateur",
+		"libraries": "Bibliothèques",
+		"profile": "Votre profil",
+		"settings": "Paramètres",
+		"signOut": "Se déconnecter",
+		"stats": "Statistiques"
+	}
+}

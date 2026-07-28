@@ -1,0 +1,149 @@
+{
+	"a11y": {
+		"dismissNotification": "Benachrichtigung verwerfen",
+		"playTrack": "Spielen{title}"
+	},
+	"actions": {
+		"cancel": "Stornieren",
+		"changeImage": "Bild ändern",
+		"clearAll": "Alles löschen",
+		"close": "Schließen",
+		"confirm": "Bestätigen",
+		"delete": "Löschen",
+		"done": "Erledigt",
+		"download": "Herunterladen",
+		"edit": "Bearbeiten",
+		"find": "Finden",
+		"goHome": "Nach Hause gehen",
+		"more": "Mehr",
+		"moveDown": "Bewegen Sie sich nach unten",
+		"moveUp": "Bewegen Sie sich nach oben",
+		"ok": "OK",
+		"open": "Offen",
+		"pin": "Stift",
+		"play": "Spielen",
+		"remove": "Entfernen",
+		"rename": "Umbenennen",
+		"reset": "Zurücksetzen",
+		"save": "Speichern",
+		"search": "Suchen",
+		"seeAll": "Alle anzeigen",
+		"seeMore": "Mehr sehen",
+		"share": "Aktie",
+		"showLess": "Weniger anzeigen",
+		"showMore": "Mehr anzeigen",
+		"signOut": "Abmelden",
+		"tryAgain": "Versuchen Sie es erneut",
+		"undo": "Rückgängig machen",
+		"unpin": "Lösen",
+		"verify": "Verifizieren"
+	},
+	"appName": "Chordia",
+	"commandPalette": {
+		"hint": {
+			"go": "Gehen",
+			"open": "Offen",
+			"play": "Spielen"
+		},
+		"noMatches": "Keine Übereinstimmungen.",
+		"placeholder": "Suchen Sie nach Musik oder springen Sie zu einer Seite ...",
+		"title": "Befehlspalette",
+		"typeToSearch": "Geben Sie ein, um zu suchen."
+	},
+	"error": {
+		"failedToLoad": "Laden fehlgeschlagen"
+	},
+	"errors": {
+		"saveFailed": "Speichern fehlgeschlagen."
+	},
+	"fields": {
+		"artist": "Künstler",
+		"country": "Land",
+		"description": "Beschreibung",
+		"label": "Etikett",
+		"name": "Name",
+		"title": "Titel",
+		"type": "Typ",
+		"year": "Jahr"
+	},
+	"fileBrowser": {
+		"browse": "Durchsuchen",
+		"goUp": "Steigen",
+		"useThisFolder": "Verwenden Sie diesen Ordner"
+	},
+	"keybinds": {
+		"closeDialog": "Dialog schließen",
+		"commandPalette": "Befehlspalette",
+		"help": "Tastaturkürzel",
+		"quickSearch": "Schnellsuche",
+		"section": {
+			"general": "Allgemein",
+			"navigation": "Navigation",
+			"player": "Spieler"
+		},
+		"toggleRightSidebar": "Rechte Seitenleiste umschalten"
+	},
+	"language": {
+		"description": "Sprache, die auf der gesamten Benutzeroberfläche verwendet wird.",
+		"label": "Sprache"
+	},
+	"nav": {
+		"allLibraries": "Alle Bibliotheken",
+		"friends": "Freunde",
+		"home": "Heim",
+		"library": "Bibliothek",
+		"listen": "Hören",
+		"search": "Suchen",
+		"settings": "Einstellungen",
+		"signIn": "anmelden"
+	},
+	"notFound": {
+		"body": "Diese Seite existiert nicht.",
+		"goHome": "Nach Hause gehen",
+		"title": "Seite nicht gefunden"
+	},
+	"or": "oder",
+	"sidebar": {
+		"collapse": "Seitenleiste einklappen",
+		"expand": "Seitenleiste erweitern",
+		"resize": "Größe der Seitenleiste ändern"
+	},
+	"image": {
+		"adjust": "Anpassen",
+		"adjustTitle": "Bild anpassen",
+		"rotateLeft": "Nach links drehen",
+		"rotateRight": "Nach rechts drehen",
+		"flipHorizontal": "Horizontal spiegeln",
+		"flipVertical": "Vertikal spiegeln",
+		"hint": "Zum Neupositionieren ziehen · Vergrößern zum Neurahmen",
+		"reset": "Zurücksetzen",
+		"zoom": "Zoom"
+	},
+	"state": {
+		"loading": "Laden…",
+		"off": "Aus",
+		"on": "An"
+	},
+	"states": {
+		"loading": "Laden…",
+		"off": "Aus",
+		"saving": "Sparen…",
+		"verifying": "Überprüfen…"
+	},
+	"status": {
+		"saved": "Gespeichert",
+		"sending": "Senden…"
+	},
+	"update": {
+		"available": "Eine neue Version ist verfügbar.",
+		"refresh": "Aktualisieren"
+	},
+	"userMenu": {
+		"admin": "Admin",
+		"libraries": "Bibliotheken",
+		"profile": "Ihr Profil",
+		"settings": "Einstellungen",
+		"signOut": "Abmelden",
+		"stats": "Statistiken"
+	}
+}

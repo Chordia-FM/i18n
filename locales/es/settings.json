@@ -1,0 +1,202 @@
+{
+	"account": {
+		"avatarUrl": "URL del avatar",
+		"changeEmail": "Cambiar correo",
+		"displayName": "Display nombre",
+		"emailChangeSent": "Check tu nuevo inbox para un confirmation link.",
+		"handle": "Usuario",
+		"handleHint": "Letters, digits, “_” y “-”. Must be unique.",
+		"handlePlaceholder": "tunombre",
+		"newEmailPlaceholder": "nuevo@example.com",
+		"resendVerification": "Resend verification correo",
+		"saveProfile": "Guardar perfil",
+		"sendConfirmation": "Enviar confirmation",
+		"title": "Cuenta",
+		"verificationSent": "Sent — check tu inbox"
+	},
+	"appearance": {
+		"accentColour": "Color de acento",
+		"accentHexAria": "Hexadecimal de acento",
+		"customAccentAria": "Personalizado accent colour",
+		"customColour": "Personalizado colour",
+		"customColourHint": "Pick any colour - buttons, highlights y el background tint seguir it.",
+		"title": "Apariencia"
+	},
+	"connections": {
+		"title": "Conexiones",
+		"lastfm": {
+			"label": "Last.fm",
+			"desc": "Scrobble tu reproducciones a Last.fm automatically.",
+			"connect": "Conectar",
+			"disconnect": "Desconectar",
+			"connectedAs": "Connected como {username}",
+			"connectedToast": "Connected a Last.fm como {username}",
+			"disconnected": "Last.fm desconectado",
+			"failed": "Couldn’t conectar Last.fm",
+			"connecting": "Conectando Last.fm…"
+		}
+	},
+	"data": {
+		"body": "Descargar everything Chordia stores sobre tú, o permanently eliminar tu cuenta y todos its datos.",
+		"deleteAccountConfirm": "Permanently eliminar tu cuenta y ALL tu datos — escucha historial, listas, bibliotecas, y amigos? Este no se puede be undone.",
+		"deleteAccountTitle": "Eliminar cuenta",
+		"deleteFailedBody": "Could no eliminar tu cuenta right ahora. Please try de nuevo.",
+		"deleteFailedTitle": "Deletion falló",
+		"deleteForever": "Eliminar forever",
+		"exportFailedBody": "Could no export tu datos right ahora. Please try de nuevo.",
+		"exportFailedTitle": "Export falló",
+		"exportMyData": "Export mi datos",
+		"title": "Tus datos"
+	},
+	"downloads": {
+		"browserStorageName": "Este dispositivo (browser storage)",
+		"bytes": "{bytes} B / {kb} KB / {mb} MB / {gb} GB",
+		"serverNote": "Música bibliotecas themselves are added y organized en tu Chordia biblioteca servidor, no aquí. Saving downloads a un custom carpeta (con tu own path + organization layout) is coming a el desktop app.",
+		"thisDevice": {
+			"description": "Descargado canciones are stored en este dispositivo y reproducción without un connection.",
+			"empty": "Usar el Descargar action en any pista o álbum.",
+			"title": "Este dispositivo (browser storage)",
+			"usage": "{count, plural, one {# song} other {# songs}} · {size}."
+		},
+		"title": "Descargas",
+		"unsupportedDestination": "\"{destination}\" downloads need el desktop app"
+	},
+	"eq": {
+		"preset": {
+			"acoustic": "Acústico",
+			"bassBoost": "Refuerzo de graves",
+			"bassReducer": "Reducción de graves",
+			"classical": "Clásica",
+			"electronic": "Electrónica",
+			"flat": "Plano",
+			"hipHop": "Hip-Hop",
+			"jazz": "Jazz",
+			"loudness": "Sonoridad",
+			"pop": "Pop",
+			"rock": "Rock",
+			"trebleBoost": "Refuerzo de agudos",
+			"trebleReducer": "Reducción de agudos",
+			"vocal": "Vocal"
+		}
+	},
+	"equalizer": {
+		"title": "Ecualizador"
+	},
+	"playback": {
+		"autoplay": {
+			"desc": "Keep playing similar música cuando el queue ends.",
+			"label": "Reproducción automática"
+		},
+		"crossfade": {
+			"desc": "Overlap y blend el end de each pista en el next.",
+			"label": "Fundido cruzado",
+			"value": "{seconds}s"
+		},
+		"normalize": {
+			"desc": "Even out loudness across pistas (ReplayGain).",
+			"label": "Normalizar volumen"
+		},
+		"preload": {
+			"desc": "Descargar upcoming queue pistas ahead de tiempo para instant, gap-free playback. Higher uses más datos.",
+			"label": "Preload next pistas"
+		},
+		"quality": {
+			"dataSaver": {
+				"desc": "~96 kbps Opus - minimal datos.",
+				"label": "Ahorro de datos"
+			},
+			"high": {
+				"desc": "~256 kbps AAC - transparent para most.",
+				"label": "Alta"
+			},
+			"normal": {
+				"desc": "~128 kbps - equilibrada.",
+				"label": "Normal"
+			},
+			"original": {
+				"desc": "Bit-perfect fuente. Highest bandwidth.",
+				"label": "Sin pérdida"
+			}
+		},
+		"streamingQuality": "Calidad de transmisión",
+		"title": "Reproducción"
+	},
+	"privacy": {
+		"activityVisibility": {
+			"desc": "Who can see tu recent reproducciones y compare taste con tú.",
+			"label": "Actividad visibility"
+		},
+		"emailNotifications": {
+			"desc": "Get un correo para amigo requests y other cuenta actividad.",
+			"label": "Correo notificaciones"
+		},
+		"scrobble": {
+			"desc": "Record what tú reproducción para tu stats y Wrapped.",
+			"label": "Registrar escuchas"
+		},
+		"title": "Privacidad",
+		"visibility": {
+			"friends": "Amigos",
+			"private": "Solo yo",
+			"public": "Todos"
+		}
+	},
+	"quality": {
+		"dataSaver": {
+			"desc": "~96 kbps Opus — minimal datos.",
+			"label": "Ahorro de datos"
+		},
+		"high": {
+			"desc": "~256 kbps AAC — transparent para most.",
+			"label": "Alta"
+		},
+		"lossless": {
+			"desc": "Bit-perfect fuente. Highest bandwidth.",
+			"label": "Sin pérdida"
+		},
+		"normal": {
+			"desc": "~128 kbps — equilibrada.",
+			"label": "Normal"
+		},
+		"title": "Calidad de transmisión"
+	},
+	"region": {
+		"timezone": {
+			"description": "Used a place escucha actividad en tu local calendar. Seguir este dispositivo leaves el choice a each client.",
+			"detect": "Detectar",
+			"followClient": "Seguir este dispositivo",
+			"label": "Zona horaria",
+			"noMatches": "No tiempo zones match tu buscar",
+			"search": "Buscar zonas horarias…",
+			"zoneWithOffset": "{zone} ({offset})"
+		},
+		"title": "Región"
+	},
+	"sessions": {
+		"body": "Where estás signed en. Revoke any dispositivo tú no recognize.",
+		"lastActive": "Último active {date}",
+		"lastActiveDate": "{date}",
+		"signOutEverywhere": "Cerrar sesión everywhere",
+		"signOutEverywhereConfirm": "Cerrar sesión de todos dispositivos? You'll need a iniciar sesión en de nuevo.",
+		"thisDevice": "Este dispositivo",
+		"title": "Dispositivos y sesiones",
+		"unknownDevice": "Dispositivo desconocido"
+	},
+	"title": "Ajustes",
+	"twoFactor": {
+		"addHint": "Añadir un second factor (un authenticator app) para extra cuenta security.",
+		"disable": "Desactivar 2FA",
+		"enable": "Activar 2FA",
+		"enableCta": "Activar two-factor auth",
+		"enabledHint": "2FA is enabled. To turn it off, enter un actual code o un recovery code.",
+		"qrAlt": "Código QR de dos factores",
+		"recoveryIntro": "2FA is en. Guardar these recovery codes somewhere safe — each works una vez que if tú lose tu authenticator.",
+		"scanHint": "Scan este con tu authenticator app, then enter el 6-digit code a confirm.",
+		"secretManual": "Or enter este secret manually: {secret}",
+		"title": "Autenticación de dos factores"
+	},
+	"verifyEmail": {
+		"body": "Nosotros sent un verification link a tu correo. Didn't get it? Resend it below.",
+		"title": "Verificar tu correo"
+	}
+}

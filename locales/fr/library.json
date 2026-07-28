@@ -1,0 +1,207 @@
+{
+	"artists": {
+		"empty": "Aucun artiste pour l'instant : le catalogue est peut-être encore en cours de synchronisation.",
+		"title": "Artistes"
+	},
+	"card": {
+		"editTitle": "Modifier cette bibliothèque",
+		"moveDown": "Descendre (priorité inférieure)",
+		"moveUp": "Monter (priorité plus élevée)",
+		"shareTitle": "Partager cette bibliothèque",
+		"trackCount": "{count, plural, one {# piste} other {# pistes}}"
+	},
+	"edit": {
+		"albumsLabel": "Albums",
+		"dedupeLabel": "Dé-dupliquer - ne conserver que la copie de la plus haute qualité lorsque les fichiers arrivent au même endroit (sinon ils recevront les suffixes (2), (3)…)",
+		"deleteConfirm": {
+			"confirmLabel": "Supprimer",
+			"message": "Supprimer cette bibliothèque ? Vos fichiers restent sur le disque ; il est supprimé de Chordia.",
+			"title": "Supprimer la bibliothèque"
+		},
+		"deleteFailed": "Échec de la suppression",
+		"fallbackToAlbums": "{template} (revient aux albums)",
+		"foldersHelp": "Décochez un dossier pour le garder en dehors de cette bibliothèque. Décocher un dossier désactive tout ce qu'il contient.",
+		"foldersTitle": "Dossiers inclus",
+		"foldersUpdateFailed": "Échec de la mise à jour des dossiers",
+		"foldersUpdated": "Dossiers mis à jour - nouvelle analyse…",
+		"iconLabel": "Icône",
+		"iconSaveFailed": "Échec de l'enregistrement de l'icône",
+		"iconSaved": "Icône enregistrée",
+		"nameSaved": "Nom enregistré",
+		"noSubFolders": "Aucun sous-dossier à gérer.",
+		"organizeConfirm": {
+			"confirmLabel": "Continuer",
+			"messageDedupe": "Cela déplace les fichiers sur le disque vers la nouvelle présentation et supprime les doublons de qualité inférieure. Continuer?",
+			"messagePlain": "Cela déplace les fichiers sur le disque vers la nouvelle présentation. Votre audio n'est pas modifié, seulement déplacé. Continuer?",
+			"title": "Organiser les fichiers"
+		},
+		"organizeDisabled": "Organiser les handicapés",
+		"organizeFailed": "Échec de la mise à jour de l'organisation",
+		"organizeHelp": "Disposez les fichiers audio de cette bibliothèque sur disque à partir d'un modèle. Les dossiers sont créés selon les besoins et analysés automatiquement.",
+		"organizeStatus": "Organisation des fichiers…",
+		"organizeTitle": "Organiser les fichiers",
+		"organizeToggle": "Organiser les fichiers de cette bibliothèque",
+		"pairedDeviceFolders": "Pour modifier des dossiers, ouvrez cette page sur l'appareil sur lequel vous avez associé ce serveur.",
+		"pairedDeviceOrganize": "Pour changer cela, ouvrez cette page sur l'appareil sur lequel vous avez associé ce serveur.",
+		"removeHelp": "Le supprime de Chordia. Vos fichiers audio ne sont pas touchés.",
+		"removeTitle": "Supprimer la bibliothèque",
+		"renameFailed": "Échec du changement de nom",
+		"rescanAll": "Réanalyser tous les fichiers",
+		"rescanFailed": "Échec de la nouvelle analyse",
+		"rescanFull": "Réindexation complète",
+		"rescanFullProgress": "Réindexation complète en cours…",
+		"rescanProgress": "Nouvelle numérisation…",
+		"rescanHelp": "Relis chaque fichier du disque (métadonnées, pistes ajoutées/supprimées). La réindexation complète retraite également les fichiers inchangés. Utilisez-le pour appliquer des modifications telles que la fusion d'éditions à une bibliothèque existante.",
+		"rescanStatus": "Nouvelle analyse de tous les fichiers…",
+		"rescanning": "Nouvelle numérisation…",
+		"saveFolders": "Enregistrer les dossiers",
+		"singlesLabel": "Singles (pas d'album)",
+		"templateHelp": "Variables : {vars}. Les parties vides sont ignorées et l'extension du fichier est ajoutée automatiquement. {edition} est le qualificatif de luxe/spécial (vide pour l'édition standard, donc il se réduit), et {disc} n'apparaît que pour les albums multidisques. Les pistes sans album utilisent le modèle Singles ; les fichiers que nous ne pouvons pas identifier (pas de balise d'artiste) utilisent celui non identifié.",
+		"title": "Modifier la bibliothèque",
+		"unknownLabel": "Des traces non identifiées"
+	},
+	"downloads": {
+		"clearConfirm": {
+			"message": "Supprimer toutes les chansons téléchargées de cet appareil ?",
+			"title": "Effacer les téléchargements"
+		},
+		"clearError": "Impossible d'effacer les téléchargements",
+		"emptyState": "Les chansons que vous téléchargez sont lues sans connexion. Utilisez l'action Télécharger sur n'importe quelle piste pour l'enregistrer ici.",
+		"eyebrow": "Disponible hors ligne",
+		"navLabel": "Téléchargements",
+		"removeError": "Impossible de supprimer le téléchargement",
+		"removeTooltip": "Supprimer le téléchargement",
+		"songCount": "{count, plural, one {# chanson} other {# chansons}}",
+		"storedOnDevice": "stocké sur cet appareil",
+		"title": "Téléchargements"
+	},
+	"hidden": {
+		"hide": "Cacher cette chanson",
+		"unhide": "Afficher"
+	},
+	"liked": {
+		"empty": "Les chansons que vous aimez apparaîtront ici. Appuyez sur le cœur sur n'importe quelle piste.",
+		"eyebrow": "Liste de lecture",
+		"remove": "Supprimer des chansons aimées",
+		"save": "Enregistrer dans les chansons aimées",
+		"songCount": "{count, plural, one {# chanson} other {# chansons}}",
+		"title": "Chansons aimées"
+	},
+	"likedSongs": "Chansons aimées",
+	"list": {
+		"empty": {
+			"hint": "Démarrez votre serveur de bibliothèque, puis ouvrez le lien de configuration qu'il imprime dans son terminal pour l'appairer.",
+			"title": "Aucune bibliothèque pour l'instant."
+		},
+		"loading": "Chargement des bibliothèques…",
+		"newLibrary": "Nouvelle bibliothèque",
+		"sharedWithYou": "Partagé avec vous",
+		"title": "Vos bibliothèques"
+	},
+	"metadata": {
+		"intro": "Modifiez les métadonnées de cette bibliothèque uniquement. Vos modifications s'appliquent à toutes vos vues ; tout ce que vous laissez vide conserve la valeur d'origine. Les modifications du catalogue global sont en direct sur la page d'administration.",
+		"noMatches": "Aucun match.",
+		"searchPlaceholder": "Rechercher des artistes, des albums ou des morceaux…",
+		"title": "Métadonnées"
+	},
+	"new": {
+		"addFailed": "Échec de l'ajout de la bibliothèque",
+		"adding": "Ajout…",
+		"backLink": "Toutes les bibliothèques",
+		"browseFailed": "Échec de la navigation",
+		"folderLabel": "Dossier sur le serveur",
+		"nameLabel": "Nom de la bibliothèque",
+		"namePlaceholder": "Ma musique",
+		"noFolderChosen": "Aucun dossier choisi",
+		"noServer": "Aucun serveur couplé trouvé sur cet appareil. Démarrez votre serveur de bibliothèque et ouvrez d'abord le lien de configuration qu'il imprime pour le coupler.",
+		"noSubFolders": "Aucun sous-dossier ici",
+		"serverLabel": "{names} · {host}",
+		"serverSelectHint": "Cette nouvelle bibliothèque sera créée sur le serveur sélectionné.",
+		"serverSelectLabel": "Serveur de bibliothèque",
+		"submit": "Ajouter une bibliothèque",
+		"title": "Nouvelle bibliothèque"
+	},
+	"pin": {
+		"pin": "Épingle",
+		"unpin": "Désépingler"
+	},
+	"setup": {
+		"addFolderFailed": "Échec de l'ajout du dossier",
+		"addLibraries": {
+			"addFolder": "Ajouter un dossier",
+			"adding": "Ajout…",
+			"description": "Parcourez le système de fichiers du serveur de bibliothèque pour choisir où se trouve votre musique. Vous pouvez ajouter plus de dossiers ultérieurement à partir des paramètres.",
+			"finish": "Terminer la configuration",
+			"formTitle": "Ajouter un dossier",
+			"skip": "Passer pour l'instant",
+			"title": "Ajouter des dossiers de musique"
+		},
+		"browseErrorStatus": "Erreur de navigation : {status}",
+		"done": {
+			"addLater": "Vous pouvez ajouter des dossiers de musique à tout moment depuis {settingsLink}.",
+			"foldersAdded": "{count, plural, one {# dossier ajouté.} other {# dossiers ajoutés.}} L'analyse est en cours en arrière-plan - les pistes apparaîtront sous peu.",
+			"goToLibrary": "Aller à la bibliothèque",
+			"title": "Serveur de bibliothèque connecté !"
+		},
+		"hubRejectedToken": "Le Hub a rejeté le jeton de session. Essayez de vous déconnecter et de vous reconnecter, puis réessayez le couplage.",
+		"insideDataMusic": "À l'intérieur de {path} sur le serveur",
+		"listDirFailed": "Échec de la liste du répertoire",
+		"missingParams": "Paramètres de configuration manquants. Veuillez ouvrir le lien imprimé dans le terminal du serveur de bibliothèque.",
+		"noFolderSelected": "Aucun dossier sélectionné",
+		"noSubdirectories": "Aucun sous-répertoire ici",
+		"pair": {
+			"connect": "Se connecter",
+			"connecting": "Connexion…",
+			"description": "Cela reliera {url} à votre compte Chordia.",
+			"title": "Connecter le serveur de bibliothèque"
+		},
+		"pairingFailed": "Échec du couplage",
+		"sessionExpired": "Votre session a expiré - veuillez vous déconnecter et vous reconnecter, puis réessayer.",
+		"step": {
+			"addFolders": "Ajouter des dossiers",
+			"done": "Terminé",
+			"pair": "Paire"
+		}
+	},
+	"share": {
+		"dialogLabel": "Partager \"{name}\"",
+		"failed": "Échec du partage",
+		"filterFriends": "Filtrer les amis…",
+		"findPeople": "Trouver des personnes",
+		"friendLabel": "Ami",
+		"noFriends": "Vous n'avez pas encore d'amis avec qui partager.",
+		"permission": "Autorisation",
+		"permissionStreamDownload": "Flux + téléchargement",
+		"permissionStreamOnly": "Flux uniquement",
+		"selectFriend": "Sélectionnez un ami…",
+		"sharing": "Partage…",
+		"submit": "Partager la bibliothèque",
+		"success": "Bibliothèque partagée avec succès.",
+		"title": "Partager \"{name}\""
+	},
+	"sidebar": {
+		"pinned": "Épinglé",
+		"playlists": "Listes de lecture",
+		"yourLibrary": "Votre bibliothèque"
+	},
+	"trackCount": "{count, plural, one {# piste} other {# pistes}}",
+	"shareManager": {
+		"title": "Amis et partage",
+		"help": "Qui a accès à cette bibliothèque, qu'est-ce qu'ils en font et ce qu'ils sont autorisés à faire.",
+		"empty": "Pas encore partagé avec qui que ce soit. Ajoutez un ami ci-dessous pour lui donner accès.",
+		"addFriend": "Ajouter un ami",
+		"revoke": "Supprimer l'accès",
+		"canRequest": "Peut demander des téléchargements",
+		"directories": "Bibliothèques :",
+		"thisLibrary": "Cette bibliothèque",
+		"grantAccess": "Donner accès à {name}",
+		"removeAccess": "Supprimer l'accès à {name}",
+		"streamingNow": "En streaming maintenant : {title} — {artist}",
+		"statsLine": "{requests} demandé · {downloads} téléchargé · {plays} écoutes · {time} écouté",
+		"lastPlayed": "dernière lecture {date}",
+		"updateFailed": "Impossible de mettre à jour le partage : réessayez.",
+		"timeDaysHours": "{days}d {hours}h",
+		"timeHoursMinutes": "{hours}h {minutes}m",
+		"timeMinutes": "{minutes}m"
+	}
+}

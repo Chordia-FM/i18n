@@ -1,0 +1,103 @@
+{
+	"audit": {
+		"createdAt": "{date}",
+		"empty": "No actions aún.",
+		"title": "Registro de auditoría"
+	},
+	"editCatalog": {
+		"title": "Editar catalog metadata"
+	},
+	"enrichment": {
+		"description": "Re-fetch ilustración, artista images, bios, release dates y genres para everything en tu bibliotecas. Useful after adding Last.fm / fanart.tv API keys. Runs en el background y is rate-limited, so un large biblioteca fills en gradually.",
+		"nothingToRefresh": "Nothing a refresh aún.",
+		"refetch": "Volver a obtener metadatos",
+		"refetching": "{count, plural, one {Re-fetching # item in the background…} other {Re-fetching # items in the background…}}",
+		"startFailed": "Error a start.",
+		"starting": "Iniciando…",
+		"title": "Enriquecimiento de metadatos"
+	},
+	"metadata": {
+		"artistSubtitle": "{albumCount, plural, one {# album} other {# albums}} · {trackCount, plural, one {# track} other {# tracks}}",
+		"artworkAlt": "Ilustración",
+		"artworkLoadError": "No se pudo load ilustración — try de nuevo.",
+		"bannerLabel": "banner",
+		"browseArtwork": "Browse ilustración (icon + banner)",
+		"browseCovers": "Explorar portadas",
+		"browseLogos": "Explorar logotipos (fanart.tv)",
+		"currentArtistHint": "Currently {name}. Buscar a re-attribute a un different artista.",
+		"editAlbumTitle": "Editar álbum (global)",
+		"editArtistTitle": "Editar artista (global)",
+		"editLabelTitle": "Editar label (global)",
+		"editTrackTitle": "Editar pista (global)",
+		"fields": {
+			"bio": "Biografía",
+			"defunct": "Inactivo (en blanco = activo)",
+			"founded": "Fundado",
+			"genres": "Géneros (comma-separated)"
+		},
+		"findArtistPlaceholder": "Buscar artista…",
+		"imageFetchFailed": "No se pudo fetch ese imagen.",
+		"imageUploadFailed": "Imagen subir falló.",
+		"intro": "Editar el compartido catalog ese todos sees — rename un artista, álbum o pista, replace its ilustración, o re-attribute un release a un different artista. These changes are global y permanent (unlike per-biblioteca edits). Every cambiar is recorded en el audit log.",
+		"labelLoadError": "No se pudo load el label.",
+		"labelSubtitle": "{count, plural, one {# album} other {# albums}}",
+		"loadError": "No se pudo load el actual metadata.",
+		"logoAlt": "Logotipo",
+		"logoUploadFailed": "Logo subir falló.",
+		"noAlbumCovers": "No covers found — el álbum needs un MusicBrainz match.",
+		"noArtistArtwork": "No online ilustración found — needs un fanart.tv key + un MusicBrainz match.",
+		"noArtistsFound": "No se encontraron artistas.",
+		"noLogos": "No logos found — needs un fanart.tv key + un MusicBrainz match.",
+		"noMatches": "No hay coincidencias.",
+		"reattributeTo": "Re-attribute a {name}",
+		"searchPlaceholder": "Buscar artistas, álbumes, o pistas…",
+		"uploadBanner": "Subir banner",
+		"uploadCover": "Subir portada",
+		"uploadIcon": "Subir icon",
+		"uploadLogo": "Subir logo",
+		"useThisArt": "Usar este {kind}",
+		"useThisLogo": "Usar este logo"
+	},
+	"noAccess": {
+		"backToApp": "Volver a el app",
+		"body": "Tú no have acceso a site administration. {link}.",
+		"title": "Administración"
+	},
+	"reports": {
+		"createdAt": "{date}",
+		"dismiss": "Descartar",
+		"empty": "No hay informes abiertos.",
+		"resolve": "Resolver",
+		"title": "Informes",
+		"titleWithCount": "{count, plural, one {Reports (# open)} other {Reports (# open)}}"
+	},
+	"suggestions": {
+		"approve": "Aprobar",
+		"current": "Actual",
+		"deny": "Rechazar",
+		"empty": "No hay sugerencias pendientes.",
+		"field": {
+			"banner": "Banner",
+			"bio": "Biografía",
+			"genres": "Géneros",
+			"image": "Imagen",
+			"name": "Nombre"
+		},
+		"none": "Ninguno",
+		"suggested": "Sugerido",
+		"title": "Sugerencias de metadatos",
+		"titleWithCount": "{count, plural, one {Metadata suggestions (# pending)} other {Metadata suggestions (# pending)}}"
+	},
+	"title": "Administración del sitio",
+	"users": {
+		"deleteConfirm": "Permanently eliminar @{handle} y ALL su datos? Este no se puede be undone.",
+		"deleteTitle": "Eliminar usuario",
+		"searchPlaceholder": "Buscar handle, correo, o nombre…",
+		"suspend": "Suspender",
+		"suspendConfirm": "Suspend @{handle}? They'll be signed out y unable a log en.",
+		"suspendTitle": "Suspend usuario",
+		"suspendedBadge": "suspendido",
+		"title": "Usuarios",
+		"unsuspend": "Reactivar"
+	}
+}

@@ -1,0 +1,107 @@
+{
+	"account": {
+		"emailChangeFailed": "E-Mail-Änderung konnte nicht gestartet werden."
+	},
+	"admin": {
+		"deleteSelf": "Verwenden Sie die Kontoeinstellungen, um Ihr eigenes Konto zu löschen.",
+		"invalidReportAction": "Die Klage muss „erledigt“ oder „abgewiesen“ werden."
+	},
+	"auth": {
+		"badCredentials": "Falsche E-Mail-Adresse oder falsches Passwort.",
+		"displayNameLength": "Der Anzeigename muss 1–64 Zeichen lang sein.",
+		"emailInUse": "Diese E-Mail wird bereits verwendet.",
+		"emailInvalid": "Eine gültige E-Mail-Adresse ist erforderlich.",
+		"handleChars": "Der Benutzername darf nur Buchstaben, Ziffern, „_“ und „-“ enthalten und muss mit einem Buchstaben oder einer Ziffer beginnen.",
+		"handleLength": "Der Benutzername muss 2–32 Zeichen lang sein.",
+		"passwordLength": "Passwort muss sein{min}–{max}Charaktere.",
+		"passwordRange": "Das Passwort muss 8–1024 Zeichen lang sein.",
+		"twoFactorAlreadyEnabled": "Die Zwei-Faktor-Authentifizierung ist bereits aktiviert – deaktivieren Sie sie zuerst.",
+		"twoFactorNotEnabled": "Die Zwei-Faktor-Authentifizierung ist nicht aktiviert.",
+		"twoFactorStartFirst": "Starten Sie zunächst die Zwei-Faktor-Einrichtung."
+	},
+	"catalog": {
+		"albumLoadFailed": "Laden fehlgeschlagen",
+		"artistLoadFailed": "Laden fehlgeschlagen",
+		"artistNameTaken": "Ein anderer Künstler trägt bereits diesen Namen.",
+		"labelLoadFailed": "Dieses Etikett konnte nicht geladen werden",
+		"unknownArtist": "Unbekannter Künstler.",
+		"unknownImageHash": "Unbekanntes Bild."
+	},
+	"changeFailed": "Diese Änderung konnte nicht gespeichert werden. Bitte versuchen Sie es erneut.",
+	"directory": {
+		"serverOffline": "Dieser Server ist offline."
+	},
+	"discovery": {
+		"dailyMixFailed": "Diese Mischung konnte nicht erstellt werden",
+		"radioFailed": "Dieses Radio konnte nicht gebaut werden"
+	},
+	"failedToLoad": "Laden fehlgeschlagen",
+	"friends": {
+		"cannotFriendSelf": "Du kannst keine Freundschaftsanfrage an dich selbst senden."
+	},
+	"generic": "Fehlgeschlagen",
+	"image": {
+		"empty": "Das Bild ist leer.",
+		"fetchFailed": "Das Bild konnte nicht abgerufen werden.",
+		"hashMismatch": "Der Bildinhalt stimmte nicht mit dem erwarteten Hash überein.",
+		"invalidUrl": "Ungültige Bild-URL.",
+		"tooLarge": "Das Bild ist zu groß (maximal 8 MiB)."
+	},
+	"insights": {
+		"compareSelf": "Du kannst dich nicht mit dir selbst vergleichen.",
+		"compatibilityNotFound": "Kein Benutzer mit diesem Handle.",
+		"compatibilityPrivate": "Die Höraktivität dieses Benutzers ist privat.",
+		"invalidTimezone": "Unbekannte Zeitzone „{timezone}“.",
+		"loadFriendActivityFailed": "Die Freundesaktivität konnte nicht geladen werden",
+		"loadHistoryFailed": "Der Verlauf konnte nicht geladen werden",
+		"loadStatsFailed": "Statistiken konnten nicht geladen werden",
+		"milestoneRange": "Wählen Sie eine Spielzahl von 1 oder mehr.",
+		"pagingPair": "before_ms und before_id müssen zusammen bereitgestellt werden."
+	},
+	"label": {
+		"nameTaken": "Ein anderes Label trägt bereits diesen Namen."
+	},
+	"library": {
+		"limitReached": "Das Bibliothekslimit für dieses Konto wurde erreicht."
+	},
+	"lyrics": {
+		"noLines": "Es sind keine Textzeilen zum Speichern vorhanden."
+	},
+	"moderation": {
+		"blockSelf": "Du kannst dich nicht selbst blockieren.",
+		"reasonRequired": "Ein Grund (≤200 Zeichen) ist erforderlich."
+	},
+	"noFields": "Keine Felder zum Aktualisieren.",
+	"oauth": {
+		"missingCode": "Fehlender Autorisierungscode."
+	},
+	"pins": {
+		"unknownKind": "Unbekannter Pin-Typ."
+	},
+	"playlist": {
+		"limitReached": "Das Playlist-Limit für dieses Konto wurde erreicht."
+	},
+	"route": {
+		"message": "Ein unerwarteter Fehler hat diese Seite unterbrochen. Sie können es noch einmal versuchen oder nach Hause zurückkehren.",
+		"title": "Etwas ist schief gelaufen"
+	},
+	"saveFailed": "Speichern fehlgeschlagen",
+	"share": {
+		"withSelf": "Du kannst nicht mit dir selbst teilen."
+	},
+	"twoFactor": {
+		"invalidCode": "Ungültiger Code.",
+		"setupFailed": "Das 2FA-Setup konnte nicht gestartet werden."
+	},
+	"user": {
+		"handleGenFailed": "Für dieses Discord-Konto konnte kein eindeutiges Handle generiert werden.",
+		"handleOrEmailTaken": "Dieses Handle oder diese E-Mail-Adresse ist bereits vergeben.",
+		"handleTaken": "Dieser Griff ist bereits vergeben.",
+		"notFound": "Kein Benutzer mit diesem Handle."
+	},
+	"validation": {
+		"nameOrIconRequired": "Ein Name oder ein Symbol ist erforderlich.",
+		"nameRequired": "Name ist erforderlich."
+	},
+	"valueEmpty": "Der Wert darf nicht leer sein."
+}

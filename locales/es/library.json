@@ -1,0 +1,207 @@
+{
+	"artists": {
+		"empty": "No artistas aún - el catalog may still be syncing.",
+		"title": "Artistas"
+	},
+	"card": {
+		"editTitle": "Editar este biblioteca",
+		"moveDown": "Mover bajar (lower priority)",
+		"moveUp": "Mover subir (higher priority)",
+		"shareTitle": "Compartir este biblioteca",
+		"trackCount": "{count, plural, one {# track} other {# tracks}}"
+	},
+	"edit": {
+		"albumsLabel": "Álbumes",
+		"dedupeLabel": "De-duplicate - keep solo el highest-calidad copy cuando archivos land en el same place (otherwise ellos get (2), (3)… suffixes)",
+		"deleteConfirm": {
+			"confirmLabel": "Quitar",
+			"message": "Quitar este biblioteca? Tu archivos stay en disk; it's removed desde Chordia.",
+			"title": "Quitar biblioteca"
+		},
+		"deleteFailed": "Eliminar falló",
+		"fallbackToAlbums": "{template} (falls volver a Álbumes)",
+		"foldersHelp": "Untick un carpeta a keep it out de este biblioteca. Unticking un carpeta disables everything inside it.",
+		"foldersTitle": "Included carpetas",
+		"foldersUpdateFailed": "Error a update carpetas",
+		"foldersUpdated": "Carpetas updated - re-scanning…",
+		"iconLabel": "Icono",
+		"iconSaveFailed": "Error a guardar icon",
+		"iconSaved": "Icon guardado",
+		"nameSaved": "Nombre guardado",
+		"noSubFolders": "No sub-carpetas a manage.",
+		"organizeConfirm": {
+			"confirmLabel": "Continuar",
+			"messageDedupe": "Este moves archivos en disk en el nuevo layout y deletes lower-calidad duplicates. Continue?",
+			"messagePlain": "Este moves archivos en disk en el nuevo layout. Tu audio no está altered, solo relocated. Continue?",
+			"title": "Organize archivos"
+		},
+		"organizeDisabled": "Organización desactivada",
+		"organizeFailed": "Error a update organize",
+		"organizeHelp": "Lay este library's audio archivos out en disk desde un template. Carpetas are created como needed y scanned automatically.",
+		"organizeStatus": "Organizing archivos…",
+		"organizeTitle": "Organize archivos",
+		"organizeToggle": "Organize este library's archivos",
+		"pairedDeviceFolders": "To edit carpetas, open este página en el dispositivo where tú paired este servidor.",
+		"pairedDeviceOrganize": "To cambiar este, open este página en el dispositivo where tú paired este servidor.",
+		"removeHelp": "Removes it desde Chordia. Tu audio archivos are no touched.",
+		"removeTitle": "Quitar biblioteca",
+		"renameFailed": "Cambiar nombre falló",
+		"rescanAll": "Rescan todos archivos",
+		"rescanFailed": "Rescan falló",
+		"rescanFull": "Reindexación completa",
+		"rescanFullProgress": "Full re-index en progress…",
+		"rescanProgress": "Volviendo a escanear…",
+		"rescanHelp": "Re-reads cada archivo desde disk (metadata, added/removed pistas). Full re-index also re-processes unchanged archivos. Usar it a apply changes gustar edition merging a un existing biblioteca.",
+		"rescanStatus": "Rescanning todos archivos…",
+		"rescanning": "Volviendo a escanear…",
+		"saveFolders": "Guardar carpetas",
+		"singlesLabel": "Singles (no álbum)",
+		"templateHelp": "Variables: {vars}. Vacío parts are skipped y el archivo extension is added automatically. {edition} is el deluxe/special qualifier (vacío para el standard edition, so it collapses), y {disc} solo appears para multi-disc álbumes. Pistas con no álbum usar el Singles template; archivos nosotros can't identify (no artista tag) usar el Unidentified one.",
+		"title": "Editar biblioteca",
+		"unknownLabel": "Unidentified pistas"
+	},
+	"downloads": {
+		"clearConfirm": {
+			"message": "Quitar todos descargado canciones desde este dispositivo?",
+			"title": "Borrar downloads"
+		},
+		"clearError": "No se pudo borrar downloads",
+		"emptyState": "Canciones tú descargar reproducción without un connection. Usar el Descargar action en any pista a guardar it aquí.",
+		"eyebrow": "Disponible offline",
+		"navLabel": "Descargas",
+		"removeError": "No se pudo quitar descargar",
+		"removeTooltip": "Quitar descargar",
+		"songCount": "{count, plural, one {# song} other {# songs}}",
+		"storedOnDevice": "stored en este dispositivo",
+		"title": "Descargas"
+	},
+	"hidden": {
+		"hide": "Ocultar este canción",
+		"unhide": "Mostrar"
+	},
+	"liked": {
+		"empty": "Canciones tú gustar will mostrar subir aquí. Tap el heart en any pista.",
+		"eyebrow": "Lista",
+		"remove": "Quitar desde Canciones que te gustan",
+		"save": "Guardar a Canciones que te gustan",
+		"songCount": "{count, plural, one {# song} other {# songs}}",
+		"title": "Canciones que te gustan"
+	},
+	"likedSongs": "Canciones que te gustan",
+	"list": {
+		"empty": {
+			"hint": "Start tu biblioteca servidor, then open el setup link it prints en its terminal a pair.",
+			"title": "No bibliotecas aún."
+		},
+		"loading": "Cargando bibliotecas…",
+		"newLibrary": "Nueva biblioteca",
+		"sharedWithYou": "Compartido con tú",
+		"title": "Tus bibliotecas"
+	},
+	"metadata": {
+		"intro": "Editar metadatos para este biblioteca solo. Tu changes apply across tu views; anything tú salir blank keeps el original value. Global catalog edits en vivo en el admin página.",
+		"noMatches": "No hay coincidencias.",
+		"searchPlaceholder": "Buscar artistas, álbumes, o pistas…",
+		"title": "Metadatos"
+	},
+	"new": {
+		"addFailed": "Error a añadir biblioteca",
+		"adding": "Añadiendo…",
+		"backLink": "Todos bibliotecas",
+		"browseFailed": "Browse falló",
+		"folderLabel": "Carpeta en el servidor",
+		"nameLabel": "Biblioteca nombre",
+		"namePlaceholder": "Mi Música",
+		"noFolderChosen": "No carpeta chosen",
+		"noServer": "No paired servidor found en este dispositivo. Start tu biblioteca servidor y open el setup link it prints a pair primero.",
+		"noSubFolders": "No sub-carpetas aquí",
+		"serverLabel": "{names} · {host}",
+		"serverSelectHint": "Este nuevo biblioteca will be created en el selected servidor.",
+		"serverSelectLabel": "Biblioteca servidor",
+		"submit": "Añadir biblioteca",
+		"title": "Nueva biblioteca"
+	},
+	"pin": {
+		"pin": "Fijar",
+		"unpin": "Desfijar"
+	},
+	"setup": {
+		"addFolderFailed": "Error a añadir carpeta",
+		"addLibraries": {
+			"addFolder": "Añadir carpeta",
+			"adding": "Añadiendo…",
+			"description": "Browse el biblioteca server's filesystem a pick where tu música lives. Tú can añadir más carpetas later desde ajustes.",
+			"finish": "Finalizar configuración",
+			"formTitle": "Añadir un carpeta",
+			"skip": "Skip para ahora",
+			"title": "Añadir música carpetas"
+		},
+		"browseErrorStatus": "Error de exploración: {status}",
+		"done": {
+			"addLater": "Tú can añadir música carpetas anytime desde {settingsLink}.",
+			"foldersAdded": "{count, plural, one {# folder added.} other {# folders added.}} Scanning is running en el background - pistas will appear shortly.",
+			"goToLibrary": "Go a biblioteca",
+			"title": "Biblioteca servidor connected!"
+		},
+		"hubRejectedToken": "El Hub rejected el session token. Try logging out y volver en, then retry pairing.",
+		"insideDataMusic": "Inside {path} en el servidor",
+		"listDirFailed": "Error a lista directory",
+		"missingParams": "Faltante setup parameters. Please open el link printed en el biblioteca servidor terminal.",
+		"noFolderSelected": "No carpeta selected",
+		"noSubdirectories": "No subdirectories aquí",
+		"pair": {
+			"connect": "Conectar",
+			"connecting": "Conectando…",
+			"description": "Este will link {url} a tu Chordia cuenta.",
+			"title": "Conectar biblioteca servidor"
+		},
+		"pairingFailed": "Pairing falló",
+		"sessionExpired": "Tu session has expired - please log out y volver en, then retry.",
+		"step": {
+			"addFolders": "Añadir carpetas",
+			"done": "Listo",
+			"pair": "Emparejar"
+		}
+	},
+	"share": {
+		"dialogLabel": "Compartir \"{name}\"",
+		"failed": "Error a share",
+		"filterFriends": "Filter amigos…",
+		"findPeople": "Buscar people",
+		"friendLabel": "Amigo",
+		"noFriends": "Tú have no amigos a share con aún.",
+		"permission": "Permiso",
+		"permissionStreamDownload": "Stream + descargar",
+		"permissionStreamOnly": "Stream solo",
+		"selectFriend": "Select un amigo…",
+		"sharing": "Compartiendo…",
+		"submit": "Compartir biblioteca",
+		"success": "Biblioteca compartido successfully.",
+		"title": "Compartir \"{name}\""
+	},
+	"sidebar": {
+		"pinned": "Fijado",
+		"playlists": "Listas",
+		"yourLibrary": "Tu Biblioteca"
+	},
+	"trackCount": "{count, plural, one {# track} other {# tracks}}",
+	"shareManager": {
+		"title": "Amigos & sharing",
+		"help": "Who has acceso a este biblioteca, what they're doing con it, y what they're allowed a do.",
+		"empty": "Not compartido con anyone aún. Añadir un amigo below a give ellos acceso.",
+		"addFriend": "Añadir amigo",
+		"revoke": "Quitar acceso",
+		"canRequest": "Can solicitud downloads",
+		"directories": "Bibliotecas:",
+		"thisLibrary": "Este biblioteca",
+		"grantAccess": "Give acceso a {name}",
+		"removeAccess": "Quitar acceso a {name}",
+		"streamingNow": "Streaming ahora: {title} — {artist}",
+		"statsLine": "{requests} requested · {downloads} descargado · {plays} reproducciones · {time} listened",
+		"lastPlayed": "último reproducido {date}",
+		"updateFailed": "No se pudo update sharing — try de nuevo.",
+		"timeDaysHours": "{days}d {hours}h",
+		"timeHoursMinutes": "{hours}h {minutes}min",
+		"timeMinutes": "{minutes}m"
+	}
+}

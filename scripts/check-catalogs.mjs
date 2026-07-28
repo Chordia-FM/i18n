@@ -214,7 +214,11 @@ if (import.meta.url === pathToFileURL(process.argv[1]).href) {
 					);
 					errors++;
 				}
-				// Key parity says a catalog is "complete" while a fifth of its values are still English.
+				// Advisory, not an error: a healthy catalog still reports a few dozen. "Radio", "Bio",
+			// "Genres", "Album" and "Popular" really are the same word in several of these
+			// languages, and "new@example.com" is the same in all of them. Read a jump — 280 in a
+			// 1418-key catalog — as a translator that stopped early, not the baseline.
+			// Key parity says a catalog is "complete" while a fifth of its values are still English.
 				// A regional catalog is exempt: en-GB only overrides where British spelling differs, so
 				// matching en is the normal case there, not a gap.
 				if (!isRegional && value === source[ns][key] && prose(value).length >= 2) {

@@ -1,0 +1,59 @@
+{
+	"block": {
+		"confirmLabel": "Bloquear",
+		"confirmMessage": "Block @{handle}? Tú won't be able a añadir each other como amigos.",
+		"confirmTitle": "Bloquear usuario"
+	},
+	"discovery": {
+		"addFriend": "Añadir amigo",
+		"friendsStatus": "Amigos",
+		"requestSent": "Solicitud enviada",
+		"sending": "Enviando…"
+	},
+	"friends": {
+		"confirmRemove": "Confirmar?",
+		"empty": "No amigos aún - buscar a añadir some",
+		"heading": "Amigos ({count})",
+		"removing": "Eliminando…",
+		"title": "Amigos"
+	},
+	"modMenu": {
+		"blocked": "Bloqueado",
+		"report": "Denunciar",
+		"reported": "Denunciado"
+	},
+	"page": {
+		"title": "Amigos"
+	},
+	"profile": {
+		"eyebrow": "Perfil",
+		"itemPlays": "{count, plural, one {# play} other {# plays}}",
+		"joinedDate": "{date, date, ::yMMMM}",
+		"joinedLabel": "se unió {date}",
+		"loadError": "No se pudo load este perfil.",
+		"noActivity": "No escucha actividad aún.",
+		"notFound": "No usuario con ese handle.",
+		"private": {
+			"description": "{name} solo shares su escucha con amigos.",
+			"title": "Este perfil is privado"
+		},
+		"recentlyPlayed": "Reproducido recientemente",
+		"topArtists": "Artistas principales",
+		"topTracks": "Pistas principales",
+		"totalPlays": "{count, plural, one {# play} other {# plays}}",
+		"totalPlaysCount": "{count}"
+	},
+	"report": {
+		"promptMessage": "Denunciar @{handle} — what's el issue?"
+	},
+	"requests": {
+		"accept": "Aceptar",
+		"accepting": "Aceptando…",
+		"pendingHeading": "Solicitudes pendientes ({count})"
+	},
+	"search": {
+		"noResults": "No usuarios found.",
+		"placeholder": "Buscar por handle o display nombre…",
+		"searching": "Buscando…"
+	}
+}
