@@ -130,7 +130,7 @@
 	},
 	"entity": {
 		"alltime": "{count, plural, one {# play} other {# plays}} all-time",
-		"crumb": "Stats",
+		"crumb": "Statistics",
 		"eyebrow": {
 			"album": "Album stats",
 			"artist": "Artist stats",
