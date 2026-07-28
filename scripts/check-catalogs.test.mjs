@@ -7,7 +7,7 @@
 // Run: node scripts/check-catalogs.test.mjs
 
 import { strict as assert } from "node:assert";
-import { placeholders } from "./check-catalogs.mjs";
+import { pluralConstructs, placeholders } from "./check-catalogs.mjs";
 
 const cases = [
 	// Plain arguments.
@@ -63,3 +63,41 @@ if (failures) {
 	process.exit(1);
 }
 console.log(`${cases.length}/${cases.length} ICU extractor cases passed`);
+
+// Plural vs ordinal. English ordinals legitimately use two/few (2nd, 3rd) while English plurals
+// never do — checking one against the other's table rejects correct work, which it did.
+const constructCases = [
+	[
+		"{count, plural, one {# play} other {# plays}}",
+		[{ type: "plural", categories: ["one", "other"] }],
+	],
+	[
+		"{ordinal, selectordinal, one {#st play} two {#nd play} few {#rd play} other {#th play}}",
+		[{ type: "selectordinal", categories: ["one", "two", "few", "other"] }],
+	],
+	// `select` labels are ours, not CLDR's, so they must not be reported for validation at all.
+	["{person, select, them {a} other {b}}", []],
+	// Exact matches are legal in any language.
+	[
+		"{count, plural, =0 {none} one {# play} other {# plays}}",
+		[{ type: "plural", categories: ["=0", "one", "other"] }],
+	],
+	["no constructs here", []],
+];
+
+for (const [input, expected] of constructCases) {
+	const got = pluralConstructs(input).map((c) => ({
+		type: c.type,
+		categories: [...c.categories],
+	}));
+	try {
+		assert.deepEqual(got, expected);
+	} catch {
+		failures++;
+		console.error(`FAIL  ${input}
+  expected: ${JSON.stringify(expected)}
+  got:      ${JSON.stringify(got)}`);
+	}
+}
+if (failures) process.exit(1);
+console.log(`${constructCases.length}/${constructCases.length} plural-construct cases passed`);

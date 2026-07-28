@@ -113,11 +113,82 @@ export function placeholders(text) {
 	return found;
 }
 
-/** The plural/select categories a string declares, e.g. `one`, `other`, `=0`. */
-function categories(s) {
-	const found = new Set();
-	if (typeof s !== "string") return found;
-	for (const m of s.matchAll(/\b(zero|one|two|few|many|other)\s*\{/g)) found.add(m[1]);
+/**
+ * CLDR *ordinal* categories, which are a different set from the plural ones and easy to mistake
+ * for them. English ordinals need one/two/few/other — 1st, 2nd, 3rd, 4th — while English plurals
+ * need only one/other. Checking a `selectordinal` against the plural table rejects correct work.
+ */
+const ORDINAL_CATEGORIES = {
+	en: ["one", "two", "few", "other"],
+	es: ["other"],
+	fr: ["one", "other"],
+	de: ["other"],
+	pt: ["one", "other"],
+	it: ["many", "other"],
+	nl: ["other"],
+	ja: ["other"],
+	ko: ["other"],
+	zh: ["other"],
+	pl: ["other"],
+	ru: ["other"],
+	tr: ["other"],
+};
+
+/**
+ * Every plural/selectordinal construct in a message, as `{ type, categories }`.
+ *
+ * Parsed rather than pattern-matched for the same reason `placeholders` is: a regex cannot tell a
+ * category label from a word that happens to sit before a brace, and it cannot tell which kind of
+ * construct a label belongs to. `select` is deliberately excluded — its labels are arbitrary
+ * identifiers chosen by us (`them`, `other`), not a CLDR set to validate against.
+ */
+export function pluralConstructs(text) {
+	const found = [];
+	if (typeof text !== "string") return found;
+
+	function matchBrace(s, open) {
+		let depth = 0;
+		for (let i = open; i < s.length; i++) {
+			if (s[i] === "{") depth++;
+			else if (s[i] === "}" && --depth === 0) return i;
+		}
+		return -1;
+	}
+
+	function scanMessage(s) {
+		for (let i = 0; i < s.length; i++) {
+			if (s[i] !== "{") continue;
+			const end = matchBrace(s, i);
+			if (end < 0) return;
+			scanArgument(s.slice(i + 1, end));
+			i = end;
+		}
+	}
+
+	function scanArgument(inner) {
+		const comma = inner.indexOf(",");
+		if (comma < 0) return;
+		const rest = inner.slice(comma + 1).trim();
+		const m = /^([A-Za-z]+)\s*(?:,([\s\S]*))?$/.exec(rest);
+		if (!m) return;
+		const [, type, options = ""] = m;
+		if (!/^(plural|selectordinal|select)$/.test(type)) return;
+
+		const cats = new Set();
+		for (let i = 0; i < options.length; i++) {
+			if (options[i] !== "{") continue;
+			// The label is whatever precedes this brace, back to the previous body or the start.
+			const label = options.slice(0, i).match(/([A-Za-z0-9=]+)\s*$/)?.[1];
+			if (label) cats.add(label);
+			const end = matchBrace(options, i);
+			if (end < 0) break;
+			scanMessage(options.slice(i + 1, end));
+			i = end;
+		}
+		if (type !== "select") found.push({ type, categories: cats });
+	}
+
+	scanMessage(text);
 	return found;
 }
 
@@ -213,6 +284,18 @@ if (import.meta.url === pathToFileURL(process.argv[1]).href) {
 					problems.push(`${locale}/${ns}: ${key} has unbalanced braces`);
 					errors++;
 				}
+				// Zero-width characters are invisible in every editor and diff, so they survive
+				// review indefinitely — and one landed *inside* an ICU plural in Portuguese, where
+				// it breaks the parse. NBSP is deliberately not in this set: French typography
+				// requires it before : ; ! ? and it is correct there.
+				const invisible = value.match(/[​‌⁠﻿‎‏]/);
+				if (invisible) {
+					const point = invisible[0].codePointAt(0).toString(16).toUpperCase();
+					problems.push(
+						`${locale}/${ns}: ${key} contains an invisible character U+${point}`,
+					);
+					errors++;
+				}
 				// Machine translators often mask placeholders before translating and restore them
 				// after. When the restore step fails the mask survives into the catalog and renders
 				// literally — "[[[P7_0]]]d" where the user should see "3d". Worse than a dropped
@@ -245,14 +328,18 @@ if (import.meta.url === pathToFileURL(process.argv[1]).href) {
 				}
 				// A category outside the language's CLDR set never matches, so that branch is dead and
 				// the string falls through to `other` — silently, at runtime, only for some counts.
-				if (allowed) {
-					for (const c of categories(value)) {
-						if (!allowed.includes(c)) {
-							problems.push(
-								`${locale}/${ns}: ${key} uses plural category '${c}', not valid for '${base}' (${allowed.join(", ")})`,
-							);
-							errors++;
-						}
+				// Plural and ordinal have different category sets; `=0`-style exact matches are
+				// always legal in both.
+				for (const { type, categories } of pluralConstructs(value)) {
+					const valid =
+						type === "selectordinal" ? ORDINAL_CATEGORIES[base] : allowed;
+					if (!valid) continue;
+					for (const c of categories) {
+						if (c.startsWith("=") || valid.includes(c)) continue;
+						problems.push(
+							`${locale}/${ns}: ${key} uses ${type} category '${c}', not valid for '${base}' (${valid.join(", ")})`,
+						);
+						errors++;
 					}
 				}
 			}
