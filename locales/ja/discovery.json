@@ -1,0 +1,39 @@
+{
+	"dailyMix": {
+		"label": "デイリーミックス"
+	},
+	"greeting": {
+		"afternoon": "こんにちは",
+		"evening": "こんばんは",
+		"morning": "おはようございます"
+	},
+	"home": {
+		"emptyState": "まだ何もありません。ライブラリサーバーをペアリングすると、カタログが表示されます。"
+	},
+	"jumpBackIn": {
+		"emptyState": "最近再生したものがここに表示されます。",
+		"title": "続きから聴く"
+	},
+	"madeForYou": {
+		"emptyState": "もっと音楽を聴くと、デイリーミックスがここに表示されます。",
+		"title": "あなたのために"
+	},
+	"mix": {
+		"noTracksToast": "このミックスには再生できるトラックがまだありません",
+		"playTitle": "{title}を再生",
+		"playingToast": "{title}を再生中"
+	},
+	"radio": {
+		"label": "ラジオ",
+		"pin": "ラジオをピン留め"
+	},
+	"shelf": {
+		"jumpBackIn": "続きから聴く",
+		"madeFor": "{name}のために",
+		"madeForYou": "あなた",
+		"recommended": "あなたへのおすすめ",
+		"trendingAlbums": "話題のアルバム",
+		"trendingArtists": "話題のアーティスト",
+		"yourLibraries": "あなたのライブラリ"
+	}
+}

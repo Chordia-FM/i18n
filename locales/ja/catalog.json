@@ -1,0 +1,215 @@
+{
+	"actions": {
+		"editMetadata": "メタデータを編集"
+	},
+	"album": {
+		"card": {
+			"artistYearJoin": "{artist} · {year}"
+		},
+		"count": "{count, plural, other {#枚のアルバム}}",
+		"download": {
+			"albumTitle": "アルバムをダウンロード",
+			"busy": "ダウンロード中…",
+			"done": "ダウンロード済み",
+			"failed": "ダウンロードに失敗しました",
+			"removePartial": "{removed}件を削除、{failed}件失敗",
+			"removeTitle": "ダウンロードを削除",
+			"removed": "ダウンロードを削除しました",
+			"savedCount": "{count, plural, other {#曲をダウンロードしました}}",
+			"savedPartial": "{saved}曲をダウンロード、{failed}曲失敗"
+		},
+		"durationHrMin": "{count, plural, other {#時間}}{minutes}分",
+		"durationMin": "{minutes}分",
+		"genresJoin": "{genres}",
+		"releaseDate": "{date, date, long}",
+		"songCount": "{count, plural, other {#曲}}",
+		"typesJoin": "{types}"
+	},
+	"artist": {
+		"albums": "アルバム",
+		"appearsOn": "参加作品",
+		"born": "{year}年生まれ",
+		"card": {
+			"albumCount": "{count, plural, other {#枚のアルバム}}"
+		},
+		"discography": "ディスコグラフィー",
+		"factsJoin": "{facts}",
+		"formed": "{year}年結成",
+		"genresJoin": "{genres}",
+		"labelMetaJoin": "{span} · {releases}",
+		"labels": "レーベル",
+		"liveAlbum": {
+			"card": "すべてのライブ音源",
+			"label": "ライブコレクション",
+			"subtitle": "{count, plural, other {#枚のアルバムから}}",
+			"title": "{name} — ライブ"
+		},
+		"namesJoin": "{artists}",
+		"popular": "人気",
+		"radio": "ラジオ",
+		"relatedArtists": "関連アーティスト",
+		"relation": {
+			"alias": "別名",
+			"member": "メンバー / 所属グループ",
+			"related": "関連"
+		},
+		"releaseCount": "{count, plural, other {#件のリリース}}",
+		"versions": {
+			"instrumental": "インストゥルメンタル",
+			"live": "ライブ"
+		}
+	},
+	"artistNamesJoin": "{names}",
+	"edit": {
+		"artOptionAlt": "{kind}",
+		"artworkAlt": "アートワーク",
+		"bannerSet": "バナーを設定しました ✓",
+		"browseAlbumCovers": "アルバムカバーを探す",
+		"browseArtwork": "アートワークを探す（fanart.tv）",
+		"field": {
+			"album": "アルバム",
+			"artist": "アーティスト",
+			"bio": "経歴",
+			"discNo": "ディスク番号",
+			"genre": "ジャンル",
+			"genres": "ジャンル（カンマ区切り）",
+			"label": "レーベル",
+			"name": "名前",
+			"title": "タイトル",
+			"trackNo": "トラック番号",
+			"type": "種類",
+			"year": "年"
+		},
+		"helpText": "空欄のままにした項目は元の値を保持します。「グローバルに上書き」を有効にしない限り、変更はこのライブラリのみに保存されます。",
+		"noArtworkAlbum": "カバーが見つかりません。アルバムにMusicBrainzのマッチが必要です。",
+		"noArtworkArtist": "オンラインのアートワークが見つかりません。fanart.tvのAPIキーとMusicBrainzのマッチが必要です。",
+		"overrideGlobally": {
+			"help": "この編集をカタログ全体にも表示します（優先度が最も高いライブラリが優先されます）。元のデータや他のユーザーには影響しません。",
+			"label": "グローバルに上書き"
+		},
+		"reset": {
+			"confirmMessage": "元のメタデータにリセットしますか？この項目に対するあなたの編集が消去されます。",
+			"confirmTitle": "メタデータをリセット"
+		},
+		"resetToOriginal": "元に戻す",
+		"title": {
+			"album": "アルバムを編集",
+			"artist": "アーティストを編集",
+			"track": "トラックを編集"
+		},
+		"uploadBanner": "バナーをアップロード",
+		"uploadCover": "カバーをアップロード",
+		"uploadImage": "画像をアップロード",
+		"useThisArt": "この{kind}を使用"
+	},
+	"entity": {
+		"artist": "アーティスト"
+	},
+	"genres": {
+		"counts": "{albumsFormatted}{albums, plural, other {枚のアルバム}} · {artistsFormatted}{artists, plural, other {組のアーティスト}}",
+		"empty": "まだジャンルがありません。カタログの補完が進むと、アルバムのメタデータとともに表示されます。",
+		"eyebrow": "ジャンル",
+		"notFound": "このジャンルのアルバムはありません。",
+		"title": "ジャンル",
+		"topAlbums": "トップアルバム",
+		"topArtists": "トップアーティスト",
+		"variants": "関連タグ: {list}"
+	},
+	"label": {
+		"albumCount": "{count, plural, other {#枚のアルバム}}",
+		"albumCountWithPrefix": "レーベル · {count, plural, other {#枚のアルバム}}",
+		"eyebrow": "レーベル",
+		"factsSeparator": "種類 · 国 · 活動期間",
+		"formerNames": "{name1}、{name2}",
+		"formerly": "旧称: {names}",
+		"lifespan": {
+			"founded": "{year}年設立",
+			"range": "{from}〜{to}",
+			"until": "{year}年まで"
+		},
+		"noAlbums": "アルバムはありません。"
+	},
+	"labels": {
+		"empty": "まだレーベルがありません。MusicBrainzからのカタログ補完が進むと表示されます。",
+		"title": "レーベル"
+	},
+	"lyrics": {
+		"heading": "歌詞",
+		"placeholderPlain": "1行目\n2行目",
+		"placeholderSynced": "[00:00.00] 1行目\n[00:04.20] 2行目",
+		"plainHelp": "プレーンな歌詞。1行ずつ、タイミング情報はありません。",
+		"resetDone": "自動取得の歌詞にリセットしました",
+		"resetError": "歌詞をリセットできませんでした",
+		"resetToAuto": "自動取得に戻す",
+		"resetToAutoTitle": "この編集を破棄してプロバイダーから再取得します",
+		"save": "歌詞を保存",
+		"saveError": "歌詞を保存できませんでした",
+		"saved": "歌詞を保存しました",
+		"sharedNote": "すべてのライブラリで共有されます。",
+		"syncedHelp": "各行の先頭に [00:12.34] のようなタイムスタンプを付けます。タイムスタンプのない行は除外されます。",
+		"syncedLabel": "同期歌詞（LRC形式）"
+	},
+	"report": {
+		"action": "報告",
+		"allLibraries": "自分のすべてのライブラリ",
+		"bannerSet": "新しいバナーの準備ができました ✓",
+		"changeBanner": "バナーを変更",
+		"changeImage": "画像を変更",
+		"field": {
+			"bio": "経歴",
+			"genres": "ジャンル（カンマ区切り）",
+			"name": "名前",
+			"note": "レビュアーへのメモ（任意）"
+		},
+		"genresHint": "複数のジャンルはカンマで区切ってください。",
+		"helpText": "{name}の情報を編集します。自分のライブラリには即時に保存でき、全員向けの提案として送信することもできます（提案は管理者が確認します）。変更した項目のみ送信されます。",
+		"imageAlt": "アーティスト画像",
+		"libraryTarget": "保存先のライブラリを選択",
+		"noteHint": "提案の送信時のみ添付されます。参考リンクなど、レビュアーの助けになる情報をどうぞ。",
+		"saveFailed": "変更を保存できませんでした。",
+		"saveToLibrary": "ライブラリに保存",
+		"savedToAll": "すべてのライブラリに保存しました。",
+		"savedToLibrary": "{name}に保存しました。",
+		"submit": "提案を送信",
+		"submitFailed": "提案を送信できませんでした。",
+		"suggestionSent": "提案を送信しました。管理者が確認します。",
+		"title": "アーティスト情報を編集"
+	},
+	"search": {
+		"placeholder": "アーティスト、アルバム、曲"
+	},
+	"section": {
+		"albums": "アルバム",
+		"artists": "アーティスト",
+		"labels": "レーベル",
+		"songs": "曲",
+		"tracks": "トラック"
+	},
+	"songCount": "{count, plural, other {#曲}}",
+	"track": {
+		"clean": "クリーン",
+		"column": {
+			"album": "アルバム",
+			"dateAdded": "追加日",
+			"plays": "再生回数",
+			"title": "タイトル"
+		},
+		"download": {
+			"exists": "ダウンロード済み",
+			"removeAction": "ダウンロードを削除",
+			"removeError": "ダウンロードを削除できませんでした",
+			"removed": "ダウンロードを削除しました",
+			"savedNamed": "{title}をダウンロードしました"
+		},
+		"explicit": "露骨な表現",
+		"playAria": "{artist}の{title}を再生",
+		"playsNumber": "{n, number}",
+		"relTime": {
+			"daysAgo": "{count, plural, other {#日前}}",
+			"fullDate": "{date, date, medium}",
+			"today": "今日",
+			"yesterday": "昨日"
+		}
+	},
+	"trackCount": "{count, plural, other {#曲}}"
+}

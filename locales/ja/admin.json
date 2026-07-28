@@ -1,0 +1,103 @@
+{
+	"audit": {
+		"createdAt": "{date}",
+		"empty": "まだ操作はありません。",
+		"title": "監査ログ"
+	},
+	"editCatalog": {
+		"title": "カタログのメタデータを編集"
+	},
+	"enrichment": {
+		"description": "ライブラリ内のすべてのアートワーク、アーティスト画像、経歴、リリース日、ジャンルを再取得します。Last.fmやfanart.tvのAPIキーを追加した後に便利です。バックグラウンドでレート制限付きで実行されるため、大きなライブラリは徐々に埋まっていきます。",
+		"nothingToRefresh": "まだ更新するものがありません。",
+		"refetch": "メタデータを再取得",
+		"refetching": "{count, plural, other {バックグラウンドで#件を再取得中…}}",
+		"startFailed": "開始できませんでした。",
+		"starting": "開始中…",
+		"title": "メタデータの補完"
+	},
+	"metadata": {
+		"artistSubtitle": "{albumCount, plural, other {アルバム#枚}} · {trackCount, plural, other {#曲}}",
+		"artworkAlt": "アートワーク",
+		"artworkLoadError": "アートワークを読み込めませんでした。もう一度お試しください。",
+		"bannerLabel": "バナー",
+		"browseArtwork": "アートワークを探す（アイコン + バナー）",
+		"browseCovers": "カバーを探す",
+		"browseLogos": "ロゴを探す（fanart.tv）",
+		"currentArtistHint": "現在は{name}です。別のアーティストに帰属を変更するには検索してください。",
+		"editAlbumTitle": "アルバムを編集（グローバル）",
+		"editArtistTitle": "アーティストを編集（グローバル）",
+		"editLabelTitle": "レーベルを編集（グローバル）",
+		"editTrackTitle": "トラックを編集（グローバル）",
+		"fields": {
+			"bio": "経歴",
+			"defunct": "活動終了（空欄 = 活動中）",
+			"founded": "設立",
+			"genres": "ジャンル（カンマ区切り）"
+		},
+		"findArtistPlaceholder": "アーティストを検索…",
+		"imageFetchFailed": "その画像を取得できませんでした。",
+		"imageUploadFailed": "画像のアップロードに失敗しました。",
+		"intro": "全員に表示される共有カタログを編集します。アーティスト・アルバム・トラックの名前変更、アートワークの差し替え、リリースの別アーティストへの帰属変更ができます。これらの変更は（ライブラリ単位の編集と違い）グローバルかつ永続的です。すべての変更は監査ログに記録されます。",
+		"labelLoadError": "レーベルを読み込めませんでした。",
+		"labelSubtitle": "{count, plural, other {アルバム#枚}}",
+		"loadError": "現在のメタデータを読み込めませんでした。",
+		"logoAlt": "ロゴ",
+		"logoUploadFailed": "ロゴのアップロードに失敗しました。",
+		"noAlbumCovers": "カバーが見つかりません。アルバムにMusicBrainzのマッチが必要です。",
+		"noArtistArtwork": "オンラインのアートワークが見つかりません。fanart.tvのキーとMusicBrainzのマッチが必要です。",
+		"noArtistsFound": "アーティストが見つかりません。",
+		"noLogos": "ロゴが見つかりません。fanart.tvのキーとMusicBrainzのマッチが必要です。",
+		"noMatches": "一致する結果はありません。",
+		"reattributeTo": "{name}に帰属を変更",
+		"searchPlaceholder": "アーティスト、アルバム、トラックを検索…",
+		"uploadBanner": "バナーをアップロード",
+		"uploadCover": "カバーをアップロード",
+		"uploadIcon": "アイコンをアップロード",
+		"uploadLogo": "ロゴをアップロード",
+		"useThisArt": "この{kind}を使用",
+		"useThisLogo": "このロゴを使用"
+	},
+	"noAccess": {
+		"backToApp": "アプリに戻る",
+		"body": "サイト管理へのアクセス権がありません。{link}。",
+		"title": "管理"
+	},
+	"reports": {
+		"createdAt": "{date}",
+		"dismiss": "却下",
+		"empty": "未対応の報告はありません。",
+		"resolve": "解決",
+		"title": "報告",
+		"titleWithCount": "{count, plural, other {報告（#件未対応）}}"
+	},
+	"suggestions": {
+		"approve": "承認",
+		"current": "現在",
+		"deny": "却下",
+		"empty": "保留中の提案はありません。",
+		"field": {
+			"banner": "バナー",
+			"bio": "経歴",
+			"genres": "ジャンル",
+			"image": "画像",
+			"name": "名前"
+		},
+		"none": "なし",
+		"suggested": "提案",
+		"title": "メタデータの提案",
+		"titleWithCount": "{count, plural, other {メタデータの提案（#件保留中）}}"
+	},
+	"title": "サイト管理",
+	"users": {
+		"deleteConfirm": "@{handle}とそのすべてのデータを完全に削除しますか？この操作は取り消せません。",
+		"deleteTitle": "ユーザーを削除",
+		"searchPlaceholder": "ハンドル、メールアドレス、名前で検索…",
+		"suspend": "停止",
+		"suspendConfirm": "@{handle}を停止しますか？ログアウトされ、ログインできなくなります。",
+		"suspendTitle": "ユーザーを停止",
+		"suspendedBadge": "停止中",
+		"title": "ユーザー",
+		"unsuspend": "停止を解除"
+	}
+}

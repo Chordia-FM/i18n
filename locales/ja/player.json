@@ -1,0 +1,137 @@
+{
+	"controls": {
+		"fullscreen": "全画面表示",
+		"mute": "ミュート",
+		"next": "次へ",
+		"pause": "一時停止",
+		"play": "再生",
+		"previous": "前へ",
+		"repeat": "リピート",
+		"seek": "シーク",
+		"shuffle": "シャッフル",
+		"unmute": "ミュート解除",
+		"volume": "音量",
+		"volumeButton": "音量ボタン",
+		"volumeSlider": "音量スライダー"
+	},
+	"devices": {
+		"current": "現在の出力先",
+		"none": "再生デバイスが見つかりません。",
+		"pressPlay": "再生を押すとここで再生します",
+		"thisTab": "このタブ",
+		"title": "再生デバイス"
+	},
+	"eqPreset": {
+		"acoustic": "アコースティック",
+		"bassBoost": "低音ブースト",
+		"bassReducer": "低音カット",
+		"classical": "クラシック",
+		"electronic": "エレクトロニック",
+		"flat": "フラット",
+		"hipHop": "ヒップホップ",
+		"jazz": "ジャズ",
+		"loudness": "ラウドネス",
+		"pop": "ポップ",
+		"rock": "ロック",
+		"trebleBoost": "高音ブースト",
+		"trebleReducer": "高音カット",
+		"vocal": "ボーカル"
+	},
+	"equalizer": {
+		"bandFreq": "バンド{n}の周波数",
+		"bandWidth": "バンド{n}の幅（Q）",
+		"close": "イコライザーを閉じる",
+		"deletePreset": "{name}を削除",
+		"dragHint": "ノードをドラッグしてカーブを調整",
+		"dragHintParametric": " · 左右ドラッグで周波数 · スクロールで幅（Q）",
+		"enable": "イコライザーを有効化",
+		"freqDisplay": "{freq}Hz",
+		"graph": {
+			"ariaLabel": "イコライザーの応答。バンドのノードをドラッグして音を調整します",
+			"title": "イコライザー応答カーブ"
+		},
+		"parametric": "パラメトリック",
+		"preamp": "プリアンプ",
+		"preampDisplay": "{value} dB",
+		"presetCustom": "カスタム",
+		"presetSelect": "EQプリセット",
+		"presetsGroup": "プリセット",
+		"savePreset": "プリセットを保存",
+		"savePresetPlaceholder": "現在の設定をプリセットとして保存…",
+		"title": "イコライザー",
+		"yourPresetsGroup": "マイプリセット"
+	},
+	"fullscreen": {
+		"enter": "全画面表示",
+		"exit": "全画面表示を終了"
+	},
+	"lyrics": {
+		"loading": "歌詞を読み込み中…",
+		"none": "このトラックの歌詞はありません。",
+		"nothingPlaying": "再生中の曲はありません。",
+		"returnToCurrent": "現在の行に戻る",
+		"title": "歌詞"
+	},
+	"monthlyListeners": "{count, plural, other {月間リスナー#人}}",
+	"nowPlaying": {
+		"aboutArtist": "{name}について",
+		"albumFallback": "アルバム",
+		"playingFrom": "再生元",
+		"title": "再生中"
+	},
+	"notPlaying": "停止中",
+	"nothingPlaying": "まだ何も再生していません。",
+	"plays": "{count, plural, other {#回再生}}",
+	"queue": {
+		"add": "キューに追加",
+		"empty": "キューは空です。",
+		"nextUp": "次の曲",
+		"nothingPlayed": "まだ再生履歴はありません。",
+		"playNext": "次に再生",
+		"recentlyPlayed": "最近再生した曲",
+		"removeFromQueue": "キューから削除",
+		"repeatOne": "リピート（1曲）がオンです。この曲が繰り返し再生されます。",
+		"thenRepeating": "その後リピート",
+		"title": "キュー"
+	},
+	"quality": {
+		"change": "変更",
+		"dataPerHourGb": "約{value} GB/時",
+		"dataPerHourMb": "約{value} MB/時",
+		"khz": "{value} kHz",
+		"loudness": "ラウドネス",
+		"lossless": "ロスレス",
+		"lossy": "非可逆",
+		"originalSourceFile": "オリジナルのソースファイル",
+		"source": "ソース",
+		"spatial": " · 空間オーディオ",
+		"streaming": "ストリーミング",
+		"streamingRate": "約{kbps} kbps · {data}",
+		"title": "ファイル品質",
+		"upTo": "最大{value}"
+	},
+	"sleepTimer": {
+		"endOfTrack": "曲の終わりまで",
+		"minutes": "{count, plural, other {#分}}",
+		"oneHour": "1時間",
+		"title": "スリープタイマー",
+		"turnOff": "オフにする"
+	},
+	"visualizer": {
+		"autoCycle": "スタイルを自動切替",
+		"close": "ビジュアライザーを閉じる",
+		"nextStyle": "次のスタイル",
+		"nothingPlaying": "再生するとビジュアライザーが表示されます。",
+		"open": "ビジュアライザー",
+		"previousStyle": "前のスタイル",
+		"style": {
+			"bars": "スペクトラムバー",
+			"mirror": "ミラーウェーブ",
+			"particles": "パーティクルブルーム",
+			"radial": "ラジアルスペクトラム",
+			"scope": "オシロスコープ",
+			"spectrogram": "スペクトログラム"
+		},
+		"unavailable": "このソースではビジュアライザーを利用できません。"
+	}
+}

@@ -1,0 +1,163 @@
+{
+	"nav": "マネージャー",
+	"title": "ライブラリマネージャー",
+	"subtitle": "コレクションのカバー率を追跡し、足りないものを見つけましょう。",
+	"loadFailed": "カバー率を読み込めませんでした。",
+	"coverage": {
+		"albumLabel": "アルバムカバー率",
+		"artistLabel": "コンプリート済みアーティスト",
+		"ownedOfTotal": "全{total}リリース中{owned}件を所有",
+		"touched": "{count}組のアーティストを追跡中",
+		"complete": "{count}組がコンプリート",
+		"pending": "{count}組がディスコグラフィー待ち",
+		"fetching": "バックグラウンドでディスコグラフィーを取得中です。まもなくカバー率が埋まります。",
+		"empty": "まだカバー率がありません。ライブラリの同期とディスコグラフィーの取得が完了すると、ここに表示されます。"
+	},
+	"libraries": {
+		"title": "カバー率に含めるライブラリ",
+		"hint": "チェックを外したライブラリはカバー率の計算から除外されます。",
+		"includeShared": "共有されたライブラリを含める",
+		"owned": "所有",
+		"shared": "共有",
+		"counts": "曲: {tracks} · アルバム: {albums} · アーティスト: {artists}"
+	},
+	"artists": {
+		"title": "あなたのアーティスト",
+		"subtitle": "アーティストを開くと、足りないアルバムを確認できます。",
+		"empty": "まだアーティストがいません。ライブラリを同期して始めましょう。"
+	},
+	"artist": {
+		"complete": "{pct}%コンプリート",
+		"owned": "ライブラリに所有済み",
+		"missing": "未所有",
+		"missingCount": "{count}件未所有",
+		"noMissing": "このアーティストの既知のリリースはすべて所有しています。",
+		"noMbid": "このアーティストにはまだMusicBrainzのマッチがないため、カバー率を計算できません。",
+		"fetching": "ディスコグラフィーを取得中…",
+		"loadFailed": "このアーティストのカバー率を読み込めませんでした。",
+		"back": "マネージャーに戻る"
+	},
+	"album": {
+		"back": "マネージャーに戻る",
+		"coverage": "全{total}曲中{owned}曲",
+		"disc": "ディスク{n}",
+		"editionCount": "{count, plural, other {#種のエディション}}",
+		"remaster": "リマスター",
+		"owned": "所有済み",
+		"fetching": "トラックリストを取得中…",
+		"noTracks": "このアルバムのトラックリストはまだありません。",
+		"loadFailed": "このアルバムのトラックリストを読み込めませんでした。"
+	},
+	"tabs": {
+		"coverage": "カバー率",
+		"discover": "発見",
+		"follows": "フォロー中",
+		"downloads": "ダウンロード",
+		"settings": "設定"
+	},
+	"discover": {
+		"title": "発見",
+		"subtitle": "音楽全体から、まだ持っていないアーティストやアルバムを検索します。",
+		"placeholder": "アーティストやアルバムを検索…",
+		"hint": "2文字以上入力して検索してください。",
+		"searching": "検索中…",
+		"noResults": "一致する結果はありません。別のキーワードをお試しください。",
+		"artists": "アーティスト",
+		"releases": "リリース",
+		"owned": "所有済み",
+		"available": "未所有",
+		"allTypes": "すべて",
+		"type": {
+			"Album": "アルバム",
+			"EP": "EP",
+			"Single": "シングル",
+			"Broadcast": "セッション",
+			"Other": "その他"
+		},
+		"version": {
+			"instrumental": "インストゥルメンタル",
+			"live": "ライブ"
+		}
+	},
+	"follows": {
+		"title": "フォロー中",
+		"subtitle": "フォロー中のアーティスト。新しいリリースは自動的に未所有リストに表示されます。",
+		"empty": "まだ誰もフォローしていません。発見でアーティストを開いてフォローをタップしましょう。",
+		"unfollow": "フォロー解除",
+		"loadFailed": "フォロー一覧を読み込めませんでした。"
+	},
+	"follow": {
+		"follow": "フォロー",
+		"following": "フォロー中"
+	},
+	"download": {
+		"button": "ダウンロード",
+		"queued": "ダウンロードキューに追加しました",
+		"failed": "ダウンロードをキューに追加できませんでした",
+		"noLibrary": "ダウンロード対応のライブラリがまだありません。先にいずれかのライブラリでProwlarrとqBittorrentを設定してください。",
+		"chooseLibrary": "ダウンロード先…",
+		"notEnabled": "そのライブラリではダウンロードが有効になっていません。",
+		"ackTitle": "ダウンロードの前に",
+		"ackMessage": "Chordiaはインデクサーやトラッカーを同梱していません。ダウンロードはあなたが設定したProwlarrとqBittorrentを使用し、取得するものの適法性については、お住まいの法域においてあなたが責任を負います。",
+		"ackConfirm": "理解しました"
+	},
+	"queue": {
+		"title": "ダウンロード",
+		"subtitle": "あなたのダウンロードアクティビティ。",
+		"empty": "まだダウンロードはありません。未所有のアルバムでダウンロードを押して始めましょう。",
+		"cancel": "キャンセル",
+		"retry": "再試行",
+		"choose": "ソースを選択",
+		"pickHint": "どのリリースが正確なアルバムか判断できなかったため、正しいものを選んでください。",
+		"selectFailed": "そのソースを確定できませんでした。ジョブが先に進んだ可能性があります。更新してもう一度選んでください。",
+		"loadFailed": "ダウンロードを読み込めませんでした。",
+		"status": {
+			"queued": "キュー待ち",
+			"claimed": "開始中",
+			"searching": "検索中",
+			"grabbing": "取得中",
+			"downloading": "ダウンロード中",
+			"importing": "インポート中",
+			"completed": "完了",
+			"failed": "失敗",
+			"no_results": "ソースが見つかりません",
+			"cancelled": "キャンセル済み",
+			"awaiting_selection": "ソースを選択してください"
+		},
+		"requestedBy": "リクエスト: @{handle}",
+		"intoLibrary": "@{handle}のライブラリへ"
+	},
+	"settings": {
+		"title": "マネージャー設定",
+		"subtitle": "品質プロファイルとライブラリごとのダウンロード状態。",
+		"profiles": "品質プロファイル",
+		"profilesHint": "ダウンロードは常に、プロファイルで許可された形式の中から最良のソースを選びます。",
+		"default": "デフォルト",
+		"makeDefault": "デフォルトにする",
+		"preferSeeders": "シーダーの多いソースを優先",
+		"newProfile": "新しいプロファイル",
+		"name": "名前",
+		"formats": "許可する形式（優先順）",
+		"maxSize": "最大サイズ（MB、任意）",
+		"save": "保存",
+		"delete": "削除",
+		"created": "プロファイルを保存しました",
+		"saveFailed": "プロファイルを保存できませんでした",
+		"libraries": "ライブラリのダウンロード状態",
+		"librariesHint": "各ライブラリのchordia-library.tomlでProwlarrとqBittorrentを設定すると、ダウンロードが有効になります。",
+		"enabled": "ダウンロード有効",
+		"disabled": "ダウンロード無効",
+		"indexers": "インデクサー{count}件",
+		"destinationTitle": "ダウンロード先",
+		"destinationHelp": "新しいダウンロードリクエストの保存先です。フレンドからリクエスト権限をもらうと、フレンドのライブラリもここに表示されます。",
+		"destinationAsk": "毎回確認",
+		"destinationSaved": "デフォルトの保存先を保存しました。"
+	},
+	"upgrade": {
+		"check": "より高品質なソースを確認",
+		"queued": "アップグレード確認をキューに追加しました。ダウンロードタブをご覧ください。確実に上回るソースがあればダウンロードされ、なければジョブはそのまま終了します。",
+		"inProgress": "このアルバムのアップグレードまたはダウンロードは既に進行中です。",
+		"notIdentified": "このアルバムはまだMusicBrainzとマッチしていないため、確実に検索できる対象がありません。",
+		"failed": "アップグレード確認をキューに追加できませんでした。"
+	}
+}

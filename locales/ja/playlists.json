@@ -1,0 +1,105 @@
+{
+	"actions": {
+		"rename": "プレイリスト名を変更"
+	},
+	"addError": "プレイリストに追加できませんでした",
+	"addToNamed": "{playlist}に追加",
+	"addToPlaylist": "プレイリストに追加",
+	"addedToast": "{playlist}に追加しました",
+	"collaborators": {
+		"addError": "その共同編集者を追加できませんでした",
+		"collaborative": "共同編集",
+		"invite": "+ 招待",
+		"invitePrompt": "ハンドルで共同編集者を招待",
+		"invited": "@{handle}を招待しました",
+		"justYou": "あなたのみ",
+		"removeTitle": "{name}を削除",
+		"removed": "{name}を削除しました"
+	},
+	"confirm": {
+		"deleteMessage": "「{name}」を削除しますか？",
+		"deleteTitle": "プレイリストを削除"
+	},
+	"cover": {
+		"change": "画像を変更",
+		"remove": "画像を削除"
+	},
+	"delete": {
+		"confirmBody": "このプレイリストを削除しますか？",
+		"title": "プレイリストを削除"
+	},
+	"empty": "このプレイリストは空です。トラックの「⋯」メニューから曲を追加できます。",
+	"kindLabel": "プレイリスト",
+	"leave": {
+		"confirmBody": "この共同編集プレイリストから退出しますか？",
+		"confirmLabel": "退出",
+		"title": "プレイリストから退出"
+	},
+	"menuEmpty": "プレイリストがありません",
+	"new": "新しいプレイリスト",
+	"prompt": {
+		"newName": "プレイリスト名",
+		"rename": "プレイリスト名を変更"
+	},
+	"removeFromPlaylist": "プレイリストから削除",
+	"sharedWithYou": " · あなたと共有中",
+	"smart": {
+		"addRule": "ルールを追加",
+		"autoUpdating": " · 自動更新",
+		"bool": {
+			"false": "いいえ",
+			"true": "はい"
+		},
+		"created": "スマートプレイリストを作成しました",
+		"delete": {
+			"confirmBody": "このスマートプレイリストを削除しますか？",
+			"title": "スマートプレイリストを削除"
+		},
+		"description": "ルールに一致するトラックが自動的に反映されます。",
+		"editRules": "ルールを編集",
+		"editTitle": "スマートプレイリストを編集",
+		"empty": "これらのルールに一致するトラックはまだありません。「ルールを編集」で条件を緩めてみてください。",
+		"field": {
+			"album": "アルバム",
+			"artist": "アーティスト",
+			"genre": "ジャンル",
+			"liked": "お気に入り",
+			"plays": "再生回数",
+			"title": "タイトル",
+			"year": "年"
+		},
+		"kindLabel": "スマートプレイリスト",
+		"limit": "上限",
+		"match": "以下のルールの",
+		"matchMode": {
+			"all": "すべて",
+			"any": "いずれか"
+		},
+		"namePlaceholder": "プレイリスト名",
+		"new": "新しいスマートプレイリスト",
+		"newTitle": "新しいスマートプレイリスト",
+		"ofTheseRules": "に一致:",
+		"op": {
+			"contains": "含む",
+			"equals": "等しい",
+			"is": "一致"
+		},
+		"removeRule": "ルールを削除",
+		"saveError": "スマートプレイリストを保存できませんでした",
+		"sort": {
+			"plays": "再生回数",
+			"random": "ランダム",
+			"title": "タイトル"
+		},
+		"sortBy": "並べ替え",
+		"updated": "スマートプレイリストを更新しました",
+		"valuePlaceholder": "値"
+	},
+	"songCount": "{count, plural, other {#曲}}",
+	"toast": {
+		"createFailed": "プレイリストを作成できませんでした",
+		"created": "「{name}」を作成しました",
+		"deleteFailed": "プレイリストを削除できませんでした",
+		"deleted": "「{name}」を削除しました"
+	}
+}

@@ -1,0 +1,402 @@
+{
+	"chart": {
+		"activity": {
+			"ariaLabel": "期間ごとのリスニングアクティビティ"
+		},
+		"dayLabel": "{date, date, ::MMMd}",
+		"hourLabel": "{date, time, ::j}",
+		"monthLabel": "{date, date, ::yMMM}",
+		"noActivityPeriod": "この期間のアクティビティはありません",
+		"noActivityYet": "まだアクティビティはありません",
+		"peak": "ピーク: {count, plural, other {#回再生}} · {date}",
+		"plays": "{count, plural, other {#回再生}}"
+	},
+	"charts": {
+		"down": "{count, plural, other {#ランクダウン}}",
+		"empty": {
+			"body": "{person, select, them {リスニングを始めると、その人のライブラリのランキングがここに表示されます。} other {再生を重ねると、あなたのライブラリのランキングがここに表示されます。}}",
+			"title": "まだチャートがありません"
+		},
+		"held": "順位をキープ",
+		"new": "初登場",
+		"next": "次へ",
+		"previous": "前へ",
+		"showing": "{total}件中 {from}–{to}件",
+		"up": "{count, plural, other {#ランクアップ}}"
+	},
+	"clock": {
+		"ariaLabel": "時間帯別のリスニングアクティビティ",
+		"peak": "最も活発な時間: {hour} · {count, plural, other {#回再生}}"
+	},
+	"clockGrid": {
+		"ariaLabel": "{timezone}での曜日・時間帯別リスニングアクティビティ",
+		"busiest": "最も活発: {day} · {hour}",
+		"cellLabel": "{day} · {hour}"
+	},
+	"compatibility": {
+		"compare": "比較",
+		"handlePlaceholder": "フレンドのハンドル",
+		"percent": "{pct}%",
+		"sharedArtists": "共通のお気に入りアーティスト",
+		"title": "音楽の相性",
+		"youAnd": "あなたと{name}"
+	},
+	"decades": {
+		"ariaLabel": "アルバムのリリース年代別の再生数",
+		"empty": "年代別チャートにはリリース日の情報がまだ足りません",
+		"headline": "再生の{pct}が{decade}年代の作品です",
+		"label": "{decade}年代",
+		"tipLabel": "{decade}年代 · 再生の{pct}",
+		"undated": "再生の{pct}はリリース日が不明なため、ここには表示されません"
+	},
+	"delta": {
+		"downAria": "前の期間より{pct}減少",
+		"flat": "0%",
+		"flatAria": "前の期間から変化なし",
+		"new": "新規",
+		"newAria": "前の期間に比較対象がありません",
+		"upAria": "前の期間より{pct}増加"
+	},
+	"discovery": {
+		"empty": {
+			"body": "{person, select, them {リスニングに応じて、その人の発見の統計がここに蓄積されます。} other {音楽を再生すると、あなたの発見の統計がここに蓄積されます。}}",
+			"title": "まだ発見がありません"
+		},
+		"kinds": {
+			"album": "アルバム",
+			"artist": "アーティスト",
+			"track": "トラック"
+		},
+		"mix": {
+			"headline": "の再生が初めて聴くトラックでした",
+			"meterAriaLabel": "初再生トラックの割合",
+			"new": "初再生 · {pct}",
+			"repeats": "リピート · {pct}",
+			"title": "新しい曲とおなじみの曲"
+		},
+		"movers": {
+			"climbedBy": "{count, plural, other {#ランクアップ}}",
+			"climbers": "上昇",
+			"empty": {
+				"body": "チャートの変動は、この期間とその直前の期間を比較します。両方に再生があると表示されます。",
+				"title": "まだ比較できません"
+			},
+			"fallers": "下降",
+			"fellBy": "{count, plural, other {#ランクダウン}}",
+			"needsWindow": "チャートの変動は期間同士を比較します。短めの期間を選ぶと表示されます。",
+			"new": "初登場",
+			"newcomers": "新登場",
+			"none": "この期間の変動はありません。",
+			"reentry": "チャートに復帰",
+			"title": "チャートの動き",
+			"vsPrevious": {
+				"day": "前の24時間比",
+				"halfYear": "前の6か月比",
+				"month": "前の30日比",
+				"quarter": "前の3か月比",
+				"week": "前の7日比",
+				"year": "前の12か月比"
+			},
+			"wasRank": "前回は{rank, number}位"
+		},
+		"tiles": {
+			"newAlbums": "新しいアルバム",
+			"newArtists": "新しいアーティスト",
+			"newTracks": "新しいトラック",
+			"ofPlayed": "再生した{count, number}件中"
+		},
+		"topNewArtists": "発見したアーティスト"
+	},
+	"duration": {
+		"days": "{days}日",
+		"daysHours": "{days}日{hours}時間",
+		"hoursMinutes": "{hours}時間{minutes}分",
+		"minutes": "{minutes}分",
+		"seconds": "{seconds}秒"
+	},
+	"empty": {
+		"history": {
+			"body": "{person, select, them {その人が再生したトラックがここに表示されます。} other {あなたが再生したトラックがここに表示されます。}}",
+			"title": "まだ履歴がありません"
+		},
+		"overview": {
+			"body": "{person, select, them {リスニングを始めると、その人の統計がここに表示されます。} other {リスニングを始めると、あなたの統計がここに表示されます。}}",
+			"title": "まだ何もありません"
+		},
+		"social": {
+			"body": "フレンドが音楽を聴く（そしてアクティビティを共有する）と、ここに表示されます。",
+			"title": "まだ静かです"
+		}
+	},
+	"entity": {
+		"alltime": "{count, plural, other {通算#回再生}}",
+		"crumb": "統計",
+		"eyebrow": {
+			"album": "アルバムの統計",
+			"artist": "アーティストの統計",
+			"track": "トラックの統計"
+		},
+		"listened": "再生時間 {time}",
+		"never": {
+			"album": "このアルバムを再生すると、リスニング統計がここに蓄積されます。",
+			"artist": "このアーティストの曲を再生すると、リスニング統計がここに蓄積されます。",
+			"hub": "{count, plural, other {このハブ全体でこれまでに#回再生されています。}}",
+			"showEveryone": "全員の統計を表示",
+			"title": "まだ再生がありません",
+			"track": "このトラックを再生すると、リスニング統計がここに蓄積されます。"
+		},
+		"quiet": {
+			"cta": "全期間を表示",
+			"lastPlayed": "最後に再生したのは{ago}です。",
+			"title": "この期間の再生はありません"
+		},
+		"scope": {
+			"global": "全員",
+			"me": "あなた"
+		},
+		"share": {
+			"caption": "全員の{total, plural, other {#回の再生}}のうち{pct}"
+		},
+		"since": "{date}から",
+		"tiles": {
+			"activeDays": "{count, plural, other {#日にわたって}}",
+			"activeMonths": "{count, plural, other {#か月にわたって}}",
+			"perPlay": "1回あたり約{duration}",
+			"rank": "ランク",
+			"rankOf": {
+				"album": "再生した{total, plural, other {#枚のアルバム}}中",
+				"artist": "再生した{total, plural, other {#組のアーティスト}}中",
+				"track": "再生した{total, plural, other {#曲}}中"
+			},
+			"rankValue": "{rank, number}位"
+		},
+		"title": "リスニング統計",
+		"top": {
+			"albums": "あなたのトップアルバム",
+			"tracks": "あなたのトップトラック",
+			"unplayed": "{count, plural, other {このアルバムの#曲はこの期間に再生されませんでした}}"
+		},
+		"window": {
+			"everything": "記録上のすべての再生"
+		}
+	},
+	"fingerprint": {
+		"ariaLabel": "5つの指標によるリスニングの特徴",
+		"average": "ハブ平均",
+		"axes": {
+			"concentration": "集中度",
+			"consistency": "一貫性",
+			"discovery": "発見",
+			"replay": "リピート",
+			"variance": "変動"
+		},
+		"axisWithAverage": "{axis} · ハブ平均{pct}",
+		"you": "あなた"
+	},
+	"genreFlow": {
+		"ariaLabel": "期間ごとのジャンル別リスニング比率",
+		"empty": "この期間のジャンルデータはまだありません",
+		"other": "その他",
+		"otherCount": "その他 · {count, plural, other {#ジャンル}}"
+	},
+	"heatmap": {
+		"ariaLabel": "日別リスニングヒートマップ",
+		"dayLabel": "{date, date, ::EEEMMMd}",
+		"less": "少",
+		"more": "多",
+		"scaleAriaLabel": "アクティビティ強度の目盛り（少ないほうから多いほうへ）",
+		"summary": "{days, plural, other {アクティブ#日}}で{count, plural, other {#回再生}}"
+	},
+	"history": {
+		"beginning": "これが記録上最初の再生です。"
+	},
+	"nav": {
+		"title": "リスニングインサイト"
+	},
+	"overview": {
+		"firstWindow": "{person, select, them {記録上最初の期間です。履歴が増えると比較が表示されます。} other {記録上最初の期間です。履歴が増えると比較が表示されます。}}"
+	},
+	"panels": {
+		"activity": "アクティビティ",
+		"byWeekday": "曜日別",
+		"clockHeatmap": "曜日・時間帯別のリスニング",
+		"decades": "年代別の音楽",
+		"fingerprint": "リスニングの特徴",
+		"genreFlow": "ジャンルの推移",
+		"listeningClock": "リスニングクロック",
+		"musicRatio": "音楽の比率",
+		"topGenres": "トップジャンル"
+	},
+	"period": {
+		"day": "24時間",
+		"halfYear": "6か月",
+		"month": "30日",
+		"overall": "全期間",
+		"quarter": "3か月",
+		"week": "7日",
+		"year": "12か月"
+	},
+	"quietWindow": {
+		"body": "この期間に再生はありませんでした。",
+		"cta": "全期間を表示",
+		"title": "この期間の再生はありません"
+	},
+	"ratio": {
+		"ariaLabel": "トラック{tracks, number}、アルバム{albums, number}、アーティスト{artists, number}の入れ子リング",
+		"caption": "この期間に再生した個別のトラック・アルバム・アーティストの数です。各リングの弧は{count, plural, other {トラック#曲}}に対する割合を示します。",
+		"shareOfTracks": "· 全トラックの{pct}"
+	},
+	"recentlyPlayed": "最近再生した曲",
+	"records": {
+		"empty": {
+			"body": "{person, select, them {その人の連続記録・記録・マイルストーンは、リスニングとともに蓄積されます。} other {連続記録・記録・マイルストーンは、あなたのリスニングとともに蓄積されます。}}",
+			"title": "まだ記録がありません"
+		},
+		"milestones": {
+			"beginning": "{person, select, them {どのライブラリにも始まりがあります。再生が積み重なると、節目のマイルストーンがここに並びます。} other {どのライブラリにも始まりがあります。再生が積み重なると、節目のマイルストーンがここに並びます。}}",
+			"chip": "全期間",
+			"curveAriaLabel": "累計再生数の推移（マイルストーンごとに1点）",
+			"first": "初再生",
+			"lookup": {
+				"label": "再生を調べる",
+				"outOfRange": "まだそれほど多くの再生記録はありません。",
+				"submit": "探す"
+			},
+			"ordinal": "{ordinal, selectordinal, other {#回目の再生}}",
+			"title": "マイルストーン"
+		},
+		"onThisDay": {
+			"empty": "{person, select, them {この日付の思い出はまだありません。その人の履歴が1年分たまると、ここに集まります。} other {この日付の思い出はまだありません。あなたの履歴が1年分たまると、ここに集まります。}}",
+			"title": "過去のこの日",
+			"yearsAgo": "{count, plural, other {#年前}}"
+		},
+		"sessions": {
+			"ariaLabel": "最も長いリスニングセッション",
+			"longest": "最長: {duration} · {date}",
+			"meta": "{tracks, plural, other {#曲}}",
+			"metaWithArtist": "{tracks, plural, other {#曲}} · 主に{artist}",
+			"title": "最長セッション"
+		},
+		"streaks": {
+			"alsoLongest": "歴代最長",
+			"current": "現在の連続記録",
+			"days": "{count, plural, other {#日}}",
+			"detail": "{range} · {plays, plural, other {#回再生}}",
+			"live": "継続中 — このまま続けましょう",
+			"longest": "最長連続記録",
+			"noCurrent": {
+				"body": "{person, select, them {現在継続中の記録はありません。} other {今日何か再生して連続記録を始めましょう。}}",
+				"title": "連続記録はありません"
+			}
+		},
+		"tiles": {
+			"activeDays": "アクティブ日数",
+			"activeDaysOf": "この期間の{count, number}日中",
+			"biggestDay": "最も聴いた日",
+			"playsPerDay": "1日あたりの再生数"
+		}
+	},
+	"relative": {
+		"hoursAgo": "{hours}時間前",
+		"justNow": "たった今",
+		"minutesAgo": "{minutes}分前",
+		"shortDate": "{date}",
+		"today": "今日",
+		"yesterday": "昨日"
+	},
+	"shareGrid": {
+		"album": {
+			"ariaLabel": "この期間に最も再生したアルバムカバーのグリッド",
+			"infoToggle": "グリッドにアルバム情報を表示",
+			"title": "アルバムグリッド"
+		},
+		"artist": {
+			"ariaLabel": "アーティストグリッドのプレビュー",
+			"infoToggle": "グリッドにアーティスト情報を表示",
+			"title": "アーティストグリッド"
+		},
+		"bordersToggle": "枠線を含める",
+		"download": "ダウンロード",
+		"downloaded": "アルバムグリッドを保存しました。",
+		"downloading": "生成中…",
+		"failed": "グリッドを作成できませんでした。もう一度お試しください。"
+	},
+	"social": {
+		"friendActivity": "フレンドアクティビティ",
+		"listeningNow": "再生中"
+	},
+	"stats": {
+		"dateLabel": "{date, date, ::yMMMd}",
+		"duration": "{days}日{hours}時間 / {hours}時間{minutes}分 / {minutes}分",
+		"firstPlayed": "初回再生",
+		"lastPlayed": "最終再生",
+		"plays": "再生回数",
+		"playsValue": "{count, number}",
+		"rankBadge": "再生数第{rank}位",
+		"rankOf": "{total, number}件中{rank, number}位",
+		"seeAll": "統計をすべて表示",
+		"sparkline": {
+			"ariaLabel": "月別再生数の推移"
+		},
+		"time": "時間",
+		"timeListened": "再生時間",
+		"title": "あなたの統計",
+		"uniqueArtists": "アーティスト数",
+		"uniqueArtistsValue": "{count}",
+		"uniqueTracks": "トラック数",
+		"uniqueTracksValue": "{count}"
+	},
+	"tabs": {
+		"charts": "チャート",
+		"discovery": "発見",
+		"history": "履歴",
+		"overview": "概要",
+		"records": "記録",
+		"social": "ソーシャル"
+	},
+	"title": "リスニング",
+	"top": {
+		"albums": "トップアルバム",
+		"artists": "トップアーティスト",
+		"genres": "トップジャンル",
+		"playsCount": "{count, plural, other {#回再生}}",
+		"tracks": "トップトラック"
+	},
+	"topCard": {
+		"album": "トップアルバム",
+		"artist": "トップアーティスト",
+		"track": "トップトラック"
+	},
+	"weekday": {
+		"fri": "金",
+		"mon": "月",
+		"playsValue": "{count, number}",
+		"sat": "土",
+		"sun": "日",
+		"thu": "木",
+		"tue": "火",
+		"wed": "水"
+	},
+	"wrapped": {
+		"downloaded": "Wrappedカードを保存しました。",
+		"failed": "カードを作成できませんでした。もう一度お試しください。",
+		"heading": "Chordia Wrapped",
+		"minutesListened": "分間再生",
+		"periodTitle": {
+			"halfYear": "この6か月の音楽",
+			"month": "この1か月の音楽",
+			"overall": "全期間の統計",
+			"quarter": "この3か月の音楽",
+			"week": "この1週間の音楽",
+			"year": "この1年の音楽"
+		},
+		"shareButton": "共有",
+		"shared": "Wrappedカードを共有しました。",
+		"sharedFallback": "共有できなかったため、カードをダウンロードに保存しました。",
+		"sharing": "共有中…",
+		"statLine": "アーティスト{artists, number}組 · {tracks, number}曲",
+		"topArtists": "トップアーティスト",
+		"topGenre": "トップジャンル",
+		"topTracks": "トップトラック"
+	}
+}

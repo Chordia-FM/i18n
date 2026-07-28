@@ -1,0 +1,202 @@
+{
+	"account": {
+		"avatarUrl": "アバターURL",
+		"changeEmail": "メールアドレスを変更",
+		"displayName": "表示名",
+		"emailChangeSent": "新しいメールアドレスの受信箱で確認リンクをご確認ください。",
+		"handle": "ハンドル",
+		"handleHint": "英字、数字、「_」「-」が使用できます。他のユーザーと重複できません。",
+		"handlePlaceholder": "yourname",
+		"newEmailPlaceholder": "new@example.com",
+		"resendVerification": "確認メールを再送信",
+		"saveProfile": "プロフィールを保存",
+		"sendConfirmation": "確認メールを送信",
+		"title": "アカウント",
+		"verificationSent": "送信しました。受信箱をご確認ください"
+	},
+	"appearance": {
+		"accentColour": "アクセントカラー",
+		"accentHexAria": "アクセントカラーの16進コード",
+		"customAccentAria": "カスタムアクセントカラー",
+		"customColour": "カスタムカラー",
+		"customColourHint": "好きな色を選んでください。ボタン、ハイライト、背景の色合いに反映されます。",
+		"title": "外観"
+	},
+	"connections": {
+		"title": "連携",
+		"lastfm": {
+			"label": "Last.fm",
+			"desc": "再生を自動的にLast.fmへスクロブルします。",
+			"connect": "連携する",
+			"disconnect": "連携を解除",
+			"connectedAs": "{username}として連携中",
+			"connectedToast": "{username}としてLast.fmに連携しました",
+			"disconnected": "Last.fmの連携を解除しました",
+			"failed": "Last.fmに連携できませんでした",
+			"connecting": "Last.fmに連携中…"
+		}
+	},
+	"data": {
+		"body": "Chordiaが保存しているあなたのデータをすべてダウンロードするか、アカウントと全データを完全に削除できます。",
+		"deleteAccountConfirm": "アカウントとすべてのデータ（再生履歴、プレイリスト、ライブラリ、フレンド）を完全に削除しますか？この操作は取り消せません。",
+		"deleteAccountTitle": "アカウントを削除",
+		"deleteFailedBody": "現在アカウントを削除できません。もう一度お試しください。",
+		"deleteFailedTitle": "削除に失敗しました",
+		"deleteForever": "完全に削除",
+		"exportFailedBody": "現在データをエクスポートできません。もう一度お試しください。",
+		"exportFailedTitle": "エクスポートに失敗しました",
+		"exportMyData": "データをエクスポート",
+		"title": "あなたのデータ"
+	},
+	"downloads": {
+		"browserStorageName": "このデバイス（ブラウザストレージ）",
+		"bytes": "{bytes} B / {kb} KB / {mb} MB / {gb} GB",
+		"serverNote": "音楽ライブラリ自体の追加や整理はChordiaライブラリサーバー側で行います。カスタムフォルダへのダウンロード保存（独自のパスと整理レイアウト）は、デスクトップアプリで提供予定です。",
+		"thisDevice": {
+			"description": "ダウンロードした曲はこのデバイスに保存され、オフラインでも再生できます。",
+			"empty": "任意のトラックやアルバムのダウンロード操作を使ってください。",
+			"title": "このデバイス（ブラウザストレージ）",
+			"usage": "{count, plural, other {#曲}} · {size}"
+		},
+		"title": "ダウンロード",
+		"unsupportedDestination": "「{destination}」へのダウンロードにはデスクトップアプリが必要です"
+	},
+	"eq": {
+		"preset": {
+			"acoustic": "アコースティック",
+			"bassBoost": "低音ブースト",
+			"bassReducer": "低音カット",
+			"classical": "クラシック",
+			"electronic": "エレクトロニック",
+			"flat": "フラット",
+			"hipHop": "ヒップホップ",
+			"jazz": "ジャズ",
+			"loudness": "ラウドネス",
+			"pop": "ポップ",
+			"rock": "ロック",
+			"trebleBoost": "高音ブースト",
+			"trebleReducer": "高音カット",
+			"vocal": "ボーカル"
+		}
+	},
+	"equalizer": {
+		"title": "イコライザー"
+	},
+	"playback": {
+		"autoplay": {
+			"desc": "キューが終わったあとも、似た音楽を続けて再生します。",
+			"label": "自動再生"
+		},
+		"crossfade": {
+			"desc": "各トラックの終わりを次の曲と重ねて、なめらかにつなぎます。",
+			"label": "クロスフェード",
+			"value": "{seconds}秒"
+		},
+		"normalize": {
+			"desc": "トラック間の音量を均一にします（ReplayGain）。",
+			"label": "音量を正規化"
+		},
+		"preload": {
+			"desc": "キューの次のトラックを事前にダウンロードし、途切れのない即時再生を実現します。高くするほどデータ使用量が増えます。",
+			"label": "次のトラックを先読み"
+		},
+		"quality": {
+			"dataSaver": {
+				"desc": "約96 kbps Opus。データ使用量を最小限に。",
+				"label": "データセーバー"
+			},
+			"high": {
+				"desc": "約256 kbps AAC。ほとんどの場合、原音と区別がつきません。",
+				"label": "高音質"
+			},
+			"normal": {
+				"desc": "約128 kbps。バランス重視。",
+				"label": "標準"
+			},
+			"original": {
+				"desc": "ビットパーフェクトなソース。帯域使用は最大。",
+				"label": "ロスレス"
+			}
+		},
+		"streamingQuality": "ストリーミング品質",
+		"title": "再生"
+	},
+	"privacy": {
+		"activityVisibility": {
+			"desc": "最近の再生を見たり、音楽の相性を比較したりできる相手を設定します。",
+			"label": "アクティビティの公開範囲"
+		},
+		"emailNotifications": {
+			"desc": "フレンドリクエストなどアカウントのアクティビティをメールで受け取ります。",
+			"label": "メール通知"
+		},
+		"scrobble": {
+			"desc": "統計とWrappedのために再生を記録します。",
+			"label": "再生をスクロブル"
+		},
+		"title": "プライバシー",
+		"visibility": {
+			"friends": "フレンド",
+			"private": "自分のみ",
+			"public": "全員"
+		}
+	},
+	"quality": {
+		"dataSaver": {
+			"desc": "約96 kbps Opus。データ使用量を最小限に。",
+			"label": "データセーバー"
+		},
+		"high": {
+			"desc": "約256 kbps AAC。ほとんどの場合、原音と区別がつきません。",
+			"label": "高音質"
+		},
+		"lossless": {
+			"desc": "ビットパーフェクトなソース。帯域使用は最大。",
+			"label": "ロスレス"
+		},
+		"normal": {
+			"desc": "約128 kbps。バランス重視。",
+			"label": "標準"
+		},
+		"title": "ストリーミング品質"
+	},
+	"region": {
+		"timezone": {
+			"description": "再生アクティビティを現地の日付に合わせるために使用します。「このデバイスに従う」を選ぶと、各クライアントの設定に任せます。",
+			"detect": "検出",
+			"followClient": "このデバイスに従う",
+			"label": "タイムゾーン",
+			"noMatches": "検索に一致するタイムゾーンはありません",
+			"search": "タイムゾーンを検索…",
+			"zoneWithOffset": "{zone}（{offset}）"
+		},
+		"title": "地域"
+	},
+	"sessions": {
+		"body": "ログイン中の場所です。心当たりのないデバイスは取り消してください。",
+		"lastActive": "最終アクティブ: {date}",
+		"lastActiveDate": "{date}",
+		"signOutEverywhere": "すべてのデバイスからログアウト",
+		"signOutEverywhereConfirm": "すべてのデバイスからログアウトしますか？再度ログインが必要になります。",
+		"thisDevice": "このデバイス",
+		"title": "デバイスとセッション",
+		"unknownDevice": "不明なデバイス"
+	},
+	"title": "設定",
+	"twoFactor": {
+		"addHint": "認証アプリによる第2の要素を追加して、アカウントの安全性を高めます。",
+		"disable": "二要素認証を無効化",
+		"enable": "二要素認証を有効化",
+		"enableCta": "二要素認証を有効にする",
+		"enabledHint": "二要素認証は有効です。無効にするには、現在のコードまたはリカバリーコードを入力してください。",
+		"qrAlt": "二要素認証のQRコード",
+		"recoveryIntro": "二要素認証が有効になりました。以下のリカバリーコードを安全な場所に保存してください。認証アプリを使えなくなった場合、各コードを1回ずつ使用できます。",
+		"scanHint": "認証アプリでこれをスキャンし、6桁のコードを入力して確認してください。",
+		"secretManual": "または、このシークレットを手動で入力: {secret}",
+		"title": "二要素認証"
+	},
+	"verifyEmail": {
+		"body": "メールアドレスに確認リンクを送信しました。届いていない場合は、下から再送信できます。",
+		"title": "メールアドレスを確認"
+	}
+}

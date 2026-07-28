@@ -1,0 +1,59 @@
+{
+	"block": {
+		"confirmLabel": "ブロック",
+		"confirmMessage": "@{handle}をブロックしますか？お互いにフレンド追加ができなくなります。",
+		"confirmTitle": "ユーザーをブロック"
+	},
+	"discovery": {
+		"addFriend": "フレンドを追加",
+		"friendsStatus": "フレンド",
+		"requestSent": "リクエスト送信済み",
+		"sending": "送信中…"
+	},
+	"friends": {
+		"confirmRemove": "削除しますか？",
+		"empty": "まだフレンドがいません。検索して追加しましょう",
+		"heading": "フレンド（{count}）",
+		"removing": "削除中…",
+		"title": "フレンド"
+	},
+	"modMenu": {
+		"blocked": "ブロック済み",
+		"report": "報告",
+		"reported": "報告済み"
+	},
+	"page": {
+		"title": "フレンド"
+	},
+	"profile": {
+		"eyebrow": "プロフィール",
+		"itemPlays": "{count, plural, other {#回再生}}",
+		"joinedDate": "{date, date, ::yMMMM}",
+		"joinedLabel": "{date}に参加",
+		"loadError": "このプロフィールを読み込めませんでした。",
+		"noActivity": "まだリスニングアクティビティはありません。",
+		"notFound": "そのハンドルのユーザーは存在しません。",
+		"private": {
+			"description": "{name}さんはリスニングをフレンドにのみ公開しています。",
+			"title": "このプロフィールは非公開です"
+		},
+		"recentlyPlayed": "最近再生した曲",
+		"topArtists": "トップアーティスト",
+		"topTracks": "トップトラック",
+		"totalPlays": "{count, plural, other {#回再生}}",
+		"totalPlaysCount": "{count}"
+	},
+	"report": {
+		"promptMessage": "@{handle}を報告します。問題の内容を教えてください。"
+	},
+	"requests": {
+		"accept": "承認",
+		"accepting": "承認中…",
+		"pendingHeading": "保留中のリクエスト（{count}）"
+	},
+	"search": {
+		"noResults": "ユーザーが見つかりません。",
+		"placeholder": "ハンドルまたは表示名で検索…",
+		"searching": "検索中…"
+	}
+}

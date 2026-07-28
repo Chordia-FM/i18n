@@ -1,0 +1,107 @@
+{
+	"account": {
+		"emailChangeFailed": "メールアドレスの変更を開始できませんでした。"
+	},
+	"admin": {
+		"deleteSelf": "自分のアカウントの削除にはアカウント設定を使用してください。",
+		"invalidReportAction": "操作は「resolved」または「dismissed」である必要があります。"
+	},
+	"auth": {
+		"badCredentials": "メールアドレスまたはパスワードが正しくありません。",
+		"displayNameLength": "表示名は1〜64文字にしてください。",
+		"emailInUse": "そのメールアドレスは既に使用されています。",
+		"emailInvalid": "有効なメールアドレスが必要です。",
+		"handleChars": "ユーザー名に使用できるのは英字、数字、「_」「-」のみで、先頭は英字または数字にしてください。",
+		"handleLength": "ユーザー名は2〜32文字にしてください。",
+		"passwordLength": "パスワードは{min}〜{max}文字にしてください。",
+		"passwordRange": "パスワードは8〜1024文字にしてください。",
+		"twoFactorAlreadyEnabled": "二要素認証は既に有効です。先に無効にしてください。",
+		"twoFactorNotEnabled": "二要素認証は有効になっていません。",
+		"twoFactorStartFirst": "先に二要素認証のセットアップを開始してください。"
+	},
+	"catalog": {
+		"albumLoadFailed": "読み込みに失敗しました",
+		"artistLoadFailed": "読み込みに失敗しました",
+		"artistNameTaken": "その名前は既に別のアーティストが使用しています。",
+		"labelLoadFailed": "このレーベルを読み込めませんでした",
+		"unknownArtist": "不明なアーティストです。",
+		"unknownImageHash": "不明な画像です。"
+	},
+	"changeFailed": "変更を保存できませんでした。もう一度お試しください。",
+	"directory": {
+		"serverOffline": "そのサーバーはオフラインです。"
+	},
+	"discovery": {
+		"dailyMixFailed": "このミックスを作成できませんでした",
+		"radioFailed": "このラジオを作成できませんでした"
+	},
+	"failedToLoad": "読み込みに失敗しました",
+	"friends": {
+		"cannotFriendSelf": "自分自身にフレンドリクエストは送れません。"
+	},
+	"generic": "失敗しました",
+	"image": {
+		"empty": "画像が空です。",
+		"fetchFailed": "その画像を取得できませんでした。",
+		"hashMismatch": "画像の内容が期待されるハッシュと一致しませんでした。",
+		"invalidUrl": "画像URLが無効です。",
+		"tooLarge": "画像が大きすぎます（最大8 MiB）。"
+	},
+	"insights": {
+		"compareSelf": "自分自身とは比較できません。",
+		"compatibilityNotFound": "そのハンドルのユーザーは存在しません。",
+		"compatibilityPrivate": "そのユーザーのリスニングアクティビティは非公開です。",
+		"invalidTimezone": "不明なタイムゾーン「{timezone}」です。",
+		"loadFriendActivityFailed": "フレンドアクティビティを読み込めませんでした",
+		"loadHistoryFailed": "履歴を読み込めませんでした",
+		"loadStatsFailed": "統計を読み込めませんでした",
+		"milestoneRange": "1以上の再生番号を指定してください。",
+		"pagingPair": "before_msとbefore_idは同時に指定する必要があります。"
+	},
+	"label": {
+		"nameTaken": "その名前は既に別のレーベルが使用しています。"
+	},
+	"library": {
+		"limitReached": "このアカウントのライブラリ数の上限に達しました。"
+	},
+	"lyrics": {
+		"noLines": "保存する歌詞の行がありません。"
+	},
+	"moderation": {
+		"blockSelf": "自分自身はブロックできません。",
+		"reasonRequired": "理由（200文字以内）が必要です。"
+	},
+	"noFields": "更新する項目がありません。",
+	"oauth": {
+		"missingCode": "認可コードがありません。"
+	},
+	"pins": {
+		"unknownKind": "不明なピンの種類です。"
+	},
+	"playlist": {
+		"limitReached": "このアカウントのプレイリスト数の上限に達しました。"
+	},
+	"route": {
+		"message": "予期しないエラーによりページの表示が中断されました。再試行するか、ホームへ戻ってください。",
+		"title": "問題が発生しました"
+	},
+	"saveFailed": "保存に失敗しました",
+	"share": {
+		"withSelf": "自分自身とは共有できません。"
+	},
+	"twoFactor": {
+		"invalidCode": "コードが無効です。",
+		"setupFailed": "二要素認証のセットアップを開始できませんでした。"
+	},
+	"user": {
+		"handleGenFailed": "このDiscordアカウント用の一意のハンドルを生成できませんでした。",
+		"handleOrEmailTaken": "そのハンドルまたはメールアドレスは既に使用されています。",
+		"handleTaken": "そのハンドルは既に使用されています。",
+		"notFound": "そのハンドルのユーザーは存在しません。"
+	},
+	"validation": {
+		"nameOrIconRequired": "名前またはアイコンが必要です。",
+		"nameRequired": "名前は必須です。"
+	},
+	"valueEmpty": "値を空にすることはできません。"
+}

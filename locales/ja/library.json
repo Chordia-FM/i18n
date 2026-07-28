@@ -1,0 +1,207 @@
+{
+	"artists": {
+		"empty": "アーティストがまだいません。カタログの同期中かもしれません。",
+		"title": "アーティスト"
+	},
+	"card": {
+		"editTitle": "このライブラリを編集",
+		"moveDown": "下へ移動（優先度を下げる）",
+		"moveUp": "上へ移動（優先度を上げる）",
+		"shareTitle": "このライブラリを共有",
+		"trackCount": "{count, plural, other {#曲}}"
+	},
+	"edit": {
+		"albumsLabel": "アルバム",
+		"dedupeLabel": "重複排除 — 同じ場所にファイルが重なった場合、最高品質のコピーだけを残します（無効の場合は (2)、(3)… の接尾辞が付きます）",
+		"deleteConfirm": {
+			"confirmLabel": "削除",
+			"message": "このライブラリを削除しますか？ファイルはディスクに残り、Chordiaから削除されるだけです。",
+			"title": "ライブラリを削除"
+		},
+		"deleteFailed": "削除に失敗しました",
+		"fallbackToAlbums": "{template}（未設定時はアルバムを使用）",
+		"foldersHelp": "フォルダのチェックを外すと、このライブラリから除外されます。チェックを外したフォルダの中身もすべて無効になります。",
+		"foldersTitle": "含めるフォルダ",
+		"foldersUpdateFailed": "フォルダの更新に失敗しました",
+		"foldersUpdated": "フォルダを更新しました。再スキャン中…",
+		"iconLabel": "アイコン",
+		"iconSaveFailed": "アイコンの保存に失敗しました",
+		"iconSaved": "アイコンを保存しました",
+		"nameSaved": "名前を保存しました",
+		"noSubFolders": "管理できるサブフォルダはありません。",
+		"organizeConfirm": {
+			"confirmLabel": "続行",
+			"messageDedupe": "ディスク上のファイルを新しいレイアウトに移動し、低品質の重複を削除します。続行しますか？",
+			"messagePlain": "ディスク上のファイルを新しいレイアウトに移動します。音声データは変更されず、移動のみ行われます。続行しますか？",
+			"title": "ファイルを整理"
+		},
+		"organizeDisabled": "整理は無効です",
+		"organizeFailed": "整理設定の更新に失敗しました",
+		"organizeHelp": "テンプレートに基づいて、このライブラリの音声ファイルをディスク上に配置します。フォルダは必要に応じて作成され、自動的にスキャンされます。",
+		"organizeStatus": "ファイルを整理中…",
+		"organizeTitle": "ファイルを整理",
+		"organizeToggle": "このライブラリのファイルを整理する",
+		"pairedDeviceFolders": "フォルダを編集するには、このサーバーをペアリングしたデバイスでこのページを開いてください。",
+		"pairedDeviceOrganize": "変更するには、このサーバーをペアリングしたデバイスでこのページを開いてください。",
+		"removeHelp": "Chordiaから削除します。音声ファイルには手を加えません。",
+		"removeTitle": "ライブラリを削除",
+		"renameFailed": "名前の変更に失敗しました",
+		"rescanAll": "全ファイルを再スキャン",
+		"rescanFailed": "再スキャンに失敗しました",
+		"rescanFull": "完全再インデックス",
+		"rescanFullProgress": "完全再インデックスを実行中…",
+		"rescanProgress": "再スキャン中…",
+		"rescanHelp": "すべてのファイルをディスクから読み直します（メタデータ、追加・削除されたトラック）。完全再インデックスは変更のないファイルも再処理します。エディション統合などの変更を既存のライブラリに適用する場合に使用してください。",
+		"rescanStatus": "全ファイルを再スキャン中…",
+		"rescanning": "再スキャン中…",
+		"saveFolders": "フォルダを保存",
+		"singlesLabel": "シングル（アルバムなし）",
+		"templateHelp": "使用できる変数: {vars}。空の部分はスキップされ、拡張子は自動的に付加されます。{edition}はデラックス版などの限定版修飾子です（通常版では空になり、省略されます）。{disc}は複数ディスクのアルバムでのみ表示されます。アルバムのないトラックにはシングルのテンプレート、識別できないファイル（アーティストタグなし）には未識別のテンプレートが使われます。",
+		"title": "ライブラリを編集",
+		"unknownLabel": "未識別のトラック"
+	},
+	"downloads": {
+		"clearConfirm": {
+			"message": "ダウンロードした曲をすべてこのデバイスから削除しますか？",
+			"title": "ダウンロードを消去"
+		},
+		"clearError": "ダウンロードを消去できませんでした",
+		"emptyState": "ダウンロードした曲はオフラインでも再生できます。任意のトラックのダウンロード操作でここに保存されます。",
+		"eyebrow": "オフラインで利用可能",
+		"navLabel": "ダウンロード",
+		"removeError": "ダウンロードを削除できませんでした",
+		"removeTooltip": "ダウンロードを削除",
+		"songCount": "{count, plural, other {#曲}}",
+		"storedOnDevice": "このデバイスに保存済み",
+		"title": "ダウンロード"
+	},
+	"hidden": {
+		"hide": "この曲を非表示",
+		"unhide": "再表示"
+	},
+	"liked": {
+		"empty": "お気に入りに追加した曲がここに表示されます。トラックのハートをタップしてください。",
+		"eyebrow": "プレイリスト",
+		"remove": "お気に入りの曲から削除",
+		"save": "お気に入りの曲に保存",
+		"songCount": "{count, plural, other {#曲}}",
+		"title": "お気に入りの曲"
+	},
+	"likedSongs": "お気に入りの曲",
+	"list": {
+		"empty": {
+			"hint": "ライブラリサーバーを起動し、ターミナルに表示されるセットアップリンクを開いてペアリングしてください。",
+			"title": "ライブラリはまだありません。"
+		},
+		"loading": "ライブラリを読み込み中…",
+		"newLibrary": "新しいライブラリ",
+		"sharedWithYou": "あなたと共有中",
+		"title": "ライブラリ一覧"
+	},
+	"metadata": {
+		"intro": "このライブラリのみのメタデータを編集します。変更はあなたの表示全体に適用され、空欄のままにした項目は元の値を保持します。カタログ全体の編集は管理ページで行えます。",
+		"noMatches": "一致する結果はありません。",
+		"searchPlaceholder": "アーティスト、アルバム、トラックを検索…",
+		"title": "メタデータ"
+	},
+	"new": {
+		"addFailed": "ライブラリを追加できませんでした",
+		"adding": "追加中…",
+		"backLink": "すべてのライブラリ",
+		"browseFailed": "参照に失敗しました",
+		"folderLabel": "サーバー上のフォルダ",
+		"nameLabel": "ライブラリ名",
+		"namePlaceholder": "マイミュージック",
+		"noFolderChosen": "フォルダが未選択です",
+		"noServer": "このデバイスにペアリング済みのサーバーが見つかりません。ライブラリサーバーを起動し、表示されるセットアップリンクを開いて先にペアリングしてください。",
+		"noSubFolders": "サブフォルダはありません",
+		"serverLabel": "{names} · {host}",
+		"serverSelectHint": "新しいライブラリは選択したサーバー上に作成されます。",
+		"serverSelectLabel": "ライブラリサーバー",
+		"submit": "ライブラリを追加",
+		"title": "新しいライブラリ"
+	},
+	"pin": {
+		"pin": "ピン留め",
+		"unpin": "ピン留めを解除"
+	},
+	"setup": {
+		"addFolderFailed": "フォルダを追加できませんでした",
+		"addLibraries": {
+			"addFolder": "フォルダを追加",
+			"adding": "追加中…",
+			"description": "ライブラリサーバーのファイルシステムを参照して、音楽の保存場所を選択します。フォルダは後から設定で追加できます。",
+			"finish": "セットアップを完了",
+			"formTitle": "フォルダを追加",
+			"skip": "今はスキップ",
+			"title": "音楽フォルダを追加"
+		},
+		"browseErrorStatus": "参照エラー: {status}",
+		"done": {
+			"addLater": "音楽フォルダは{settingsLink}からいつでも追加できます。",
+			"foldersAdded": "{count, plural, other {#個のフォルダを追加しました。}}バックグラウンドでスキャン中です。まもなくトラックが表示されます。",
+			"goToLibrary": "ライブラリへ",
+			"title": "ライブラリサーバーが接続されました！"
+		},
+		"hubRejectedToken": "ハブがセッショントークンを拒否しました。ログアウトして再ログインしてから、もう一度ペアリングをお試しください。",
+		"insideDataMusic": "サーバー上の{path}内",
+		"listDirFailed": "ディレクトリを一覧できませんでした",
+		"missingParams": "セットアップパラメータがありません。ライブラリサーバーのターミナルに表示されるリンクを開いてください。",
+		"noFolderSelected": "フォルダが選択されていません",
+		"noSubdirectories": "サブディレクトリはありません",
+		"pair": {
+			"connect": "接続",
+			"connecting": "接続中…",
+			"description": "{url}をあなたのChordiaアカウントにリンクします。",
+			"title": "ライブラリサーバーを接続"
+		},
+		"pairingFailed": "ペアリングに失敗しました",
+		"sessionExpired": "セッションの有効期限が切れました。ログアウトして再ログインしてから、もう一度お試しください。",
+		"step": {
+			"addFolders": "フォルダを追加",
+			"done": "完了",
+			"pair": "ペアリング"
+		}
+	},
+	"share": {
+		"dialogLabel": "「{name}」を共有",
+		"failed": "共有に失敗しました",
+		"filterFriends": "フレンドを絞り込む…",
+		"findPeople": "ユーザーを探す",
+		"friendLabel": "フレンド",
+		"noFriends": "まだ共有できるフレンドがいません。",
+		"permission": "権限",
+		"permissionStreamDownload": "ストリーミング + ダウンロード",
+		"permissionStreamOnly": "ストリーミングのみ",
+		"selectFriend": "フレンドを選択…",
+		"sharing": "共有中…",
+		"submit": "ライブラリを共有",
+		"success": "ライブラリを共有しました。",
+		"title": "「{name}」を共有"
+	},
+	"sidebar": {
+		"pinned": "ピン留め",
+		"playlists": "プレイリスト",
+		"yourLibrary": "マイライブラリ"
+	},
+	"trackCount": "{count, plural, other {#曲}}",
+	"shareManager": {
+		"title": "フレンドと共有",
+		"help": "このライブラリに誰がアクセスでき、何をしていて、何が許可されているかを表示します。",
+		"empty": "まだ誰とも共有していません。下からフレンドを追加してアクセスを許可しましょう。",
+		"addFriend": "フレンドを追加",
+		"revoke": "アクセスを削除",
+		"canRequest": "ダウンロードのリクエストを許可",
+		"directories": "ライブラリ:",
+		"thisLibrary": "このライブラリ",
+		"grantAccess": "{name}にアクセスを許可",
+		"removeAccess": "{name}のアクセスを削除",
+		"streamingNow": "ストリーミング中: {title} — {artist}",
+		"statsLine": "リクエスト{requests}件 · ダウンロード{downloads}件 · {plays}回再生 · 再生時間{time}",
+		"lastPlayed": "最終再生: {date}",
+		"updateFailed": "共有設定を更新できませんでした。もう一度お試しください。",
+		"timeDaysHours": "{days}日{hours}時間",
+		"timeHoursMinutes": "{hours}時間{minutes}分",
+		"timeMinutes": "{minutes}分"
+	}
+}
