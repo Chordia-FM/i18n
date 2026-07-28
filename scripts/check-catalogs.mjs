@@ -9,6 +9,7 @@
 import { readdirSync, readFileSync, statSync } from "node:fs";
 import { join } from "node:path";
 import { pathToFileURL } from "node:url";
+import { parse as parseIcu } from "@formatjs/icu-messageformat-parser";
 
 const ROOT = new URL("../locales", import.meta.url).pathname.replace(/^\/([A-Z]:)/, "$1");
 const SOURCE = "en";
@@ -205,16 +206,6 @@ function prose(s) {
 	return out.replace(/[^A-Za-z]+/g, "");
 }
 
-function braincesBalanced(s) {
-	if (typeof s !== "string") return true;
-	let depth = 0;
-	for (const ch of s) {
-		if (ch === "{") depth++;
-		else if (ch === "}" && --depth < 0) return false;
-	}
-	return depth === 0;
-}
-
 // Only validate when run directly. The ICU extractor above is imported by the tests, and a
 // module that validates (and exits) on import would kill the test process before it started.
 if (import.meta.url === pathToFileURL(process.argv[1]).href) {
@@ -280,9 +271,18 @@ if (import.meta.url === pathToFileURL(process.argv[1]).href) {
 					errors++;
 					continue;
 				}
-				if (!braincesBalanced(value)) {
-					problems.push(`${locale}/${ns}: ${key} has unbalanced braces`);
+				// The real ICU parser, not our reading of it. The hand-rolled helpers above answer
+				// narrower questions (which arguments, which categories) and have been wrong more
+				// than once; this is the authority on whether the string is a valid message at all,
+				// and it is what the runtime will actually do with it.
+				try {
+					parseIcu(value);
+				} catch (e) {
+					problems.push(
+						`${locale}/${ns}: ${key} is not valid ICU — ${String(e.message).split("\n")[0]}`,
+					);
 					errors++;
+					continue;
 				}
 				// Zero-width characters are invisible in every editor and diff, so they survive
 				// review indefinitely — and one landed *inside* an ICU plural in Portuguese, where
