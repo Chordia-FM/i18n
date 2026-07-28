@@ -181,7 +181,17 @@ if (import.meta.url === pathToFileURL(process.argv[1]).href) {
 					if (!isRegional) missing += Object.keys(source[ns]).length;
 					continue;
 				}
-				problems.push(`${locale}/${ns}: invalid JSON — ${e.message}`);
+				// A malformed catalog is not just this locale's problem: the frontend glob-imports
+				// every file eagerly, so one bad JSON takes down the whole build and every test
+				// that touches i18n. Name the likely cause, because "Unexpected token" over a
+				// literal backslash-t is a genuinely confusing thing to land on.
+				const raw = readFileSync(path, "utf8");
+				const hint = /^\s*\\t/m.test(raw)
+					? " — indentation is the two characters backslash-t, not a tab"
+					: /\\n\s*$/.test(raw)
+						? " — file ends with a literal backslash-n instead of a newline"
+						: "";
+				problems.push(`${locale}/${ns}: invalid JSON — ${e.message}${hint}`);
 				errors++;
 				continue;
 			}
