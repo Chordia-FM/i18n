@@ -1,0 +1,31 @@
+{
+	"collabInvite": {
+		"body": "{inviter} added you as a collaborator on the playlist “{playlist}”.",
+		"cta": "Open the playlist",
+		"hint": "You can now add and remove tracks.",
+		"subject": "You were added to a Chordia playlist"
+	},
+	"footer": {
+		"manage": "You can turn these emails off in Chordia Settings → Notifications."
+	},
+	"friendRequest": {
+		"body": "{name} wants to connect with you on Chordia.",
+		"cta": "View profile",
+		"heading": "New friend request",
+		"subject": "{name} sent you a friend request"
+	},
+	"passwordReset": {
+		"body": "Someone requested a password reset for your Chordia account.",
+		"cta": "Reset your password",
+		"expiry": "This link expires in 1 hour.",
+		"ignore": "If you didn't request this, you can safely ignore this email.",
+		"subject": "Reset your Chordia password"
+	},
+	"verifyEmail": {
+		"body": "Please confirm your email address to finish setting up your account.",
+		"cta": "Verify your email",
+		"expiry": "This link expires in 24 hours.",
+		"heading": "Welcome to Chordia",
+		"subject": "Verify your Chordia email"
+	}
+}
