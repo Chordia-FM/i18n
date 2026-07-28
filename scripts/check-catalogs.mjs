@@ -80,9 +80,11 @@ const summary = [];
 for (const locale of locales.filter((l) => l !== SOURCE)) {
 	const base = locale.split("-")[0];
 	const allowed = PLURAL_CATEGORIES[base];
-	// A regional catalog (en-GB) legitimately holds only the keys it overrides; a base-language
-	// catalog is expected to cover everything.
-	const isRegional = locale.includes("-");
+	// A regional catalog holds only the keys it overrides — but only when its base language is
+	// actually present to fall back to. `en-GB` has `en` behind it, so 23 keys is complete;
+	// `pt-BR` with no `pt` catalog resolves straight to English, so partial coverage there is
+	// missing translation, not intentional override.
+	const isRegional = locale.includes("-") && locales.includes(base);
 	let keys = 0;
 	let missing = 0;
 
