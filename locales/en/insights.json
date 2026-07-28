@@ -4,6 +4,7 @@
 			"ariaLabel": "Listening activity over time"
 		},
 		"dayLabel": "{date, date, ::MMMd}",
+		"hourLabel": "{date, time, ::j}",
 		"monthLabel": "{date, date, ::yMMM}",
 		"noActivityPeriod": "No activity in this period",
 		"noActivityYet": "No activity yet",
