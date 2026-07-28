@@ -35,6 +35,10 @@ picked up on the next build by both the frontend and the Rust crate.
 
 ## Crowdin
 
+This is a **Crowdin Enterprise** organization, so `crowdin.yml` sets `base_url` to the org's own API
+host (`https://naila.api.crowdin.com`). The CLI otherwise defaults to crowdin.com and authenticates
+against the wrong instance. Note the `api` segment — the API host is not the one you log in to.
+
 English is the source; every other locale is a translation of it. Auth comes from the environment —
 `CROWDIN_PROJECT_ID` and `CROWDIN_PERSONAL_TOKEN`, never committed.
 

@@ -13,6 +13,12 @@
 # as target languages in the project and they appear here automatically, with no code change
 # (SUPPORTED_LOCALES is derived).
 #
+# Crowdin Enterprise, so the CLI must be pointed at the organization's own API host — the default
+# is crowdin.com and every command would authenticate against the wrong instance. Note the `api`
+# segment: the API host is `<org>.api.crowdin.com`, not the `<org>.crowdin.com` you log in to.
+# `CROWDIN_BASE_URL` overrides this if you ever point the same checkout at another organization.
+"base_url": "https://naila.api.crowdin.com"
+
 # Auth comes from the environment (set in CI / locally), never committed:
 "project_id_env": CROWDIN_PROJECT_ID
 "api_token_env": CROWDIN_PERSONAL_TOKEN
