@@ -11,6 +11,19 @@
 		"peak": "Peak: {count, plural, one {# play} other {# plays}} · {date}",
 		"plays": "{count, plural, one {# play} other {# plays}}"
 	},
+	"charts": {
+		"down": "Down {count, plural, one {# place} other {# places}}",
+		"empty": {
+			"body": "{person, select, them {Their library will rank here once they start listening.} other {Your library ranks here once you have some plays.}}",
+			"title": "Nothing to chart yet"
+		},
+		"held": "Held its place",
+		"new": "New",
+		"next": "Next",
+		"previous": "Previous",
+		"showing": "{from}–{to} of {total}",
+		"up": "Up {count, plural, one {# place} other {# places}}"
+	},
 	"clock": {
 		"ariaLabel": "Listening activity by hour of day",
 		"peak": "Busiest hour: {hour} · {count, plural, one {# play} other {# plays}}"
@@ -329,6 +342,7 @@
 		"uniqueTracksValue": "{count}"
 	},
 	"tabs": {
+		"charts": "Charts",
 		"discovery": "Discovery",
 		"history": "History",
 		"overview": "Overview",
