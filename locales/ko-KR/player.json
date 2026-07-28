@@ -1,5 +1,6 @@
 {
 	"controls": {
+		"fullscreen": "Fullscreen",
 		"mute": "Mute",
 		"next": "Next",
 		"pause": "Pause",
@@ -9,7 +10,16 @@
 		"seek": "Seek",
 		"shuffle": "Shuffle",
 		"unmute": "Unmute",
-		"volume": "Volume"
+		"volume": "Volume",
+		"volumeButton": "Volume button",
+		"volumeSlider": "Volume slider"
+	},
+	"devices": {
+		"current": "Current target",
+		"none": "No playback devices found.",
+		"pressPlay": "Press play to start here",
+		"thisTab": "This tab",
+		"title": "Playback device"
 	},
 	"eqPreset": {
 		"acoustic": "Acoustic",
@@ -66,7 +76,8 @@
 	"nowPlaying": {
 		"aboutArtist": "About {name}",
 		"albumFallback": "Album",
-		"playingFrom": "Playing from"
+		"playingFrom": "Playing from",
+		"title": "Now playing"
 	},
 	"notPlaying": "Not playing",
 	"nothingPlaying": "Nothing playing yet.",
