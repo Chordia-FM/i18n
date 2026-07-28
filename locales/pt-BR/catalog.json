@@ -105,6 +105,16 @@
 	"entity": {
 		"artist": "Artist"
 	},
+	"genres": {
+		"counts": "{albumsFormatted} {albums, plural, one {album} other {albums}} · {artistsFormatted} {artists, plural, one {artist} other {artists}}",
+		"empty": "No genres yet — they arrive with album metadata as your library is enriched.",
+		"eyebrow": "Genre",
+		"notFound": "No albums carry that genre.",
+		"title": "Genres",
+		"topAlbums": "Top albums",
+		"topArtists": "Top artists",
+		"variants": "Also tagged: {list}"
+	},
 	"label": {
 		"albumCount": "{count, plural, one {# album} other {# albums}}",
 		"albumCountWithPrefix": "Label · {count, plural, one {# album} other {# albums}}",
@@ -177,14 +187,13 @@
 	},
 	"songCount": "{count, plural, one {# song} other {# songs}}",
 	"track": {
+		"clean": "Clean",
 		"column": {
 			"album": "Album",
 			"dateAdded": "Date added",
 			"plays": "Plays",
 			"title": "Title"
 		},
-		"explicit": "Explicit",
-		"clean": "Clean",
 		"download": {
 			"exists": "Already downloaded",
 			"removeAction": "Remove download",
@@ -192,6 +201,7 @@
 			"removed": "Removed download",
 			"savedNamed": "Downloaded {title}"
 		},
+		"explicit": "Explicit",
 		"playAria": "Play {title} by {artist}",
 		"playsNumber": "{n, number}",
 		"relTime": {
