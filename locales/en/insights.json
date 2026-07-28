@@ -9,8 +9,7 @@
 		"noActivityPeriod": "No activity in this period",
 		"noActivityYet": "No activity yet",
 		"peak": "Peak: {count, plural, one {# play} other {# plays}} · {date}",
-		"plays": "{count, plural, one {# play} other {# plays}}",
-		"timezoneNote": "Times shown in {timezone}"
+		"plays": "{count, plural, one {# play} other {# plays}}"
 	},
 	"clock": {
 		"ariaLabel": "Listening activity by hour of day",
