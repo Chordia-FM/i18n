@@ -1,0 +1,10 @@
+{
+	"edit": {
+		"overrideGlobally": {
+			"help": "Also show this edit across your whole catalogue (your highest-priority library wins). Doesn't change the original or affect other users."
+		}
+	},
+	"labels": {
+		"empty": "No labels yet — they fill in as your catalogue is enriched from MusicBrainz."
+	}
+}

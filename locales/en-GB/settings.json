@@ -1,0 +1,13 @@
+{
+	"downloads": {
+		"serverNote": "Music libraries themselves are added and organised on your Chordia library server, not here. Saving downloads to a custom folder (with your own path + organisation layout) is coming to the desktop app."
+	},
+	"playback": {
+		"normalize": {
+			"label": "Normalise volume"
+		}
+	},
+	"sessions": {
+		"body": "Where you're signed in. Revoke any device you don't recognise."
+	}
+}

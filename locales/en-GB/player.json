@@ -1,0 +1,8 @@
+{
+	"visualizer": {
+		"close": "Close visualiser",
+		"nothingPlaying": "Play something to see the visualiser.",
+		"open": "Visualiser",
+		"unavailable": "Visualiser unavailable on this source."
+	}
+}

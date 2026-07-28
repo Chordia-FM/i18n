@@ -1,0 +1,8 @@
+{
+	"editCatalog": {
+		"title": "Edit catalogue metadata"
+	},
+	"metadata": {
+		"intro": "Edit the shared catalogue that everyone sees — rename an artist, album or track, replace its artwork, or re-attribute a release to a different artist. These changes are global and permanent (unlike per-library edits). Every change is recorded in the audit log."
+	}
+}
