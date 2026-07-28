@@ -7,53 +7,53 @@
 	"discovery": {
 		"addFriend": "Adicionar amigo",
 		"friendsStatus": "Amigos",
-		"requestSent": "Solicitação enviada",
+		"requestSent": "Pedido enviado",
 		"sending": "Enviando…"
 	},
 	"friends": {
 		"confirmRemove": "Confirmar?",
-		"empty": "Ainda não há amigos - pesquise para adicionar alguns",
+		"empty": "Ainda não há amigos — busque para adicionar alguns",
 		"heading": "Amigos ({count})",
 		"removing": "Removendo…",
 		"title": "Amigos"
 	},
 	"modMenu": {
 		"blocked": "Bloqueado",
-		"report": "Relatório",
-		"reported": "Relatado"
+		"report": "Denunciar",
+		"reported": "Denunciado"
 	},
 	"page": {
 		"title": "Amigos"
 	},
 	"profile": {
 		"eyebrow": "Perfil",
-		"itemPlays": "{count, plural, one {# reprodução} other {# reprodução}}",
+		"itemPlays": "{count, plural, one {# reprodução} other {# reproduções}}",
 		"joinedDate": "{date, date, ::yMMMM}",
-		"joinedLabel": "juntou-se a {date}",
+		"joinedLabel": "entrou em {date}",
 		"loadError": "Não foi possível carregar este perfil.",
-		"noActivity": "Nenhuma atividade de escuta ainda.",
-		"notFound": "Nenhum usuário com esse identificador.",
+		"noActivity": "Nenhuma atividade de audição ainda.",
+		"notFound": "Nenhum usuário com esse nome.",
 		"private": {
-			"description": "{name} só compartilha sua audição com amigos.",
+			"description": "{name} compartilha o que ouve apenas com amigos.",
 			"title": "Este perfil é privado"
 		},
-		"recentlyPlayed": "Jogado recentemente",
+		"recentlyPlayed": "Tocados recentemente",
 		"topArtists": "Principais artistas",
 		"topTracks": "Principais faixas",
-		"totalPlays": "{count, plural, one {# reprodução} other {# reprodução}}",
+		"totalPlays": "{count, plural, one {# reprodução} other {# reproduções}}",
 		"totalPlaysCount": "{count}"
 	},
 	"report": {
-		"promptMessage": "Relatório @ {handle} – qual é o problema?"
+		"promptMessage": "Denunciar @{handle} — qual é o problema?"
 	},
 	"requests": {
 		"accept": "Aceitar",
 		"accepting": "Aceitando…",
-		"pendingHeading": "Solicitações pendentes ({count})"
+		"pendingHeading": "Pedidos pendentes ({count})"
 	},
 	"search": {
 		"noResults": "Nenhum usuário encontrado.",
-		"placeholder": "Pesquise por identificador ou nome de exibição…",
-		"searching": "Procurando…"
+		"placeholder": "Buscar por nome de usuário ou nome de exibição…",
+		"searching": "Buscando…"
 	}
 }

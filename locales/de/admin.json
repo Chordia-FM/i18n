@@ -8,27 +8,27 @@
 		"title": "Katalogmetadaten bearbeiten"
 	},
 	"enrichment": {
-		"description": "Rufen Sie Kunstwerke, Künstlerbilder, Biografien, Veröffentlichungsdaten und Genres für alles in Ihren Bibliotheken erneut ab. Nützlich nach dem Hinzufügen von Last.fm-/fanart.tv-API-Schlüsseln. Läuft im Hintergrund und ist geschwindigkeitsbegrenzt, sodass sich eine große Bibliothek nach und nach füllt.",
-		"nothingToRefresh": "Es gibt noch nichts zum Auffrischen.",
+		"description": "Grafiken, Künstlerbilder, Biografien, Veröffentlichungsdaten und Genres für alles in Ihren Bibliotheken erneut abrufen. Nützlich, nachdem Sie API-Schlüssel für Last.fm / fanart.tv hinterlegt haben. Läuft im Hintergrund und unterliegt einer Ratenbegrenzung, sodass sich eine große Bibliothek nach und nach füllt.",
+		"nothingToRefresh": "Es gibt noch nichts zu aktualisieren.",
 		"refetch": "Metadaten erneut abrufen",
-		"refetching": "{count, plural, one {# Element wird im Hintergrund erneut abgerufen…} other {# Elemente werden im Hintergrund erneut abgerufen…}}",
+		"refetching": "{count, plural, one {# Element wird im Hintergrund erneut abgerufen…} other {# Elemente werden im Hintergrund erneut abgerufen…}}",
 		"startFailed": "Start fehlgeschlagen.",
-		"starting": "Beginnend mit …",
-		"title": "Anreicherung von Metadaten"
+		"starting": "Wird gestartet…",
+		"title": "Metadaten-Anreicherung"
 	},
 	"metadata": {
-		"artistSubtitle": "{albumCount, plural, one {# Album} other {# Alben}}·{trackCount, plural, one {# Schiene} other {# Titel}}",
-		"artworkAlt": "Kunstwerk",
-		"artworkLoadError": "Das Bildmaterial konnte nicht geladen werden. Versuchen Sie es erneut.",
+		"artistSubtitle": "{albumCount, plural, one {# Album} other {# Alben}} · {trackCount, plural, one {# Titel} other {# Titel}}",
+		"artworkAlt": "Grafik",
+		"artworkLoadError": "Grafik konnte nicht geladen werden – bitte erneut versuchen.",
 		"bannerLabel": "Banner",
-		"browseArtwork": "Kunstwerke durchsuchen (Symbol + Banner)",
-		"browseCovers": "Durchsuchen Sie Cover",
+		"browseArtwork": "Grafiken durchsuchen (Symbol + Banner)",
+		"browseCovers": "Cover durchsuchen",
 		"browseLogos": "Logos durchsuchen (fanart.tv)",
-		"currentArtistHint": "Momentan{name}. Suchen Sie nach einer Neuzuordnung zu einem anderen Künstler.",
+		"currentArtistHint": "Aktuell: {name}. Suchen Sie, um einem anderen Künstler zuzuordnen.",
 		"editAlbumTitle": "Album bearbeiten (global)",
 		"editArtistTitle": "Künstler bearbeiten (global)",
 		"editLabelTitle": "Label bearbeiten (global)",
-		"editTrackTitle": "Spur bearbeiten (global)",
+		"editTrackTitle": "Titel bearbeiten (global)",
 		"fields": {
 			"bio": "Bio",
 			"defunct": "Nicht mehr aktiv (leer = aktiv)",
@@ -38,43 +38,43 @@
 		"findArtistPlaceholder": "Künstler finden…",
 		"imageFetchFailed": "Das Bild konnte nicht abgerufen werden.",
 		"imageUploadFailed": "Das Hochladen des Bildes ist fehlgeschlagen.",
-		"intro": "Bearbeiten Sie den freigegebenen Katalog, den jeder sieht – benennen Sie einen Künstler, ein Album oder einen Titel um, ersetzen Sie dessen Cover oder weisen Sie eine Veröffentlichung einem anderen Künstler zu. Diese Änderungen sind global und dauerhaft (im Gegensatz zu Änderungen pro Bibliothek). Jede Änderung wird im Audit-Log aufgezeichnet.",
-		"labelLoadError": "Das Etikett konnte nicht geladen werden.",
+		"intro": "Bearbeiten Sie den gemeinsamen Katalog, den alle sehen – benennen Sie einen Künstler, ein Album oder einen Titel um, ersetzen Sie die Grafik oder ordnen Sie eine Veröffentlichung einem anderen Künstler zu. Diese Änderungen sind global und dauerhaft (anders als Änderungen pro Bibliothek). Jede Änderung wird im Audit-Protokoll festgehalten.",
+		"labelLoadError": "Das Label konnte nicht geladen werden.",
 		"labelSubtitle": "{count, plural, one {# Album} other {# Alben}}",
 		"loadError": "Die aktuellen Metadaten konnten nicht geladen werden.",
 		"logoAlt": "Logo",
 		"logoUploadFailed": "Das Hochladen des Logos ist fehlgeschlagen.",
-		"noAlbumCovers": "Keine Cover gefunden – das Album benötigt eine Übereinstimmung mit MusicBrainz.",
-		"noArtistArtwork": "Kein Online-Kunstwerk gefunden – benötigt einen fanart.tv-Schlüssel + ein MusicBrainz-Match.",
+		"noAlbumCovers": "Keine Cover gefunden – das Album benötigt eine MusicBrainz-Zuordnung.",
+		"noArtistArtwork": "Keine Online-Grafiken gefunden – dafür sind ein fanart.tv-Schlüssel und eine MusicBrainz-Zuordnung nötig.",
 		"noArtistsFound": "Keine Künstler gefunden.",
-		"noLogos": "Keine Logos gefunden – benötigt einen fanart.tv-Schlüssel + ein MusicBrainz-Match.",
-		"noMatches": "Keine Übereinstimmungen.",
-		"reattributeTo": "Neu zuordnen{name}",
-		"searchPlaceholder": "Suchen Sie nach Künstlern, Alben oder Titeln ...",
+		"noLogos": "Keine Logos gefunden – dafür sind ein fanart.tv-Schlüssel und eine MusicBrainz-Zuordnung nötig.",
+		"noMatches": "Keine Treffer.",
+		"reattributeTo": "Neu zuordnen zu {name}",
+		"searchPlaceholder": "Künstler, Alben oder Titel suchen…",
 		"uploadBanner": "Banner hochladen",
 		"uploadCover": "Cover hochladen",
-		"uploadIcon": "Hochladen-Symbol",
+		"uploadIcon": "Symbol hochladen",
 		"uploadLogo": "Logo hochladen",
-		"useThisArt": "Benutzen Sie dies{kind}",
-		"useThisLogo": "Verwenden Sie dieses Logo"
+		"useThisArt": "{kind} verwenden",
+		"useThisLogo": "Logo verwenden"
 	},
 	"noAccess": {
 		"backToApp": "Zurück zur App",
-		"body": "Sie haben keinen Zugriff auf die Site-Administration.{link}.",
+		"body": "Sie haben keinen Zugriff auf die Site-Administration. {link}.",
 		"title": "Admin"
 	},
 	"reports": {
 		"createdAt": "{date}",
-		"dismiss": "Zurückweisen",
-		"empty": "Keine offenen Berichte.",
-		"resolve": "Lösen",
-		"title": "Berichte",
-		"titleWithCount": "{count, plural, one {Berichte (# offen)} other {Berichte (# offen)}}"
+		"dismiss": "Verwerfen",
+		"empty": "Keine offenen Meldungen.",
+		"resolve": "Erledigen",
+		"title": "Meldungen",
+		"titleWithCount": "{count, plural, one {Meldungen (# offen)} other {Meldungen (# offen)}}"
 	},
 	"suggestions": {
 		"approve": "Genehmigen",
 		"current": "Aktuell",
-		"deny": "Leugnen",
+		"deny": "Ablehnen",
 		"empty": "Keine ausstehenden Vorschläge.",
 		"field": {
 			"banner": "Banner",
@@ -83,21 +83,21 @@
 			"image": "Bild",
 			"name": "Name"
 		},
-		"none": "Keiner",
-		"suggested": "Empfohlen",
-		"title": "Vorschläge für Metadaten",
-		"titleWithCount": "{count, plural, one {Metadatenvorschläge (# ausstehend)} other {Metadatenvorschläge (# ausstehend)}}"
+		"none": "Keine",
+		"suggested": "Vorgeschlagen",
+		"title": "Metadaten-Vorschläge",
+		"titleWithCount": "{count, plural, one {Metadaten-Vorschläge (# ausstehend)} other {Metadaten-Vorschläge (# ausstehend)}}"
 	},
 	"title": "Site-Administration",
 	"users": {
-		"deleteConfirm": "@ dauerhaft löschen{handle}und ALLE ihre Daten? Dies kann nicht rückgängig gemacht werden.",
+		"deleteConfirm": "@{handle} und ALLE zugehörigen Daten dauerhaft löschen? Dies kann nicht rückgängig gemacht werden.",
 		"deleteTitle": "Benutzer löschen",
-		"searchPlaceholder": "Suchhandle, E-Mail oder Name ...",
-		"suspend": "Aussetzen",
-		"suspendConfirm": "Unterbrechen @{handle}? Sie werden abgemeldet und können sich nicht anmelden.",
+		"searchPlaceholder": "Handle, E-Mail oder Name suchen…",
+		"suspend": "Sperren",
+		"suspendConfirm": "@{handle} sperren? Die Person wird abgemeldet und kann sich nicht mehr anmelden.",
 		"suspendTitle": "Benutzer sperren",
-		"suspendedBadge": "ausgesetzt",
+		"suspendedBadge": "gesperrt",
 		"title": "Benutzer",
-		"unsuspend": "Suspendierung aufheben"
+		"unsuspend": "Entsperren"
 	}
 }

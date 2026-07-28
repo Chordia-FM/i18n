@@ -1,105 +1,105 @@
 {
 	"actions": {
-		"rename": "이름 변경 플레이리스트"
+		"rename": "플레이리스트 이름 변경"
 	},
-	"addError": "Couldn't add 으로 플레이리스트",
-	"addToNamed": "Add 으로 {playlist}",
-	"addToPlaylist": "Add 으로 플레이리스트",
-	"addedToast": "추가됨 으로 {playlist}",
+	"addError": "플레이리스트에 추가하지 못했습니다",
+	"addToNamed": "{playlist}에 추가",
+	"addToPlaylist": "플레이리스트에 추가",
+	"addedToast": "{playlist}에 추가함",
 	"collaborators": {
-		"addError": "Couldn't add 해당 collaborator",
-		"collaborative": "협력",
+		"addError": "공동 작업자를 추가하지 못했습니다",
+		"collaborative": "공동 작업",
 		"invite": "+ 초대",
-		"invitePrompt": "Invite collaborator 기준 handle",
-    "invited": "초대됨 @{handle}",
-		"justYou": "너뿐이야",
-		"removeTitle": "삭제 {name}",
-		"removed": "삭제d {name}"
+		"invitePrompt": "사용자 이름으로 공동 작업자를 초대하세요",
+		"invited": "@{handle}님을 초대함",
+		"justYou": "회원님만",
+		"removeTitle": "{name} 제거",
+		"removed": "{name} 제거함"
 	},
 	"confirm": {
-		"deleteMessage": "삭제 \"{name}\"?",
-		"deleteTitle": "삭제 플레이리스트"
+		"deleteMessage": "\"{name}\"을(를) 삭제할까요?",
+		"deleteTitle": "플레이리스트 삭제"
 	},
 	"cover": {
 		"change": "이미지 변경",
-		"remove": "삭제 이미지"
+		"remove": "이미지 제거"
 	},
 	"delete": {
-		"confirmBody": "삭제 이 플레이리스트?",
-		"title": "삭제 플레이리스트"
+		"confirmBody": "이 플레이리스트를 삭제할까요?",
+		"title": "플레이리스트 삭제"
 	},
-	"empty": "이 플레이리스트 is empty. Add 노래 에서 the “⋯” menu 에 any 트랙.",
-	"kindLabel": "재생list",
+	"empty": "플레이리스트가 비어 있습니다. 트랙의 “⋯” 메뉴에서 곡을 추가하세요.",
+	"kindLabel": "플레이리스트",
 	"leave": {
-		"confirmBody": "Leave 이 collaborative 플레이리스트?",
+		"confirmBody": "이 공동 작업 플레이리스트에서 나갈까요?",
 		"confirmLabel": "나가기",
-		"title": "Leave 플레이리스트"
+		"title": "플레이리스트 나가기"
 	},
-	"menuEmpty": "없음 플레이리스트",
-	"new": "새 항목 플레이리스트",
+	"menuEmpty": "플레이리스트 없음",
+	"new": "새 플레이리스트",
 	"prompt": {
-		"newName": "재생list 이름",
-		"rename": "이름 변경 플레이리스트"
+		"newName": "플레이리스트 이름",
+		"rename": "플레이리스트 이름 변경"
 	},
-	"removeFromPlaylist": "삭제 에서 플레이리스트",
-	"sharedWithYou": " · shared 함께 you",
+	"removeFromPlaylist": "플레이리스트에서 제거",
+	"sharedWithYou": " · 공유받음",
 	"smart": {
 		"addRule": "규칙 추가",
-		"autoUpdating": " · 자동 업데이트 중",
+		"autoUpdating": " · 자동 업데이트",
 		"bool": {
 			"false": "거짓",
 			"true": "참"
 		},
-		"created": "Smart 플레이리스트 created",
+		"created": "스마트 플레이리스트를 만들었습니다",
 		"delete": {
-			"confirmBody": "삭제 이 smart 플레이리스트?",
-			"title": "삭제 smart 플레이리스트"
+			"confirmBody": "이 스마트 플레이리스트를 삭제할까요?",
+			"title": "스마트 플레이리스트 삭제"
 		},
-		"description": "Rules resolve 으로 matching 트랙 automatically.",
-		"editRules": "편집 rules",
-		"editTitle": "편집 smart 플레이리스트",
-		"empty": "없음 트랙 match these rules yet. Try loosening them 함께 “편집 rules”.",
+		"description": "규칙에 맞는 트랙이 자동으로 채워집니다.",
+		"editRules": "규칙 편집",
+		"editTitle": "스마트 플레이리스트 편집",
+		"empty": "아직 이 규칙에 맞는 트랙이 없습니다. “규칙 편집”에서 조건을 완화해 보세요.",
 		"field": {
 			"album": "앨범",
 			"artist": "아티스트",
 			"genre": "장르",
 			"liked": "좋아요",
-			"plays": "재생",
+			"plays": "재생 횟수",
 			"title": "제목",
 			"year": "연도"
 		},
-		"kindLabel": "Smart 플레이리스트",
-		"limit": "한계",
-		"match": "경기",
+		"kindLabel": "스마트 플레이리스트",
+		"limit": "개수 제한",
+		"match": "다음 규칙 중",
 		"matchMode": {
 			"all": "모두",
-			"any": "모든"
+			"any": "하나라도"
 		},
-		"namePlaceholder": "재생list 이름",
-		"new": "새 항목 smart 플레이리스트",
-		"newTitle": "새 항목 smart 플레이리스트",
-		"ofTheseRules": "의 these rules:",
+		"namePlaceholder": "플레이리스트 이름",
+		"new": "새 스마트 플레이리스트",
+		"newTitle": "새 스마트 플레이리스트",
+		"ofTheseRules": "일치하는 트랙:",
 		"op": {
 			"contains": "포함",
-			"equals": "는",
-			"is": "는"
+			"equals": "일치",
+			"is": "일치"
 		},
-		"removeRule": "삭제 rule",
-		"saveError": "Couldn't 저장 smart 플레이리스트",
+		"removeRule": "규칙 제거",
+		"saveError": "스마트 플레이리스트를 저장하지 못했습니다",
 		"sort": {
-			"plays": "재생",
-			"random": "임의",
+			"plays": "재생 횟수",
+			"random": "무작위",
 			"title": "제목"
 		},
-		"sortBy": "Sort 기준",
-		"updated": "Smart 플레이리스트 updated",
+		"sortBy": "정렬 기준",
+		"updated": "스마트 플레이리스트를 업데이트했습니다",
 		"valuePlaceholder": "값"
 	},
-	"songCount": "{count, plural, 기타 {# songs}}",
+	"songCount": "{count, plural, other {#곡}}",
 	"toast": {
-		"createFailed": "Couldn't 생성 플레이리스트",
-    "created": "\"{name}\" 생성됨",
-		"deleteFailed": "Couldn't delete 플레이리스트",
-		"deleted": "삭제d \"{name}\""
+		"createFailed": "플레이리스트를 만들지 못했습니다",
+		"created": "\"{name}\"을(를) 만들었습니다",
+		"deleteFailed": "플레이리스트를 삭제하지 못했습니다",
+		"deleted": "\"{name}\"을(를) 삭제했습니다"
 	}
 }

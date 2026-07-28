@@ -8,32 +8,32 @@
 		"morning": "Buenos días"
 	},
 	"home": {
-		"emptyState": "Nothing aquí aún - pair un biblioteca servidor y tu catalog will appear."
+		"emptyState": "Aquí no hay nada todavía: empareja un servidor de biblioteca y tu catálogo aparecerá."
 	},
 	"jumpBackIn": {
-		"emptyState": "Things you've reproducido recently will mostrar subir aquí.",
+		"emptyState": "Lo que hayas escuchado hace poco aparecerá aquí.",
 		"title": "Volver a escuchar"
 	},
 	"madeForYou": {
-		"emptyState": "Listen a más música y tu daily mixes will appear aquí.",
+		"emptyState": "Escucha más música y tus mezclas diarias aparecerán aquí.",
 		"title": "Hecho para ti"
 	},
 	"mix": {
-		"noTracksToast": "Este mix has no playable pistas aún",
+		"noTracksToast": "Esta mezcla aún no tiene pistas reproducibles",
 		"playTitle": "Reproducir {title}",
 		"playingToast": "Reproduciendo {title}"
 	},
 	"radio": {
 		"label": "Radio",
-		"pin": "Fijar radio"
+		"pin": "Fijar la radio"
 	},
 	"shelf": {
 		"jumpBackIn": "Volver a escuchar",
-		"madeFor": "Made para {name}",
-		"madeForYou": "tú",
+		"madeFor": "Hecho para {name}",
+		"madeForYou": "ti",
 		"recommended": "Recomendado para ti",
 		"trendingAlbums": "Álbumes en tendencia",
 		"trendingArtists": "Artistas en tendencia",
-		"yourLibraries": "Tu bibliotecas"
+		"yourLibraries": "Tus bibliotecas"
 	}
 }

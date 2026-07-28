@@ -1,24 +1,24 @@
 {
 	"actions": {
-		"rename": "Renommer la liste de lecture"
+		"rename": "Renommer la playlist"
 	},
 	"addError": "Impossible d'ajouter à la playlist",
 	"addToNamed": "Ajouter à {playlist}",
-	"addToPlaylist": "Ajouter à la playlist",
+	"addToPlaylist": "Ajouter à une playlist",
 	"addedToast": "Ajouté à {playlist}",
 	"collaborators": {
 		"addError": "Impossible d'ajouter ce collaborateur",
-		"collaborative": "Collaboratif",
+		"collaborative": "Collaborative",
 		"invite": "+ Inviter",
 		"invitePrompt": "Inviter un collaborateur par identifiant",
-		"invited": "Invité @{handle}",
-		"justYou": "Juste toi",
-		"removeTitle": "Supprimer {name}",
-		"removed": "{name} supprimé"
+		"invited": "@{handle} invité",
+		"justYou": "Vous seul",
+		"removeTitle": "Retirer {name}",
+		"removed": "{name} retiré"
 	},
 	"confirm": {
-		"deleteMessage": "Supprimer \"{name}\" ?",
-		"deleteTitle": "Supprimer la liste de lecture"
+		"deleteMessage": "Supprimer « {name} » ?",
+		"deleteTitle": "Supprimer la playlist"
 	},
 	"cover": {
 		"change": "Changer l'image",
@@ -26,26 +26,26 @@
 	},
 	"delete": {
 		"confirmBody": "Supprimer cette playlist ?",
-		"title": "Supprimer la liste de lecture"
+		"title": "Supprimer la playlist"
 	},
-	"empty": "Cette playlist est vide. Ajoutez des chansons du menu «⋯» sur n'importe quelle piste.",
-	"kindLabel": "Liste de lecture",
+	"empty": "Cette playlist est vide. Ajoutez des chansons depuis le menu « ⋯ » de n'importe quel morceau.",
+	"kindLabel": "Playlist",
 	"leave": {
 		"confirmBody": "Quitter cette playlist collaborative ?",
-		"confirmLabel": "Partir",
+		"confirmLabel": "Quitter",
 		"title": "Quitter la playlist"
 	},
-	"menuEmpty": "Aucune liste de lecture",
-	"new": "Nouvelle liste de lecture",
+	"menuEmpty": "Aucune playlist",
+	"new": "Nouvelle playlist",
 	"prompt": {
-		"newName": "Nom de la liste de lecture",
-		"rename": "Renommer la liste de lecture"
+		"newName": "Nom de la playlist",
+		"rename": "Renommer la playlist"
 	},
-	"removeFromPlaylist": "Supprimer de la playlist",
-	"sharedWithYou": "· partagé avec vous",
+	"removeFromPlaylist": "Retirer de la playlist",
+	"sharedWithYou": " · partagée avec vous",
 	"smart": {
 		"addRule": "Ajouter une règle",
-		"autoUpdating": "· mise à jour automatique",
+		"autoUpdating": " · mise à jour automatique",
 		"bool": {
 			"false": "faux",
 			"true": "vrai"
@@ -55,39 +55,39 @@
 			"confirmBody": "Supprimer cette playlist intelligente ?",
 			"title": "Supprimer la playlist intelligente"
 		},
-		"description": "Les règles sont automatiquement résolues en pistes correspondantes.",
+		"description": "Les règles sélectionnent automatiquement les morceaux correspondants.",
 		"editRules": "Modifier les règles",
-		"editTitle": "Modifier une liste de lecture intelligente",
-		"empty": "Aucune piste ne correspond encore à ces règles. Essayez de les assouplir avec « Modifier les règles ».",
+		"editTitle": "Modifier la playlist intelligente",
+		"empty": "Aucun morceau ne correspond encore à ces règles. Essayez de les assouplir avec « Modifier les règles ».",
 		"field": {
 			"album": "Album",
 			"artist": "Artiste",
 			"genre": "Genre",
-			"liked": "J'ai aimé",
-			"plays": "Pièces",
+			"liked": "Aimé",
+			"plays": "Écoutes",
 			"title": "Titre",
 			"year": "Année"
 		},
-		"kindLabel": "Liste de lecture intelligente",
+		"kindLabel": "Playlist intelligente",
 		"limit": "Limite",
-		"match": "Correspondance",
+		"match": "Correspond à",
 		"matchMode": {
-			"all": "tout",
-			"any": "n'importe quel"
+			"all": "toutes les règles",
+			"any": "au moins une règle"
 		},
-		"namePlaceholder": "Nom de la liste de lecture",
+		"namePlaceholder": "Nom de la playlist",
 		"new": "Nouvelle playlist intelligente",
 		"newTitle": "Nouvelle playlist intelligente",
-		"ofTheseRules": "de ces règles :",
+		"ofTheseRules": "ci-dessous :",
 		"op": {
 			"contains": "contient",
 			"equals": "est",
 			"is": "est"
 		},
 		"removeRule": "Supprimer la règle",
-		"saveError": "Impossible d'enregistrer la liste de lecture intelligente",
+		"saveError": "Impossible d'enregistrer la playlist intelligente",
 		"sort": {
-			"plays": "Pièces",
+			"plays": "Écoutes",
 			"random": "Aléatoire",
 			"title": "Titre"
 		},
@@ -97,9 +97,9 @@
 	},
 	"songCount": "{count, plural, one {# chanson} other {# chansons}}",
 	"toast": {
-		"createFailed": "Impossible de créer une playlist",
-		"created": "Créé \"{name}\"",
+		"createFailed": "Impossible de créer la playlist",
+		"created": "« {name} » créée",
 		"deleteFailed": "Impossible de supprimer la playlist",
-		"deleted": "\"{name}\" supprimé"
+		"deleted": "« {name} » supprimée"
 	}
 }

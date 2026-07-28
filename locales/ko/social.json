@@ -1,59 +1,59 @@
 {
 	"block": {
-		"confirmLabel": "블록",
-		"confirmMessage": "Block @{handle}? 회원님 won't be able 으로 add each 기타 as 친구.",
+		"confirmLabel": "차단",
+		"confirmMessage": "@{handle}님을 차단할까요? 서로 친구로 추가할 수 없게 됩니다.",
 		"confirmTitle": "사용자 차단"
 	},
 	"discovery": {
-		"addFriend": "Add 친구",
+		"addFriend": "친구 추가",
 		"friendsStatus": "친구",
-		"requestSent": "요청 전송됨",
-		"sending": "전송 중…"
+		"requestSent": "요청 보냄",
+		"sending": "보내는 중…"
 	},
 	"friends": {
 		"confirmRemove": "확인?",
-		"empty": "없음 친구 yet - 검색 으로 add some",
+		"empty": "아직 친구가 없습니다 - 검색해서 추가해 보세요",
 		"heading": "친구 ({count})",
-		"removing": "제거 중...",
+		"removing": "제거 중…",
 		"title": "친구"
 	},
 	"modMenu": {
 		"blocked": "차단됨",
 		"report": "신고",
-		"reported": "신고ed"
+		"reported": "신고됨"
 	},
 	"page": {
 		"title": "친구"
 	},
 	"profile": {
 		"eyebrow": "프로필",
-		"itemPlays": "{count, plural, 기타 {# plays}}",
+		"itemPlays": "{count, plural, other {#회 재생}}",
 		"joinedDate": "{date, date, ::yMMMM}",
-    "joinedLabel": "{date}에 가입",
-		"loadError": "Couldn't load 이 profile.",
-		"noActivity": "없음 감상 활동 yet.",
-		"notFound": "없음 user 함께 해당 handle.",
+		"joinedLabel": "{date} 가입",
+		"loadError": "이 프로필을 불러오지 못했습니다.",
+		"noActivity": "아직 감상 활동이 없습니다.",
+		"notFound": "해당 사용자 이름을 가진 사용자가 없습니다.",
 		"private": {
-			"description": "{name} only shares their 감상 함께 친구.",
-			"title": "이 profile is 비공개"
+			"description": "{name}님은 친구에게만 감상 활동을 공개합니다.",
+			"title": "비공개 프로필입니다"
 		},
-		"recentlyPlayed": "최근 재생됨",
+		"recentlyPlayed": "최근 재생",
 		"topArtists": "인기 아티스트",
-		"topTracks": "인기 트랙s",
-		"totalPlays": "{count, plural, 기타 {# plays}}",
+		"topTracks": "인기 트랙",
+		"totalPlays": "{count, plural, other {#회 재생}}",
 		"totalPlaysCount": "{count}"
 	},
 	"report": {
-		"promptMessage": "신고 @{handle} — what's issue?"
+		"promptMessage": "@{handle}님 신고 — 무엇이 문제인가요?"
 	},
 	"requests": {
 		"accept": "수락",
 		"accepting": "수락 중…",
-    "pendingHeading": "대기 중인 요청 ({count})"
+		"pendingHeading": "대기 중인 요청 ({count})"
 	},
 	"search": {
-		"noResults": "없음 users found.",
-		"placeholder": "검색 기준 handle 또는 display 이름…",
-		"searching": "검색ing…"
+		"noResults": "사용자를 찾을 수 없습니다.",
+		"placeholder": "사용자 이름 또는 표시 이름으로 검색…",
+		"searching": "검색 중…"
 	}
 }

@@ -1,23 +1,23 @@
 {
 	"actions": {
-		"rename": "Cambiar nombre lista"
+		"rename": "Cambiar el nombre de la lista"
 	},
-	"addError": "No se pudo añadir a lista",
+	"addError": "No se pudo añadir a la lista",
 	"addToNamed": "Añadir a {playlist}",
-	"addToPlaylist": "Añadir a la lista",
-	"addedToast": "Added a {playlist}",
+	"addToPlaylist": "Añadir a una lista",
+	"addedToast": "Añadido a {playlist}",
 	"collaborators": {
-		"addError": "No se pudo añadir ese collaborator",
+		"addError": "No se pudo añadir a ese colaborador",
 		"collaborative": "Colaborativa",
 		"invite": "+ Invitar",
-		"invitePrompt": "Invite un collaborator por handle",
-		"invited": "Invitado @{handle}",
-		"justYou": "Just tú",
-		"removeTitle": "Quitar {name}",
-		"removed": "Se eliminó a {name}"
+		"invitePrompt": "Invita a un colaborador por su nombre de usuario",
+		"invited": "Invitaste a @{handle}",
+		"justYou": "Solo tú",
+		"removeTitle": "Quitar a {name}",
+		"removed": "Se quitó a {name}"
 	},
 	"confirm": {
-		"deleteMessage": "Eliminar \"{name}\"?",
+		"deleteMessage": "¿Eliminar «{name}»?",
 		"deleteTitle": "Eliminar lista"
 	},
 	"cover": {
@@ -25,81 +25,81 @@
 		"remove": "Quitar imagen"
 	},
 	"delete": {
-		"confirmBody": "Eliminar este lista?",
+		"confirmBody": "¿Eliminar esta lista?",
 		"title": "Eliminar lista"
 	},
-	"empty": "Este lista is vacío. Añadir canciones desde el “⋯” menu en any pista.",
-	"kindLabel": "Lista",
+	"empty": "Esta lista está vacía. Añade canciones desde el menú “⋯” de cualquier pista.",
+	"kindLabel": "Lista de reproducción",
 	"leave": {
-		"confirmBody": "Salir este collaborative lista?",
+		"confirmBody": "¿Salir de esta lista colaborativa?",
 		"confirmLabel": "Salir",
-		"title": "Salir lista"
+		"title": "Salir de la lista"
 	},
-	"menuEmpty": "No listas",
+	"menuEmpty": "No hay listas",
 	"new": "Nueva lista",
 	"prompt": {
-		"newName": "Lista nombre",
-		"rename": "Cambiar nombre lista"
+		"newName": "Nombre de la lista",
+		"rename": "Cambiar el nombre de la lista"
 	},
 	"removeFromPlaylist": "Quitar de la lista",
-	"sharedWithYou": " · compartido con tú",
+	"sharedWithYou": " · compartida contigo",
 	"smart": {
-		"addRule": "Añadir rule",
-		"autoUpdating": " · actualización automática",
+		"addRule": "Añadir regla",
+		"autoUpdating": " · se actualiza sola",
 		"bool": {
 			"false": "falso",
 			"true": "verdadero"
 		},
-		"created": "Lista inteligente created",
+		"created": "Lista inteligente creada",
 		"delete": {
-			"confirmBody": "Eliminar este smart lista?",
-			"title": "Eliminar smart lista"
+			"confirmBody": "¿Eliminar esta lista inteligente?",
+			"title": "Eliminar lista inteligente"
 		},
-		"description": "Rules resolve a matching pistas automatically.",
-		"editRules": "Editar rules",
+		"description": "Las reglas seleccionan automáticamente las pistas que coinciden.",
+		"editRules": "Editar reglas",
 		"editTitle": "Editar lista inteligente",
-		"empty": "No pistas match these rules aún. Try loosening ellos con “Editar rules”.",
+		"empty": "Todavía no hay pistas que cumplan estas reglas. Prueba a relajarlas con “Editar reglas”.",
 		"field": {
 			"album": "Álbum",
 			"artist": "Artista",
 			"genre": "Género",
-			"liked": "Que te gustan",
+			"liked": "Me gusta",
 			"plays": "Reproducciones",
 			"title": "Título",
 			"year": "Año"
 		},
 		"kindLabel": "Lista inteligente",
 		"limit": "Límite",
-		"match": "Coincidir",
+		"match": "Coincide con",
 		"matchMode": {
-			"all": "todos",
+			"all": "cada una",
 			"any": "cualquiera"
 		},
-		"namePlaceholder": "Lista nombre",
+		"namePlaceholder": "Nombre de la lista",
 		"new": "Nueva lista inteligente",
 		"newTitle": "Nueva lista inteligente",
-		"ofTheseRules": "de these rules:",
+		"ofTheseRules": "de estas reglas:",
 		"op": {
 			"contains": "contiene",
 			"equals": "es",
 			"is": "es"
 		},
-		"removeRule": "Quitar rule",
-		"saveError": "No se pudo guardar el smart lista",
+		"removeRule": "Quitar regla",
+		"saveError": "No se pudo guardar la lista inteligente",
 		"sort": {
 			"plays": "Reproducciones",
 			"random": "Aleatorio",
 			"title": "Título"
 		},
-		"sortBy": "Sort por",
-		"updated": "Lista inteligente updated",
+		"sortBy": "Ordenar por",
+		"updated": "Lista inteligente actualizada",
 		"valuePlaceholder": "valor"
 	},
-	"songCount": "{count, plural, one {# song} other {# songs}}",
+	"songCount": "{count, plural, one {# canción} other {# canciones}}",
 	"toast": {
-		"createFailed": "No se pudo crear lista",
-		"created": "Se creó \"{name}\"",
-		"deleteFailed": "No se pudo eliminar lista",
-		"deleted": "Se eliminó \"{name}\""
+		"createFailed": "No se pudo crear la lista",
+		"created": "Se creó «{name}»",
+		"deleteFailed": "No se pudo eliminar la lista",
+		"deleted": "Se eliminó «{name}»"
 	}
 }

@@ -8,29 +8,29 @@
 		"morning": "좋은 아침입니다"
 	},
 	"home": {
-		"emptyState": "Nothing here yet - pair 라이브러리 server 및 내 catalog will appear."
+		"emptyState": "아직 아무것도 없습니다 - 라이브러리 서버를 연결하면 카탈로그가 표시됩니다."
 	},
 	"jumpBackIn": {
-		"emptyState": "Things you've played recently will 표시 up here.",
+		"emptyState": "최근에 재생한 항목이 여기에 표시됩니다.",
 		"title": "다시 듣기"
 	},
 	"madeForYou": {
-		"emptyState": "감상 으로 more 음악 및 내 daily mixes will appear here.",
+		"emptyState": "음악을 더 들으면 데일리 믹스가 여기에 표시됩니다.",
 		"title": "맞춤 추천"
 	},
 	"mix": {
-		"noTracksToast": "이 mix has 없음 playable 트랙 yet",
-		"playTitle": "재생 {title}",
-		"playingToast": "재생ing {title}"
+		"noTracksToast": "이 믹스에는 아직 재생할 수 있는 트랙이 없습니다",
+		"playTitle": "{title} 재생",
+		"playingToast": "{title} 재생 중"
 	},
 	"radio": {
 		"label": "라디오",
-		"pin": "고정 radio"
+		"pin": "라디오 고정"
 	},
 	"shelf": {
 		"jumpBackIn": "다시 듣기",
-		"madeFor": "Made 용 {name}",
-		"madeForYou": "당신",
+		"madeFor": "{name} 맞춤 추천",
+		"madeForYou": "회원님",
 		"recommended": "회원님을 위한 추천",
 		"trendingAlbums": "인기 앨범",
 		"trendingArtists": "인기 아티스트",

@@ -1,54 +1,54 @@
 {
 	"a11y": {
-		"dismissNotification": "Benachrichtigung verwerfen",
-		"playTrack": "Spielen{title}"
+		"dismissNotification": "Benachrichtigung schließen",
+		"playTrack": "{title} abspielen"
 	},
 	"actions": {
-		"cancel": "Stornieren",
+		"cancel": "Abbrechen",
 		"changeImage": "Bild ändern",
-		"clearAll": "Alles löschen",
+		"clearAll": "Alle löschen",
 		"close": "Schließen",
 		"confirm": "Bestätigen",
 		"delete": "Löschen",
-		"done": "Erledigt",
+		"done": "Fertig",
 		"download": "Herunterladen",
 		"edit": "Bearbeiten",
 		"find": "Finden",
-		"goHome": "Nach Hause gehen",
+		"goHome": "Zur Startseite",
 		"more": "Mehr",
-		"moveDown": "Bewegen Sie sich nach unten",
-		"moveUp": "Bewegen Sie sich nach oben",
+		"moveDown": "Nach unten",
+		"moveUp": "Nach oben",
 		"ok": "OK",
-		"open": "Offen",
-		"pin": "Stift",
-		"play": "Spielen",
+		"open": "Öffnen",
+		"pin": "Anheften",
+		"play": "Abspielen",
 		"remove": "Entfernen",
 		"rename": "Umbenennen",
 		"reset": "Zurücksetzen",
 		"save": "Speichern",
 		"search": "Suchen",
 		"seeAll": "Alle anzeigen",
-		"seeMore": "Mehr sehen",
-		"share": "Aktie",
+		"seeMore": "Mehr ansehen",
+		"share": "Teilen",
 		"showLess": "Weniger anzeigen",
 		"showMore": "Mehr anzeigen",
 		"signOut": "Abmelden",
-		"tryAgain": "Versuchen Sie es erneut",
-		"undo": "Rückgängig machen",
-		"unpin": "Lösen",
+		"tryAgain": "Erneut versuchen",
+		"undo": "Rückgängig",
+		"unpin": "Nicht mehr anheften",
 		"verify": "Verifizieren"
 	},
 	"appName": "Chordia",
 	"commandPalette": {
 		"hint": {
-			"go": "Gehen",
-			"open": "Offen",
-			"play": "Spielen"
+			"go": "Wechseln",
+			"open": "Öffnen",
+			"play": "Abspielen"
 		},
-		"noMatches": "Keine Übereinstimmungen.",
-		"placeholder": "Suchen Sie nach Musik oder springen Sie zu einer Seite ...",
+		"noMatches": "Keine Treffer.",
+		"placeholder": "Musik suchen oder zu einer Seite springen…",
 		"title": "Befehlspalette",
-		"typeToSearch": "Geben Sie ein, um zu suchen."
+		"typeToSearch": "Tippen, um zu suchen."
 	},
 	"error": {
 		"failedToLoad": "Laden fehlgeschlagen"
@@ -60,7 +60,7 @@
 		"artist": "Künstler",
 		"country": "Land",
 		"description": "Beschreibung",
-		"label": "Etikett",
+		"label": "Label",
 		"name": "Name",
 		"title": "Titel",
 		"type": "Typ",
@@ -68,45 +68,45 @@
 	},
 	"fileBrowser": {
 		"browse": "Durchsuchen",
-		"goUp": "Steigen",
-		"useThisFolder": "Verwenden Sie diesen Ordner"
+		"goUp": "Nach oben",
+		"useThisFolder": "Diesen Ordner verwenden"
 	},
 	"keybinds": {
 		"closeDialog": "Dialog schließen",
 		"commandPalette": "Befehlspalette",
-		"help": "Tastaturkürzel",
+		"help": "Tastenkürzel",
 		"quickSearch": "Schnellsuche",
 		"section": {
 			"general": "Allgemein",
 			"navigation": "Navigation",
-			"player": "Spieler"
+			"player": "Player"
 		},
-		"toggleRightSidebar": "Rechte Seitenleiste umschalten"
+		"toggleRightSidebar": "Rechte Seitenleiste ein-/ausblenden"
 	},
 	"language": {
-		"description": "Sprache, die auf der gesamten Benutzeroberfläche verwendet wird.",
+		"description": "Sprache der gesamten Benutzeroberfläche.",
 		"label": "Sprache"
 	},
 	"nav": {
 		"allLibraries": "Alle Bibliotheken",
 		"friends": "Freunde",
-		"home": "Heim",
+		"home": "Start",
 		"library": "Bibliothek",
 		"listen": "Hören",
-		"search": "Suchen",
+		"search": "Suche",
 		"settings": "Einstellungen",
-		"signIn": "anmelden"
+		"signIn": "Anmelden"
 	},
 	"notFound": {
 		"body": "Diese Seite existiert nicht.",
-		"goHome": "Nach Hause gehen",
+		"goHome": "Zur Startseite",
 		"title": "Seite nicht gefunden"
 	},
 	"or": "oder",
 	"sidebar": {
 		"collapse": "Seitenleiste einklappen",
-		"expand": "Seitenleiste erweitern",
-		"resize": "Größe der Seitenleiste ändern"
+		"expand": "Seitenleiste ausklappen",
+		"resize": "Breite der Seitenleiste ändern"
 	},
 	"image": {
 		"adjust": "Anpassen",
@@ -115,24 +115,24 @@
 		"rotateRight": "Nach rechts drehen",
 		"flipHorizontal": "Horizontal spiegeln",
 		"flipVertical": "Vertikal spiegeln",
-		"hint": "Zum Neupositionieren ziehen · Vergrößern zum Neurahmen",
+		"hint": "Ziehen zum Verschieben · zoomen für einen neuen Ausschnitt",
 		"reset": "Zurücksetzen",
 		"zoom": "Zoom"
 	},
 	"state": {
-		"loading": "Laden…",
+		"loading": "Wird geladen…",
 		"off": "Aus",
 		"on": "An"
 	},
 	"states": {
-		"loading": "Laden…",
+		"loading": "Wird geladen…",
 		"off": "Aus",
-		"saving": "Sparen…",
-		"verifying": "Überprüfen…"
+		"saving": "Wird gespeichert…",
+		"verifying": "Wird überprüft…"
 	},
 	"status": {
 		"saved": "Gespeichert",
-		"sending": "Senden…"
+		"sending": "Wird gesendet…"
 	},
 	"update": {
 		"available": "Eine neue Version ist verfügbar.",

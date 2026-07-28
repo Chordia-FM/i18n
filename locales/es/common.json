@@ -6,7 +6,7 @@
 	"actions": {
 		"cancel": "Cancelar",
 		"changeImage": "Cambiar imagen",
-		"clearAll": "Borrar todos",
+		"clearAll": "Borrar todo",
 		"close": "Cerrar",
 		"confirm": "Confirmar",
 		"delete": "Eliminar",
@@ -16,8 +16,8 @@
 		"find": "Buscar",
 		"goHome": "Ir al inicio",
 		"more": "Más",
-		"moveDown": "Mover bajar",
-		"moveUp": "Mover subir",
+		"moveDown": "Bajar",
+		"moveUp": "Subir",
 		"ok": "Aceptar",
 		"open": "Abrir",
 		"pin": "Fijar",
@@ -33,9 +33,9 @@
 		"showLess": "Mostrar menos",
 		"showMore": "Mostrar más",
 		"signOut": "Cerrar sesión",
-		"tryAgain": "Try de nuevo",
+		"tryAgain": "Reintentar",
 		"undo": "Deshacer",
-		"unpin": "Desfijar",
+		"unpin": "Dejar de fijar",
 		"verify": "Verificar"
 	},
 	"appName": "Chordia",
@@ -45,22 +45,22 @@
 			"open": "Abrir",
 			"play": "Reproducir"
 		},
-		"noMatches": "No hay coincidencias.",
-		"placeholder": "Buscar música o jump a un página…",
+		"noMatches": "Sin coincidencias.",
+		"placeholder": "Busca música o ve a una página…",
 		"title": "Paleta de comandos",
-		"typeToSearch": "Tipo a buscar."
+		"typeToSearch": "Escribe para buscar."
 	},
 	"error": {
-		"failedToLoad": "Error a load"
+		"failedToLoad": "No se pudo cargar"
 	},
 	"errors": {
-		"saveFailed": "Guardar falló."
+		"saveFailed": "No se pudo guardar."
 	},
 	"fields": {
 		"artist": "Artista",
 		"country": "País",
 		"description": "Descripción",
-		"label": "Etiqueta",
+		"label": "Sello",
 		"name": "Nombre",
 		"title": "Título",
 		"type": "Tipo",
@@ -68,8 +68,8 @@
 	},
 	"fileBrowser": {
 		"browse": "Explorar",
-		"goUp": "Go subir",
-		"useThisFolder": "Usar este carpeta"
+		"goUp": "Subir un nivel",
+		"useThisFolder": "Usar esta carpeta"
 	},
 	"keybinds": {
 		"closeDialog": "Cerrar diálogo",
@@ -81,14 +81,14 @@
 			"navigation": "Navegación",
 			"player": "Reproductor"
 		},
-		"toggleRightSidebar": "Alternar barra lateral derecha"
+		"toggleRightSidebar": "Mostrar u ocultar la barra derecha"
 	},
 	"language": {
-		"description": "Idioma usado en toda la interfaz.",
+		"description": "Idioma que se usa en toda la interfaz.",
 		"label": "Idioma"
 	},
 	"nav": {
-		"allLibraries": "Todos bibliotecas",
+		"allLibraries": "Todas las bibliotecas",
 		"friends": "Amigos",
 		"home": "Inicio",
 		"library": "Biblioteca",
@@ -110,12 +110,12 @@
 	},
 	"image": {
 		"adjust": "Ajustar",
-		"adjustTitle": "Adjust imagen",
+		"adjustTitle": "Ajustar imagen",
 		"rotateLeft": "Girar a la izquierda",
 		"rotateRight": "Girar a la derecha",
 		"flipHorizontal": "Voltear horizontalmente",
 		"flipVertical": "Voltear verticalmente",
-		"hint": "Drag a reposition · zoom en a reframe",
+		"hint": "Arrastra para recolocar · amplía para reencuadrar",
 		"reset": "Restablecer",
 		"zoom": "Zoom"
 	},
@@ -128,14 +128,14 @@
 		"loading": "Cargando…",
 		"off": "Desactivado",
 		"saving": "Guardando…",
-		"verifying": "Verificaring…"
+		"verifying": "Verificando…"
 	},
 	"status": {
-		"saved": "Guardard",
+		"saved": "Guardado",
 		"sending": "Enviando…"
 	},
 	"update": {
-		"available": "A nuevo version is disponible.",
+		"available": "Hay una nueva versión disponible.",
 		"refresh": "Actualizar"
 	},
 	"userMenu": {

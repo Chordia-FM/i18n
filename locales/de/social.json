@@ -1,25 +1,25 @@
 {
 	"block": {
-		"confirmLabel": "Sperren",
-		"confirmMessage": "Block @{handle}? Sie können sich nicht gegenseitig als Freunde hinzufügen.",
+		"confirmLabel": "Blockieren",
+		"confirmMessage": "@{handle} blockieren? Sie können sich dann nicht mehr gegenseitig als Freunde hinzufügen.",
 		"confirmTitle": "Benutzer blockieren"
 	},
 	"discovery": {
 		"addFriend": "Freund hinzufügen",
 		"friendsStatus": "Freunde",
 		"requestSent": "Anfrage gesendet",
-		"sending": "Senden…"
+		"sending": "Wird gesendet…"
 	},
 	"friends": {
 		"confirmRemove": "Bestätigen?",
-		"empty": "Noch keine Freunde – suchen Sie, um welche hinzuzufügen",
+		"empty": "Noch keine Freunde – suchen Sie nach Personen zum Hinzufügen",
 		"heading": "Freunde ({count})",
-		"removing": "Entfernen…",
+		"removing": "Wird entfernt…",
 		"title": "Freunde"
 	},
 	"modMenu": {
 		"blocked": "Blockiert",
-		"report": "Bericht",
+		"report": "Melden",
 		"reported": "Gemeldet"
 	},
 	"page": {
@@ -27,33 +27,33 @@
 	},
 	"profile": {
 		"eyebrow": "Profil",
-		"itemPlays": "{count, plural, one {# spielen} other {# spielt}}",
+		"itemPlays": "{count, plural, one {# Wiedergabe} other {# Wiedergaben}}",
 		"joinedDate": "{date, date, ::yMMMM}",
-		"joinedLabel": "beigetreten{date}",
+		"joinedLabel": "dabei seit {date}",
 		"loadError": "Dieses Profil konnte nicht geladen werden.",
 		"noActivity": "Noch keine Höraktivität.",
 		"notFound": "Kein Benutzer mit diesem Handle.",
 		"private": {
-			"description": "{name}teilt ihr Zuhören nur mit Freunden.",
+			"description": "{name} teilt die eigene Höraktivität nur mit Freunden.",
 			"title": "Dieses Profil ist privat"
 		},
-		"recentlyPlayed": "Kürzlich gespielt",
+		"recentlyPlayed": "Zuletzt gehört",
 		"topArtists": "Top-Künstler",
 		"topTracks": "Top-Titel",
-		"totalPlays": "{count, plural, one {# spielen} other {# spielt}}",
+		"totalPlays": "{count, plural, one {# Wiedergabe} other {# Wiedergaben}}",
 		"totalPlaysCount": "{count}"
 	},
 	"report": {
-		"promptMessage": "Bericht @{handle}– Was ist das Problem?"
+		"promptMessage": "@{handle} melden – worum geht es?"
 	},
 	"requests": {
-		"accept": "Akzeptieren",
-		"accepting": "Akzeptieren…",
+		"accept": "Annehmen",
+		"accepting": "Wird angenommen…",
 		"pendingHeading": "Ausstehende Anfragen ({count})"
 	},
 	"search": {
 		"noResults": "Keine Benutzer gefunden.",
 		"placeholder": "Nach Handle oder Anzeigename suchen…",
-		"searching": "Suche..."
+		"searching": "Suche läuft…"
 	}
 }

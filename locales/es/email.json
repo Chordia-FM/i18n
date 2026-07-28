@@ -2,7 +2,7 @@
 	"collabInvite": {
 		"body": "{inviter} te añadió como colaborador en la lista de reproducción “{playlist}”.",
 		"cta": "Abrir la lista",
-		"hint": "Ahora puedes añadir y quitar canciones.",
+		"hint": "Ya puedes añadir y quitar pistas.",
 		"subject": "Te añadieron a una lista de reproducción de Chordia"
 	},
 	"footer": {

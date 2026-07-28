@@ -1,7 +1,7 @@
 {
 	"a11y": {
-		"dismissNotification": "해제 notification",
-		"playTrack": "재생 {title}"
+		"dismissNotification": "알림 닫기",
+		"playTrack": "{title} 재생"
 	},
 	"actions": {
 		"cancel": "취소",
@@ -18,19 +18,19 @@
 		"more": "더보기",
 		"moveDown": "아래로 이동",
 		"moveUp": "위로 이동",
-		"ok": "OK",
+		"ok": "확인",
 		"open": "열기",
 		"pin": "고정",
 		"play": "재생",
-		"remove": "삭제",
+		"remove": "제거",
 		"rename": "이름 변경",
-		"reset": "재설정",
+		"reset": "초기화",
 		"save": "저장",
 		"search": "검색",
 		"seeAll": "모두 보기",
 		"seeMore": "더보기",
 		"share": "공유",
-		"showLess": "간단히",
+		"showLess": "접기",
 		"showMore": "더보기",
 		"signOut": "로그아웃",
 		"tryAgain": "다시 시도",
@@ -41,12 +41,12 @@
 	"appName": "Chordia",
 	"commandPalette": {
 		"hint": {
-			"go": "가다",
+			"go": "이동",
 			"open": "열기",
 			"play": "재생"
 		},
-		"noMatches": "일치 항목이 없습니다.",
-		"placeholder": "검색 음악 또는 jump 으로 page…",
+		"noMatches": "일치하는 항목이 없습니다.",
+		"placeholder": "음악을 검색하거나 페이지로 이동…",
 		"title": "명령 팔레트",
 		"typeToSearch": "검색어를 입력하세요."
 	},
@@ -54,7 +54,7 @@
 		"failedToLoad": "불러오지 못했습니다"
 	},
 	"errors": {
-		"saveFailed": "저장에 실패했습니다."
+		"saveFailed": "저장하지 못했습니다."
 	},
 	"fields": {
 		"artist": "아티스트",
@@ -68,14 +68,14 @@
 	},
 	"fileBrowser": {
 		"browse": "찾아보기",
-		"goUp": "상위로",
+		"goUp": "상위 폴더",
 		"useThisFolder": "이 폴더 사용"
 	},
 	"keybinds": {
-		"closeDialog": "닫기 dialog",
+		"closeDialog": "대화 상자 닫기",
 		"commandPalette": "명령 팔레트",
 		"help": "키보드 단축키",
-		"quickSearch": "Quick 검색",
+		"quickSearch": "빠른 검색",
 		"section": {
 			"general": "일반",
 			"navigation": "탐색",
@@ -84,7 +84,7 @@
 		"toggleRightSidebar": "오른쪽 사이드바 전환"
 	},
 	"language": {
-		"description": "언어 used across interface.",
+		"description": "인터페이스 전체에 사용할 언어입니다.",
 		"label": "언어"
 	},
 	"nav": {
@@ -98,44 +98,44 @@
 		"signIn": "로그인"
 	},
 	"notFound": {
-		"body": "페이지가 없습니다.",
+		"body": "이 페이지는 존재하지 않습니다.",
 		"goHome": "홈으로",
 		"title": "페이지를 찾을 수 없습니다"
 	},
 	"or": "또는",
 	"sidebar": {
 		"collapse": "사이드바 접기",
-		"expand": "사이드바 확장",
-		"resize": "사이드바 크기 조정"
+		"expand": "사이드바 펼치기",
+		"resize": "사이드바 크기 조절"
 	},
 	"image": {
 		"adjust": "조정",
-		"adjustTitle": "Adjust 이미지",
+		"adjustTitle": "이미지 조정",
 		"rotateLeft": "왼쪽으로 회전",
 		"rotateRight": "오른쪽으로 회전",
-		"flipHorizontal": "수평 뒤집기",
-		"flipVertical": "세로 뒤집기",
-		"hint": "Drag 으로 reposition · zoom 에 으로 reframe",
-		"reset": "재설정",
+		"flipHorizontal": "좌우 반전",
+		"flipVertical": "상하 반전",
+		"hint": "드래그해 위치 조정 · 확대해 구도 변경",
+		"reset": "초기화",
 		"zoom": "확대/축소"
 	},
 	"state": {
 		"loading": "불러오는 중…",
-		"off": "끔",
-		"on": "켬"
+		"off": "꺼짐",
+		"on": "켜짐"
 	},
 	"states": {
 		"loading": "불러오는 중…",
-		"off": "끔",
+		"off": "꺼짐",
 		"saving": "저장 중…",
-		"verifying": "인증ing…"
+		"verifying": "인증 중…"
 	},
 	"status": {
-		"saved": "저장d",
-		"sending": "전송 중…"
+		"saved": "저장됨",
+		"sending": "보내는 중…"
 	},
 	"update": {
-		"available": "새 version is available.",
+		"available": "새 버전이 있습니다.",
 		"refresh": "새로고침"
 	},
 	"userMenu": {

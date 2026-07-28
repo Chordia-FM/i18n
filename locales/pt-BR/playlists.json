@@ -1,24 +1,24 @@
 {
 	"actions": {
-		"rename": "Renomear lista de reprodução"
+		"rename": "Renomear playlist"
 	},
 	"addError": "Não foi possível adicionar à playlist",
 	"addToNamed": "Adicionar a {playlist}",
-	"addToPlaylist": "Adicionar à lista de reprodução",
-	"addedToast": "Adicionado a {playlist}",
+	"addToPlaylist": "Adicionar à playlist",
+	"addedToast": "Adicionada a {playlist}",
 	"collaborators": {
 		"addError": "Não foi possível adicionar esse colaborador",
-		"collaborative": "Colaborativo",
+		"collaborative": "Colaborativa",
 		"invite": "+ Convidar",
-		"invitePrompt": "Convide um colaborador pelo identificador",
-		"invited": "Convidado @{handle}",
+		"invitePrompt": "Convide um colaborador pelo nome de usuário",
+		"invited": "@{handle} convidado",
 		"justYou": "Só você",
 		"removeTitle": "Remover {name}",
-		"removed": "Removido {name}"
+		"removed": "{name} removido"
 	},
 	"confirm": {
 		"deleteMessage": "Excluir \"{name}\"?",
-		"deleteTitle": "Excluir lista de reprodução"
+		"deleteTitle": "Excluir playlist"
 	},
 	"cover": {
 		"change": "Alterar imagem",
@@ -26,59 +26,59 @@
 	},
 	"delete": {
 		"confirmBody": "Excluir esta playlist?",
-		"title": "Excluir lista de reprodução"
+		"title": "Excluir playlist"
 	},
-	"empty": "Esta lista de reprodução está vazia. Adicione músicas do menu “⋯” em qualquer faixa.",
-	"kindLabel": "Lista de reprodução",
+	"empty": "Esta playlist está vazia. Adicione músicas pelo menu “⋯” de qualquer faixa.",
+	"kindLabel": "Playlist",
 	"leave": {
 		"confirmBody": "Sair desta playlist colaborativa?",
 		"confirmLabel": "Sair",
-		"title": "Sair da lista de reprodução"
+		"title": "Sair da playlist"
 	},
-	"menuEmpty": "Nenhuma lista de reprodução",
-	"new": "Nova lista de reprodução",
+	"menuEmpty": "Nenhuma playlist",
+	"new": "Nova playlist",
 	"prompt": {
-		"newName": "Nome da lista de reprodução",
-		"rename": "Renomear lista de reprodução"
+		"newName": "Nome da playlist",
+		"rename": "Renomear playlist"
 	},
-	"removeFromPlaylist": "Remover da lista de reprodução",
-	"sharedWithYou": "· compartilhado com você",
+	"removeFromPlaylist": "Remover da playlist",
+	"sharedWithYou": " · compartilhada com você",
 	"smart": {
 		"addRule": "Adicionar regra",
-		"autoUpdating": "· atualização automática",
+		"autoUpdating": " · atualização automática",
 		"bool": {
 			"false": "falso",
-			"true": "verdade"
+			"true": "verdadeiro"
 		},
 		"created": "Playlist inteligente criada",
 		"delete": {
 			"confirmBody": "Excluir esta playlist inteligente?",
 			"title": "Excluir playlist inteligente"
 		},
-		"description": "As regras são resolvidas automaticamente para faixas correspondentes.",
+		"description": "As regras selecionam as faixas correspondentes automaticamente.",
 		"editRules": "Editar regras",
 		"editTitle": "Editar playlist inteligente",
-		"empty": "Nenhuma faixa corresponde a essas regras ainda. Tente afrouxá-los com “Editar regras”.",
+		"empty": "Nenhuma faixa corresponde a essas regras ainda. Tente flexibilizá-las em “Editar regras”.",
 		"field": {
 			"album": "Álbum",
 			"artist": "Artista",
 			"genre": "Gênero",
-			"liked": "Gostou",
-			"plays": "Peças",
+			"liked": "Curtida",
+			"plays": "Reproduções",
 			"title": "Título",
 			"year": "Ano"
 		},
-		"kindLabel": "Lista de reprodução inteligente",
+		"kindLabel": "Playlist inteligente",
 		"limit": "Limite",
-		"match": "Partida",
+		"match": "Corresponder a",
 		"matchMode": {
-			"all": "tudo",
-			"any": "qualquer"
+			"all": "todas as",
+			"any": "qualquer uma das"
 		},
-		"namePlaceholder": "Nome da lista de reprodução",
+		"namePlaceholder": "Nome da playlist",
 		"new": "Nova playlist inteligente",
 		"newTitle": "Nova playlist inteligente",
-		"ofTheseRules": "destas regras:",
+		"ofTheseRules": "regras abaixo:",
 		"op": {
 			"contains": "contém",
 			"equals": "é",
@@ -87,19 +87,19 @@
 		"removeRule": "Remover regra",
 		"saveError": "Não foi possível salvar a playlist inteligente",
 		"sort": {
-			"plays": "Peças",
+			"plays": "Reproduções",
 			"random": "Aleatório",
 			"title": "Título"
 		},
-		"sortBy": "Classificar por",
+		"sortBy": "Ordenar por",
 		"updated": "Playlist inteligente atualizada",
 		"valuePlaceholder": "valor"
 	},
 	"songCount": "{count, plural, one {# música} other {# músicas}}",
 	"toast": {
 		"createFailed": "Não foi possível criar a playlist",
-		"created": "Criado \"{name}\"",
+		"created": "\"{name}\" criada",
 		"deleteFailed": "Não foi possível excluir a playlist",
-		"deleted": "Excluído \"{name}\""
+		"deleted": "\"{name}\" excluída"
 	}
 }

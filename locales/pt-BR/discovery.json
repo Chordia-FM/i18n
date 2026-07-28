@@ -1,6 +1,6 @@
 {
 	"dailyMix": {
-		"label": "Mistura diária"
+		"label": "Mix diário"
 	},
 	"greeting": {
 		"afternoon": "Boa tarde",
@@ -8,32 +8,32 @@
 		"morning": "Bom dia"
 	},
 	"home": {
-		"emptyState": "Nada aqui ainda - emparelhe um servidor de biblioteca e seu catálogo aparecerá."
+		"emptyState": "Nada aqui ainda — pareie um servidor de biblioteca e seu catálogo vai aparecer."
 	},
 	"jumpBackIn": {
-		"emptyState": "Coisas que você jogou recentemente aparecerão aqui.",
-		"title": "Volte para dentro"
+		"emptyState": "O que você ouviu recentemente aparece aqui.",
+		"title": "Continue ouvindo"
 	},
 	"madeForYou": {
-		"emptyState": "Ouça mais músicas e seus mixes diários aparecerão aqui.",
+		"emptyState": "Ouça mais música e seus mixes diários vão aparecer aqui.",
 		"title": "Feito para você"
 	},
 	"mix": {
-		"noTracksToast": "Este mix ainda não tem faixas reproduzíveis",
-		"playTitle": "Jogar {title}",
-		"playingToast": "Jogando {title}"
+		"noTracksToast": "Este mix ainda não tem faixas para tocar",
+		"playTitle": "Reproduzir {title}",
+		"playingToast": "Tocando {title}"
 	},
 	"radio": {
 		"label": "Rádio",
-		"pin": "Pin rádio"
+		"pin": "Fixar rádio"
 	},
 	"shelf": {
-		"jumpBackIn": "Volte para dentro",
+		"jumpBackIn": "Continue ouvindo",
 		"madeFor": "Feito para {name}",
 		"madeForYou": "você",
 		"recommended": "Recomendado para você",
-		"trendingAlbums": "Álbuns populares",
-		"trendingArtists": "Artistas populares",
+		"trendingAlbums": "Álbuns em alta",
+		"trendingArtists": "Artistas em alta",
 		"yourLibraries": "Suas bibliotecas"
 	}
 }

@@ -1,7 +1,7 @@
 {
 	"collabInvite": {
-		"body": "{inviter}hat dich als Mitwirkender zur Playlist hinzugefügt „{playlist}“.",
-		"cta": "Öffnen Sie die Wiedergabeliste",
+		"body": "{inviter} hat Sie als Mitwirkenden zur Playlist „{playlist}“ hinzugefügt.",
+		"cta": "Playlist öffnen",
 		"hint": "Sie können jetzt Titel hinzufügen und entfernen.",
 		"subject": "Sie wurden zu einer Chordia-Playlist hinzugefügt"
 	},
@@ -9,23 +9,23 @@
 		"manage": "Sie können diese E-Mails in den Chordia-Einstellungen → Benachrichtigungen deaktivieren."
 	},
 	"friendRequest": {
-		"body": "{name}möchte mit Ihnen auf Chordia in Kontakt treten.",
+		"body": "{name} möchte sich auf Chordia mit Ihnen vernetzen.",
 		"cta": "Profil ansehen",
 		"heading": "Neue Freundschaftsanfrage",
-		"subject": "{name}habe dir eine Freundschaftsanfrage geschickt"
+		"subject": "{name} hat Ihnen eine Freundschaftsanfrage gesendet"
 	},
 	"passwordReset": {
-		"body": "Jemand hat eine Passwortzurücksetzung für Ihr Chordia-Konto angefordert.",
-		"cta": "Setzen Sie Ihr Passwort zurück",
+		"body": "Jemand hat für Ihr Chordia-Konto ein Zurücksetzen des Passworts angefordert.",
+		"cta": "Passwort zurücksetzen",
 		"expiry": "Dieser Link läuft in 1 Stunde ab.",
-		"ignore": "Wenn Sie dies nicht angefordert haben, können Sie diese E-Mail getrost ignorieren.",
-		"subject": "Setzen Sie Ihr Chordia-Passwort zurück"
+		"ignore": "Wenn Sie dies nicht angefordert haben, können Sie diese E-Mail einfach ignorieren.",
+		"subject": "Chordia-Passwort zurücksetzen"
 	},
 	"verifyEmail": {
 		"body": "Bitte bestätigen Sie Ihre E-Mail-Adresse, um die Einrichtung Ihres Kontos abzuschließen.",
-		"cta": "Bestätigen Sie Ihre E-Mail",
+		"cta": "E-Mail-Adresse bestätigen",
 		"expiry": "Dieser Link läuft in 24 Stunden ab.",
 		"heading": "Willkommen bei Chordia",
-		"subject": "Bestätigen Sie Ihre Chordia-E-Mail"
+		"subject": "Bestätigen Sie Ihre Chordia-E-Mail-Adresse"
 	}
 }

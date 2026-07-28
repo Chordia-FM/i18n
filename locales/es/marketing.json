@@ -1,32 +1,32 @@
 {
 	"cta": {
 		"github": "Ver en GitHub",
-		"openApp": "Abrir aplicación"
+		"openApp": "Abrir la aplicación"
 	},
-	"eyebrow": "Own tu audio · share it tu way",
+	"eyebrow": "Tu audio es tuyo · compártelo a tu manera",
 	"footer": {
 		"github": "GitHub",
 		"license": "Código abierto · AGPL-3.0 ·"
 	},
 	"hero": {
-		"paragraph": "A hybrid, self-hosted música ecosystem. Absolute ownership de tu biblioteca, con el connected, social streaming experience - en bit-perfect fidelity."
+		"paragraph": "Un ecosistema musical híbrido y autoalojado. Control absoluto de tu biblioteca, con la experiencia social y conectada del streaming, y en fidelidad bit a bit."
 	},
 	"pillars": {
 		"liveRooms": {
-			"body": "Synchronized escucha parties con chat, votes, y turn-taking DJs. Tú hear tu own copy cuando tú own it; tu biblioteca relays el rest.",
+			"body": "Sesiones de escucha sincronizadas con chat, votaciones y DJ por turnos. Cuando tienes tu propia copia, la escuchas desde ella; el resto lo retransmite tu biblioteca.",
 			"title": "Salas de escucha en vivo"
 		},
 		"ownIt": {
-			"body": "Keep tu biblioteca en inicio en un NAS o Pi, o run it en un cloud servidor - either way el música is yours. It streams bit-perfect (FLAC, ALAC, WAV, Dolby Atmos) straight a tu dispositivos, y Chordia never stores o routes tu audio.",
+			"body": "Ten tu biblioteca en casa, en un NAS o una Pi, o ejecútala en un servidor en la nube: en cualquier caso la música es tuya. Se transmite bit a bit (FLAC, ALAC, WAV, Dolby Atmos) directamente a tus dispositivos, y Chordia nunca almacena ni enruta tu audio.",
 			"title": "Hazlo tuyo, alójalo donde quieras"
 		},
 		"selectiveSharing": {
-			"body": "Organize música en separate bibliotecas - \"Hi-Fi Archive\", \"Family Collection\" - y share each one con exactly el amigos tú elegir.",
+			"body": "Organiza tu música en bibliotecas separadas (\"Archivo Hi-Fi\", \"Colección familiar\") y comparte cada una exactamente con los amigos que elijas.",
 			"title": "Uso compartido selectivo"
 		},
 		"wrapped": {
-			"body": "Every reproducción is scrobbled a tu global cuenta y kept forever - weekly, monthly, y yearly insights ese survive any servidor mover.",
-			"title": "Wrapped de toda la vida"
+			"body": "Cada reproducción se registra en tu cuenta global y se conserva para siempre: estadísticas semanales, mensuales y anuales que sobreviven a cualquier cambio de servidor.",
+			"title": "Wrapped de por vida"
 		}
 	}
 }

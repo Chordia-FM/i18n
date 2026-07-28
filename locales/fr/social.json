@@ -1,7 +1,7 @@
 {
 	"block": {
 		"confirmLabel": "Bloquer",
-		"confirmMessage": "Bloquer @{handle} ? Vous ne pourrez pas vous ajouter comme amis.",
+		"confirmMessage": "Bloquer @{handle} ? Vous ne pourrez plus vous ajouter comme amis.",
 		"confirmTitle": "Bloquer l'utilisateur"
 	},
 	"discovery": {
@@ -11,15 +11,15 @@
 		"sending": "Envoi…"
 	},
 	"friends": {
-		"confirmRemove": "Confirmer ?",
-		"empty": "Pas encore d'amis - recherchez pour en ajouter",
+		"confirmRemove": "Confirmer ?",
+		"empty": "Pas encore d'amis — recherchez-en pour en ajouter",
 		"heading": "Amis ({count})",
 		"removing": "Suppression…",
 		"title": "Amis"
 	},
 	"modMenu": {
 		"blocked": "Bloqué",
-		"report": "Rapport",
+		"report": "Signaler",
 		"reported": "Signalé"
 	},
 	"page": {
@@ -27,20 +27,20 @@
 	},
 	"profile": {
 		"eyebrow": "Profil",
-		"itemPlays": "{count, plural, one {# lecture} other {# lectures}}",
-		"joinedDate": "{date, date, ::yMMMM}",
-		"joinedLabel": "a rejoint {date}",
+		"itemPlays": "{count, plural, one {# écoute} other {# écoutes}}",
+		"joinedDate": "{date, date, ::yMMMM}",
+		"joinedLabel": "inscrit en {date}",
 		"loadError": "Impossible de charger ce profil.",
 		"noActivity": "Aucune activité d'écoute pour l'instant.",
-		"notFound": "Aucun utilisateur avec ce handle.",
+		"notFound": "Aucun utilisateur avec cet identifiant.",
 		"private": {
-			"description": "{name} partage uniquement son écoute avec des amis.",
+			"description": "{name} ne partage ses écoutes qu'avec ses amis.",
 			"title": "Ce profil est privé"
 		},
-		"recentlyPlayed": "Joué récemment",
-		"topArtists": "Meilleurs artistes",
-		"topTracks": "Meilleurs titres",
-		"totalPlays": "{count, plural, one {# lecture} other {# lectures}}",
+		"recentlyPlayed": "Écoutés récemment",
+		"topArtists": "Top artistes",
+		"topTracks": "Top morceaux",
+		"totalPlays": "{count, plural, one {# écoute} other {# écoutes}}",
 		"totalPlaysCount": "{count}"
 	},
 	"report": {
@@ -48,12 +48,12 @@
 	},
 	"requests": {
 		"accept": "Accepter",
-		"accepting": "Accepter…",
+		"accepting": "Acceptation…",
 		"pendingHeading": "Demandes en attente ({count})"
 	},
 	"search": {
 		"noResults": "Aucun utilisateur trouvé.",
-		"placeholder": "Rechercher par identifiant ou nom d’affichage…",
+		"placeholder": "Rechercher par identifiant ou nom affiché…",
 		"searching": "Recherche…"
 	}
 }

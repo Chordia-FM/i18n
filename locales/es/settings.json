@@ -2,64 +2,64 @@
 	"account": {
 		"avatarUrl": "URL del avatar",
 		"changeEmail": "Cambiar correo",
-		"displayName": "Display nombre",
-		"emailChangeSent": "Check tu nuevo inbox para un confirmation link.",
+		"displayName": "Nombre visible",
+		"emailChangeSent": "Revisa tu nueva bandeja de entrada: ahí tienes el enlace de confirmación.",
 		"handle": "Usuario",
-		"handleHint": "Letters, digits, “_” y “-”. Must be unique.",
+		"handleHint": "Letras, números, “_” y “-”. Debe ser único.",
 		"handlePlaceholder": "tunombre",
-		"newEmailPlaceholder": "nuevo@example.com",
-		"resendVerification": "Resend verification correo",
+		"newEmailPlaceholder": "new@example.com",
+		"resendVerification": "Reenviar el correo de verificación",
 		"saveProfile": "Guardar perfil",
-		"sendConfirmation": "Enviar confirmation",
+		"sendConfirmation": "Enviar confirmación",
 		"title": "Cuenta",
-		"verificationSent": "Sent — check tu inbox"
+		"verificationSent": "Enviado: revisa tu bandeja de entrada"
 	},
 	"appearance": {
 		"accentColour": "Color de acento",
-		"accentHexAria": "Hexadecimal de acento",
-		"customAccentAria": "Personalizado accent colour",
-		"customColour": "Personalizado colour",
-		"customColourHint": "Pick any colour - buttons, highlights y el background tint seguir it.",
+		"accentHexAria": "Hexadecimal del acento",
+		"customAccentAria": "Color de acento personalizado",
+		"customColour": "Color personalizado",
+		"customColourHint": "Elige cualquier color: los botones, los resaltados y el tinte del fondo lo siguen.",
 		"title": "Apariencia"
 	},
 	"connections": {
 		"title": "Conexiones",
 		"lastfm": {
 			"label": "Last.fm",
-			"desc": "Scrobble tu reproducciones a Last.fm automatically.",
+			"desc": "Envía automáticamente tus reproducciones a Last.fm.",
 			"connect": "Conectar",
 			"disconnect": "Desconectar",
-			"connectedAs": "Connected como {username}",
-			"connectedToast": "Connected a Last.fm como {username}",
+			"connectedAs": "Conectado como {username}",
+			"connectedToast": "Conectado a Last.fm como {username}",
 			"disconnected": "Last.fm desconectado",
-			"failed": "Couldn’t conectar Last.fm",
+			"failed": "No se pudo conectar Last.fm",
 			"connecting": "Conectando Last.fm…"
 		}
 	},
 	"data": {
-		"body": "Descargar everything Chordia stores sobre tú, o permanently eliminar tu cuenta y todos its datos.",
-		"deleteAccountConfirm": "Permanently eliminar tu cuenta y ALL tu datos — escucha historial, listas, bibliotecas, y amigos? Este no se puede be undone.",
+		"body": "Descarga todo lo que Chordia guarda sobre ti o elimina permanentemente tu cuenta y todos sus datos.",
+		"deleteAccountConfirm": "¿Eliminar permanentemente tu cuenta y TODOS tus datos: historial de escucha, listas de reproducción, bibliotecas y amigos? Esta acción no se puede deshacer.",
 		"deleteAccountTitle": "Eliminar cuenta",
-		"deleteFailedBody": "Could no eliminar tu cuenta right ahora. Please try de nuevo.",
-		"deleteFailedTitle": "Deletion falló",
-		"deleteForever": "Eliminar forever",
-		"exportFailedBody": "Could no export tu datos right ahora. Please try de nuevo.",
-		"exportFailedTitle": "Export falló",
-		"exportMyData": "Export mi datos",
+		"deleteFailedBody": "No se pudo eliminar tu cuenta en este momento. Inténtalo de nuevo.",
+		"deleteFailedTitle": "No se pudo eliminar",
+		"deleteForever": "Eliminar para siempre",
+		"exportFailedBody": "No se pudieron exportar tus datos en este momento. Inténtalo de nuevo.",
+		"exportFailedTitle": "No se pudo exportar",
+		"exportMyData": "Exportar mis datos",
 		"title": "Tus datos"
 	},
 	"downloads": {
-		"browserStorageName": "Este dispositivo (browser storage)",
+		"browserStorageName": "Este dispositivo (almacenamiento del navegador)",
 		"bytes": "{bytes} B / {kb} KB / {mb} MB / {gb} GB",
-		"serverNote": "Música bibliotecas themselves are added y organized en tu Chordia biblioteca servidor, no aquí. Saving downloads a un custom carpeta (con tu own path + organization layout) is coming a el desktop app.",
+		"serverNote": "Las bibliotecas de música se añaden y organizan en tu servidor de biblioteca de Chordia, no aquí. Guardar las descargas en una carpeta propia (con tu ruta y tu estructura) llegará a la aplicación de escritorio.",
 		"thisDevice": {
-			"description": "Descargado canciones are stored en este dispositivo y reproducción without un connection.",
-			"empty": "Usar el Descargar action en any pista o álbum.",
-			"title": "Este dispositivo (browser storage)",
-			"usage": "{count, plural, one {# song} other {# songs}} · {size}."
+			"description": "Las canciones descargadas se guardan en este dispositivo y se reproducen sin conexión.",
+			"empty": "Usa la acción Descargar en cualquier pista o álbum.",
+			"title": "Este dispositivo (almacenamiento del navegador)",
+			"usage": "{count, plural, one {# canción} other {# canciones}} · {size}."
 		},
 		"title": "Descargas",
-		"unsupportedDestination": "\"{destination}\" downloads need el desktop app"
+		"unsupportedDestination": "Las descargas en \"{destination}\" requieren la aplicación de escritorio"
 	},
 	"eq": {
 		"preset": {
@@ -84,54 +84,54 @@
 	},
 	"playback": {
 		"autoplay": {
-			"desc": "Keep playing similar música cuando el queue ends.",
+			"desc": "Sigue reproduciendo música parecida cuando se acaba la cola.",
 			"label": "Reproducción automática"
 		},
 		"crossfade": {
-			"desc": "Overlap y blend el end de each pista en el next.",
+			"desc": "Superpone y funde el final de cada pista con la siguiente.",
 			"label": "Fundido cruzado",
-			"value": "{seconds}s"
+			"value": "{seconds} s"
 		},
 		"normalize": {
-			"desc": "Even out loudness across pistas (ReplayGain).",
-			"label": "Normalizar volumen"
+			"desc": "Iguala el volumen entre pistas (ReplayGain).",
+			"label": "Normalizar el volumen"
 		},
 		"preload": {
-			"desc": "Descargar upcoming queue pistas ahead de tiempo para instant, gap-free playback. Higher uses más datos.",
-			"label": "Preload next pistas"
+			"desc": "Descarga por adelantado las siguientes pistas de la cola para una reproducción instantánea y sin cortes. Cuanto más alto, más datos consume.",
+			"label": "Precargar las siguientes pistas"
 		},
 		"quality": {
 			"dataSaver": {
-				"desc": "~96 kbps Opus - minimal datos.",
+				"desc": "~96 kbps Opus: datos mínimos.",
 				"label": "Ahorro de datos"
 			},
 			"high": {
-				"desc": "~256 kbps AAC - transparent para most.",
+				"desc": "~256 kbps AAC: transparente para casi todos.",
 				"label": "Alta"
 			},
 			"normal": {
-				"desc": "~128 kbps - equilibrada.",
+				"desc": "~128 kbps: equilibrada.",
 				"label": "Normal"
 			},
 			"original": {
-				"desc": "Bit-perfect fuente. Highest bandwidth.",
+				"desc": "Fuente bit a bit. Máximo ancho de banda.",
 				"label": "Sin pérdida"
 			}
 		},
-		"streamingQuality": "Calidad de transmisión",
+		"streamingQuality": "Calidad de streaming",
 		"title": "Reproducción"
 	},
 	"privacy": {
 		"activityVisibility": {
-			"desc": "Who can see tu recent reproducciones y compare taste con tú.",
-			"label": "Actividad visibility"
+			"desc": "Quién puede ver tus reproducciones recientes y comparar gustos contigo.",
+			"label": "Visibilidad de la actividad"
 		},
 		"emailNotifications": {
-			"desc": "Get un correo para amigo requests y other cuenta actividad.",
-			"label": "Correo notificaciones"
+			"desc": "Recibe un correo por las solicitudes de amistad y otra actividad de la cuenta.",
+			"label": "Notificaciones por correo"
 		},
 		"scrobble": {
-			"desc": "Record what tú reproducción para tu stats y Wrapped.",
+			"desc": "Registra lo que reproduces para tus estadísticas y tu Wrapped.",
 			"label": "Registrar escuchas"
 		},
 		"title": "Privacidad",
@@ -143,60 +143,60 @@
 	},
 	"quality": {
 		"dataSaver": {
-			"desc": "~96 kbps Opus — minimal datos.",
+			"desc": "~96 kbps Opus — datos mínimos.",
 			"label": "Ahorro de datos"
 		},
 		"high": {
-			"desc": "~256 kbps AAC — transparent para most.",
+			"desc": "~256 kbps AAC — transparente para casi todos.",
 			"label": "Alta"
 		},
 		"lossless": {
-			"desc": "Bit-perfect fuente. Highest bandwidth.",
+			"desc": "Fuente bit a bit. Máximo ancho de banda.",
 			"label": "Sin pérdida"
 		},
 		"normal": {
 			"desc": "~128 kbps — equilibrada.",
 			"label": "Normal"
 		},
-		"title": "Calidad de transmisión"
+		"title": "Calidad de streaming"
 	},
 	"region": {
 		"timezone": {
-			"description": "Used a place escucha actividad en tu local calendar. Seguir este dispositivo leaves el choice a each client.",
+			"description": "Se usa para situar tu actividad de escucha en tu calendario local. Con “Seguir este dispositivo” la elección queda en manos de cada cliente.",
 			"detect": "Detectar",
 			"followClient": "Seguir este dispositivo",
 			"label": "Zona horaria",
-			"noMatches": "No tiempo zones match tu buscar",
-			"search": "Buscar zonas horarias…",
+			"noMatches": "Ninguna zona horaria coincide con tu búsqueda",
+			"search": "Busca zonas horarias…",
 			"zoneWithOffset": "{zone} ({offset})"
 		},
 		"title": "Región"
 	},
 	"sessions": {
-		"body": "Where estás signed en. Revoke any dispositivo tú no recognize.",
-		"lastActive": "Último active {date}",
+		"body": "Dónde tienes la sesión iniciada. Revoca cualquier dispositivo que no reconozcas.",
+		"lastActive": "Última actividad: {date}",
 		"lastActiveDate": "{date}",
-		"signOutEverywhere": "Cerrar sesión everywhere",
-		"signOutEverywhereConfirm": "Cerrar sesión de todos dispositivos? You'll need a iniciar sesión en de nuevo.",
+		"signOutEverywhere": "Cerrar sesión en todas partes",
+		"signOutEverywhereConfirm": "¿Cerrar sesión en todos los dispositivos? Tendrás que volver a iniciarla.",
 		"thisDevice": "Este dispositivo",
 		"title": "Dispositivos y sesiones",
 		"unknownDevice": "Dispositivo desconocido"
 	},
 	"title": "Ajustes",
 	"twoFactor": {
-		"addHint": "Añadir un second factor (un authenticator app) para extra cuenta security.",
+		"addHint": "Añade un segundo factor (una app de autenticación) para mayor seguridad de la cuenta.",
 		"disable": "Desactivar 2FA",
 		"enable": "Activar 2FA",
-		"enableCta": "Activar two-factor auth",
-		"enabledHint": "2FA is enabled. To turn it off, enter un actual code o un recovery code.",
+		"enableCta": "Activar la autenticación de dos factores",
+		"enabledHint": "La 2FA está activada. Para desactivarla, introduce un código actual o un código de recuperación.",
 		"qrAlt": "Código QR de dos factores",
-		"recoveryIntro": "2FA is en. Guardar these recovery codes somewhere safe — each works una vez que if tú lose tu authenticator.",
-		"scanHint": "Scan este con tu authenticator app, then enter el 6-digit code a confirm.",
-		"secretManual": "Or enter este secret manually: {secret}",
+		"recoveryIntro": "La 2FA está activada. Guarda estos códigos de recuperación en un lugar seguro: cada uno sirve una sola vez si pierdes tu app de autenticación.",
+		"scanHint": "Escanea esto con tu app de autenticación y luego introduce el código de 6 dígitos para confirmar.",
+		"secretManual": "O introduce esta clave manualmente: {secret}",
 		"title": "Autenticación de dos factores"
 	},
 	"verifyEmail": {
-		"body": "Nosotros sent un verification link a tu correo. Didn't get it? Resend it below.",
-		"title": "Verificar tu correo"
+		"body": "Te hemos enviado un enlace de verificación a tu correo. ¿No te ha llegado? Reenvíalo abajo.",
+		"title": "Verifica tu correo"
 	}
 }

@@ -1,26 +1,26 @@
 {
 	"dailyMix": {
-		"label": "Mélange quotidien"
+		"label": "Mix du jour"
 	},
 	"greeting": {
-		"afternoon": "Bonjour",
+		"afternoon": "Bon après-midi",
 		"evening": "Bonsoir",
 		"morning": "Bonjour"
 	},
 	"home": {
-		"emptyState": "Rien ici pour l'instant - associez un serveur de bibliothèque et votre catalogue apparaîtra."
+		"emptyState": "Rien ici pour l'instant — associez un serveur de bibliothèque et votre catalogue apparaîtra."
 	},
 	"jumpBackIn": {
-		"emptyState": "Les éléments auxquels vous avez joué récemment s'afficheront ici.",
-		"title": "Revenez dedans"
+		"emptyState": "Ce que vous avez écouté récemment apparaîtra ici.",
+		"title": "Reprendre l'écoute"
 	},
 	"madeForYou": {
-		"emptyState": "Écoutez plus de musique et vos mix quotidiens apparaîtront ici.",
+		"emptyState": "Écoutez plus de musique et vos mix du jour apparaîtront ici.",
 		"title": "Fait pour vous"
 	},
 	"mix": {
-		"noTracksToast": "Ce mix n'a pas encore de pistes jouables",
-		"playTitle": "Jouer à {title}",
+		"noTracksToast": "Ce mix n'a pas encore de morceaux lisibles",
+		"playTitle": "Lire {title}",
 		"playingToast": "Lecture de {title}"
 	},
 	"radio": {
@@ -28,12 +28,12 @@
 		"pin": "Épingler la radio"
 	},
 	"shelf": {
-		"jumpBackIn": "Revenez dedans",
-		"madeFor": "Conçu pour {name}",
+		"jumpBackIn": "Reprendre l'écoute",
+		"madeFor": "Fait pour {name}",
 		"madeForYou": "vous",
 		"recommended": "Recommandé pour vous",
-		"trendingAlbums": "Albums tendances",
-		"trendingArtists": "Artistes tendances",
+		"trendingAlbums": "Albums tendance",
+		"trendingArtists": "Artistes tendance",
 		"yourLibraries": "Vos bibliothèques"
 	}
 }

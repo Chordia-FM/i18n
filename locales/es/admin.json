@@ -1,75 +1,75 @@
 {
 	"audit": {
 		"createdAt": "{date}",
-		"empty": "No actions aún.",
+		"empty": "Aún no hay acciones.",
 		"title": "Registro de auditoría"
 	},
 	"editCatalog": {
-		"title": "Editar catalog metadata"
+		"title": "Editar los metadatos del catálogo"
 	},
 	"enrichment": {
-		"description": "Re-fetch ilustración, artista images, bios, release dates y genres para everything en tu bibliotecas. Useful after adding Last.fm / fanart.tv API keys. Runs en el background y is rate-limited, so un large biblioteca fills en gradually.",
-		"nothingToRefresh": "Nothing a refresh aún.",
+		"description": "Vuelve a obtener portadas, imágenes de artista, biografías, fechas de lanzamiento y géneros de todo lo que hay en tus bibliotecas. Es útil tras añadir claves de API de Last.fm o fanart.tv. Se ejecuta en segundo plano y con límite de peticiones, así que una biblioteca grande se completa poco a poco.",
+		"nothingToRefresh": "Aún no hay nada que actualizar.",
 		"refetch": "Volver a obtener metadatos",
-		"refetching": "{count, plural, one {Re-fetching # item in the background…} other {Re-fetching # items in the background…}}",
-		"startFailed": "Error a start.",
+		"refetching": "{count, plural, one {Obteniendo # elemento en segundo plano…} other {Obteniendo # elementos en segundo plano…}}",
+		"startFailed": "No se pudo iniciar.",
 		"starting": "Iniciando…",
 		"title": "Enriquecimiento de metadatos"
 	},
 	"metadata": {
-		"artistSubtitle": "{albumCount, plural, one {# album} other {# albums}} · {trackCount, plural, one {# track} other {# tracks}}",
-		"artworkAlt": "Ilustración",
-		"artworkLoadError": "No se pudo load ilustración — try de nuevo.",
+		"artistSubtitle": "{albumCount, plural, one {# álbum} other {# álbumes}} · {trackCount, plural, one {# pista} other {# pistas}}",
+		"artworkAlt": "Imagen",
+		"artworkLoadError": "No se pudo cargar la imagen. Inténtalo de nuevo.",
 		"bannerLabel": "banner",
-		"browseArtwork": "Browse ilustración (icon + banner)",
+		"browseArtwork": "Explorar imágenes (icono + banner)",
 		"browseCovers": "Explorar portadas",
 		"browseLogos": "Explorar logotipos (fanart.tv)",
-		"currentArtistHint": "Currently {name}. Buscar a re-attribute a un different artista.",
+		"currentArtistHint": "Actualmente {name}. Busca para reasignarlo a otro artista.",
 		"editAlbumTitle": "Editar álbum (global)",
 		"editArtistTitle": "Editar artista (global)",
-		"editLabelTitle": "Editar label (global)",
+		"editLabelTitle": "Editar sello (global)",
 		"editTrackTitle": "Editar pista (global)",
 		"fields": {
 			"bio": "Biografía",
 			"defunct": "Inactivo (en blanco = activo)",
 			"founded": "Fundado",
-			"genres": "Géneros (comma-separated)"
+			"genres": "Géneros (separados por comas)"
 		},
 		"findArtistPlaceholder": "Buscar artista…",
-		"imageFetchFailed": "No se pudo fetch ese imagen.",
-		"imageUploadFailed": "Imagen subir falló.",
-		"intro": "Editar el compartido catalog ese todos sees — rename un artista, álbum o pista, replace its ilustración, o re-attribute un release a un different artista. These changes are global y permanent (unlike per-biblioteca edits). Every cambiar is recorded en el audit log.",
-		"labelLoadError": "No se pudo load el label.",
-		"labelSubtitle": "{count, plural, one {# album} other {# albums}}",
-		"loadError": "No se pudo load el actual metadata.",
+		"imageFetchFailed": "No se pudo obtener esa imagen.",
+		"imageUploadFailed": "No se pudo subir la imagen.",
+		"intro": "Edita el catálogo compartido que ve todo el mundo: cambia el nombre de un artista, un álbum o una pista, sustituye su imagen o reasigna un lanzamiento a otro artista. Estos cambios son globales y permanentes (a diferencia de las ediciones por biblioteca). Cada cambio queda anotado en el registro de auditoría.",
+		"labelLoadError": "No se pudo cargar el sello.",
+		"labelSubtitle": "{count, plural, one {# álbum} other {# álbumes}}",
+		"loadError": "No se pudieron cargar los metadatos actuales.",
 		"logoAlt": "Logotipo",
-		"logoUploadFailed": "Logo subir falló.",
-		"noAlbumCovers": "No covers found — el álbum needs un MusicBrainz match.",
-		"noArtistArtwork": "No online ilustración found — needs un fanart.tv key + un MusicBrainz match.",
+		"logoUploadFailed": "No se pudo subir el logotipo.",
+		"noAlbumCovers": "No se encontraron portadas: el álbum necesita una coincidencia en MusicBrainz.",
+		"noArtistArtwork": "No se encontraron imágenes en línea: hacen falta una clave de fanart.tv y una coincidencia en MusicBrainz.",
 		"noArtistsFound": "No se encontraron artistas.",
-		"noLogos": "No logos found — needs un fanart.tv key + un MusicBrainz match.",
-		"noMatches": "No hay coincidencias.",
-		"reattributeTo": "Re-attribute a {name}",
-		"searchPlaceholder": "Buscar artistas, álbumes, o pistas…",
+		"noLogos": "No se encontraron logotipos: hacen falta una clave de fanart.tv y una coincidencia en MusicBrainz.",
+		"noMatches": "Sin coincidencias.",
+		"reattributeTo": "Reasignar a {name}",
+		"searchPlaceholder": "Busca artistas, álbumes o pistas…",
 		"uploadBanner": "Subir banner",
 		"uploadCover": "Subir portada",
-		"uploadIcon": "Subir icon",
-		"uploadLogo": "Subir logo",
-		"useThisArt": "Usar este {kind}",
-		"useThisLogo": "Usar este logo"
+		"uploadIcon": "Subir icono",
+		"uploadLogo": "Subir logotipo",
+		"useThisArt": "Usar {kind}",
+		"useThisLogo": "Usar este logotipo"
 	},
 	"noAccess": {
-		"backToApp": "Volver a el app",
-		"body": "Tú no have acceso a site administration. {link}.",
+		"backToApp": "Volver a la aplicación",
+		"body": "No tienes acceso a la administración del sitio. {link}.",
 		"title": "Administración"
 	},
 	"reports": {
 		"createdAt": "{date}",
 		"dismiss": "Descartar",
-		"empty": "No hay informes abiertos.",
+		"empty": "No hay denuncias abiertas.",
 		"resolve": "Resolver",
-		"title": "Informes",
-		"titleWithCount": "{count, plural, one {Reports (# open)} other {Reports (# open)}}"
+		"title": "Denuncias",
+		"titleWithCount": "{count, plural, one {Denuncias (# abierta)} other {Denuncias (# abiertas)}}"
 	},
 	"suggestions": {
 		"approve": "Aprobar",
@@ -86,16 +86,16 @@
 		"none": "Ninguno",
 		"suggested": "Sugerido",
 		"title": "Sugerencias de metadatos",
-		"titleWithCount": "{count, plural, one {Metadata suggestions (# pending)} other {Metadata suggestions (# pending)}}"
+		"titleWithCount": "{count, plural, one {Sugerencias de metadatos (# pendiente)} other {Sugerencias de metadatos (# pendientes)}}"
 	},
 	"title": "Administración del sitio",
 	"users": {
-		"deleteConfirm": "Permanently eliminar @{handle} y ALL su datos? Este no se puede be undone.",
+		"deleteConfirm": "¿Eliminar permanentemente a @{handle} y TODOS sus datos? Esta acción no se puede deshacer.",
 		"deleteTitle": "Eliminar usuario",
-		"searchPlaceholder": "Buscar handle, correo, o nombre…",
+		"searchPlaceholder": "Busca por usuario, correo o nombre…",
 		"suspend": "Suspender",
-		"suspendConfirm": "Suspend @{handle}? They'll be signed out y unable a log en.",
-		"suspendTitle": "Suspend usuario",
+		"suspendConfirm": "¿Suspender a @{handle}? Se cerrará su sesión y no podrá volver a entrar.",
+		"suspendTitle": "Suspender usuario",
 		"suspendedBadge": "suspendido",
 		"title": "Usuarios",
 		"unsuspend": "Reactivar"

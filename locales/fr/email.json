@@ -1,31 +1,31 @@
 {
 	"collabInvite": {
-		"body": "{inviter} vous a ajouté en tant que collaborateur sur la playlist « {playlist} ».",
+		"body": "{inviter} vous a ajouté comme collaborateur sur la playlist « {playlist} ».",
 		"cta": "Ouvrir la playlist",
-		"hint": "Vous pouvez maintenant ajouter et supprimer des pistes.",
+		"hint": "Vous pouvez désormais ajouter et retirer des morceaux.",
 		"subject": "Vous avez été ajouté à une playlist Chordia"
 	},
 	"footer": {
 		"manage": "Vous pouvez désactiver ces e-mails dans Paramètres Chordia → Notifications."
 	},
 	"friendRequest": {
-		"body": "{name} souhaite se connecter avec vous sur Chordia.",
+		"body": "{name} souhaite entrer en relation avec vous sur Chordia.",
 		"cta": "Voir le profil",
-		"heading": "Demande de nouvel ami",
+		"heading": "Nouvelle demande d'ami",
 		"subject": "{name} vous a envoyé une demande d'ami"
 	},
 	"passwordReset": {
-		"body": "Quelqu'un a demandé une réinitialisation du mot de passe de votre compte Chordia.",
-		"cta": "Réinitialisez votre mot de passe",
+		"body": "Quelqu'un a demandé la réinitialisation du mot de passe de votre compte Chordia.",
+		"cta": "Réinitialiser votre mot de passe",
 		"expiry": "Ce lien expire dans 1 heure.",
-		"ignore": "Si vous ne l'avez pas demandé, vous pouvez ignorer cet e-mail en toute sécurité.",
-		"subject": "Réinitialisez votre mot de passe Chordia"
+		"ignore": "Si vous n'êtes pas à l'origine de cette demande, vous pouvez ignorer cet e-mail sans risque.",
+		"subject": "Réinitialiser votre mot de passe Chordia"
 	},
 	"verifyEmail": {
 		"body": "Veuillez confirmer votre adresse e-mail pour terminer la configuration de votre compte.",
-		"cta": "Vérifiez votre email",
+		"cta": "Vérifier votre adresse e-mail",
 		"expiry": "Ce lien expire dans 24 heures.",
-		"heading": "Bienvenue à Chordia",
-		"subject": "Vérifiez votre email Chordia"
+		"heading": "Bienvenue sur Chordia",
+		"subject": "Vérifiez votre e-mail Chordia"
 	}
 }

@@ -13,27 +13,27 @@
 		"emailInvalid": "É necessário um endereço de e-mail válido.",
 		"handleChars": "O nome de usuário pode conter apenas letras, dígitos, “_” e “-”, e deve começar com uma letra ou dígito.",
 		"handleLength": "O nome de usuário deve ter de 2 a 32 caracteres.",
-		"passwordLength": "A senha deve ter caracteres {min}–{max}.",
+		"passwordLength": "A senha deve ter de {min} a {max} caracteres.",
 		"passwordRange": "A senha deve ter de 8 a 1.024 caracteres.",
-		"twoFactorAlreadyEnabled": "A autenticação de dois fatores já está ativada – desative-a primeiro.",
-		"twoFactorNotEnabled": "A autenticação de dois fatores não está habilitada.",
+		"twoFactorAlreadyEnabled": "A autenticação de dois fatores já está ativada — desative-a primeiro.",
+		"twoFactorNotEnabled": "A autenticação de dois fatores não está ativada.",
 		"twoFactorStartFirst": "Inicie primeiro a configuração de dois fatores."
 	},
 	"catalog": {
 		"albumLoadFailed": "Falha ao carregar",
 		"artistLoadFailed": "Falha ao carregar",
 		"artistNameTaken": "Outro artista já tem esse nome.",
-		"labelLoadFailed": "Não foi possível carregar este marcador",
+		"labelLoadFailed": "Não foi possível carregar esta gravadora",
 		"unknownArtist": "Artista desconhecido.",
 		"unknownImageHash": "Imagem desconhecida."
 	},
-	"changeFailed": "Não foi possível salvar a alteração. Tente novamente.",
+	"changeFailed": "Não foi possível salvar essa alteração — tente novamente.",
 	"directory": {
 		"serverOffline": "Esse servidor está offline."
 	},
 	"discovery": {
-		"dailyMixFailed": "Não foi possível criar esse mix",
-		"radioFailed": "Não foi possível construir este rádio"
+		"dailyMixFailed": "Não foi possível criar este mix",
+		"radioFailed": "Não foi possível criar esta rádio"
 	},
 	"failedToLoad": "Falha ao carregar",
 	"friends": {
@@ -44,45 +44,45 @@
 		"empty": "A imagem está vazia.",
 		"fetchFailed": "Não foi possível buscar essa imagem.",
 		"hashMismatch": "O conteúdo da imagem não corresponde ao hash esperado.",
-		"invalidUrl": "URL de imagem inválido.",
+		"invalidUrl": "URL de imagem inválida.",
 		"tooLarge": "A imagem é muito grande (máx. 8 MiB)."
 	},
 	"insights": {
 		"compareSelf": "Você não pode se comparar consigo mesmo.",
-		"compatibilityNotFound": "Nenhum usuário com esse identificador.",
-		"compatibilityPrivate": "A atividade de escuta desse usuário é privada.",
+		"compatibilityNotFound": "Nenhum usuário com esse nome.",
+		"compatibilityPrivate": "A atividade de audição desse usuário é privada.",
 		"invalidTimezone": "Fuso horário desconhecido “{timezone}”.",
-		"loadFriendActivityFailed": "Falha ao carregar a atividade do amigo",
+		"loadFriendActivityFailed": "Falha ao carregar a atividade dos amigos",
 		"loadHistoryFailed": "Falha ao carregar o histórico",
-		"loadStatsFailed": "Falha ao carregar estatísticas",
-		"milestoneRange": "Escolha um número de jogo de 1 ou mais.",
-		"pagingPair": "before_ms e before_id devem ser fornecidos juntos."
+		"loadStatsFailed": "Falha ao carregar as estatísticas",
+		"milestoneRange": "Escolha um número de reprodução igual ou maior que 1.",
+		"pagingPair": "before_ms e before_id devem ser informados juntos."
 	},
 	"label": {
 		"nameTaken": "Outra gravadora já tem esse nome."
 	},
 	"library": {
-		"limitReached": "O limite da biblioteca foi atingido para esta conta."
+		"limitReached": "Limite de bibliotecas atingido para esta conta."
 	},
 	"lyrics": {
-		"noLines": "Não há linhas de letras para salvar."
+		"noLines": "Não há linhas de letra para salvar."
 	},
 	"moderation": {
-		"blockSelf": "Você não pode se bloquear.",
-		"reasonRequired": "É necessário um motivo (≤200 caracteres)."
+		"blockSelf": "Você não pode bloquear a si mesmo.",
+		"reasonRequired": "É obrigatório informar um motivo (≤200 caracteres)."
 	},
 	"noFields": "Nenhum campo para atualizar.",
 	"oauth": {
 		"missingCode": "Código de autorização ausente."
 	},
 	"pins": {
-		"unknownKind": "Tipo de alfinete desconhecido."
+		"unknownKind": "Tipo de item fixado desconhecido."
 	},
 	"playlist": {
-		"limitReached": "Limite de playlist atingido para esta conta."
+		"limitReached": "Limite de playlists atingido para esta conta."
 	},
 	"route": {
-		"message": "Um erro inesperado interrompeu esta página. Você pode tentar novamente ou voltar para casa.",
+		"message": "Um erro inesperado interrompeu esta página. Você pode tentar novamente ou voltar ao início.",
 		"title": "Algo deu errado"
 	},
 	"saveFailed": "Falha ao salvar",
@@ -91,17 +91,17 @@
 	},
 	"twoFactor": {
 		"invalidCode": "Código inválido.",
-		"setupFailed": "Não foi possível iniciar a configuração 2FA."
+		"setupFailed": "Não foi possível iniciar a configuração da 2FA."
 	},
 	"user": {
-		"handleGenFailed": "Não foi possível gerar um identificador exclusivo para esta conta do Discord.",
-		"handleOrEmailTaken": "Esse identificador ou e-mail já está em uso.",
-		"handleTaken": "Esse identificador já está em uso.",
-		"notFound": "Nenhum usuário com esse identificador."
+		"handleGenFailed": "Não foi possível gerar um nome de usuário exclusivo para esta conta do Discord.",
+		"handleOrEmailTaken": "Esse nome de usuário ou e-mail já está em uso.",
+		"handleTaken": "Esse nome de usuário já está em uso.",
+		"notFound": "Nenhum usuário com esse nome."
 	},
 	"validation": {
 		"nameOrIconRequired": "É necessário um nome ou ícone.",
 		"nameRequired": "O nome é obrigatório."
 	},
-	"valueEmpty": "O valor não pode estar vazio."
+	"valueEmpty": "O valor não pode ficar vazio."
 }

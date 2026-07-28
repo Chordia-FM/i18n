@@ -8,32 +8,32 @@
 		"morning": "Guten Morgen"
 	},
 	"home": {
-		"emptyState": "Hier ist noch nichts – koppeln Sie einen Bibliotheksserver und Ihr Katalog wird angezeigt."
+		"emptyState": "Hier ist noch nichts – koppeln Sie einen Bibliotheksserver, dann erscheint Ihr Katalog."
 	},
 	"jumpBackIn": {
-		"emptyState": "Hier werden Dinge angezeigt, die Sie kürzlich gespielt haben.",
-		"title": "Spring wieder rein"
+		"emptyState": "Titel, die Sie kürzlich gehört haben, erscheinen hier.",
+		"title": "Weiterhören"
 	},
 	"madeForYou": {
-		"emptyState": "Hören Sie mehr Musik und Ihre täglichen Mixe werden hier angezeigt.",
+		"emptyState": "Hören Sie mehr Musik – dann erscheinen hier Ihre täglichen Mixe.",
 		"title": "Für Sie gemacht"
 	},
 	"mix": {
-		"noTracksToast": "Dieser Mix enthält noch keine spielbaren Titel",
-		"playTitle": "Spielen{title}",
-		"playingToast": "Spielen{title}"
+		"noTracksToast": "Dieser Mix enthält noch keine abspielbaren Titel",
+		"playTitle": "{title} abspielen",
+		"playingToast": "{title} wird abgespielt"
 	},
 	"radio": {
 		"label": "Radio",
-		"pin": "Pin-Radio"
+		"pin": "Radio anheften"
 	},
 	"shelf": {
-		"jumpBackIn": "Spring wieder rein",
-		"madeFor": "Gemacht für{name}",
-		"madeForYou": "Du",
+		"jumpBackIn": "Weiterhören",
+		"madeFor": "Für {name}",
+		"madeForYou": "Sie",
 		"recommended": "Für Sie empfohlen",
-		"trendingAlbums": "Trendalben",
-		"trendingArtists": "Trendkünstler",
+		"trendingAlbums": "Angesagte Alben",
+		"trendingArtists": "Angesagte Künstler",
 		"yourLibraries": "Ihre Bibliotheken"
 	}
 }

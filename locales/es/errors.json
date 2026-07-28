@@ -1,106 +1,106 @@
 {
 	"account": {
-		"emailChangeFailed": "Could no start correo cambiar."
+		"emailChangeFailed": "No se pudo iniciar el cambio de correo."
 	},
 	"admin": {
-		"deleteSelf": "Usar cuenta ajustes a eliminar tu own cuenta.",
-		"invalidReportAction": "Action must be “resolved” o “dismissed”."
+		"deleteSelf": "Usa los ajustes de la cuenta para eliminar tu propia cuenta.",
+		"invalidReportAction": "La acción debe ser “resolved” o “dismissed”."
 	},
 	"auth": {
 		"badCredentials": "Correo o contraseña incorrectos.",
-		"displayNameLength": "Display nombre must be 1–64 characters.",
+		"displayNameLength": "El nombre visible debe tener entre 1 y 64 caracteres.",
 		"emailInUse": "Ese correo ya está en uso.",
-		"emailInvalid": "A valid correo address is required.",
-		"handleChars": "Username may contain solo letters, digits, “_” y “-”, y must start con un letter o digit.",
+		"emailInvalid": "Se requiere una dirección de correo válida.",
+		"handleChars": "El nombre de usuario solo puede contener letras, números, “_” y “-”, y debe empezar por una letra o un número.",
 		"handleLength": "El nombre de usuario debe tener entre 2 y 32 caracteres.",
 		"passwordLength": "La contraseña debe tener entre {min} y {max} caracteres.",
-		"passwordRange": "Contraseña must be 8–1024 characters.",
-		"twoFactorAlreadyEnabled": "Autenticación de dos factores is already enabled — desactivar it primero.",
-		"twoFactorNotEnabled": "Autenticación de dos factores is no enabled.",
-		"twoFactorStartFirst": "Start two-factor setup primero."
+		"passwordRange": "La contraseña debe tener entre 8 y 1024 caracteres.",
+		"twoFactorAlreadyEnabled": "La autenticación de dos factores ya está activada: desactívala primero.",
+		"twoFactorNotEnabled": "La autenticación de dos factores no está activada.",
+		"twoFactorStartFirst": "Primero inicia la configuración de dos factores."
 	},
 	"catalog": {
-		"albumLoadFailed": "Error a load",
-		"artistLoadFailed": "Error a load",
-		"artistNameTaken": "Another artista already has ese nombre.",
-		"labelLoadFailed": "No se pudo load este label",
-		"unknownArtist": "Desconocido artista.",
-		"unknownImageHash": "Desconocido imagen."
+		"albumLoadFailed": "No se pudo cargar",
+		"artistLoadFailed": "No se pudo cargar",
+		"artistNameTaken": "Ya hay otro artista con ese nombre.",
+		"labelLoadFailed": "No se pudo cargar este sello",
+		"unknownArtist": "Artista desconocido.",
+		"unknownImageHash": "Imagen desconocida."
 	},
-	"changeFailed": "No se pudo guardar ese cambiar — please try de nuevo.",
+	"changeFailed": "No se pudo guardar ese cambio. Inténtalo de nuevo.",
 	"directory": {
-		"serverOffline": "Ese servidor is offline."
+		"serverOffline": "Ese servidor está desconectado."
 	},
 	"discovery": {
-		"dailyMixFailed": "No se pudo build este mix",
-		"radioFailed": "No se pudo build este radio"
+		"dailyMixFailed": "No se pudo crear esta mezcla",
+		"radioFailed": "No se pudo crear esta radio"
 	},
-	"failedToLoad": "Error a load",
+	"failedToLoad": "No se pudo cargar",
 	"friends": {
 		"cannotFriendSelf": "No puedes enviarte una solicitud de amistad a ti mismo."
 	},
 	"generic": "Error",
 	"image": {
-		"empty": "El imagen is vacío.",
-		"fetchFailed": "No se pudo fetch ese imagen.",
-		"hashMismatch": "Imagen content didn't match el expected hash.",
-		"invalidUrl": "Invalid imagen URL.",
-		"tooLarge": "Imagen is too large (max 8 MiB)."
+		"empty": "La imagen está vacía.",
+		"fetchFailed": "No se pudo obtener esa imagen.",
+		"hashMismatch": "El contenido de la imagen no coincide con el hash esperado.",
+		"invalidUrl": "La URL de la imagen no es válida.",
+		"tooLarge": "La imagen es demasiado grande (máx. 8 MiB)."
 	},
 	"insights": {
-		"compareSelf": "Tú can't compare con yourself.",
-		"compatibilityNotFound": "No usuario con ese handle.",
-		"compatibilityPrivate": "Ese user's escucha actividad is privado.",
-		"invalidTimezone": "Desconocido tiempo zone “{timezone}”.",
-		"loadFriendActivityFailed": "Error a load amigo actividad",
-		"loadHistoryFailed": "Error a load historial",
-		"loadStatsFailed": "Error a load stats",
-		"milestoneRange": "Pick un reproducción number de 1 o más.",
-		"pagingPair": "before_ms y before_id must be provided together."
+		"compareSelf": "No puedes compararte contigo mismo.",
+		"compatibilityNotFound": "No hay ningún usuario con ese nombre.",
+		"compatibilityPrivate": "La actividad de escucha de ese usuario es privada.",
+		"invalidTimezone": "Zona horaria desconocida: “{timezone}”.",
+		"loadFriendActivityFailed": "No se pudo cargar la actividad de tus amigos",
+		"loadHistoryFailed": "No se pudo cargar el historial",
+		"loadStatsFailed": "No se pudieron cargar las estadísticas",
+		"milestoneRange": "Elige un número de reproducción igual o mayor que 1.",
+		"pagingPair": "before_ms y before_id deben enviarse juntos."
 	},
 	"label": {
-		"nameTaken": "Otro sello ya tiene ese nombre."
+		"nameTaken": "Ya hay otro sello con ese nombre."
 	},
 	"library": {
-		"limitReached": "Biblioteca limit reached para este cuenta."
+		"limitReached": "Has alcanzado el límite de bibliotecas de esta cuenta."
 	},
 	"lyrics": {
-		"noLines": "There are no lyric lines a guardar."
+		"noLines": "No hay líneas de letra que guardar."
 	},
 	"moderation": {
-		"blockSelf": "Tú can't block yourself.",
+		"blockSelf": "No puedes bloquearte a ti mismo.",
 		"reasonRequired": "Se requiere un motivo (≤200 caracteres)."
 	},
-	"noFields": "No hay campos para actualizar.",
+	"noFields": "No hay campos que actualizar.",
 	"oauth": {
-		"missingCode": "Faltante authorization code."
+		"missingCode": "Falta el código de autorización."
 	},
 	"pins": {
-		"unknownKind": "Desconocido pin kind."
+		"unknownKind": "Tipo de elemento fijado desconocido."
 	},
 	"playlist": {
-		"limitReached": "Reproducirlist limit reached para este cuenta."
+		"limitReached": "Has alcanzado el límite de listas de reproducción de esta cuenta."
 	},
 	"route": {
-		"message": "An unexpected error interrupted este página. Tú can try de nuevo o head volver inicio.",
+		"message": "Un error inesperado ha interrumpido esta página. Puedes reintentarlo o volver al inicio.",
 		"title": "Algo salió mal"
 	},
-	"saveFailed": "Error a guardar",
+	"saveFailed": "No se pudo guardar",
 	"share": {
-		"withSelf": "Tú can't share con yourself."
+		"withSelf": "No puedes compartir contigo mismo."
 	},
 	"twoFactor": {
 		"invalidCode": "Código no válido.",
-		"setupFailed": "Could no start 2FA setup."
+		"setupFailed": "No se pudo iniciar la configuración de 2FA."
 	},
 	"user": {
-		"handleGenFailed": "No se pudo generate un unique handle para este Discord cuenta.",
-		"handleOrEmailTaken": "Ese handle o correo is already taken.",
-		"handleTaken": "Ese handle is already taken.",
-		"notFound": "No usuario con ese handle."
+		"handleGenFailed": "No se pudo generar un nombre de usuario único para esta cuenta de Discord.",
+		"handleOrEmailTaken": "Ese nombre de usuario o correo ya está en uso.",
+		"handleTaken": "Ese nombre de usuario ya está en uso.",
+		"notFound": "No hay ningún usuario con ese nombre."
 	},
 	"validation": {
-		"nameOrIconRequired": "A nombre o icon is required.",
+		"nameOrIconRequired": "Se requiere un nombre o un icono.",
 		"nameRequired": "El nombre es obligatorio."
 	},
 	"valueEmpty": "El valor no puede estar vacío."

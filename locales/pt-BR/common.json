@@ -1,7 +1,7 @@
 {
 	"a11y": {
-		"dismissNotification": "Ignorar notificação",
-		"playTrack": "Jogar {title}"
+		"dismissNotification": "Dispensar notificação",
+		"playTrack": "Reproduzir {title}"
 	},
 	"actions": {
 		"cancel": "Cancelar",
@@ -13,15 +13,15 @@
 		"done": "Concluído",
 		"download": "Baixar",
 		"edit": "Editar",
-		"find": "Encontrar",
-		"goHome": "Vá para casa",
+		"find": "Localizar",
+		"goHome": "Ir para o início",
 		"more": "Mais",
 		"moveDown": "Mover para baixo",
-		"moveUp": "Subir",
+		"moveUp": "Mover para cima",
 		"ok": "OK",
 		"open": "Abrir",
 		"pin": "Fixar",
-		"play": "Jogar",
+		"play": "Reproduzir",
 		"remove": "Remover",
 		"rename": "Renomear",
 		"reset": "Redefinir",
@@ -33,20 +33,20 @@
 		"showLess": "Mostrar menos",
 		"showMore": "Mostrar mais",
 		"signOut": "Sair",
-		"tryAgain": "Tente novamente",
+		"tryAgain": "Tentar novamente",
 		"undo": "Desfazer",
-		"unpin": "Liberar",
-		"verify": "Verifique"
+		"unpin": "Desafixar",
+		"verify": "Verificar"
 	},
 	"appName": "Chordia",
 	"commandPalette": {
 		"hint": {
-			"go": "Vá",
+			"go": "Ir",
 			"open": "Abrir",
-			"play": "Jogar"
+			"play": "Tocar"
 		},
 		"noMatches": "Nenhuma correspondência.",
-		"placeholder": "Pesquise músicas ou vá para uma página…",
+		"placeholder": "Buscar música ou ir para uma página…",
 		"title": "Paleta de comandos",
 		"typeToSearch": "Digite para pesquisar."
 	},
@@ -60,7 +60,7 @@
 		"artist": "Artista",
 		"country": "País",
 		"description": "Descrição",
-		"label": "Etiqueta",
+		"label": "Gravadora",
 		"name": "Nome",
 		"title": "Título",
 		"type": "Tipo",
@@ -68,38 +68,38 @@
 	},
 	"fileBrowser": {
 		"browse": "Navegar",
-		"goUp": "Suba",
-		"useThisFolder": "Use esta pasta"
+		"goUp": "Subir um nível",
+		"useThisFolder": "Usar esta pasta"
 	},
 	"keybinds": {
-		"closeDialog": "Fechar caixa de diálogo",
+		"closeDialog": "Fechar diálogo",
 		"commandPalette": "Paleta de comandos",
 		"help": "Atalhos de teclado",
-		"quickSearch": "Pesquisa rápida",
+		"quickSearch": "Busca rápida",
 		"section": {
 			"general": "Geral",
 			"navigation": "Navegação",
-			"player": "Jogador"
+			"player": "Player"
 		},
 		"toggleRightSidebar": "Alternar barra lateral direita"
 	},
 	"language": {
-		"description": "Idioma usado na interface.",
+		"description": "Idioma usado em toda a interface.",
 		"label": "Idioma"
 	},
 	"nav": {
 		"allLibraries": "Todas as bibliotecas",
 		"friends": "Amigos",
-		"home": "Página inicial",
+		"home": "Início",
 		"library": "Biblioteca",
-		"listen": "Ouça",
-		"search": "Pesquisar",
+		"listen": "Ouvir",
+		"search": "Buscar",
 		"settings": "Configurações",
-		"signIn": "Faça login"
+		"signIn": "Entrar"
 	},
 	"notFound": {
 		"body": "Esta página não existe.",
-		"goHome": "Vá para casa",
+		"goHome": "Ir para o início",
 		"title": "Página não encontrada"
 	},
 	"or": "ou",
@@ -111,22 +111,22 @@
 	"image": {
 		"adjust": "Ajustar",
 		"adjustTitle": "Ajustar imagem",
-		"rotateLeft": "Girar para a esquerda",
-		"rotateRight": "Girar para a direita",
-		"flipHorizontal": "Virar horizontalmente",
-		"flipVertical": "Virar verticalmente",
+		"rotateLeft": "Girar à esquerda",
+		"rotateRight": "Girar à direita",
+		"flipHorizontal": "Inverter na horizontal",
+		"flipVertical": "Inverter na vertical",
 		"hint": "Arraste para reposicionar · amplie para reenquadrar",
 		"reset": "Redefinir",
 		"zoom": "Zoom"
 	},
 	"state": {
 		"loading": "Carregando…",
-		"off": "Desligado",
-		"on": "Ligado"
+		"off": "Desativado",
+		"on": "Ativado"
 	},
 	"states": {
 		"loading": "Carregando…",
-		"off": "Desligado",
+		"off": "Desativado",
 		"saving": "Salvando…",
 		"verifying": "Verificando…"
 	},
@@ -139,7 +139,7 @@
 		"refresh": "Atualizar"
 	},
 	"userMenu": {
-		"admin": "Administrador",
+		"admin": "Admin",
 		"libraries": "Bibliotecas",
 		"profile": "Seu perfil",
 		"settings": "Configurações",
