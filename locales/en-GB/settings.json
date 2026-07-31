@@ -51,7 +51,7 @@
 	"downloads": {
 		"browserStorageName": "This device (browser storage)",
 		"bytes": "{bytes} B / {kb} KB / {mb} MB / {gb} GB",
-		"serverNote": "Music libraries themselves are added and organized on your Chordia library server, not here. Saving downloads to a custom folder (with your own path + organization layout) is coming to the desktop app.",
+		"serverNote": "Music libraries themselves are added and organised on your Chordia library server, not here. Saving downloads to a custom folder (with your own path + organisation layout) is coming to the desktop app.",
 		"thisDevice": {
 			"description": "Downloaded songs are stored on this device and play without a connection.",
 			"empty": "Use the Download action on any track or album.",
@@ -93,7 +93,7 @@
 		},
 		"normalize": {
 			"desc": "Even out loudness across tracks (ReplayGain).",
-			"label": "Normalize volume"
+			"label": "Normalise volume"
 		},
 		"preload": {
 			"desc": "How many upcoming queue tracks to download ahead of time, for instant gap-free playback. Higher uses more data.",
@@ -172,7 +172,7 @@
 		"title": "Region"
 	},
 	"sessions": {
-		"body": "Where you're signed in. Revoke any device you don't recognize.",
+		"body": "Where you're signed in. Revoke any device you don't recognise.",
 		"lastActive": "Last active {date}",
 		"lastActiveDate": "{date}",
 		"signOutEverywhere": "Sign out everywhere",
