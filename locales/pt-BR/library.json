@@ -68,12 +68,12 @@
 		"clearError": "Não foi possível limpar os downloads",
 		"emptyState": "As músicas que você baixa tocam sem conexão. Use a ação Baixar em qualquer faixa para guardá-la aqui.",
 		"eyebrow": "Disponível offline",
-		"navLabel": "Downloads",
+		"navLabel": "",
 		"removeError": "Não foi possível remover o download",
 		"removeTooltip": "Remover download",
 		"songCount": "{count, plural, one {# música} other {# músicas}}",
 		"storedOnDevice": "guardadas neste dispositivo",
-		"title": "Downloads"
+		"title": ""
 	},
 	"hidden": {
 		"hide": "Ocultar esta música",
@@ -81,7 +81,7 @@
 	},
 	"liked": {
 		"empty": "As músicas que você curtir aparecem aqui. Toque no coração de qualquer faixa.",
-		"eyebrow": "Playlist",
+		"eyebrow": "",
 		"remove": "Remover das Músicas Curtidas",
 		"save": "Salvar em Músicas Curtidas",
 		"songCount": "{count, plural, one {# música} other {# músicas}}",
@@ -115,7 +115,7 @@
 		"noFolderChosen": "Nenhuma pasta escolhida",
 		"noServer": "Nenhum servidor pareado neste dispositivo. Inicie seu servidor de biblioteca e abra o link de configuração que ele mostra para parear primeiro.",
 		"noSubFolders": "Nenhuma subpasta aqui",
-		"serverLabel": "{names} · {host}",
+		"serverLabel": "",
 		"serverSelectHint": "Esta nova biblioteca será criada no servidor selecionado.",
 		"serverSelectLabel": "Servidor de biblioteca",
 		"submit": "Adicionar biblioteca",
@@ -181,7 +181,7 @@
 	},
 	"sidebar": {
 		"pinned": "Fixados",
-		"playlists": "Playlists",
+		"playlists": "",
 		"yourLibrary": "Sua biblioteca"
 	},
 	"trackCount": "{count, plural, one {# faixa} other {# faixas}}",
@@ -200,8 +200,8 @@
 		"statsLine": "{requests} pedidos · {downloads} downloads · {plays} reproduções · {time} de audição",
 		"lastPlayed": "ouviu pela última vez {date}",
 		"updateFailed": "Não foi possível atualizar o compartilhamento — tente novamente.",
-		"timeDaysHours": "{days}d {hours}h",
-		"timeHoursMinutes": "{hours}h {minutes}m",
-		"timeMinutes": "{minutes}m"
+		"timeDaysHours": "",
+		"timeHoursMinutes": "",
+		"timeMinutes": ""
 	}
 }
