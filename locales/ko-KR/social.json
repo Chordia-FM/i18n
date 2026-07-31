@@ -1,59 +1,59 @@
 {
 	"block": {
-		"confirmLabel": "Block",
-		"confirmMessage": "Block @{handle}? You won't be able to add each other as friends.",
-		"confirmTitle": "Block user"
+		"confirmLabel": "차단",
+		"confirmMessage": "@{handle}님을 차단할까요? 서로 친구로 추가할 수 없게 됩니다.",
+		"confirmTitle": "사용자 차단"
 	},
 	"discovery": {
-		"addFriend": "Add friend",
-		"friendsStatus": "Friends",
-		"requestSent": "Request sent",
-		"sending": "Sending…"
+		"addFriend": "친구 추가",
+		"friendsStatus": "친구",
+		"requestSent": "요청 보냄",
+		"sending": "보내는 중…"
 	},
 	"friends": {
-		"confirmRemove": "Confirm?",
-		"empty": "No friends yet - search to add some",
-		"heading": "Friends ({count})",
-		"removing": "Removing…",
-		"title": "Friends"
+		"confirmRemove": "확인?",
+		"empty": "아직 친구가 없습니다 - 검색해서 추가해 보세요",
+		"heading": "친구 ({count})",
+		"removing": "제거 중…",
+		"title": "친구"
 	},
 	"modMenu": {
-		"blocked": "Blocked",
-		"report": "Report",
-		"reported": "Reported"
+		"blocked": "차단됨",
+		"report": "신고",
+		"reported": "신고됨"
 	},
 	"page": {
-		"title": "Friends"
+		"title": "친구"
 	},
 	"profile": {
-		"eyebrow": "Profile",
-		"itemPlays": "{count, plural, one {# play} other {# plays}}",
+		"eyebrow": "프로필",
+		"itemPlays": "{count, plural, other {#회 재생}}",
 		"joinedDate": "{date, date, ::yMMMM}",
-		"joinedLabel": "joined {date}",
-		"loadError": "Couldn't load this profile.",
-		"noActivity": "No listening activity yet.",
-		"notFound": "No user with that handle.",
+		"joinedLabel": "{date} 가입",
+		"loadError": "이 프로필을 불러오지 못했습니다.",
+		"noActivity": "아직 감상 활동이 없습니다.",
+		"notFound": "해당 사용자 이름을 가진 사용자가 없습니다.",
 		"private": {
-			"description": "{name} only shares their listening with friends.",
-			"title": "This profile is private"
+			"description": "{name}님은 친구에게만 감상 활동을 공개합니다.",
+			"title": "비공개 프로필입니다"
 		},
-		"recentlyPlayed": "Recently played",
-		"topArtists": "Top artists",
-		"topTracks": "Top tracks",
-		"totalPlays": "{count, plural, one {# play} other {# plays}}",
+		"recentlyPlayed": "최근 재생",
+		"topArtists": "인기 아티스트",
+		"topTracks": "인기 트랙",
+		"totalPlays": "{count, plural, other {#회 재생}}",
 		"totalPlaysCount": "{count}"
 	},
 	"report": {
-		"promptMessage": "Report @{handle} — what's the issue?"
+		"promptMessage": "@{handle}님 신고 — 무엇이 문제인가요?"
 	},
 	"requests": {
-		"accept": "Accept",
-		"accepting": "Accepting…",
-		"pendingHeading": "Pending requests ({count})"
+		"accept": "수락",
+		"accepting": "수락 중…",
+		"pendingHeading": "대기 중인 요청 ({count})"
 	},
 	"search": {
-		"noResults": "No users found.",
-		"placeholder": "Search by handle or display name…",
-		"searching": "Searching…"
+		"noResults": "사용자를 찾을 수 없습니다.",
+		"placeholder": "사용자 이름 또는 표시 이름으로 검색…",
+		"searching": "검색 중…"
 	}
 }
