@@ -1,113 +1,113 @@
 {
 	"actions": {
-		"rename": "Rename playlist"
+		"rename": "플레이리스트 이름 변경"
 	},
-	"addError": "Couldn't add to playlist",
-	"addToNamed": "Add to {playlist}",
-	"addToPlaylist": "Add to playlist",
-	"addedAlbumToast": "{count, plural, one {Added # track to {playlist}} other {Added # tracks to {playlist}}}",
-	"addedToast": "Added to {playlist}",
+	"addError": "플레이리스트에 추가하지 못했습니다",
+	"addToNamed": "{playlist}에 추가",
+	"addToPlaylist": "플레이리스트에 추가",
+	"addedAlbumToast": "{count, plural, other {{playlist}에 #곡을 추가했습니다}}",
+	"addedToast": "{playlist}에 추가함",
 	"collaborators": {
-		"addError": "Couldn't add that collaborator",
-		"collaborative": "Collaborative",
-		"invite": "+ Invite",
-		"invitePrompt": "Invite a collaborator by handle",
-		"invited": "Invited @{handle}",
-		"justYou": "Just you",
-		"removeTitle": "Remove {name}",
-		"removed": "Removed {name}"
+		"addError": "공동 작업자를 추가하지 못했습니다",
+		"collaborative": "공동 작업",
+		"invite": "+ 초대",
+		"invitePrompt": "사용자 이름으로 공동 작업자를 초대하세요",
+		"invited": "@{handle}님을 초대함",
+		"justYou": "회원님만",
+		"removeTitle": "{name} 제거",
+		"removed": "{name} 제거함"
 	},
 	"confirm": {
-		"deleteMessage": "Delete \"{name}\"?",
-		"deleteTitle": "Delete playlist"
+		"deleteMessage": "\"{name}\"을(를) 삭제할까요?",
+		"deleteTitle": "플레이리스트 삭제"
 	},
 	"cover": {
-		"change": "Change image",
-		"remove": "Remove image"
+		"change": "이미지 변경",
+		"remove": "이미지 제거"
 	},
-	"createFailed": "Couldn’t create playlist",
-	"createdFromAlbumToast": "Playlist “{name}” created",
+	"createFailed": "플레이리스트를 만들지 못했습니다",
+	"createdFromAlbumToast": "플레이리스트 ‘{name}’을(를) 만들었습니다",
 	"delete": {
-		"confirmBody": "Delete this playlist?",
-		"title": "Delete playlist"
+		"confirmBody": "이 플레이리스트를 삭제할까요?",
+		"title": "플레이리스트 삭제"
 	},
-	"empty": "This playlist is empty. Add songs from the “⋯” menu on any track.",
-	"kindLabel": "Playlist",
+	"empty": "플레이리스트가 비어 있습니다. 트랙의 “⋯” 메뉴에서 곡을 추가하세요.",
+	"kindLabel": "플레이리스트",
 	"leave": {
-		"confirmBody": "Leave this collaborative playlist?",
-		"confirmLabel": "Leave",
-		"title": "Leave playlist"
+		"confirmBody": "이 공동 작업 플레이리스트에서 나갈까요?",
+		"confirmLabel": "나가기",
+		"title": "플레이리스트 나가기"
 	},
-	"menuEmpty": "No playlists",
-	"new": "New playlist",
-	"newFromAlbum": "New playlist",
-	"newFromAlbumSub": "From “{name}”",
+	"menuEmpty": "플레이리스트 없음",
+	"new": "새 플레이리스트",
+	"newFromAlbum": "새 플레이리스트",
+	"newFromAlbumSub": "‘{name}’에서",
 	"prompt": {
-		"newName": "Playlist name",
-		"rename": "Rename playlist"
+		"newName": "플레이리스트 이름",
+		"rename": "플레이리스트 이름 변경"
 	},
-	"removeFromPlaylist": "Remove from playlist",
-	"searchPlaceholder": "Find a playlist",
-	"sharedWithYou": " · shared with you",
+	"removeFromPlaylist": "플레이리스트에서 제거",
+	"searchPlaceholder": "플레이리스트 검색",
+	"sharedWithYou": " · 공유받음",
 	"smart": {
-		"addRule": "Add rule",
-		"autoUpdating": " · auto-updating",
+		"addRule": "규칙 추가",
+		"autoUpdating": " · 자동 업데이트",
 		"bool": {
-			"false": "false",
-			"true": "true"
+			"false": "거짓",
+			"true": "참"
 		},
-		"created": "Smart playlist created",
+		"created": "스마트 플레이리스트를 만들었습니다",
 		"delete": {
-			"confirmBody": "Delete this smart playlist?",
-			"title": "Delete smart playlist"
+			"confirmBody": "이 스마트 플레이리스트를 삭제할까요?",
+			"title": "스마트 플레이리스트 삭제"
 		},
-		"description": "Rules resolve to matching tracks automatically.",
-		"editRules": "Edit rules",
-		"editTitle": "Edit smart playlist",
-		"empty": "No tracks match these rules yet. Try loosening them with “Edit rules”.",
+		"description": "규칙에 맞는 트랙이 자동으로 채워집니다.",
+		"editRules": "규칙 편집",
+		"editTitle": "스마트 플레이리스트 편집",
+		"empty": "아직 이 규칙에 맞는 트랙이 없습니다. “규칙 편집”에서 조건을 완화해 보세요.",
 		"field": {
-			"album": "Album",
-			"artist": "Artist",
-			"genre": "Genre",
-			"liked": "Liked",
-			"plays": "Plays",
-			"title": "Title",
-			"year": "Year"
+			"album": "앨범",
+			"artist": "아티스트",
+			"genre": "장르",
+			"liked": "좋아요",
+			"plays": "재생 횟수",
+			"title": "제목",
+			"year": "연도"
 		},
-		"kindLabel": "Smart playlist",
-		"limit": "Limit",
-		"match": "Match",
+		"kindLabel": "스마트 플레이리스트",
+		"limit": "개수 제한",
+		"match": "다음 규칙 중",
 		"matchMode": {
-			"all": "all",
-			"any": "any"
+			"all": "모두",
+			"any": "하나라도"
 		},
-		"namePlaceholder": "Playlist name",
-		"new": "New smart playlist",
-		"newTitle": "New smart playlist",
-		"ofTheseRules": "of these rules:",
+		"namePlaceholder": "플레이리스트 이름",
+		"new": "새 스마트 플레이리스트",
+		"newTitle": "새 스마트 플레이리스트",
+		"ofTheseRules": "일치하는 트랙:",
 		"op": {
-			"contains": "contains",
-			"equals": "is",
-			"is": "is"
+			"contains": "포함",
+			"equals": "일치",
+			"is": "일치"
 		},
-		"removeRule": "Remove rule",
-		"ruleField": "Rule field",
-		"ruleOperator": "Rule operator",
-		"saveError": "Couldn't save the smart playlist",
+		"removeRule": "규칙 제거",
+		"ruleField": "규칙 항목",
+		"ruleOperator": "규칙 연산자",
+		"saveError": "스마트 플레이리스트를 저장하지 못했습니다",
 		"sort": {
-			"plays": "Plays",
-			"random": "Random",
-			"title": "Title"
+			"plays": "재생 횟수",
+			"random": "무작위",
+			"title": "제목"
 		},
-		"sortBy": "Sort by",
-		"updated": "Smart playlist updated",
-		"valuePlaceholder": "value"
+		"sortBy": "정렬 기준",
+		"updated": "스마트 플레이리스트를 업데이트했습니다",
+		"valuePlaceholder": "값"
 	},
-	"songCount": "{count, plural, one {# song} other {# songs}}",
+	"songCount": "{count, plural, other {#곡}}",
 	"toast": {
-		"createFailed": "Couldn't create playlist",
-		"created": "Created \"{name}\"",
-		"deleteFailed": "Couldn't delete playlist",
-		"deleted": "Deleted \"{name}\""
+		"createFailed": "플레이리스트를 만들지 못했습니다",
+		"created": "\"{name}\"을(를) 만들었습니다",
+		"deleteFailed": "플레이리스트를 삭제하지 못했습니다",
+		"deleted": "\"{name}\"을(를) 삭제했습니다"
 	}
 }
