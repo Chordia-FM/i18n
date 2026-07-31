@@ -13,7 +13,7 @@
 	},
 	"pillars": {
 		"liveRooms": {
-			"body": "Synchronized listening parties with chat, votes, and turn-taking DJs. You hear your own copy when you own it; your library relays the rest.",
+			"body": "Synchronised listening parties with chat, votes, and turn-taking DJs. You hear your own copy when you own it; your library relays the rest.",
 			"title": "Live listening rooms"
 		},
 		"ownIt": {
@@ -21,7 +21,7 @@
 			"title": "Own it, host it anywhere"
 		},
 		"selectiveSharing": {
-			"body": "Organize music into separate libraries - \"Hi-Fi Archive\", \"Family Collection\" - and share each one with exactly the friends you choose.",
+			"body": "Organise music into separate libraries - \"Hi-Fi Archive\", \"Family Collection\" - and share each one with exactly the friends you choose.",
 			"title": "Selective sharing"
 		},
 		"wrapped": {
