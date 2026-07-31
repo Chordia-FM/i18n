@@ -6,8 +6,8 @@
 		"emailChangeSent": "新しいメールアドレスの受信箱で確認リンクをご確認ください。",
 		"handle": "ハンドル",
 		"handleHint": "英字、数字、「_」「-」が使用できます。他のユーザーと重複できません。",
-		"handlePlaceholder": "yourname",
-		"newEmailPlaceholder": "new@example.com",
+		"handlePlaceholder": "",
+		"newEmailPlaceholder": "",
 		"resendVerification": "確認メールを再送信",
 		"saveProfile": "プロフィールを保存",
 		"sendConfirmation": "確認メールを送信",
@@ -32,7 +32,7 @@
 			"disconnect": "連携を解除",
 			"disconnected": "Last.fmの連携を解除しました",
 			"failed": "Last.fmに連携できませんでした",
-			"label": "Last.fm"
+			"label": ""
 		},
 		"title": "連携"
 	},
@@ -50,7 +50,7 @@
 	},
 	"downloads": {
 		"browserStorageName": "このデバイス（ブラウザストレージ）",
-		"bytes": "{bytes} B / {kb} KB / {mb} MB / {gb} GB",
+		"bytes": "",
 		"serverNote": "音楽ライブラリ自体の追加や整理はChordiaライブラリサーバー側で行います。カスタムフォルダへのダウンロード保存（独自のパスと整理レイアウト）は、デスクトップアプリで提供予定です。",
 		"thisDevice": {
 			"description": "ダウンロードした曲はこのデバイスに保存され、オフラインでも再生できます。",
@@ -174,7 +174,7 @@
 	"sessions": {
 		"body": "ログイン中の場所です。心当たりのないデバイスは取り消してください。",
 		"lastActive": "最終アクティブ: {date}",
-		"lastActiveDate": "{date}",
+		"lastActiveDate": "",
 		"signOutEverywhere": "すべてのデバイスからログアウト",
 		"signOutEverywhereConfirm": "すべてのデバイスからログアウトしますか？再度ログインが必要になります。",
 		"thisDevice": "このデバイス",
