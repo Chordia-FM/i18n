@@ -90,7 +90,7 @@
 		"noArtworkAlbum": "No covers found — the album needs a MusicBrainz match.",
 		"noArtworkArtist": "No online artwork found — needs a fanart.tv API key and a MusicBrainz match.",
 		"overrideGlobally": {
-			"help": "Also show this edit across your whole catalog (your highest-priority library wins). Doesn't change the original or affect other users.",
+			"help": "Also show this edit across your whole catalogue (your highest-priority library wins). Doesn't change the original or affect other users.",
 			"label": "Override globally"
 		},
 		"reset": {
@@ -137,7 +137,7 @@
 		"noAlbums": "No albums."
 	},
 	"labels": {
-		"empty": "No labels yet — they fill in as your catalog is enriched from MusicBrainz.",
+		"empty": "No labels yet — they fill in as your catalogue is enriched from MusicBrainz.",
 		"title": "Labels"
 	},
 	"lyrics": {
