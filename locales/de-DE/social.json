@@ -1,59 +1,59 @@
 {
 	"block": {
-		"confirmLabel": "Block",
-		"confirmMessage": "Block @{handle}? You won't be able to add each other as friends.",
-		"confirmTitle": "Block user"
+		"confirmLabel": "Blockieren",
+		"confirmMessage": "@{handle} blockieren? Sie können sich dann nicht mehr gegenseitig als Freunde hinzufügen.",
+		"confirmTitle": "Benutzer blockieren"
 	},
 	"discovery": {
-		"addFriend": "Add friend",
-		"friendsStatus": "Friends",
-		"requestSent": "Request sent",
-		"sending": "Sending…"
+		"addFriend": "Freund hinzufügen",
+		"friendsStatus": "Freunde",
+		"requestSent": "Anfrage gesendet",
+		"sending": "Wird gesendet…"
 	},
 	"friends": {
-		"confirmRemove": "Confirm?",
-		"empty": "No friends yet - search to add some",
-		"heading": "Friends ({count})",
-		"removing": "Removing…",
-		"title": "Friends"
+		"confirmRemove": "Bestätigen?",
+		"empty": "Noch keine Freunde – suchen Sie nach Personen zum Hinzufügen",
+		"heading": "Freunde ({count})",
+		"removing": "Wird entfernt…",
+		"title": "Freunde"
 	},
 	"modMenu": {
-		"blocked": "Blocked",
-		"report": "Report",
-		"reported": "Reported"
+		"blocked": "Blockiert",
+		"report": "Melden",
+		"reported": "Gemeldet"
 	},
 	"page": {
-		"title": "Friends"
+		"title": "Freunde"
 	},
 	"profile": {
-		"eyebrow": "Profile",
-		"itemPlays": "{count, plural, one {# play} other {# plays}}",
+		"eyebrow": "Profil",
+		"itemPlays": "{count, plural, one {# Wiedergabe} other {# Wiedergaben}}",
 		"joinedDate": "{date, date, ::yMMMM}",
-		"joinedLabel": "joined {date}",
-		"loadError": "Couldn't load this profile.",
-		"noActivity": "No listening activity yet.",
-		"notFound": "No user with that handle.",
+		"joinedLabel": "dabei seit {date}",
+		"loadError": "Dieses Profil konnte nicht geladen werden.",
+		"noActivity": "Noch keine Höraktivität.",
+		"notFound": "Kein Benutzer mit diesem Handle.",
 		"private": {
-			"description": "{name} only shares their listening with friends.",
-			"title": "This profile is private"
+			"description": "{name} teilt die eigene Höraktivität nur mit Freunden.",
+			"title": "Dieses Profil ist privat"
 		},
-		"recentlyPlayed": "Recently played",
-		"topArtists": "Top artists",
-		"topTracks": "Top tracks",
-		"totalPlays": "{count, plural, one {# play} other {# plays}}",
+		"recentlyPlayed": "Zuletzt gehört",
+		"topArtists": "Top-Künstler",
+		"topTracks": "Top-Titel",
+		"totalPlays": "{count, plural, one {# Wiedergabe} other {# Wiedergaben}}",
 		"totalPlaysCount": "{count}"
 	},
 	"report": {
-		"promptMessage": "Report @{handle} — what's the issue?"
+		"promptMessage": "@{handle} melden – worum geht es?"
 	},
 	"requests": {
-		"accept": "Accept",
-		"accepting": "Accepting…",
-		"pendingHeading": "Pending requests ({count})"
+		"accept": "Annehmen",
+		"accepting": "Wird angenommen…",
+		"pendingHeading": "Ausstehende Anfragen ({count})"
 	},
 	"search": {
-		"noResults": "No users found.",
-		"placeholder": "Search by handle or display name…",
-		"searching": "Searching…"
+		"noResults": "Keine Benutzer gefunden.",
+		"placeholder": "Nach Handle oder Anzeigename suchen…",
+		"searching": "Suche läuft…"
 	}
 }
