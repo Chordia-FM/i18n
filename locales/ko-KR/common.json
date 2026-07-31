@@ -1,165 +1,165 @@
 {
 	"a11y": {
-		"dismissNotification": "Dismiss notification",
-		"playTrack": "Play {title}"
+		"dismissNotification": "알림 닫기",
+		"playTrack": "{title} 재생"
 	},
 	"actions": {
-		"cancel": "Cancel",
-		"changeImage": "Change image",
-		"clearAll": "Clear all",
-		"close": "Close",
-		"confirm": "Confirm",
-		"copyLink": "Copy link",
-		"delete": "Delete",
-		"done": "Done",
-		"download": "Download",
-		"edit": "Edit",
-		"find": "Find",
-		"goHome": "Go home",
-		"linkCopied": "Link copied",
-		"more": "More",
-		"moveDown": "Move down",
-		"moveUp": "Move up",
-		"ok": "OK",
-		"open": "Open",
-		"pin": "Pin",
-		"play": "Play",
-		"remove": "Remove",
-		"rename": "Rename",
-		"reset": "Reset",
-		"save": "Save",
-		"search": "Search",
-		"seeAll": "See all",
-		"seeMore": "See more",
-		"share": "Share",
-		"showLess": "Show less",
-		"showMore": "Show more",
-		"signOut": "Sign out",
-		"tryAgain": "Try again",
-		"undo": "Undo",
-		"unpin": "Unpin",
-		"verify": "Verify",
-		"view": "View"
+		"cancel": "취소",
+		"changeImage": "이미지 변경",
+		"clearAll": "모두 지우기",
+		"close": "닫기",
+		"confirm": "확인",
+		"copyLink": "링크 복사",
+		"delete": "삭제",
+		"done": "완료",
+		"download": "다운로드",
+		"edit": "편집",
+		"find": "찾기",
+		"goHome": "홈으로",
+		"linkCopied": "링크를 복사했습니다",
+		"more": "더보기",
+		"moveDown": "아래로 이동",
+		"moveUp": "위로 이동",
+		"ok": "확인",
+		"open": "열기",
+		"pin": "고정",
+		"play": "재생",
+		"remove": "제거",
+		"rename": "이름 변경",
+		"reset": "초기화",
+		"save": "저장",
+		"search": "검색",
+		"seeAll": "모두 보기",
+		"seeMore": "더보기",
+		"share": "공유",
+		"showLess": "접기",
+		"showMore": "더보기",
+		"signOut": "로그아웃",
+		"tryAgain": "다시 시도",
+		"undo": "실행 취소",
+		"unpin": "고정 해제",
+		"verify": "인증",
+		"view": "보기"
 	},
 	"appName": "Chordia",
 	"commandPalette": {
 		"hint": {
-			"go": "Go",
-			"open": "Open",
-			"play": "Play"
+			"go": "이동",
+			"open": "열기",
+			"play": "재생"
 		},
-		"noMatches": "No matches.",
-		"placeholder": "Search music or jump to a page…",
-		"searchFor": "Search for “{query}”",
+		"noMatches": "일치하는 항목이 없습니다.",
+		"placeholder": "음악을 검색하거나 페이지로 이동…",
+		"searchFor": "‘{query}’ 검색",
 		"section": {
-			"navigation": "Navigation"
+			"navigation": "탐색"
 		},
-		"title": "Command palette",
-		"typeToSearch": "Type to search."
+		"title": "명령 팔레트",
+		"typeToSearch": "검색어를 입력하세요."
 	},
 	"error": {
-		"failedToLoad": "Failed to load"
+		"failedToLoad": "불러오지 못했습니다"
 	},
 	"errors": {
-		"saveFailed": "Save failed."
+		"saveFailed": "저장하지 못했습니다."
 	},
 	"fields": {
-		"artist": "Artist",
-		"country": "Country",
-		"description": "Description",
-		"label": "Label",
-		"name": "Name",
-		"title": "Title",
-		"type": "Type",
-		"year": "Year"
+		"artist": "아티스트",
+		"country": "국가",
+		"description": "설명",
+		"label": "레이블",
+		"name": "이름",
+		"title": "제목",
+		"type": "유형",
+		"year": "연도"
 	},
 	"fileBrowser": {
-		"browse": "Browse",
-		"goUp": "Go up",
-		"useThisFolder": "Use this folder"
+		"browse": "찾아보기",
+		"goUp": "상위 폴더",
+		"useThisFolder": "이 폴더 사용"
 	},
 	"image": {
-		"adjust": "Adjust",
-		"adjustTitle": "Adjust image",
-		"flipHorizontal": "Flip horizontal",
-		"flipVertical": "Flip vertical",
-		"hint": "Drag to reposition · zoom in to reframe",
-		"reset": "Reset",
-		"rotateLeft": "Rotate left",
-		"rotateRight": "Rotate right",
-		"zoom": "Zoom"
+		"adjust": "조정",
+		"adjustTitle": "이미지 조정",
+		"flipHorizontal": "좌우 반전",
+		"flipVertical": "상하 반전",
+		"hint": "드래그해 위치 조정 · 확대해 구도 변경",
+		"reset": "초기화",
+		"rotateLeft": "왼쪽으로 회전",
+		"rotateRight": "오른쪽으로 회전",
+		"zoom": "확대/축소"
 	},
 	"keybinds": {
-		"closeDialog": "Close dialog",
-		"commandPalette": "Command palette",
-		"help": "Keyboard shortcuts",
-		"quickSearch": "Quick search",
+		"closeDialog": "대화 상자 닫기",
+		"commandPalette": "명령 팔레트",
+		"help": "키보드 단축키",
+		"quickSearch": "빠른 검색",
 		"section": {
-			"general": "General",
-			"navigation": "Navigation",
-			"player": "Player"
+			"general": "일반",
+			"navigation": "탐색",
+			"player": "플레이어"
 		},
-		"then": "then",
-		"title": "Keyboard shortcuts",
-		"toggleRightSidebar": "Toggle right sidebar"
+		"then": "다음",
+		"title": "키보드 단축키",
+		"toggleRightSidebar": "오른쪽 사이드바 전환"
 	},
 	"language": {
-		"description": "Language used across the interface.",
-		"label": "Language"
+		"description": "인터페이스 전체에 사용할 언어입니다.",
+		"label": "언어"
 	},
 	"nav": {
-		"allLibraries": "All libraries",
-		"back": "Back",
-		"closeMenu": "Close menu",
-		"forward": "Forward",
-		"friends": "Friends",
-		"home": "Home",
-		"insights": "Listening",
-		"library": "Library",
-		"listen": "Listen",
-		"menu": "Menu",
-		"more": "More",
-		"openMenu": "Open menu",
-		"search": "Search",
-		"settings": "Settings",
-		"signIn": "Sign in"
+		"allLibraries": "모든 라이브러리",
+		"back": "뒤로",
+		"closeMenu": "메뉴 닫기",
+		"forward": "앞으로",
+		"friends": "친구",
+		"home": "홈",
+		"insights": "감상",
+		"library": "라이브러리",
+		"listen": "감상",
+		"menu": "메뉴",
+		"more": "더보기",
+		"openMenu": "메뉴 열기",
+		"search": "검색",
+		"settings": "설정",
+		"signIn": "로그인"
 	},
 	"notFound": {
-		"body": "This page doesn't exist.",
-		"goHome": "Go home",
-		"title": "Page not found"
+		"body": "이 페이지는 존재하지 않습니다.",
+		"goHome": "홈으로",
+		"title": "페이지를 찾을 수 없습니다"
 	},
-	"or": "or",
+	"or": "또는",
 	"sidebar": {
-		"collapse": "Collapse sidebar",
-		"expand": "Expand sidebar",
-		"resize": "Resize sidebar"
+		"collapse": "사이드바 접기",
+		"expand": "사이드바 펼치기",
+		"resize": "사이드바 크기 조절"
 	},
 	"state": {
-		"loading": "Loading…",
-		"off": "Off",
-		"on": "On"
+		"loading": "불러오는 중…",
+		"off": "꺼짐",
+		"on": "켜짐"
 	},
 	"states": {
-		"loading": "Loading…",
-		"off": "Off",
-		"saving": "Saving…",
-		"verifying": "Verifying…"
+		"loading": "불러오는 중…",
+		"off": "꺼짐",
+		"saving": "저장 중…",
+		"verifying": "인증 중…"
 	},
 	"status": {
-		"saved": "Saved",
-		"sending": "Sending…"
+		"saved": "저장됨",
+		"sending": "보내는 중…"
 	},
 	"update": {
-		"available": "A new version is available.",
-		"refresh": "Refresh"
+		"available": "새 버전이 있습니다.",
+		"refresh": "새로고침"
 	},
 	"userMenu": {
-		"admin": "Admin",
-		"libraries": "Libraries",
-		"profile": "Your profile",
-		"settings": "Settings",
-		"signOut": "Sign out",
-		"stats": "Stats"
+		"admin": "관리자",
+		"libraries": "라이브러리",
+		"profile": "내 프로필",
+		"settings": "설정",
+		"signOut": "로그아웃",
+		"stats": "통계"
 	}
 }
