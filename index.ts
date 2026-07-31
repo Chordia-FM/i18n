@@ -38,10 +38,18 @@ for (const [path, json] of Object.entries(modules)) {
 export const DEFAULT_LOCALE = "en";
 
 /**
- * Locales we ship catalogs for, source `en` first then the rest alphabetically. Codes are BCP-47
- * directory names: a base language (`en`, `es`) and/or regional variants (`en-GB`, `pt-BR`). A
- * regional catalog only needs the keys that differ from its base, because i18next (and the Rust
- * crate) fall back from base to default for anything it omits.
+ * Locales we ship catalogs for, source `en` first then the rest alphabetically.
+ *
+ * Directory names are the BCP-47 tags Crowdin exports, which for every translated language means a
+ * regional one (`de-DE`, `fr-FR`, `ja-JP`, `ko-KR`, `es-ES`, `pt-BR`). Matching Crowdin's own output
+ * is deliberate: the alternative was setting Language Mapping per target to strip the region, and a
+ * mapping that must be re-set for every new language is a step someone will forget — as one already
+ * was, which is how translations spent time landing in `locales/de-DE/` while the app read
+ * `locales/de/`.
+ *
+ * A bare request still resolves: `resolveLocale` falls back exact → base → regional sibling, so a
+ * browser asking for `de` gets `de-DE`. `en-GB` is the one true override catalog — it has `en`
+ * behind it, so it carries only the keys where British spelling differs.
  */
 export const SUPPORTED_LOCALES: string[] = Object.keys(resources).sort((a, b) =>
 	a === DEFAULT_LOCALE ? -1 : b === DEFAULT_LOCALE ? 1 : a.localeCompare(b),
@@ -64,7 +72,17 @@ export const NAMESPACES: string[] = Object.keys(resources[DEFAULT_LOCALE] ?? {})
  */
 export const LOCALE_NAMES: Record<string, string> = {
 	en: "English",
-	es: "Español",
+	// Curated because the derived names read as bureaucracy once the tags carry a region:
+	// `Intl.DisplayNames` turns `de-DE` into "Deutsch (Deutschland)", which is not what a German
+	// speaker calls their language. The region is kept only where it genuinely distinguishes the
+	// variant on offer — Brazilian Portuguese, British English.
+	"de-DE": "Deutsch",
+	"en-GB": "English (UK)",
+	"es-ES": "Español",
+	"fr-FR": "Français",
+	"ja-JP": "日本語",
+	"ko-KR": "한국어",
+	"pt-BR": "Português (Brasil)",
 	// Joke locales. Intl.DisplayNames cannot name a private-use subtag, so these have to be
 	// curated — and by the same convention every other entry follows, each is written in itself.
 	"en-x-pirate": "Pirate Speak",
@@ -83,11 +101,11 @@ export const LOCALE_NAMES: Record<string, string> = {
 export const LOCALE_FLAGS: Record<string, string> = {
 	en: "\u{1F1FA}\u{1F1F8}",
 	"en-GB": "\u{1F1EC}\u{1F1E7}",
-	es: "\u{1F1EA}\u{1F1F8}",
-	fr: "\u{1F1EB}\u{1F1F7}",
-	de: "\u{1F1E9}\u{1F1EA}",
-	ja: "\u{1F1EF}\u{1F1F5}",
-	ko: "\u{1F1F0}\u{1F1F7}",
+	"es-ES": "\u{1F1EA}\u{1F1F8}",
+	"fr-FR": "\u{1F1EB}\u{1F1F7}",
+	"de-DE": "\u{1F1E9}\u{1F1EA}",
+	"ja-JP": "\u{1F1EF}\u{1F1F5}",
+	"ko-KR": "\u{1F1F0}\u{1F1F7}",
 	"pt-BR": "\u{1F1E7}\u{1F1F7}",
 	"en-x-pirate": "\u{1F3F4}\u{200D}\u{2620}\u{FE0F}",
 	"en-x-piglatin": "\u{1F437}",

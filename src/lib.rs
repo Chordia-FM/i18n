@@ -65,7 +65,7 @@ fn locale_index() -> &'static (HashMap<String, String>, Vec<String>) {
     })
 }
 
-/// Locales we ship catalogs for, source first, e.g. `["en", "en-GB", "es"]`.
+/// Locales we ship catalogs for, source first, e.g. `["en", "de-DE", "en-GB", "es-ES"]`.
 pub fn supported_locales() -> Vec<&'static str> {
     locale_index().1.iter().map(String::as_str).collect()
 }
@@ -417,7 +417,8 @@ mod tests {
 
     #[test]
     fn resolve_prefers_user_then_header() {
-        assert_eq!(resolve_locale(Some("es-MX,en;q=0.8"), None), "es"); // if es is shipped
+        // `es-MX` is not shipped, so it falls through to the regional sibling we do ship.
+        assert_eq!(resolve_locale(Some("es-MX,en;q=0.8"), None), "es-ES");
         assert_eq!(resolve_locale(Some("fr"), Some("en")), "en"); // user wins
         assert_eq!(resolve_locale(None, None), "en");
     }
@@ -426,11 +427,11 @@ mod tests {
     fn resolve_honors_q_weights() {
         // The higher-q tag wins even when it appears later in the header (RFC 9110).
         assert_eq!(resolve_locale(Some("es;q=0.5, en;q=0.9"), None), "en");
-        assert_eq!(resolve_locale(Some("en;q=0.3, es;q=0.7"), None), "es");
+        assert_eq!(resolve_locale(Some("en;q=0.3, es;q=0.7"), None), "es-ES");
         // q=0 means "not acceptable", so skip it.
         assert_eq!(resolve_locale(Some("es;q=0, en"), None), "en");
         // Equal weights keep header order.
-        assert_eq!(resolve_locale(Some("es, en"), None), "es");
+        assert_eq!(resolve_locale(Some("es, en"), None), "es-ES");
     }
 
     #[test]
