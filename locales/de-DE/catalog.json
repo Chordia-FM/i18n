@@ -4,7 +4,7 @@
 	},
 	"album": {
 		"card": {
-			"artistYearJoin": "{artist} · {year}"
+			"artistYearJoin": ""
 		},
 		"count": "{count, plural, one {# Album} other {# Alben}}",
 		"disc": "CD {n}",
@@ -21,11 +21,11 @@
 		},
 		"durationHrMin": "{count, plural, one {# Std.} other {# Std.}} {minutes} Min.",
 		"durationMin": "{minutes} Min.",
-		"genresJoin": "{genres}",
+		"genresJoin": "",
 		"goToRadio": "Zum Künstlerradio",
-		"releaseDate": "{date, date, long}",
+		"releaseDate": "",
 		"songCount": "{count, plural, one {# Song} other {# Songs}}",
-		"typesJoin": "{types}"
+		"typesJoin": ""
 	},
 	"artist": {
 		"albums": "Alben",
@@ -35,24 +35,24 @@
 			"albumCount": "{count, plural, one {# Album} other {# Alben}}"
 		},
 		"discography": "Diskografie",
-		"factsJoin": "{facts}",
+		"factsJoin": "",
 		"formed": "Gegründet {year}",
-		"genresJoin": "{genres}",
-		"labelMetaJoin": "{span} · {releases}",
-		"labels": "Labels",
+		"genresJoin": "",
+		"labelMetaJoin": "",
+		"labels": "",
 		"links": {
 			"open": "Künstler-Links",
-			"title": "Links"
+			"title": ""
 		},
 		"liveAlbum": {
 			"card": "Alle Live-Aufnahmen",
 			"label": "Live-Sammlung",
 			"subtitle": "{count, plural, one {Aus # Album} other {Aus # Alben}}",
-			"title": "{name} — Live"
+			"title": ""
 		},
-		"namesJoin": "{artists}",
+		"namesJoin": "",
 		"popular": "Beliebt",
-		"radio": "Radio",
+		"radio": "",
 		"relatedArtists": "Ähnliche Künstler",
 		"relation": {
 			"alias": "Auch bekannt als",
@@ -61,26 +61,26 @@
 		},
 		"releaseCount": "{count, plural, one {# Veröffentlichung} other {# Veröffentlichungen}}",
 		"versions": {
-			"instrumental": "Instrumental",
-			"live": "Live"
+			"instrumental": "",
+			"live": ""
 		}
 	},
-	"artistNamesJoin": "{names}",
+	"artistNamesJoin": "",
 	"edit": {
-		"artOptionAlt": "{kind}",
+		"artOptionAlt": "",
 		"artworkAlt": "Grafik",
 		"bannerSet": "Banner gesetzt ✓",
 		"browseAlbumCovers": "Albumcover durchsuchen",
 		"browseArtwork": "Grafiken durchsuchen (fanart.tv)",
 		"field": {
-			"album": "Album",
+			"album": "",
 			"artist": "Künstler",
-			"bio": "Bio",
+			"bio": "",
 			"discNo": "Disc-Nr.",
-			"genre": "Genre",
+			"genre": "",
 			"genres": "Genres (durch Kommas getrennt)",
-			"label": "Label",
-			"name": "Name",
+			"label": "",
+			"name": "",
 			"title": "Titel",
 			"trackNo": "Titel-Nr.",
 			"type": "Typ",
@@ -110,14 +110,14 @@
 	},
 	"entity": {
 		"artist": "Künstler",
-		"label": "Label"
+		"label": ""
 	},
 	"genres": {
 		"counts": "{albumsFormatted} {albums, plural, one {Album} other {Alben}} · {artistsFormatted} {artists, plural, one {Künstler} other {Künstler}}",
 		"empty": "Noch keine Genres – sie kommen mit den Album-Metadaten, sobald Ihre Bibliothek angereichert wird.",
-		"eyebrow": "Genre",
+		"eyebrow": "",
 		"notFound": "Kein Album trägt dieses Genre.",
-		"title": "Genres",
+		"title": "",
 		"topAlbums": "Top-Alben",
 		"topArtists": "Top-Künstler",
 		"variants": "Auch getaggt: {list}"
@@ -125,20 +125,20 @@
 	"label": {
 		"albumCount": "{count, plural, one {# Album} other {# Alben}}",
 		"albumCountWithPrefix": "Label · {count, plural, one {# Album} other {# Alben}}",
-		"eyebrow": "Label",
+		"eyebrow": "",
 		"factsSeparator": "Typ · Land · Zeitraum",
-		"formerNames": "{name1}, {name2}",
+		"formerNames": "",
 		"formerly": "Früher {names}",
 		"lifespan": {
 			"founded": "Gegründet {year}",
-			"range": "{from} – {to}",
+			"range": "",
 			"until": "Bis {year}"
 		},
 		"noAlbums": "Keine Alben."
 	},
 	"labels": {
 		"empty": "Noch keine Labels – sie werden ergänzt, sobald Ihr Katalog über MusicBrainz angereichert wird.",
-		"title": "Labels"
+		"title": ""
 	},
 	"lyrics": {
 		"heading": "Liedtext",
@@ -163,9 +163,9 @@
 		"changeBanner": "Banner ändern",
 		"changeImage": "Bild ändern",
 		"field": {
-			"bio": "Bio",
+			"bio": "",
 			"genres": "Genres (durch Kommas getrennt)",
-			"name": "Name",
+			"name": "",
 			"note": "Hinweis für Prüfer (optional)"
 		},
 		"genresHint": "Trennen Sie mehrere Genres durch Kommas.",
@@ -188,15 +188,15 @@
 	"section": {
 		"albums": "Alben",
 		"artists": "Künstler",
-		"labels": "Labels",
-		"songs": "Songs",
+		"labels": "",
+		"songs": "",
 		"tracks": "Titel"
 	},
 	"songCount": "{count, plural, one {# Song} other {# Songs}}",
 	"track": {
-		"clean": "Clean",
+		"clean": "",
 		"column": {
-			"album": "Album",
+			"album": "",
 			"dateAdded": "Hinzugefügt am",
 			"plays": "Wiedergaben",
 			"title": "Titel"
@@ -210,10 +210,10 @@
 		},
 		"explicit": "Explizit",
 		"playAria": "{title} von {artist} abspielen",
-		"playsNumber": "{n, number}",
+		"playsNumber": "",
 		"relTime": {
 			"daysAgo": "{count, plural, one {vor # Tag} other {vor # Tagen}}",
-			"fullDate": "{date, date, medium}",
+			"fullDate": "",
 			"today": "Heute",
 			"yesterday": "Gestern"
 		}
