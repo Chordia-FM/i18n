@@ -1,6 +1,6 @@
 {
 	"audit": {
-		"createdAt": "{date}",
+		"createdAt": "",
 		"empty": "Aún no hay acciones.",
 		"title": "Registro de auditoría"
 	},
@@ -20,7 +20,7 @@
 		"artistSubtitle": "{albumCount, plural, one {# álbum} other {# álbumes}} · {trackCount, plural, one {# pista} other {# pistas}}",
 		"artworkAlt": "Imagen",
 		"artworkLoadError": "No se pudo cargar la imagen. Inténtalo de nuevo.",
-		"bannerLabel": "banner",
+		"bannerLabel": "",
 		"browseArtwork": "Explorar imágenes (icono + banner)",
 		"browseCovers": "Explorar portadas",
 		"browseLogos": "Explorar logotipos (fanart.tv)",
@@ -64,7 +64,7 @@
 		"title": "Administración"
 	},
 	"reports": {
-		"createdAt": "{date}",
+		"createdAt": "",
 		"dismiss": "Descartar",
 		"empty": "No hay denuncias abiertas.",
 		"resolve": "Resolver",
@@ -77,7 +77,7 @@
 		"deny": "Rechazar",
 		"empty": "No hay sugerencias pendientes.",
 		"field": {
-			"banner": "Banner",
+			"banner": "",
 			"bio": "Biografía",
 			"genres": "Géneros",
 			"image": "Imagen",
