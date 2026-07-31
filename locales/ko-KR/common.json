@@ -41,7 +41,7 @@
 		"verify": "인증",
 		"view": "보기"
 	},
-	"appName": "Chordia",
+	"appName": "",
 	"commandPalette": {
 		"hint": {
 			"go": "이동",
