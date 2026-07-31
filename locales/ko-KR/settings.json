@@ -6,8 +6,8 @@
 		"emailChangeSent": "새 이메일 받은편지함에서 확인 링크를 확인하세요.",
 		"handle": "사용자 이름",
 		"handleHint": "영문자, 숫자, “_”, “-”만 사용할 수 있으며 중복될 수 없습니다.",
-		"handlePlaceholder": "yourname",
-		"newEmailPlaceholder": "new@example.com",
+		"handlePlaceholder": "",
+		"newEmailPlaceholder": "",
 		"resendVerification": "인증 메일 다시 보내기",
 		"saveProfile": "프로필 저장",
 		"sendConfirmation": "확인 메일 보내기",
@@ -32,7 +32,7 @@
 			"disconnect": "연결 끊기",
 			"disconnected": "Last.fm 연결을 끊었습니다",
 			"failed": "Last.fm에 연결하지 못했습니다",
-			"label": "Last.fm"
+			"label": ""
 		},
 		"title": "연결"
 	},
@@ -50,7 +50,7 @@
 	},
 	"downloads": {
 		"browserStorageName": "이 기기(브라우저 저장소)",
-		"bytes": "{bytes} B / {kb} KB / {mb} MB / {gb} GB",
+		"bytes": "",
 		"serverNote": "음악 라이브러리 자체는 여기가 아니라 Chordia 라이브러리 서버에서 추가하고 정리합니다. 직접 지정한 경로와 정리 방식으로 다운로드를 저장하는 기능은 데스크톱 앱에 추가될 예정입니다.",
 		"thisDevice": {
 			"description": "다운로드한 곡은 이 기기에 저장되어 인터넷 연결 없이도 재생됩니다.",
@@ -167,14 +167,14 @@
 			"label": "시간대",
 			"noMatches": "검색과 일치하는 시간대가 없습니다",
 			"search": "시간대 검색…",
-			"zoneWithOffset": "{zone} ({offset})"
+			"zoneWithOffset": ""
 		},
 		"title": "지역"
 	},
 	"sessions": {
 		"body": "로그인되어 있는 기기 목록입니다. 모르는 기기가 있으면 해제하세요.",
 		"lastActive": "마지막 활동 {date}",
-		"lastActiveDate": "{date}",
+		"lastActiveDate": "",
 		"signOutEverywhere": "모든 기기에서 로그아웃",
 		"signOutEverywhereConfirm": "모든 기기에서 로그아웃할까요? 다시 로그인해야 합니다.",
 		"thisDevice": "이 기기",
