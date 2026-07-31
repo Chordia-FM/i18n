@@ -1,4 +1,4 @@
 {
-	"noResults": "No results for “{term}”.",
-	"prompt": "Search artists, albums, or songs from the box above."
+	"noResults": "“{term}”에 대한 검색 결과가 없습니다.",
+	"prompt": "위 검색창에서 아티스트, 앨범, 곡을 검색하세요."
 }
