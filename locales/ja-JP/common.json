@@ -20,7 +20,7 @@
 		"more": "その他",
 		"moveDown": "下へ移動",
 		"moveUp": "上へ移動",
-		"ok": "OK",
+		"ok": "",
 		"open": "開く",
 		"pin": "ピン留め",
 		"play": "再生",
@@ -41,7 +41,7 @@
 		"verify": "確認",
 		"view": "表示"
 	},
-	"appName": "Chordia",
+	"appName": "",
 	"commandPalette": {
 		"hint": {
 			"go": "移動",
