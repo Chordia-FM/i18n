@@ -1,113 +1,113 @@
 {
 	"actions": {
-		"rename": "Rename playlist"
+		"rename": "Renommer la playlist"
 	},
-	"addError": "Couldn't add to playlist",
-	"addToNamed": "Add to {playlist}",
-	"addToPlaylist": "Add to playlist",
-	"addedAlbumToast": "{count, plural, one {Added # track to {playlist}} other {Added # tracks to {playlist}}}",
-	"addedToast": "Added to {playlist}",
+	"addError": "Impossible d'ajouter à la playlist",
+	"addToNamed": "Ajouter à {playlist}",
+	"addToPlaylist": "Ajouter à une playlist",
+	"addedAlbumToast": "{count, plural, one {# morceau ajouté à {playlist}} other {# morceaux ajoutés à {playlist}}}",
+	"addedToast": "Ajouté à {playlist}",
 	"collaborators": {
-		"addError": "Couldn't add that collaborator",
+		"addError": "Impossible d'ajouter ce collaborateur",
 		"collaborative": "Collaborative",
-		"invite": "+ Invite",
-		"invitePrompt": "Invite a collaborator by handle",
-		"invited": "Invited @{handle}",
-		"justYou": "Just you",
-		"removeTitle": "Remove {name}",
-		"removed": "Removed {name}"
+		"invite": "+ Inviter",
+		"invitePrompt": "Inviter un collaborateur par identifiant",
+		"invited": "@{handle} invité",
+		"justYou": "Vous seul",
+		"removeTitle": "Retirer {name}",
+		"removed": "{name} retiré"
 	},
 	"confirm": {
-		"deleteMessage": "Delete \"{name}\"?",
-		"deleteTitle": "Delete playlist"
+		"deleteMessage": "Supprimer « {name} » ?",
+		"deleteTitle": "Supprimer la playlist"
 	},
 	"cover": {
-		"change": "Change image",
-		"remove": "Remove image"
+		"change": "Changer l'image",
+		"remove": "Supprimer l'image"
 	},
-	"createFailed": "Couldn’t create playlist",
-	"createdFromAlbumToast": "Playlist “{name}” created",
+	"createFailed": "Impossible de créer la playlist",
+	"createdFromAlbumToast": "Playlist « {name} » créée",
 	"delete": {
-		"confirmBody": "Delete this playlist?",
-		"title": "Delete playlist"
+		"confirmBody": "Supprimer cette playlist ?",
+		"title": "Supprimer la playlist"
 	},
-	"empty": "This playlist is empty. Add songs from the “⋯” menu on any track.",
+	"empty": "Cette playlist est vide. Ajoutez des chansons depuis le menu « ⋯ » de n'importe quel morceau.",
 	"kindLabel": "Playlist",
 	"leave": {
-		"confirmBody": "Leave this collaborative playlist?",
-		"confirmLabel": "Leave",
-		"title": "Leave playlist"
+		"confirmBody": "Quitter cette playlist collaborative ?",
+		"confirmLabel": "Quitter",
+		"title": "Quitter la playlist"
 	},
-	"menuEmpty": "No playlists",
-	"new": "New playlist",
-	"newFromAlbum": "New playlist",
-	"newFromAlbumSub": "From “{name}”",
+	"menuEmpty": "Aucune playlist",
+	"new": "Nouvelle playlist",
+	"newFromAlbum": "Nouvelle playlist",
+	"newFromAlbumSub": "À partir de « {name} »",
 	"prompt": {
-		"newName": "Playlist name",
-		"rename": "Rename playlist"
+		"newName": "Nom de la playlist",
+		"rename": "Renommer la playlist"
 	},
-	"removeFromPlaylist": "Remove from playlist",
-	"searchPlaceholder": "Find a playlist",
-	"sharedWithYou": " · shared with you",
+	"removeFromPlaylist": "Retirer de la playlist",
+	"searchPlaceholder": "Rechercher une playlist",
+	"sharedWithYou": " · partagée avec vous",
 	"smart": {
-		"addRule": "Add rule",
-		"autoUpdating": " · auto-updating",
+		"addRule": "Ajouter une règle",
+		"autoUpdating": " · mise à jour automatique",
 		"bool": {
-			"false": "false",
-			"true": "true"
+			"false": "faux",
+			"true": "vrai"
 		},
-		"created": "Smart playlist created",
+		"created": "Playlist intelligente créée",
 		"delete": {
-			"confirmBody": "Delete this smart playlist?",
-			"title": "Delete smart playlist"
+			"confirmBody": "Supprimer cette playlist intelligente ?",
+			"title": "Supprimer la playlist intelligente"
 		},
-		"description": "Rules resolve to matching tracks automatically.",
-		"editRules": "Edit rules",
-		"editTitle": "Edit smart playlist",
-		"empty": "No tracks match these rules yet. Try loosening them with “Edit rules”.",
+		"description": "Les règles sélectionnent automatiquement les morceaux correspondants.",
+		"editRules": "Modifier les règles",
+		"editTitle": "Modifier la playlist intelligente",
+		"empty": "Aucun morceau ne correspond encore à ces règles. Essayez de les assouplir avec « Modifier les règles ».",
 		"field": {
 			"album": "Album",
-			"artist": "Artist",
+			"artist": "Artiste",
 			"genre": "Genre",
-			"liked": "Liked",
-			"plays": "Plays",
-			"title": "Title",
-			"year": "Year"
+			"liked": "Aimé",
+			"plays": "Écoutes",
+			"title": "Titre",
+			"year": "Année"
 		},
-		"kindLabel": "Smart playlist",
-		"limit": "Limit",
-		"match": "Match",
+		"kindLabel": "Playlist intelligente",
+		"limit": "Limite",
+		"match": "Correspond à",
 		"matchMode": {
-			"all": "all",
-			"any": "any"
+			"all": "toutes les règles",
+			"any": "au moins une règle"
 		},
-		"namePlaceholder": "Playlist name",
-		"new": "New smart playlist",
-		"newTitle": "New smart playlist",
-		"ofTheseRules": "of these rules:",
+		"namePlaceholder": "Nom de la playlist",
+		"new": "Nouvelle playlist intelligente",
+		"newTitle": "Nouvelle playlist intelligente",
+		"ofTheseRules": "ci-dessous :",
 		"op": {
-			"contains": "contains",
-			"equals": "is",
-			"is": "is"
+			"contains": "contient",
+			"equals": "est",
+			"is": "est"
 		},
-		"removeRule": "Remove rule",
-		"ruleField": "Rule field",
-		"ruleOperator": "Rule operator",
-		"saveError": "Couldn't save the smart playlist",
+		"removeRule": "Supprimer la règle",
+		"ruleField": "Champ de la règle",
+		"ruleOperator": "Opérateur de la règle",
+		"saveError": "Impossible d'enregistrer la playlist intelligente",
 		"sort": {
-			"plays": "Plays",
-			"random": "Random",
-			"title": "Title"
+			"plays": "Écoutes",
+			"random": "Aléatoire",
+			"title": "Titre"
 		},
-		"sortBy": "Sort by",
-		"updated": "Smart playlist updated",
-		"valuePlaceholder": "value"
+		"sortBy": "Trier par",
+		"updated": "Playlist intelligente mise à jour",
+		"valuePlaceholder": "valeur"
 	},
-	"songCount": "{count, plural, one {# song} other {# songs}}",
+	"songCount": "{count, plural, one {# chanson} other {# chansons}}",
 	"toast": {
-		"createFailed": "Couldn't create playlist",
-		"created": "Created \"{name}\"",
-		"deleteFailed": "Couldn't delete playlist",
-		"deleted": "Deleted \"{name}\""
+		"createFailed": "Impossible de créer la playlist",
+		"created": "« {name} » créée",
+		"deleteFailed": "Impossible de supprimer la playlist",
+		"deleted": "« {name} » supprimée"
 	}
 }
