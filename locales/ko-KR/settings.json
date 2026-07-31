@@ -1,201 +1,201 @@
 {
 	"account": {
-		"avatarUrl": "Avatar URL",
-		"changeEmail": "Change email",
-		"displayName": "Display name",
-		"emailChangeSent": "Check your new inbox for a confirmation link.",
-		"handle": "Handle",
-		"handleHint": "Letters, digits, “_” and “-”. Must be unique.",
+		"avatarUrl": "아바타 URL",
+		"changeEmail": "이메일 변경",
+		"displayName": "표시 이름",
+		"emailChangeSent": "새 이메일 받은편지함에서 확인 링크를 확인하세요.",
+		"handle": "사용자 이름",
+		"handleHint": "영문자, 숫자, “_”, “-”만 사용할 수 있으며 중복될 수 없습니다.",
 		"handlePlaceholder": "yourname",
 		"newEmailPlaceholder": "new@example.com",
-		"resendVerification": "Resend verification email",
-		"saveProfile": "Save profile",
-		"sendConfirmation": "Send confirmation",
-		"title": "Account",
-		"verificationSent": "Sent — check your inbox"
+		"resendVerification": "인증 메일 다시 보내기",
+		"saveProfile": "프로필 저장",
+		"sendConfirmation": "확인 메일 보내기",
+		"title": "계정",
+		"verificationSent": "보냈습니다 — 받은편지함을 확인하세요"
 	},
 	"appearance": {
-		"accentColour": "Accent colour",
-		"accentHexAria": "Accent hex",
-		"customAccentAria": "Custom accent colour",
-		"customColour": "Custom colour",
-		"customColourHint": "Pick any colour - buttons, highlights and the background tint follow it.",
-		"title": "Appearance"
+		"accentColour": "강조 색상",
+		"accentHexAria": "강조 색상 16진값",
+		"customAccentAria": "사용자 지정 강조 색상",
+		"customColour": "사용자 지정 색상",
+		"customColourHint": "원하는 색을 고르세요 - 버튼, 강조 표시, 배경 색조가 함께 바뀝니다.",
+		"title": "화면"
 	},
 	"connections": {
 		"lastfm": {
-			"connect": "Connect",
-			"connectedAs": "Connected as {username}",
-			"connectedToast": "Connected to Last.fm as {username}",
-			"connecting": "Connecting Last.fm…",
-			"desc": "Scrobble your plays to Last.fm automatically.",
-			"disconnect": "Disconnect",
-			"disconnected": "Last.fm disconnected",
-			"failed": "Couldn’t connect Last.fm",
+			"connect": "연결",
+			"connectedAs": "{username}(으)로 연결됨",
+			"connectedToast": "Last.fm에 {username}(으)로 연결했습니다",
+			"connecting": "Last.fm 연결 중…",
+			"desc": "재생 기록을 Last.fm에 자동으로 스크로블합니다.",
+			"disconnect": "연결 끊기",
+			"disconnected": "Last.fm 연결을 끊었습니다",
+			"failed": "Last.fm에 연결하지 못했습니다",
 			"label": "Last.fm"
 		},
-		"title": "Connections"
+		"title": "연결"
 	},
 	"data": {
-		"body": "Download everything Chordia stores about you, or permanently delete your account and all its data.",
-		"deleteAccountConfirm": "Permanently delete your account and ALL your data — listening history, playlists, libraries, and friends? This cannot be undone.",
-		"deleteAccountTitle": "Delete account",
-		"deleteFailedBody": "Could not delete your account right now. Please try again.",
-		"deleteFailedTitle": "Deletion failed",
-		"deleteForever": "Delete forever",
-		"exportFailedBody": "Could not export your data right now. Please try again.",
-		"exportFailedTitle": "Export failed",
-		"exportMyData": "Export my data",
-		"title": "Your data"
+		"body": "Chordia가 저장한 내 정보를 모두 내려받거나, 계정과 모든 데이터를 영구 삭제할 수 있습니다.",
+		"deleteAccountConfirm": "계정과 모든 데이터(감상 기록, 플레이리스트, 라이브러리, 친구)를 영구 삭제할까요? 되돌릴 수 없습니다.",
+		"deleteAccountTitle": "계정 삭제",
+		"deleteFailedBody": "지금은 계정을 삭제할 수 없습니다. 다시 시도해 주세요.",
+		"deleteFailedTitle": "삭제에 실패했습니다",
+		"deleteForever": "영구 삭제",
+		"exportFailedBody": "지금은 데이터를 내보낼 수 없습니다. 다시 시도해 주세요.",
+		"exportFailedTitle": "내보내기에 실패했습니다",
+		"exportMyData": "내 데이터 내보내기",
+		"title": "내 데이터"
 	},
 	"downloads": {
-		"browserStorageName": "This device (browser storage)",
+		"browserStorageName": "이 기기(브라우저 저장소)",
 		"bytes": "{bytes} B / {kb} KB / {mb} MB / {gb} GB",
-		"serverNote": "Music libraries themselves are added and organized on your Chordia library server, not here. Saving downloads to a custom folder (with your own path + organization layout) is coming to the desktop app.",
+		"serverNote": "음악 라이브러리 자체는 여기가 아니라 Chordia 라이브러리 서버에서 추가하고 정리합니다. 직접 지정한 경로와 정리 방식으로 다운로드를 저장하는 기능은 데스크톱 앱에 추가될 예정입니다.",
 		"thisDevice": {
-			"description": "Downloaded songs are stored on this device and play without a connection.",
-			"empty": "Use the Download action on any track or album.",
-			"title": "This device (browser storage)",
-			"usage": "{count, plural, one {# song} other {# songs}} · {size}."
+			"description": "다운로드한 곡은 이 기기에 저장되어 인터넷 연결 없이도 재생됩니다.",
+			"empty": "트랙이나 앨범의 다운로드 메뉴를 사용하세요.",
+			"title": "이 기기(브라우저 저장소)",
+			"usage": "{count, plural, other {#곡}} · {size}."
 		},
-		"title": "Downloads",
-		"unsupportedDestination": "\"{destination}\" downloads need the desktop app"
+		"title": "다운로드",
+		"unsupportedDestination": "\"{destination}\" 다운로드는 데스크톱 앱이 필요합니다"
 	},
 	"eq": {
 		"preset": {
-			"acoustic": "Acoustic",
-			"bassBoost": "Bass Boost",
-			"bassReducer": "Bass Reducer",
-			"classical": "Classical",
-			"electronic": "Electronic",
-			"flat": "Flat",
-			"hipHop": "Hip-Hop",
-			"jazz": "Jazz",
-			"loudness": "Loudness",
-			"pop": "Pop",
-			"rock": "Rock",
-			"trebleBoost": "Treble Boost",
-			"trebleReducer": "Treble Reducer",
-			"vocal": "Vocal"
+			"acoustic": "어쿠스틱",
+			"bassBoost": "베이스 부스트",
+			"bassReducer": "베이스 감쇠",
+			"classical": "클래식",
+			"electronic": "일렉트로닉",
+			"flat": "플랫",
+			"hipHop": "힙합",
+			"jazz": "재즈",
+			"loudness": "라우드니스",
+			"pop": "팝",
+			"rock": "록",
+			"trebleBoost": "트레블 부스트",
+			"trebleReducer": "트레블 감쇠",
+			"vocal": "보컬"
 		}
 	},
 	"equalizer": {
-		"title": "Equalizer"
+		"title": "이퀄라이저"
 	},
 	"playback": {
 		"autoplay": {
-			"desc": "Keep playing similar music when the queue ends.",
-			"label": "Autoplay"
+			"desc": "대기열이 끝나면 비슷한 음악을 이어서 재생합니다.",
+			"label": "자동 재생"
 		},
 		"crossfade": {
-			"desc": "Overlap and blend the end of each track into the next. Measured in seconds.",
-			"label": "Crossfade"
+			"desc": "트랙의 끝과 다음 트랙을 겹쳐 자연스럽게 이어 줍니다. 단위는 초입니다.",
+			"label": "크로스페이드"
 		},
 		"normalize": {
-			"desc": "Even out loudness across tracks (ReplayGain).",
-			"label": "Normalize volume"
+			"desc": "트랙 간 음량 차이를 고르게 맞춥니다(ReplayGain).",
+			"label": "음량 정규화"
 		},
 		"preload": {
-			"desc": "How many upcoming queue tracks to download ahead of time, for instant gap-free playback. Higher uses more data.",
-			"label": "Preload next tracks"
+			"desc": "대기열의 다음 트랙을 몇 곡까지 미리 받을지 정합니다. 끊김 없이 바로 재생됩니다. 값이 클수록 데이터를 더 사용합니다.",
+			"label": "다음 트랙 미리 불러오기"
 		},
 		"quality": {
 			"dataSaver": {
-				"desc": "~96 kbps Opus - minimal data.",
-				"label": "Data Saver"
+				"desc": "약 96 kbps Opus - 데이터 사용 최소.",
+				"label": "데이터 절약"
 			},
 			"high": {
-				"desc": "~256 kbps AAC - transparent for most.",
-				"label": "High"
+				"desc": "약 256 kbps AAC - 대부분 원음과 구별이 어려움.",
+				"label": "높음"
 			},
 			"normal": {
-				"desc": "~128 kbps - balanced.",
-				"label": "Normal"
+				"desc": "약 128 kbps - 균형.",
+				"label": "보통"
 			},
 			"original": {
-				"desc": "Bit-perfect source. Highest bandwidth.",
-				"label": "Lossless"
+				"desc": "비트 퍼펙트 원본. 대역폭을 가장 많이 사용합니다.",
+				"label": "무손실"
 			}
 		},
-		"streamingQuality": "Streaming quality",
-		"title": "Playback"
+		"streamingQuality": "스트리밍 품질",
+		"title": "재생"
 	},
 	"privacy": {
 		"activityVisibility": {
-			"desc": "Who can see your recent plays and compare taste with you.",
-			"label": "Activity visibility"
+			"desc": "내 최근 재생 기록을 보고 취향을 비교할 수 있는 사람을 정합니다.",
+			"label": "활동 공개 범위"
 		},
 		"emailNotifications": {
-			"desc": "Get an email for friend requests and other account activity.",
-			"label": "Email notifications"
+			"desc": "친구 요청 등 계정 활동을 이메일로 받습니다.",
+			"label": "이메일 알림"
 		},
 		"scrobble": {
-			"desc": "Record what you play for your stats and Wrapped.",
-			"label": "Scrobble listens"
+			"desc": "통계와 Wrapped를 위해 재생 기록을 저장합니다.",
+			"label": "감상 기록 스크로블"
 		},
-		"title": "Privacy",
+		"title": "개인정보 보호",
 		"visibility": {
-			"friends": "Friends",
-			"private": "Only me",
-			"public": "Everyone"
+			"friends": "친구만",
+			"private": "나만",
+			"public": "전체 공개"
 		}
 	},
 	"quality": {
 		"dataSaver": {
-			"desc": "~96 kbps Opus — minimal data.",
-			"label": "Data Saver"
+			"desc": "약 96 kbps Opus — 데이터 사용 최소.",
+			"label": "데이터 절약"
 		},
 		"high": {
-			"desc": "~256 kbps AAC — transparent for most.",
-			"label": "High"
+			"desc": "약 256 kbps AAC — 대부분 원음과 구별이 어려움.",
+			"label": "높음"
 		},
 		"lossless": {
-			"desc": "Bit-perfect source. Highest bandwidth.",
-			"label": "Lossless"
+			"desc": "비트 퍼펙트 원본. 대역폭을 가장 많이 사용합니다.",
+			"label": "무손실"
 		},
 		"normal": {
-			"desc": "~128 kbps — balanced.",
-			"label": "Normal"
+			"desc": "약 128 kbps — 균형.",
+			"label": "보통"
 		},
-		"title": "Streaming quality"
+		"title": "스트리밍 품질"
 	},
 	"region": {
 		"timezone": {
-			"description": "Used to place listening activity on your local calendar. Follow this device leaves the choice to each client.",
-			"detect": "Detect",
-			"followClient": "Follow this device",
-			"label": "Time zone",
-			"noMatches": "No time zones match your search",
-			"search": "Search time zones…",
+			"description": "감상 활동을 현지 달력에 맞춰 표시하는 데 사용합니다. 이 기기 설정 따르기를 고르면 클라이언트별로 각각 정해집니다.",
+			"detect": "자동 감지",
+			"followClient": "이 기기 설정 따르기",
+			"label": "시간대",
+			"noMatches": "검색과 일치하는 시간대가 없습니다",
+			"search": "시간대 검색…",
 			"zoneWithOffset": "{zone} ({offset})"
 		},
-		"title": "Region"
+		"title": "지역"
 	},
 	"sessions": {
-		"body": "Where you're signed in. Revoke any device you don't recognize.",
-		"lastActive": "Last active {date}",
+		"body": "로그인되어 있는 기기 목록입니다. 모르는 기기가 있으면 해제하세요.",
+		"lastActive": "마지막 활동 {date}",
 		"lastActiveDate": "{date}",
-		"signOutEverywhere": "Sign out everywhere",
-		"signOutEverywhereConfirm": "Sign out of all devices? You'll need to sign in again.",
-		"thisDevice": "This device",
-		"title": "Devices & sessions",
-		"unknownDevice": "Unknown device"
+		"signOutEverywhere": "모든 기기에서 로그아웃",
+		"signOutEverywhereConfirm": "모든 기기에서 로그아웃할까요? 다시 로그인해야 합니다.",
+		"thisDevice": "이 기기",
+		"title": "기기 및 세션",
+		"unknownDevice": "알 수 없는 기기"
 	},
-	"title": "Settings",
+	"title": "설정",
 	"twoFactor": {
-		"addHint": "Add a second factor (an authenticator app) for extra account security.",
-		"disable": "Disable 2FA",
-		"enable": "Enable 2FA",
-		"enableCta": "Enable two-factor auth",
-		"enabledHint": "2FA is enabled. To turn it off, enter a current code or a recovery code.",
-		"qrAlt": "Two-factor QR code",
-		"recoveryIntro": "2FA is on. Save these recovery codes somewhere safe — each works once if you lose your authenticator.",
-		"scanHint": "Scan this with your authenticator app, then enter the 6-digit code to confirm.",
-		"secretManual": "Or enter this secret manually: {secret}",
-		"title": "Two-factor authentication"
+		"addHint": "인증 앱을 두 번째 인증 수단으로 추가해 계정을 더 안전하게 보호하세요.",
+		"disable": "2FA 끄기",
+		"enable": "2FA 켜기",
+		"enableCta": "2단계 인증 켜기",
+		"enabledHint": "2단계 인증이 켜져 있습니다. 끄려면 현재 코드나 복구 코드를 입력하세요.",
+		"qrAlt": "2단계 인증 QR 코드",
+		"recoveryIntro": "2단계 인증이 켜졌습니다. 아래 복구 코드를 안전한 곳에 보관하세요. 인증 앱을 잃어버렸을 때 각 코드를 한 번씩 사용할 수 있습니다.",
+		"scanHint": "인증 앱으로 이 코드를 스캔한 뒤, 6자리 코드를 입력해 확인하세요.",
+		"secretManual": "또는 이 비밀 키를 직접 입력하세요: {secret}",
+		"title": "2단계 인증"
 	},
 	"verifyEmail": {
-		"body": "We sent a verification link to your email. Didn't get it? Resend it below.",
-		"title": "Verify your email"
+		"body": "이메일로 인증 링크를 보냈습니다. 받지 못하셨다면 아래에서 다시 보내세요.",
+		"title": "이메일 인증"
 	}
 }
