@@ -1,31 +1,31 @@
 {
 	"collabInvite": {
-		"body": "{inviter} added you as a collaborator on the playlist “{playlist}”.",
-		"cta": "Open the playlist",
-		"hint": "You can now add and remove tracks.",
-		"subject": "You were added to a Chordia playlist"
+		"body": "{inviter} te añadió como colaborador en la lista de reproducción “{playlist}”.",
+		"cta": "Abrir la lista",
+		"hint": "Ya puedes añadir y quitar pistas.",
+		"subject": "Te añadieron a una lista de reproducción de Chordia"
 	},
 	"footer": {
-		"manage": "You can turn these emails off in Chordia Settings → Notifications."
+		"manage": "Puedes desactivar estos correos en Ajustes de Chordia → Notificaciones."
 	},
 	"friendRequest": {
-		"body": "{name} wants to connect with you on Chordia.",
-		"cta": "View profile",
-		"heading": "New friend request",
-		"subject": "{name} sent you a friend request"
+		"body": "{name} quiere conectar contigo en Chordia.",
+		"cta": "Ver perfil",
+		"heading": "Nueva solicitud de amistad",
+		"subject": "{name} te envió una solicitud de amistad"
 	},
 	"passwordReset": {
-		"body": "Someone requested a password reset for your Chordia account.",
-		"cta": "Reset your password",
-		"expiry": "This link expires in 1 hour.",
-		"ignore": "If you didn't request this, you can safely ignore this email.",
-		"subject": "Reset your Chordia password"
+		"body": "Alguien solicitó restablecer la contraseña de tu cuenta de Chordia.",
+		"cta": "Restablecer tu contraseña",
+		"expiry": "Este enlace caduca en 1 hora.",
+		"ignore": "Si no fuiste tú, puedes ignorar este correo sin problema.",
+		"subject": "Restablece tu contraseña de Chordia"
 	},
 	"verifyEmail": {
-		"body": "Please confirm your email address to finish setting up your account.",
-		"cta": "Verify your email",
-		"expiry": "This link expires in 24 hours.",
-		"heading": "Welcome to Chordia",
-		"subject": "Verify your Chordia email"
+		"body": "Confirma tu dirección de correo para terminar de configurar tu cuenta.",
+		"cta": "Verificar tu correo",
+		"expiry": "Este enlace caduca en 24 horas.",
+		"heading": "Te damos la bienvenida a Chordia",
+		"subject": "Verifica tu correo de Chordia"
 	}
 }
