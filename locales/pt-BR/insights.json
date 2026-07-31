@@ -3,9 +3,9 @@
 		"activity": {
 			"ariaLabel": "Atividade de audição ao longo do tempo"
 		},
-		"dayLabel": "{date, date, ::MMMd}",
-		"hourLabel": "{date, time, ::j}",
-		"monthLabel": "{date, date, ::yMMM}",
+		"dayLabel": "",
+		"hourLabel": "",
+		"monthLabel": "",
 		"noActivityPeriod": "Nenhuma atividade neste período",
 		"noActivityYet": "Nenhuma atividade ainda",
 		"peak": "Pico: {count, plural, one {# reprodução} other {# reproduções}} · {date}",
@@ -31,12 +31,12 @@
 	"clockGrid": {
 		"ariaLabel": "Atividade de audição por dia da semana e hora em {timezone}",
 		"busiest": "Mais movimentado: {day} · {hour}",
-		"cellLabel": "{day} · {hour}"
+		"cellLabel": ""
 	},
 	"compatibility": {
 		"compare": "Comparar",
 		"handlePlaceholder": "usuário do amigo",
-		"percent": "{pct}%",
+		"percent": "",
 		"sharedArtists": "Artistas que vocês dois curtem",
 		"title": "Afinidade musical",
 		"youAnd": "Você e {name}"
@@ -51,7 +51,7 @@
 	},
 	"delta": {
 		"downAria": "Queda de {pct} em relação ao período anterior",
-		"flat": "0%",
+		"flat": "",
 		"flatAria": "Sem mudança em relação ao período anterior",
 		"new": "Novo",
 		"newAria": "nada no período anterior para comparação",
@@ -108,11 +108,11 @@
 		"topNewArtists": "Artistas descobertos"
 	},
 	"duration": {
-		"days": "{days}d",
-		"daysHours": "{days}d {hours}h",
-		"hoursMinutes": "{hours}h {minutes}m",
-		"minutes": "{minutes}m",
-		"seconds": "{seconds}s"
+		"days": "",
+		"daysHours": "",
+		"hoursMinutes": "",
+		"minutes": "",
+		"seconds": ""
 	},
 	"empty": {
 		"history": {
@@ -168,7 +168,7 @@
 				"artist": "de {total, plural, one {# artista} other {# artistas}} que você tocou",
 				"track": "de {total, plural, one {# faixa} other {# faixas}} que você tocou"
 			},
-			"rankValue": "#{rank, number}"
+			"rankValue": ""
 		},
 		"title": "Estatísticas de audição",
 		"top": {
@@ -201,7 +201,7 @@
 	},
 	"heatmap": {
 		"ariaLabel": "Mapa de calor da audição diária",
-		"dayLabel": "{date, date, ::EEEMMMd}",
+		"dayLabel": "",
 		"less": "Menos",
 		"more": "Mais",
 		"scaleAriaLabel": "Escala de intensidade da atividade, de menos para mais",
@@ -300,7 +300,7 @@
 		"hoursAgo": "há {hours}h",
 		"justNow": "agora mesmo",
 		"minutesAgo": "há {minutes}m",
-		"shortDate": "{date}",
+		"shortDate": "",
 		"today": "hoje",
 		"yesterday": "ontem"
 	},
@@ -326,12 +326,12 @@
 		"listeningNow": "Ouvindo agora"
 	},
 	"stats": {
-		"dateLabel": "{date, date, ::yMMMd}",
-		"duration": "{days}d {hours}h / {hours}h {minutes}m / {minutes}m",
+		"dateLabel": "",
+		"duration": "",
 		"firstPlayed": "Primeira reprodução",
 		"lastPlayed": "Última reprodução",
 		"plays": "Reproduções",
-		"playsValue": "{count, number}",
+		"playsValue": "",
 		"rankBadge": "#{rank} mais tocado",
 		"rankOf": "#{rank, number} de {total, number}",
 		"seeAll": "Ver estatísticas completas",
@@ -342,9 +342,9 @@
 		"timeListened": "Tempo de audição",
 		"title": "Suas estatísticas",
 		"uniqueArtists": "Artistas únicos",
-		"uniqueArtistsValue": "{count}",
+		"uniqueArtistsValue": "",
 		"uniqueTracks": "Faixas únicas",
-		"uniqueTracksValue": "{count}"
+		"uniqueTracksValue": ""
 	},
 	"tabs": {
 		"charts": "Paradas",
@@ -352,7 +352,7 @@
 		"history": "Histórico",
 		"overview": "Visão geral",
 		"records": "Recordes",
-		"social": "Social"
+		"social": ""
 	},
 	"title": "Audição",
 	"top": {
@@ -370,7 +370,7 @@
 	"weekday": {
 		"fri": "Sex",
 		"mon": "Seg",
-		"playsValue": "{count, number}",
+		"playsValue": "",
 		"sat": "Sáb",
 		"sun": "Dom",
 		"thu": "Qui",
@@ -380,7 +380,7 @@
 	"wrapped": {
 		"downloaded": "Seu cartão do Wrapped foi salvo.",
 		"failed": "Não foi possível criar o cartão. Tente novamente.",
-		"heading": "Chordia Wrapped",
+		"heading": "",
 		"minutesListened": "minutos ouvidos",
 		"periodTitle": {
 			"halfYear": "Seus últimos 6 meses em música",
