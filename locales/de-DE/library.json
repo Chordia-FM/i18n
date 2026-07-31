@@ -68,12 +68,12 @@
 		"clearError": "Downloads konnten nicht gelöscht werden",
 		"emptyState": "Heruntergeladene Songs lassen sich ohne Verbindung abspielen. Verwenden Sie die Download-Aktion bei einem beliebigen Titel, um ihn hier zu speichern.",
 		"eyebrow": "Offline verfügbar",
-		"navLabel": "Downloads",
+		"navLabel": "",
 		"removeError": "Download konnte nicht entfernt werden",
 		"removeTooltip": "Download entfernen",
 		"songCount": "{count, plural, one {# Song} other {# Songs}}",
 		"storedOnDevice": "auf diesem Gerät gespeichert",
-		"title": "Downloads"
+		"title": ""
 	},
 	"hidden": {
 		"hide": "Diesen Song ausblenden",
@@ -81,7 +81,7 @@
 	},
 	"liked": {
 		"empty": "Songs, die Ihnen gefallen, erscheinen hier. Tippen Sie bei einem beliebigen Titel auf das Herz.",
-		"eyebrow": "Playlist",
+		"eyebrow": "",
 		"remove": "Aus Lieblingssongs entfernen",
 		"save": "Zu Lieblingssongs hinzufügen",
 		"songCount": "{count, plural, one {# Song} other {# Songs}}",
@@ -115,7 +115,7 @@
 		"noFolderChosen": "Kein Ordner ausgewählt",
 		"noServer": "Auf diesem Gerät wurde kein gekoppelter Server gefunden. Starten Sie Ihren Bibliotheksserver und öffnen Sie zuerst den Setup-Link, den er ausgibt, um ihn zu koppeln.",
 		"noSubFolders": "Hier gibt es keine Unterordner",
-		"serverLabel": "{names} · {host}",
+		"serverLabel": "",
 		"serverSelectHint": "Diese neue Bibliothek wird auf dem ausgewählten Server erstellt.",
 		"serverSelectLabel": "Bibliotheksserver",
 		"submit": "Bibliothek hinzufügen",
@@ -181,7 +181,7 @@
 	},
 	"sidebar": {
 		"pinned": "Angeheftet",
-		"playlists": "Playlists",
+		"playlists": "",
 		"yourLibrary": "Ihre Bibliothek"
 	},
 	"trackCount": "{count, plural, one {# Titel} other {# Titel}}",
