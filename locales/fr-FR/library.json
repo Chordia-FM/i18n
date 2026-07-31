@@ -11,7 +11,7 @@
 		"trackCount": "{count, plural, one {# morceau} other {# morceaux}}"
 	},
 	"edit": {
-		"albumsLabel": "Albums",
+		"albumsLabel": "",
 		"dedupeLabel": "Dédupliquer — ne garder que la copie de meilleure qualité lorsque des fichiers arrivent au même endroit (sinon ils reçoivent les suffixes (2), (3)…)",
 		"deleteConfirm": {
 			"confirmLabel": "Retirer",
@@ -81,7 +81,7 @@
 	},
 	"liked": {
 		"empty": "Les chansons que vous aimez apparaissent ici. Touchez le cœur sur n'importe quel morceau.",
-		"eyebrow": "Playlist",
+		"eyebrow": "",
 		"remove": "Retirer des chansons aimées",
 		"save": "Ajouter aux chansons aimées",
 		"songCount": "{count, plural, one {# chanson} other {# chansons}}",
@@ -115,7 +115,7 @@
 		"noFolderChosen": "Aucun dossier choisi",
 		"noServer": "Aucun serveur associé trouvé sur cet appareil. Démarrez votre serveur de bibliothèque et ouvrez d'abord le lien de configuration qu'il affiche pour l'associer.",
 		"noSubFolders": "Aucun sous-dossier ici",
-		"serverLabel": "{names} · {host}",
+		"serverLabel": "",
 		"serverSelectHint": "Cette nouvelle bibliothèque sera créée sur le serveur sélectionné.",
 		"serverSelectLabel": "Serveur de bibliothèque",
 		"submit": "Ajouter une bibliothèque",
@@ -181,7 +181,7 @@
 	},
 	"sidebar": {
 		"pinned": "Épinglés",
-		"playlists": "Playlists",
+		"playlists": "",
 		"yourLibrary": "Votre bibliothèque"
 	},
 	"trackCount": "{count, plural, one {# morceau} other {# morceaux}}",
