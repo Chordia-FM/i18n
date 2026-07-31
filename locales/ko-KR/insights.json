@@ -3,9 +3,9 @@
 		"activity": {
 			"ariaLabel": "시간에 따른 감상 활동"
 		},
-		"dayLabel": "{date, date, ::MMMd}",
-		"hourLabel": "{date, time, ::j}",
-		"monthLabel": "{date, date, ::yMMM}",
+		"dayLabel": "",
+		"hourLabel": "",
+		"monthLabel": "",
 		"noActivityPeriod": "이 기간에는 활동이 없습니다",
 		"noActivityYet": "아직 활동이 없습니다",
 		"peak": "최고: {count, plural, other {#회 재생}} · {date}",
@@ -31,12 +31,12 @@
 	"clockGrid": {
 		"ariaLabel": "{timezone} 기준 요일·시간대별 감상 활동",
 		"busiest": "가장 활발: {day} · {hour}",
-		"cellLabel": "{day} · {hour}"
+		"cellLabel": ""
 	},
 	"compatibility": {
 		"compare": "비교",
 		"handlePlaceholder": "친구의 사용자 이름",
-		"percent": "{pct}%",
+		"percent": "",
 		"sharedArtists": "둘 다 좋아하는 아티스트",
 		"title": "취향 궁합",
 		"youAnd": "나와 {name}"
@@ -51,7 +51,7 @@
 	},
 	"delta": {
 		"downAria": "이전 기간 대비 {pct} 하락",
-		"flat": "0%",
+		"flat": "",
 		"flatAria": "이전 기간과 동일",
 		"new": "신규",
 		"newAria": "이전 기간에 비교할 기록이 없습니다",
@@ -201,7 +201,7 @@
 	},
 	"heatmap": {
 		"ariaLabel": "일별 감상 히트맵",
-		"dayLabel": "{date, date, ::EEEMMMd}",
+		"dayLabel": "",
 		"less": "적음",
 		"more": "많음",
 		"scaleAriaLabel": "활동 강도 척도, 적음에서 많음까지",
@@ -300,7 +300,7 @@
 		"hoursAgo": "{hours}시간 전",
 		"justNow": "방금",
 		"minutesAgo": "{minutes}분 전",
-		"shortDate": "{date}",
+		"shortDate": "",
 		"today": "오늘",
 		"yesterday": "어제"
 	},
@@ -326,12 +326,12 @@
 		"listeningNow": "지금 감상 중"
 	},
 	"stats": {
-		"dateLabel": "{date, date, ::yMMMd}",
+		"dateLabel": "",
 		"duration": "{days}일 {hours}시간 / {hours}시간 {minutes}분 / {minutes}분",
 		"firstPlayed": "처음 재생",
 		"lastPlayed": "마지막 재생",
 		"plays": "재생 횟수",
-		"playsValue": "{count, number}",
+		"playsValue": "",
 		"rankBadge": "가장 많이 재생 {rank}위",
 		"rankOf": "{total, number}개 중 {rank, number}위",
 		"seeAll": "전체 통계 보기",
@@ -342,9 +342,9 @@
 		"timeListened": "감상 시간",
 		"title": "내 통계",
 		"uniqueArtists": "고유 아티스트",
-		"uniqueArtistsValue": "{count}",
+		"uniqueArtistsValue": "",
 		"uniqueTracks": "고유 트랙",
-		"uniqueTracksValue": "{count}"
+		"uniqueTracksValue": ""
 	},
 	"tabs": {
 		"charts": "차트",
@@ -370,7 +370,7 @@
 	"weekday": {
 		"fri": "금",
 		"mon": "월",
-		"playsValue": "{count, number}",
+		"playsValue": "",
 		"sat": "토",
 		"sun": "일",
 		"thu": "목",
@@ -380,7 +380,7 @@
 	"wrapped": {
 		"downloaded": "Wrapped 카드를 저장했습니다.",
 		"failed": "카드를 만들지 못했습니다. 다시 시도해 주세요.",
-		"heading": "Chordia Wrapped",
+		"heading": "",
 		"minutesListened": "분 감상",
 		"periodTitle": {
 			"halfYear": "지난 6개월의 음악",
