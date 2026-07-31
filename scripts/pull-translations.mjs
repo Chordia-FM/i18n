@@ -18,7 +18,13 @@
 // rather than a thing to unpick.
 
 import { spawnSync } from "node:child_process";
-import { readdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
+import {
+	readdirSync,
+	readFileSync,
+	rmSync,
+	statSync,
+	writeFileSync,
+} from "node:fs";
 import { join } from "node:path";
 
 const ROOT = new URL("../locales", import.meta.url).pathname.replace(
@@ -76,6 +82,8 @@ if (run.status !== 0) {
 
 let removed = 0;
 let files = 0;
+/** Namespaces that held nothing but untranslated strings, so the file was dropped entirely. */
+const emptied = [];
 for (const locale of readdirSync(ROOT)) {
 	if (locale === SOURCE || !statSync(join(ROOT, locale)).isDirectory()) continue;
 	for (const ns of readdirSync(join(ROOT, locale))) {
@@ -91,9 +99,21 @@ for (const locale of readdirSync(ROOT)) {
 		}
 		const n = prune(json);
 		if (n === 0) continue;
-		writeFileSync(path, `${JSON.stringify(sortDeep(json), null, "\t")}\n`);
 		removed += n;
 		files += 1;
+		// Crowdin exports all 16 namespaces for every target language regardless of coverage, so a
+		// locale that overrides only a handful of strings still receives a file per namespace. Once
+		// the untranslated entries are stripped most of those are `{}` — and an empty catalog is not
+		// neutral: the glob in index.ts loads it, i18next registers an empty namespace, and every
+		// pull leaves a fresh scatter of them in `git status` for a reviewer to wade through. A
+		// namespace with nothing to override should not exist; the base catalog answers for it.
+		// (Measured: an en-GB pull produced eight new files holding one real key between them.)
+		if (Object.keys(json).length === 0) {
+			rmSync(path);
+			emptied.push(`${locale}/${ns}`);
+			continue;
+		}
+		writeFileSync(path, `${JSON.stringify(sortDeep(json), null, "\t")}\n`);
 	}
 }
 
@@ -103,4 +123,9 @@ console.log(
 				"Each one is an untranslated string, and omitting the key is what lets it fall back to English."
 		: "\nNo empty values in the download.",
 );
+if (emptied.length) {
+	console.log(
+		`Removed ${emptied.length} catalog(s) with no translations at all: ${emptied.join(", ")}`,
+	);
+}
 console.log("Review with `git status` / `git diff`, then run `npm run check`.");
