@@ -1,402 +1,402 @@
 {
 	"chart": {
 		"activity": {
-			"ariaLabel": "Listening activity over time"
+			"ariaLabel": "시간에 따른 감상 활동"
 		},
 		"dayLabel": "{date, date, ::MMMd}",
 		"hourLabel": "{date, time, ::j}",
 		"monthLabel": "{date, date, ::yMMM}",
-		"noActivityPeriod": "No activity in this period",
-		"noActivityYet": "No activity yet",
-		"peak": "Peak: {count, plural, one {# play} other {# plays}} · {date}",
-		"plays": "{count, plural, one {# play} other {# plays}}"
+		"noActivityPeriod": "이 기간에는 활동이 없습니다",
+		"noActivityYet": "아직 활동이 없습니다",
+		"peak": "최고: {count, plural, other {#회 재생}} · {date}",
+		"plays": "{count, plural, other {#회 재생}}"
 	},
 	"charts": {
-		"down": "Down {count, plural, one {# place} other {# places}}",
+		"down": "{count, plural, other {#단계}} 하락",
 		"empty": {
-			"body": "{person, select, them {Their library will rank here once they start listening.} other {Your library ranks here once you have some plays.}}",
-			"title": "Nothing to chart yet"
+			"body": "{person, select, them {감상을 시작하면 이 사람의 라이브러리가 여기에 순위로 표시됩니다.} other {재생 기록이 쌓이면 내 라이브러리가 여기에 순위로 표시됩니다.}}",
+			"title": "아직 차트로 보여 줄 기록이 없습니다"
 		},
-		"held": "Held its place",
-		"new": "New",
-		"next": "Next",
-		"previous": "Previous",
-		"showing": "{from}–{to} of {total}",
-		"up": "Up {count, plural, one {# place} other {# places}}"
+		"held": "순위 유지",
+		"new": "신규",
+		"next": "다음",
+		"previous": "이전",
+		"showing": "{total}개 중 {from}–{to}",
+		"up": "{count, plural, other {#단계}} 상승"
 	},
 	"clock": {
-		"ariaLabel": "Listening activity by hour of day",
-		"peak": "Busiest hour: {hour} · {count, plural, one {# play} other {# plays}}"
+		"ariaLabel": "시간대별 감상 활동",
+		"peak": "가장 활발한 시간: {hour} · {count, plural, other {#회 재생}}"
 	},
 	"clockGrid": {
-		"ariaLabel": "Listening activity by weekday and hour in {timezone}",
-		"busiest": "Busiest: {day} · {hour}",
+		"ariaLabel": "{timezone} 기준 요일·시간대별 감상 활동",
+		"busiest": "가장 활발: {day} · {hour}",
 		"cellLabel": "{day} · {hour}"
 	},
 	"compatibility": {
-		"compare": "Compare",
-		"handlePlaceholder": "friend's handle",
+		"compare": "비교",
+		"handlePlaceholder": "친구의 사용자 이름",
 		"percent": "{pct}%",
-		"sharedArtists": "Artists you both love",
-		"title": "Taste compatibility",
-		"youAnd": "You & {name}"
+		"sharedArtists": "둘 다 좋아하는 아티스트",
+		"title": "취향 궁합",
+		"youAnd": "나와 {name}"
 	},
 	"decades": {
-		"ariaLabel": "Plays by album release decade",
-		"empty": "Not enough release dates to chart decades yet",
-		"headline": "{pct} of these plays come from the {decade}s",
-		"label": "{decade}s",
-		"tipLabel": "{decade}s · {pct} of plays",
-		"undated": "{pct} of plays have no release date and aren't shown here"
+		"ariaLabel": "앨범 발매 연대별 재생",
+		"empty": "연대별로 보여 줄 만큼 발매일 정보가 아직 충분하지 않습니다",
+		"headline": "이 재생의 {pct}가 {decade}년대 음악입니다",
+		"label": "{decade}년대",
+		"tipLabel": "{decade}년대 · 재생의 {pct}",
+		"undated": "재생의 {pct}는 발매일 정보가 없어 여기에 표시되지 않습니다"
 	},
 	"delta": {
-		"downAria": "Down {pct} vs the previous period",
+		"downAria": "이전 기간 대비 {pct} 하락",
 		"flat": "0%",
-		"flatAria": "Unchanged from the previous period",
-		"new": "New",
-		"newAria": "nothing in the previous period to compare against",
-		"upAria": "Up {pct} vs the previous period"
+		"flatAria": "이전 기간과 동일",
+		"new": "신규",
+		"newAria": "이전 기간에 비교할 기록이 없습니다",
+		"upAria": "이전 기간 대비 {pct} 상승"
 	},
 	"discovery": {
 		"empty": {
-			"body": "{person, select, them {Their discovery stats will build here as they listen.} other {Play some music and your discovery stats will build here.}}",
-			"title": "Nothing to discover yet"
+			"body": "{person, select, them {이 사람이 음악을 들을수록 발견 통계가 여기에 쌓입니다.} other {음악을 재생하면 발견 통계가 여기에 쌓입니다.}}",
+			"title": "아직 보여 줄 발견 기록이 없습니다"
 		},
 		"kinds": {
-			"album": "Albums",
-			"artist": "Artists",
-			"track": "Tracks"
+			"album": "앨범",
+			"artist": "아티스트",
+			"track": "트랙"
 		},
 		"mix": {
-			"headline": "of these plays were tracks never played before",
-			"meterAriaLabel": "Share of plays that were first-time tracks",
-			"new": "First plays · {pct}",
-			"repeats": "On repeat · {pct}",
-			"title": "New vs familiar"
+			"headline": "이 중 이전에 들어본 적 없는 트랙의 비율입니다",
+			"meterAriaLabel": "처음 듣는 트랙이 차지한 재생 비율",
+			"new": "첫 재생 · {pct}",
+			"repeats": "다시 듣기 · {pct}",
+			"title": "새로운 곡과 익숙한 곡"
 		},
 		"movers": {
-			"climbedBy": "Up {count, plural, one {# place} other {# places}}",
-			"climbers": "Climbers",
+			"climbedBy": "{count, plural, other {#단계}} 상승",
+			"climbers": "상승",
 			"empty": {
-				"body": "Chart movement compares this window with the one before it — it appears once both have plays.",
-				"title": "Nothing to compare yet"
+				"body": "차트 변동은 이 기간과 직전 기간을 비교합니다. 두 기간 모두 재생 기록이 있어야 표시됩니다.",
+				"title": "아직 비교할 기록이 없습니다"
 			},
-			"fallers": "Fallers",
-			"fellBy": "Down {count, plural, one {# place} other {# places}}",
-			"needsWindow": "Chart movement compares a window with the one before it — pick a shorter period to see it.",
-			"new": "New",
-			"newcomers": "New entries",
-			"none": "No movement here this window.",
-			"reentry": "Back on the chart",
-			"title": "Chart moves",
+			"fallers": "하락",
+			"fellBy": "{count, plural, other {#단계}} 하락",
+			"needsWindow": "차트 변동은 한 기간과 직전 기간을 비교합니다. 더 짧은 기간을 선택하면 볼 수 있습니다.",
+			"new": "신규",
+			"newcomers": "신규 진입",
+			"none": "이 기간에는 순위 변동이 없습니다.",
+			"reentry": "차트 재진입",
+			"title": "차트 변동",
 			"vsPrevious": {
-				"day": "vs the 24 hours before",
-				"halfYear": "vs the 6 months before",
-				"month": "vs the 30 days before",
-				"quarter": "vs the 3 months before",
-				"week": "vs the 7 days before",
-				"year": "vs the 12 months before"
+				"day": "직전 24시간 대비",
+				"halfYear": "직전 6개월 대비",
+				"month": "직전 30일 대비",
+				"quarter": "직전 3개월 대비",
+				"week": "직전 7일 대비",
+				"year": "직전 12개월 대비"
 			},
-			"wasRank": "was #{rank, number}"
+			"wasRank": "이전 {rank, number}위"
 		},
 		"tiles": {
-			"newAlbums": "New albums",
-			"newArtists": "New artists",
-			"newTracks": "New tracks",
-			"ofPlayed": "of {count, number} played"
+			"newAlbums": "새 앨범",
+			"newArtists": "새 아티스트",
+			"newTracks": "새 트랙",
+			"ofPlayed": "재생한 {count, number}개 중"
 		},
-		"topNewArtists": "Artists discovered"
+		"topNewArtists": "새로 발견한 아티스트"
 	},
 	"duration": {
-		"days": "{days}d",
-		"daysHours": "{days}d {hours}h",
-		"hoursMinutes": "{hours}h {minutes}m",
-		"minutes": "{minutes}m",
-		"seconds": "{seconds}s"
+		"days": "{days}일",
+		"daysHours": "{days}일 {hours}시간",
+		"hoursMinutes": "{hours}시간 {minutes}분",
+		"minutes": "{minutes}분",
+		"seconds": "{seconds}초"
 	},
 	"empty": {
 		"history": {
-			"body": "{person, select, them {Tracks they play will show up here.} other {Tracks you play will show up here.}}",
-			"title": "No history yet"
+			"body": "{person, select, them {이 사람이 재생한 트랙이 여기에 표시됩니다.} other {재생한 트랙이 여기에 표시됩니다.}}",
+			"title": "아직 재생 기록이 없습니다"
 		},
 		"overview": {
-			"body": "{person, select, them {Once they start listening, their stats will appear here.} other {Start listening and your stats will appear here.}}",
-			"title": "Nothing yet"
+			"body": "{person, select, them {이 사람이 감상을 시작하면 통계가 여기에 표시됩니다.} other {감상을 시작하면 통계가 여기에 표시됩니다.}}",
+			"title": "아직 아무것도 없습니다"
 		},
 		"social": {
-			"body": "When your friends listen to music (and share their activity), it shows up here.",
-			"title": "Quiet in here"
+			"body": "친구가 음악을 듣고 활동을 공유하면 여기에 표시됩니다.",
+			"title": "아직 조용하네요"
 		}
 	},
 	"entity": {
-		"alltime": "{count, plural, one {# play} other {# plays}} all-time",
-		"crumb": "Stats",
+		"alltime": "전체 기간 {count, plural, other {#회 재생}}",
+		"crumb": "통계",
 		"eyebrow": {
-			"album": "Album stats",
-			"artist": "Artist stats",
-			"track": "Track stats"
+			"album": "앨범 통계",
+			"artist": "아티스트 통계",
+			"track": "트랙 통계"
 		},
-		"listened": "{time} listened",
+		"listened": "{time} 감상",
 		"never": {
-			"album": "Play this album and your listening stats will build here.",
-			"artist": "Play something by this artist and your listening stats will build here.",
-			"hub": "{count, plural, one {# play} other {# plays}} across everyone on this hub so far.",
-			"showEveryone": "Show everyone's stats",
-			"title": "No plays yet",
-			"track": "Play this track and your listening stats will build here."
+			"album": "이 앨범을 재생하면 감상 통계가 여기에 쌓입니다.",
+			"artist": "이 아티스트의 곡을 재생하면 감상 통계가 여기에 쌓입니다.",
+			"hub": "지금까지 이 허브 전체에서 {count, plural, other {#회 재생}}되었습니다.",
+			"showEveryone": "전체 통계 보기",
+			"title": "아직 재생 기록이 없습니다",
+			"track": "이 트랙을 재생하면 감상 통계가 여기에 쌓입니다."
 		},
 		"quiet": {
-			"cta": "Show all time",
-			"lastPlayed": "You last played this {ago}.",
-			"title": "Nothing in this period"
+			"cta": "전체 기간 보기",
+			"lastPlayed": "마지막으로 {ago} 재생했습니다.",
+			"title": "이 기간에는 기록이 없습니다"
 		},
 		"scope": {
-			"global": "Everyone",
-			"me": "You"
+			"global": "전체",
+			"me": "나"
 		},
 		"share": {
-			"caption": "{pct} of {total, plural, one {# play} other {# plays}} across everyone"
+			"caption": "전체 {total, plural, other {#회 재생}} 중 {pct}"
 		},
-		"since": "since {date}",
+		"since": "{date} 이후",
 		"tiles": {
-			"activeDays": "{count, plural, one {on # day} other {across # days}}",
-			"activeMonths": "{count, plural, one {in # month} other {across # months}}",
-			"perPlay": "≈{duration} per play",
-			"rank": "Rank",
+			"activeDays": "{count, plural, other {#일 동안}}",
+			"activeMonths": "{count, plural, other {#개월 동안}}",
+			"perPlay": "재생당 ≈{duration}",
+			"rank": "순위",
 			"rankOf": {
-				"album": "of {total, plural, one {# album} other {# albums}} you played",
-				"artist": "of {total, plural, one {# artist} other {# artists}} you played",
-				"track": "of {total, plural, one {# track} other {# tracks}} you played"
+				"album": "재생한 {total, plural, other {앨범 #개}} 중",
+				"artist": "재생한 {total, plural, other {아티스트 #명}} 중",
+				"track": "재생한 {total, plural, other {트랙 #개}} 중"
 			},
-			"rankValue": "#{rank, number}"
+			"rankValue": "{rank, number}위"
 		},
-		"title": "Listening stats",
+		"title": "감상 통계",
 		"top": {
-			"albums": "Your top albums",
-			"tracks": "Your top tracks",
-			"unplayed": "{count, plural, one {# track} other {# tracks}} on this album had no plays in this period"
+			"albums": "내 인기 앨범",
+			"tracks": "내 인기 트랙",
+			"unplayed": "이 앨범의 {count, plural, other {트랙 #개}}는 이 기간에 재생되지 않았습니다"
 		},
 		"window": {
-			"everything": "Every play on record"
+			"everything": "기록된 모든 재생"
 		}
 	},
 	"fingerprint": {
-		"ariaLabel": "Listening fingerprint across five measures",
-		"average": "Hub average",
+		"ariaLabel": "다섯 가지 지표로 본 감상 지문",
+		"average": "허브 평균",
 		"axes": {
-			"concentration": "Focus",
-			"consistency": "Consistency",
-			"discovery": "Discovery",
-			"replay": "Replay",
-			"variance": "Volatility"
+			"concentration": "집중도",
+			"consistency": "꾸준함",
+			"discovery": "발견",
+			"replay": "반복 재생",
+			"variance": "변동성"
 		},
-		"axisWithAverage": "{axis} · hub average {pct}",
-		"you": "You"
+		"axisWithAverage": "{axis} · 허브 평균 {pct}",
+		"you": "나"
 	},
 	"genreFlow": {
-		"ariaLabel": "Genre share of listening over time",
-		"empty": "No genre data in this window yet",
-		"other": "Other",
-		"otherCount": "Other · {count, plural, one {# genre} other {# genres}}"
+		"ariaLabel": "시간에 따른 장르 비중",
+		"empty": "이 기간에는 아직 장르 데이터가 없습니다",
+		"other": "기타",
+		"otherCount": "기타 · {count, plural, other {장르 #개}}"
 	},
 	"heatmap": {
-		"ariaLabel": "Daily listening heatmap",
+		"ariaLabel": "일별 감상 히트맵",
 		"dayLabel": "{date, date, ::EEEMMMd}",
-		"less": "Less",
-		"more": "More",
-		"scaleAriaLabel": "Activity intensity scale, less to more",
-		"summary": "{count, plural, one {# play} other {# plays}} across {days, plural, one {# active day} other {# active days}}"
+		"less": "적음",
+		"more": "많음",
+		"scaleAriaLabel": "활동 강도 척도, 적음에서 많음까지",
+		"summary": "{count, plural, other {#회 재생}} · 활동한 {days, plural, other {#일}}"
 	},
 	"history": {
-		"beginning": "That's the earliest play on record."
+		"beginning": "기록에 남은 가장 오래된 재생입니다."
 	},
 	"nav": {
-		"title": "Listening insights"
+		"title": "감상 인사이트"
 	},
 	"overview": {
-		"firstWindow": "{person, select, them {Their first window on record — comparisons will appear once there's history behind it.} other {Your first window on record — comparisons will appear once there's history behind it.}}"
+		"firstWindow": "{person, select, them {기록에 남은 첫 기간입니다 — 이전 기록이 쌓이면 비교가 표시됩니다.} other {기록에 남은 첫 기간입니다 — 이전 기록이 쌓이면 비교가 표시됩니다.}}"
 	},
 	"panels": {
-		"activity": "Activity",
-		"byWeekday": "By weekday",
-		"clockHeatmap": "Listening by weekday and hour",
-		"decades": "Music by decade",
-		"fingerprint": "Listening fingerprint",
-		"genreFlow": "Genres over time",
-		"listeningClock": "Listening clock",
-		"musicRatio": "Music ratio",
-		"topGenres": "Top genres"
+		"activity": "활동",
+		"byWeekday": "요일별",
+		"clockHeatmap": "요일·시간대별 감상",
+		"decades": "연대별 음악",
+		"fingerprint": "감상 지문",
+		"genreFlow": "시간에 따른 장르",
+		"listeningClock": "감상 시계",
+		"musicRatio": "음악 구성비",
+		"topGenres": "인기 장르"
 	},
 	"period": {
-		"day": "24 hours",
-		"halfYear": "6 months",
-		"month": "30 days",
-		"overall": "All time",
-		"quarter": "3 months",
-		"week": "7 days",
-		"year": "12 months"
+		"day": "24시간",
+		"halfYear": "6개월",
+		"month": "30일",
+		"overall": "전체 기간",
+		"quarter": "3개월",
+		"week": "7일",
+		"year": "12개월"
 	},
 	"quietWindow": {
-		"body": "Nothing was played in this window.",
-		"cta": "Show all time",
-		"title": "Nothing in this period"
+		"body": "이 기간에는 재생 기록이 없습니다.",
+		"cta": "전체 기간 보기",
+		"title": "이 기간에는 기록이 없습니다"
 	},
 	"ratio": {
-		"ariaLabel": "{tracks, number} tracks, {albums, number} albums and {artists, number} artists as nested rings",
-		"caption": "Distinct tracks, albums, and artists played in this window. Each ring's sweep compares its count against the {count, plural, one {# track} other {# tracks}}.",
-		"shareOfTracks": "· {pct} of tracks"
+		"ariaLabel": "트랙 {tracks, number}개, 앨범 {albums, number}개, 아티스트 {artists, number}명을 겹친 고리로 표현",
+		"caption": "이 기간에 재생한 고유 트랙·앨범·아티스트입니다. 각 고리의 크기는 {count, plural, other {트랙 #개}}를 기준으로 비교됩니다.",
+		"shareOfTracks": "· 트랙의 {pct}"
 	},
-	"recentlyPlayed": "Recently Played",
+	"recentlyPlayed": "최근 재생",
 	"records": {
 		"empty": {
-			"body": "{person, select, them {Streaks, records, and milestones build as they listen.} other {Streaks, records, and milestones build as you listen.}}",
-			"title": "No records yet"
+			"body": "{person, select, them {이 사람이 음악을 들을수록 연속 기록과 최고 기록, 마일스톤이 쌓입니다.} other {음악을 들을수록 연속 기록과 최고 기록, 마일스톤이 쌓입니다.}}",
+			"title": "아직 최고 기록이 없습니다"
 		},
 		"milestones": {
-			"beginning": "{person, select, them {Every library starts somewhere — round-number milestones will land here as their plays add up.} other {Every library starts somewhere — round-number milestones will land here as your plays add up.}}",
-			"chip": "All time",
-			"curveAriaLabel": "Cumulative plays over time, one point per milestone",
-			"first": "First play",
+			"beginning": "{person, select, them {모든 라이브러리는 어딘가에서 시작합니다 — 이 사람의 재생이 쌓이면 딱 떨어지는 숫자의 마일스톤이 여기에 표시됩니다.} other {모든 라이브러리는 어딘가에서 시작합니다 — 재생이 쌓이면 딱 떨어지는 숫자의 마일스톤이 여기에 표시됩니다.}}",
+			"chip": "전체 기간",
+			"curveAriaLabel": "시간에 따른 누적 재생, 마일스톤마다 한 점",
+			"first": "첫 재생",
 			"lookup": {
-				"label": "Look up a play",
-				"outOfRange": "There aren't that many plays on record yet.",
-				"submit": "Find it"
+				"label": "재생 찾아보기",
+				"outOfRange": "아직 그만큼 재생 기록이 없습니다.",
+				"submit": "찾기"
 			},
-			"ordinal": "{ordinal, selectordinal, one {#st play} two {#nd play} few {#rd play} other {#th play}}",
-			"title": "Milestones"
+			"ordinal": "{ordinal, selectordinal, other {#번째 재생}}",
+			"title": "마일스톤"
 		},
 		"onThisDay": {
-			"empty": "{person, select, them {No memories on this date yet — they'll gather here once their history is a year deep.} other {No memories on this date yet — they'll gather here once your history is a year deep.}}",
-			"title": "On this day",
-			"yearsAgo": "{count, plural, one {# year ago} other {# years ago}}"
+			"empty": "{person, select, them {이 날짜의 추억이 아직 없습니다 — 이 사람의 기록이 1년 이상 쌓이면 여기에 모입니다.} other {이 날짜의 추억이 아직 없습니다 — 내 기록이 1년 이상 쌓이면 여기에 모입니다.}}",
+			"title": "오늘의 기록",
+			"yearsAgo": "{count, plural, other {#년 전}}"
 		},
 		"sessions": {
-			"ariaLabel": "The longest listening sessions",
-			"longest": "Longest: {duration} · {date}",
-			"meta": "{tracks, plural, one {# track} other {# tracks}}",
-			"metaWithArtist": "{tracks, plural, one {# track} other {# tracks}} · mostly {artist}",
-			"title": "Longest sessions"
+			"ariaLabel": "가장 긴 감상 세션",
+			"longest": "최장: {duration} · {date}",
+			"meta": "{tracks, plural, other {트랙 #개}}",
+			"metaWithArtist": "{tracks, plural, other {트랙 #개}} · 주로 {artist}",
+			"title": "가장 긴 세션"
 		},
 		"streaks": {
-			"alsoLongest": "Longest ever",
-			"current": "Current streak",
-			"days": "{count, plural, one {# day} other {# days}}",
-			"detail": "{range} · {plays, plural, one {# play} other {# plays}}",
-			"live": "Active — keep it going",
-			"longest": "Longest streak",
+			"alsoLongest": "역대 최장",
+			"current": "현재 연속 기록",
+			"days": "{count, plural, other {#일}}",
+			"detail": "{range} · {plays, plural, other {#회 재생}}",
+			"live": "진행 중 — 계속 이어 가세요",
+			"longest": "최장 연속 기록",
 			"noCurrent": {
-				"body": "{person, select, them {Nothing active right now.} other {Play something today to start one.}}",
-				"title": "No streak right now"
+				"body": "{person, select, them {지금은 진행 중인 기록이 없습니다.} other {오늘 음악을 재생해 새 기록을 시작해 보세요.}}",
+				"title": "진행 중인 연속 기록 없음"
 			}
 		},
 		"tiles": {
-			"activeDays": "Active days",
-			"activeDaysOf": "of {count, number} in this window",
-			"biggestDay": "Biggest day",
-			"playsPerDay": "Plays per day"
+			"activeDays": "활동한 날",
+			"activeDaysOf": "이 기간 {count, number}일 중",
+			"biggestDay": "가장 많이 들은 날",
+			"playsPerDay": "하루 평균 재생"
 		}
 	},
 	"relative": {
-		"hoursAgo": "{hours}h ago",
-		"justNow": "just now",
-		"minutesAgo": "{minutes}m ago",
+		"hoursAgo": "{hours}시간 전",
+		"justNow": "방금",
+		"minutesAgo": "{minutes}분 전",
 		"shortDate": "{date}",
-		"today": "today",
-		"yesterday": "yesterday"
+		"today": "오늘",
+		"yesterday": "어제"
 	},
 	"shareGrid": {
 		"album": {
-			"ariaLabel": "Grid of your most played album covers for this period",
-			"infoToggle": "Album info on grid",
-			"title": "Album grid"
+			"ariaLabel": "이 기간에 가장 많이 들은 앨범 커버 그리드",
+			"infoToggle": "그리드에 앨범 정보 표시",
+			"title": "앨범 그리드"
 		},
 		"artist": {
-			"ariaLabel": "Artist grid preview",
-			"infoToggle": "Artist info on grid",
-			"title": "Artist grid"
+			"ariaLabel": "아티스트 그리드 미리보기",
+			"infoToggle": "그리드에 아티스트 정보 표시",
+			"title": "아티스트 그리드"
 		},
-		"bordersToggle": "Include borders",
-		"download": "Download",
-		"downloaded": "Saved your album grid.",
-		"downloading": "Rendering…",
-		"failed": "Couldn't create the grid. Please try again."
+		"bordersToggle": "테두리 포함",
+		"download": "다운로드",
+		"downloaded": "앨범 그리드를 저장했습니다.",
+		"downloading": "만드는 중…",
+		"failed": "그리드를 만들지 못했습니다. 다시 시도해 주세요."
 	},
 	"social": {
-		"friendActivity": "Friend Activity",
-		"listeningNow": "Listening now"
+		"friendActivity": "친구 활동",
+		"listeningNow": "지금 감상 중"
 	},
 	"stats": {
 		"dateLabel": "{date, date, ::yMMMd}",
-		"duration": "{days}d {hours}h / {hours}h {minutes}m / {minutes}m",
-		"firstPlayed": "First played",
-		"lastPlayed": "Last played",
-		"plays": "Plays",
+		"duration": "{days}일 {hours}시간 / {hours}시간 {minutes}분 / {minutes}분",
+		"firstPlayed": "처음 재생",
+		"lastPlayed": "마지막 재생",
+		"plays": "재생 횟수",
 		"playsValue": "{count, number}",
-		"rankBadge": "#{rank} most played",
-		"rankOf": "#{rank, number} of {total, number}",
-		"seeAll": "See full stats",
+		"rankBadge": "가장 많이 재생 {rank}위",
+		"rankOf": "{total, number}개 중 {rank, number}위",
+		"seeAll": "전체 통계 보기",
 		"sparkline": {
-			"ariaLabel": "Monthly play trend"
+			"ariaLabel": "월별 재생 추이"
 		},
-		"time": "Time",
-		"timeListened": "Time Listened",
-		"title": "Your stats",
-		"uniqueArtists": "Unique Artists",
+		"time": "시간",
+		"timeListened": "감상 시간",
+		"title": "내 통계",
+		"uniqueArtists": "고유 아티스트",
 		"uniqueArtistsValue": "{count}",
-		"uniqueTracks": "Unique Tracks",
+		"uniqueTracks": "고유 트랙",
 		"uniqueTracksValue": "{count}"
 	},
 	"tabs": {
-		"charts": "Charts",
-		"discovery": "Discovery",
-		"history": "History",
-		"overview": "Overview",
-		"records": "Records",
-		"social": "Social"
+		"charts": "차트",
+		"discovery": "발견",
+		"history": "재생 기록",
+		"overview": "개요",
+		"records": "최고 기록",
+		"social": "소셜"
 	},
-	"title": "Listening",
+	"title": "감상",
 	"top": {
-		"albums": "Top Albums",
-		"artists": "Top Artists",
-		"genres": "Top Genres",
-		"playsCount": "{count, plural, one {# play} other {# plays}}",
-		"tracks": "Top Tracks"
+		"albums": "인기 앨범",
+		"artists": "인기 아티스트",
+		"genres": "인기 장르",
+		"playsCount": "{count, plural, other {#회 재생}}",
+		"tracks": "인기 트랙"
 	},
 	"topCard": {
-		"album": "Top album",
-		"artist": "Top artist",
-		"track": "Top track"
+		"album": "1위 앨범",
+		"artist": "1위 아티스트",
+		"track": "1위 트랙"
 	},
 	"weekday": {
-		"fri": "Fri",
-		"mon": "Mon",
+		"fri": "금",
+		"mon": "월",
 		"playsValue": "{count, number}",
-		"sat": "Sat",
-		"sun": "Sun",
-		"thu": "Thu",
-		"tue": "Tue",
-		"wed": "Wed"
+		"sat": "토",
+		"sun": "일",
+		"thu": "목",
+		"tue": "화",
+		"wed": "수"
 	},
 	"wrapped": {
-		"downloaded": "Saved your Wrapped card.",
-		"failed": "Couldn't create the card. Please try again.",
+		"downloaded": "Wrapped 카드를 저장했습니다.",
+		"failed": "카드를 만들지 못했습니다. 다시 시도해 주세요.",
 		"heading": "Chordia Wrapped",
-		"minutesListened": "minutes listened",
+		"minutesListened": "분 감상",
 		"periodTitle": {
-			"halfYear": "Your last 6 months in music",
-			"month": "Your month in music",
-			"overall": "Your all-time stats",
-			"quarter": "Your last 3 months in music",
-			"week": "Your week in music",
-			"year": "Your year in music"
+			"halfYear": "지난 6개월의 음악",
+			"month": "이번 달의 음악",
+			"overall": "전체 기간 통계",
+			"quarter": "지난 3개월의 음악",
+			"week": "이번 주의 음악",
+			"year": "올해의 음악"
 		},
-		"shareButton": "Share",
-		"shared": "Shared your Wrapped card.",
-		"sharedFallback": "Couldn't share — saved the card to your downloads instead.",
-		"sharing": "Sharing…",
-		"statLine": "{artists, number} artists · {tracks, number} tracks",
-		"topArtists": "Top artists",
-		"topGenre": "Top genre",
-		"topTracks": "Top tracks"
+		"shareButton": "공유",
+		"shared": "Wrapped 카드를 공유했습니다.",
+		"sharedFallback": "공유하지 못해 카드를 다운로드에 저장했습니다.",
+		"sharing": "공유 중…",
+		"statLine": "아티스트 {artists, number} · 트랙 {tracks, number}",
+		"topArtists": "인기 아티스트",
+		"topGenre": "인기 장르",
+		"topTracks": "인기 트랙"
 	}
 }
