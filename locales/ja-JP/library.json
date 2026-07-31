@@ -115,7 +115,7 @@
 		"noFolderChosen": "フォルダが未選択です",
 		"noServer": "このデバイスにペアリング済みのサーバーが見つかりません。ライブラリサーバーを起動し、表示されるセットアップリンクを開いて先にペアリングしてください。",
 		"noSubFolders": "サブフォルダはありません",
-		"serverLabel": "{names} · {host}",
+		"serverLabel": "",
 		"serverSelectHint": "新しいライブラリは選択したサーバー上に作成されます。",
 		"serverSelectLabel": "ライブラリサーバー",
 		"submit": "ライブラリを追加",
