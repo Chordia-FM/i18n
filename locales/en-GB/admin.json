@@ -5,7 +5,7 @@
 		"title": "Audit log"
 	},
 	"editCatalog": {
-		"title": "Edit catalog metadata"
+		"title": "Edit catalogue metadata"
 	},
 	"enrichment": {
 		"description": "Re-fetch artwork, artist images, bios, release dates and genres for everything in your libraries. Useful after adding Last.fm / fanart.tv API keys. Runs in the background and is rate-limited, so a large library fills in gradually.",
@@ -38,7 +38,7 @@
 		"findArtistPlaceholder": "Find artist…",
 		"imageFetchFailed": "Couldn't fetch that image.",
 		"imageUploadFailed": "Image upload failed.",
-		"intro": "Edit the shared catalog that everyone sees — rename an artist, album or track, replace its artwork, or re-attribute a release to a different artist. These changes are global and permanent (unlike per-library edits). Every change is recorded in the audit log.",
+		"intro": "Edit the shared catalogue that everyone sees — rename an artist, album or track, replace its artwork, or re-attribute a release to a different artist. These changes are global and permanent (unlike per-library edits). Every change is recorded in the audit log.",
 		"labelLoadError": "Couldn't load the label.",
 		"labelSubtitle": "{count, plural, one {# album} other {# albums}}",
 		"loadError": "Couldn't load the current metadata.",
