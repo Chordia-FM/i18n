@@ -41,7 +41,7 @@
 		"verify": "Verificar",
 		"view": "Ver"
 	},
-	"appName": "Chordia",
+	"appName": "",
 	"commandPalette": {
 		"hint": {
 			"go": "Ir",
@@ -87,7 +87,7 @@
 		"reset": "Restablecer",
 		"rotateLeft": "Girar a la izquierda",
 		"rotateRight": "Girar a la derecha",
-		"zoom": "Zoom"
+		"zoom": ""
 	},
 	"keybinds": {
 		"closeDialog": "Cerrar diálogo",
@@ -95,7 +95,7 @@
 		"help": "Atajos de teclado",
 		"quickSearch": "Búsqueda rápida",
 		"section": {
-			"general": "General",
+			"general": "",
 			"navigation": "Navegación",
 			"player": "Reproductor"
 		},
