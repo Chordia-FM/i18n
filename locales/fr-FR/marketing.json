@@ -1,32 +1,32 @@
 {
 	"cta": {
-		"github": "View on GitHub",
-		"openApp": "Open app"
+		"github": "Voir sur GitHub",
+		"openApp": "Ouvrir l'application"
 	},
-	"eyebrow": "Own your audio · share it your way",
+	"eyebrow": "Possédez votre audio · partagez-le à votre façon",
 	"footer": {
 		"github": "GitHub",
 		"license": "Open source · AGPL-3.0 ·"
 	},
 	"hero": {
-		"paragraph": "A hybrid, self-hosted music ecosystem. Absolute ownership of your library, with the connected, social streaming experience - in bit-perfect fidelity."
+		"paragraph": "Un écosystème musical hybride et auto-hébergé. La maîtrise totale de votre bibliothèque, avec l'expérience sociale et connectée du streaming — en fidélité bit-perfect."
 	},
 	"pillars": {
 		"liveRooms": {
-			"body": "Synchronized listening parties with chat, votes, and turn-taking DJs. You hear your own copy when you own it; your library relays the rest.",
-			"title": "Live listening rooms"
+			"body": "Des écoutes synchronisées entre amis, avec chat, votes et DJ à tour de rôle. Vous entendez votre propre copie quand vous la possédez ; votre bibliothèque relaie le reste.",
+			"title": "Salons d'écoute en direct"
 		},
 		"ownIt": {
-			"body": "Keep your library at home on a NAS or Pi, or run it on a cloud server - either way the music is yours. It streams bit-perfect (FLAC, ALAC, WAV, Dolby Atmos) straight to your devices, and Chordia never stores or routes your audio.",
-			"title": "Own it, host it anywhere"
+			"body": "Gardez votre bibliothèque chez vous sur un NAS ou un Pi, ou faites-la tourner sur un serveur cloud — dans tous les cas, la musique est à vous. Elle est diffusée en bit-perfect (FLAC, ALAC, WAV, Dolby Atmos) directement vers vos appareils, et Chordia ne stocke ni n'achemine jamais votre audio.",
+			"title": "À vous, hébergée où vous voulez"
 		},
 		"selectiveSharing": {
-			"body": "Organize music into separate libraries - \"Hi-Fi Archive\", \"Family Collection\" - and share each one with exactly the friends you choose.",
-			"title": "Selective sharing"
+			"body": "Organisez votre musique en bibliothèques distinctes — « Archive Hi-Fi », « Collection familiale » — et partagez chacune avec exactement les amis de votre choix.",
+			"title": "Partage sélectif"
 		},
 		"wrapped": {
-			"body": "Every play is scrobbled to your global account and kept forever - weekly, monthly, and yearly insights that survive any server move.",
-			"title": "Lifetime Wrapped"
+			"body": "Chaque écoute est scrobblée sur votre compte global et conservée pour toujours — des bilans hebdomadaires, mensuels et annuels qui survivent à tout changement de serveur.",
+			"title": "Wrapped à vie"
 		}
 	}
 }
