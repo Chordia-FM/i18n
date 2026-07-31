@@ -1,31 +1,31 @@
 {
 	"collabInvite": {
-		"body": "{inviter} added you as a collaborator on the playlist “{playlist}”.",
-		"cta": "Open the playlist",
-		"hint": "You can now add and remove tracks.",
-		"subject": "You were added to a Chordia playlist"
+		"body": "{inviter}님이 회원님을 플레이리스트 “{playlist}”의 공동 작업자로 추가했습니다.",
+		"cta": "플레이리스트 열기",
+		"hint": "이제 트랙을 추가하거나 삭제할 수 있습니다.",
+		"subject": "Chordia 플레이리스트에 추가되었습니다"
 	},
 	"footer": {
-		"manage": "You can turn these emails off in Chordia Settings → Notifications."
+		"manage": "이 이메일은 Chordia 설정 → 알림에서 끌 수 있습니다."
 	},
 	"friendRequest": {
-		"body": "{name} wants to connect with you on Chordia.",
-		"cta": "View profile",
-		"heading": "New friend request",
-		"subject": "{name} sent you a friend request"
+		"body": "{name}님이 Chordia에서 회원님과 친구를 맺고 싶어 합니다.",
+		"cta": "프로필 보기",
+		"heading": "새 친구 요청",
+		"subject": "{name}님이 친구 요청을 보냈습니다"
 	},
 	"passwordReset": {
-		"body": "Someone requested a password reset for your Chordia account.",
-		"cta": "Reset your password",
-		"expiry": "This link expires in 1 hour.",
-		"ignore": "If you didn't request this, you can safely ignore this email.",
-		"subject": "Reset your Chordia password"
+		"body": "누군가 회원님의 Chordia 계정 비밀번호 재설정을 요청했습니다.",
+		"cta": "비밀번호 재설정",
+		"expiry": "이 링크는 1시간 후에 만료됩니다.",
+		"ignore": "요청하지 않으셨다면 이 이메일은 무시하셔도 됩니다.",
+		"subject": "Chordia 비밀번호 재설정"
 	},
 	"verifyEmail": {
-		"body": "Please confirm your email address to finish setting up your account.",
-		"cta": "Verify your email",
-		"expiry": "This link expires in 24 hours.",
-		"heading": "Welcome to Chordia",
-		"subject": "Verify your Chordia email"
+		"body": "계정 설정을 완료하려면 이메일 주소를 인증해 주세요.",
+		"cta": "이메일 인증",
+		"expiry": "이 링크는 24시간 후에 만료됩니다.",
+		"heading": "Chordia에 오신 것을 환영합니다",
+		"subject": "Chordia 이메일 인증"
 	}
 }
