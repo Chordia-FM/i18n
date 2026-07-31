@@ -1,165 +1,165 @@
 {
 	"a11y": {
-		"dismissNotification": "Dismiss notification",
-		"playTrack": "Play {title}"
+		"dismissNotification": "",
+		"playTrack": ""
 	},
 	"actions": {
-		"cancel": "Cancel",
-		"changeImage": "Change image",
-		"clearAll": "Clear all",
-		"close": "Close",
-		"confirm": "Confirm",
-		"copyLink": "Copy link",
-		"delete": "Delete",
-		"done": "Done",
-		"download": "Download",
-		"edit": "Edit",
-		"find": "Find",
-		"goHome": "Go home",
-		"linkCopied": "Link copied",
-		"more": "More",
-		"moveDown": "Move down",
-		"moveUp": "Move up",
-		"ok": "OK",
-		"open": "Open",
-		"pin": "Pin",
-		"play": "Play",
-		"remove": "Remove",
-		"rename": "Rename",
-		"reset": "Reset",
-		"save": "Save",
-		"search": "Search",
-		"seeAll": "See all",
-		"seeMore": "See more",
-		"share": "Share",
-		"showLess": "Show less",
-		"showMore": "Show more",
-		"signOut": "Sign out",
-		"tryAgain": "Try again",
-		"undo": "Undo",
-		"unpin": "Unpin",
-		"verify": "Verify",
-		"view": "View"
+		"cancel": "",
+		"changeImage": "",
+		"clearAll": "",
+		"close": "",
+		"confirm": "",
+		"copyLink": "",
+		"delete": "",
+		"done": "",
+		"download": "",
+		"edit": "",
+		"find": "",
+		"goHome": "",
+		"linkCopied": "",
+		"more": "",
+		"moveDown": "",
+		"moveUp": "",
+		"ok": "",
+		"open": "",
+		"pin": "",
+		"play": "",
+		"remove": "",
+		"rename": "",
+		"reset": "",
+		"save": "",
+		"search": "",
+		"seeAll": "",
+		"seeMore": "",
+		"share": "",
+		"showLess": "",
+		"showMore": "",
+		"signOut": "",
+		"tryAgain": "",
+		"undo": "",
+		"unpin": "",
+		"verify": "",
+		"view": ""
 	},
-	"appName": "Chordia",
+	"appName": "",
 	"commandPalette": {
 		"hint": {
-			"go": "Go",
-			"open": "Open",
-			"play": "Play"
+			"go": "",
+			"open": "",
+			"play": ""
 		},
-		"noMatches": "No matches.",
-		"placeholder": "Search music or jump to a page…",
-		"searchFor": "Search for “{query}”",
+		"noMatches": "",
+		"placeholder": "",
+		"searchFor": "",
 		"section": {
-			"navigation": "Navigation"
+			"navigation": ""
 		},
-		"title": "Command palette",
-		"typeToSearch": "Type to search."
+		"title": "",
+		"typeToSearch": ""
 	},
 	"error": {
-		"failedToLoad": "Failed to load"
+		"failedToLoad": ""
 	},
 	"errors": {
-		"saveFailed": "Save failed."
+		"saveFailed": ""
 	},
 	"fields": {
-		"artist": "Artist",
-		"country": "Country",
-		"description": "Description",
-		"label": "Label",
-		"name": "Name",
-		"title": "Title",
-		"type": "Type",
-		"year": "Year"
+		"artist": "",
+		"country": "",
+		"description": "",
+		"label": "",
+		"name": "",
+		"title": "",
+		"type": "",
+		"year": ""
 	},
 	"fileBrowser": {
-		"browse": "Browse",
-		"goUp": "Go up",
-		"useThisFolder": "Use this folder"
+		"browse": "",
+		"goUp": "",
+		"useThisFolder": ""
 	},
 	"image": {
-		"adjust": "Adjust",
-		"adjustTitle": "Adjust image",
-		"flipHorizontal": "Flip horizontal",
-		"flipVertical": "Flip vertical",
-		"hint": "Drag to reposition · zoom in to reframe",
-		"reset": "Reset",
-		"rotateLeft": "Rotate left",
-		"rotateRight": "Rotate right",
-		"zoom": "Zoom"
+		"adjust": "",
+		"adjustTitle": "",
+		"flipHorizontal": "",
+		"flipVertical": "",
+		"hint": "",
+		"reset": "",
+		"rotateLeft": "",
+		"rotateRight": "",
+		"zoom": ""
 	},
 	"keybinds": {
-		"closeDialog": "Close dialog",
-		"commandPalette": "Command palette",
-		"help": "Keyboard shortcuts",
-		"quickSearch": "Quick search",
+		"closeDialog": "",
+		"commandPalette": "",
+		"help": "",
+		"quickSearch": "",
 		"section": {
-			"general": "General",
-			"navigation": "Navigation",
-			"player": "Player"
+			"general": "",
+			"navigation": "",
+			"player": ""
 		},
-		"then": "then",
-		"title": "Keyboard shortcuts",
-		"toggleRightSidebar": "Toggle right sidebar"
+		"then": "",
+		"title": "",
+		"toggleRightSidebar": ""
 	},
 	"language": {
-		"description": "Language used across the interface.",
-		"label": "Language"
+		"description": "",
+		"label": ""
 	},
 	"nav": {
-		"allLibraries": "All libraries",
-		"back": "Back",
-		"closeMenu": "Close menu",
-		"forward": "Forward",
-		"friends": "Friends",
-		"home": "Home",
-		"insights": "Listening",
-		"library": "Library",
-		"listen": "Listen",
-		"menu": "Menu",
-		"more": "More",
-		"openMenu": "Open menu",
-		"search": "Search",
-		"settings": "Settings",
-		"signIn": "Sign in"
+		"allLibraries": "",
+		"back": "",
+		"closeMenu": "",
+		"forward": "",
+		"friends": "",
+		"home": "",
+		"insights": "",
+		"library": "",
+		"listen": "",
+		"menu": "",
+		"more": "",
+		"openMenu": "",
+		"search": "",
+		"settings": "",
+		"signIn": ""
 	},
 	"notFound": {
-		"body": "This page doesn't exist.",
-		"goHome": "Go home",
-		"title": "Page not found"
+		"body": "",
+		"goHome": "",
+		"title": ""
 	},
-	"or": "or",
+	"or": "",
 	"sidebar": {
-		"collapse": "Collapse sidebar",
-		"expand": "Expand sidebar",
-		"resize": "Resize sidebar"
+		"collapse": "",
+		"expand": "",
+		"resize": ""
 	},
 	"state": {
-		"loading": "Loading…",
-		"off": "Off",
-		"on": "On"
+		"loading": "",
+		"off": "",
+		"on": ""
 	},
 	"states": {
-		"loading": "Loading…",
-		"off": "Off",
-		"saving": "Saving…",
-		"verifying": "Verifying…"
+		"loading": "",
+		"off": "",
+		"saving": "",
+		"verifying": ""
 	},
 	"status": {
-		"saved": "Saved",
-		"sending": "Sending…"
+		"saved": "",
+		"sending": ""
 	},
 	"update": {
-		"available": "A new version is available.",
-		"refresh": "Refresh"
+		"available": "",
+		"refresh": ""
 	},
 	"userMenu": {
-		"admin": "Admin",
-		"libraries": "Libraries",
-		"profile": "Your profile",
-		"settings": "Settings",
-		"signOut": "Sign out",
+		"admin": "",
+		"libraries": "",
+		"profile": "",
+		"settings": "",
+		"signOut": "",
 		"stats": "Statistics"
 	}
 }
