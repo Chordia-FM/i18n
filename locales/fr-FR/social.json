@@ -41,7 +41,7 @@
 		"topArtists": "Top artistes",
 		"topTracks": "Top morceaux",
 		"totalPlays": "{count, plural, one {# écoute} other {# écoutes}}",
-		"totalPlaysCount": "{count}"
+		"totalPlaysCount": ""
 	},
 	"report": {
 		"promptMessage": "Signaler @{handle} — quel est le problème ?"
