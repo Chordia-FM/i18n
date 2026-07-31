@@ -1,39 +1,39 @@
 {
 	"dailyMix": {
-		"label": "Daily Mix"
+		"label": "데일리 믹스"
 	},
 	"greeting": {
-		"afternoon": "Good afternoon",
-		"evening": "Good evening",
-		"morning": "Good morning"
+		"afternoon": "좋은 오후입니다",
+		"evening": "좋은 저녁입니다",
+		"morning": "좋은 아침입니다"
 	},
 	"home": {
-		"emptyState": "Nothing here yet - pair a library server and your catalog will appear."
+		"emptyState": "아직 아무것도 없습니다 - 라이브러리 서버를 연결하면 카탈로그가 표시됩니다."
 	},
 	"jumpBackIn": {
-		"emptyState": "Things you've played recently will show up here.",
-		"title": "Jump back in"
+		"emptyState": "최근에 재생한 항목이 여기에 표시됩니다.",
+		"title": "다시 듣기"
 	},
 	"madeForYou": {
-		"emptyState": "Listen to more music and your daily mixes will appear here.",
-		"title": "Made for you"
+		"emptyState": "음악을 더 들으면 데일리 믹스가 여기에 표시됩니다.",
+		"title": "맞춤 추천"
 	},
 	"mix": {
-		"noTracksToast": "This mix has no playable tracks yet",
-		"playTitle": "Play {title}",
-		"playingToast": "Playing {title}"
+		"noTracksToast": "이 믹스에는 아직 재생할 수 있는 트랙이 없습니다",
+		"playTitle": "{title} 재생",
+		"playingToast": "{title} 재생 중"
 	},
 	"radio": {
-		"label": "Radio",
-		"pin": "Pin radio"
+		"label": "라디오",
+		"pin": "라디오 고정"
 	},
 	"shelf": {
-		"jumpBackIn": "Jump back in",
-		"madeFor": "Made for {name}",
-		"madeForYou": "you",
-		"recommended": "Recommended for you",
-		"trendingAlbums": "Trending albums",
-		"trendingArtists": "Trending artists",
-		"yourLibraries": "Your libraries"
+		"jumpBackIn": "다시 듣기",
+		"madeFor": "{name} 맞춤 추천",
+		"madeForYou": "회원님",
+		"recommended": "회원님을 위한 추천",
+		"trendingAlbums": "인기 앨범",
+		"trendingArtists": "인기 아티스트",
+		"yourLibraries": "내 라이브러리"
 	}
 }
