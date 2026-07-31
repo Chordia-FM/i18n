@@ -3,9 +3,9 @@
 		"activity": {
 			"ariaLabel": "期間ごとのリスニングアクティビティ"
 		},
-		"dayLabel": "{date, date, ::MMMd}",
-		"hourLabel": "{date, time, ::j}",
-		"monthLabel": "{date, date, ::yMMM}",
+		"dayLabel": "",
+		"hourLabel": "",
+		"monthLabel": "",
 		"noActivityPeriod": "この期間のアクティビティはありません",
 		"noActivityYet": "まだアクティビティはありません",
 		"peak": "ピーク: {count, plural, other {#回再生}} · {date}",
@@ -31,12 +31,12 @@
 	"clockGrid": {
 		"ariaLabel": "{timezone}での曜日・時間帯別リスニングアクティビティ",
 		"busiest": "最も活発: {day} · {hour}",
-		"cellLabel": "{day} · {hour}"
+		"cellLabel": ""
 	},
 	"compatibility": {
 		"compare": "比較",
 		"handlePlaceholder": "フレンドのハンドル",
-		"percent": "{pct}%",
+		"percent": "",
 		"sharedArtists": "共通のお気に入りアーティスト",
 		"title": "音楽の相性",
 		"youAnd": "あなたと{name}"
@@ -51,7 +51,7 @@
 	},
 	"delta": {
 		"downAria": "前の期間より{pct}減少",
-		"flat": "0%",
+		"flat": "",
 		"flatAria": "前の期間から変化なし",
 		"new": "新規",
 		"newAria": "前の期間に比較対象がありません",
@@ -201,7 +201,7 @@
 	},
 	"heatmap": {
 		"ariaLabel": "日別リスニングヒートマップ",
-		"dayLabel": "{date, date, ::EEEMMMd}",
+		"dayLabel": "",
 		"less": "少",
 		"more": "多",
 		"scaleAriaLabel": "アクティビティ強度の目盛り（少ないほうから多いほうへ）",
@@ -300,7 +300,7 @@
 		"hoursAgo": "{hours}時間前",
 		"justNow": "たった今",
 		"minutesAgo": "{minutes}分前",
-		"shortDate": "{date}",
+		"shortDate": "",
 		"today": "今日",
 		"yesterday": "昨日"
 	},
@@ -326,12 +326,12 @@
 		"listeningNow": "再生中"
 	},
 	"stats": {
-		"dateLabel": "{date, date, ::yMMMd}",
+		"dateLabel": "",
 		"duration": "{days}日{hours}時間 / {hours}時間{minutes}分 / {minutes}分",
 		"firstPlayed": "初回再生",
 		"lastPlayed": "最終再生",
 		"plays": "再生回数",
-		"playsValue": "{count, number}",
+		"playsValue": "",
 		"rankBadge": "再生数第{rank}位",
 		"rankOf": "{total, number}件中{rank, number}位",
 		"seeAll": "統計をすべて表示",
@@ -342,9 +342,9 @@
 		"timeListened": "再生時間",
 		"title": "あなたの統計",
 		"uniqueArtists": "アーティスト数",
-		"uniqueArtistsValue": "{count}",
+		"uniqueArtistsValue": "",
 		"uniqueTracks": "トラック数",
-		"uniqueTracksValue": "{count}"
+		"uniqueTracksValue": ""
 	},
 	"tabs": {
 		"charts": "チャート",
@@ -370,7 +370,7 @@
 	"weekday": {
 		"fri": "金",
 		"mon": "月",
-		"playsValue": "{count, number}",
+		"playsValue": "",
 		"sat": "土",
 		"sun": "日",
 		"thu": "木",
@@ -380,7 +380,7 @@
 	"wrapped": {
 		"downloaded": "Wrappedカードを保存しました。",
 		"failed": "カードを作成できませんでした。もう一度お試しください。",
-		"heading": "Chordia Wrapped",
+		"heading": "",
 		"minutesListened": "分間再生",
 		"periodTitle": {
 			"halfYear": "この6か月の音楽",
