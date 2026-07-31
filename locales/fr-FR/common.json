@@ -1,165 +1,165 @@
 {
 	"a11y": {
-		"dismissNotification": "Dismiss notification",
-		"playTrack": "Play {title}"
+		"dismissNotification": "Rejeter la notification",
+		"playTrack": "Lire {title}"
 	},
 	"actions": {
-		"cancel": "Cancel",
-		"changeImage": "Change image",
-		"clearAll": "Clear all",
-		"close": "Close",
-		"confirm": "Confirm",
-		"copyLink": "Copy link",
-		"delete": "Delete",
-		"done": "Done",
-		"download": "Download",
-		"edit": "Edit",
-		"find": "Find",
-		"goHome": "Go home",
-		"linkCopied": "Link copied",
-		"more": "More",
-		"moveDown": "Move down",
-		"moveUp": "Move up",
+		"cancel": "Annuler",
+		"changeImage": "Changer l'image",
+		"clearAll": "Tout effacer",
+		"close": "Fermer",
+		"confirm": "Confirmer",
+		"copyLink": "Copier le lien",
+		"delete": "Supprimer",
+		"done": "Terminé",
+		"download": "Télécharger",
+		"edit": "Modifier",
+		"find": "Trouver",
+		"goHome": "Accueil",
+		"linkCopied": "Lien copié",
+		"more": "Plus",
+		"moveDown": "Descendre",
+		"moveUp": "Monter",
 		"ok": "OK",
-		"open": "Open",
-		"pin": "Pin",
-		"play": "Play",
-		"remove": "Remove",
-		"rename": "Rename",
-		"reset": "Reset",
-		"save": "Save",
-		"search": "Search",
-		"seeAll": "See all",
-		"seeMore": "See more",
-		"share": "Share",
-		"showLess": "Show less",
-		"showMore": "Show more",
-		"signOut": "Sign out",
-		"tryAgain": "Try again",
-		"undo": "Undo",
-		"unpin": "Unpin",
-		"verify": "Verify",
-		"view": "View"
+		"open": "Ouvrir",
+		"pin": "Épingler",
+		"play": "Lire",
+		"remove": "Retirer",
+		"rename": "Renommer",
+		"reset": "Réinitialiser",
+		"save": "Enregistrer",
+		"search": "Rechercher",
+		"seeAll": "Voir tout",
+		"seeMore": "Voir plus",
+		"share": "Partager",
+		"showLess": "Afficher moins",
+		"showMore": "Afficher plus",
+		"signOut": "Se déconnecter",
+		"tryAgain": "Réessayer",
+		"undo": "Annuler",
+		"unpin": "Désépingler",
+		"verify": "Vérifier",
+		"view": "Voir"
 	},
 	"appName": "Chordia",
 	"commandPalette": {
 		"hint": {
-			"go": "Go",
-			"open": "Open",
-			"play": "Play"
+			"go": "Aller",
+			"open": "Ouvrir",
+			"play": "Lire"
 		},
-		"noMatches": "No matches.",
-		"placeholder": "Search music or jump to a page…",
-		"searchFor": "Search for “{query}”",
+		"noMatches": "Aucun résultat.",
+		"placeholder": "Rechercher de la musique ou accéder à une page…",
+		"searchFor": "Rechercher « {query} »",
 		"section": {
 			"navigation": "Navigation"
 		},
-		"title": "Command palette",
-		"typeToSearch": "Type to search."
+		"title": "Palette de commandes",
+		"typeToSearch": "Saisissez votre recherche."
 	},
 	"error": {
-		"failedToLoad": "Failed to load"
+		"failedToLoad": "Échec du chargement"
 	},
 	"errors": {
-		"saveFailed": "Save failed."
+		"saveFailed": "L'enregistrement a échoué."
 	},
 	"fields": {
-		"artist": "Artist",
-		"country": "Country",
+		"artist": "Artiste",
+		"country": "Pays",
 		"description": "Description",
 		"label": "Label",
-		"name": "Name",
-		"title": "Title",
+		"name": "Nom",
+		"title": "Titre",
 		"type": "Type",
-		"year": "Year"
+		"year": "Année"
 	},
 	"fileBrowser": {
-		"browse": "Browse",
-		"goUp": "Go up",
-		"useThisFolder": "Use this folder"
+		"browse": "Parcourir",
+		"goUp": "Remonter",
+		"useThisFolder": "Utiliser ce dossier"
 	},
 	"image": {
-		"adjust": "Adjust",
-		"adjustTitle": "Adjust image",
-		"flipHorizontal": "Flip horizontal",
-		"flipVertical": "Flip vertical",
-		"hint": "Drag to reposition · zoom in to reframe",
-		"reset": "Reset",
-		"rotateLeft": "Rotate left",
-		"rotateRight": "Rotate right",
+		"adjust": "Ajuster",
+		"adjustTitle": "Ajuster l'image",
+		"flipHorizontal": "Retourner horizontalement",
+		"flipVertical": "Retourner verticalement",
+		"hint": "Faites glisser pour repositionner · zoomez pour recadrer",
+		"reset": "Réinitialiser",
+		"rotateLeft": "Pivoter à gauche",
+		"rotateRight": "Pivoter à droite",
 		"zoom": "Zoom"
 	},
 	"keybinds": {
-		"closeDialog": "Close dialog",
-		"commandPalette": "Command palette",
-		"help": "Keyboard shortcuts",
-		"quickSearch": "Quick search",
+		"closeDialog": "Fermer la boîte de dialogue",
+		"commandPalette": "Palette de commandes",
+		"help": "Raccourcis clavier",
+		"quickSearch": "Recherche rapide",
 		"section": {
-			"general": "General",
+			"general": "Général",
 			"navigation": "Navigation",
-			"player": "Player"
+			"player": "Lecteur"
 		},
-		"then": "then",
-		"title": "Keyboard shortcuts",
-		"toggleRightSidebar": "Toggle right sidebar"
+		"then": "puis",
+		"title": "Raccourcis clavier",
+		"toggleRightSidebar": "Afficher/masquer la barre latérale droite"
 	},
 	"language": {
-		"description": "Language used across the interface.",
-		"label": "Language"
+		"description": "Langue utilisée dans l'interface.",
+		"label": "Langue"
 	},
 	"nav": {
-		"allLibraries": "All libraries",
-		"back": "Back",
-		"closeMenu": "Close menu",
-		"forward": "Forward",
-		"friends": "Friends",
-		"home": "Home",
-		"insights": "Listening",
-		"library": "Library",
-		"listen": "Listen",
+		"allLibraries": "Toutes les bibliothèques",
+		"back": "Retour",
+		"closeMenu": "Fermer le menu",
+		"forward": "Suivant",
+		"friends": "Amis",
+		"home": "Accueil",
+		"insights": "Écoutes",
+		"library": "Bibliothèque",
+		"listen": "Écoute",
 		"menu": "Menu",
-		"more": "More",
-		"openMenu": "Open menu",
-		"search": "Search",
-		"settings": "Settings",
-		"signIn": "Sign in"
+		"more": "Plus",
+		"openMenu": "Ouvrir le menu",
+		"search": "Rechercher",
+		"settings": "Paramètres",
+		"signIn": "Se connecter"
 	},
 	"notFound": {
-		"body": "This page doesn't exist.",
-		"goHome": "Go home",
-		"title": "Page not found"
+		"body": "Cette page n'existe pas.",
+		"goHome": "Accueil",
+		"title": "Page introuvable"
 	},
-	"or": "or",
+	"or": "ou",
 	"sidebar": {
-		"collapse": "Collapse sidebar",
-		"expand": "Expand sidebar",
-		"resize": "Resize sidebar"
+		"collapse": "Réduire la barre latérale",
+		"expand": "Développer la barre latérale",
+		"resize": "Redimensionner la barre latérale"
 	},
 	"state": {
-		"loading": "Loading…",
-		"off": "Off",
-		"on": "On"
+		"loading": "Chargement…",
+		"off": "Désactivé",
+		"on": "Activé"
 	},
 	"states": {
-		"loading": "Loading…",
-		"off": "Off",
-		"saving": "Saving…",
-		"verifying": "Verifying…"
+		"loading": "Chargement…",
+		"off": "Désactivé",
+		"saving": "Enregistrement…",
+		"verifying": "Vérification…"
 	},
 	"status": {
-		"saved": "Saved",
-		"sending": "Sending…"
+		"saved": "Enregistré",
+		"sending": "Envoi…"
 	},
 	"update": {
-		"available": "A new version is available.",
-		"refresh": "Refresh"
+		"available": "Une nouvelle version est disponible.",
+		"refresh": "Actualiser"
 	},
 	"userMenu": {
 		"admin": "Admin",
-		"libraries": "Libraries",
-		"profile": "Your profile",
-		"settings": "Settings",
-		"signOut": "Sign out",
-		"stats": "Stats"
+		"libraries": "Bibliothèques",
+		"profile": "Votre profil",
+		"settings": "Paramètres",
+		"signOut": "Se déconnecter",
+		"stats": "Statistiques"
 	}
 }
