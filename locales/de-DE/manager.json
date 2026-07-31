@@ -2,14 +2,14 @@
 	"album": {
 		"back": "Zurück zum Manager",
 		"coverage": "{owned} von {total} Titeln",
-		"disc": "Disc {n}",
+		"disc": "",
 		"downloadEdition": "Version herunterladen",
 		"editionCount": "{count, plural, one {# Edition} other {# Editionen}}",
 		"fetching": "Titelliste wird abgerufen…",
 		"loadFailed": "Die Titelliste dieses Albums konnte nicht geladen werden.",
 		"noTracks": "Für dieses Album ist noch keine Titelliste verfügbar.",
 		"owned": "In Ihrer Bibliothek",
-		"remaster": "Remaster"
+		"remaster": ""
 	},
 	"artist": {
 		"back": "Zurück zum Manager",
@@ -51,14 +51,14 @@
 		"title": "Entdecken",
 		"type": {
 			"Album": "Alben",
-			"Broadcast": "Sessions",
-			"EP": "EPs",
+			"Broadcast": "",
+			"EP": "",
 			"Other": "Andere",
-			"Single": "Singles"
+			"Single": ""
 		},
 		"version": {
-			"instrumental": "Instrumental",
-			"live": "Live"
+			"instrumental": "",
+			"live": ""
 		}
 	},
 	"download": {
@@ -92,7 +92,7 @@
 		"title": "Bibliotheken in der Abdeckung"
 	},
 	"loadFailed": "Die Abdeckung konnte nicht geladen werden.",
-	"nav": "Manager",
+	"nav": "",
 	"queue": {
 		"cancel": "Abbrechen",
 		"choose": "Quelle wählen",
@@ -117,7 +117,7 @@
 			"searching": "Suche läuft"
 		},
 		"subtitle": "Ihre Download-Aktivität.",
-		"title": "Downloads"
+		"title": ""
 	},
 	"settings": {
 		"created": "Profil gespeichert",
@@ -135,7 +135,7 @@
 		"librariesHint": "Aktivieren Sie Downloads, indem Sie Prowlarr + qBittorrent in der chordia-library.toml jeder Bibliothek konfigurieren.",
 		"makeDefault": "Als Standard festlegen",
 		"maxSize": "Maximale Größe (MB, optional)",
-		"name": "Name",
+		"name": "",
 		"newProfile": "Neues Profil",
 		"preferSeeders": "Mehr Seeder bevorzugen",
 		"profiles": "Qualitätsprofile",
@@ -149,7 +149,7 @@
 	"tabs": {
 		"coverage": "Abdeckung",
 		"discover": "Entdecken",
-		"downloads": "Downloads",
+		"downloads": "",
 		"follows": "Folge ich",
 		"settings": "Einstellungen"
 	},
