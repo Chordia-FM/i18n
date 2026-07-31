@@ -28,7 +28,7 @@
 	"profile": {
 		"eyebrow": "プロフィール",
 		"itemPlays": "{count, plural, other {#回再生}}",
-		"joinedDate": "{date, date, ::yMMMM}",
+		"joinedDate": "",
 		"joinedLabel": "{date}に参加",
 		"loadError": "このプロフィールを読み込めませんでした。",
 		"noActivity": "まだリスニングアクティビティはありません。",
@@ -41,7 +41,7 @@
 		"topArtists": "トップアーティスト",
 		"topTracks": "トップトラック",
 		"totalPlays": "{count, plural, other {#回再生}}",
-		"totalPlaysCount": "{count}"
+		"totalPlaysCount": ""
 	},
 	"report": {
 		"promptMessage": "@{handle}を報告します。問題の内容を教えてください。"
