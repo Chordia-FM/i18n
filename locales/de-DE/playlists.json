@@ -85,6 +85,8 @@
 			"is": "is"
 		},
 		"removeRule": "Remove rule",
+		"ruleField": "Rule field",
+		"ruleOperator": "Rule operator",
 		"saveError": "Couldn't save the smart playlist",
 		"sort": {
 			"plays": "Plays",
