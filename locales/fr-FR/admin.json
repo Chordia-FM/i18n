@@ -1,6 +1,6 @@
 {
 	"audit": {
-		"createdAt": "{date}",
+		"createdAt": "",
 		"empty": "Aucune action pour l'instant.",
 		"title": "Journal d'audit"
 	},
@@ -40,9 +40,9 @@
 		"imageUploadFailed": "L'import de l'image a échoué.",
 		"intro": "Modifiez le catalogue partagé que tout le monde voit : renommez un artiste, un album ou un morceau, remplacez ses illustrations ou réattribuez une sortie à un autre artiste. Ces modifications sont globales et permanentes (contrairement aux modifications par bibliothèque). Chaque modification est consignée dans le journal d'audit.",
 		"labelLoadError": "Impossible de charger le label.",
-		"labelSubtitle": "{count, plural, one {# album} other {# albums}}",
+		"labelSubtitle": "",
 		"loadError": "Impossible de charger les métadonnées actuelles.",
-		"logoAlt": "Logo",
+		"logoAlt": "",
 		"logoUploadFailed": "L'import du logo a échoué.",
 		"noAlbumCovers": "Aucune pochette trouvée — l'album a besoin d'une correspondance MusicBrainz.",
 		"noArtistArtwork": "Aucune illustration en ligne trouvée — nécessite une clé fanart.tv et une correspondance MusicBrainz.",
@@ -61,10 +61,10 @@
 	"noAccess": {
 		"backToApp": "Retour à l'application",
 		"body": "Vous n'avez pas accès à l'administration du site. {link}.",
-		"title": "Admin"
+		"title": ""
 	},
 	"reports": {
-		"createdAt": "{date}",
+		"createdAt": "",
 		"dismiss": "Rejeter",
 		"empty": "Aucun signalement ouvert.",
 		"resolve": "Résoudre",
@@ -79,8 +79,8 @@
 		"field": {
 			"banner": "Bannière",
 			"bio": "Biographie",
-			"genres": "Genres",
-			"image": "Image",
+			"genres": "",
+			"image": "",
 			"name": "Nom"
 		},
 		"none": "Aucun",
