@@ -3,9 +3,9 @@
 		"activity": {
 			"ariaLabel": "Höraktivität im Zeitverlauf"
 		},
-		"dayLabel": "{date, date, ::MMMd}",
-		"hourLabel": "{date, time, ::j}",
-		"monthLabel": "{date, date, ::yMMM}",
+		"dayLabel": "",
+		"hourLabel": "",
+		"monthLabel": "",
 		"noActivityPeriod": "Keine Aktivität in diesem Zeitraum",
 		"noActivityYet": "Noch keine Aktivität",
 		"peak": "Höchstwert: {count, plural, one {# Wiedergabe} other {# Wiedergaben}} · {date}",
@@ -31,12 +31,12 @@
 	"clockGrid": {
 		"ariaLabel": "Höraktivität nach Wochentag und Stunde in {timezone}",
 		"busiest": "Am aktivsten: {day} · {hour}",
-		"cellLabel": "{day} · {hour}"
+		"cellLabel": ""
 	},
 	"compatibility": {
 		"compare": "Vergleichen",
 		"handlePlaceholder": "Handle eines Freundes",
-		"percent": "{pct}%",
+		"percent": "",
 		"sharedArtists": "Künstler, die Sie beide lieben",
 		"title": "Geschmacks-Übereinstimmung",
 		"youAnd": "Sie & {name}"
@@ -51,7 +51,7 @@
 	},
 	"delta": {
 		"downAria": "{pct} weniger als im vorherigen Zeitraum",
-		"flat": "0%",
+		"flat": "",
 		"flatAria": "Unverändert gegenüber dem vorherigen Zeitraum",
 		"new": "Neu",
 		"newAria": "nichts im vorherigen Zeitraum zum Vergleich",
@@ -168,7 +168,7 @@
 				"artist": "von {total, plural, one {# Künstler} other {# Künstlern}}, die Sie gehört haben",
 				"track": "von {total, plural, one {# Titel} other {# Titeln}}, die Sie gehört haben"
 			},
-			"rankValue": "#{rank, number}"
+			"rankValue": ""
 		},
 		"title": "Hörstatistiken",
 		"top": {
@@ -201,7 +201,7 @@
 	},
 	"heatmap": {
 		"ariaLabel": "Tägliche Hör-Heatmap",
-		"dayLabel": "{date, date, ::EEEMMMd}",
+		"dayLabel": "",
 		"less": "Weniger",
 		"more": "Mehr",
 		"scaleAriaLabel": "Skala der Aktivitätsintensität, von weniger zu mehr",
@@ -300,7 +300,7 @@
 		"hoursAgo": "vor {hours} Std.",
 		"justNow": "gerade eben",
 		"minutesAgo": "vor {minutes} Min.",
-		"shortDate": "{date}",
+		"shortDate": "",
 		"today": "heute",
 		"yesterday": "gestern"
 	},
@@ -326,12 +326,12 @@
 		"listeningNow": "Hört gerade"
 	},
 	"stats": {
-		"dateLabel": "{date, date, ::yMMMd}",
+		"dateLabel": "",
 		"duration": "{days} T {hours} Std. / {hours} Std. {minutes} Min. / {minutes} Min.",
 		"firstPlayed": "Erstmals gehört",
 		"lastPlayed": "Zuletzt gehört",
 		"plays": "Wiedergaben",
-		"playsValue": "{count, number}",
+		"playsValue": "",
 		"rankBadge": "#{rank} der meistgehörten",
 		"rankOf": "#{rank, number} von {total, number}",
 		"seeAll": "Vollständige Statistiken ansehen",
@@ -342,12 +342,12 @@
 		"timeListened": "Hörzeit",
 		"title": "Ihre Statistiken",
 		"uniqueArtists": "Verschiedene Künstler",
-		"uniqueArtistsValue": "{count}",
+		"uniqueArtistsValue": "",
 		"uniqueTracks": "Verschiedene Titel",
-		"uniqueTracksValue": "{count}"
+		"uniqueTracksValue": ""
 	},
 	"tabs": {
-		"charts": "Charts",
+		"charts": "",
 		"discovery": "Entdeckungen",
 		"history": "Verlauf",
 		"overview": "Überblick",
@@ -370,7 +370,7 @@
 	"weekday": {
 		"fri": "Fr",
 		"mon": "Mo",
-		"playsValue": "{count, number}",
+		"playsValue": "",
 		"sat": "Sa",
 		"sun": "So",
 		"thu": "Do",
@@ -380,7 +380,7 @@
 	"wrapped": {
 		"downloaded": "Ihre Wrapped-Karte wurde gespeichert.",
 		"failed": "Die Karte konnte nicht erstellt werden. Bitte versuchen Sie es erneut.",
-		"heading": "Chordia Wrapped",
+		"heading": "",
 		"minutesListened": "Minuten gehört",
 		"periodTitle": {
 			"halfYear": "Ihre letzten 6 Monate in Musik",
