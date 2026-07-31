@@ -129,10 +129,10 @@
 	},
 	"visualizer": {
 		"autoCycle": "Auto-cycle styles",
-		"close": "Close visualizer",
+		"close": "Close visualiser",
 		"nextStyle": "Next style",
-		"nothingPlaying": "Play something to see the visualizer.",
-		"open": "Visualizer",
+		"nothingPlaying": "Play something to see the visualiser.",
+		"open": "Visualiser",
 		"previousStyle": "Previous style",
 		"style": {
 			"bars": "Spectrum bars",
@@ -142,6 +142,6 @@
 			"scope": "Oscilloscope",
 			"spectrogram": "Spectrogram"
 		},
-		"unavailable": "Visualizer unavailable on this source."
+		"unavailable": "Visualiser unavailable on this source."
 	}
 }
