@@ -9,7 +9,7 @@
 		"loadFailed": "Impossible de charger la liste des morceaux de cet album.",
 		"noTracks": "Aucune liste de morceaux disponible pour cet album.",
 		"owned": "Dans votre bibliothèque",
-		"remaster": "Remaster"
+		"remaster": ""
 	},
 	"artist": {
 		"back": "Retour au gestionnaire",
@@ -50,15 +50,15 @@
 		"subtitle": "Cherchez dans toute la musique les artistes et les albums que vous n'avez pas encore.",
 		"title": "Découvrir",
 		"type": {
-			"Album": "Albums",
-			"Broadcast": "Sessions",
+			"Album": "",
+			"Broadcast": "",
 			"EP": "EP",
 			"Other": "Autres",
-			"Single": "Singles"
+			"Single": ""
 		},
 		"version": {
-			"instrumental": "Instrumental",
-			"live": "Live"
+			"instrumental": "",
+			"live": ""
 		}
 	},
 	"download": {
