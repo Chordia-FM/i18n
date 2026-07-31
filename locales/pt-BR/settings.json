@@ -7,7 +7,7 @@
 		"handle": "Nome de usuário",
 		"handleHint": "Letras, dígitos, “_” e “-”. Precisa ser único.",
 		"handlePlaceholder": "seunome",
-		"newEmailPlaceholder": "new@example.com",
+		"newEmailPlaceholder": "",
 		"resendVerification": "Reenviar e-mail de verificação",
 		"saveProfile": "Salvar perfil",
 		"sendConfirmation": "Enviar confirmação",
@@ -32,7 +32,7 @@
 			"disconnect": "Desconectar",
 			"disconnected": "Last.fm desconectado",
 			"failed": "Não foi possível conectar o Last.fm",
-			"label": "Last.fm"
+			"label": ""
 		},
 		"title": "Conexões"
 	},
@@ -50,7 +50,7 @@
 	},
 	"downloads": {
 		"browserStorageName": "Este dispositivo (armazenamento do navegador)",
-		"bytes": "{bytes} B / {kb} KB / {mb} MB / {gb} GB",
+		"bytes": "",
 		"serverNote": "As bibliotecas de música em si são adicionadas e organizadas no seu servidor de biblioteca do Chordia, não aqui. Salvar downloads em uma pasta personalizada (com caminho e organização próprios) vai chegar no app para desktop.",
 		"thisDevice": {
 			"description": "As músicas baixadas ficam guardadas neste dispositivo e tocam sem conexão.",
@@ -58,7 +58,7 @@
 			"title": "Este dispositivo (armazenamento do navegador)",
 			"usage": "{count, plural, one {# música} other {# músicas}} · {size}."
 		},
-		"title": "Downloads",
+		"title": "",
 		"unsupportedDestination": "Downloads em \"{destination}\" precisam do app para desktop"
 	},
 	"eq": {
@@ -69,14 +69,14 @@
 			"classical": "Clássico",
 			"electronic": "Eletrônico",
 			"flat": "Plano",
-			"hipHop": "Hip-Hop",
-			"jazz": "Jazz",
-			"loudness": "Loudness",
-			"pop": "Pop",
-			"rock": "Rock",
+			"hipHop": "",
+			"jazz": "",
+			"loudness": "",
+			"pop": "",
+			"rock": "",
 			"trebleBoost": "Reforço de agudos",
 			"trebleReducer": "Redutor de agudos",
-			"vocal": "Vocal"
+			"vocal": ""
 		}
 	},
 	"equalizer": {
@@ -89,7 +89,7 @@
 		},
 		"crossfade": {
 			"desc": "Sobrepõe e mistura o fim de cada faixa com a próxima. Medido em segundos.",
-			"label": "Crossfade"
+			"label": ""
 		},
 		"normalize": {
 			"desc": "Equilibra o volume entre as faixas (ReplayGain).",
@@ -110,7 +110,7 @@
 			},
 			"normal": {
 				"desc": "~128 kbps — equilibrada.",
-				"label": "Normal"
+				"label": ""
 			},
 			"original": {
 				"desc": "Fonte bit-perfect. Consome mais banda.",
@@ -155,7 +155,7 @@
 		},
 		"normal": {
 			"desc": "~128 kbps — equilibrada.",
-			"label": "Normal"
+			"label": ""
 		},
 		"title": "Qualidade do streaming"
 	},
@@ -167,14 +167,14 @@
 			"label": "Fuso horário",
 			"noMatches": "Nenhum fuso horário corresponde à sua busca",
 			"search": "Buscar fusos horários…",
-			"zoneWithOffset": "{zone} ({offset})"
+			"zoneWithOffset": ""
 		},
 		"title": "Região"
 	},
 	"sessions": {
 		"body": "Onde você está conectado. Revogue qualquer dispositivo que você não reconheça.",
 		"lastActive": "Última atividade em {date}",
-		"lastActiveDate": "{date}",
+		"lastActiveDate": "",
 		"signOutEverywhere": "Sair de todos os dispositivos",
 		"signOutEverywhereConfirm": "Sair de todos os dispositivos? Você vai precisar entrar de novo.",
 		"thisDevice": "Este dispositivo",
