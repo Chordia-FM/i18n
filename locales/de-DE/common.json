@@ -1,165 +1,165 @@
 {
 	"a11y": {
-		"dismissNotification": "Dismiss notification",
-		"playTrack": "Play {title}"
+		"dismissNotification": "Benachrichtigung schließen",
+		"playTrack": "{title} abspielen"
 	},
 	"actions": {
-		"cancel": "Cancel",
-		"changeImage": "Change image",
-		"clearAll": "Clear all",
-		"close": "Close",
-		"confirm": "Confirm",
-		"copyLink": "Copy link",
-		"delete": "Delete",
-		"done": "Done",
-		"download": "Download",
-		"edit": "Edit",
-		"find": "Find",
-		"goHome": "Go home",
-		"linkCopied": "Link copied",
-		"more": "More",
-		"moveDown": "Move down",
-		"moveUp": "Move up",
+		"cancel": "Abbrechen",
+		"changeImage": "Bild ändern",
+		"clearAll": "Alle löschen",
+		"close": "Schließen",
+		"confirm": "Bestätigen",
+		"copyLink": "Link kopieren",
+		"delete": "Löschen",
+		"done": "Fertig",
+		"download": "Herunterladen",
+		"edit": "Bearbeiten",
+		"find": "Finden",
+		"goHome": "Zur Startseite",
+		"linkCopied": "Link kopiert",
+		"more": "Mehr",
+		"moveDown": "Nach unten",
+		"moveUp": "Nach oben",
 		"ok": "OK",
-		"open": "Open",
-		"pin": "Pin",
-		"play": "Play",
-		"remove": "Remove",
-		"rename": "Rename",
-		"reset": "Reset",
-		"save": "Save",
-		"search": "Search",
-		"seeAll": "See all",
-		"seeMore": "See more",
-		"share": "Share",
-		"showLess": "Show less",
-		"showMore": "Show more",
-		"signOut": "Sign out",
-		"tryAgain": "Try again",
-		"undo": "Undo",
-		"unpin": "Unpin",
-		"verify": "Verify",
-		"view": "View"
+		"open": "Öffnen",
+		"pin": "Anheften",
+		"play": "Abspielen",
+		"remove": "Entfernen",
+		"rename": "Umbenennen",
+		"reset": "Zurücksetzen",
+		"save": "Speichern",
+		"search": "Suchen",
+		"seeAll": "Alle anzeigen",
+		"seeMore": "Mehr ansehen",
+		"share": "Teilen",
+		"showLess": "Weniger anzeigen",
+		"showMore": "Mehr anzeigen",
+		"signOut": "Abmelden",
+		"tryAgain": "Erneut versuchen",
+		"undo": "Rückgängig",
+		"unpin": "Nicht mehr anheften",
+		"verify": "Verifizieren",
+		"view": "Ansehen"
 	},
 	"appName": "Chordia",
 	"commandPalette": {
 		"hint": {
-			"go": "Go",
-			"open": "Open",
-			"play": "Play"
+			"go": "Wechseln",
+			"open": "Öffnen",
+			"play": "Abspielen"
 		},
-		"noMatches": "No matches.",
-		"placeholder": "Search music or jump to a page…",
-		"searchFor": "Search for “{query}”",
+		"noMatches": "Keine Treffer.",
+		"placeholder": "Musik suchen oder zu einer Seite springen…",
+		"searchFor": "Nach „{query}“ suchen",
 		"section": {
 			"navigation": "Navigation"
 		},
-		"title": "Command palette",
-		"typeToSearch": "Type to search."
+		"title": "Befehlspalette",
+		"typeToSearch": "Tippen, um zu suchen."
 	},
 	"error": {
-		"failedToLoad": "Failed to load"
+		"failedToLoad": "Laden fehlgeschlagen"
 	},
 	"errors": {
-		"saveFailed": "Save failed."
+		"saveFailed": "Speichern fehlgeschlagen."
 	},
 	"fields": {
-		"artist": "Artist",
-		"country": "Country",
-		"description": "Description",
+		"artist": "Künstler",
+		"country": "Land",
+		"description": "Beschreibung",
 		"label": "Label",
 		"name": "Name",
-		"title": "Title",
-		"type": "Type",
-		"year": "Year"
+		"title": "Titel",
+		"type": "Typ",
+		"year": "Jahr"
 	},
 	"fileBrowser": {
-		"browse": "Browse",
-		"goUp": "Go up",
-		"useThisFolder": "Use this folder"
+		"browse": "Durchsuchen",
+		"goUp": "Nach oben",
+		"useThisFolder": "Diesen Ordner verwenden"
 	},
 	"image": {
-		"adjust": "Adjust",
-		"adjustTitle": "Adjust image",
-		"flipHorizontal": "Flip horizontal",
-		"flipVertical": "Flip vertical",
-		"hint": "Drag to reposition · zoom in to reframe",
-		"reset": "Reset",
-		"rotateLeft": "Rotate left",
-		"rotateRight": "Rotate right",
+		"adjust": "Anpassen",
+		"adjustTitle": "Bild anpassen",
+		"flipHorizontal": "Horizontal spiegeln",
+		"flipVertical": "Vertikal spiegeln",
+		"hint": "Ziehen zum Verschieben · zoomen für einen neuen Ausschnitt",
+		"reset": "Zurücksetzen",
+		"rotateLeft": "Nach links drehen",
+		"rotateRight": "Nach rechts drehen",
 		"zoom": "Zoom"
 	},
 	"keybinds": {
-		"closeDialog": "Close dialog",
-		"commandPalette": "Command palette",
-		"help": "Keyboard shortcuts",
-		"quickSearch": "Quick search",
+		"closeDialog": "Dialog schließen",
+		"commandPalette": "Befehlspalette",
+		"help": "Tastenkürzel",
+		"quickSearch": "Schnellsuche",
 		"section": {
-			"general": "General",
+			"general": "Allgemein",
 			"navigation": "Navigation",
 			"player": "Player"
 		},
-		"then": "then",
-		"title": "Keyboard shortcuts",
-		"toggleRightSidebar": "Toggle right sidebar"
+		"then": "dann",
+		"title": "Tastenkürzel",
+		"toggleRightSidebar": "Rechte Seitenleiste ein-/ausblenden"
 	},
 	"language": {
-		"description": "Language used across the interface.",
-		"label": "Language"
+		"description": "Sprache der gesamten Benutzeroberfläche.",
+		"label": "Sprache"
 	},
 	"nav": {
-		"allLibraries": "All libraries",
-		"back": "Back",
-		"closeMenu": "Close menu",
-		"forward": "Forward",
-		"friends": "Friends",
-		"home": "Home",
-		"insights": "Listening",
-		"library": "Library",
-		"listen": "Listen",
-		"menu": "Menu",
-		"more": "More",
-		"openMenu": "Open menu",
-		"search": "Search",
-		"settings": "Settings",
-		"signIn": "Sign in"
+		"allLibraries": "Alle Bibliotheken",
+		"back": "Zurück",
+		"closeMenu": "Menü schließen",
+		"forward": "Vorwärts",
+		"friends": "Freunde",
+		"home": "Start",
+		"insights": "Hören",
+		"library": "Bibliothek",
+		"listen": "Hören",
+		"menu": "Menü",
+		"more": "Mehr",
+		"openMenu": "Menü öffnen",
+		"search": "Suche",
+		"settings": "Einstellungen",
+		"signIn": "Anmelden"
 	},
 	"notFound": {
-		"body": "This page doesn't exist.",
-		"goHome": "Go home",
-		"title": "Page not found"
+		"body": "Diese Seite existiert nicht.",
+		"goHome": "Zur Startseite",
+		"title": "Seite nicht gefunden"
 	},
-	"or": "or",
+	"or": "oder",
 	"sidebar": {
-		"collapse": "Collapse sidebar",
-		"expand": "Expand sidebar",
-		"resize": "Resize sidebar"
+		"collapse": "Seitenleiste einklappen",
+		"expand": "Seitenleiste ausklappen",
+		"resize": "Breite der Seitenleiste ändern"
 	},
 	"state": {
-		"loading": "Loading…",
-		"off": "Off",
-		"on": "On"
+		"loading": "Wird geladen…",
+		"off": "Aus",
+		"on": "An"
 	},
 	"states": {
-		"loading": "Loading…",
-		"off": "Off",
-		"saving": "Saving…",
-		"verifying": "Verifying…"
+		"loading": "Wird geladen…",
+		"off": "Aus",
+		"saving": "Wird gespeichert…",
+		"verifying": "Wird überprüft…"
 	},
 	"status": {
-		"saved": "Saved",
-		"sending": "Sending…"
+		"saved": "Gespeichert",
+		"sending": "Wird gesendet…"
 	},
 	"update": {
-		"available": "A new version is available.",
-		"refresh": "Refresh"
+		"available": "Eine neue Version ist verfügbar.",
+		"refresh": "Aktualisieren"
 	},
 	"userMenu": {
 		"admin": "Admin",
-		"libraries": "Libraries",
-		"profile": "Your profile",
-		"settings": "Settings",
-		"signOut": "Sign out",
-		"stats": "Stats"
+		"libraries": "Bibliotheken",
+		"profile": "Ihr Profil",
+		"settings": "Einstellungen",
+		"signOut": "Abmelden",
+		"stats": "Statistiken"
 	}
 }
