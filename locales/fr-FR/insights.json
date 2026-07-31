@@ -31,12 +31,12 @@
 	"clockGrid": {
 		"ariaLabel": "Activité d'écoute par jour de la semaine et par heure, dans {timezone}",
 		"busiest": "Plus chargé : {day} · {hour}",
-		"cellLabel": "{day} · {hour}"
+		"cellLabel": ""
 	},
 	"compatibility": {
 		"compare": "Comparer",
 		"handlePlaceholder": "identifiant d'un ami",
-		"percent": "{pct}%",
+		"percent": "",
 		"sharedArtists": "Artistes que vous aimez tous les deux",
 		"title": "Compatibilité musicale",
 		"youAnd": "Vous et {name}"
@@ -51,7 +51,7 @@
 	},
 	"delta": {
 		"downAria": "En baisse de {pct} par rapport à la période précédente",
-		"flat": "0%",
+		"flat": "",
 		"flatAria": "Inchangé par rapport à la période précédente",
 		"new": "Nouveau",
 		"newAria": "rien à comparer sur la période précédente",
@@ -63,7 +63,7 @@
 			"title": "Rien à découvrir pour l'instant"
 		},
 		"kinds": {
-			"album": "Albums",
+			"album": "",
 			"artist": "Artistes",
 			"track": "Morceaux"
 		},
@@ -112,7 +112,7 @@
 		"daysHours": "{days}j {hours}h",
 		"hoursMinutes": "{hours}h {minutes}min",
 		"minutes": "{minutes}min",
-		"seconds": "{seconds}s"
+		"seconds": ""
 	},
 	"empty": {
 		"history": {
@@ -225,7 +225,7 @@
 		"genreFlow": "Genres au fil du temps",
 		"listeningClock": "Horloge d'écoute",
 		"musicRatio": "Répartition musicale",
-		"topGenres": "Top genres"
+		"topGenres": ""
 	},
 	"period": {
 		"day": "24 heures",
@@ -300,7 +300,7 @@
 		"hoursAgo": "il y a {hours}h",
 		"justNow": "à l'instant",
 		"minutesAgo": "il y a {minutes}min",
-		"shortDate": "{date}",
+		"shortDate": "",
 		"today": "aujourd'hui",
 		"yesterday": "hier"
 	},
@@ -331,7 +331,7 @@
 		"firstPlayed": "Première écoute",
 		"lastPlayed": "Dernière écoute",
 		"plays": "Écoutes",
-		"playsValue": "{count, number}",
+		"playsValue": "",
 		"rankBadge": "n°{rank} le plus écouté",
 		"rankOf": "n°{rank, number} sur {total, number}",
 		"seeAll": "Voir toutes les statistiques",
@@ -342,17 +342,17 @@
 		"timeListened": "Temps d'écoute",
 		"title": "Vos statistiques",
 		"uniqueArtists": "Artistes uniques",
-		"uniqueArtistsValue": "{count}",
+		"uniqueArtistsValue": "",
 		"uniqueTracks": "Morceaux uniques",
-		"uniqueTracksValue": "{count}"
+		"uniqueTracksValue": ""
 	},
 	"tabs": {
 		"charts": "Classements",
 		"discovery": "Découverte",
 		"history": "Historique",
 		"overview": "Vue d'ensemble",
-		"records": "Records",
-		"social": "Social"
+		"records": "",
+		"social": ""
 	},
 	"title": "Écoutes",
 	"top": {
@@ -363,14 +363,14 @@
 		"tracks": "Top morceaux"
 	},
 	"topCard": {
-		"album": "Top album",
+		"album": "",
 		"artist": "Top artiste",
 		"track": "Top morceau"
 	},
 	"weekday": {
 		"fri": "ven.",
 		"mon": "lun.",
-		"playsValue": "{count, number}",
+		"playsValue": "",
 		"sat": "sam.",
 		"sun": "dim.",
 		"thu": "jeu.",
@@ -380,7 +380,7 @@
 	"wrapped": {
 		"downloaded": "Carte Wrapped enregistrée.",
 		"failed": "Impossible de créer la carte. Veuillez réessayer.",
-		"heading": "Chordia Wrapped",
+		"heading": "",
 		"minutesListened": "minutes écoutées",
 		"periodTitle": {
 			"halfYear": "Vos 6 derniers mois en musique",
@@ -396,7 +396,7 @@
 		"sharing": "Partage…",
 		"statLine": "{artists, number} artistes · {tracks, number} morceaux",
 		"topArtists": "Top artistes",
-		"topGenre": "Top genre",
+		"topGenre": "",
 		"topTracks": "Top morceaux"
 	}
 }
