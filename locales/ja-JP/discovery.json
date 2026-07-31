@@ -1,39 +1,39 @@
 {
 	"dailyMix": {
-		"label": "Daily Mix"
+		"label": "デイリーミックス"
 	},
 	"greeting": {
-		"afternoon": "Good afternoon",
-		"evening": "Good evening",
-		"morning": "Good morning"
+		"afternoon": "こんにちは",
+		"evening": "こんばんは",
+		"morning": "おはようございます"
 	},
 	"home": {
-		"emptyState": "Nothing here yet - pair a library server and your catalog will appear."
+		"emptyState": "まだ何もありません。ライブラリサーバーをペアリングすると、カタログが表示されます。"
 	},
 	"jumpBackIn": {
-		"emptyState": "Things you've played recently will show up here.",
-		"title": "Jump back in"
+		"emptyState": "最近再生したものがここに表示されます。",
+		"title": "続きから聴く"
 	},
 	"madeForYou": {
-		"emptyState": "Listen to more music and your daily mixes will appear here.",
-		"title": "Made for you"
+		"emptyState": "もっと音楽を聴くと、デイリーミックスがここに表示されます。",
+		"title": "あなたのために"
 	},
 	"mix": {
-		"noTracksToast": "This mix has no playable tracks yet",
-		"playTitle": "Play {title}",
-		"playingToast": "Playing {title}"
+		"noTracksToast": "このミックスには再生できるトラックがまだありません",
+		"playTitle": "{title}を再生",
+		"playingToast": "{title}を再生中"
 	},
 	"radio": {
-		"label": "Radio",
-		"pin": "Pin radio"
+		"label": "ラジオ",
+		"pin": "ラジオをピン留め"
 	},
 	"shelf": {
-		"jumpBackIn": "Jump back in",
-		"madeFor": "Made for {name}",
-		"madeForYou": "you",
-		"recommended": "Recommended for you",
-		"trendingAlbums": "Trending albums",
-		"trendingArtists": "Trending artists",
-		"yourLibraries": "Your libraries"
+		"jumpBackIn": "続きから聴く",
+		"madeFor": "{name}のために",
+		"madeForYou": "あなた",
+		"recommended": "あなたへのおすすめ",
+		"trendingAlbums": "話題のアルバム",
+		"trendingArtists": "話題のアーティスト",
+		"yourLibraries": "あなたのライブラリ"
 	}
 }
