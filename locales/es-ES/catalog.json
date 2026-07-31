@@ -4,7 +4,7 @@
 	},
 	"album": {
 		"card": {
-			"artistYearJoin": "{artist} · {year}"
+			"artistYearJoin": ""
 		},
 		"count": "{count, plural, one {# álbum} other {# álbumes}}",
 		"disc": "Disco {n}",
@@ -20,12 +20,12 @@
 			"savedPartial": "Se descargaron {saved}; {failed} con error"
 		},
 		"durationHrMin": "{count, plural, one {# h} other {# h}} {minutes} min",
-		"durationMin": "{minutes} min",
-		"genresJoin": "{genres}",
+		"durationMin": "",
+		"genresJoin": "",
 		"goToRadio": "Ir a la radio del artista",
-		"releaseDate": "{date, date, long}",
+		"releaseDate": "",
 		"songCount": "{count, plural, one {# canción} other {# canciones}}",
-		"typesJoin": "{types}"
+		"typesJoin": ""
 	},
 	"artist": {
 		"albums": "Álbumes",
@@ -35,10 +35,10 @@
 			"albumCount": "{count, plural, one {# álbum} other {# álbumes}}"
 		},
 		"discography": "Discografía",
-		"factsJoin": "{facts}",
+		"factsJoin": "",
 		"formed": "Se formó en {year}",
-		"genresJoin": "{genres}",
-		"labelMetaJoin": "{span} · {releases}",
+		"genresJoin": "",
+		"labelMetaJoin": "",
 		"labels": "Sellos",
 		"links": {
 			"open": "Enlaces del artista",
@@ -50,9 +50,9 @@
 			"subtitle": "{count, plural, one {De # álbum} other {De # álbumes}}",
 			"title": "{name} — En vivo"
 		},
-		"namesJoin": "{artists}",
-		"popular": "Popular",
-		"radio": "Radio",
+		"namesJoin": "",
+		"popular": "",
+		"radio": "",
 		"relatedArtists": "Artistas relacionados",
 		"relation": {
 			"alias": "También conocido como",
@@ -61,13 +61,13 @@
 		},
 		"releaseCount": "{count, plural, one {# lanzamiento} other {# lanzamientos}}",
 		"versions": {
-			"instrumental": "Instrumental",
+			"instrumental": "",
 			"live": "En vivo"
 		}
 	},
-	"artistNamesJoin": "{names}",
+	"artistNamesJoin": "",
 	"edit": {
-		"artOptionAlt": "{kind}",
+		"artOptionAlt": "",
 		"artworkAlt": "imagen",
 		"bannerSet": "Banner listo ✓",
 		"browseAlbumCovers": "Explorar portadas de álbum",
@@ -127,11 +127,11 @@
 		"albumCountWithPrefix": "Sello · {count, plural, one {# álbum} other {# álbumes}}",
 		"eyebrow": "Sello",
 		"factsSeparator": "tipo · país · periodo de actividad",
-		"formerNames": "{name1}, {name2}",
+		"formerNames": "",
 		"formerly": "Antes {names}",
 		"lifespan": {
 			"founded": "Fundado en {year}",
-			"range": "{from} – {to}",
+			"range": "",
 			"until": "Hasta {year}"
 		},
 		"noAlbums": "No hay álbumes."
@@ -210,10 +210,10 @@
 		},
 		"explicit": "Explícito",
 		"playAria": "Reproducir {title} de {artist}",
-		"playsNumber": "{n, number}",
+		"playsNumber": "",
 		"relTime": {
 			"daysAgo": "{count, plural, one {hace # día} other {hace # días}}",
-			"fullDate": "{date, date, medium}",
+			"fullDate": "",
 			"today": "Hoy",
 			"yesterday": "Ayer"
 		}
