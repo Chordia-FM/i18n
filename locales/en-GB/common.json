@@ -9,12 +9,14 @@
 		"clearAll": "Clear all",
 		"close": "Close",
 		"confirm": "Confirm",
+		"copyLink": "Copy link",
 		"delete": "Delete",
 		"done": "Done",
 		"download": "Download",
 		"edit": "Edit",
 		"find": "Find",
 		"goHome": "Go home",
+		"linkCopied": "Link copied",
 		"more": "More",
 		"moveDown": "Move down",
 		"moveUp": "Move up",
@@ -36,7 +38,8 @@
 		"tryAgain": "Try again",
 		"undo": "Undo",
 		"unpin": "Unpin",
-		"verify": "Verify"
+		"verify": "Verify",
+		"view": "View"
 	},
 	"appName": "Chordia",
 	"commandPalette": {
@@ -47,6 +50,10 @@
 		},
 		"noMatches": "No matches.",
 		"placeholder": "Search music or jump to a page…",
+		"searchFor": "Search for “{query}”",
+		"section": {
+			"navigation": "Navigation"
+		},
 		"title": "Command palette",
 		"typeToSearch": "Type to search."
 	},
@@ -71,6 +78,17 @@
 		"goUp": "Go up",
 		"useThisFolder": "Use this folder"
 	},
+	"image": {
+		"adjust": "Adjust",
+		"adjustTitle": "Adjust image",
+		"flipHorizontal": "Flip horizontal",
+		"flipVertical": "Flip vertical",
+		"hint": "Drag to reposition · zoom in to reframe",
+		"reset": "Reset",
+		"rotateLeft": "Rotate left",
+		"rotateRight": "Rotate right",
+		"zoom": "Zoom"
+	},
 	"keybinds": {
 		"closeDialog": "Close dialog",
 		"commandPalette": "Command palette",
@@ -81,6 +99,8 @@
 			"navigation": "Navigation",
 			"player": "Player"
 		},
+		"then": "then",
+		"title": "Keyboard shortcuts",
 		"toggleRightSidebar": "Toggle right sidebar"
 	},
 	"language": {
@@ -89,7 +109,9 @@
 	},
 	"nav": {
 		"allLibraries": "All libraries",
+		"back": "Back",
 		"closeMenu": "Close menu",
+		"forward": "Forward",
 		"friends": "Friends",
 		"home": "Home",
 		"insights": "Listening",
@@ -112,17 +134,6 @@
 		"collapse": "Collapse sidebar",
 		"expand": "Expand sidebar",
 		"resize": "Resize sidebar"
-	},
-	"image": {
-		"adjust": "Adjust",
-		"adjustTitle": "Adjust image",
-		"rotateLeft": "Rotate left",
-		"rotateRight": "Rotate right",
-		"flipHorizontal": "Flip horizontal",
-		"flipVertical": "Flip vertical",
-		"hint": "Drag to reposition · zoom in to reframe",
-		"reset": "Reset",
-		"zoom": "Zoom"
 	},
 	"state": {
 		"loading": "Loading…",
