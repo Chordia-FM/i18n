@@ -1,108 +1,108 @@
 {
 	"account": {
-		"emailChangeFailed": "Could not start email change."
+		"emailChangeFailed": "Die E-Mail-Änderung konnte nicht gestartet werden."
 	},
 	"admin": {
-		"deleteSelf": "Use account settings to delete your own account.",
-		"invalidReportAction": "Action must be “resolved” or “dismissed”."
+		"deleteSelf": "Verwenden Sie die Kontoeinstellungen, um Ihr eigenes Konto zu löschen.",
+		"invalidReportAction": "Die Aktion muss „resolved“ oder „dismissed“ sein."
 	},
 	"auth": {
-		"badCredentials": "Incorrect email or password.",
-		"displayNameLength": "Display name must be 1–64 characters.",
-		"emailInUse": "That email is already in use.",
-		"emailInvalid": "A valid email address is required.",
-		"handleChars": "Username may contain only letters, digits, “_” and “-”, and must start with a letter or digit.",
-		"handleLength": "Username must be 2–32 characters.",
-		"passwordLength": "Password must be {min}–{max} characters.",
-		"passwordRange": "Password must be 8–1024 characters.",
-		"twoFactorAlreadyEnabled": "Two-factor authentication is already enabled — disable it first.",
-		"twoFactorNotEnabled": "Two-factor authentication is not enabled.",
-		"twoFactorStartFirst": "Start two-factor setup first."
+		"badCredentials": "Falsche E-Mail-Adresse oder falsches Passwort.",
+		"displayNameLength": "Der Anzeigename muss 1–64 Zeichen lang sein.",
+		"emailInUse": "Diese E-Mail-Adresse wird bereits verwendet.",
+		"emailInvalid": "Eine gültige E-Mail-Adresse ist erforderlich.",
+		"handleChars": "Der Benutzername darf nur Buchstaben, Ziffern, „_“ und „-“ enthalten und muss mit einem Buchstaben oder einer Ziffer beginnen.",
+		"handleLength": "Der Benutzername muss 2–32 Zeichen lang sein.",
+		"passwordLength": "Das Passwort muss {min}–{max} Zeichen lang sein.",
+		"passwordRange": "Das Passwort muss 8–1024 Zeichen lang sein.",
+		"twoFactorAlreadyEnabled": "Die Zwei-Faktor-Authentifizierung ist bereits aktiviert – deaktivieren Sie sie zuerst.",
+		"twoFactorNotEnabled": "Die Zwei-Faktor-Authentifizierung ist nicht aktiviert.",
+		"twoFactorStartFirst": "Starten Sie zunächst die Zwei-Faktor-Einrichtung."
 	},
 	"catalog": {
-		"albumLoadFailed": "Failed to load",
-		"artistLoadFailed": "Failed to load",
-		"artistNameTaken": "Another artist already has that name.",
-		"labelLoadFailed": "Couldn't load this label",
-		"unknownArtist": "Unknown artist.",
-		"unknownImageHash": "Unknown image."
+		"albumLoadFailed": "Laden fehlgeschlagen",
+		"artistLoadFailed": "Laden fehlgeschlagen",
+		"artistNameTaken": "Ein anderer Künstler trägt bereits diesen Namen.",
+		"labelLoadFailed": "Dieses Label konnte nicht geladen werden",
+		"unknownArtist": "Unbekannter Künstler.",
+		"unknownImageHash": "Unbekanntes Bild."
 	},
-	"changeFailed": "Couldn't save that change — please try again.",
+	"changeFailed": "Diese Änderung konnte nicht gespeichert werden – bitte versuchen Sie es erneut.",
 	"directory": {
-		"serverOffline": "That server is offline."
+		"serverOffline": "Dieser Server ist offline."
 	},
 	"discovery": {
-		"dailyMixFailed": "Couldn't build this mix",
-		"radioFailed": "Couldn't build this radio"
+		"dailyMixFailed": "Dieser Mix konnte nicht erstellt werden",
+		"radioFailed": "Dieses Radio konnte nicht erstellt werden"
 	},
-	"failedToLoad": "Failed to load",
+	"failedToLoad": "Laden fehlgeschlagen",
 	"friends": {
-		"cannotFriendSelf": "You can't send a friend request to yourself."
+		"cannotFriendSelf": "Sie können sich selbst keine Freundschaftsanfrage senden."
 	},
-	"generic": "Failed",
+	"generic": "Fehlgeschlagen",
 	"image": {
-		"empty": "The image is empty.",
-		"fetchFailed": "Couldn't fetch that image.",
-		"hashMismatch": "Image content didn't match the expected hash.",
-		"invalidUrl": "Invalid image URL.",
-		"tooLarge": "Image is too large (max 8 MiB)."
+		"empty": "Das Bild ist leer.",
+		"fetchFailed": "Das Bild konnte nicht abgerufen werden.",
+		"hashMismatch": "Der Bildinhalt stimmt nicht mit dem erwarteten Hash überein.",
+		"invalidUrl": "Ungültige Bild-URL.",
+		"tooLarge": "Das Bild ist zu groß (maximal 8 MiB)."
 	},
 	"insights": {
-		"compareSelf": "You can't compare with yourself.",
-		"compatibilityNotFound": "No user with that handle.",
-		"compatibilityPrivate": "That user's listening activity is private.",
-		"invalidTimezone": "Unknown time zone “{timezone}”.",
-		"loadFriendActivityFailed": "Failed to load friend activity",
-		"loadHistoryFailed": "Failed to load history",
-		"loadStatsFailed": "Failed to load stats",
-		"milestoneRange": "Pick a play number of 1 or more.",
-		"pagingPair": "before_ms and before_id must be provided together."
+		"compareSelf": "Sie können sich nicht mit sich selbst vergleichen.",
+		"compatibilityNotFound": "Kein Benutzer mit diesem Handle.",
+		"compatibilityPrivate": "Die Höraktivität dieses Benutzers ist privat.",
+		"invalidTimezone": "Unbekannte Zeitzone „{timezone}“.",
+		"loadFriendActivityFailed": "Die Freundesaktivität konnte nicht geladen werden",
+		"loadHistoryFailed": "Der Verlauf konnte nicht geladen werden",
+		"loadStatsFailed": "Die Statistiken konnten nicht geladen werden",
+		"milestoneRange": "Wählen Sie eine Wiedergabezahl von 1 oder mehr.",
+		"pagingPair": "before_ms und before_id müssen zusammen angegeben werden."
 	},
 	"label": {
-		"nameTaken": "Another label already has that name."
+		"nameTaken": "Ein anderes Label trägt bereits diesen Namen."
 	},
 	"library": {
-		"limitReached": "Library limit reached for this account."
+		"limitReached": "Das Bibliothekslimit für dieses Konto ist erreicht."
 	},
 	"lyrics": {
-		"noLines": "There are no lyric lines to save."
+		"noLines": "Es sind keine Textzeilen zum Speichern vorhanden."
 	},
 	"moderation": {
-		"blockSelf": "You can't block yourself.",
-		"reasonRequired": "A reason (≤200 characters) is required."
+		"blockSelf": "Sie können sich nicht selbst blockieren.",
+		"reasonRequired": "Ein Grund (≤200 Zeichen) ist erforderlich."
 	},
-	"noFields": "No fields to update.",
+	"noFields": "Keine Felder zum Aktualisieren.",
 	"oauth": {
-		"missingCode": "Missing authorization code."
+		"missingCode": "Fehlender Autorisierungscode."
 	},
 	"pins": {
-		"unknownKind": "Unknown pin kind."
+		"unknownKind": "Unbekannter Pin-Typ."
 	},
 	"playlist": {
-		"limitReached": "Playlist limit reached for this account."
+		"limitReached": "Das Playlist-Limit für dieses Konto ist erreicht."
 	},
 	"route": {
-		"message": "An unexpected error interrupted this page. You can try again or head back home.",
-		"title": "Something went wrong"
+		"message": "Ein unerwarteter Fehler hat diese Seite unterbrochen. Sie können es erneut versuchen oder zur Startseite zurückkehren.",
+		"title": "Etwas ist schiefgelaufen"
 	},
-	"saveFailed": "Failed to save",
+	"saveFailed": "Speichern fehlgeschlagen",
 	"share": {
-		"withSelf": "You can't share with yourself."
+		"withSelf": "Sie können nicht mit sich selbst teilen."
 	},
 	"twoFactor": {
-		"invalidCode": "Invalid code.",
-		"setupFailed": "Could not start 2FA setup."
+		"invalidCode": "Ungültiger Code.",
+		"setupFailed": "Die 2FA-Einrichtung konnte nicht gestartet werden."
 	},
 	"user": {
-		"handleGenFailed": "Couldn't generate a unique handle for this Discord account.",
-		"handleOrEmailTaken": "That handle or email is already taken.",
-		"handleTaken": "That handle is already taken.",
-		"invalidAvatarUrl": "Avatar URL must be an https:// address.",
-		"notFound": "No user with that handle."
+		"handleGenFailed": "Für dieses Discord-Konto konnte kein eindeutiges Handle erzeugt werden.",
+		"handleOrEmailTaken": "Dieses Handle oder diese E-Mail-Adresse ist bereits vergeben.",
+		"handleTaken": "Dieses Handle ist bereits vergeben.",
+		"invalidAvatarUrl": "Die Avatar-URL muss eine https://-Adresse sein.",
+		"notFound": "Kein Benutzer mit diesem Handle."
 	},
 	"validation": {
-		"nameOrIconRequired": "A name or icon is required.",
-		"nameRequired": "Name is required."
+		"nameOrIconRequired": "Ein Name oder ein Symbol ist erforderlich.",
+		"nameRequired": "Name ist erforderlich."
 	},
-	"valueEmpty": "Value cannot be empty."
+	"valueEmpty": "Der Wert darf nicht leer sein."
 }
