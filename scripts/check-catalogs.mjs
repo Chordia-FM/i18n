@@ -336,6 +336,18 @@ if (import.meta.url === pathToFileURL(process.argv[1]).href) {
 					errors++;
 					continue;
 				}
+				// An empty value is worse than a missing key, and looks like the opposite. i18next
+				// finds it, treats it as a translation, and renders nothing — so the string is blank
+				// on screen instead of falling back to English. Crowdin emits these for untranslated
+				// entries whenever "Skip untranslated strings" is off, and a pull once brought back
+				// 1,920 of them at a stroke. Omit the key instead; that is what makes fallback work.
+				if (!value.trim()) {
+					problems.push(
+						`${locale}/${ns}: ${key} is empty — omit the key so it falls back to ${SOURCE}`,
+					);
+					errors++;
+					continue;
+				}
 				// The real ICU parser, not our reading of it. The hand-rolled helpers above answer
 				// narrower questions (which arguments, which categories) and have been wrong more
 				// than once; this is the authority on whether the string is a valid message at all,
