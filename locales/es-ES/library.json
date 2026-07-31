@@ -115,7 +115,7 @@
 		"noFolderChosen": "No se eligió ninguna carpeta",
 		"noServer": "No se encontró ningún servidor emparejado en este dispositivo. Inicia primero tu servidor de biblioteca y abre el enlace de configuración que imprime para emparejarlo.",
 		"noSubFolders": "Aquí no hay subcarpetas",
-		"serverLabel": "{names} · {host}",
+		"serverLabel": "",
 		"serverSelectHint": "La nueva biblioteca se creará en el servidor seleccionado.",
 		"serverSelectLabel": "Servidor de biblioteca",
 		"submit": "Añadir biblioteca",
@@ -200,7 +200,7 @@
 		"statsLine": "{requests} solicitadas · {downloads} descargadas · {plays} reproducciones · {time} escuchado",
 		"lastPlayed": "última reproducción {date}",
 		"updateFailed": "No se pudo actualizar el uso compartido. Inténtalo de nuevo.",
-		"timeDaysHours": "{days}d {hours}h",
+		"timeDaysHours": "",
 		"timeHoursMinutes": "{hours}h {minutes}min",
 		"timeMinutes": "{minutes}min"
 	}
