@@ -1,31 +1,31 @@
 {
 	"collabInvite": {
-		"body": "{inviter} added you as a collaborator on the playlist “{playlist}”.",
-		"cta": "Open the playlist",
-		"hint": "You can now add and remove tracks.",
-		"subject": "You were added to a Chordia playlist"
+		"body": "{inviter} hat Sie als Mitwirkenden zur Playlist „{playlist}“ hinzugefügt.",
+		"cta": "Playlist öffnen",
+		"hint": "Sie können jetzt Titel hinzufügen und entfernen.",
+		"subject": "Sie wurden zu einer Chordia-Playlist hinzugefügt"
 	},
 	"footer": {
-		"manage": "You can turn these emails off in Chordia Settings → Notifications."
+		"manage": "Sie können diese E-Mails in den Chordia-Einstellungen → Benachrichtigungen deaktivieren."
 	},
 	"friendRequest": {
-		"body": "{name} wants to connect with you on Chordia.",
-		"cta": "View profile",
-		"heading": "New friend request",
-		"subject": "{name} sent you a friend request"
+		"body": "{name} möchte sich auf Chordia mit Ihnen vernetzen.",
+		"cta": "Profil ansehen",
+		"heading": "Neue Freundschaftsanfrage",
+		"subject": "{name} hat Ihnen eine Freundschaftsanfrage gesendet"
 	},
 	"passwordReset": {
-		"body": "Someone requested a password reset for your Chordia account.",
-		"cta": "Reset your password",
-		"expiry": "This link expires in 1 hour.",
-		"ignore": "If you didn't request this, you can safely ignore this email.",
-		"subject": "Reset your Chordia password"
+		"body": "Jemand hat für Ihr Chordia-Konto ein Zurücksetzen des Passworts angefordert.",
+		"cta": "Passwort zurücksetzen",
+		"expiry": "Dieser Link läuft in 1 Stunde ab.",
+		"ignore": "Wenn Sie dies nicht angefordert haben, können Sie diese E-Mail einfach ignorieren.",
+		"subject": "Chordia-Passwort zurücksetzen"
 	},
 	"verifyEmail": {
-		"body": "Please confirm your email address to finish setting up your account.",
-		"cta": "Verify your email",
-		"expiry": "This link expires in 24 hours.",
-		"heading": "Welcome to Chordia",
-		"subject": "Verify your Chordia email"
+		"body": "Bitte bestätigen Sie Ihre E-Mail-Adresse, um die Einrichtung Ihres Kontos abzuschließen.",
+		"cta": "E-Mail-Adresse bestätigen",
+		"expiry": "Dieser Link läuft in 24 Stunden ab.",
+		"heading": "Willkommen bei Chordia",
+		"subject": "Bestätigen Sie Ihre Chordia-E-Mail-Adresse"
 	}
 }
