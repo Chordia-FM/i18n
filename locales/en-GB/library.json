@@ -1,6 +1,6 @@
 {
 	"artists": {
-		"empty": "No artists yet - the catalog may still be syncing.",
+		"empty": "No artists yet - the catalogue may still be syncing.",
 		"title": "Artists"
 	},
 	"card": {
@@ -33,14 +33,14 @@
 			"confirmLabel": "Continue",
 			"messageDedupe": "This moves files on disk into the new layout and deletes lower-quality duplicates. Continue?",
 			"messagePlain": "This moves files on disk into the new layout. Your audio isn't altered, only relocated. Continue?",
-			"title": "Organize files"
+			"title": "Organise files"
 		},
-		"organizeDisabled": "Organize disabled",
-		"organizeFailed": "Failed to update organize",
+		"organizeDisabled": "Organise disabled",
+		"organizeFailed": "Failed to update organise",
 		"organizeHelp": "Lay this library's audio files out on disk from a template. Folders are created as needed and scanned automatically.",
-		"organizeStatus": "Organizing files…",
-		"organizeTitle": "Organize files",
-		"organizeToggle": "Organize this library's files",
+		"organizeStatus": "Organising files…",
+		"organizeTitle": "Organise files",
+		"organizeToggle": "Organise this library's files",
 		"pairedDeviceFolders": "To edit folders, open this page on the device where you paired this server.",
 		"pairedDeviceOrganize": "To change this, open this page on the device where you paired this server.",
 		"removeHelp": "Removes it from Chordia. Your audio files are not touched.",
@@ -99,7 +99,7 @@
 		"title": "Your Libraries"
 	},
 	"metadata": {
-		"intro": "Edit metadata for this library only. Your changes apply across your views; anything you leave blank keeps the original value. Global catalog edits live in the admin page.",
+		"intro": "Edit metadata for this library only. Your changes apply across your views; anything you leave blank keeps the original value. Global catalogue edits live in the admin page.",
 		"noMatches": "No matches.",
 		"searchPlaceholder": "Search artists, albums, or tracks…",
 		"title": "Metadata"
