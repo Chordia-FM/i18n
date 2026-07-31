@@ -26,7 +26,14 @@ const ROOT = new URL("../locales", import.meta.url).pathname.replace(
 	"$1",
 );
 const SOURCE = "en";
-const CLI = join("node_modules", ".bin", "crowdin");
+// Resolve the platform's binary directly rather than going through a shell. `spawnSync` with
+// `shell: true` concatenates arguments instead of escaping them, which Node now warns about
+// (DEP0190) — and there is no reason to invoke a shell just to find an executable.
+const CLI = join(
+	"node_modules",
+	".bin",
+	process.platform === "win32" ? "crowdin.exe" : "crowdin",
+);
 
 /** Remove empty-string leaves, and any object left empty by that. Returns the count removed. */
 function prune(node) {
@@ -61,7 +68,7 @@ const args = [
 	...process.argv.slice(2),
 ];
 console.log(`> crowdin ${args.join(" ")}`);
-const run = spawnSync(CLI, args, { stdio: "inherit", shell: true });
+const run = spawnSync(CLI, args, { stdio: "inherit" });
 if (run.status !== 0) {
 	console.error("\ncrowdin download failed; leaving the working tree alone.");
 	process.exit(run.status ?? 1);
