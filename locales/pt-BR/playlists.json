@@ -32,7 +32,7 @@
 		"title": "Excluir playlist"
 	},
 	"empty": "Esta playlist está vazia. Adicione músicas pelo menu “⋯” de qualquer faixa.",
-	"kindLabel": "Playlist",
+	"kindLabel": "",
 	"leave": {
 		"confirmBody": "Sair desta playlist colaborativa?",
 		"confirmLabel": "Sair",
