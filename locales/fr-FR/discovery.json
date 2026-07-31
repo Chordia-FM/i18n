@@ -24,7 +24,7 @@
 		"playingToast": "Lecture de {title}"
 	},
 	"radio": {
-		"label": "Radio",
+		"label": "",
 		"pin": "Épingler la radio"
 	},
 	"shelf": {
