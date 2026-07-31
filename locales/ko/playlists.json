@@ -85,6 +85,8 @@
 			"is": "일치"
 		},
 		"removeRule": "규칙 제거",
+		"ruleField": "규칙 항목",
+		"ruleOperator": "규칙 연산자",
 		"saveError": "스마트 플레이리스트를 저장하지 못했습니다",
 		"sort": {
 			"plays": "재생 횟수",

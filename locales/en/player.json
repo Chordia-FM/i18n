@@ -64,10 +64,10 @@
 	"expanded": {
 		"collapse": "Collapse player",
 		"expand": "Open full player",
-		"nowPlaying": "Now playing",
 		"lyrics": "Lyrics",
-		"queue": "Queue",
 		"more": "More options",
+		"nowPlaying": "Now playing",
+		"queue": "Queue",
 		"tabs": "Player view"
 	},
 	"fullscreen": {
@@ -96,9 +96,9 @@
 		"dataPerHourGb": "~{value} GB/hour",
 		"dataPerHourMb": "~{value} MB/hour",
 		"khz": "{value} kHz",
-		"loudness": "Loudness",
 		"lossless": "Lossless",
 		"lossy": "Lossy",
+		"loudness": "Loudness",
 		"originalSourceFile": "Original source file",
 		"source": "Source",
 		"spatial": " · Spatial",
@@ -109,8 +109,7 @@
 	},
 	"queue": {
 		"add": "Add to queue",
-		"addedAlbum_one": "Added 1 track to the queue",
-		"addedAlbum_other": "Added {{count}} tracks to the queue",
+		"addedAlbum": "{count, plural, one {Added # track to the queue} other {Added # tracks to the queue}}",
 		"empty": "Queue is empty.",
 		"nextUp": "Next up",
 		"nothingPlayed": "Nothing played yet.",

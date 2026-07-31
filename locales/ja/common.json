@@ -71,6 +71,17 @@
 		"goUp": "上の階層へ",
 		"useThisFolder": "このフォルダを使用"
 	},
+	"image": {
+		"adjust": "調整",
+		"adjustTitle": "画像を調整",
+		"flipHorizontal": "左右反転",
+		"flipVertical": "上下反転",
+		"hint": "ドラッグで位置調整 · ズームで切り抜き",
+		"reset": "リセット",
+		"rotateLeft": "左に回転",
+		"rotateRight": "右に回転",
+		"zoom": "ズーム"
+	},
 	"keybinds": {
 		"closeDialog": "ダイアログを閉じる",
 		"commandPalette": "コマンドパレット",
@@ -89,10 +100,15 @@
 	},
 	"nav": {
 		"allLibraries": "すべてのライブラリ",
+		"closeMenu": "メニューを閉じる",
 		"friends": "フレンド",
 		"home": "ホーム",
+		"insights": "リスニング",
 		"library": "ライブラリ",
 		"listen": "リスニング",
+		"menu": "メニュー",
+		"more": "その他",
+		"openMenu": "メニューを開く",
 		"search": "検索",
 		"settings": "設定",
 		"signIn": "ログイン"
@@ -107,17 +123,6 @@
 		"collapse": "サイドバーを折りたたむ",
 		"expand": "サイドバーを展開",
 		"resize": "サイドバーのサイズ変更"
-	},
-	"image": {
-		"adjust": "調整",
-		"adjustTitle": "画像を調整",
-		"rotateLeft": "左に回転",
-		"rotateRight": "右に回転",
-		"flipHorizontal": "左右反転",
-		"flipVertical": "上下反転",
-		"hint": "ドラッグで位置調整 · ズームで切り抜き",
-		"reset": "リセット",
-		"zoom": "ズーム"
 	},
 	"state": {
 		"loading": "読み込み中…",

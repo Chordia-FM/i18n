@@ -85,6 +85,8 @@
 			"is": "é"
 		},
 		"removeRule": "Remover regra",
+		"ruleField": "Campo da regra",
+		"ruleOperator": "Operador da regra",
 		"saveError": "Não foi possível salvar a playlist inteligente",
 		"sort": {
 			"plays": "Reproduções",

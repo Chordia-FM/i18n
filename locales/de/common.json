@@ -71,6 +71,17 @@
 		"goUp": "Nach oben",
 		"useThisFolder": "Diesen Ordner verwenden"
 	},
+	"image": {
+		"adjust": "Anpassen",
+		"adjustTitle": "Bild anpassen",
+		"flipHorizontal": "Horizontal spiegeln",
+		"flipVertical": "Vertikal spiegeln",
+		"hint": "Ziehen zum Verschieben · zoomen für einen neuen Ausschnitt",
+		"reset": "Zurücksetzen",
+		"rotateLeft": "Nach links drehen",
+		"rotateRight": "Nach rechts drehen",
+		"zoom": "Zoom"
+	},
 	"keybinds": {
 		"closeDialog": "Dialog schließen",
 		"commandPalette": "Befehlspalette",
@@ -89,10 +100,15 @@
 	},
 	"nav": {
 		"allLibraries": "Alle Bibliotheken",
+		"closeMenu": "Menü schließen",
 		"friends": "Freunde",
 		"home": "Start",
+		"insights": "Hören",
 		"library": "Bibliothek",
 		"listen": "Hören",
+		"menu": "Menü",
+		"more": "Mehr",
+		"openMenu": "Menü öffnen",
 		"search": "Suche",
 		"settings": "Einstellungen",
 		"signIn": "Anmelden"
@@ -107,17 +123,6 @@
 		"collapse": "Seitenleiste einklappen",
 		"expand": "Seitenleiste ausklappen",
 		"resize": "Breite der Seitenleiste ändern"
-	},
-	"image": {
-		"adjust": "Anpassen",
-		"adjustTitle": "Bild anpassen",
-		"rotateLeft": "Nach links drehen",
-		"rotateRight": "Nach rechts drehen",
-		"flipHorizontal": "Horizontal spiegeln",
-		"flipVertical": "Vertikal spiegeln",
-		"hint": "Ziehen zum Verschieben · zoomen für einen neuen Ausschnitt",
-		"reset": "Zurücksetzen",
-		"zoom": "Zoom"
 	},
 	"state": {
 		"loading": "Wird geladen…",

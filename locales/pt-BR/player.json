@@ -61,6 +61,15 @@
 		"title": "Equalizador",
 		"yourPresetsGroup": "Suas predefinições"
 	},
+	"expanded": {
+		"collapse": "Recolher player",
+		"expand": "Abrir player completo",
+		"lyrics": "Letra",
+		"more": "Mais opções",
+		"nowPlaying": "Tocando agora",
+		"queue": "Fila",
+		"tabs": "Visualização do player"
+	},
 	"fullscreen": {
 		"enter": "Tela cheia",
 		"exit": "Sair da tela cheia"
@@ -73,17 +82,34 @@
 		"title": "Letra"
 	},
 	"monthlyListeners": "{count, plural, one {# ouvinte mensal} other {# ouvintes mensais}}",
+	"notPlaying": "Sem reprodução",
+	"nothingPlaying": "Nada tocando ainda.",
 	"nowPlaying": {
 		"aboutArtist": "Sobre {name}",
 		"albumFallback": "Álbum",
 		"playingFrom": "Tocando de",
 		"title": "Tocando agora"
 	},
-	"notPlaying": "Sem reprodução",
-	"nothingPlaying": "Nada tocando ainda.",
 	"plays": "{count, plural, one {# reprodução} other {# reproduções}}",
+	"quality": {
+		"change": "Alterar",
+		"dataPerHourGb": "~{value} GB/hora",
+		"dataPerHourMb": "~{value} MB/hora",
+		"khz": "{value} kHz",
+		"lossless": "Sem perdas",
+		"lossy": "Com perdas",
+		"loudness": "Loudness",
+		"originalSourceFile": "Arquivo de origem original",
+		"source": "Origem",
+		"spatial": " · Espacial",
+		"streaming": "Streaming",
+		"streamingRate": "~{kbps} kbps · {data}",
+		"title": "Qualidade do arquivo",
+		"upTo": "Até {value}"
+	},
 	"queue": {
 		"add": "Adicionar à fila",
+		"addedAlbum": "{count, plural, one {# faixa adicionada à fila} other {# faixas adicionadas à fila}}",
 		"empty": "A fila está vazia.",
 		"nextUp": "A seguir",
 		"nothingPlayed": "Nada foi tocado ainda.",
@@ -93,22 +119,6 @@
 		"repeatOne": "A repetição de uma faixa está ativada — esta música vai continuar tocando.",
 		"thenRepeating": "Depois repetindo",
 		"title": "Fila"
-	},
-	"quality": {
-		"change": "Alterar",
-		"dataPerHourGb": "~{value} GB/hora",
-		"dataPerHourMb": "~{value} MB/hora",
-		"khz": "{value} kHz",
-		"loudness": "Loudness",
-		"lossless": "Sem perdas",
-		"lossy": "Com perdas",
-		"originalSourceFile": "Arquivo de origem original",
-		"source": "Origem",
-		"spatial": " · Espacial",
-		"streaming": "Streaming",
-		"streamingRate": "~{kbps} kbps · {data}",
-		"title": "Qualidade do arquivo",
-		"upTo": "Até {value}"
 	},
 	"sleepTimer": {
 		"endOfTrack": "Fim da faixa",

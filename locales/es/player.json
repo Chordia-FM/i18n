@@ -61,6 +61,15 @@
 		"title": "Ecualizador",
 		"yourPresetsGroup": "Tus preajustes"
 	},
+	"expanded": {
+		"collapse": "Contraer reproductor",
+		"expand": "Abrir reproductor completo",
+		"lyrics": "Letra",
+		"more": "Más opciones",
+		"nowPlaying": "Reproduciendo ahora",
+		"queue": "Cola",
+		"tabs": "Vista del reproductor"
+	},
 	"fullscreen": {
 		"enter": "Pantalla completa",
 		"exit": "Salir de pantalla completa"
@@ -73,17 +82,34 @@
 		"title": "Letra"
 	},
 	"monthlyListeners": "{count, plural, one {# oyente mensual} other {# oyentes mensuales}}",
+	"notPlaying": "Sin reproducción",
+	"nothingPlaying": "Aún no se ha reproducido nada.",
 	"nowPlaying": {
 		"aboutArtist": "Sobre {name}",
 		"albumFallback": "Álbum",
 		"playingFrom": "Reproduciendo desde",
 		"title": "Reproduciendo ahora"
 	},
-	"notPlaying": "Sin reproducción",
-	"nothingPlaying": "Aún no se ha reproducido nada.",
 	"plays": "{count, plural, one {# reproducción} other {# reproducciones}}",
+	"quality": {
+		"change": "Cambiar",
+		"dataPerHourGb": "~{value} GB/hora",
+		"dataPerHourMb": "~{value} MB/hora",
+		"khz": "{value} kHz",
+		"lossless": "Sin pérdida",
+		"lossy": "Con pérdida",
+		"loudness": "Sonoridad",
+		"originalSourceFile": "Archivo fuente original",
+		"source": "Fuente",
+		"spatial": " · Espacial",
+		"streaming": "Streaming",
+		"streamingRate": "~{kbps} kbps · {data}",
+		"title": "Calidad del archivo",
+		"upTo": "Hasta {value}"
+	},
 	"queue": {
 		"add": "Añadir a la cola",
+		"addedAlbum": "{count, plural, one {Se añadió # pista a la cola} other {Se añadieron # pistas a la cola}}",
 		"empty": "La cola está vacía.",
 		"nextUp": "A continuación",
 		"nothingPlayed": "Aún no se ha reproducido nada.",
@@ -93,22 +119,6 @@
 		"repeatOne": "Repetir una está activado: esta canción se repetirá una y otra vez.",
 		"thenRepeating": "Luego se repite",
 		"title": "Cola"
-	},
-	"quality": {
-		"change": "Cambiar",
-		"dataPerHourGb": "~{value} GB/hora",
-		"dataPerHourMb": "~{value} MB/hora",
-		"khz": "{value} kHz",
-		"loudness": "Sonoridad",
-		"lossless": "Sin pérdida",
-		"lossy": "Con pérdida",
-		"originalSourceFile": "Archivo fuente original",
-		"source": "Fuente",
-		"spatial": " · Espacial",
-		"streaming": "Streaming",
-		"streamingRate": "~{kbps} kbps · {data}",
-		"title": "Calidad del archivo",
-		"upTo": "Hasta {value}"
 	},
 	"sleepTimer": {
 		"endOfTrack": "Fin de la pista",

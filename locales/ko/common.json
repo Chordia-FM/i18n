@@ -71,6 +71,17 @@
 		"goUp": "상위 폴더",
 		"useThisFolder": "이 폴더 사용"
 	},
+	"image": {
+		"adjust": "조정",
+		"adjustTitle": "이미지 조정",
+		"flipHorizontal": "좌우 반전",
+		"flipVertical": "상하 반전",
+		"hint": "드래그해 위치 조정 · 확대해 구도 변경",
+		"reset": "초기화",
+		"rotateLeft": "왼쪽으로 회전",
+		"rotateRight": "오른쪽으로 회전",
+		"zoom": "확대/축소"
+	},
 	"keybinds": {
 		"closeDialog": "대화 상자 닫기",
 		"commandPalette": "명령 팔레트",
@@ -89,10 +100,15 @@
 	},
 	"nav": {
 		"allLibraries": "모든 라이브러리",
+		"closeMenu": "메뉴 닫기",
 		"friends": "친구",
 		"home": "홈",
+		"insights": "감상",
 		"library": "라이브러리",
 		"listen": "감상",
+		"menu": "메뉴",
+		"more": "더보기",
+		"openMenu": "메뉴 열기",
 		"search": "검색",
 		"settings": "설정",
 		"signIn": "로그인"
@@ -107,17 +123,6 @@
 		"collapse": "사이드바 접기",
 		"expand": "사이드바 펼치기",
 		"resize": "사이드바 크기 조절"
-	},
-	"image": {
-		"adjust": "조정",
-		"adjustTitle": "이미지 조정",
-		"rotateLeft": "왼쪽으로 회전",
-		"rotateRight": "오른쪽으로 회전",
-		"flipHorizontal": "좌우 반전",
-		"flipVertical": "상하 반전",
-		"hint": "드래그해 위치 조정 · 확대해 구도 변경",
-		"reset": "초기화",
-		"zoom": "확대/축소"
 	},
 	"state": {
 		"loading": "불러오는 중…",

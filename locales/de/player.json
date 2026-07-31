@@ -61,6 +61,15 @@
 		"title": "Equalizer",
 		"yourPresetsGroup": "Ihre Voreinstellungen"
 	},
+	"expanded": {
+		"collapse": "Player einklappen",
+		"expand": "Player öffnen",
+		"lyrics": "Liedtext",
+		"more": "Weitere Optionen",
+		"nowPlaying": "Läuft gerade",
+		"queue": "Warteschlange",
+		"tabs": "Player-Ansicht"
+	},
 	"fullscreen": {
 		"enter": "Vollbild",
 		"exit": "Vollbild beenden"
@@ -73,17 +82,34 @@
 		"title": "Liedtext"
 	},
 	"monthlyListeners": "{count, plural, one {# monatlicher Hörer} other {# monatliche Hörer}}",
+	"notPlaying": "Keine Wiedergabe",
+	"nothingPlaying": "Es wird noch nichts abgespielt.",
 	"nowPlaying": {
 		"aboutArtist": "Über {name}",
 		"albumFallback": "Album",
 		"playingFrom": "Wiedergabe von",
 		"title": "Läuft gerade"
 	},
-	"notPlaying": "Keine Wiedergabe",
-	"nothingPlaying": "Es wird noch nichts abgespielt.",
 	"plays": "{count, plural, one {# Wiedergabe} other {# Wiedergaben}}",
+	"quality": {
+		"change": "Ändern",
+		"dataPerHourGb": "~{value} GB/Stunde",
+		"dataPerHourMb": "~{value} MB/Stunde",
+		"khz": "{value} kHz",
+		"lossless": "Verlustfrei",
+		"lossy": "Verlustbehaftet",
+		"loudness": "Lautheit",
+		"originalSourceFile": "Original-Quelldatei",
+		"source": "Quelle",
+		"spatial": " · Räumlich",
+		"streaming": "Streaming",
+		"streamingRate": "~{kbps} kbit/s · {data}",
+		"title": "Dateiqualität",
+		"upTo": "Bis zu {value}"
+	},
 	"queue": {
 		"add": "Zur Warteschlange hinzufügen",
+		"addedAlbum": "{count, plural, one {# Titel zur Warteschlange hinzugefügt} other {# Titel zur Warteschlange hinzugefügt}}",
 		"empty": "Die Warteschlange ist leer.",
 		"nextUp": "Als Nächstes",
 		"nothingPlayed": "Es wurde noch nichts gespielt.",
@@ -93,22 +119,6 @@
 		"repeatOne": "„Eins wiederholen“ ist aktiviert – dieser Song wird immer wieder abgespielt.",
 		"thenRepeating": "Danach Wiederholung",
 		"title": "Warteschlange"
-	},
-	"quality": {
-		"change": "Ändern",
-		"dataPerHourGb": "~{value} GB/Stunde",
-		"dataPerHourMb": "~{value} MB/Stunde",
-		"khz": "{value} kHz",
-		"loudness": "Lautheit",
-		"lossless": "Verlustfrei",
-		"lossy": "Verlustbehaftet",
-		"originalSourceFile": "Original-Quelldatei",
-		"source": "Quelle",
-		"spatial": " · Räumlich",
-		"streaming": "Streaming",
-		"streamingRate": "~{kbps} kbit/s · {data}",
-		"title": "Dateiqualität",
-		"upTo": "Bis zu {value}"
 	},
 	"sleepTimer": {
 		"endOfTrack": "Ende des Titels",

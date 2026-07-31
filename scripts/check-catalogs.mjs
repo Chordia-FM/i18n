@@ -221,6 +221,38 @@ if (import.meta.url === pathToFileURL(process.argv[1]).href) {
 	const problems = [];
 	const summary = [];
 
+	// The source catalog gets validated too. It used to be exempt on the reasoning that a reviewer
+	// can read English — but the failure this catches is not a wording problem, it is a *format*
+	// problem, and those are invisible in review. A real one shipped: `player:queue.addedAlbum` was
+	// written in i18next's `_one`/`_other` suffix style, which this project's i18next-icu setup does
+	// not resolve at all, so `t()` returned the raw key and users saw the literal string
+	// "queue.addedAlbum" in a toast. Every translated catalog was checked; the one that was wrong
+	// was the one nobody checked.
+	for (const ns of namespaces) {
+		for (const [key, value] of Object.entries(source[ns])) {
+			if (typeof value !== "string") {
+				problems.push(`${SOURCE}/${ns}: ${key} is ${typeof value}, expected string`);
+				errors++;
+				continue;
+			}
+			if (/_(zero|one|two|few|many|other)$/.test(key)) {
+				problems.push(
+					`${SOURCE}/${ns}: ${key} uses i18next plural-suffix keys, which i18next-icu does ` +
+						`not resolve — use one key with an ICU plural: ` +
+						`"{count, plural, one {…} other {…}}"`,
+				);
+				errors++;
+				continue;
+			}
+			try {
+				parseIcu(value);
+			} catch (e) {
+				problems.push(`${SOURCE}/${ns}: ${key} is not valid ICU — ${e.message}`);
+				errors++;
+			}
+		}
+	}
+
 	for (const locale of locales.filter((l) => l !== SOURCE)) {
 		const base = locale.split("-")[0];
 		const allowed = PLURAL_CATEGORIES[base];

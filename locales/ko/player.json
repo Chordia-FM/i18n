@@ -61,6 +61,15 @@
 		"title": "이퀄라이저",
 		"yourPresetsGroup": "내 프리셋"
 	},
+	"expanded": {
+		"collapse": "플레이어 접기",
+		"expand": "전체 플레이어 열기",
+		"lyrics": "가사",
+		"more": "기타 옵션",
+		"nowPlaying": "지금 재생 중",
+		"queue": "대기열",
+		"tabs": "플레이어 보기"
+	},
 	"fullscreen": {
 		"enter": "전체 화면",
 		"exit": "전체 화면 종료"
@@ -73,17 +82,34 @@
 		"title": "가사"
 	},
 	"monthlyListeners": "{count, plural, other {월간 청취자 #명}}",
+	"notPlaying": "재생 중 아님",
+	"nothingPlaying": "아직 재생 중인 항목이 없습니다.",
 	"nowPlaying": {
 		"aboutArtist": "{name} 정보",
 		"albumFallback": "앨범",
 		"playingFrom": "재생 위치",
 		"title": "지금 재생 중"
 	},
-	"notPlaying": "재생 중 아님",
-	"nothingPlaying": "아직 재생 중인 항목이 없습니다.",
 	"plays": "{count, plural, other {#회 재생}}",
+	"quality": {
+		"change": "변경",
+		"dataPerHourGb": "시간당 약 {value} GB",
+		"dataPerHourMb": "시간당 약 {value} MB",
+		"khz": "{value} kHz",
+		"lossless": "무손실",
+		"lossy": "손실 압축",
+		"loudness": "음량",
+		"originalSourceFile": "원본 소스 파일",
+		"source": "소스",
+		"spatial": " · 공간 음향",
+		"streaming": "스트리밍",
+		"streamingRate": "~{kbps} kbps · {data}",
+		"title": "파일 품질",
+		"upTo": "최대 {value}"
+	},
 	"queue": {
 		"add": "대기열에 추가",
+		"addedAlbum": "{count, plural, other {#곡을 대기열에 추가했습니다}}",
 		"empty": "대기열이 비어 있습니다.",
 		"nextUp": "다음 곡",
 		"nothingPlayed": "아직 재생한 항목이 없습니다.",
@@ -93,22 +119,6 @@
 		"repeatOne": "한 곡 반복이 켜져 있습니다 - 이 곡이 계속 재생됩니다.",
 		"thenRepeating": "이후 반복",
 		"title": "대기열"
-	},
-	"quality": {
-		"change": "변경",
-		"dataPerHourGb": "시간당 약 {value} GB",
-		"dataPerHourMb": "시간당 약 {value} MB",
-		"khz": "{value} kHz",
-		"loudness": "음량",
-		"lossless": "무손실",
-		"lossy": "손실 압축",
-		"originalSourceFile": "원본 소스 파일",
-		"source": "소스",
-		"spatial": " · 공간 음향",
-		"streaming": "스트리밍",
-		"streamingRate": "~{kbps} kbps · {data}",
-		"title": "파일 품질",
-		"upTo": "최대 {value}"
 	},
 	"sleepTimer": {
 		"endOfTrack": "트랙 끝",

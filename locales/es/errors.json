@@ -97,6 +97,7 @@
 		"handleGenFailed": "No se pudo generar un nombre de usuario único para esta cuenta de Discord.",
 		"handleOrEmailTaken": "Ese nombre de usuario o correo ya está en uso.",
 		"handleTaken": "Ese nombre de usuario ya está en uso.",
+		"invalidAvatarUrl": "La URL del avatar debe ser una dirección https://.",
 		"notFound": "No hay ningún usuario con ese nombre."
 	},
 	"validation": {

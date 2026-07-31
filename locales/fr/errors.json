@@ -97,6 +97,7 @@
 		"handleGenFailed": "Impossible de générer un identifiant unique pour ce compte Discord.",
 		"handleOrEmailTaken": "Cet identifiant ou cet e-mail est déjà pris.",
 		"handleTaken": "Cet identifiant est déjà pris.",
+		"invalidAvatarUrl": "L'URL de l'avatar doit être une adresse https://.",
 		"notFound": "Aucun utilisateur avec cet identifiant."
 	},
 	"validation": {

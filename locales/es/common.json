@@ -71,6 +71,17 @@
 		"goUp": "Subir un nivel",
 		"useThisFolder": "Usar esta carpeta"
 	},
+	"image": {
+		"adjust": "Ajustar",
+		"adjustTitle": "Ajustar imagen",
+		"flipHorizontal": "Voltear horizontalmente",
+		"flipVertical": "Voltear verticalmente",
+		"hint": "Arrastra para recolocar · amplía para reencuadrar",
+		"reset": "Restablecer",
+		"rotateLeft": "Girar a la izquierda",
+		"rotateRight": "Girar a la derecha",
+		"zoom": "Zoom"
+	},
 	"keybinds": {
 		"closeDialog": "Cerrar diálogo",
 		"commandPalette": "Paleta de comandos",
@@ -89,10 +100,15 @@
 	},
 	"nav": {
 		"allLibraries": "Todas las bibliotecas",
+		"closeMenu": "Cerrar menú",
 		"friends": "Amigos",
 		"home": "Inicio",
+		"insights": "Escuchas",
 		"library": "Biblioteca",
 		"listen": "Escuchar",
+		"menu": "Menú",
+		"more": "Más",
+		"openMenu": "Abrir menú",
 		"search": "Buscar",
 		"settings": "Ajustes",
 		"signIn": "Iniciar sesión"
@@ -107,17 +123,6 @@
 		"collapse": "Contraer barra lateral",
 		"expand": "Expandir barra lateral",
 		"resize": "Redimensionar barra lateral"
-	},
-	"image": {
-		"adjust": "Ajustar",
-		"adjustTitle": "Ajustar imagen",
-		"rotateLeft": "Girar a la izquierda",
-		"rotateRight": "Girar a la derecha",
-		"flipHorizontal": "Voltear horizontalmente",
-		"flipVertical": "Voltear verticalmente",
-		"hint": "Arrastra para recolocar · amplía para reencuadrar",
-		"reset": "Restablecer",
-		"zoom": "Zoom"
 	},
 	"state": {
 		"loading": "Cargando…",

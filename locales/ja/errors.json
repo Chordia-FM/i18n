@@ -97,6 +97,7 @@
 		"handleGenFailed": "このDiscordアカウント用の一意のハンドルを生成できませんでした。",
 		"handleOrEmailTaken": "そのハンドルまたはメールアドレスは既に使用されています。",
 		"handleTaken": "そのハンドルは既に使用されています。",
+		"invalidAvatarUrl": "アバターの URL は https:// のアドレスである必要があります。",
 		"notFound": "そのハンドルのユーザーは存在しません。"
 	},
 	"validation": {

@@ -97,6 +97,7 @@
 		"handleGenFailed": "Não foi possível gerar um nome de usuário exclusivo para esta conta do Discord.",
 		"handleOrEmailTaken": "Esse nome de usuário ou e-mail já está em uso.",
 		"handleTaken": "Esse nome de usuário já está em uso.",
+		"invalidAvatarUrl": "A URL do avatar deve ser um endereço https://.",
 		"notFound": "Nenhum usuário com esse nome."
 	},
 	"validation": {

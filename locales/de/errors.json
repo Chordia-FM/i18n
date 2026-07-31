@@ -97,6 +97,7 @@
 		"handleGenFailed": "Für dieses Discord-Konto konnte kein eindeutiges Handle erzeugt werden.",
 		"handleOrEmailTaken": "Dieses Handle oder diese E-Mail-Adresse ist bereits vergeben.",
 		"handleTaken": "Dieses Handle ist bereits vergeben.",
+		"invalidAvatarUrl": "Die Avatar-URL muss eine https://-Adresse sein.",
 		"notFound": "Kein Benutzer mit diesem Handle."
 	},
 	"validation": {

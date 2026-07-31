@@ -85,6 +85,8 @@
 			"is": "ist"
 		},
 		"removeRule": "Regel entfernen",
+		"ruleField": "Regelfeld",
+		"ruleOperator": "Regeloperator",
 		"saveError": "Die intelligente Playlist konnte nicht gespeichert werden",
 		"sort": {
 			"plays": "Wiedergaben",

@@ -61,6 +61,15 @@
 		"title": "イコライザー",
 		"yourPresetsGroup": "マイプリセット"
 	},
+	"expanded": {
+		"collapse": "プレーヤーを閉じる",
+		"expand": "フルプレーヤーを開く",
+		"lyrics": "歌詞",
+		"more": "その他のオプション",
+		"nowPlaying": "再生中",
+		"queue": "キュー",
+		"tabs": "プレーヤー表示"
+	},
 	"fullscreen": {
 		"enter": "全画面表示",
 		"exit": "全画面表示を終了"
@@ -73,17 +82,34 @@
 		"title": "歌詞"
 	},
 	"monthlyListeners": "{count, plural, other {月間リスナー#人}}",
+	"notPlaying": "停止中",
+	"nothingPlaying": "まだ何も再生していません。",
 	"nowPlaying": {
 		"aboutArtist": "{name}について",
 		"albumFallback": "アルバム",
 		"playingFrom": "再生元",
 		"title": "再生中"
 	},
-	"notPlaying": "停止中",
-	"nothingPlaying": "まだ何も再生していません。",
 	"plays": "{count, plural, other {#回再生}}",
+	"quality": {
+		"change": "変更",
+		"dataPerHourGb": "約{value} GB/時",
+		"dataPerHourMb": "約{value} MB/時",
+		"khz": "{value} kHz",
+		"lossless": "ロスレス",
+		"lossy": "非可逆",
+		"loudness": "ラウドネス",
+		"originalSourceFile": "オリジナルのソースファイル",
+		"source": "ソース",
+		"spatial": " · 空間オーディオ",
+		"streaming": "ストリーミング",
+		"streamingRate": "約{kbps} kbps · {data}",
+		"title": "ファイル品質",
+		"upTo": "最大{value}"
+	},
 	"queue": {
 		"add": "キューに追加",
+		"addedAlbum": "{count, plural, other {# 曲をキューに追加しました}}",
 		"empty": "キューは空です。",
 		"nextUp": "次の曲",
 		"nothingPlayed": "まだ再生履歴はありません。",
@@ -93,22 +119,6 @@
 		"repeatOne": "リピート（1曲）がオンです。この曲が繰り返し再生されます。",
 		"thenRepeating": "その後リピート",
 		"title": "キュー"
-	},
-	"quality": {
-		"change": "変更",
-		"dataPerHourGb": "約{value} GB/時",
-		"dataPerHourMb": "約{value} MB/時",
-		"khz": "{value} kHz",
-		"loudness": "ラウドネス",
-		"lossless": "ロスレス",
-		"lossy": "非可逆",
-		"originalSourceFile": "オリジナルのソースファイル",
-		"source": "ソース",
-		"spatial": " · 空間オーディオ",
-		"streaming": "ストリーミング",
-		"streamingRate": "約{kbps} kbps · {data}",
-		"title": "ファイル品質",
-		"upTo": "最大{value}"
 	},
 	"sleepTimer": {
 		"endOfTrack": "曲の終わりまで",

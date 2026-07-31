@@ -85,6 +85,8 @@
 			"is": "est"
 		},
 		"removeRule": "Supprimer la règle",
+		"ruleField": "Champ de la règle",
+		"ruleOperator": "Opérateur de la règle",
 		"saveError": "Impossible d'enregistrer la playlist intelligente",
 		"sort": {
 			"plays": "Écoutes",

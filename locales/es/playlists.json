@@ -85,6 +85,8 @@
 			"is": "es"
 		},
 		"removeRule": "Quitar regla",
+		"ruleField": "Campo de la regla",
+		"ruleOperator": "Operador de la regla",
 		"saveError": "No se pudo guardar la lista inteligente",
 		"sort": {
 			"plays": "Reproducciones",

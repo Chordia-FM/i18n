@@ -85,6 +85,8 @@
 			"is": "一致"
 		},
 		"removeRule": "ルールを削除",
+		"ruleField": "ルールの項目",
+		"ruleOperator": "ルールの演算子",
 		"saveError": "スマートプレイリストを保存できませんでした",
 		"sort": {
 			"plays": "再生回数",
