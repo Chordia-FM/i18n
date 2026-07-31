@@ -20,7 +20,7 @@
 		"more": "Mais",
 		"moveDown": "Mover para baixo",
 		"moveUp": "Mover para cima",
-		"ok": "OK",
+		"ok": "",
 		"open": "Abrir",
 		"pin": "Fixar",
 		"play": "Reproduzir",
@@ -41,7 +41,7 @@
 		"verify": "Verificar",
 		"view": "Ver"
 	},
-	"appName": "Chordia",
+	"appName": "",
 	"commandPalette": {
 		"hint": {
 			"go": "Ir",
@@ -87,7 +87,7 @@
 		"reset": "Redefinir",
 		"rotateLeft": "Girar à esquerda",
 		"rotateRight": "Girar à direita",
-		"zoom": "Zoom"
+		"zoom": ""
 	},
 	"keybinds": {
 		"closeDialog": "Fechar diálogo",
@@ -97,7 +97,7 @@
 		"section": {
 			"general": "Geral",
 			"navigation": "Navegação",
-			"player": "Player"
+			"player": ""
 		},
 		"then": "depois",
 		"title": "Atalhos de teclado",
@@ -117,7 +117,7 @@
 		"insights": "Audições",
 		"library": "Biblioteca",
 		"listen": "Ouvir",
-		"menu": "Menu",
+		"menu": "",
 		"more": "Mais",
 		"openMenu": "Abrir menu",
 		"search": "Buscar",
@@ -155,7 +155,7 @@
 		"refresh": "Atualizar"
 	},
 	"userMenu": {
-		"admin": "Admin",
+		"admin": "",
 		"libraries": "Bibliotecas",
 		"profile": "Seu perfil",
 		"settings": "Configurações",
