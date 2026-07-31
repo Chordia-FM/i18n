@@ -1,6 +1,6 @@
 {
 	"audit": {
-		"createdAt": "{date}",
+		"createdAt": "",
 		"empty": "Noch keine Aktionen.",
 		"title": "Audit-Protokoll"
 	},
@@ -30,7 +30,7 @@
 		"editLabelTitle": "Label bearbeiten (global)",
 		"editTrackTitle": "Titel bearbeiten (global)",
 		"fields": {
-			"bio": "Bio",
+			"bio": "",
 			"defunct": "Nicht mehr aktiv (leer = aktiv)",
 			"founded": "Gegründet",
 			"genres": "Genres (durch Kommas getrennt)"
@@ -42,7 +42,7 @@
 		"labelLoadError": "Das Label konnte nicht geladen werden.",
 		"labelSubtitle": "{count, plural, one {# Album} other {# Alben}}",
 		"loadError": "Die aktuellen Metadaten konnten nicht geladen werden.",
-		"logoAlt": "Logo",
+		"logoAlt": "",
 		"logoUploadFailed": "Das Hochladen des Logos ist fehlgeschlagen.",
 		"noAlbumCovers": "Keine Cover gefunden – das Album benötigt eine MusicBrainz-Zuordnung.",
 		"noArtistArtwork": "Keine Online-Grafiken gefunden – dafür sind ein fanart.tv-Schlüssel und eine MusicBrainz-Zuordnung nötig.",
@@ -61,10 +61,10 @@
 	"noAccess": {
 		"backToApp": "Zurück zur App",
 		"body": "Sie haben keinen Zugriff auf die Site-Administration. {link}.",
-		"title": "Admin"
+		"title": ""
 	},
 	"reports": {
-		"createdAt": "{date}",
+		"createdAt": "",
 		"dismiss": "Verwerfen",
 		"empty": "Keine offenen Meldungen.",
 		"resolve": "Erledigen",
@@ -77,11 +77,11 @@
 		"deny": "Ablehnen",
 		"empty": "Keine ausstehenden Vorschläge.",
 		"field": {
-			"banner": "Banner",
-			"bio": "Bio",
-			"genres": "Genres",
+			"banner": "",
+			"bio": "",
+			"genres": "",
 			"image": "Bild",
-			"name": "Name"
+			"name": ""
 		},
 		"none": "Keine",
 		"suggested": "Vorgeschlagen",
