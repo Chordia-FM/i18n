@@ -1,6 +1,6 @@
 {
 	"audit": {
-		"createdAt": "{date}",
+		"createdAt": "",
 		"empty": "Nenhuma ação ainda.",
 		"title": "Registro de auditoria"
 	},
@@ -20,7 +20,7 @@
 		"artistSubtitle": "{albumCount, plural, one {# álbum} other {# álbuns}} · {trackCount, plural, one {# faixa} other {# faixas}}",
 		"artworkAlt": "Arte",
 		"artworkLoadError": "Não foi possível carregar a arte — tente novamente.",
-		"bannerLabel": "banner",
+		"bannerLabel": "",
 		"browseArtwork": "Procurar arte (ícone + banner)",
 		"browseCovers": "Procurar capas",
 		"browseLogos": "Procurar logos (fanart.tv)",
@@ -42,7 +42,7 @@
 		"labelLoadError": "Não foi possível carregar a gravadora.",
 		"labelSubtitle": "{count, plural, one {# álbum} other {# álbuns}}",
 		"loadError": "Não foi possível carregar os metadados atuais.",
-		"logoAlt": "Logo",
+		"logoAlt": "",
 		"logoUploadFailed": "Falha ao enviar o logo.",
 		"noAlbumCovers": "Nenhuma capa encontrada — o álbum precisa de uma correspondência no MusicBrainz.",
 		"noArtistArtwork": "Nenhuma arte online encontrada — é preciso uma chave do fanart.tv + uma correspondência no MusicBrainz.",
@@ -64,7 +64,7 @@
 		"title": "Administração"
 	},
 	"reports": {
-		"createdAt": "{date}",
+		"createdAt": "",
 		"dismiss": "Rejeitar",
 		"empty": "Nenhuma denúncia aberta.",
 		"resolve": "Resolver",
@@ -77,7 +77,7 @@
 		"deny": "Recusar",
 		"empty": "Nenhuma sugestão pendente.",
 		"field": {
-			"banner": "Banner",
+			"banner": "",
 			"bio": "Biografia",
 			"genres": "Gêneros",
 			"image": "Imagem",
