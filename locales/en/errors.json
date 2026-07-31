@@ -97,6 +97,7 @@
 		"handleGenFailed": "Couldn't generate a unique handle for this Discord account.",
 		"handleOrEmailTaken": "That handle or email is already taken.",
 		"handleTaken": "That handle is already taken.",
+		"invalidAvatarUrl": "Avatar URL must be an https:// address.",
 		"notFound": "No user with that handle."
 	},
 	"validation": {
