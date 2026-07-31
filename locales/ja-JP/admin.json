@@ -1,6 +1,6 @@
 {
 	"audit": {
-		"createdAt": "{date}",
+		"createdAt": "",
 		"empty": "まだ操作はありません。",
 		"title": "監査ログ"
 	},
@@ -64,7 +64,7 @@
 		"title": "管理"
 	},
 	"reports": {
-		"createdAt": "{date}",
+		"createdAt": "",
 		"dismiss": "却下",
 		"empty": "未対応の報告はありません。",
 		"resolve": "解決",
