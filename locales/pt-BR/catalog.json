@@ -4,7 +4,7 @@
 	},
 	"album": {
 		"card": {
-			"artistYearJoin": "{artist} · {year}"
+			"artistYearJoin": ""
 		},
 		"count": "{count, plural, one {# álbum} other {# álbuns}}",
 		"disc": "Disco {n}",
@@ -20,12 +20,12 @@
 			"savedPartial": "{saved} baixadas, {failed} com falha"
 		},
 		"durationHrMin": "{count, plural, one {# h} other {# h}} {minutes} min",
-		"durationMin": "{minutes} min",
-		"genresJoin": "{genres}",
+		"durationMin": "",
+		"genresJoin": "",
 		"goToRadio": "Ir para a rádio do artista",
-		"releaseDate": "{date, date, long}",
+		"releaseDate": "",
 		"songCount": "{count, plural, one {# música} other {# músicas}}",
-		"typesJoin": "{types}"
+		"typesJoin": ""
 	},
 	"artist": {
 		"albums": "Álbuns",
@@ -35,14 +35,14 @@
 			"albumCount": "{count, plural, one {# álbum} other {# álbuns}}"
 		},
 		"discography": "Discografia",
-		"factsJoin": "{facts}",
+		"factsJoin": "",
 		"formed": "Formado em {year}",
-		"genresJoin": "{genres}",
-		"labelMetaJoin": "{span} · {releases}",
+		"genresJoin": "",
+		"labelMetaJoin": "",
 		"labels": "Gravadoras",
 		"links": {
 			"open": "Links do artista",
-			"title": "Links"
+			"title": ""
 		},
 		"liveAlbum": {
 			"card": "Todas as gravações ao vivo",
@@ -50,7 +50,7 @@
 			"subtitle": "{count, plural, one {De # álbum} other {De # álbuns}}",
 			"title": "{name} — Ao vivo"
 		},
-		"namesJoin": "{artists}",
+		"namesJoin": "",
 		"popular": "Populares",
 		"radio": "Rádio",
 		"relatedArtists": "Artistas relacionados",
@@ -61,13 +61,13 @@
 		},
 		"releaseCount": "{count, plural, one {# lançamento} other {# lançamentos}}",
 		"versions": {
-			"instrumental": "Instrumental",
+			"instrumental": "",
 			"live": "Ao vivo"
 		}
 	},
-	"artistNamesJoin": "{names}",
+	"artistNamesJoin": "",
 	"edit": {
-		"artOptionAlt": "{kind}",
+		"artOptionAlt": "",
 		"artworkAlt": "arte",
 		"bannerSet": "Banner definido ✓",
 		"browseAlbumCovers": "Procurar capas de álbuns",
@@ -127,11 +127,11 @@
 		"albumCountWithPrefix": "Gravadora · {count, plural, one {# álbum} other {# álbuns}}",
 		"eyebrow": "Gravadora",
 		"factsSeparator": "tipo · país · atividade",
-		"formerNames": "{name1}, {name2}",
+		"formerNames": "",
 		"formerly": "Antes {names}",
 		"lifespan": {
 			"founded": "Fundada em {year}",
-			"range": "{from} – {to}",
+			"range": "",
 			"until": "Até {year}"
 		},
 		"noAlbums": "Nenhum álbum."
@@ -210,10 +210,10 @@
 		},
 		"explicit": "Explícito",
 		"playAria": "Reproduzir {title} de {artist}",
-		"playsNumber": "{n, number}",
+		"playsNumber": "",
 		"relTime": {
 			"daysAgo": "{count, plural, one {há # dia} other {há # dias}}",
-			"fullDate": "{date, date, medium}",
+			"fullDate": "",
 			"today": "Hoje",
 			"yesterday": "Ontem"
 		}
