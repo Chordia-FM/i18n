@@ -4,9 +4,9 @@
 	},
 	"album": {
 		"card": {
-			"artistYearJoin": "{artist} · {year}"
+			"artistYearJoin": ""
 		},
-		"count": "{count, plural, one {# album} other {# albums}}",
+		"count": "",
 		"disc": "Disque {n}",
 		"download": {
 			"albumTitle": "Télécharger l'album",
@@ -20,26 +20,26 @@
 			"savedPartial": "{saved} téléchargées, {failed} en échec"
 		},
 		"durationHrMin": "{count, plural, one {# h} other {# h}} {minutes} min",
-		"durationMin": "{minutes} min",
-		"genresJoin": "{genres}",
+		"durationMin": "",
+		"genresJoin": "",
 		"goToRadio": "Aller à la radio de l’artiste",
-		"releaseDate": "{date, date, long}",
+		"releaseDate": "",
 		"songCount": "{count, plural, one {# chanson} other {# chansons}}",
-		"typesJoin": "{types}"
+		"typesJoin": ""
 	},
 	"artist": {
-		"albums": "Albums",
+		"albums": "",
 		"appearsOn": "Apparaît sur",
 		"born": "Né en {year}",
 		"card": {
-			"albumCount": "{count, plural, one {# album} other {# albums}}"
+			"albumCount": ""
 		},
 		"discography": "Discographie",
-		"factsJoin": "{facts}",
+		"factsJoin": "",
 		"formed": "Formé en {year}",
-		"genresJoin": "{genres}",
-		"labelMetaJoin": "{span} · {releases}",
-		"labels": "Labels",
+		"genresJoin": "",
+		"labelMetaJoin": "",
+		"labels": "",
 		"links": {
 			"open": "Liens de l’artiste",
 			"title": "Liens"
@@ -48,11 +48,11 @@
 			"card": "Tous les enregistrements live",
 			"label": "Collection live",
 			"subtitle": "{count, plural, one {Issu de # album} other {Issus de # albums}}",
-			"title": "{name} — Live"
+			"title": ""
 		},
-		"namesJoin": "{artists}",
+		"namesJoin": "",
 		"popular": "Populaires",
-		"radio": "Radio",
+		"radio": "",
 		"relatedArtists": "Artistes similaires",
 		"relation": {
 			"alias": "Aussi connu sous le nom de",
@@ -61,29 +61,29 @@
 		},
 		"releaseCount": "{count, plural, one {# sortie} other {# sorties}}",
 		"versions": {
-			"instrumental": "Instrumental",
-			"live": "Live"
+			"instrumental": "",
+			"live": ""
 		}
 	},
-	"artistNamesJoin": "{names}",
+	"artistNamesJoin": "",
 	"edit": {
-		"artOptionAlt": "{kind}",
+		"artOptionAlt": "",
 		"artworkAlt": "illustration",
 		"bannerSet": "Bannière définie ✓",
 		"browseAlbumCovers": "Parcourir les pochettes d'album",
 		"browseArtwork": "Parcourir les illustrations (fanart.tv)",
 		"field": {
-			"album": "Album",
+			"album": "",
 			"artist": "Artiste",
 			"bio": "Biographie",
 			"discNo": "N° de disque",
-			"genre": "Genre",
+			"genre": "",
 			"genres": "Genres (séparés par des virgules)",
-			"label": "Label",
+			"label": "",
 			"name": "Nom",
 			"title": "Titre",
 			"trackNo": "N° de piste",
-			"type": "Type",
+			"type": "",
 			"year": "Année"
 		},
 		"helpText": "Laissez un champ vide pour conserver la valeur d'origine. Les modifications ne sont enregistrées que pour cette bibliothèque, sauf si vous activez « Remplacer globalement ».",
@@ -110,35 +110,35 @@
 	},
 	"entity": {
 		"artist": "Artiste",
-		"label": "Label"
+		"label": ""
 	},
 	"genres": {
 		"counts": "{albumsFormatted} {albums, plural, one {album} other {albums}} · {artistsFormatted} {artists, plural, one {artiste} other {artistes}}",
 		"empty": "Aucun genre pour l'instant — ils arrivent avec les métadonnées d'album à mesure que votre bibliothèque s'enrichit.",
-		"eyebrow": "Genre",
+		"eyebrow": "",
 		"notFound": "Aucun album n'a ce genre.",
-		"title": "Genres",
-		"topAlbums": "Top albums",
+		"title": "",
+		"topAlbums": "",
 		"topArtists": "Top artistes",
 		"variants": "Autres appellations : {list}"
 	},
 	"label": {
-		"albumCount": "{count, plural, one {# album} other {# albums}}",
-		"albumCountWithPrefix": "Label · {count, plural, one {# album} other {# albums}}",
-		"eyebrow": "Label",
+		"albumCount": "",
+		"albumCountWithPrefix": "",
+		"eyebrow": "",
 		"factsSeparator": "type · pays · période d'activité",
-		"formerNames": "{name1}, {name2}",
+		"formerNames": "",
 		"formerly": "Anciennement {names}",
 		"lifespan": {
 			"founded": "Fondé en {year}",
-			"range": "{from} – {to}",
+			"range": "",
 			"until": "Jusqu'en {year}"
 		},
 		"noAlbums": "Aucun album."
 	},
 	"labels": {
 		"empty": "Aucun label pour l'instant — ils apparaissent à mesure que votre catalogue s'enrichit depuis MusicBrainz.",
-		"title": "Labels"
+		"title": ""
 	},
 	"lyrics": {
 		"heading": "Paroles",
@@ -186,9 +186,9 @@
 		"placeholder": "Artistes, albums ou chansons"
 	},
 	"section": {
-		"albums": "Albums",
+		"albums": "",
 		"artists": "Artistes",
-		"labels": "Labels",
+		"labels": "",
 		"songs": "Chansons",
 		"tracks": "Morceaux"
 	},
@@ -196,7 +196,7 @@
 	"track": {
 		"clean": "Censuré",
 		"column": {
-			"album": "Album",
+			"album": "",
 			"dateAdded": "Date d'ajout",
 			"plays": "Écoutes",
 			"title": "Titre"
@@ -210,10 +210,10 @@
 		},
 		"explicit": "Explicite",
 		"playAria": "Lire {title} par {artist}",
-		"playsNumber": "{n, number}",
+		"playsNumber": "",
 		"relTime": {
 			"daysAgo": "{count, plural, one {il y a # jour} other {il y a # jours}}",
-			"fullDate": "{date, date, medium}",
+			"fullDate": "",
 			"today": "Aujourd'hui",
 			"yesterday": "Hier"
 		}
