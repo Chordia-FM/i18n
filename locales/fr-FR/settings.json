@@ -7,7 +7,7 @@
 		"handle": "Identifiant",
 		"handleHint": "Lettres, chiffres, « _ » et « - ». Doit être unique.",
 		"handlePlaceholder": "votrenom",
-		"newEmailPlaceholder": "new@example.com",
+		"newEmailPlaceholder": "",
 		"resendVerification": "Renvoyer l'e-mail de vérification",
 		"saveProfile": "Enregistrer le profil",
 		"sendConfirmation": "Envoyer la confirmation",
@@ -32,7 +32,7 @@
 			"disconnect": "Déconnecter",
 			"disconnected": "Last.fm déconnecté",
 			"failed": "Impossible de connecter Last.fm",
-			"label": "Last.fm"
+			"label": ""
 		},
 		"title": "Connexions"
 	},
@@ -69,11 +69,11 @@
 			"classical": "Classique",
 			"electronic": "Électronique",
 			"flat": "Neutre",
-			"hipHop": "Hip-Hop",
-			"jazz": "Jazz",
-			"loudness": "Loudness",
-			"pop": "Pop",
-			"rock": "Rock",
+			"hipHop": "",
+			"jazz": "",
+			"loudness": "",
+			"pop": "",
+			"rock": "",
 			"trebleBoost": "Aigus renforcés",
 			"trebleReducer": "Aigus réduits",
 			"vocal": "Voix"
@@ -167,14 +167,14 @@
 			"label": "Fuseau horaire",
 			"noMatches": "Aucun fuseau horaire ne correspond à votre recherche",
 			"search": "Rechercher un fuseau horaire…",
-			"zoneWithOffset": "{zone} ({offset})"
+			"zoneWithOffset": ""
 		},
 		"title": "Région"
 	},
 	"sessions": {
 		"body": "Là où vous êtes connecté. Révoquez tout appareil que vous ne reconnaissez pas.",
 		"lastActive": "Dernière activité {date}",
-		"lastActiveDate": "{date}",
+		"lastActiveDate": "",
 		"signOutEverywhere": "Se déconnecter partout",
 		"signOutEverywhereConfirm": "Se déconnecter de tous les appareils ? Vous devrez vous reconnecter.",
 		"thisDevice": "Cet appareil",
