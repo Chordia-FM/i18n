@@ -115,7 +115,7 @@
 		"noFolderChosen": "선택한 폴더 없음",
 		"noServer": "이 기기에 연결된 서버가 없습니다. 라이브러리 서버를 실행한 뒤 터미널에 표시되는 설정 링크를 열어 먼저 연결하세요.",
 		"noSubFolders": "하위 폴더가 없습니다",
-		"serverLabel": "{names} · {host}",
+		"serverLabel": "",
 		"serverSelectHint": "새 라이브러리는 선택한 서버에 만들어집니다.",
 		"serverSelectLabel": "라이브러리 서버",
 		"submit": "라이브러리 추가",
