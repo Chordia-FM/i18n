@@ -109,7 +109,7 @@
 	},
 	"queue": {
 		"add": "キューに追加",
-		"addedAlbum": "{count, plural, other {# 曲をキューに追加しました}}",
+		"addedAlbum": "{count, plural, other {#曲をキューに追加しました}}",
 		"empty": "キューは空です。",
 		"nextUp": "次の曲",
 		"nothingPlayed": "まだ再生履歴はありません。",

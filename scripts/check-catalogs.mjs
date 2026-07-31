@@ -225,9 +225,10 @@ if (import.meta.url === pathToFileURL(process.argv[1]).href) {
 	// can read English — but the failure this catches is not a wording problem, it is a *format*
 	// problem, and those are invisible in review. A real one shipped: `player:queue.addedAlbum` was
 	// written in i18next's `_one`/`_other` suffix style, which this project's i18next-icu setup does
-	// not resolve at all, so `t()` returned the raw key and users saw the literal string
-	// "queue.addedAlbum" in a toast. Every translated catalog was checked; the one that was wrong
-	// was the one nobody checked.
+	// not resolve at all. The key silently missed, so every locale fell through to the call site's
+	// `defaultValue` — an ungrammatical, untranslatable English string ("Added 12 to queue") that no
+	// translator could ever reach. Every translated catalog was checked; the one that was wrong was
+	// the one nobody checked.
 	for (const ns of namespaces) {
 		for (const [key, value] of Object.entries(source[ns])) {
 			if (typeof value !== "string") {
@@ -247,8 +248,40 @@ if (import.meta.url === pathToFileURL(process.argv[1]).href) {
 			try {
 				parseIcu(value);
 			} catch (e) {
-				problems.push(`${SOURCE}/${ns}: ${key} is not valid ICU — ${e.message}`);
+				problems.push(
+					`${SOURCE}/${ns}: ${key} is not valid ICU — ${String(e.message).split("\n")[0]}`,
+				);
 				errors++;
+				continue;
+			}
+			// Same two value-shape checks the targets get. A zero-width character or an unrestored
+			// placeholder mask is no less broken for being in the source — and the source is the
+			// string that gets uploaded to Crowdin, so a defect here propagates into every language.
+			const invisible = value.match(/[​‌⁠﻿‎‏]/);
+			if (invisible) {
+				const point = invisible[0].codePointAt(0).toString(16).toUpperCase();
+				problems.push(`${SOURCE}/${ns}: ${key} contains an invisible character U+${point}`);
+				errors++;
+			}
+			// English plural/ordinal categories, checked against the same CLDR tables the targets
+			// use. A source that uses a category English does not have (`few`, `many`) produces a
+			// message no English count can ever select.
+			for (const { type, categories } of pluralConstructs(value)) {
+				const allowed =
+					type === "selectordinal" ? ORDINAL_CATEGORIES[SOURCE] : PLURAL_CATEGORIES[SOURCE];
+				for (const c of categories) {
+					// `=0`/`=1` exact matches are always legal, whatever the language's categories.
+					if (c.startsWith("=") || allowed.includes(c)) continue;
+					problems.push(
+						`${SOURCE}/${ns}: ${key} uses ${type} category "${c}", not valid for ${SOURCE} ` +
+							`(allowed: ${allowed.join(", ")})`,
+					);
+					errors++;
+				}
+				if (!categories.has("other")) {
+					problems.push(`${SOURCE}/${ns}: ${key} ${type} is missing the required "other" case`);
+					errors++;
+				}
 			}
 		}
 	}
