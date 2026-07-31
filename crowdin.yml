@@ -44,7 +44,13 @@
 #   npm run crowdin:pull        # bring translations down
 #   git status                  # inspect before committing — this is the whole safety net
 #
-# Two things are currently misconfigured on the Crowdin side, and both need fixing THERE, not here:
+# The CLI does NOT inherit the project's Translations Export Settings. `crowdin download` builds its
+# own export and takes the options as flags, so ticking "Skip untranslated strings" in the Crowdin
+# UI changes nothing for a CLI pull — the download still arrives with every untranslated entry
+# "fulfilled with the source language", which for JSON means an empty string, not the English text.
+# That is why `crowdin:pull` passes --skip-untranslated-strings explicitly. Keep it there.
+#
+# One thing is currently misconfigured on the Crowdin side, and needs fixing THERE, not here:
 #
 #  1. **Language Mapping is unset**, so exports land in `locales/de-DE/`, `fr-FR/`, `ja-JP/`,
 #     `ko-KR/`, `es-ES/` while the app ships bare `de/`, `fr/`, `ja/`, `ko/`, `es/`. `index.ts`
@@ -52,10 +58,9 @@
 #     half-populated German catalogs in the bundle. Set Language Mapping per target so `%locale%`
 #     resolves to the bare code (see the note further down).
 #
-#  2. **Untranslated strings are being exported as English.** Measured on the branch:
-#     `locales/de-DE/common.json` was 121 keys, 121 of them byte-identical to the English source,
-#     zero translated. Turn on "export only translated strings" (or approved-only), otherwise every
-#     sync writes English over the real translations this repo already has.
+#     (The integration's own exports have the same hazard, which is what filled `locales/de-DE/` on
+#     the branch with 121 keys of pure English — but that is governed by the UI setting, not by the
+#     CLI flag above. Both surfaces need their own fix; neither covers the other.)
 #
 # And the thing to do BEFORE inviting translators: this repo's `de`/`fr`/`ja`/`ko`/`pt-BR` catalogs
 # hold real, human translations that Crowdin has never seen — `main` is AHEAD of Crowdin, not behind
