@@ -7,6 +7,7 @@
 			"artistYearJoin": "{artist} · {year}"
 		},
 		"count": "{count, plural, one {# album} other {# albums}}",
+		"disc": "Disc {n}",
 		"download": {
 			"albumTitle": "Download album",
 			"busy": "Downloading…",
@@ -21,6 +22,7 @@
 		"durationHrMin": "{count, plural, one {# hr} other {# hr}} {minutes} min",
 		"durationMin": "{minutes} min",
 		"genresJoin": "{genres}",
+		"goToRadio": "Go to artist radio",
 		"releaseDate": "{date, date, long}",
 		"songCount": "{count, plural, one {# song} other {# songs}}",
 		"typesJoin": "{types}"
@@ -103,7 +105,8 @@
 		"useThisArt": "Use this {kind}"
 	},
 	"entity": {
-		"artist": "Artist"
+		"artist": "Artist",
+		"label": "Label"
 	},
 	"genres": {
 		"counts": "{albumsFormatted} {albums, plural, one {album} other {albums}} · {artistsFormatted} {artists, plural, one {artist} other {artists}}",
