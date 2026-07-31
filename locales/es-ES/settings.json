@@ -7,7 +7,7 @@
 		"handle": "Usuario",
 		"handleHint": "Letras, números, “_” y “-”. Debe ser único.",
 		"handlePlaceholder": "tunombre",
-		"newEmailPlaceholder": "new@example.com",
+		"newEmailPlaceholder": "",
 		"resendVerification": "Reenviar el correo de verificación",
 		"saveProfile": "Guardar perfil",
 		"sendConfirmation": "Enviar confirmación",
@@ -32,7 +32,7 @@
 			"disconnect": "Desconectar",
 			"disconnected": "Last.fm desconectado",
 			"failed": "No se pudo conectar Last.fm",
-			"label": "Last.fm"
+			"label": ""
 		},
 		"title": "Conexiones"
 	},
@@ -50,7 +50,7 @@
 	},
 	"downloads": {
 		"browserStorageName": "Este dispositivo (almacenamiento del navegador)",
-		"bytes": "{bytes} B / {kb} KB / {mb} MB / {gb} GB",
+		"bytes": "",
 		"serverNote": "Las bibliotecas de música se añaden y organizan en tu servidor de biblioteca de Chordia, no aquí. Guardar las descargas en una carpeta propia (con tu ruta y tu estructura) llegará a la aplicación de escritorio.",
 		"thisDevice": {
 			"description": "Las canciones descargadas se guardan en este dispositivo y se reproducen sin conexión.",
@@ -69,14 +69,14 @@
 			"classical": "Clásica",
 			"electronic": "Electrónica",
 			"flat": "Plano",
-			"hipHop": "Hip-Hop",
-			"jazz": "Jazz",
+			"hipHop": "",
+			"jazz": "",
 			"loudness": "Sonoridad",
-			"pop": "Pop",
-			"rock": "Rock",
+			"pop": "",
+			"rock": "",
 			"trebleBoost": "Refuerzo de agudos",
 			"trebleReducer": "Reducción de agudos",
-			"vocal": "Vocal"
+			"vocal": ""
 		}
 	},
 	"equalizer": {
@@ -110,7 +110,7 @@
 			},
 			"normal": {
 				"desc": "~128 kbps: equilibrada.",
-				"label": "Normal"
+				"label": ""
 			},
 			"original": {
 				"desc": "Fuente bit a bit. Máximo ancho de banda.",
@@ -155,7 +155,7 @@
 		},
 		"normal": {
 			"desc": "~128 kbps — equilibrada.",
-			"label": "Normal"
+			"label": ""
 		},
 		"title": "Calidad de streaming"
 	},
@@ -167,14 +167,14 @@
 			"label": "Zona horaria",
 			"noMatches": "Ninguna zona horaria coincide con tu búsqueda",
 			"search": "Busca zonas horarias…",
-			"zoneWithOffset": "{zone} ({offset})"
+			"zoneWithOffset": ""
 		},
 		"title": "Región"
 	},
 	"sessions": {
 		"body": "Dónde tienes la sesión iniciada. Revoca cualquier dispositivo que no reconozcas.",
 		"lastActive": "Última actividad: {date}",
-		"lastActiveDate": "{date}",
+		"lastActiveDate": "",
 		"signOutEverywhere": "Cerrar sesión en todas partes",
 		"signOutEverywhereConfirm": "¿Cerrar sesión en todos los dispositivos? Tendrás que volver a iniciarla.",
 		"thisDevice": "Este dispositivo",
