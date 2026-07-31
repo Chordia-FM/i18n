@@ -13,6 +13,29 @@
 # as target languages in the project and they appear here automatically, with no code change
 # (SUPPORTED_LOCALES is derived).
 #
+# ── STATE OF THIS INTEGRATION, checked 2026-07-31 ────────────────────────────────────────────────
+# Sync runs through Crowdin's own GitHub integration (installed on the org), NOT a GitHub Action —
+# it pushes to the `crowdin` branch, and that branch is live. Do not add a `crowdin/github-action`
+# workflow alongside it: two syncs racing on different branches is worse than either alone.
+#
+# Two things are currently misconfigured on the Crowdin side, and both need fixing THERE, not here:
+#
+#  1. **Language Mapping is unset**, so exports land in `locales/de-DE/`, `fr-FR/`, `ja-JP/`,
+#     `ko-KR/`, `es-ES/` while the app ships bare `de/`, `fr/`, `ja/`, `ko/`, `es/`. `index.ts`
+#     glob-imports `./locales/*/*.json` eagerly, so merging that branch as-is would ship BOTH — two
+#     half-populated German catalogs in the bundle. Set Language Mapping per target so `%locale%`
+#     resolves to the bare code (see the note further down).
+#
+#  2. **Untranslated strings are being exported as English.** Measured on the branch:
+#     `locales/de-DE/common.json` was 121 keys, 121 of them byte-identical to the English source,
+#     zero translated. Turn on "export only translated strings" (or approved-only), otherwise every
+#     sync writes English over the real translations this repo already has.
+#
+# And the thing to do BEFORE inviting translators: this repo's `de`/`fr`/`ja`/`ko`/`pt-BR` catalogs
+# hold real, human translations that Crowdin has never seen — `main` is AHEAD of Crowdin, not behind
+# it. Run `npm run crowdin:push-drafts` first so translators start from that work instead of a blank
+# project, and so Crowdin stops treating good German as an untranslated string.
+#
 # Crowdin Enterprise, so the CLI must be pointed at the organization's own API host — the default
 # is crowdin.com and every command would authenticate against the wrong instance. Note the `api`
 # segment: the API host is `<org>.api.crowdin.com`, not the `<org>.crowdin.com` you log in to.
