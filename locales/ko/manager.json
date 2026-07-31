@@ -1,163 +1,164 @@
 {
-	"nav": "매니저",
-	"title": "라이브러리 매니저",
-	"subtitle": "보유 현황을 확인하고 빠진 음반을 찾아보세요.",
-	"loadFailed": "보유 현황을 불러오지 못했습니다.",
-	"coverage": {
-		"albumLabel": "앨범 보유율",
-		"artistLabel": "완성된 아티스트",
-		"ownedOfTotal": "발매작 {total}장 중 {owned}장 보유",
-		"touched": "추적 중인 아티스트 {count}명",
-		"complete": "{count}명 완성",
-		"pending": "{count}명 디스코그래피 대기 중",
-		"fetching": "백그라운드에서 디스코그래피를 가져오는 중입니다. 곧 보유 현황이 채워집니다.",
-		"empty": "아직 보유 현황이 없습니다. 라이브러리 동기화와 디스코그래피 수집이 끝나면 여기에 표시됩니다."
-	},
-	"libraries": {
-		"title": "집계에 포함된 라이브러리",
-		"hint": "보유 현황 계산에서 제외할 라이브러리는 체크를 해제하세요.",
-		"includeShared": "나에게 공유된 라이브러리 포함",
-		"owned": "내 소유",
-		"shared": "공유받음",
-		"counts": "트랙 {tracks} · 앨범 {albums} · 아티스트 {artists}"
-	},
-	"artists": {
-		"title": "내 아티스트",
-		"subtitle": "아티스트를 열어 빠진 앨범을 확인하세요.",
-		"empty": "아직 아티스트가 없습니다. 라이브러리를 동기화해 시작하세요."
-	},
-	"artist": {
-		"complete": "{pct}% 완성",
-		"owned": "내 라이브러리에 있음",
-		"missing": "없음",
-		"missingCount": "{count}장 없음",
-		"noMissing": "확인된 이 아티스트의 발매작을 모두 보유하고 있습니다.",
-		"noMbid": "이 아티스트의 MusicBrainz 매칭이 아직 없어 보유 현황을 확인할 수 없습니다.",
-		"fetching": "디스코그래피를 가져오는 중…",
-		"loadFailed": "이 아티스트의 보유 현황을 불러오지 못했습니다.",
-		"back": "매니저로 돌아가기"
-	},
 	"album": {
 		"back": "매니저로 돌아가기",
 		"coverage": "트랙 {total}개 중 {owned}개",
 		"disc": "디스크 {n}",
+		"downloadEdition": "버전 다운로드",
 		"editionCount": "{count, plural, other {에디션 #종}}",
-		"remaster": "리마스터",
-		"owned": "내 라이브러리에 있음",
 		"fetching": "트랙 목록을 가져오는 중…",
+		"loadFailed": "이 앨범의 트랙 목록을 불러오지 못했습니다.",
 		"noTracks": "이 앨범의 트랙 목록이 아직 없습니다.",
-		"loadFailed": "이 앨범의 트랙 목록을 불러오지 못했습니다."
+		"owned": "내 라이브러리에 있음",
+		"remaster": "리마스터"
 	},
-	"tabs": {
-		"coverage": "보유 현황",
-		"discover": "탐색",
-		"follows": "팔로잉",
-		"downloads": "다운로드",
-		"settings": "설정"
+	"artist": {
+		"back": "매니저로 돌아가기",
+		"complete": "{pct}% 완성",
+		"fetching": "디스코그래피를 가져오는 중…",
+		"loadFailed": "이 아티스트의 보유 현황을 불러오지 못했습니다.",
+		"missing": "없음",
+		"missingCount": "{count}장 없음",
+		"noMbid": "이 아티스트의 MusicBrainz 매칭이 아직 없어 보유 현황을 확인할 수 없습니다.",
+		"noMissing": "확인된 이 아티스트의 발매작을 모두 보유하고 있습니다.",
+		"owned": "내 라이브러리에 있음"
+	},
+	"artists": {
+		"empty": "아직 아티스트가 없습니다. 라이브러리를 동기화해 시작하세요.",
+		"subtitle": "아티스트를 열어 빠진 앨범을 확인하세요.",
+		"title": "내 아티스트"
+	},
+	"coverage": {
+		"albumLabel": "앨범 보유율",
+		"artistLabel": "완성된 아티스트",
+		"complete": "{count}명 완성",
+		"empty": "아직 보유 현황이 없습니다. 라이브러리 동기화와 디스코그래피 수집이 끝나면 여기에 표시됩니다.",
+		"fetching": "백그라운드에서 디스코그래피를 가져오는 중입니다. 곧 보유 현황이 채워집니다.",
+		"ownedOfTotal": "발매작 {total}장 중 {owned}장 보유",
+		"pending": "{count}명 디스코그래피 대기 중",
+		"touched": "추적 중인 아티스트 {count}명"
 	},
 	"discover": {
-		"title": "탐색",
-		"subtitle": "전체 음악을 검색해 아직 없는 아티스트와 앨범을 찾아보세요.",
-		"placeholder": "아티스트, 앨범 검색…",
-		"hint": "2자 이상 입력하면 검색됩니다.",
-		"searching": "검색 중…",
-		"noResults": "일치하는 항목이 없습니다. 다른 검색어로 시도해 보세요.",
-		"artists": "아티스트",
-		"releases": "발매작",
-		"owned": "라이브러리에 있음",
-		"available": "라이브러리에 없음",
 		"allTypes": "전체",
+		"artists": "아티스트",
+		"available": "라이브러리에 없음",
+		"hint": "2자 이상 입력하면 검색됩니다.",
+		"noResults": "일치하는 항목이 없습니다. 다른 검색어로 시도해 보세요.",
+		"owned": "라이브러리에 있음",
+		"placeholder": "아티스트, 앨범 검색…",
+		"releases": "발매작",
+		"searching": "검색 중…",
+		"subtitle": "전체 음악을 검색해 아직 없는 아티스트와 앨범을 찾아보세요.",
+		"title": "탐색",
 		"type": {
 			"Album": "앨범",
-			"EP": "EP",
-			"Single": "싱글",
 			"Broadcast": "세션",
-			"Other": "기타"
+			"EP": "EP",
+			"Other": "기타",
+			"Single": "싱글"
 		},
 		"version": {
 			"instrumental": "연주곡",
 			"live": "라이브"
 		}
 	},
-	"follows": {
-		"title": "팔로잉",
-		"subtitle": "팔로우 중인 아티스트입니다. 새 발매작이 나오면 없는 음반 목록에 자동으로 표시됩니다.",
-		"empty": "아직 팔로우한 아티스트가 없습니다. 탐색에서 아티스트를 열고 팔로우를 눌러 보세요.",
-		"unfollow": "팔로우 취소",
-		"loadFailed": "팔로우 목록을 불러오지 못했습니다."
+	"download": {
+		"ackConfirm": "이해합니다",
+		"ackMessage": "Chordia는 인덱서나 트래커를 제공하지 않습니다. 다운로드는 직접 설정한 Prowlarr와 qBittorrent를 사용하며, 내려받는 자료의 합법성에 대한 책임은 해당 국가의 법에 따라 사용자에게 있습니다.",
+		"ackTitle": "다운로드 전 확인",
+		"button": "다운로드",
+		"chooseLibrary": "다운로드할 위치…",
+		"failed": "다운로드를 대기열에 넣지 못했습니다",
+		"noLibrary": "다운로드를 사용할 수 있는 라이브러리가 없습니다. 먼저 라이브러리에 Prowlarr + qBittorrent를 설정하세요.",
+		"notEnabled": "해당 라이브러리에서는 다운로드가 켜져 있지 않습니다.",
+		"queued": "다운로드 대기열에 추가했습니다"
 	},
 	"follow": {
 		"follow": "팔로우",
 		"following": "팔로잉"
 	},
-	"download": {
-		"button": "다운로드",
-		"queued": "다운로드 대기열에 추가했습니다",
-		"failed": "다운로드를 대기열에 넣지 못했습니다",
-		"noLibrary": "다운로드를 사용할 수 있는 라이브러리가 없습니다. 먼저 라이브러리에 Prowlarr + qBittorrent를 설정하세요.",
-		"chooseLibrary": "다운로드할 위치…",
-		"notEnabled": "해당 라이브러리에서는 다운로드가 켜져 있지 않습니다.",
-		"ackTitle": "다운로드 전 확인",
-		"ackMessage": "Chordia는 인덱서나 트래커를 제공하지 않습니다. 다운로드는 직접 설정한 Prowlarr와 qBittorrent를 사용하며, 내려받는 자료의 합법성에 대한 책임은 해당 국가의 법에 따라 사용자에게 있습니다.",
-		"ackConfirm": "이해합니다"
+	"follows": {
+		"empty": "아직 팔로우한 아티스트가 없습니다. 탐색에서 아티스트를 열고 팔로우를 눌러 보세요.",
+		"loadFailed": "팔로우 목록을 불러오지 못했습니다.",
+		"subtitle": "팔로우 중인 아티스트입니다. 새 발매작이 나오면 없는 음반 목록에 자동으로 표시됩니다.",
+		"title": "팔로잉",
+		"unfollow": "팔로우 취소"
 	},
+	"libraries": {
+		"counts": "트랙 {tracks} · 앨범 {albums} · 아티스트 {artists}",
+		"hint": "보유 현황 계산에서 제외할 라이브러리는 체크를 해제하세요.",
+		"includeShared": "나에게 공유된 라이브러리 포함",
+		"owned": "내 소유",
+		"shared": "공유받음",
+		"title": "집계에 포함된 라이브러리"
+	},
+	"loadFailed": "보유 현황을 불러오지 못했습니다.",
+	"nav": "매니저",
 	"queue": {
-		"title": "다운로드",
-		"subtitle": "내 다운로드 활동입니다.",
-		"empty": "아직 다운로드가 없습니다. 없는 앨범에서 다운로드를 눌러 시작하세요.",
 		"cancel": "취소",
-		"retry": "재시도",
 		"choose": "소스 선택",
-		"pickHint": "어떤 발매본이 정확히 이 앨범인지 확실하지 않습니다. 알맞은 것을 골라 주세요.",
-		"selectFailed": "해당 소스를 지정하지 못했습니다 — 작업이 이미 진행되었을 수 있습니다. 새로고침 후 다시 선택하세요.",
+		"empty": "아직 다운로드가 없습니다. 없는 앨범에서 다운로드를 눌러 시작하세요.",
+		"intoLibrary": "@{handle}님의 라이브러리로",
 		"loadFailed": "다운로드 목록을 불러오지 못했습니다.",
-		"status": {
-			"queued": "대기 중",
-			"claimed": "시작 중",
-			"searching": "검색 중",
-			"grabbing": "받는 중",
-			"downloading": "다운로드 중",
-			"importing": "가져오는 중",
-			"completed": "완료됨",
-			"failed": "실패함",
-			"no_results": "소스를 찾지 못함",
-			"cancelled": "취소됨",
-			"awaiting_selection": "소스 선택 필요"
-		},
+		"pickHint": "어떤 발매본이 정확히 이 앨범인지 확실하지 않습니다. 알맞은 것을 골라 주세요.",
 		"requestedBy": "@{handle}님 요청",
-		"intoLibrary": "@{handle}님의 라이브러리로"
+		"retry": "재시도",
+		"selectFailed": "해당 소스를 지정하지 못했습니다 — 작업이 이미 진행되었을 수 있습니다. 새로고침 후 다시 선택하세요.",
+		"status": {
+			"awaiting_selection": "소스 선택 필요",
+			"cancelled": "취소됨",
+			"claimed": "시작 중",
+			"completed": "완료됨",
+			"downloading": "다운로드 중",
+			"failed": "실패함",
+			"grabbing": "받는 중",
+			"importing": "가져오는 중",
+			"no_results": "소스를 찾지 못함",
+			"queued": "대기 중",
+			"searching": "검색 중"
+		},
+		"subtitle": "내 다운로드 활동입니다.",
+		"title": "다운로드"
 	},
 	"settings": {
-		"title": "매니저 설정",
-		"subtitle": "품질 프로필과 라이브러리별 다운로드 상태입니다.",
-		"profiles": "품질 프로필",
-		"profilesHint": "다운로드는 항상 프로필이 허용한 포맷 중 가장 좋은 소스를 선택합니다.",
-		"default": "기본값",
-		"makeDefault": "기본값으로 설정",
-		"preferSeeders": "시더가 많은 쪽 우선",
-		"newProfile": "새 프로필",
-		"name": "이름",
-		"formats": "허용 포맷(우선순위 순)",
-		"maxSize": "최대 크기(MB, 선택)",
-		"save": "저장",
-		"delete": "삭제",
 		"created": "프로필을 저장했습니다",
-		"saveFailed": "프로필을 저장하지 못했습니다",
+		"default": "기본값",
+		"delete": "삭제",
+		"destinationAsk": "매번 묻기",
+		"destinationHelp": "새 다운로드 요청이 저장될 위치입니다. 친구가 요청 권한을 주면 친구의 라이브러리도 여기에 표시됩니다.",
+		"destinationSaved": "기본 저장 위치를 저장했습니다.",
+		"destinationTitle": "다운로드 위치",
+		"disabled": "다운로드 꺼짐",
+		"enabled": "다운로드 사용",
+		"formats": "허용 포맷(우선순위 순)",
+		"indexers": "인덱서 {count}개",
 		"libraries": "라이브러리 다운로드 상태",
 		"librariesHint": "각 라이브러리의 chordia-library.toml에서 Prowlarr + qBittorrent를 설정하면 다운로드를 사용할 수 있습니다.",
-		"enabled": "다운로드 사용",
-		"disabled": "다운로드 꺼짐",
-		"indexers": "인덱서 {count}개",
-		"destinationTitle": "다운로드 위치",
-		"destinationHelp": "새 다운로드 요청이 저장될 위치입니다. 친구가 요청 권한을 주면 친구의 라이브러리도 여기에 표시됩니다.",
-		"destinationAsk": "매번 묻기",
-		"destinationSaved": "기본 저장 위치를 저장했습니다."
+		"makeDefault": "기본값으로 설정",
+		"maxSize": "최대 크기(MB, 선택)",
+		"name": "이름",
+		"newProfile": "새 프로필",
+		"preferSeeders": "시더가 많은 쪽 우선",
+		"profiles": "품질 프로필",
+		"profilesHint": "다운로드는 항상 프로필이 허용한 포맷 중 가장 좋은 소스를 선택합니다.",
+		"save": "저장",
+		"saveFailed": "프로필을 저장하지 못했습니다",
+		"subtitle": "품질 프로필과 라이브러리별 다운로드 상태입니다.",
+		"title": "매니저 설정"
 	},
+	"subtitle": "보유 현황을 확인하고 빠진 음반을 찾아보세요.",
+	"tabs": {
+		"coverage": "보유 현황",
+		"discover": "탐색",
+		"downloads": "다운로드",
+		"follows": "팔로잉",
+		"settings": "설정"
+	},
+	"title": "라이브러리 매니저",
 	"upgrade": {
 		"check": "더 좋은 음질 확인",
-		"queued": "업그레이드 확인을 대기열에 넣었습니다 — 다운로드 탭을 확인하세요. 확실히 더 나은 소스가 있으면 내려받고, 없으면 작업이 조용히 종료됩니다.",
+		"failed": "업그레이드 확인을 대기열에 넣지 못했습니다.",
 		"inProgress": "이 앨범의 업그레이드 또는 다운로드가 이미 진행 중입니다.",
 		"notIdentified": "이 앨범이 아직 MusicBrainz에 매칭되지 않아 정확히 검색할 대상이 없습니다.",
-		"failed": "업그레이드 확인을 대기열에 넣지 못했습니다."
+		"queued": "업그레이드 확인을 대기열에 넣었습니다 — 다운로드 탭을 확인하세요. 확실히 더 나은 소스가 있으면 내려받고, 없으면 작업이 조용히 종료됩니다."
 	}
 }

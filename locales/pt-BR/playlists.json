@@ -5,6 +5,7 @@
 	"addError": "Não foi possível adicionar à playlist",
 	"addToNamed": "Adicionar a {playlist}",
 	"addToPlaylist": "Adicionar à playlist",
+	"addedAlbumToast": "{count, plural, one {# faixa adicionada a {playlist}} other {# faixas adicionadas a {playlist}}}",
 	"addedToast": "Adicionada a {playlist}",
 	"collaborators": {
 		"addError": "Não foi possível adicionar esse colaborador",
@@ -24,6 +25,8 @@
 		"change": "Alterar imagem",
 		"remove": "Remover imagem"
 	},
+	"createFailed": "Não foi possível criar a playlist",
+	"createdFromAlbumToast": "Playlist “{name}” criada",
 	"delete": {
 		"confirmBody": "Excluir esta playlist?",
 		"title": "Excluir playlist"
@@ -37,11 +40,14 @@
 	},
 	"menuEmpty": "Nenhuma playlist",
 	"new": "Nova playlist",
+	"newFromAlbum": "Nova playlist",
+	"newFromAlbumSub": "De “{name}”",
 	"prompt": {
 		"newName": "Nome da playlist",
 		"rename": "Renomear playlist"
 	},
 	"removeFromPlaylist": "Remover da playlist",
+	"searchPlaceholder": "Buscar uma playlist",
 	"sharedWithYou": " · compartilhada com você",
 	"smart": {
 		"addRule": "Adicionar regra",

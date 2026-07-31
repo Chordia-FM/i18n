@@ -7,6 +7,7 @@
 			"artistYearJoin": "{artist} · {year}"
 		},
 		"count": "{count, plural, one {# álbum} other {# álbuns}}",
+		"disc": "Disco {n}",
 		"download": {
 			"albumTitle": "Baixar álbum",
 			"busy": "Baixando…",
@@ -21,6 +22,7 @@
 		"durationHrMin": "{count, plural, one {# h} other {# h}} {minutes} min",
 		"durationMin": "{minutes} min",
 		"genresJoin": "{genres}",
+		"goToRadio": "Ir para a rádio do artista",
 		"releaseDate": "{date, date, long}",
 		"songCount": "{count, plural, one {# música} other {# músicas}}",
 		"typesJoin": "{types}"
@@ -103,7 +105,8 @@
 		"useThisArt": "Usar {kind}"
 	},
 	"entity": {
-		"artist": "Artista"
+		"artist": "Artista",
+		"label": "Gravadora"
 	},
 	"genres": {
 		"counts": "{albumsFormatted} {albums, plural, one {álbum} other {álbuns}} · {artistsFormatted} {artists, plural, one {artista} other {artistas}}",

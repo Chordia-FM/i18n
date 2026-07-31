@@ -7,6 +7,7 @@
 			"artistYearJoin": "{artist} · {year}"
 		},
 		"count": "{count, plural, other {앨범 #개}}",
+		"disc": "디스크 {n}",
 		"download": {
 			"albumTitle": "앨범 다운로드",
 			"busy": "다운로드 중…",
@@ -21,6 +22,7 @@
 		"durationHrMin": "{count, plural, other {#시간}} {minutes}분",
 		"durationMin": "{minutes}분",
 		"genresJoin": "{genres}",
+		"goToRadio": "아티스트 라디오로 이동",
 		"releaseDate": "{date, date, long}",
 		"songCount": "{count, plural, other {#곡}}",
 		"typesJoin": "{types}"
@@ -103,7 +105,8 @@
 		"useThisArt": "이 {kind} 사용"
 	},
 	"entity": {
-		"artist": "아티스트"
+		"artist": "아티스트",
+		"label": "레이블"
 	},
 	"genres": {
 		"counts": "앨범 {albumsFormatted}{albums, plural, other {개}} · 아티스트 {artistsFormatted}{artists, plural, other {명}}",

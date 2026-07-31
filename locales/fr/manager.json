@@ -1,163 +1,164 @@
 {
-	"nav": "Gestionnaire",
-	"title": "Gestionnaire de bibliothèque",
-	"subtitle": "Suivez votre couverture et trouvez ce qui vous manque.",
-	"loadFailed": "Impossible de charger la couverture.",
-	"coverage": {
-		"albumLabel": "Couverture des albums",
-		"artistLabel": "Artistes complets",
-		"ownedOfTotal": "{owned} sorties possédées sur {total}",
-		"touched": "{count} artistes suivis",
-		"complete": "{count} complets",
-		"pending": "{count} en attente de discographie",
-		"fetching": "Récupération des discographies en arrière-plan. La couverture se remplira sous peu.",
-		"empty": "Pas encore de couverture. Une fois vos bibliothèques synchronisées et les discographies récupérées, votre couverture apparaît ici."
-	},
-	"libraries": {
-		"title": "Bibliothèques prises en compte",
-		"hint": "Décochez une bibliothèque pour l'exclure du calcul de couverture.",
-		"includeShared": "Inclure les bibliothèques partagées avec moi",
-		"owned": "Possédées",
-		"shared": "Partagées",
-		"counts": "{tracks} morceaux · {albums} albums · {artists} artistes"
-	},
-	"artists": {
-		"title": "Vos artistes",
-		"subtitle": "Ouvrez un artiste pour voir quels albums vous manquent.",
-		"empty": "Aucun artiste pour l'instant. Synchronisez une bibliothèque pour commencer."
-	},
-	"artist": {
-		"complete": "{pct} % complet",
-		"owned": "Dans votre bibliothèque",
-		"missing": "Manquant",
-		"missingCount": "{count} manquants",
-		"noMissing": "Vous avez toutes les sorties que nous connaissons pour cet artiste.",
-		"noMbid": "Aucune correspondance MusicBrainz pour cet artiste pour l'instant, la couverture n'est donc pas disponible.",
-		"fetching": "Récupération de la discographie…",
-		"loadFailed": "Impossible de charger la couverture de cet artiste.",
-		"back": "Retour au gestionnaire"
-	},
 	"album": {
 		"back": "Retour au gestionnaire",
 		"coverage": "{owned} morceaux sur {total}",
 		"disc": "Disque {n}",
+		"downloadEdition": "Télécharger la version",
 		"editionCount": "{count, plural, one {# édition} other {# éditions}}",
-		"remaster": "Remaster",
-		"owned": "Dans votre bibliothèque",
 		"fetching": "récupération de la liste des morceaux…",
+		"loadFailed": "Impossible de charger la liste des morceaux de cet album.",
 		"noTracks": "Aucune liste de morceaux disponible pour cet album.",
-		"loadFailed": "Impossible de charger la liste des morceaux de cet album."
+		"owned": "Dans votre bibliothèque",
+		"remaster": "Remaster"
 	},
-	"tabs": {
-		"coverage": "Couverture",
-		"discover": "Découvrir",
-		"follows": "Abonnements",
-		"downloads": "Téléchargements",
-		"settings": "Paramètres"
+	"artist": {
+		"back": "Retour au gestionnaire",
+		"complete": "{pct} % complet",
+		"fetching": "Récupération de la discographie…",
+		"loadFailed": "Impossible de charger la couverture de cet artiste.",
+		"missing": "Manquant",
+		"missingCount": "{count} manquants",
+		"noMbid": "Aucune correspondance MusicBrainz pour cet artiste pour l'instant, la couverture n'est donc pas disponible.",
+		"noMissing": "Vous avez toutes les sorties que nous connaissons pour cet artiste.",
+		"owned": "Dans votre bibliothèque"
+	},
+	"artists": {
+		"empty": "Aucun artiste pour l'instant. Synchronisez une bibliothèque pour commencer.",
+		"subtitle": "Ouvrez un artiste pour voir quels albums vous manquent.",
+		"title": "Vos artistes"
+	},
+	"coverage": {
+		"albumLabel": "Couverture des albums",
+		"artistLabel": "Artistes complets",
+		"complete": "{count} complets",
+		"empty": "Pas encore de couverture. Une fois vos bibliothèques synchronisées et les discographies récupérées, votre couverture apparaît ici.",
+		"fetching": "Récupération des discographies en arrière-plan. La couverture se remplira sous peu.",
+		"ownedOfTotal": "{owned} sorties possédées sur {total}",
+		"pending": "{count} en attente de discographie",
+		"touched": "{count} artistes suivis"
 	},
 	"discover": {
-		"title": "Découvrir",
-		"subtitle": "Cherchez dans toute la musique les artistes et les albums que vous n'avez pas encore.",
-		"placeholder": "Rechercher des artistes et des albums…",
-		"hint": "Saisissez au moins 2 caractères pour lancer la recherche.",
-		"searching": "Recherche…",
-		"noResults": "Aucun résultat. Essayez une autre recherche.",
-		"artists": "Artistes",
-		"releases": "Sorties",
-		"owned": "En bibliothèque",
-		"available": "Pas en bibliothèque",
 		"allTypes": "Tout",
+		"artists": "Artistes",
+		"available": "Pas en bibliothèque",
+		"hint": "Saisissez au moins 2 caractères pour lancer la recherche.",
+		"noResults": "Aucun résultat. Essayez une autre recherche.",
+		"owned": "En bibliothèque",
+		"placeholder": "Rechercher des artistes et des albums…",
+		"releases": "Sorties",
+		"searching": "Recherche…",
+		"subtitle": "Cherchez dans toute la musique les artistes et les albums que vous n'avez pas encore.",
+		"title": "Découvrir",
 		"type": {
 			"Album": "Albums",
-			"EP": "EP",
-			"Single": "Singles",
 			"Broadcast": "Sessions",
-			"Other": "Autres"
+			"EP": "EP",
+			"Other": "Autres",
+			"Single": "Singles"
 		},
 		"version": {
 			"instrumental": "Instrumental",
 			"live": "Live"
 		}
 	},
-	"follows": {
-		"title": "Abonnements",
-		"subtitle": "Les artistes que vous suivez. Leurs nouvelles sorties apparaissent automatiquement dans votre liste de manquants.",
-		"empty": "Vous ne suivez encore personne. Ouvrez un artiste dans Découvrir et appuyez sur Suivre.",
-		"unfollow": "Ne plus suivre",
-		"loadFailed": "Impossible de charger vos abonnements."
+	"download": {
+		"ackConfirm": "J'ai compris",
+		"ackMessage": "Chordia ne fournit aucun indexeur ni tracker. Les téléchargements utilisent les Prowlarr et qBittorrent que vous avez configurés, et vous êtes responsable de la légalité de ce que vous récupérez dans votre juridiction.",
+		"ackTitle": "Avant de télécharger",
+		"button": "Télécharger",
+		"chooseLibrary": "Télécharger dans…",
+		"failed": "Impossible de mettre le téléchargement en file d'attente",
+		"noLibrary": "Aucune bibliothèque compatible avec le téléchargement pour l'instant. Configurez d'abord Prowlarr + qBittorrent sur une bibliothèque.",
+		"notEnabled": "Les téléchargements ne sont pas activés sur cette bibliothèque.",
+		"queued": "Ajouté à la file d'attente de téléchargement"
 	},
 	"follow": {
 		"follow": "Suivre",
 		"following": "Suivi"
 	},
-	"download": {
-		"button": "Télécharger",
-		"queued": "Ajouté à la file d'attente de téléchargement",
-		"failed": "Impossible de mettre le téléchargement en file d'attente",
-		"noLibrary": "Aucune bibliothèque compatible avec le téléchargement pour l'instant. Configurez d'abord Prowlarr + qBittorrent sur une bibliothèque.",
-		"chooseLibrary": "Télécharger dans…",
-		"notEnabled": "Les téléchargements ne sont pas activés sur cette bibliothèque.",
-		"ackTitle": "Avant de télécharger",
-		"ackMessage": "Chordia ne fournit aucun indexeur ni tracker. Les téléchargements utilisent les Prowlarr et qBittorrent que vous avez configurés, et vous êtes responsable de la légalité de ce que vous récupérez dans votre juridiction.",
-		"ackConfirm": "J'ai compris"
+	"follows": {
+		"empty": "Vous ne suivez encore personne. Ouvrez un artiste dans Découvrir et appuyez sur Suivre.",
+		"loadFailed": "Impossible de charger vos abonnements.",
+		"subtitle": "Les artistes que vous suivez. Leurs nouvelles sorties apparaissent automatiquement dans votre liste de manquants.",
+		"title": "Abonnements",
+		"unfollow": "Ne plus suivre"
 	},
+	"libraries": {
+		"counts": "{tracks} morceaux · {albums} albums · {artists} artistes",
+		"hint": "Décochez une bibliothèque pour l'exclure du calcul de couverture.",
+		"includeShared": "Inclure les bibliothèques partagées avec moi",
+		"owned": "Possédées",
+		"shared": "Partagées",
+		"title": "Bibliothèques prises en compte"
+	},
+	"loadFailed": "Impossible de charger la couverture.",
+	"nav": "Gestionnaire",
 	"queue": {
-		"title": "Téléchargements",
-		"subtitle": "Votre activité de téléchargement.",
-		"empty": "Aucun téléchargement pour l'instant. Appuyez sur Télécharger sur un album manquant pour en lancer un.",
 		"cancel": "Annuler",
-		"retry": "Réessayer",
 		"choose": "Choisir la source",
-		"pickHint": "Nous ne savions pas quelle sortie correspond exactement à l'album, choisissez donc la bonne.",
-		"selectFailed": "Impossible de retenir cette source — la tâche a peut-être avancé. Actualisez et choisissez à nouveau.",
+		"empty": "Aucun téléchargement pour l'instant. Appuyez sur Télécharger sur un album manquant pour en lancer un.",
+		"intoLibrary": "dans la bibliothèque de @{handle}",
 		"loadFailed": "Impossible de charger vos téléchargements.",
-		"status": {
-			"queued": "En attente",
-			"claimed": "Démarrage",
-			"searching": "Recherche",
-			"grabbing": "Récupération",
-			"downloading": "Téléchargement",
-			"importing": "Importation",
-			"completed": "Terminé",
-			"failed": "Échec",
-			"no_results": "Aucune source trouvée",
-			"cancelled": "Annulé",
-			"awaiting_selection": "Choisissez une source"
-		},
+		"pickHint": "Nous ne savions pas quelle sortie correspond exactement à l'album, choisissez donc la bonne.",
 		"requestedBy": "demandé par @{handle}",
-		"intoLibrary": "dans la bibliothèque de @{handle}"
+		"retry": "Réessayer",
+		"selectFailed": "Impossible de retenir cette source — la tâche a peut-être avancé. Actualisez et choisissez à nouveau.",
+		"status": {
+			"awaiting_selection": "Choisissez une source",
+			"cancelled": "Annulé",
+			"claimed": "Démarrage",
+			"completed": "Terminé",
+			"downloading": "Téléchargement",
+			"failed": "Échec",
+			"grabbing": "Récupération",
+			"importing": "Importation",
+			"no_results": "Aucune source trouvée",
+			"queued": "En attente",
+			"searching": "Recherche"
+		},
+		"subtitle": "Votre activité de téléchargement.",
+		"title": "Téléchargements"
 	},
 	"settings": {
-		"title": "Paramètres du gestionnaire",
-		"subtitle": "Profils de qualité et état des téléchargements par bibliothèque.",
-		"profiles": "Profils de qualité",
-		"profilesHint": "Les téléchargements retiennent toujours la meilleure source disponible parmi les formats autorisés d'un profil.",
-		"default": "Par défaut",
-		"makeDefault": "Définir par défaut",
-		"preferSeeders": "Privilégier plus de seeders",
-		"newProfile": "Nouveau profil",
-		"name": "Nom",
-		"formats": "Formats autorisés (le meilleur en premier)",
-		"maxSize": "Taille max (Mo, facultatif)",
-		"save": "Enregistrer",
-		"delete": "Supprimer",
 		"created": "Profil enregistré",
-		"saveFailed": "Impossible d'enregistrer le profil",
+		"default": "Par défaut",
+		"delete": "Supprimer",
+		"destinationAsk": "Demander à chaque fois",
+		"destinationHelp": "Où arrivent les nouvelles demandes de téléchargement. Les bibliothèques de vos amis apparaissent ici lorsqu'ils vous ont accordé le droit de demande.",
+		"destinationSaved": "Destination par défaut enregistrée.",
+		"destinationTitle": "Destination des téléchargements",
+		"disabled": "Téléchargements désactivés",
+		"enabled": "Téléchargements activés",
+		"formats": "Formats autorisés (le meilleur en premier)",
+		"indexers": "{count} indexeurs",
 		"libraries": "État des téléchargements par bibliothèque",
 		"librariesHint": "Activez les téléchargements en configurant Prowlarr + qBittorrent dans le fichier chordia-library.toml de chaque bibliothèque.",
-		"enabled": "Téléchargements activés",
-		"disabled": "Téléchargements désactivés",
-		"indexers": "{count} indexeurs",
-		"destinationTitle": "Destination des téléchargements",
-		"destinationHelp": "Où arrivent les nouvelles demandes de téléchargement. Les bibliothèques de vos amis apparaissent ici lorsqu'ils vous ont accordé le droit de demande.",
-		"destinationAsk": "Demander à chaque fois",
-		"destinationSaved": "Destination par défaut enregistrée."
+		"makeDefault": "Définir par défaut",
+		"maxSize": "Taille max (Mo, facultatif)",
+		"name": "Nom",
+		"newProfile": "Nouveau profil",
+		"preferSeeders": "Privilégier plus de seeders",
+		"profiles": "Profils de qualité",
+		"profilesHint": "Les téléchargements retiennent toujours la meilleure source disponible parmi les formats autorisés d'un profil.",
+		"save": "Enregistrer",
+		"saveFailed": "Impossible d'enregistrer le profil",
+		"subtitle": "Profils de qualité et état des téléchargements par bibliothèque.",
+		"title": "Paramètres du gestionnaire"
 	},
+	"subtitle": "Suivez votre couverture et trouvez ce qui vous manque.",
+	"tabs": {
+		"coverage": "Couverture",
+		"discover": "Découvrir",
+		"downloads": "Téléchargements",
+		"follows": "Abonnements",
+		"settings": "Paramètres"
+	},
+	"title": "Gestionnaire de bibliothèque",
 	"upgrade": {
 		"check": "Chercher une meilleure qualité",
-		"queued": "Vérification de qualité mise en file d'attente — surveillez les Téléchargements. S'il existe une source strictement meilleure, elle sera téléchargée ; sinon la tâche se termine sans rien faire.",
+		"failed": "Impossible de lancer la vérification de qualité.",
 		"inProgress": "Une amélioration ou un téléchargement est déjà en cours pour cet album.",
 		"notIdentified": "Cet album n'a pas encore de correspondance MusicBrainz, il n'y a donc rien de fiable à rechercher.",
-		"failed": "Impossible de lancer la vérification de qualité."
+		"queued": "Vérification de qualité mise en file d'attente — surveillez les Téléchargements. S'il existe une source strictement meilleure, elle sera téléchargée ; sinon la tâche se termine sans rien faire."
 	}
 }

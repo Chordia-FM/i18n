@@ -5,6 +5,7 @@
 	"addError": "プレイリストに追加できませんでした",
 	"addToNamed": "{playlist}に追加",
 	"addToPlaylist": "プレイリストに追加",
+	"addedAlbumToast": "{count, plural, other {{playlist} に #曲を追加しました}}",
 	"addedToast": "{playlist}に追加しました",
 	"collaborators": {
 		"addError": "その共同編集者を追加できませんでした",
@@ -24,6 +25,8 @@
 		"change": "画像を変更",
 		"remove": "画像を削除"
 	},
+	"createFailed": "プレイリストを作成できませんでした",
+	"createdFromAlbumToast": "プレイリスト「{name}」を作成しました",
 	"delete": {
 		"confirmBody": "このプレイリストを削除しますか？",
 		"title": "プレイリストを削除"
@@ -37,11 +40,14 @@
 	},
 	"menuEmpty": "プレイリストがありません",
 	"new": "新しいプレイリスト",
+	"newFromAlbum": "新しいプレイリスト",
+	"newFromAlbumSub": "「{name}」から",
 	"prompt": {
 		"newName": "プレイリスト名",
 		"rename": "プレイリスト名を変更"
 	},
 	"removeFromPlaylist": "プレイリストから削除",
+	"searchPlaceholder": "プレイリストを検索",
 	"sharedWithYou": " · あなたと共有中",
 	"smart": {
 		"addRule": "ルールを追加",

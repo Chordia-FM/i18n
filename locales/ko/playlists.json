@@ -5,6 +5,7 @@
 	"addError": "플레이리스트에 추가하지 못했습니다",
 	"addToNamed": "{playlist}에 추가",
 	"addToPlaylist": "플레이리스트에 추가",
+	"addedAlbumToast": "{count, plural, other {{playlist}에 #곡을 추가했습니다}}",
 	"addedToast": "{playlist}에 추가함",
 	"collaborators": {
 		"addError": "공동 작업자를 추가하지 못했습니다",
@@ -24,6 +25,8 @@
 		"change": "이미지 변경",
 		"remove": "이미지 제거"
 	},
+	"createFailed": "플레이리스트를 만들지 못했습니다",
+	"createdFromAlbumToast": "플레이리스트 ‘{name}’을(를) 만들었습니다",
 	"delete": {
 		"confirmBody": "이 플레이리스트를 삭제할까요?",
 		"title": "플레이리스트 삭제"
@@ -37,11 +40,14 @@
 	},
 	"menuEmpty": "플레이리스트 없음",
 	"new": "새 플레이리스트",
+	"newFromAlbum": "새 플레이리스트",
+	"newFromAlbumSub": "‘{name}’에서",
 	"prompt": {
 		"newName": "플레이리스트 이름",
 		"rename": "플레이리스트 이름 변경"
 	},
 	"removeFromPlaylist": "플레이리스트에서 제거",
+	"searchPlaceholder": "플레이리스트 검색",
 	"sharedWithYou": " · 공유받음",
 	"smart": {
 		"addRule": "규칙 추가",

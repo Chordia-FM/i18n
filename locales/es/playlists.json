@@ -5,6 +5,7 @@
 	"addError": "No se pudo añadir a la lista",
 	"addToNamed": "Añadir a {playlist}",
 	"addToPlaylist": "Añadir a una lista",
+	"addedAlbumToast": "{count, plural, one {Se añadió # pista a {playlist}} other {Se añadieron # pistas a {playlist}}}",
 	"addedToast": "Añadido a {playlist}",
 	"collaborators": {
 		"addError": "No se pudo añadir a ese colaborador",
@@ -24,6 +25,8 @@
 		"change": "Cambiar imagen",
 		"remove": "Quitar imagen"
 	},
+	"createFailed": "No se pudo crear la lista",
+	"createdFromAlbumToast": "Lista «{name}» creada",
 	"delete": {
 		"confirmBody": "¿Eliminar esta lista?",
 		"title": "Eliminar lista"
@@ -37,11 +40,14 @@
 	},
 	"menuEmpty": "No hay listas",
 	"new": "Nueva lista",
+	"newFromAlbum": "Nueva lista",
+	"newFromAlbumSub": "De «{name}»",
 	"prompt": {
 		"newName": "Nombre de la lista",
 		"rename": "Cambiar el nombre de la lista"
 	},
 	"removeFromPlaylist": "Quitar de la lista",
+	"searchPlaceholder": "Buscar una lista",
 	"sharedWithYou": " · compartida contigo",
 	"smart": {
 		"addRule": "Añadir regla",

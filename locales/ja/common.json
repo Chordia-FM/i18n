@@ -9,12 +9,14 @@
 		"clearAll": "すべてクリア",
 		"close": "閉じる",
 		"confirm": "確認",
+		"copyLink": "リンクをコピー",
 		"delete": "削除",
 		"done": "完了",
 		"download": "ダウンロード",
 		"edit": "編集",
 		"find": "探す",
 		"goHome": "ホームへ戻る",
+		"linkCopied": "リンクをコピーしました",
 		"more": "その他",
 		"moveDown": "下へ移動",
 		"moveUp": "上へ移動",
@@ -36,7 +38,8 @@
 		"tryAgain": "再試行",
 		"undo": "元に戻す",
 		"unpin": "ピン留めを解除",
-		"verify": "確認"
+		"verify": "確認",
+		"view": "表示"
 	},
 	"appName": "Chordia",
 	"commandPalette": {
@@ -47,6 +50,10 @@
 		},
 		"noMatches": "一致する結果はありません。",
 		"placeholder": "音楽を検索、またはページへ移動…",
+		"searchFor": "「{query}」を検索",
+		"section": {
+			"navigation": "ナビゲーション"
+		},
 		"title": "コマンドパレット",
 		"typeToSearch": "入力して検索。"
 	},
@@ -92,6 +99,8 @@
 			"navigation": "ナビゲーション",
 			"player": "プレイヤー"
 		},
+		"then": "そのあと",
+		"title": "キーボードショートカット",
 		"toggleRightSidebar": "右サイドバーの表示切替"
 	},
 	"language": {
@@ -100,7 +109,9 @@
 	},
 	"nav": {
 		"allLibraries": "すべてのライブラリ",
+		"back": "戻る",
 		"closeMenu": "メニューを閉じる",
+		"forward": "進む",
 		"friends": "フレンド",
 		"home": "ホーム",
 		"insights": "リスニング",

@@ -7,6 +7,7 @@
 			"artistYearJoin": "{artist} · {year}"
 		},
 		"count": "{count, plural, one {# álbum} other {# álbumes}}",
+		"disc": "Disco {n}",
 		"download": {
 			"albumTitle": "Descargar álbum",
 			"busy": "Descargando…",
@@ -21,6 +22,7 @@
 		"durationHrMin": "{count, plural, one {# h} other {# h}} {minutes} min",
 		"durationMin": "{minutes} min",
 		"genresJoin": "{genres}",
+		"goToRadio": "Ir a la radio del artista",
 		"releaseDate": "{date, date, long}",
 		"songCount": "{count, plural, one {# canción} other {# canciones}}",
 		"typesJoin": "{types}"
@@ -103,7 +105,8 @@
 		"useThisArt": "Usar {kind}"
 	},
 	"entity": {
-		"artist": "Artista"
+		"artist": "Artista",
+		"label": "Sello"
 	},
 	"genres": {
 		"counts": "{albumsFormatted} {albums, plural, one {álbum} other {álbumes}} · {artistsFormatted} {artists, plural, one {artista} other {artistas}}",

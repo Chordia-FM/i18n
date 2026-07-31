@@ -9,12 +9,14 @@
 		"clearAll": "모두 지우기",
 		"close": "닫기",
 		"confirm": "확인",
+		"copyLink": "링크 복사",
 		"delete": "삭제",
 		"done": "완료",
 		"download": "다운로드",
 		"edit": "편집",
 		"find": "찾기",
 		"goHome": "홈으로",
+		"linkCopied": "링크를 복사했습니다",
 		"more": "더보기",
 		"moveDown": "아래로 이동",
 		"moveUp": "위로 이동",
@@ -36,7 +38,8 @@
 		"tryAgain": "다시 시도",
 		"undo": "실행 취소",
 		"unpin": "고정 해제",
-		"verify": "인증"
+		"verify": "인증",
+		"view": "보기"
 	},
 	"appName": "Chordia",
 	"commandPalette": {
@@ -47,6 +50,10 @@
 		},
 		"noMatches": "일치하는 항목이 없습니다.",
 		"placeholder": "음악을 검색하거나 페이지로 이동…",
+		"searchFor": "‘{query}’ 검색",
+		"section": {
+			"navigation": "탐색"
+		},
 		"title": "명령 팔레트",
 		"typeToSearch": "검색어를 입력하세요."
 	},
@@ -92,6 +99,8 @@
 			"navigation": "탐색",
 			"player": "플레이어"
 		},
+		"then": "다음",
+		"title": "키보드 단축키",
 		"toggleRightSidebar": "오른쪽 사이드바 전환"
 	},
 	"language": {
@@ -100,7 +109,9 @@
 	},
 	"nav": {
 		"allLibraries": "모든 라이브러리",
+		"back": "뒤로",
 		"closeMenu": "메뉴 닫기",
+		"forward": "앞으로",
 		"friends": "친구",
 		"home": "홈",
 		"insights": "감상",

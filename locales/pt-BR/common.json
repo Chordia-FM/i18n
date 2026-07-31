@@ -9,12 +9,14 @@
 		"clearAll": "Limpar tudo",
 		"close": "Fechar",
 		"confirm": "Confirmar",
+		"copyLink": "Copiar link",
 		"delete": "Excluir",
 		"done": "Concluído",
 		"download": "Baixar",
 		"edit": "Editar",
 		"find": "Localizar",
 		"goHome": "Ir para o início",
+		"linkCopied": "Link copiado",
 		"more": "Mais",
 		"moveDown": "Mover para baixo",
 		"moveUp": "Mover para cima",
@@ -36,7 +38,8 @@
 		"tryAgain": "Tentar novamente",
 		"undo": "Desfazer",
 		"unpin": "Desafixar",
-		"verify": "Verificar"
+		"verify": "Verificar",
+		"view": "Ver"
 	},
 	"appName": "Chordia",
 	"commandPalette": {
@@ -47,6 +50,10 @@
 		},
 		"noMatches": "Nenhuma correspondência.",
 		"placeholder": "Buscar música ou ir para uma página…",
+		"searchFor": "Buscar “{query}”",
+		"section": {
+			"navigation": "Navegação"
+		},
 		"title": "Paleta de comandos",
 		"typeToSearch": "Digite para pesquisar."
 	},
@@ -92,6 +99,8 @@
 			"navigation": "Navegação",
 			"player": "Player"
 		},
+		"then": "depois",
+		"title": "Atalhos de teclado",
 		"toggleRightSidebar": "Alternar barra lateral direita"
 	},
 	"language": {
@@ -100,7 +109,9 @@
 	},
 	"nav": {
 		"allLibraries": "Todas as bibliotecas",
+		"back": "Voltar",
 		"closeMenu": "Fechar menu",
+		"forward": "Avançar",
 		"friends": "Amigos",
 		"home": "Início",
 		"insights": "Audições",

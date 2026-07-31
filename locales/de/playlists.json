@@ -5,6 +5,7 @@
 	"addError": "Konnte nicht zur Playlist hinzugefügt werden",
 	"addToNamed": "Zu {playlist} hinzufügen",
 	"addToPlaylist": "Zur Playlist hinzufügen",
+	"addedAlbumToast": "{count, plural, one {# Titel zu {playlist} hinzugefügt} other {# Titel zu {playlist} hinzugefügt}}",
 	"addedToast": "Zu {playlist} hinzugefügt",
 	"collaborators": {
 		"addError": "Dieser Mitwirkende konnte nicht hinzugefügt werden",
@@ -24,6 +25,8 @@
 		"change": "Bild ändern",
 		"remove": "Bild entfernen"
 	},
+	"createFailed": "Playlist konnte nicht erstellt werden",
+	"createdFromAlbumToast": "Playlist „{name}“ erstellt",
 	"delete": {
 		"confirmBody": "Diese Playlist löschen?",
 		"title": "Playlist löschen"
@@ -37,11 +40,14 @@
 	},
 	"menuEmpty": "Keine Playlists",
 	"new": "Neue Playlist",
+	"newFromAlbum": "Neue Playlist",
+	"newFromAlbumSub": "Aus „{name}“",
 	"prompt": {
 		"newName": "Playlist-Name",
 		"rename": "Playlist umbenennen"
 	},
 	"removeFromPlaylist": "Aus Playlist entfernen",
+	"searchPlaceholder": "Playlist suchen",
 	"sharedWithYou": " · mit Ihnen geteilt",
 	"smart": {
 		"addRule": "Regel hinzufügen",

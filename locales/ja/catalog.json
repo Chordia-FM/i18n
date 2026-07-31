@@ -7,6 +7,7 @@
 			"artistYearJoin": "{artist} · {year}"
 		},
 		"count": "{count, plural, other {#枚のアルバム}}",
+		"disc": "ディスク {n}",
 		"download": {
 			"albumTitle": "アルバムをダウンロード",
 			"busy": "ダウンロード中…",
@@ -21,6 +22,7 @@
 		"durationHrMin": "{count, plural, other {#時間}}{minutes}分",
 		"durationMin": "{minutes}分",
 		"genresJoin": "{genres}",
+		"goToRadio": "アーティストラジオへ",
 		"releaseDate": "{date, date, long}",
 		"songCount": "{count, plural, other {#曲}}",
 		"typesJoin": "{types}"
@@ -103,7 +105,8 @@
 		"useThisArt": "この{kind}を使用"
 	},
 	"entity": {
-		"artist": "アーティスト"
+		"artist": "アーティスト",
+		"label": "レーベル"
 	},
 	"genres": {
 		"counts": "{albumsFormatted}{albums, plural, other {枚のアルバム}} · {artistsFormatted}{artists, plural, other {組のアーティスト}}",
