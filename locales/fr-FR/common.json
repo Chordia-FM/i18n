@@ -20,7 +20,7 @@
 		"more": "Plus",
 		"moveDown": "Descendre",
 		"moveUp": "Monter",
-		"ok": "OK",
+		"ok": "",
 		"open": "Ouvrir",
 		"pin": "Épingler",
 		"play": "Lire",
@@ -41,7 +41,7 @@
 		"verify": "Vérifier",
 		"view": "Voir"
 	},
-	"appName": "Chordia",
+	"appName": "",
 	"commandPalette": {
 		"hint": {
 			"go": "Aller",
@@ -52,7 +52,7 @@
 		"placeholder": "Rechercher de la musique ou accéder à une page…",
 		"searchFor": "Rechercher « {query} »",
 		"section": {
-			"navigation": "Navigation"
+			"navigation": ""
 		},
 		"title": "Palette de commandes",
 		"typeToSearch": "Saisissez votre recherche."
@@ -66,11 +66,11 @@
 	"fields": {
 		"artist": "Artiste",
 		"country": "Pays",
-		"description": "Description",
-		"label": "Label",
+		"description": "",
+		"label": "",
 		"name": "Nom",
 		"title": "Titre",
-		"type": "Type",
+		"type": "",
 		"year": "Année"
 	},
 	"fileBrowser": {
@@ -87,7 +87,7 @@
 		"reset": "Réinitialiser",
 		"rotateLeft": "Pivoter à gauche",
 		"rotateRight": "Pivoter à droite",
-		"zoom": "Zoom"
+		"zoom": ""
 	},
 	"keybinds": {
 		"closeDialog": "Fermer la boîte de dialogue",
@@ -96,7 +96,7 @@
 		"quickSearch": "Recherche rapide",
 		"section": {
 			"general": "Général",
-			"navigation": "Navigation",
+			"navigation": "",
 			"player": "Lecteur"
 		},
 		"then": "puis",
@@ -117,7 +117,7 @@
 		"insights": "Écoutes",
 		"library": "Bibliothèque",
 		"listen": "Écoute",
-		"menu": "Menu",
+		"menu": "",
 		"more": "Plus",
 		"openMenu": "Ouvrir le menu",
 		"search": "Rechercher",
@@ -155,7 +155,7 @@
 		"refresh": "Actualiser"
 	},
 	"userMenu": {
-		"admin": "Admin",
+		"admin": "",
 		"libraries": "Bibliothèques",
 		"profile": "Votre profil",
 		"settings": "Paramètres",
