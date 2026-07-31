@@ -4,7 +4,7 @@
 	},
 	"album": {
 		"card": {
-			"artistYearJoin": "{artist} · {year}"
+			"artistYearJoin": ""
 		},
 		"count": "{count, plural, other {#枚のアルバム}}",
 		"disc": "ディスク {n}",
@@ -21,11 +21,11 @@
 		},
 		"durationHrMin": "{count, plural, other {#時間}}{minutes}分",
 		"durationMin": "{minutes}分",
-		"genresJoin": "{genres}",
+		"genresJoin": "",
 		"goToRadio": "アーティストラジオへ",
-		"releaseDate": "{date, date, long}",
+		"releaseDate": "",
 		"songCount": "{count, plural, other {#曲}}",
-		"typesJoin": "{types}"
+		"typesJoin": ""
 	},
 	"artist": {
 		"albums": "アルバム",
@@ -35,10 +35,10 @@
 			"albumCount": "{count, plural, other {#枚のアルバム}}"
 		},
 		"discography": "ディスコグラフィー",
-		"factsJoin": "{facts}",
+		"factsJoin": "",
 		"formed": "{year}年結成",
-		"genresJoin": "{genres}",
-		"labelMetaJoin": "{span} · {releases}",
+		"genresJoin": "",
+		"labelMetaJoin": "",
 		"labels": "レーベル",
 		"links": {
 			"open": "アーティストのリンク",
@@ -50,7 +50,7 @@
 			"subtitle": "{count, plural, other {#枚のアルバムから}}",
 			"title": "{name} — ライブ"
 		},
-		"namesJoin": "{artists}",
+		"namesJoin": "",
 		"popular": "人気",
 		"radio": "ラジオ",
 		"relatedArtists": "関連アーティスト",
@@ -65,9 +65,9 @@
 			"live": "ライブ"
 		}
 	},
-	"artistNamesJoin": "{names}",
+	"artistNamesJoin": "",
 	"edit": {
-		"artOptionAlt": "{kind}",
+		"artOptionAlt": "",
 		"artworkAlt": "アートワーク",
 		"bannerSet": "バナーを設定しました ✓",
 		"browseAlbumCovers": "アルバムカバーを探す",
@@ -210,10 +210,10 @@
 		},
 		"explicit": "露骨な表現",
 		"playAria": "{artist}の{title}を再生",
-		"playsNumber": "{n, number}",
+		"playsNumber": "",
 		"relTime": {
 			"daysAgo": "{count, plural, other {#日前}}",
-			"fullDate": "{date, date, medium}",
+			"fullDate": "",
 			"today": "今日",
 			"yesterday": "昨日"
 		}
