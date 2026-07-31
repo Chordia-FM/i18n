@@ -1,39 +1,39 @@
 {
 	"dailyMix": {
-		"label": "Daily Mix"
+		"label": "Mix du jour"
 	},
 	"greeting": {
-		"afternoon": "Good afternoon",
-		"evening": "Good evening",
-		"morning": "Good morning"
+		"afternoon": "Bon après-midi",
+		"evening": "Bonsoir",
+		"morning": "Bonjour"
 	},
 	"home": {
-		"emptyState": "Nothing here yet - pair a library server and your catalog will appear."
+		"emptyState": "Rien ici pour l'instant — associez un serveur de bibliothèque et votre catalogue apparaîtra."
 	},
 	"jumpBackIn": {
-		"emptyState": "Things you've played recently will show up here.",
-		"title": "Jump back in"
+		"emptyState": "Ce que vous avez écouté récemment apparaîtra ici.",
+		"title": "Reprendre l'écoute"
 	},
 	"madeForYou": {
-		"emptyState": "Listen to more music and your daily mixes will appear here.",
-		"title": "Made for you"
+		"emptyState": "Écoutez plus de musique et vos mix du jour apparaîtront ici.",
+		"title": "Fait pour vous"
 	},
 	"mix": {
-		"noTracksToast": "This mix has no playable tracks yet",
-		"playTitle": "Play {title}",
-		"playingToast": "Playing {title}"
+		"noTracksToast": "Ce mix n'a pas encore de morceaux lisibles",
+		"playTitle": "Lire {title}",
+		"playingToast": "Lecture de {title}"
 	},
 	"radio": {
 		"label": "Radio",
-		"pin": "Pin radio"
+		"pin": "Épingler la radio"
 	},
 	"shelf": {
-		"jumpBackIn": "Jump back in",
-		"madeFor": "Made for {name}",
-		"madeForYou": "you",
-		"recommended": "Recommended for you",
-		"trendingAlbums": "Trending albums",
-		"trendingArtists": "Trending artists",
-		"yourLibraries": "Your libraries"
+		"jumpBackIn": "Reprendre l'écoute",
+		"madeFor": "Fait pour {name}",
+		"madeForYou": "vous",
+		"recommended": "Recommandé pour vous",
+		"trendingAlbums": "Albums tendance",
+		"trendingArtists": "Artistes tendance",
+		"yourLibraries": "Vos bibliothèques"
 	}
 }
