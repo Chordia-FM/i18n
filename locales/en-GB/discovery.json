@@ -1,39 +1,39 @@
 {
 	"dailyMix": {
-		"label": "Daily Mix"
+		"label": ""
 	},
 	"greeting": {
-		"afternoon": "Good afternoon",
-		"evening": "Good evening",
-		"morning": "Good morning"
+		"afternoon": "",
+		"evening": "",
+		"morning": ""
 	},
 	"home": {
 		"emptyState": "Nothing here yet - pair a library server and your catalogue will appear."
 	},
 	"jumpBackIn": {
-		"emptyState": "Things you've played recently will show up here.",
-		"title": "Jump back in"
+		"emptyState": "",
+		"title": ""
 	},
 	"madeForYou": {
-		"emptyState": "Listen to more music and your daily mixes will appear here.",
-		"title": "Made for you"
+		"emptyState": "",
+		"title": ""
 	},
 	"mix": {
-		"noTracksToast": "This mix has no playable tracks yet",
-		"playTitle": "Play {title}",
-		"playingToast": "Playing {title}"
+		"noTracksToast": "",
+		"playTitle": "",
+		"playingToast": ""
 	},
 	"radio": {
-		"label": "Radio",
-		"pin": "Pin radio"
+		"label": "",
+		"pin": ""
 	},
 	"shelf": {
-		"jumpBackIn": "Jump back in",
-		"madeFor": "Made for {name}",
-		"madeForYou": "you",
-		"recommended": "Recommended for you",
-		"trendingAlbums": "Trending albums",
-		"trendingArtists": "Trending artists",
-		"yourLibraries": "Your libraries"
+		"jumpBackIn": "",
+		"madeFor": "",
+		"madeForYou": "",
+		"recommended": "",
+		"trendingAlbums": "",
+		"trendingArtists": "",
+		"yourLibraries": ""
 	}
 }
