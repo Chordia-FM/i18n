@@ -1,222 +1,222 @@
 {
 	"actions": {
-		"editMetadata": "Edit metadata"
+		"editMetadata": "メタデータを編集"
 	},
 	"album": {
 		"card": {
 			"artistYearJoin": "{artist} · {year}"
 		},
-		"count": "{count, plural, one {# album} other {# albums}}",
-		"disc": "Disc {n}",
+		"count": "{count, plural, other {#枚のアルバム}}",
+		"disc": "ディスク {n}",
 		"download": {
-			"albumTitle": "Download album",
-			"busy": "Downloading…",
-			"done": "Downloaded",
-			"failed": "Download failed",
-			"removePartial": "Removed {removed}, {failed} failed",
-			"removeTitle": "Remove downloads",
-			"removed": "Removed downloads",
-			"savedCount": "{count, plural, one {Downloaded # song} other {Downloaded # songs}}",
-			"savedPartial": "Downloaded {saved}, {failed} failed"
+			"albumTitle": "アルバムをダウンロード",
+			"busy": "ダウンロード中…",
+			"done": "ダウンロード済み",
+			"failed": "ダウンロードに失敗しました",
+			"removePartial": "{removed}件を削除、{failed}件失敗",
+			"removeTitle": "ダウンロードを削除",
+			"removed": "ダウンロードを削除しました",
+			"savedCount": "{count, plural, other {#曲をダウンロードしました}}",
+			"savedPartial": "{saved}曲をダウンロード、{failed}曲失敗"
 		},
-		"durationHrMin": "{count, plural, one {# hr} other {# hr}} {minutes} min",
-		"durationMin": "{minutes} min",
+		"durationHrMin": "{count, plural, other {#時間}}{minutes}分",
+		"durationMin": "{minutes}分",
 		"genresJoin": "{genres}",
-		"goToRadio": "Go to artist radio",
+		"goToRadio": "アーティストラジオへ",
 		"releaseDate": "{date, date, long}",
-		"songCount": "{count, plural, one {# song} other {# songs}}",
+		"songCount": "{count, plural, other {#曲}}",
 		"typesJoin": "{types}"
 	},
 	"artist": {
-		"albums": "Albums",
-		"appearsOn": "Appears on",
-		"born": "Born {year}",
+		"albums": "アルバム",
+		"appearsOn": "参加作品",
+		"born": "{year}年生まれ",
 		"card": {
-			"albumCount": "{count, plural, one {# album} other {# albums}}"
+			"albumCount": "{count, plural, other {#枚のアルバム}}"
 		},
-		"discography": "Discography",
+		"discography": "ディスコグラフィー",
 		"factsJoin": "{facts}",
-		"formed": "Formed {year}",
+		"formed": "{year}年結成",
 		"genresJoin": "{genres}",
 		"labelMetaJoin": "{span} · {releases}",
-		"labels": "Labels",
+		"labels": "レーベル",
 		"links": {
-			"open": "Artist links",
-			"title": "Links"
+			"open": "アーティストのリンク",
+			"title": "リンク"
 		},
 		"liveAlbum": {
-			"card": "All live recordings",
-			"label": "Live collection",
-			"subtitle": "{count, plural, one {From # album} other {From # albums}}",
-			"title": "{name} — Live"
+			"card": "すべてのライブ音源",
+			"label": "ライブコレクション",
+			"subtitle": "{count, plural, other {#枚のアルバムから}}",
+			"title": "{name} — ライブ"
 		},
 		"namesJoin": "{artists}",
-		"popular": "Popular",
-		"radio": "Radio",
-		"relatedArtists": "Related artists",
+		"popular": "人気",
+		"radio": "ラジオ",
+		"relatedArtists": "関連アーティスト",
 		"relation": {
-			"alias": "Also known as",
-			"member": "Member of / members",
-			"related": "Related"
+			"alias": "別名",
+			"member": "メンバー / 所属グループ",
+			"related": "関連"
 		},
-		"releaseCount": "{count, plural, one {# release} other {# releases}}",
+		"releaseCount": "{count, plural, other {#件のリリース}}",
 		"versions": {
-			"instrumental": "Instrumental",
-			"live": "Live"
+			"instrumental": "インストゥルメンタル",
+			"live": "ライブ"
 		}
 	},
 	"artistNamesJoin": "{names}",
 	"edit": {
 		"artOptionAlt": "{kind}",
-		"artworkAlt": "artwork",
-		"bannerSet": "Banner set ✓",
-		"browseAlbumCovers": "Browse album covers",
-		"browseArtwork": "Browse artwork (fanart.tv)",
+		"artworkAlt": "アートワーク",
+		"bannerSet": "バナーを設定しました ✓",
+		"browseAlbumCovers": "アルバムカバーを探す",
+		"browseArtwork": "アートワークを探す（fanart.tv）",
 		"field": {
-			"album": "Album",
-			"artist": "Artist",
-			"bio": "Bio",
-			"discNo": "Disc #",
-			"genre": "Genre",
-			"genres": "Genres (comma-separated)",
-			"label": "Label",
-			"name": "Name",
-			"title": "Title",
-			"trackNo": "Track #",
-			"type": "Type",
-			"year": "Year"
+			"album": "アルバム",
+			"artist": "アーティスト",
+			"bio": "経歴",
+			"discNo": "ディスク番号",
+			"genre": "ジャンル",
+			"genres": "ジャンル（カンマ区切り）",
+			"label": "レーベル",
+			"name": "名前",
+			"title": "タイトル",
+			"trackNo": "トラック番号",
+			"type": "種類",
+			"year": "年"
 		},
-		"helpText": "Leave a field blank to keep the original. Changes are stored for this library only, unless you enable “Override globally”.",
-		"noArtworkAlbum": "No covers found — the album needs a MusicBrainz match.",
-		"noArtworkArtist": "No online artwork found — needs a fanart.tv API key and a MusicBrainz match.",
+		"helpText": "空欄のままにした項目は元の値を保持します。「グローバルに上書き」を有効にしない限り、変更はこのライブラリのみに保存されます。",
+		"noArtworkAlbum": "カバーが見つかりません。アルバムにMusicBrainzのマッチが必要です。",
+		"noArtworkArtist": "オンラインのアートワークが見つかりません。fanart.tvのAPIキーとMusicBrainzのマッチが必要です。",
 		"overrideGlobally": {
-			"help": "Also show this edit across your whole catalog (your highest-priority library wins). Doesn't change the original or affect other users.",
-			"label": "Override globally"
+			"help": "この編集をカタログ全体にも表示します（優先度が最も高いライブラリが優先されます）。元のデータや他のユーザーには影響しません。",
+			"label": "グローバルに上書き"
 		},
 		"reset": {
-			"confirmMessage": "Reset to original metadata? This clears your edits for this item.",
-			"confirmTitle": "Reset metadata"
+			"confirmMessage": "元のメタデータにリセットしますか？この項目に対するあなたの編集が消去されます。",
+			"confirmTitle": "メタデータをリセット"
 		},
-		"resetToOriginal": "Reset to original",
+		"resetToOriginal": "元に戻す",
 		"title": {
-			"album": "Edit album",
-			"artist": "Edit artist",
-			"track": "Edit track"
+			"album": "アルバムを編集",
+			"artist": "アーティストを編集",
+			"track": "トラックを編集"
 		},
-		"uploadBanner": "Upload banner",
-		"uploadCover": "Upload cover",
-		"uploadImage": "Upload image",
-		"useThisArt": "Use this {kind}"
+		"uploadBanner": "バナーをアップロード",
+		"uploadCover": "カバーをアップロード",
+		"uploadImage": "画像をアップロード",
+		"useThisArt": "この{kind}を使用"
 	},
 	"entity": {
-		"artist": "Artist",
-		"label": "Label"
+		"artist": "アーティスト",
+		"label": "レーベル"
 	},
 	"genres": {
-		"counts": "{albumsFormatted} {albums, plural, one {album} other {albums}} · {artistsFormatted} {artists, plural, one {artist} other {artists}}",
-		"empty": "No genres yet — they arrive with album metadata as your library is enriched.",
-		"eyebrow": "Genre",
-		"notFound": "No albums carry that genre.",
-		"title": "Genres",
-		"topAlbums": "Top albums",
-		"topArtists": "Top artists",
-		"variants": "Also tagged: {list}"
+		"counts": "{albumsFormatted}{albums, plural, other {枚のアルバム}} · {artistsFormatted}{artists, plural, other {組のアーティスト}}",
+		"empty": "まだジャンルがありません。カタログの補完が進むと、アルバムのメタデータとともに表示されます。",
+		"eyebrow": "ジャンル",
+		"notFound": "このジャンルのアルバムはありません。",
+		"title": "ジャンル",
+		"topAlbums": "トップアルバム",
+		"topArtists": "トップアーティスト",
+		"variants": "関連タグ: {list}"
 	},
 	"label": {
-		"albumCount": "{count, plural, one {# album} other {# albums}}",
-		"albumCountWithPrefix": "Label · {count, plural, one {# album} other {# albums}}",
-		"eyebrow": "Label",
-		"factsSeparator": "type · country · lifespan",
-		"formerNames": "{name1}, {name2}",
-		"formerly": "Formerly {names}",
+		"albumCount": "{count, plural, other {#枚のアルバム}}",
+		"albumCountWithPrefix": "レーベル · {count, plural, other {#枚のアルバム}}",
+		"eyebrow": "レーベル",
+		"factsSeparator": "種類 · 国 · 活動期間",
+		"formerNames": "{name1}、{name2}",
+		"formerly": "旧称: {names}",
 		"lifespan": {
-			"founded": "Founded {year}",
-			"range": "{from} – {to}",
-			"until": "Until {year}"
+			"founded": "{year}年設立",
+			"range": "{from}〜{to}",
+			"until": "{year}年まで"
 		},
-		"noAlbums": "No albums."
+		"noAlbums": "アルバムはありません。"
 	},
 	"labels": {
-		"empty": "No labels yet — they fill in as your catalog is enriched from MusicBrainz.",
-		"title": "Labels"
+		"empty": "まだレーベルがありません。MusicBrainzからのカタログ補完が進むと表示されます。",
+		"title": "レーベル"
 	},
 	"lyrics": {
-		"heading": "Lyrics",
-		"placeholderPlain": "First line\nSecond line",
-		"placeholderSynced": "[00:00.00] First line\n[00:04.20] Second line",
-		"plainHelp": "Plain lyrics — one line each, no timing.",
-		"resetDone": "Reset to auto-fetched lyrics",
-		"resetError": "Couldn't reset lyrics",
-		"resetToAuto": "Reset to auto",
-		"resetToAutoTitle": "Forget this edit and re-fetch from the provider",
-		"save": "Save lyrics",
-		"saveError": "Couldn't save lyrics",
-		"saved": "Lyrics saved",
-		"sharedNote": "Shared across all libraries. ",
-		"syncedHelp": "One line per lyric, each prefixed with a timestamp like [00:12.34]; untimed lines are dropped.",
-		"syncedLabel": "Synced (LRC timing)"
+		"heading": "歌詞",
+		"placeholderPlain": "1行目\n2行目",
+		"placeholderSynced": "[00:00.00] 1行目\n[00:04.20] 2行目",
+		"plainHelp": "プレーンな歌詞。1行ずつ、タイミング情報はありません。",
+		"resetDone": "自動取得の歌詞にリセットしました",
+		"resetError": "歌詞をリセットできませんでした",
+		"resetToAuto": "自動取得に戻す",
+		"resetToAutoTitle": "この編集を破棄してプロバイダーから再取得します",
+		"save": "歌詞を保存",
+		"saveError": "歌詞を保存できませんでした",
+		"saved": "歌詞を保存しました",
+		"sharedNote": "すべてのライブラリで共有されます。",
+		"syncedHelp": "各行の先頭に [00:12.34] のようなタイムスタンプを付けます。タイムスタンプのない行は除外されます。",
+		"syncedLabel": "同期歌詞（LRC形式）"
 	},
 	"report": {
-		"action": "Report",
-		"allLibraries": "All my libraries",
-		"bannerSet": "New banner ready ✓",
-		"changeBanner": "Change banner",
-		"changeImage": "Change image",
+		"action": "報告",
+		"allLibraries": "自分のすべてのライブラリ",
+		"bannerSet": "新しいバナーの準備ができました ✓",
+		"changeBanner": "バナーを変更",
+		"changeImage": "画像を変更",
 		"field": {
-			"bio": "Bio",
-			"genres": "Genres (comma-separated)",
-			"name": "Name",
-			"note": "Note for reviewers (optional)"
+			"bio": "経歴",
+			"genres": "ジャンル（カンマ区切り）",
+			"name": "名前",
+			"note": "レビュアーへのメモ（任意）"
 		},
-		"genresHint": "Separate multiple genres with commas.",
-		"helpText": "Edit {name}'s details below. Save changes to a library you own instantly, or submit them as a suggestion for everyone (an admin reviews those). Only changed fields are sent.",
-		"imageAlt": "Artist image",
-		"libraryTarget": "Choose which library to save to",
-		"noteHint": "Only sent with a suggestion. Anything that helps reviewers (e.g. a source link).",
-		"saveFailed": "Couldn't save your changes.",
-		"saveToLibrary": "Save to library",
-		"savedToAll": "Saved to all your libraries.",
-		"savedToLibrary": "Saved to {name}.",
-		"submit": "Submit suggestion",
-		"submitFailed": "Couldn't send your suggestion.",
-		"suggestionSent": "Suggestion sent for review.",
-		"title": "Edit artist details"
+		"genresHint": "複数のジャンルはカンマで区切ってください。",
+		"helpText": "{name}の情報を編集します。自分のライブラリには即時に保存でき、全員向けの提案として送信することもできます（提案は管理者が確認します）。変更した項目のみ送信されます。",
+		"imageAlt": "アーティスト画像",
+		"libraryTarget": "保存先のライブラリを選択",
+		"noteHint": "提案の送信時のみ添付されます。参考リンクなど、レビュアーの助けになる情報をどうぞ。",
+		"saveFailed": "変更を保存できませんでした。",
+		"saveToLibrary": "ライブラリに保存",
+		"savedToAll": "すべてのライブラリに保存しました。",
+		"savedToLibrary": "{name}に保存しました。",
+		"submit": "提案を送信",
+		"submitFailed": "提案を送信できませんでした。",
+		"suggestionSent": "提案を送信しました。管理者が確認します。",
+		"title": "アーティスト情報を編集"
 	},
 	"search": {
-		"placeholder": "Artists, albums, or songs"
+		"placeholder": "アーティスト、アルバム、曲"
 	},
 	"section": {
-		"albums": "Albums",
-		"artists": "Artists",
-		"labels": "Labels",
-		"songs": "Songs",
-		"tracks": "Tracks"
+		"albums": "アルバム",
+		"artists": "アーティスト",
+		"labels": "レーベル",
+		"songs": "曲",
+		"tracks": "トラック"
 	},
-	"songCount": "{count, plural, one {# song} other {# songs}}",
+	"songCount": "{count, plural, other {#曲}}",
 	"track": {
-		"clean": "Clean",
+		"clean": "クリーン",
 		"column": {
-			"album": "Album",
-			"dateAdded": "Date added",
-			"plays": "Plays",
-			"title": "Title"
+			"album": "アルバム",
+			"dateAdded": "追加日",
+			"plays": "再生回数",
+			"title": "タイトル"
 		},
 		"download": {
-			"exists": "Already downloaded",
-			"removeAction": "Remove download",
-			"removeError": "Couldn't remove download",
-			"removed": "Removed download",
-			"savedNamed": "Downloaded {title}"
+			"exists": "ダウンロード済み",
+			"removeAction": "ダウンロードを削除",
+			"removeError": "ダウンロードを削除できませんでした",
+			"removed": "ダウンロードを削除しました",
+			"savedNamed": "{title}をダウンロードしました"
 		},
-		"explicit": "Explicit",
-		"playAria": "Play {title} by {artist}",
+		"explicit": "露骨な表現",
+		"playAria": "{artist}の{title}を再生",
 		"playsNumber": "{n, number}",
 		"relTime": {
-			"daysAgo": "{count, plural, one {# day ago} other {# days ago}}",
+			"daysAgo": "{count, plural, other {#日前}}",
 			"fullDate": "{date, date, medium}",
-			"today": "Today",
-			"yesterday": "Yesterday"
+			"today": "今日",
+			"yesterday": "昨日"
 		}
 	},
-	"trackCount": "{count, plural, one {# track} other {# tracks}}"
+	"trackCount": "{count, plural, other {#曲}}"
 }
