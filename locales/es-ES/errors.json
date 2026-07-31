@@ -1,108 +1,108 @@
 {
 	"account": {
-		"emailChangeFailed": "Could not start email change."
+		"emailChangeFailed": "No se pudo iniciar el cambio de correo."
 	},
 	"admin": {
-		"deleteSelf": "Use account settings to delete your own account.",
-		"invalidReportAction": "Action must be “resolved” or “dismissed”."
+		"deleteSelf": "Usa los ajustes de la cuenta para eliminar tu propia cuenta.",
+		"invalidReportAction": "La acción debe ser “resolved” o “dismissed”."
 	},
 	"auth": {
-		"badCredentials": "Incorrect email or password.",
-		"displayNameLength": "Display name must be 1–64 characters.",
-		"emailInUse": "That email is already in use.",
-		"emailInvalid": "A valid email address is required.",
-		"handleChars": "Username may contain only letters, digits, “_” and “-”, and must start with a letter or digit.",
-		"handleLength": "Username must be 2–32 characters.",
-		"passwordLength": "Password must be {min}–{max} characters.",
-		"passwordRange": "Password must be 8–1024 characters.",
-		"twoFactorAlreadyEnabled": "Two-factor authentication is already enabled — disable it first.",
-		"twoFactorNotEnabled": "Two-factor authentication is not enabled.",
-		"twoFactorStartFirst": "Start two-factor setup first."
+		"badCredentials": "Correo o contraseña incorrectos.",
+		"displayNameLength": "El nombre visible debe tener entre 1 y 64 caracteres.",
+		"emailInUse": "Ese correo ya está en uso.",
+		"emailInvalid": "Se requiere una dirección de correo válida.",
+		"handleChars": "El nombre de usuario solo puede contener letras, números, “_” y “-”, y debe empezar por una letra o un número.",
+		"handleLength": "El nombre de usuario debe tener entre 2 y 32 caracteres.",
+		"passwordLength": "La contraseña debe tener entre {min} y {max} caracteres.",
+		"passwordRange": "La contraseña debe tener entre 8 y 1024 caracteres.",
+		"twoFactorAlreadyEnabled": "La autenticación de dos factores ya está activada: desactívala primero.",
+		"twoFactorNotEnabled": "La autenticación de dos factores no está activada.",
+		"twoFactorStartFirst": "Primero inicia la configuración de dos factores."
 	},
 	"catalog": {
-		"albumLoadFailed": "Failed to load",
-		"artistLoadFailed": "Failed to load",
-		"artistNameTaken": "Another artist already has that name.",
-		"labelLoadFailed": "Couldn't load this label",
-		"unknownArtist": "Unknown artist.",
-		"unknownImageHash": "Unknown image."
+		"albumLoadFailed": "No se pudo cargar",
+		"artistLoadFailed": "No se pudo cargar",
+		"artistNameTaken": "Ya hay otro artista con ese nombre.",
+		"labelLoadFailed": "No se pudo cargar este sello",
+		"unknownArtist": "Artista desconocido.",
+		"unknownImageHash": "Imagen desconocida."
 	},
-	"changeFailed": "Couldn't save that change — please try again.",
+	"changeFailed": "No se pudo guardar ese cambio. Inténtalo de nuevo.",
 	"directory": {
-		"serverOffline": "That server is offline."
+		"serverOffline": "Ese servidor está desconectado."
 	},
 	"discovery": {
-		"dailyMixFailed": "Couldn't build this mix",
-		"radioFailed": "Couldn't build this radio"
+		"dailyMixFailed": "No se pudo crear esta mezcla",
+		"radioFailed": "No se pudo crear esta radio"
 	},
-	"failedToLoad": "Failed to load",
+	"failedToLoad": "No se pudo cargar",
 	"friends": {
-		"cannotFriendSelf": "You can't send a friend request to yourself."
+		"cannotFriendSelf": "No puedes enviarte una solicitud de amistad a ti mismo."
 	},
-	"generic": "Failed",
+	"generic": "Error",
 	"image": {
-		"empty": "The image is empty.",
-		"fetchFailed": "Couldn't fetch that image.",
-		"hashMismatch": "Image content didn't match the expected hash.",
-		"invalidUrl": "Invalid image URL.",
-		"tooLarge": "Image is too large (max 8 MiB)."
+		"empty": "La imagen está vacía.",
+		"fetchFailed": "No se pudo obtener esa imagen.",
+		"hashMismatch": "El contenido de la imagen no coincide con el hash esperado.",
+		"invalidUrl": "La URL de la imagen no es válida.",
+		"tooLarge": "La imagen es demasiado grande (máx. 8 MiB)."
 	},
 	"insights": {
-		"compareSelf": "You can't compare with yourself.",
-		"compatibilityNotFound": "No user with that handle.",
-		"compatibilityPrivate": "That user's listening activity is private.",
-		"invalidTimezone": "Unknown time zone “{timezone}”.",
-		"loadFriendActivityFailed": "Failed to load friend activity",
-		"loadHistoryFailed": "Failed to load history",
-		"loadStatsFailed": "Failed to load stats",
-		"milestoneRange": "Pick a play number of 1 or more.",
-		"pagingPair": "before_ms and before_id must be provided together."
+		"compareSelf": "No puedes compararte contigo mismo.",
+		"compatibilityNotFound": "No hay ningún usuario con ese nombre.",
+		"compatibilityPrivate": "La actividad de escucha de ese usuario es privada.",
+		"invalidTimezone": "Zona horaria desconocida: “{timezone}”.",
+		"loadFriendActivityFailed": "No se pudo cargar la actividad de tus amigos",
+		"loadHistoryFailed": "No se pudo cargar el historial",
+		"loadStatsFailed": "No se pudieron cargar las estadísticas",
+		"milestoneRange": "Elige un número de reproducción igual o mayor que 1.",
+		"pagingPair": "before_ms y before_id deben enviarse juntos."
 	},
 	"label": {
-		"nameTaken": "Another label already has that name."
+		"nameTaken": "Ya hay otro sello con ese nombre."
 	},
 	"library": {
-		"limitReached": "Library limit reached for this account."
+		"limitReached": "Has alcanzado el límite de bibliotecas de esta cuenta."
 	},
 	"lyrics": {
-		"noLines": "There are no lyric lines to save."
+		"noLines": "No hay líneas de letra que guardar."
 	},
 	"moderation": {
-		"blockSelf": "You can't block yourself.",
-		"reasonRequired": "A reason (≤200 characters) is required."
+		"blockSelf": "No puedes bloquearte a ti mismo.",
+		"reasonRequired": "Se requiere un motivo (≤200 caracteres)."
 	},
-	"noFields": "No fields to update.",
+	"noFields": "No hay campos que actualizar.",
 	"oauth": {
-		"missingCode": "Missing authorization code."
+		"missingCode": "Falta el código de autorización."
 	},
 	"pins": {
-		"unknownKind": "Unknown pin kind."
+		"unknownKind": "Tipo de elemento fijado desconocido."
 	},
 	"playlist": {
-		"limitReached": "Playlist limit reached for this account."
+		"limitReached": "Has alcanzado el límite de listas de reproducción de esta cuenta."
 	},
 	"route": {
-		"message": "An unexpected error interrupted this page. You can try again or head back home.",
-		"title": "Something went wrong"
+		"message": "Un error inesperado ha interrumpido esta página. Puedes reintentarlo o volver al inicio.",
+		"title": "Algo salió mal"
 	},
-	"saveFailed": "Failed to save",
+	"saveFailed": "No se pudo guardar",
 	"share": {
-		"withSelf": "You can't share with yourself."
+		"withSelf": "No puedes compartir contigo mismo."
 	},
 	"twoFactor": {
-		"invalidCode": "Invalid code.",
-		"setupFailed": "Could not start 2FA setup."
+		"invalidCode": "Código no válido.",
+		"setupFailed": "No se pudo iniciar la configuración de 2FA."
 	},
 	"user": {
-		"handleGenFailed": "Couldn't generate a unique handle for this Discord account.",
-		"handleOrEmailTaken": "That handle or email is already taken.",
-		"handleTaken": "That handle is already taken.",
-		"invalidAvatarUrl": "Avatar URL must be an https:// address.",
-		"notFound": "No user with that handle."
+		"handleGenFailed": "No se pudo generar un nombre de usuario único para esta cuenta de Discord.",
+		"handleOrEmailTaken": "Ese nombre de usuario o correo ya está en uso.",
+		"handleTaken": "Ese nombre de usuario ya está en uso.",
+		"invalidAvatarUrl": "La URL del avatar debe ser una dirección https://.",
+		"notFound": "No hay ningún usuario con ese nombre."
 	},
 	"validation": {
-		"nameOrIconRequired": "A name or icon is required.",
-		"nameRequired": "Name is required."
+		"nameOrIconRequired": "Se requiere un nombre o un icono.",
+		"nameRequired": "El nombre es obligatorio."
 	},
-	"valueEmpty": "Value cannot be empty."
+	"valueEmpty": "El valor no puede estar vacío."
 }
