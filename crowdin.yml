@@ -44,11 +44,16 @@
 #   npm run crowdin:pull        # bring translations down
 #   git status                  # inspect before committing — this is the whole safety net
 #
-# The CLI does NOT inherit the project's Translations Export Settings. `crowdin download` builds its
-# own export and takes the options as flags, so ticking "Skip untranslated strings" in the Crowdin
-# UI changes nothing for a CLI pull — the download still arrives with every untranslated entry
-# "fulfilled with the source language", which for JSON means an empty string, not the English text.
-# That is why `crowdin:pull` passes --skip-untranslated-strings explicitly. Keep it there.
+# Crowdin's JSON export writes `""` for every untranslated string rather than omitting the key, and
+# nothing available here changes that. Both of the obvious levers were tried and left the output
+# byte-identical at 1,920 empties across seven locales: ticking "Skip untranslated strings" in the
+# project's export settings, and passing --skip-untranslated-strings to `crowdin download`.
+#
+# That difference is not cosmetic. A missing key falls back to English; an empty string is found,
+# treated as a translation, and rendered as nothing — so the UI goes blank precisely where a
+# translation is absent. `npm run crowdin:pull` therefore runs scripts/pull-translations.mjs, which
+# downloads and then strips empties, and check-catalogs.mjs fails on any that survive. Do not
+# "simplify" the pull back to a bare `crowdin download`.
 #
 # One thing is currently misconfigured on the Crowdin side, and needs fixing THERE, not here:
 #
