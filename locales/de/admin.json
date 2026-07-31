@@ -30,7 +30,6 @@
 		"editLabelTitle": "Label bearbeiten (global)",
 		"editTrackTitle": "Titel bearbeiten (global)",
 		"fields": {
-			"bio": "Bio",
 			"defunct": "Nicht mehr aktiv (leer = aktiv)",
 			"founded": "Gegründet",
 			"genres": "Genres (durch Kommas getrennt)"
@@ -42,7 +41,6 @@
 		"labelLoadError": "Das Label konnte nicht geladen werden.",
 		"labelSubtitle": "{count, plural, one {# Album} other {# Alben}}",
 		"loadError": "Die aktuellen Metadaten konnten nicht geladen werden.",
-		"logoAlt": "Logo",
 		"logoUploadFailed": "Das Hochladen des Logos ist fehlgeschlagen.",
 		"noAlbumCovers": "Keine Cover gefunden – das Album benötigt eine MusicBrainz-Zuordnung.",
 		"noArtistArtwork": "Keine Online-Grafiken gefunden – dafür sind ein fanart.tv-Schlüssel und eine MusicBrainz-Zuordnung nötig.",
@@ -60,8 +58,7 @@
 	},
 	"noAccess": {
 		"backToApp": "Zurück zur App",
-		"body": "Sie haben keinen Zugriff auf die Site-Administration. {link}.",
-		"title": "Admin"
+		"body": "Sie haben keinen Zugriff auf die Site-Administration. {link}."
 	},
 	"reports": {
 		"createdAt": "{date}",
@@ -77,11 +74,7 @@
 		"deny": "Ablehnen",
 		"empty": "Keine ausstehenden Vorschläge.",
 		"field": {
-			"banner": "Banner",
-			"bio": "Bio",
-			"genres": "Genres",
-			"image": "Bild",
-			"name": "Name"
+			"image": "Bild"
 		},
 		"none": "Keine",
 		"suggested": "Vorgeschlagen",

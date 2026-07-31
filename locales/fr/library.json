@@ -10,8 +10,22 @@
 		"shareTitle": "Partager cette bibliothèque",
 		"trackCount": "{count, plural, one {# morceau} other {# morceaux}}"
 	},
+	"downloads": {
+		"clearConfirm": {
+			"message": "Supprimer de cet appareil toutes les chansons téléchargées ?",
+			"title": "Effacer les téléchargements"
+		},
+		"clearError": "Impossible d'effacer les téléchargements",
+		"emptyState": "Les chansons que vous téléchargez se lisent sans connexion. Utilisez l'action Télécharger sur n'importe quel morceau pour l'enregistrer ici.",
+		"eyebrow": "Disponible hors ligne",
+		"navLabel": "Téléchargements",
+		"removeError": "Impossible de supprimer le téléchargement",
+		"removeTooltip": "Supprimer le téléchargement",
+		"songCount": "{count, plural, one {# chanson} other {# chansons}}",
+		"storedOnDevice": "stockées sur cet appareil",
+		"title": "Téléchargements"
+	},
 	"edit": {
-		"albumsLabel": "Albums",
 		"dedupeLabel": "Dédupliquer — ne garder que la copie de meilleure qualité lorsque des fichiers arrivent au même endroit (sinon ils reçoivent les suffixes (2), (3)…)",
 		"deleteConfirm": {
 			"confirmLabel": "Retirer",
@@ -50,8 +64,8 @@
 		"rescanFailed": "Échec de la nouvelle analyse",
 		"rescanFull": "Réindexation complète",
 		"rescanFullProgress": "Réindexation complète en cours…",
-		"rescanProgress": "Analyse en cours…",
 		"rescanHelp": "Relit chaque fichier du disque (métadonnées, morceaux ajoutés ou supprimés). La réindexation complète retraite aussi les fichiers inchangés. Utilisez-la pour appliquer à une bibliothèque existante des changements comme la fusion des éditions.",
+		"rescanProgress": "Analyse en cours…",
 		"rescanStatus": "Analyse de tous les fichiers…",
 		"rescanning": "Analyse en cours…",
 		"saveFolders": "Enregistrer les dossiers",
@@ -60,28 +74,12 @@
 		"title": "Modifier la bibliothèque",
 		"unknownLabel": "Morceaux non identifiés"
 	},
-	"downloads": {
-		"clearConfirm": {
-			"message": "Supprimer de cet appareil toutes les chansons téléchargées ?",
-			"title": "Effacer les téléchargements"
-		},
-		"clearError": "Impossible d'effacer les téléchargements",
-		"emptyState": "Les chansons que vous téléchargez se lisent sans connexion. Utilisez l'action Télécharger sur n'importe quel morceau pour l'enregistrer ici.",
-		"eyebrow": "Disponible hors ligne",
-		"navLabel": "Téléchargements",
-		"removeError": "Impossible de supprimer le téléchargement",
-		"removeTooltip": "Supprimer le téléchargement",
-		"songCount": "{count, plural, one {# chanson} other {# chansons}}",
-		"storedOnDevice": "stockées sur cet appareil",
-		"title": "Téléchargements"
-	},
 	"hidden": {
 		"hide": "Masquer cette chanson",
 		"unhide": "Réafficher"
 	},
 	"liked": {
 		"empty": "Les chansons que vous aimez apparaissent ici. Touchez le cœur sur n'importe quel morceau.",
-		"eyebrow": "Playlist",
 		"remove": "Retirer des chansons aimées",
 		"save": "Ajouter aux chansons aimées",
 		"songCount": "{count, plural, one {# chanson} other {# chansons}}",
@@ -179,29 +177,28 @@
 		"success": "Bibliothèque partagée avec succès.",
 		"title": "Partager « {name} »"
 	},
-	"sidebar": {
-		"pinned": "Épinglés",
-		"playlists": "Playlists",
-		"yourLibrary": "Votre bibliothèque"
-	},
-	"trackCount": "{count, plural, one {# morceau} other {# morceaux}}",
 	"shareManager": {
-		"title": "Amis et partage",
-		"help": "Qui a accès à cette bibliothèque, ce qu'ils en font et ce qu'ils sont autorisés à faire.",
-		"empty": "Partagée avec personne pour l'instant. Ajoutez un ami ci-dessous pour lui donner accès.",
 		"addFriend": "Ajouter un ami",
-		"revoke": "Retirer l'accès",
 		"canRequest": "Peut demander des téléchargements",
 		"directories": "Bibliothèques :",
-		"thisLibrary": "Cette bibliothèque",
+		"empty": "Partagée avec personne pour l'instant. Ajoutez un ami ci-dessous pour lui donner accès.",
 		"grantAccess": "Donner accès à {name}",
-		"removeAccess": "Retirer l'accès à {name}",
-		"streamingNow": "En écoute : {title} — {artist}",
-		"statsLine": "{requests} demandes · {downloads} téléchargements · {plays} écoutes · {time} d'écoute",
+		"help": "Qui a accès à cette bibliothèque, ce qu'ils en font et ce qu'ils sont autorisés à faire.",
 		"lastPlayed": "dernière écoute {date}",
-		"updateFailed": "Impossible de mettre à jour le partage — réessayez.",
+		"removeAccess": "Retirer l'accès à {name}",
+		"revoke": "Retirer l'accès",
+		"statsLine": "{requests} demandes · {downloads} téléchargements · {plays} écoutes · {time} d'écoute",
+		"streamingNow": "En écoute : {title} — {artist}",
+		"thisLibrary": "Cette bibliothèque",
 		"timeDaysHours": "{days}j {hours}h",
 		"timeHoursMinutes": "{hours}h {minutes}min",
-		"timeMinutes": "{minutes}min"
-	}
+		"timeMinutes": "{minutes}min",
+		"title": "Amis et partage",
+		"updateFailed": "Impossible de mettre à jour le partage — réessayez."
+	},
+	"sidebar": {
+		"pinned": "Épinglés",
+		"yourLibrary": "Votre bibliothèque"
+	},
+	"trackCount": "{count, plural, one {# morceau} other {# morceaux}}"
 }

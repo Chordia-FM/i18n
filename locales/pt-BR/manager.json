@@ -52,12 +52,9 @@
 		"type": {
 			"Album": "Álbuns",
 			"Broadcast": "Sessões",
-			"EP": "EPs",
-			"Other": "Outros",
-			"Single": "Singles"
+			"Other": "Outros"
 		},
 		"version": {
-			"instrumental": "Instrumental",
 			"live": "Ao vivo"
 		}
 	},
@@ -116,8 +113,7 @@
 			"queued": "Na fila",
 			"searching": "Buscando"
 		},
-		"subtitle": "Sua atividade de downloads.",
-		"title": "Downloads"
+		"subtitle": "Sua atividade de downloads."
 	},
 	"settings": {
 		"created": "Perfil salvo",
@@ -149,7 +145,6 @@
 	"tabs": {
 		"coverage": "Cobertura",
 		"discover": "Descobrir",
-		"downloads": "Downloads",
 		"follows": "Seguindo",
 		"settings": "Configurações"
 	},

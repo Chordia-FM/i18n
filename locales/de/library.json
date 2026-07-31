@@ -10,6 +10,19 @@
 		"shareTitle": "Diese Bibliothek teilen",
 		"trackCount": "{count, plural, one {# Titel} other {# Titel}}"
 	},
+	"downloads": {
+		"clearConfirm": {
+			"message": "Alle heruntergeladenen Songs von diesem Gerät entfernen?",
+			"title": "Downloads löschen"
+		},
+		"clearError": "Downloads konnten nicht gelöscht werden",
+		"emptyState": "Heruntergeladene Songs lassen sich ohne Verbindung abspielen. Verwenden Sie die Download-Aktion bei einem beliebigen Titel, um ihn hier zu speichern.",
+		"eyebrow": "Offline verfügbar",
+		"removeError": "Download konnte nicht entfernt werden",
+		"removeTooltip": "Download entfernen",
+		"songCount": "{count, plural, one {# Song} other {# Songs}}",
+		"storedOnDevice": "auf diesem Gerät gespeichert"
+	},
 	"edit": {
 		"albumsLabel": "Alben",
 		"dedupeLabel": "Deduplizieren – nur die Kopie mit der höchsten Qualität behalten, wenn Dateien am selben Ort landen (sonst erhalten sie die Suffixe (2), (3)…)",
@@ -50,8 +63,8 @@
 		"rescanFailed": "Erneuter Scan fehlgeschlagen",
 		"rescanFull": "Vollständige Neuindizierung",
 		"rescanFullProgress": "Vollständige Neuindizierung läuft…",
-		"rescanProgress": "Wird erneut gescannt…",
 		"rescanHelp": "Liest jede Datei erneut von der Festplatte (Metadaten, hinzugefügte/entfernte Titel). Bei der vollständigen Neuindizierung werden auch unveränderte Dateien erneut verarbeitet. Damit lassen sich Änderungen wie das Zusammenführen von Editionen auf eine bestehende Bibliothek anwenden.",
+		"rescanProgress": "Wird erneut gescannt…",
 		"rescanStatus": "Alle Dateien werden erneut gescannt…",
 		"rescanning": "Wird erneut gescannt…",
 		"saveFolders": "Ordner speichern",
@@ -60,28 +73,12 @@
 		"title": "Bibliothek bearbeiten",
 		"unknownLabel": "Nicht identifizierte Titel"
 	},
-	"downloads": {
-		"clearConfirm": {
-			"message": "Alle heruntergeladenen Songs von diesem Gerät entfernen?",
-			"title": "Downloads löschen"
-		},
-		"clearError": "Downloads konnten nicht gelöscht werden",
-		"emptyState": "Heruntergeladene Songs lassen sich ohne Verbindung abspielen. Verwenden Sie die Download-Aktion bei einem beliebigen Titel, um ihn hier zu speichern.",
-		"eyebrow": "Offline verfügbar",
-		"navLabel": "Downloads",
-		"removeError": "Download konnte nicht entfernt werden",
-		"removeTooltip": "Download entfernen",
-		"songCount": "{count, plural, one {# Song} other {# Songs}}",
-		"storedOnDevice": "auf diesem Gerät gespeichert",
-		"title": "Downloads"
-	},
 	"hidden": {
 		"hide": "Diesen Song ausblenden",
 		"unhide": "Einblenden"
 	},
 	"liked": {
 		"empty": "Songs, die Ihnen gefallen, erscheinen hier. Tippen Sie bei einem beliebigen Titel auf das Herz.",
-		"eyebrow": "Playlist",
 		"remove": "Aus Lieblingssongs entfernen",
 		"save": "Zu Lieblingssongs hinzufügen",
 		"songCount": "{count, plural, one {# Song} other {# Songs}}",
@@ -179,29 +176,28 @@
 		"success": "Bibliothek erfolgreich geteilt.",
 		"title": "„{name}“ teilen"
 	},
-	"sidebar": {
-		"pinned": "Angeheftet",
-		"playlists": "Playlists",
-		"yourLibrary": "Ihre Bibliothek"
-	},
-	"trackCount": "{count, plural, one {# Titel} other {# Titel}}",
 	"shareManager": {
-		"title": "Freunde & Freigabe",
-		"help": "Wer Zugriff auf diese Bibliothek hat, was damit geschieht und was erlaubt ist.",
-		"empty": "Noch mit niemandem geteilt. Fügen Sie unten einen Freund hinzu, um ihm Zugriff zu geben.",
 		"addFriend": "Freund hinzufügen",
-		"revoke": "Zugriff entziehen",
 		"canRequest": "Kann Downloads anfordern",
 		"directories": "Bibliotheken:",
-		"thisLibrary": "Diese Bibliothek",
+		"empty": "Noch mit niemandem geteilt. Fügen Sie unten einen Freund hinzu, um ihm Zugriff zu geben.",
 		"grantAccess": "{name} Zugriff gewähren",
-		"removeAccess": "{name} den Zugriff entziehen",
-		"streamingNow": "Streamt gerade: {title} — {artist}",
-		"statsLine": "{requests} angefordert · {downloads} heruntergeladen · {plays} Wiedergaben · {time} gehört",
+		"help": "Wer Zugriff auf diese Bibliothek hat, was damit geschieht und was erlaubt ist.",
 		"lastPlayed": "zuletzt gehört {date}",
-		"updateFailed": "Die Freigabe konnte nicht aktualisiert werden – bitte erneut versuchen.",
+		"removeAccess": "{name} den Zugriff entziehen",
+		"revoke": "Zugriff entziehen",
+		"statsLine": "{requests} angefordert · {downloads} heruntergeladen · {plays} Wiedergaben · {time} gehört",
+		"streamingNow": "Streamt gerade: {title} — {artist}",
+		"thisLibrary": "Diese Bibliothek",
 		"timeDaysHours": "{days} T {hours} Std.",
 		"timeHoursMinutes": "{hours} Std. {minutes} Min.",
-		"timeMinutes": "{minutes} Min."
-	}
+		"timeMinutes": "{minutes} Min.",
+		"title": "Freunde & Freigabe",
+		"updateFailed": "Die Freigabe konnte nicht aktualisiert werden – bitte erneut versuchen."
+	},
+	"sidebar": {
+		"pinned": "Angeheftet",
+		"yourLibrary": "Ihre Bibliothek"
+	},
+	"trackCount": "{count, plural, one {# Titel} other {# Titel}}"
 }

@@ -4,10 +4,8 @@
 		"changeEmail": "E-Mail-Adresse ändern",
 		"displayName": "Anzeigename",
 		"emailChangeSent": "Prüfen Sie Ihren neuen Posteingang auf einen Bestätigungslink.",
-		"handle": "Handle",
 		"handleHint": "Buchstaben, Ziffern, „_“ und „-“. Muss eindeutig sein.",
 		"handlePlaceholder": "ihrname",
-		"newEmailPlaceholder": "new@example.com",
 		"resendVerification": "Bestätigungs-E-Mail erneut senden",
 		"saveProfile": "Profil speichern",
 		"sendConfirmation": "Bestätigung senden",
@@ -31,8 +29,7 @@
 			"desc": "Scrobbeln Sie Ihre Wiedergaben automatisch zu Last.fm.",
 			"disconnect": "Trennen",
 			"disconnected": "Last.fm wurde getrennt",
-			"failed": "Last.fm konnte nicht verbunden werden",
-			"label": "Last.fm"
+			"failed": "Last.fm konnte nicht verbunden werden"
 		},
 		"title": "Verbindungen"
 	},
@@ -50,7 +47,6 @@
 	},
 	"downloads": {
 		"browserStorageName": "Dieses Gerät (Browserspeicher)",
-		"bytes": "{bytes} B / {kb} KB / {mb} MB / {gb} GB",
 		"serverNote": "Musikbibliotheken selbst werden auf Ihrem Chordia-Bibliotheksserver hinzugefügt und verwaltet, nicht hier. Das Speichern von Downloads in einem eigenen Ordner (mit eigenem Pfad und eigener Ordnerstruktur) folgt in der Desktop-App.",
 		"thisDevice": {
 			"description": "Heruntergeladene Songs werden auf diesem Gerät gespeichert und lassen sich ohne Verbindung abspielen.",
@@ -58,7 +54,6 @@
 			"title": "Dieses Gerät (Browserspeicher)",
 			"usage": "{count, plural, one {# Song} other {# Songs}} · {size}."
 		},
-		"title": "Downloads",
 		"unsupportedDestination": "Downloads nach „{destination}“ benötigen die Desktop-App"
 	},
 	"eq": {
@@ -69,23 +64,14 @@
 			"classical": "Klassik",
 			"electronic": "Elektronisch",
 			"flat": "Neutral",
-			"hipHop": "Hip-Hop",
-			"jazz": "Jazz",
-			"loudness": "Loudness",
-			"pop": "Pop",
-			"rock": "Rock",
 			"trebleBoost": "Höhen verstärken",
 			"trebleReducer": "Höhen reduzieren",
 			"vocal": "Gesang"
 		}
 	},
-	"equalizer": {
-		"title": "Equalizer"
-	},
 	"playback": {
 		"autoplay": {
-			"desc": "Spielt weiterhin ähnliche Musik, wenn die Warteschlange endet.",
-			"label": "Autoplay"
+			"desc": "Spielt weiterhin ähnliche Musik, wenn die Warteschlange endet."
 		},
 		"crossfade": {
 			"desc": "Blendet das Ende jedes Titels in den nächsten über. Angabe in Sekunden.",
@@ -109,8 +95,7 @@
 				"label": "Hoch"
 			},
 			"normal": {
-				"desc": "~128 kbps – ausgewogen.",
-				"label": "Normal"
+				"desc": "~128 kbps – ausgewogen."
 			},
 			"original": {
 				"desc": "Bitgenaue Quelle. Höchste Bandbreite.",
@@ -154,8 +139,7 @@
 			"label": "Verlustfrei"
 		},
 		"normal": {
-			"desc": "~128 kbps – ausgewogen.",
-			"label": "Normal"
+			"desc": "~128 kbps – ausgewogen."
 		},
 		"title": "Streaming-Qualität"
 	},
@@ -168,8 +152,7 @@
 			"noMatches": "Keine Zeitzone entspricht Ihrer Suche",
 			"search": "Zeitzonen durchsuchen…",
 			"zoneWithOffset": "{zone} ({offset})"
-		},
-		"title": "Region"
+		}
 	},
 	"sessions": {
 		"body": "Hier sind Sie angemeldet. Widerrufen Sie jedes Gerät, das Sie nicht kennen.",

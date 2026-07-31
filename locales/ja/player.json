@@ -45,14 +45,12 @@
 		"dragHint": "ノードをドラッグしてカーブを調整",
 		"dragHintParametric": " · 左右ドラッグで周波数 · スクロールで幅（Q）",
 		"enable": "イコライザーを有効化",
-		"freqDisplay": "{freq}Hz",
 		"graph": {
 			"ariaLabel": "イコライザーの応答。バンドのノードをドラッグして音を調整します",
 			"title": "イコライザー応答カーブ"
 		},
 		"parametric": "パラメトリック",
 		"preamp": "プリアンプ",
-		"preampDisplay": "{value} dB",
 		"presetCustom": "カスタム",
 		"presetSelect": "EQプリセット",
 		"presetsGroup": "プリセット",
@@ -95,7 +93,6 @@
 		"change": "変更",
 		"dataPerHourGb": "約{value} GB/時",
 		"dataPerHourMb": "約{value} MB/時",
-		"khz": "{value} kHz",
 		"lossless": "ロスレス",
 		"lossy": "非可逆",
 		"loudness": "ラウドネス",

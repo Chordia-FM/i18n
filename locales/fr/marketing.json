@@ -4,10 +4,6 @@
 		"openApp": "Ouvrir l'application"
 	},
 	"eyebrow": "Possédez votre audio · partagez-le à votre façon",
-	"footer": {
-		"github": "GitHub",
-		"license": "Open source · AGPL-3.0 ·"
-	},
 	"hero": {
 		"paragraph": "Un écosystème musical hybride et auto-hébergé. La maîtrise totale de votre bibliothèque, avec l'expérience sociale et connectée du streaming — en fidélité bit-perfect."
 	},

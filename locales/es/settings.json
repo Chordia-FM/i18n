@@ -7,7 +7,6 @@
 		"handle": "Usuario",
 		"handleHint": "Letras, números, “_” y “-”. Debe ser único.",
 		"handlePlaceholder": "tunombre",
-		"newEmailPlaceholder": "new@example.com",
 		"resendVerification": "Reenviar el correo de verificación",
 		"saveProfile": "Guardar perfil",
 		"sendConfirmation": "Enviar confirmación",
@@ -31,8 +30,7 @@
 			"desc": "Envía automáticamente tus reproducciones a Last.fm.",
 			"disconnect": "Desconectar",
 			"disconnected": "Last.fm desconectado",
-			"failed": "No se pudo conectar Last.fm",
-			"label": "Last.fm"
+			"failed": "No se pudo conectar Last.fm"
 		},
 		"title": "Conexiones"
 	},
@@ -50,7 +48,6 @@
 	},
 	"downloads": {
 		"browserStorageName": "Este dispositivo (almacenamiento del navegador)",
-		"bytes": "{bytes} B / {kb} KB / {mb} MB / {gb} GB",
 		"serverNote": "Las bibliotecas de música se añaden y organizan en tu servidor de biblioteca de Chordia, no aquí. Guardar las descargas en una carpeta propia (con tu ruta y tu estructura) llegará a la aplicación de escritorio.",
 		"thisDevice": {
 			"description": "Las canciones descargadas se guardan en este dispositivo y se reproducen sin conexión.",
@@ -69,14 +66,9 @@
 			"classical": "Clásica",
 			"electronic": "Electrónica",
 			"flat": "Plano",
-			"hipHop": "Hip-Hop",
-			"jazz": "Jazz",
 			"loudness": "Sonoridad",
-			"pop": "Pop",
-			"rock": "Rock",
 			"trebleBoost": "Refuerzo de agudos",
-			"trebleReducer": "Reducción de agudos",
-			"vocal": "Vocal"
+			"trebleReducer": "Reducción de agudos"
 		}
 	},
 	"equalizer": {
@@ -109,8 +101,7 @@
 				"label": "Alta"
 			},
 			"normal": {
-				"desc": "~128 kbps: equilibrada.",
-				"label": "Normal"
+				"desc": "~128 kbps: equilibrada."
 			},
 			"original": {
 				"desc": "Fuente bit a bit. Máximo ancho de banda.",
@@ -154,8 +145,7 @@
 			"label": "Sin pérdida"
 		},
 		"normal": {
-			"desc": "~128 kbps — equilibrada.",
-			"label": "Normal"
+			"desc": "~128 kbps — equilibrada."
 		},
 		"title": "Calidad de streaming"
 	},

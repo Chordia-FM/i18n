@@ -109,7 +109,6 @@
 	},
 	"duration": {
 		"days": "{days}d",
-		"daysHours": "{days}d {hours}h",
 		"hoursMinutes": "{hours}h {minutes}min",
 		"minutes": "{minutes}min",
 		"seconds": "{seconds}s"
@@ -351,8 +350,7 @@
 		"discovery": "Descubrimiento",
 		"history": "Historial",
 		"overview": "Resumen",
-		"records": "Récords",
-		"social": "Social"
+		"records": "Récords"
 	},
 	"title": "Escucha",
 	"top": {
@@ -380,7 +378,6 @@
 	"wrapped": {
 		"downloaded": "Se guardó tu tarjeta de Wrapped.",
 		"failed": "No se pudo crear la tarjeta. Inténtalo de nuevo.",
-		"heading": "Chordia Wrapped",
 		"minutesListened": "minutos escuchados",
 		"periodTitle": {
 			"halfYear": "Tus últimos 6 meses en música",

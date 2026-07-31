@@ -10,6 +10,19 @@
 		"shareTitle": "Compartilhar esta biblioteca",
 		"trackCount": "{count, plural, one {# faixa} other {# faixas}}"
 	},
+	"downloads": {
+		"clearConfirm": {
+			"message": "Remover deste dispositivo todas as músicas baixadas?",
+			"title": "Limpar downloads"
+		},
+		"clearError": "Não foi possível limpar os downloads",
+		"emptyState": "As músicas que você baixa tocam sem conexão. Use a ação Baixar em qualquer faixa para guardá-la aqui.",
+		"eyebrow": "Disponível offline",
+		"removeError": "Não foi possível remover o download",
+		"removeTooltip": "Remover download",
+		"songCount": "{count, plural, one {# música} other {# músicas}}",
+		"storedOnDevice": "guardadas neste dispositivo"
+	},
 	"edit": {
 		"albumsLabel": "Álbuns",
 		"dedupeLabel": "Remover duplicatas — manter só a cópia de melhor qualidade quando os arquivos forem parar no mesmo lugar (senão eles ganham sufixos (2), (3)…)",
@@ -50,8 +63,8 @@
 		"rescanFailed": "Falha na verificação",
 		"rescanFull": "Reindexação completa",
 		"rescanFullProgress": "Reindexação completa em andamento…",
-		"rescanProgress": "Verificando de novo…",
 		"rescanHelp": "Relê todos os arquivos do disco (metadados, faixas adicionadas/removidas). A reindexação completa também reprocessa os arquivos inalterados. Use para aplicar mudanças como a fusão de edições a uma biblioteca existente.",
+		"rescanProgress": "Verificando de novo…",
 		"rescanStatus": "Verificando todos os arquivos de novo…",
 		"rescanning": "Verificando de novo…",
 		"saveFolders": "Salvar pastas",
@@ -60,28 +73,12 @@
 		"title": "Editar biblioteca",
 		"unknownLabel": "Faixas não identificadas"
 	},
-	"downloads": {
-		"clearConfirm": {
-			"message": "Remover deste dispositivo todas as músicas baixadas?",
-			"title": "Limpar downloads"
-		},
-		"clearError": "Não foi possível limpar os downloads",
-		"emptyState": "As músicas que você baixa tocam sem conexão. Use a ação Baixar em qualquer faixa para guardá-la aqui.",
-		"eyebrow": "Disponível offline",
-		"navLabel": "Downloads",
-		"removeError": "Não foi possível remover o download",
-		"removeTooltip": "Remover download",
-		"songCount": "{count, plural, one {# música} other {# músicas}}",
-		"storedOnDevice": "guardadas neste dispositivo",
-		"title": "Downloads"
-	},
 	"hidden": {
 		"hide": "Ocultar esta música",
 		"unhide": "Reexibir"
 	},
 	"liked": {
 		"empty": "As músicas que você curtir aparecem aqui. Toque no coração de qualquer faixa.",
-		"eyebrow": "Playlist",
 		"remove": "Remover das Músicas Curtidas",
 		"save": "Salvar em Músicas Curtidas",
 		"songCount": "{count, plural, one {# música} other {# músicas}}",
@@ -179,29 +176,26 @@
 		"success": "Biblioteca compartilhada com sucesso.",
 		"title": "Compartilhar \"{name}\""
 	},
-	"sidebar": {
-		"pinned": "Fixados",
-		"playlists": "Playlists",
-		"yourLibrary": "Sua biblioteca"
-	},
-	"trackCount": "{count, plural, one {# faixa} other {# faixas}}",
 	"shareManager": {
-		"title": "Amigos e compartilhamento",
-		"help": "Quem tem acesso a esta biblioteca, o que essas pessoas estão fazendo com ela e o que elas podem fazer.",
-		"empty": "Ainda não foi compartilhada com ninguém. Adicione um amigo abaixo para dar acesso a ele.",
 		"addFriend": "Adicionar amigo",
-		"revoke": "Remover acesso",
 		"canRequest": "Pode pedir downloads",
 		"directories": "Bibliotecas:",
-		"thisLibrary": "Esta biblioteca",
+		"empty": "Ainda não foi compartilhada com ninguém. Adicione um amigo abaixo para dar acesso a ele.",
 		"grantAccess": "Dar acesso a {name}",
-		"removeAccess": "Remover o acesso de {name}",
-		"streamingNow": "Ouvindo agora: {title} — {artist}",
-		"statsLine": "{requests} pedidos · {downloads} downloads · {plays} reproduções · {time} de audição",
+		"help": "Quem tem acesso a esta biblioteca, o que essas pessoas estão fazendo com ela e o que elas podem fazer.",
 		"lastPlayed": "ouviu pela última vez {date}",
-		"updateFailed": "Não foi possível atualizar o compartilhamento — tente novamente.",
-		"timeDaysHours": "{days}d {hours}h",
-		"timeHoursMinutes": "{hours}h {minutes}m",
-		"timeMinutes": "{minutes}m"
-	}
+		"removeAccess": "Remover o acesso de {name}",
+		"revoke": "Remover acesso",
+		"statsLine": "{requests} pedidos · {downloads} downloads · {plays} reproduções · {time} de audição",
+		"streamingNow": "Ouvindo agora: {title} — {artist}",
+		"thisLibrary": "Esta biblioteca",
+		"timeMinutes": "{minutes}m",
+		"title": "Amigos e compartilhamento",
+		"updateFailed": "Não foi possível atualizar o compartilhamento — tente novamente."
+	},
+	"sidebar": {
+		"pinned": "Fixados",
+		"yourLibrary": "Sua biblioteca"
+	},
+	"trackCount": "{count, plural, one {# faixa} other {# faixas}}"
 }

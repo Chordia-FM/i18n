@@ -109,8 +109,6 @@
 	},
 	"duration": {
 		"days": "{days}d",
-		"daysHours": "{days}d {hours}h",
-		"hoursMinutes": "{hours}h {minutes}m",
 		"minutes": "{minutes}m",
 		"seconds": "{seconds}s"
 	},
@@ -327,7 +325,6 @@
 	},
 	"stats": {
 		"dateLabel": "{date, date, ::yMMMd}",
-		"duration": "{days}d {hours}h / {hours}h {minutes}m / {minutes}m",
 		"firstPlayed": "Primeira reprodução",
 		"lastPlayed": "Última reprodução",
 		"plays": "Reproduções",
@@ -351,8 +348,7 @@
 		"discovery": "Descoberta",
 		"history": "Histórico",
 		"overview": "Visão geral",
-		"records": "Recordes",
-		"social": "Social"
+		"records": "Recordes"
 	},
 	"title": "Audição",
 	"top": {
@@ -380,7 +376,6 @@
 	"wrapped": {
 		"downloaded": "Seu cartão do Wrapped foi salvo.",
 		"failed": "Não foi possível criar o cartão. Tente novamente.",
-		"heading": "Chordia Wrapped",
 		"minutesListened": "minutos ouvidos",
 		"periodTitle": {
 			"halfYear": "Seus últimos 6 meses em música",

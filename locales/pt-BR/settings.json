@@ -7,7 +7,6 @@
 		"handle": "Nome de usuário",
 		"handleHint": "Letras, dígitos, “_” e “-”. Precisa ser único.",
 		"handlePlaceholder": "seunome",
-		"newEmailPlaceholder": "new@example.com",
 		"resendVerification": "Reenviar e-mail de verificação",
 		"saveProfile": "Salvar perfil",
 		"sendConfirmation": "Enviar confirmação",
@@ -31,8 +30,7 @@
 			"desc": "Faça scrobble das suas reproduções no Last.fm automaticamente.",
 			"disconnect": "Desconectar",
 			"disconnected": "Last.fm desconectado",
-			"failed": "Não foi possível conectar o Last.fm",
-			"label": "Last.fm"
+			"failed": "Não foi possível conectar o Last.fm"
 		},
 		"title": "Conexões"
 	},
@@ -50,7 +48,6 @@
 	},
 	"downloads": {
 		"browserStorageName": "Este dispositivo (armazenamento do navegador)",
-		"bytes": "{bytes} B / {kb} KB / {mb} MB / {gb} GB",
 		"serverNote": "As bibliotecas de música em si são adicionadas e organizadas no seu servidor de biblioteca do Chordia, não aqui. Salvar downloads em uma pasta personalizada (com caminho e organização próprios) vai chegar no app para desktop.",
 		"thisDevice": {
 			"description": "As músicas baixadas ficam guardadas neste dispositivo e tocam sem conexão.",
@@ -58,7 +55,6 @@
 			"title": "Este dispositivo (armazenamento do navegador)",
 			"usage": "{count, plural, one {# música} other {# músicas}} · {size}."
 		},
-		"title": "Downloads",
 		"unsupportedDestination": "Downloads em \"{destination}\" precisam do app para desktop"
 	},
 	"eq": {
@@ -69,14 +65,8 @@
 			"classical": "Clássico",
 			"electronic": "Eletrônico",
 			"flat": "Plano",
-			"hipHop": "Hip-Hop",
-			"jazz": "Jazz",
-			"loudness": "Loudness",
-			"pop": "Pop",
-			"rock": "Rock",
 			"trebleBoost": "Reforço de agudos",
-			"trebleReducer": "Redutor de agudos",
-			"vocal": "Vocal"
+			"trebleReducer": "Redutor de agudos"
 		}
 	},
 	"equalizer": {
@@ -88,8 +78,7 @@
 			"label": "Reprodução automática"
 		},
 		"crossfade": {
-			"desc": "Sobrepõe e mistura o fim de cada faixa com a próxima. Medido em segundos.",
-			"label": "Crossfade"
+			"desc": "Sobrepõe e mistura o fim de cada faixa com a próxima. Medido em segundos."
 		},
 		"normalize": {
 			"desc": "Equilibra o volume entre as faixas (ReplayGain).",
@@ -109,8 +98,7 @@
 				"label": "Alta"
 			},
 			"normal": {
-				"desc": "~128 kbps — equilibrada.",
-				"label": "Normal"
+				"desc": "~128 kbps — equilibrada."
 			},
 			"original": {
 				"desc": "Fonte bit-perfect. Consome mais banda.",
@@ -154,8 +142,7 @@
 			"label": "Sem perdas"
 		},
 		"normal": {
-			"desc": "~128 kbps — equilibrada.",
-			"label": "Normal"
+			"desc": "~128 kbps — equilibrada."
 		},
 		"title": "Qualidade do streaming"
 	},

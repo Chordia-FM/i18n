@@ -1,0 +1,27 @@
+name: CI
+
+# Validates every catalog against the English source: key parity, ICU validity, plural categories,
+# placeholder preservation, invisible characters, unrestored machine-translation masks.
+#
+# This gate existed as an npm script long before it existed as CI, which is exactly how a broken
+# plural shipped: `player:queue.addedAlbum` was written with i18next `_one`/`_other` suffix keys,
+# which this project's i18next-icu setup does not resolve, so every locale fell through to a
+# hard-coded English default. The checker would have caught it the day it landed. Nothing ran it.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch: {}
+
+jobs:
+  catalogs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci || npm install
+      - run: npm run check

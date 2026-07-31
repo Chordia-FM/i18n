@@ -42,7 +42,6 @@
 		"labelLoadError": "Impossible de charger le label.",
 		"labelSubtitle": "{count, plural, one {# album} other {# albums}}",
 		"loadError": "Impossible de charger les métadonnées actuelles.",
-		"logoAlt": "Logo",
 		"logoUploadFailed": "L'import du logo a échoué.",
 		"noAlbumCovers": "Aucune pochette trouvée — l'album a besoin d'une correspondance MusicBrainz.",
 		"noArtistArtwork": "Aucune illustration en ligne trouvée — nécessite une clé fanart.tv et une correspondance MusicBrainz.",
@@ -60,8 +59,7 @@
 	},
 	"noAccess": {
 		"backToApp": "Retour à l'application",
-		"body": "Vous n'avez pas accès à l'administration du site. {link}.",
-		"title": "Admin"
+		"body": "Vous n'avez pas accès à l'administration du site. {link}."
 	},
 	"reports": {
 		"createdAt": "{date}",
@@ -79,8 +77,6 @@
 		"field": {
 			"banner": "Bannière",
 			"bio": "Biographie",
-			"genres": "Genres",
-			"image": "Image",
 			"name": "Nom"
 		},
 		"none": "Aucun",

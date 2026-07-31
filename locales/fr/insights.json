@@ -63,7 +63,6 @@
 			"title": "Rien à découvrir pour l'instant"
 		},
 		"kinds": {
-			"album": "Albums",
 			"artist": "Artistes",
 			"track": "Morceaux"
 		},
@@ -224,8 +223,7 @@
 		"fingerprint": "Empreinte d'écoute",
 		"genreFlow": "Genres au fil du temps",
 		"listeningClock": "Horloge d'écoute",
-		"musicRatio": "Répartition musicale",
-		"topGenres": "Top genres"
+		"musicRatio": "Répartition musicale"
 	},
 	"period": {
 		"day": "24 heures",
@@ -350,9 +348,7 @@
 		"charts": "Classements",
 		"discovery": "Découverte",
 		"history": "Historique",
-		"overview": "Vue d'ensemble",
-		"records": "Records",
-		"social": "Social"
+		"overview": "Vue d'ensemble"
 	},
 	"title": "Écoutes",
 	"top": {
@@ -363,7 +359,6 @@
 		"tracks": "Top morceaux"
 	},
 	"topCard": {
-		"album": "Top album",
 		"artist": "Top artiste",
 		"track": "Top morceau"
 	},
@@ -380,7 +375,6 @@
 	"wrapped": {
 		"downloaded": "Carte Wrapped enregistrée.",
 		"failed": "Impossible de créer la carte. Veuillez réessayer.",
-		"heading": "Chordia Wrapped",
 		"minutesListened": "minutes écoutées",
 		"periodTitle": {
 			"halfYear": "Vos 6 derniers mois en musique",
@@ -396,7 +390,6 @@
 		"sharing": "Partage…",
 		"statLine": "{artists, number} artistes · {tracks, number} morceaux",
 		"topArtists": "Top artistes",
-		"topGenre": "Top genre",
 		"topTracks": "Top morceaux"
 	}
 }

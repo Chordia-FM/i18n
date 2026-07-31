@@ -20,7 +20,6 @@
 			"savedPartial": "{saved} baixadas, {failed} com falha"
 		},
 		"durationHrMin": "{count, plural, one {# h} other {# h}} {minutes} min",
-		"durationMin": "{minutes} min",
 		"genresJoin": "{genres}",
 		"goToRadio": "Ir para a rádio do artista",
 		"releaseDate": "{date, date, long}",
@@ -57,7 +56,6 @@
 		},
 		"releaseCount": "{count, plural, one {# lançamento} other {# lançamentos}}",
 		"versions": {
-			"instrumental": "Instrumental",
 			"live": "Ao vivo"
 		}
 	},

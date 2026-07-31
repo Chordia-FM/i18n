@@ -7,7 +7,6 @@
 		"handle": "Identifiant",
 		"handleHint": "Lettres, chiffres, « _ » et « - ». Doit être unique.",
 		"handlePlaceholder": "votrenom",
-		"newEmailPlaceholder": "new@example.com",
 		"resendVerification": "Renvoyer l'e-mail de vérification",
 		"saveProfile": "Enregistrer le profil",
 		"sendConfirmation": "Envoyer la confirmation",
@@ -31,8 +30,7 @@
 			"desc": "Scrobblez automatiquement vos écoutes sur Last.fm.",
 			"disconnect": "Déconnecter",
 			"disconnected": "Last.fm déconnecté",
-			"failed": "Impossible de connecter Last.fm",
-			"label": "Last.fm"
+			"failed": "Impossible de connecter Last.fm"
 		},
 		"title": "Connexions"
 	},
@@ -69,11 +67,6 @@
 			"classical": "Classique",
 			"electronic": "Électronique",
 			"flat": "Neutre",
-			"hipHop": "Hip-Hop",
-			"jazz": "Jazz",
-			"loudness": "Loudness",
-			"pop": "Pop",
-			"rock": "Rock",
 			"trebleBoost": "Aigus renforcés",
 			"trebleReducer": "Aigus réduits",
 			"vocal": "Voix"

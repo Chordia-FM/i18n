@@ -347,7 +347,6 @@
 		"uniqueTracksValue": "{count}"
 	},
 	"tabs": {
-		"charts": "Charts",
 		"discovery": "Entdeckungen",
 		"history": "Verlauf",
 		"overview": "Überblick",
@@ -380,7 +379,6 @@
 	"wrapped": {
 		"downloaded": "Ihre Wrapped-Karte wurde gespeichert.",
 		"failed": "Die Karte konnte nicht erstellt werden. Bitte versuchen Sie es erneut.",
-		"heading": "Chordia Wrapped",
 		"minutesListened": "Minuten gehört",
 		"periodTitle": {
 			"halfYear": "Ihre letzten 6 Monate in Musik",

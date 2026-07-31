@@ -3,14 +3,12 @@
 		"fullscreen": "Plein écran",
 		"mute": "Couper le son",
 		"next": "Suivant",
-		"pause": "Pause",
 		"play": "Lire",
 		"previous": "Précédent",
 		"repeat": "Répéter",
 		"seek": "Position de lecture",
 		"shuffle": "Aléatoire",
 		"unmute": "Activer le son",
-		"volume": "Volume",
 		"volumeButton": "Bouton de volume",
 		"volumeSlider": "Curseur de volume"
 	},
@@ -28,11 +26,6 @@
 		"classical": "Classique",
 		"electronic": "Électronique",
 		"flat": "Neutre",
-		"hipHop": "Hip-Hop",
-		"jazz": "Jazz",
-		"loudness": "Loudness",
-		"pop": "Pop",
-		"rock": "Rock",
 		"trebleBoost": "Aigus renforcés",
 		"trebleReducer": "Aigus réduits",
 		"vocal": "Voix"
@@ -45,14 +38,12 @@
 		"dragHint": "Faites glisser un nœud pour modeler la courbe",
 		"dragHintParametric": " · glissez latéralement pour la fréquence · faites défiler pour la largeur (Q)",
 		"enable": "Activer l'égaliseur",
-		"freqDisplay": "{freq}Hz",
 		"graph": {
 			"ariaLabel": "Réponse de l'égaliseur — faites glisser les nœuds des bandes pour modeler le son",
 			"title": "Courbe de réponse de l'égaliseur"
 		},
 		"parametric": "Paramétrique",
 		"preamp": "Préampli",
-		"preampDisplay": "{value} dB",
 		"presetCustom": "Personnalisé",
 		"presetSelect": "Préréglage d'égaliseur",
 		"presetsGroup": "Préréglages",
@@ -86,7 +77,6 @@
 	"nothingPlaying": "Aucune lecture pour l'instant.",
 	"nowPlaying": {
 		"aboutArtist": "À propos de {name}",
-		"albumFallback": "Album",
 		"playingFrom": "Lecture depuis",
 		"title": "En cours de lecture"
 	},
@@ -95,14 +85,9 @@
 		"change": "Modifier",
 		"dataPerHourGb": "~{value} Go/heure",
 		"dataPerHourMb": "~{value} Mo/heure",
-		"khz": "{value} kHz",
 		"lossless": "Sans perte",
 		"lossy": "Avec perte",
-		"loudness": "Loudness",
 		"originalSourceFile": "Fichier source d'origine",
-		"source": "Source",
-		"spatial": " · Spatial",
-		"streaming": "Streaming",
 		"streamingRate": "~{kbps} kbit/s · {data}",
 		"title": "Qualité du fichier",
 		"upTo": "Jusqu'à {value}"
@@ -139,7 +124,6 @@
 			"mirror": "Onde miroir",
 			"particles": "Nuée de particules",
 			"radial": "Spectre radial",
-			"scope": "Oscilloscope",
 			"spectrogram": "Spectrogramme"
 		},
 		"unavailable": "Visualiseur indisponible pour cette source."

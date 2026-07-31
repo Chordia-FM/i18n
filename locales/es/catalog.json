@@ -20,7 +20,6 @@
 			"savedPartial": "Se descargaron {saved}; {failed} con error"
 		},
 		"durationHrMin": "{count, plural, one {# h} other {# h}} {minutes} min",
-		"durationMin": "{minutes} min",
 		"genresJoin": "{genres}",
 		"goToRadio": "Ir a la radio del artista",
 		"releaseDate": "{date, date, long}",
@@ -47,8 +46,6 @@
 			"title": "{name} — En vivo"
 		},
 		"namesJoin": "{artists}",
-		"popular": "Popular",
-		"radio": "Radio",
 		"relatedArtists": "Artistas relacionados",
 		"relation": {
 			"alias": "También conocido como",
@@ -57,7 +54,6 @@
 		},
 		"releaseCount": "{count, plural, one {# lanzamiento} other {# lanzamientos}}",
 		"versions": {
-			"instrumental": "Instrumental",
 			"live": "En vivo"
 		}
 	},

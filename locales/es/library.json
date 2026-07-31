@@ -10,6 +10,21 @@
 		"shareTitle": "Compartir esta biblioteca",
 		"trackCount": "{count, plural, one {# pista} other {# pistas}}"
 	},
+	"downloads": {
+		"clearConfirm": {
+			"message": "¿Quitar de este dispositivo todas las canciones descargadas?",
+			"title": "Borrar descargas"
+		},
+		"clearError": "No se pudieron borrar las descargas",
+		"emptyState": "Las canciones que descargues se reproducen sin conexión. Usa la acción Descargar en cualquier pista para guardarla aquí.",
+		"eyebrow": "Disponible sin conexión",
+		"navLabel": "Descargas",
+		"removeError": "No se pudo quitar la descarga",
+		"removeTooltip": "Quitar descarga",
+		"songCount": "{count, plural, one {# canción} other {# canciones}}",
+		"storedOnDevice": "guardadas en este dispositivo",
+		"title": "Descargas"
+	},
 	"edit": {
 		"albumsLabel": "Álbumes",
 		"dedupeLabel": "Quitar duplicados: conservar solo la copia de mayor calidad cuando varios archivos van al mismo sitio (si no, reciben sufijos (2), (3)…)",
@@ -50,8 +65,8 @@
 		"rescanFailed": "No se pudo volver a escanear",
 		"rescanFull": "Reindexación completa",
 		"rescanFullProgress": "Reindexación completa en curso…",
-		"rescanProgress": "Volviendo a escanear…",
 		"rescanHelp": "Vuelve a leer cada archivo del disco (metadatos, pistas añadidas o eliminadas). La reindexación completa además reprocesa los archivos sin cambios. Úsala para aplicar cambios como la fusión de ediciones a una biblioteca ya existente.",
+		"rescanProgress": "Volviendo a escanear…",
 		"rescanStatus": "Volviendo a escanear todos los archivos…",
 		"rescanning": "Volviendo a escanear…",
 		"saveFolders": "Guardar carpetas",
@@ -59,21 +74,6 @@
 		"templateHelp": "Variables: {vars}. Las partes vacías se omiten y la extensión del archivo se añade automáticamente. {edition} es el calificativo deluxe/especial (vacío en la edición estándar, así que desaparece) y {disc} solo aparece en álbumes de varios discos. Las pistas sin álbum usan la plantilla Sencillos; los archivos que no podemos identificar (sin etiqueta de artista) usan la de No identificados.",
 		"title": "Editar biblioteca",
 		"unknownLabel": "Pistas no identificadas"
-	},
-	"downloads": {
-		"clearConfirm": {
-			"message": "¿Quitar de este dispositivo todas las canciones descargadas?",
-			"title": "Borrar descargas"
-		},
-		"clearError": "No se pudieron borrar las descargas",
-		"emptyState": "Las canciones que descargues se reproducen sin conexión. Usa la acción Descargar en cualquier pista para guardarla aquí.",
-		"eyebrow": "Disponible sin conexión",
-		"navLabel": "Descargas",
-		"removeError": "No se pudo quitar la descarga",
-		"removeTooltip": "Quitar descarga",
-		"songCount": "{count, plural, one {# canción} other {# canciones}}",
-		"storedOnDevice": "guardadas en este dispositivo",
-		"title": "Descargas"
 	},
 	"hidden": {
 		"hide": "Ocultar esta canción",
@@ -179,29 +179,28 @@
 		"success": "Biblioteca compartida correctamente.",
 		"title": "Compartir «{name}»"
 	},
+	"shareManager": {
+		"addFriend": "Añadir amigo",
+		"canRequest": "Puede solicitar descargas",
+		"directories": "Bibliotecas:",
+		"empty": "Aún no la compartes con nadie. Añade abajo a un amigo para darle acceso.",
+		"grantAccess": "Dar acceso a {name}",
+		"help": "Quién tiene acceso a esta biblioteca, qué está haciendo con ella y qué puede hacer.",
+		"lastPlayed": "última reproducción {date}",
+		"removeAccess": "Quitar el acceso de {name}",
+		"revoke": "Quitar acceso",
+		"statsLine": "{requests} solicitadas · {downloads} descargadas · {plays} reproducciones · {time} escuchado",
+		"streamingNow": "Escuchando ahora: {title} — {artist}",
+		"thisLibrary": "Esta biblioteca",
+		"timeHoursMinutes": "{hours}h {minutes}min",
+		"timeMinutes": "{minutes}min",
+		"title": "Amigos y uso compartido",
+		"updateFailed": "No se pudo actualizar el uso compartido. Inténtalo de nuevo."
+	},
 	"sidebar": {
 		"pinned": "Fijados",
 		"playlists": "Listas",
 		"yourLibrary": "Tu biblioteca"
 	},
-	"trackCount": "{count, plural, one {# pista} other {# pistas}}",
-	"shareManager": {
-		"title": "Amigos y uso compartido",
-		"help": "Quién tiene acceso a esta biblioteca, qué está haciendo con ella y qué puede hacer.",
-		"empty": "Aún no la compartes con nadie. Añade abajo a un amigo para darle acceso.",
-		"addFriend": "Añadir amigo",
-		"revoke": "Quitar acceso",
-		"canRequest": "Puede solicitar descargas",
-		"directories": "Bibliotecas:",
-		"thisLibrary": "Esta biblioteca",
-		"grantAccess": "Dar acceso a {name}",
-		"removeAccess": "Quitar el acceso de {name}",
-		"streamingNow": "Escuchando ahora: {title} — {artist}",
-		"statsLine": "{requests} solicitadas · {downloads} descargadas · {plays} reproducciones · {time} escuchado",
-		"lastPlayed": "última reproducción {date}",
-		"updateFailed": "No se pudo actualizar el uso compartido. Inténtalo de nuevo.",
-		"timeDaysHours": "{days}d {hours}h",
-		"timeHoursMinutes": "{hours}h {minutes}min",
-		"timeMinutes": "{minutes}min"
-	}
+	"trackCount": "{count, plural, one {# pista} other {# pistas}}"
 }

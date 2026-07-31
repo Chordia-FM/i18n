@@ -32,7 +32,6 @@
 		"title": "Playlist löschen"
 	},
 	"empty": "Diese Playlist ist leer. Fügen Sie Songs über das Menü „⋯“ eines beliebigen Titels hinzu.",
-	"kindLabel": "Playlist",
 	"leave": {
 		"confirmBody": "Diese gemeinsame Playlist verlassen?",
 		"confirmLabel": "Verlassen",
@@ -66,16 +65,13 @@
 		"editTitle": "Intelligente Playlist bearbeiten",
 		"empty": "Bisher entsprechen keine Titel diesen Regeln. Versuchen Sie, sie über „Regeln bearbeiten“ zu lockern.",
 		"field": {
-			"album": "Album",
 			"artist": "Künstler",
-			"genre": "Genre",
 			"liked": "Gefällt mir",
 			"plays": "Wiedergaben",
 			"title": "Titel",
 			"year": "Jahr"
 		},
 		"kindLabel": "Intelligente Playlist",
-		"limit": "Limit",
 		"match": "Erfüllt",
 		"matchMode": {
 			"all": "alle",

@@ -10,7 +10,6 @@
 		"seek": "Posição da faixa",
 		"shuffle": "Aleatório",
 		"unmute": "Ativar som",
-		"volume": "Volume",
 		"volumeButton": "Botão de volume",
 		"volumeSlider": "Controle de volume"
 	},
@@ -28,14 +27,8 @@
 		"classical": "Clássico",
 		"electronic": "Eletrônico",
 		"flat": "Plano",
-		"hipHop": "Hip-Hop",
-		"jazz": "Jazz",
-		"loudness": "Loudness",
-		"pop": "Pop",
-		"rock": "Rock",
 		"trebleBoost": "Reforço de agudos",
-		"trebleReducer": "Redutor de agudos",
-		"vocal": "Vocal"
+		"trebleReducer": "Redutor de agudos"
 	},
 	"equalizer": {
 		"bandFreq": "Freq. da banda {n}",
@@ -45,14 +38,12 @@
 		"dragHint": "Arraste um ponto para moldar a curva",
 		"dragHintParametric": " · arraste na horizontal para a frequência · role para a largura (Q)",
 		"enable": "Ativar equalizador",
-		"freqDisplay": "{freq}Hz",
 		"graph": {
 			"ariaLabel": "Resposta do equalizador — arraste os pontos das bandas para moldar o som",
 			"title": "Curva de resposta do equalizador"
 		},
 		"parametric": "Paramétrico",
 		"preamp": "Pré-amplificação",
-		"preampDisplay": "{value} dB",
 		"presetCustom": "Personalizada",
 		"presetSelect": "Predefinição de EQ",
 		"presetsGroup": "Predefinições",
@@ -95,15 +86,11 @@
 		"change": "Alterar",
 		"dataPerHourGb": "~{value} GB/hora",
 		"dataPerHourMb": "~{value} MB/hora",
-		"khz": "{value} kHz",
 		"lossless": "Sem perdas",
 		"lossy": "Com perdas",
-		"loudness": "Loudness",
 		"originalSourceFile": "Arquivo de origem original",
 		"source": "Origem",
 		"spatial": " · Espacial",
-		"streaming": "Streaming",
-		"streamingRate": "~{kbps} kbps · {data}",
 		"title": "Qualidade do arquivo",
 		"upTo": "Até {value}"
 	},

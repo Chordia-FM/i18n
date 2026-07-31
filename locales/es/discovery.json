@@ -24,7 +24,6 @@
 		"playingToast": "Reproduciendo {title}"
 	},
 	"radio": {
-		"label": "Radio",
 		"pin": "Fijar la radio"
 	},
 	"shelf": {

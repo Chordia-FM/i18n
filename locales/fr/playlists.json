@@ -9,7 +9,6 @@
 	"addedToast": "Ajouté à {playlist}",
 	"collaborators": {
 		"addError": "Impossible d'ajouter ce collaborateur",
-		"collaborative": "Collaborative",
 		"invite": "+ Inviter",
 		"invitePrompt": "Inviter un collaborateur par identifiant",
 		"invited": "@{handle} invité",
@@ -32,7 +31,6 @@
 		"title": "Supprimer la playlist"
 	},
 	"empty": "Cette playlist est vide. Ajoutez des chansons depuis le menu « ⋯ » de n'importe quel morceau.",
-	"kindLabel": "Playlist",
 	"leave": {
 		"confirmBody": "Quitter cette playlist collaborative ?",
 		"confirmLabel": "Quitter",
@@ -66,9 +64,7 @@
 		"editTitle": "Modifier la playlist intelligente",
 		"empty": "Aucun morceau ne correspond encore à ces règles. Essayez de les assouplir avec « Modifier les règles ».",
 		"field": {
-			"album": "Album",
 			"artist": "Artiste",
-			"genre": "Genre",
 			"liked": "Aimé",
 			"plays": "Écoutes",
 			"title": "Titre",
