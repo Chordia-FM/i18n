@@ -40,6 +40,10 @@
 		"genresJoin": "{genres}",
 		"labelMetaJoin": "{span} · {releases}",
 		"labels": "Labels",
+		"links": {
+			"open": "Artist links",
+			"title": "Links"
+		},
 		"liveAlbum": {
 			"card": "All live recordings",
 			"label": "Live collection",
