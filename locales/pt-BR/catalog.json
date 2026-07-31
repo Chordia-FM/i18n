@@ -39,6 +39,10 @@
 		"genresJoin": "{genres}",
 		"labelMetaJoin": "{span} · {releases}",
 		"labels": "Gravadoras",
+		"links": {
+			"open": "Links do artista",
+			"title": "Links"
+		},
 		"liveAlbum": {
 			"card": "Todas as gravações ao vivo",
 			"label": "Coletânea ao vivo",

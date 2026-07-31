@@ -40,6 +40,10 @@
 		"genresJoin": "{genres}",
 		"labelMetaJoin": "{span} · {releases}",
 		"labels": "レーベル",
+		"links": {
+			"open": "アーティストのリンク",
+			"title": "リンク"
+		},
 		"liveAlbum": {
 			"card": "すべてのライブ音源",
 			"label": "ライブコレクション",

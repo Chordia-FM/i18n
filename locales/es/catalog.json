@@ -39,6 +39,10 @@
 		"genresJoin": "{genres}",
 		"labelMetaJoin": "{span} · {releases}",
 		"labels": "Sellos",
+		"links": {
+			"open": "Enlaces del artista",
+			"title": "Enlaces"
+		},
 		"liveAlbum": {
 			"card": "Todas las grabaciones en vivo",
 			"label": "Colección en vivo",

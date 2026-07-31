@@ -40,6 +40,10 @@
 		"genresJoin": "{genres}",
 		"labelMetaJoin": "{span} · {releases}",
 		"labels": "레이블",
+		"links": {
+			"open": "아티스트 링크",
+			"title": "링크"
+		},
 		"liveAlbum": {
 			"card": "모든 라이브 녹음",
 			"label": "라이브 모음",

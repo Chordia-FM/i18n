@@ -39,6 +39,10 @@
 		"formed": "Gegründet {year}",
 		"genresJoin": "{genres}",
 		"labelMetaJoin": "{span} · {releases}",
+		"links": {
+			"open": "Künstler-Links",
+			"title": "Links"
+		},
 		"liveAlbum": {
 			"card": "Alle Live-Aufnahmen",
 			"label": "Live-Sammlung",
