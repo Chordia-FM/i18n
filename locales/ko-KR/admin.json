@@ -1,6 +1,6 @@
 {
 	"audit": {
-		"createdAt": "{date}",
+		"createdAt": "",
 		"empty": "아직 작업 기록이 없습니다.",
 		"title": "감사 로그"
 	},
@@ -64,7 +64,7 @@
 		"title": "관리자"
 	},
 	"reports": {
-		"createdAt": "{date}",
+		"createdAt": "",
 		"dismiss": "무시",
 		"empty": "처리할 신고가 없습니다.",
 		"resolve": "해결",
