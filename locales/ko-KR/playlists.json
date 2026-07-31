@@ -5,6 +5,7 @@
 	"addError": "Couldn't add to playlist",
 	"addToNamed": "Add to {playlist}",
 	"addToPlaylist": "Add to playlist",
+	"addedAlbumToast": "{count, plural, one {Added # track to {playlist}} other {Added # tracks to {playlist}}}",
 	"addedToast": "Added to {playlist}",
 	"collaborators": {
 		"addError": "Couldn't add that collaborator",
@@ -24,6 +25,8 @@
 		"change": "Change image",
 		"remove": "Remove image"
 	},
+	"createFailed": "Couldn’t create playlist",
+	"createdFromAlbumToast": "Playlist “{name}” created",
 	"delete": {
 		"confirmBody": "Delete this playlist?",
 		"title": "Delete playlist"
@@ -37,11 +40,14 @@
 	},
 	"menuEmpty": "No playlists",
 	"new": "New playlist",
+	"newFromAlbum": "New playlist",
+	"newFromAlbumSub": "From “{name}”",
 	"prompt": {
 		"newName": "Playlist name",
 		"rename": "Rename playlist"
 	},
 	"removeFromPlaylist": "Remove from playlist",
+	"searchPlaceholder": "Find a playlist",
 	"sharedWithYou": " · shared with you",
 	"smart": {
 		"addRule": "Add rule",
