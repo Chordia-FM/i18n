@@ -1,59 +1,59 @@
 {
 	"block": {
-		"confirmLabel": "Block",
-		"confirmMessage": "Block @{handle}? You won't be able to add each other as friends.",
-		"confirmTitle": "Block user"
+		"confirmLabel": "ブロック",
+		"confirmMessage": "@{handle}をブロックしますか？お互いにフレンド追加ができなくなります。",
+		"confirmTitle": "ユーザーをブロック"
 	},
 	"discovery": {
-		"addFriend": "Add friend",
-		"friendsStatus": "Friends",
-		"requestSent": "Request sent",
-		"sending": "Sending…"
+		"addFriend": "フレンドを追加",
+		"friendsStatus": "フレンド",
+		"requestSent": "リクエスト送信済み",
+		"sending": "送信中…"
 	},
 	"friends": {
-		"confirmRemove": "Confirm?",
-		"empty": "No friends yet - search to add some",
-		"heading": "Friends ({count})",
-		"removing": "Removing…",
-		"title": "Friends"
+		"confirmRemove": "削除しますか？",
+		"empty": "まだフレンドがいません。検索して追加しましょう",
+		"heading": "フレンド（{count}）",
+		"removing": "削除中…",
+		"title": "フレンド"
 	},
 	"modMenu": {
-		"blocked": "Blocked",
-		"report": "Report",
-		"reported": "Reported"
+		"blocked": "ブロック済み",
+		"report": "報告",
+		"reported": "報告済み"
 	},
 	"page": {
-		"title": "Friends"
+		"title": "フレンド"
 	},
 	"profile": {
-		"eyebrow": "Profile",
-		"itemPlays": "{count, plural, one {# play} other {# plays}}",
+		"eyebrow": "プロフィール",
+		"itemPlays": "{count, plural, other {#回再生}}",
 		"joinedDate": "{date, date, ::yMMMM}",
-		"joinedLabel": "joined {date}",
-		"loadError": "Couldn't load this profile.",
-		"noActivity": "No listening activity yet.",
-		"notFound": "No user with that handle.",
+		"joinedLabel": "{date}に参加",
+		"loadError": "このプロフィールを読み込めませんでした。",
+		"noActivity": "まだリスニングアクティビティはありません。",
+		"notFound": "そのハンドルのユーザーは存在しません。",
 		"private": {
-			"description": "{name} only shares their listening with friends.",
-			"title": "This profile is private"
+			"description": "{name}さんはリスニングをフレンドにのみ公開しています。",
+			"title": "このプロフィールは非公開です"
 		},
-		"recentlyPlayed": "Recently played",
-		"topArtists": "Top artists",
-		"topTracks": "Top tracks",
-		"totalPlays": "{count, plural, one {# play} other {# plays}}",
+		"recentlyPlayed": "最近再生した曲",
+		"topArtists": "トップアーティスト",
+		"topTracks": "トップトラック",
+		"totalPlays": "{count, plural, other {#回再生}}",
 		"totalPlaysCount": "{count}"
 	},
 	"report": {
-		"promptMessage": "Report @{handle} — what's the issue?"
+		"promptMessage": "@{handle}を報告します。問題の内容を教えてください。"
 	},
 	"requests": {
-		"accept": "Accept",
-		"accepting": "Accepting…",
-		"pendingHeading": "Pending requests ({count})"
+		"accept": "承認",
+		"accepting": "承認中…",
+		"pendingHeading": "保留中のリクエスト（{count}）"
 	},
 	"search": {
-		"noResults": "No users found.",
-		"placeholder": "Search by handle or display name…",
-		"searching": "Searching…"
+		"noResults": "ユーザーが見つかりません。",
+		"placeholder": "ハンドルまたは表示名で検索…",
+		"searching": "検索中…"
 	}
 }
