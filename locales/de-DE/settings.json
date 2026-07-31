@@ -1,82 +1,82 @@
 {
 	"account": {
-		"avatarUrl": "Avatar URL",
-		"changeEmail": "Change email",
-		"displayName": "Display name",
-		"emailChangeSent": "Check your new inbox for a confirmation link.",
+		"avatarUrl": "Avatar-URL",
+		"changeEmail": "E-Mail-Adresse ändern",
+		"displayName": "Anzeigename",
+		"emailChangeSent": "Prüfen Sie Ihren neuen Posteingang auf einen Bestätigungslink.",
 		"handle": "Handle",
-		"handleHint": "Letters, digits, “_” and “-”. Must be unique.",
-		"handlePlaceholder": "yourname",
+		"handleHint": "Buchstaben, Ziffern, „_“ und „-“. Muss eindeutig sein.",
+		"handlePlaceholder": "ihrname",
 		"newEmailPlaceholder": "new@example.com",
-		"resendVerification": "Resend verification email",
-		"saveProfile": "Save profile",
-		"sendConfirmation": "Send confirmation",
-		"title": "Account",
-		"verificationSent": "Sent — check your inbox"
+		"resendVerification": "Bestätigungs-E-Mail erneut senden",
+		"saveProfile": "Profil speichern",
+		"sendConfirmation": "Bestätigung senden",
+		"title": "Konto",
+		"verificationSent": "Gesendet – prüfen Sie Ihren Posteingang"
 	},
 	"appearance": {
-		"accentColour": "Accent colour",
-		"accentHexAria": "Accent hex",
-		"customAccentAria": "Custom accent colour",
-		"customColour": "Custom colour",
-		"customColourHint": "Pick any colour - buttons, highlights and the background tint follow it.",
-		"title": "Appearance"
+		"accentColour": "Akzentfarbe",
+		"accentHexAria": "Akzent-Hex",
+		"customAccentAria": "Benutzerdefinierte Akzentfarbe",
+		"customColour": "Benutzerdefinierte Farbe",
+		"customColourHint": "Wählen Sie eine beliebige Farbe – Schaltflächen, Hervorhebungen und der Hintergrundton richten sich danach.",
+		"title": "Darstellung"
 	},
 	"connections": {
 		"lastfm": {
-			"connect": "Connect",
-			"connectedAs": "Connected as {username}",
-			"connectedToast": "Connected to Last.fm as {username}",
-			"connecting": "Connecting Last.fm…",
-			"desc": "Scrobble your plays to Last.fm automatically.",
-			"disconnect": "Disconnect",
-			"disconnected": "Last.fm disconnected",
-			"failed": "Couldn’t connect Last.fm",
+			"connect": "Verbinden",
+			"connectedAs": "Verbunden als {username}",
+			"connectedToast": "Mit Last.fm verbunden als {username}",
+			"connecting": "Last.fm wird verbunden…",
+			"desc": "Scrobbeln Sie Ihre Wiedergaben automatisch zu Last.fm.",
+			"disconnect": "Trennen",
+			"disconnected": "Last.fm wurde getrennt",
+			"failed": "Last.fm konnte nicht verbunden werden",
 			"label": "Last.fm"
 		},
-		"title": "Connections"
+		"title": "Verbindungen"
 	},
 	"data": {
-		"body": "Download everything Chordia stores about you, or permanently delete your account and all its data.",
-		"deleteAccountConfirm": "Permanently delete your account and ALL your data — listening history, playlists, libraries, and friends? This cannot be undone.",
-		"deleteAccountTitle": "Delete account",
-		"deleteFailedBody": "Could not delete your account right now. Please try again.",
-		"deleteFailedTitle": "Deletion failed",
-		"deleteForever": "Delete forever",
-		"exportFailedBody": "Could not export your data right now. Please try again.",
-		"exportFailedTitle": "Export failed",
-		"exportMyData": "Export my data",
-		"title": "Your data"
+		"body": "Laden Sie alles herunter, was Chordia über Sie speichert, oder löschen Sie Ihr Konto und alle zugehörigen Daten dauerhaft.",
+		"deleteAccountConfirm": "Ihr Konto und ALLE Ihre Daten dauerhaft löschen – Hörverlauf, Playlists, Bibliotheken und Freunde? Dies kann nicht rückgängig gemacht werden.",
+		"deleteAccountTitle": "Konto löschen",
+		"deleteFailedBody": "Ihr Konto konnte derzeit nicht gelöscht werden. Bitte versuchen Sie es erneut.",
+		"deleteFailedTitle": "Löschen fehlgeschlagen",
+		"deleteForever": "Endgültig löschen",
+		"exportFailedBody": "Ihre Daten konnten derzeit nicht exportiert werden. Bitte versuchen Sie es erneut.",
+		"exportFailedTitle": "Export fehlgeschlagen",
+		"exportMyData": "Meine Daten exportieren",
+		"title": "Ihre Daten"
 	},
 	"downloads": {
-		"browserStorageName": "This device (browser storage)",
+		"browserStorageName": "Dieses Gerät (Browserspeicher)",
 		"bytes": "{bytes} B / {kb} KB / {mb} MB / {gb} GB",
-		"serverNote": "Music libraries themselves are added and organized on your Chordia library server, not here. Saving downloads to a custom folder (with your own path + organization layout) is coming to the desktop app.",
+		"serverNote": "Musikbibliotheken selbst werden auf Ihrem Chordia-Bibliotheksserver hinzugefügt und verwaltet, nicht hier. Das Speichern von Downloads in einem eigenen Ordner (mit eigenem Pfad und eigener Ordnerstruktur) folgt in der Desktop-App.",
 		"thisDevice": {
-			"description": "Downloaded songs are stored on this device and play without a connection.",
-			"empty": "Use the Download action on any track or album.",
-			"title": "This device (browser storage)",
-			"usage": "{count, plural, one {# song} other {# songs}} · {size}."
+			"description": "Heruntergeladene Songs werden auf diesem Gerät gespeichert und lassen sich ohne Verbindung abspielen.",
+			"empty": "Verwenden Sie die Download-Aktion bei einem beliebigen Titel oder Album.",
+			"title": "Dieses Gerät (Browserspeicher)",
+			"usage": "{count, plural, one {# Song} other {# Songs}} · {size}."
 		},
 		"title": "Downloads",
-		"unsupportedDestination": "\"{destination}\" downloads need the desktop app"
+		"unsupportedDestination": "Downloads nach „{destination}“ benötigen die Desktop-App"
 	},
 	"eq": {
 		"preset": {
-			"acoustic": "Acoustic",
-			"bassBoost": "Bass Boost",
-			"bassReducer": "Bass Reducer",
-			"classical": "Classical",
-			"electronic": "Electronic",
-			"flat": "Flat",
+			"acoustic": "Akustisch",
+			"bassBoost": "Bass verstärken",
+			"bassReducer": "Bass reduzieren",
+			"classical": "Klassik",
+			"electronic": "Elektronisch",
+			"flat": "Neutral",
 			"hipHop": "Hip-Hop",
 			"jazz": "Jazz",
 			"loudness": "Loudness",
 			"pop": "Pop",
 			"rock": "Rock",
-			"trebleBoost": "Treble Boost",
-			"trebleReducer": "Treble Reducer",
-			"vocal": "Vocal"
+			"trebleBoost": "Höhen verstärken",
+			"trebleReducer": "Höhen reduzieren",
+			"vocal": "Gesang"
 		}
 	},
 	"equalizer": {
@@ -84,118 +84,118 @@
 	},
 	"playback": {
 		"autoplay": {
-			"desc": "Keep playing similar music when the queue ends.",
+			"desc": "Spielt weiterhin ähnliche Musik, wenn die Warteschlange endet.",
 			"label": "Autoplay"
 		},
 		"crossfade": {
-			"desc": "Overlap and blend the end of each track into the next. Measured in seconds.",
-			"label": "Crossfade"
+			"desc": "Blendet das Ende jedes Titels in den nächsten über. Angabe in Sekunden.",
+			"label": "Überblendung"
 		},
 		"normalize": {
-			"desc": "Even out loudness across tracks (ReplayGain).",
-			"label": "Normalize volume"
+			"desc": "Gleicht die Lautheit über alle Titel hinweg aus (ReplayGain).",
+			"label": "Lautstärke normalisieren"
 		},
 		"preload": {
-			"desc": "How many upcoming queue tracks to download ahead of time, for instant gap-free playback. Higher uses more data.",
-			"label": "Preload next tracks"
+			"desc": "Wie viele der nächsten Titel in der Warteschlange im Voraus geladen werden, damit die Wiedergabe sofort und lückenlos startet. Höhere Werte verbrauchen mehr Daten.",
+			"label": "Nächste Titel vorladen"
 		},
 		"quality": {
 			"dataSaver": {
-				"desc": "~96 kbps Opus - minimal data.",
-				"label": "Data Saver"
+				"desc": "~96 kbps Opus – minimale Datenmenge.",
+				"label": "Datensparmodus"
 			},
 			"high": {
-				"desc": "~256 kbps AAC - transparent for most.",
-				"label": "High"
+				"desc": "~256 kbps AAC – für die meisten transparent.",
+				"label": "Hoch"
 			},
 			"normal": {
-				"desc": "~128 kbps - balanced.",
+				"desc": "~128 kbps – ausgewogen.",
 				"label": "Normal"
 			},
 			"original": {
-				"desc": "Bit-perfect source. Highest bandwidth.",
-				"label": "Lossless"
+				"desc": "Bitgenaue Quelle. Höchste Bandbreite.",
+				"label": "Verlustfrei"
 			}
 		},
-		"streamingQuality": "Streaming quality",
-		"title": "Playback"
+		"streamingQuality": "Streaming-Qualität",
+		"title": "Wiedergabe"
 	},
 	"privacy": {
 		"activityVisibility": {
-			"desc": "Who can see your recent plays and compare taste with you.",
-			"label": "Activity visibility"
+			"desc": "Wer Ihre letzten Wiedergaben sehen und den Musikgeschmack mit Ihnen vergleichen kann.",
+			"label": "Sichtbarkeit der Aktivität"
 		},
 		"emailNotifications": {
-			"desc": "Get an email for friend requests and other account activity.",
-			"label": "Email notifications"
+			"desc": "Erhalten Sie eine E-Mail bei Freundschaftsanfragen und anderen Kontoaktivitäten.",
+			"label": "E-Mail-Benachrichtigungen"
 		},
 		"scrobble": {
-			"desc": "Record what you play for your stats and Wrapped.",
-			"label": "Scrobble listens"
+			"desc": "Zeichnet auf, was Sie hören – für Ihre Statistiken und Wrapped.",
+			"label": "Wiedergaben scrobbeln"
 		},
-		"title": "Privacy",
+		"title": "Privatsphäre",
 		"visibility": {
-			"friends": "Friends",
-			"private": "Only me",
-			"public": "Everyone"
+			"friends": "Freunde",
+			"private": "Nur ich",
+			"public": "Alle"
 		}
 	},
 	"quality": {
 		"dataSaver": {
-			"desc": "~96 kbps Opus — minimal data.",
-			"label": "Data Saver"
+			"desc": "~96 kbps Opus – minimale Datenmenge.",
+			"label": "Datensparmodus"
 		},
 		"high": {
-			"desc": "~256 kbps AAC — transparent for most.",
-			"label": "High"
+			"desc": "~256 kbps AAC – für die meisten transparent.",
+			"label": "Hoch"
 		},
 		"lossless": {
-			"desc": "Bit-perfect source. Highest bandwidth.",
-			"label": "Lossless"
+			"desc": "Bitgenaue Quelle. Höchste Bandbreite.",
+			"label": "Verlustfrei"
 		},
 		"normal": {
-			"desc": "~128 kbps — balanced.",
+			"desc": "~128 kbps – ausgewogen.",
 			"label": "Normal"
 		},
-		"title": "Streaming quality"
+		"title": "Streaming-Qualität"
 	},
 	"region": {
 		"timezone": {
-			"description": "Used to place listening activity on your local calendar. Follow this device leaves the choice to each client.",
-			"detect": "Detect",
-			"followClient": "Follow this device",
-			"label": "Time zone",
-			"noMatches": "No time zones match your search",
-			"search": "Search time zones…",
+			"description": "Wird verwendet, um Höraktivität in Ihrem lokalen Kalender einzuordnen. „Diesem Gerät folgen“ überlässt die Wahl jedem Client.",
+			"detect": "Erkennen",
+			"followClient": "Diesem Gerät folgen",
+			"label": "Zeitzone",
+			"noMatches": "Keine Zeitzone entspricht Ihrer Suche",
+			"search": "Zeitzonen durchsuchen…",
 			"zoneWithOffset": "{zone} ({offset})"
 		},
 		"title": "Region"
 	},
 	"sessions": {
-		"body": "Where you're signed in. Revoke any device you don't recognize.",
-		"lastActive": "Last active {date}",
+		"body": "Hier sind Sie angemeldet. Widerrufen Sie jedes Gerät, das Sie nicht kennen.",
+		"lastActive": "Zuletzt aktiv {date}",
 		"lastActiveDate": "{date}",
-		"signOutEverywhere": "Sign out everywhere",
-		"signOutEverywhereConfirm": "Sign out of all devices? You'll need to sign in again.",
-		"thisDevice": "This device",
-		"title": "Devices & sessions",
-		"unknownDevice": "Unknown device"
+		"signOutEverywhere": "Überall abmelden",
+		"signOutEverywhereConfirm": "Von allen Geräten abmelden? Sie müssen sich erneut anmelden.",
+		"thisDevice": "Dieses Gerät",
+		"title": "Geräte und Sitzungen",
+		"unknownDevice": "Unbekanntes Gerät"
 	},
-	"title": "Settings",
+	"title": "Einstellungen",
 	"twoFactor": {
-		"addHint": "Add a second factor (an authenticator app) for extra account security.",
-		"disable": "Disable 2FA",
-		"enable": "Enable 2FA",
-		"enableCta": "Enable two-factor auth",
-		"enabledHint": "2FA is enabled. To turn it off, enter a current code or a recovery code.",
-		"qrAlt": "Two-factor QR code",
-		"recoveryIntro": "2FA is on. Save these recovery codes somewhere safe — each works once if you lose your authenticator.",
-		"scanHint": "Scan this with your authenticator app, then enter the 6-digit code to confirm.",
-		"secretManual": "Or enter this secret manually: {secret}",
-		"title": "Two-factor authentication"
+		"addHint": "Fügen Sie einen zweiten Faktor (eine Authenticator-App) hinzu, um Ihr Konto zusätzlich abzusichern.",
+		"disable": "2FA deaktivieren",
+		"enable": "2FA aktivieren",
+		"enableCta": "Zwei-Faktor-Authentifizierung aktivieren",
+		"enabledHint": "2FA ist aktiviert. Um sie abzuschalten, geben Sie einen aktuellen Code oder einen Wiederherstellungscode ein.",
+		"qrAlt": "Zwei-Faktor-QR-Code",
+		"recoveryIntro": "2FA ist aktiviert. Bewahren Sie diese Wiederherstellungscodes sicher auf – jeder funktioniert einmal, falls Sie den Zugriff auf Ihre Authenticator-App verlieren.",
+		"scanHint": "Scannen Sie dies mit Ihrer Authenticator-App und geben Sie dann zur Bestätigung den 6-stelligen Code ein.",
+		"secretManual": "Oder geben Sie diesen geheimen Schlüssel manuell ein: {secret}",
+		"title": "Zwei-Faktor-Authentifizierung"
 	},
 	"verifyEmail": {
-		"body": "We sent a verification link to your email. Didn't get it? Resend it below.",
-		"title": "Verify your email"
+		"body": "Wir haben einen Bestätigungslink an Ihre E-Mail-Adresse gesendet. Nicht erhalten? Senden Sie ihn unten erneut.",
+		"title": "E-Mail-Adresse bestätigen"
 	}
 }
