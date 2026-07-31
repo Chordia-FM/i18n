@@ -18,6 +18,12 @@
 # it pushes to the `crowdin` branch, and that branch is live. Do not add a `crowdin/github-action`
 # workflow alongside it: two syncs racing on different branches is worse than either alone.
 #
+# The integration syncs into a Crowdin BRANCH called `main` (id #34), not the project root. The CLI
+# defaults to `--branch none`, so every command run without it looks at an empty root and reports
+# "file is missing in the project" — and following that error's advice (`crowdin push`) would upload
+# a SECOND set of sources at the root, leaving two divergent copies in one project. The npm scripts
+# in package.json all pass `--branch main` for this reason; pass it by hand for any ad-hoc command.
+#
 # Two things are currently misconfigured on the Crowdin side, and both need fixing THERE, not here:
 #
 #  1. **Language Mapping is unset**, so exports land in `locales/de-DE/`, `fr-FR/`, `ja-JP/`,
