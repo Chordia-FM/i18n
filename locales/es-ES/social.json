@@ -1,59 +1,59 @@
 {
 	"block": {
-		"confirmLabel": "Block",
-		"confirmMessage": "Block @{handle}? You won't be able to add each other as friends.",
-		"confirmTitle": "Block user"
+		"confirmLabel": "Bloquear",
+		"confirmMessage": "¿Bloquear a @{handle}? Ninguno de los dos podrá añadir al otro como amigo.",
+		"confirmTitle": "Bloquear usuario"
 	},
 	"discovery": {
-		"addFriend": "Add friend",
-		"friendsStatus": "Friends",
-		"requestSent": "Request sent",
-		"sending": "Sending…"
+		"addFriend": "Añadir amigo",
+		"friendsStatus": "Amigos",
+		"requestSent": "Solicitud enviada",
+		"sending": "Enviando…"
 	},
 	"friends": {
-		"confirmRemove": "Confirm?",
-		"empty": "No friends yet - search to add some",
-		"heading": "Friends ({count})",
-		"removing": "Removing…",
-		"title": "Friends"
+		"confirmRemove": "¿Confirmar?",
+		"empty": "Aún no tienes amigos: busca a alguien para añadirlo",
+		"heading": "Amigos ({count})",
+		"removing": "Eliminando…",
+		"title": "Amigos"
 	},
 	"modMenu": {
-		"blocked": "Blocked",
-		"report": "Report",
-		"reported": "Reported"
+		"blocked": "Bloqueado",
+		"report": "Denunciar",
+		"reported": "Denunciado"
 	},
 	"page": {
-		"title": "Friends"
+		"title": "Amigos"
 	},
 	"profile": {
-		"eyebrow": "Profile",
-		"itemPlays": "{count, plural, one {# play} other {# plays}}",
+		"eyebrow": "Perfil",
+		"itemPlays": "{count, plural, one {# reproducción} other {# reproducciones}}",
 		"joinedDate": "{date, date, ::yMMMM}",
-		"joinedLabel": "joined {date}",
-		"loadError": "Couldn't load this profile.",
-		"noActivity": "No listening activity yet.",
-		"notFound": "No user with that handle.",
+		"joinedLabel": "se unió en {date}",
+		"loadError": "No se pudo cargar este perfil.",
+		"noActivity": "Aún no hay actividad de escucha.",
+		"notFound": "No hay ningún usuario con ese nombre.",
 		"private": {
-			"description": "{name} only shares their listening with friends.",
-			"title": "This profile is private"
+			"description": "{name} solo comparte lo que escucha con sus amigos.",
+			"title": "Este perfil es privado"
 		},
-		"recentlyPlayed": "Recently played",
-		"topArtists": "Top artists",
-		"topTracks": "Top tracks",
-		"totalPlays": "{count, plural, one {# play} other {# plays}}",
+		"recentlyPlayed": "Reproducido recientemente",
+		"topArtists": "Artistas principales",
+		"topTracks": "Pistas principales",
+		"totalPlays": "{count, plural, one {# reproducción} other {# reproducciones}}",
 		"totalPlaysCount": "{count}"
 	},
 	"report": {
-		"promptMessage": "Report @{handle} — what's the issue?"
+		"promptMessage": "Denunciar a @{handle}: ¿cuál es el problema?"
 	},
 	"requests": {
-		"accept": "Accept",
-		"accepting": "Accepting…",
-		"pendingHeading": "Pending requests ({count})"
+		"accept": "Aceptar",
+		"accepting": "Aceptando…",
+		"pendingHeading": "Solicitudes pendientes ({count})"
 	},
 	"search": {
-		"noResults": "No users found.",
-		"placeholder": "Search by handle or display name…",
-		"searching": "Searching…"
+		"noResults": "No se encontraron usuarios.",
+		"placeholder": "Busca por usuario o nombre visible…",
+		"searching": "Buscando…"
 	}
 }
