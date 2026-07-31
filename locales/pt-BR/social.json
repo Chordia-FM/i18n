@@ -28,7 +28,7 @@
 	"profile": {
 		"eyebrow": "Perfil",
 		"itemPlays": "{count, plural, one {# reprodução} other {# reproduções}}",
-		"joinedDate": "{date, date, ::yMMMM}",
+		"joinedDate": "",
 		"joinedLabel": "entrou em {date}",
 		"loadError": "Não foi possível carregar este perfil.",
 		"noActivity": "Nenhuma atividade de audição ainda.",
@@ -41,7 +41,7 @@
 		"topArtists": "Principais artistas",
 		"topTracks": "Principais faixas",
 		"totalPlays": "{count, plural, one {# reprodução} other {# reproduções}}",
-		"totalPlaysCount": "{count}"
+		"totalPlaysCount": ""
 	},
 	"report": {
 		"promptMessage": "Denunciar @{handle} — qual é o problema?"
