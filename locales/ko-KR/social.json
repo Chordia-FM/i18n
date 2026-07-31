@@ -28,7 +28,7 @@
 	"profile": {
 		"eyebrow": "프로필",
 		"itemPlays": "{count, plural, other {#회 재생}}",
-		"joinedDate": "{date, date, ::yMMMM}",
+		"joinedDate": "",
 		"joinedLabel": "{date} 가입",
 		"loadError": "이 프로필을 불러오지 못했습니다.",
 		"noActivity": "아직 감상 활동이 없습니다.",
@@ -41,7 +41,7 @@
 		"topArtists": "인기 아티스트",
 		"topTracks": "인기 트랙",
 		"totalPlays": "{count, plural, other {#회 재생}}",
-		"totalPlaysCount": "{count}"
+		"totalPlaysCount": ""
 	},
 	"report": {
 		"promptMessage": "@{handle}님 신고 — 무엇이 문제인가요?"
