@@ -1,32 +1,32 @@
 {
 	"cta": {
-		"github": "View on GitHub",
-		"openApp": "Open app"
+		"github": "GitHubで見る",
+		"openApp": "アプリを開く"
 	},
-	"eyebrow": "Own your audio · share it your way",
+	"eyebrow": "音楽を所有 · 共有は自分の流儀で",
 	"footer": {
 		"github": "GitHub",
-		"license": "Open source · AGPL-3.0 ·"
+		"license": "オープンソース · AGPL-3.0 ·"
 	},
 	"hero": {
-		"paragraph": "A hybrid, self-hosted music ecosystem. Absolute ownership of your library, with the connected, social streaming experience - in bit-perfect fidelity."
+		"paragraph": "ハイブリッドなセルフホスト型音楽エコシステム。ライブラリの完全な所有権と、つながりのあるソーシャルなストリーミング体験を、ビットパーフェクトな音質で。"
 	},
 	"pillars": {
 		"liveRooms": {
-			"body": "Synchronized listening parties with chat, votes, and turn-taking DJs. You hear your own copy when you own it; your library relays the rest.",
-			"title": "Live listening rooms"
+			"body": "チャット、投票、交代制DJのある同期リスニングパーティー。自分が所有する曲は自分のコピーで再生され、残りはライブラリが中継します。",
+			"title": "ライブリスニングルーム"
 		},
 		"ownIt": {
-			"body": "Keep your library at home on a NAS or Pi, or run it on a cloud server - either way the music is yours. It streams bit-perfect (FLAC, ALAC, WAV, Dolby Atmos) straight to your devices, and Chordia never stores or routes your audio.",
-			"title": "Own it, host it anywhere"
+			"body": "ライブラリは自宅のNASやRaspberry Piにも、クラウドサーバーにも置けます。どちらでも音楽はあなたのものです。ビットパーフェクト（FLAC、ALAC、WAV、Dolby Atmos）でデバイスに直接ストリーミングされ、Chordiaがあなたのオーディオを保存・中継することはありません。",
+			"title": "所有して、どこでもホスト"
 		},
 		"selectiveSharing": {
-			"body": "Organize music into separate libraries - \"Hi-Fi Archive\", \"Family Collection\" - and share each one with exactly the friends you choose.",
-			"title": "Selective sharing"
+			"body": "音楽を「ハイファイアーカイブ」「家族コレクション」のような別々のライブラリに整理し、それぞれを選んだフレンドとだけ共有できます。",
+			"title": "選択的な共有"
 		},
 		"wrapped": {
-			"body": "Every play is scrobbled to your global account and kept forever - weekly, monthly, and yearly insights that survive any server move.",
-			"title": "Lifetime Wrapped"
+			"body": "すべての再生はグローバルアカウントにスクロブルされ、永久に保存されます。週間・月間・年間のインサイトは、サーバーを移行しても失われません。",
+			"title": "一生もののWrapped"
 		}
 	}
 }
