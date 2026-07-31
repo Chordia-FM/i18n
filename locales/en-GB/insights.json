@@ -1,402 +1,402 @@
 {
 	"chart": {
 		"activity": {
-			"ariaLabel": "Listening activity over time"
+			"ariaLabel": ""
 		},
-		"dayLabel": "{date, date, ::MMMd}",
-		"hourLabel": "{date, time, ::j}",
-		"monthLabel": "{date, date, ::yMMM}",
-		"noActivityPeriod": "No activity in this period",
-		"noActivityYet": "No activity yet",
-		"peak": "Peak: {count, plural, one {# play} other {# plays}} · {date}",
-		"plays": "{count, plural, one {# play} other {# plays}}"
+		"dayLabel": "",
+		"hourLabel": "",
+		"monthLabel": "",
+		"noActivityPeriod": "",
+		"noActivityYet": "",
+		"peak": "",
+		"plays": ""
 	},
 	"charts": {
-		"down": "Down {count, plural, one {# place} other {# places}}",
+		"down": "",
 		"empty": {
-			"body": "{person, select, them {Their library will rank here once they start listening.} other {Your library ranks here once you have some plays.}}",
-			"title": "Nothing to chart yet"
+			"body": "",
+			"title": ""
 		},
-		"held": "Held its place",
-		"new": "New",
-		"next": "Next",
-		"previous": "Previous",
-		"showing": "{from}–{to} of {total}",
-		"up": "Up {count, plural, one {# place} other {# places}}"
+		"held": "",
+		"new": "",
+		"next": "",
+		"previous": "",
+		"showing": "",
+		"up": ""
 	},
 	"clock": {
-		"ariaLabel": "Listening activity by hour of day",
-		"peak": "Busiest hour: {hour} · {count, plural, one {# play} other {# plays}}"
+		"ariaLabel": "",
+		"peak": ""
 	},
 	"clockGrid": {
-		"ariaLabel": "Listening activity by weekday and hour in {timezone}",
-		"busiest": "Busiest: {day} · {hour}",
-		"cellLabel": "{day} · {hour}"
+		"ariaLabel": "",
+		"busiest": "",
+		"cellLabel": ""
 	},
 	"compatibility": {
-		"compare": "Compare",
-		"handlePlaceholder": "friend's handle",
-		"percent": "{pct}%",
-		"sharedArtists": "Artists you both love",
-		"title": "Taste compatibility",
-		"youAnd": "You & {name}"
+		"compare": "",
+		"handlePlaceholder": "",
+		"percent": "",
+		"sharedArtists": "",
+		"title": "",
+		"youAnd": ""
 	},
 	"decades": {
-		"ariaLabel": "Plays by album release decade",
-		"empty": "Not enough release dates to chart decades yet",
-		"headline": "{pct} of these plays come from the {decade}s",
-		"label": "{decade}s",
-		"tipLabel": "{decade}s · {pct} of plays",
-		"undated": "{pct} of plays have no release date and aren't shown here"
+		"ariaLabel": "",
+		"empty": "",
+		"headline": "",
+		"label": "",
+		"tipLabel": "",
+		"undated": ""
 	},
 	"delta": {
-		"downAria": "Down {pct} vs the previous period",
-		"flat": "0%",
-		"flatAria": "Unchanged from the previous period",
-		"new": "New",
-		"newAria": "nothing in the previous period to compare against",
-		"upAria": "Up {pct} vs the previous period"
+		"downAria": "",
+		"flat": "",
+		"flatAria": "",
+		"new": "",
+		"newAria": "",
+		"upAria": ""
 	},
 	"discovery": {
 		"empty": {
-			"body": "{person, select, them {Their discovery stats will build here as they listen.} other {Play some music and your discovery stats will build here.}}",
-			"title": "Nothing to discover yet"
+			"body": "",
+			"title": ""
 		},
 		"kinds": {
-			"album": "Albums",
-			"artist": "Artists",
-			"track": "Tracks"
+			"album": "",
+			"artist": "",
+			"track": ""
 		},
 		"mix": {
-			"headline": "of these plays were tracks never played before",
-			"meterAriaLabel": "Share of plays that were first-time tracks",
-			"new": "First plays · {pct}",
-			"repeats": "On repeat · {pct}",
-			"title": "New vs familiar"
+			"headline": "",
+			"meterAriaLabel": "",
+			"new": "",
+			"repeats": "",
+			"title": ""
 		},
 		"movers": {
-			"climbedBy": "Up {count, plural, one {# place} other {# places}}",
-			"climbers": "Climbers",
+			"climbedBy": "",
+			"climbers": "",
 			"empty": {
-				"body": "Chart movement compares this window with the one before it — it appears once both have plays.",
-				"title": "Nothing to compare yet"
+				"body": "",
+				"title": ""
 			},
-			"fallers": "Fallers",
-			"fellBy": "Down {count, plural, one {# place} other {# places}}",
-			"needsWindow": "Chart movement compares a window with the one before it — pick a shorter period to see it.",
-			"new": "New",
-			"newcomers": "New entries",
-			"none": "No movement here this window.",
-			"reentry": "Back on the chart",
-			"title": "Chart moves",
+			"fallers": "",
+			"fellBy": "",
+			"needsWindow": "",
+			"new": "",
+			"newcomers": "",
+			"none": "",
+			"reentry": "",
+			"title": "",
 			"vsPrevious": {
-				"day": "vs the 24 hours before",
-				"halfYear": "vs the 6 months before",
-				"month": "vs the 30 days before",
-				"quarter": "vs the 3 months before",
-				"week": "vs the 7 days before",
-				"year": "vs the 12 months before"
+				"day": "",
+				"halfYear": "",
+				"month": "",
+				"quarter": "",
+				"week": "",
+				"year": ""
 			},
-			"wasRank": "was #{rank, number}"
+			"wasRank": ""
 		},
 		"tiles": {
-			"newAlbums": "New albums",
-			"newArtists": "New artists",
-			"newTracks": "New tracks",
-			"ofPlayed": "of {count, number} played"
+			"newAlbums": "",
+			"newArtists": "",
+			"newTracks": "",
+			"ofPlayed": ""
 		},
-		"topNewArtists": "Artists discovered"
+		"topNewArtists": ""
 	},
 	"duration": {
-		"days": "{days}d",
-		"daysHours": "{days}d {hours}h",
-		"hoursMinutes": "{hours}h {minutes}m",
-		"minutes": "{minutes}m",
-		"seconds": "{seconds}s"
+		"days": "",
+		"daysHours": "",
+		"hoursMinutes": "",
+		"minutes": "",
+		"seconds": ""
 	},
 	"empty": {
 		"history": {
-			"body": "{person, select, them {Tracks they play will show up here.} other {Tracks you play will show up here.}}",
-			"title": "No history yet"
+			"body": "",
+			"title": ""
 		},
 		"overview": {
-			"body": "{person, select, them {Once they start listening, their stats will appear here.} other {Start listening and your stats will appear here.}}",
-			"title": "Nothing yet"
+			"body": "",
+			"title": ""
 		},
 		"social": {
-			"body": "When your friends listen to music (and share their activity), it shows up here.",
-			"title": "Quiet in here"
+			"body": "",
+			"title": ""
 		}
 	},
 	"entity": {
-		"alltime": "{count, plural, one {# play} other {# plays}} all-time",
+		"alltime": "",
 		"crumb": "Statistics",
 		"eyebrow": {
-			"album": "Album stats",
-			"artist": "Artist stats",
-			"track": "Track stats"
+			"album": "",
+			"artist": "",
+			"track": ""
 		},
-		"listened": "{time} listened",
+		"listened": "",
 		"never": {
-			"album": "Play this album and your listening stats will build here.",
-			"artist": "Play something by this artist and your listening stats will build here.",
-			"hub": "{count, plural, one {# play} other {# plays}} across everyone on this hub so far.",
-			"showEveryone": "Show everyone's stats",
-			"title": "No plays yet",
-			"track": "Play this track and your listening stats will build here."
+			"album": "",
+			"artist": "",
+			"hub": "",
+			"showEveryone": "",
+			"title": "",
+			"track": ""
 		},
 		"quiet": {
-			"cta": "Show all time",
-			"lastPlayed": "You last played this {ago}.",
-			"title": "Nothing in this period"
+			"cta": "",
+			"lastPlayed": "",
+			"title": ""
 		},
 		"scope": {
-			"global": "Everyone",
-			"me": "You"
+			"global": "",
+			"me": ""
 		},
 		"share": {
-			"caption": "{pct} of {total, plural, one {# play} other {# plays}} across everyone"
+			"caption": ""
 		},
-		"since": "since {date}",
+		"since": "",
 		"tiles": {
-			"activeDays": "{count, plural, one {on # day} other {across # days}}",
-			"activeMonths": "{count, plural, one {in # month} other {across # months}}",
-			"perPlay": "≈{duration} per play",
-			"rank": "Rank",
+			"activeDays": "",
+			"activeMonths": "",
+			"perPlay": "",
+			"rank": "",
 			"rankOf": {
-				"album": "of {total, plural, one {# album} other {# albums}} you played",
-				"artist": "of {total, plural, one {# artist} other {# artists}} you played",
-				"track": "of {total, plural, one {# track} other {# tracks}} you played"
+				"album": "",
+				"artist": "",
+				"track": ""
 			},
-			"rankValue": "#{rank, number}"
+			"rankValue": ""
 		},
-		"title": "Listening stats",
+		"title": "",
 		"top": {
-			"albums": "Your top albums",
-			"tracks": "Your top tracks",
-			"unplayed": "{count, plural, one {# track} other {# tracks}} on this album had no plays in this period"
+			"albums": "",
+			"tracks": "",
+			"unplayed": ""
 		},
 		"window": {
-			"everything": "Every play on record"
+			"everything": ""
 		}
 	},
 	"fingerprint": {
-		"ariaLabel": "Listening fingerprint across five measures",
-		"average": "Hub average",
+		"ariaLabel": "",
+		"average": "",
 		"axes": {
-			"concentration": "Focus",
-			"consistency": "Consistency",
-			"discovery": "Discovery",
-			"replay": "Replay",
-			"variance": "Volatility"
+			"concentration": "",
+			"consistency": "",
+			"discovery": "",
+			"replay": "",
+			"variance": ""
 		},
-		"axisWithAverage": "{axis} · hub average {pct}",
-		"you": "You"
+		"axisWithAverage": "",
+		"you": ""
 	},
 	"genreFlow": {
-		"ariaLabel": "Genre share of listening over time",
-		"empty": "No genre data in this window yet",
-		"other": "Other",
-		"otherCount": "Other · {count, plural, one {# genre} other {# genres}}"
+		"ariaLabel": "",
+		"empty": "",
+		"other": "",
+		"otherCount": ""
 	},
 	"heatmap": {
-		"ariaLabel": "Daily listening heatmap",
-		"dayLabel": "{date, date, ::EEEMMMd}",
-		"less": "Less",
-		"more": "More",
-		"scaleAriaLabel": "Activity intensity scale, less to more",
-		"summary": "{count, plural, one {# play} other {# plays}} across {days, plural, one {# active day} other {# active days}}"
+		"ariaLabel": "",
+		"dayLabel": "",
+		"less": "",
+		"more": "",
+		"scaleAriaLabel": "",
+		"summary": ""
 	},
 	"history": {
-		"beginning": "That's the earliest play on record."
+		"beginning": ""
 	},
 	"nav": {
-		"title": "Listening insights"
+		"title": ""
 	},
 	"overview": {
-		"firstWindow": "{person, select, them {Their first window on record — comparisons will appear once there's history behind it.} other {Your first window on record — comparisons will appear once there's history behind it.}}"
+		"firstWindow": ""
 	},
 	"panels": {
-		"activity": "Activity",
-		"byWeekday": "By weekday",
-		"clockHeatmap": "Listening by weekday and hour",
-		"decades": "Music by decade",
-		"fingerprint": "Listening fingerprint",
-		"genreFlow": "Genres over time",
-		"listeningClock": "Listening clock",
-		"musicRatio": "Music ratio",
-		"topGenres": "Top genres"
+		"activity": "",
+		"byWeekday": "",
+		"clockHeatmap": "",
+		"decades": "",
+		"fingerprint": "",
+		"genreFlow": "",
+		"listeningClock": "",
+		"musicRatio": "",
+		"topGenres": ""
 	},
 	"period": {
-		"day": "24 hours",
-		"halfYear": "6 months",
-		"month": "30 days",
-		"overall": "All time",
-		"quarter": "3 months",
-		"week": "7 days",
-		"year": "12 months"
+		"day": "",
+		"halfYear": "",
+		"month": "",
+		"overall": "",
+		"quarter": "",
+		"week": "",
+		"year": ""
 	},
 	"quietWindow": {
-		"body": "Nothing was played in this window.",
-		"cta": "Show all time",
-		"title": "Nothing in this period"
+		"body": "",
+		"cta": "",
+		"title": ""
 	},
 	"ratio": {
-		"ariaLabel": "{tracks, number} tracks, {albums, number} albums and {artists, number} artists as nested rings",
-		"caption": "Distinct tracks, albums, and artists played in this window. Each ring's sweep compares its count against the {count, plural, one {# track} other {# tracks}}.",
-		"shareOfTracks": "· {pct} of tracks"
+		"ariaLabel": "",
+		"caption": "",
+		"shareOfTracks": ""
 	},
-	"recentlyPlayed": "Recently Played",
+	"recentlyPlayed": "",
 	"records": {
 		"empty": {
-			"body": "{person, select, them {Streaks, records, and milestones build as they listen.} other {Streaks, records, and milestones build as you listen.}}",
-			"title": "No records yet"
+			"body": "",
+			"title": ""
 		},
 		"milestones": {
-			"beginning": "{person, select, them {Every library starts somewhere — round-number milestones will land here as their plays add up.} other {Every library starts somewhere — round-number milestones will land here as your plays add up.}}",
-			"chip": "All time",
-			"curveAriaLabel": "Cumulative plays over time, one point per milestone",
-			"first": "First play",
+			"beginning": "",
+			"chip": "",
+			"curveAriaLabel": "",
+			"first": "",
 			"lookup": {
-				"label": "Look up a play",
-				"outOfRange": "There aren't that many plays on record yet.",
-				"submit": "Find it"
+				"label": "",
+				"outOfRange": "",
+				"submit": ""
 			},
-			"ordinal": "{ordinal, selectordinal, one {#st play} two {#nd play} few {#rd play} other {#th play}}",
-			"title": "Milestones"
+			"ordinal": "",
+			"title": ""
 		},
 		"onThisDay": {
-			"empty": "{person, select, them {No memories on this date yet — they'll gather here once their history is a year deep.} other {No memories on this date yet — they'll gather here once your history is a year deep.}}",
-			"title": "On this day",
-			"yearsAgo": "{count, plural, one {# year ago} other {# years ago}}"
+			"empty": "",
+			"title": "",
+			"yearsAgo": ""
 		},
 		"sessions": {
-			"ariaLabel": "The longest listening sessions",
-			"longest": "Longest: {duration} · {date}",
-			"meta": "{tracks, plural, one {# track} other {# tracks}}",
-			"metaWithArtist": "{tracks, plural, one {# track} other {# tracks}} · mostly {artist}",
-			"title": "Longest sessions"
+			"ariaLabel": "",
+			"longest": "",
+			"meta": "",
+			"metaWithArtist": "",
+			"title": ""
 		},
 		"streaks": {
-			"alsoLongest": "Longest ever",
-			"current": "Current streak",
-			"days": "{count, plural, one {# day} other {# days}}",
-			"detail": "{range} · {plays, plural, one {# play} other {# plays}}",
-			"live": "Active — keep it going",
-			"longest": "Longest streak",
+			"alsoLongest": "",
+			"current": "",
+			"days": "",
+			"detail": "",
+			"live": "",
+			"longest": "",
 			"noCurrent": {
-				"body": "{person, select, them {Nothing active right now.} other {Play something today to start one.}}",
-				"title": "No streak right now"
+				"body": "",
+				"title": ""
 			}
 		},
 		"tiles": {
-			"activeDays": "Active days",
-			"activeDaysOf": "of {count, number} in this window",
-			"biggestDay": "Biggest day",
-			"playsPerDay": "Plays per day"
+			"activeDays": "",
+			"activeDaysOf": "",
+			"biggestDay": "",
+			"playsPerDay": ""
 		}
 	},
 	"relative": {
-		"hoursAgo": "{hours}h ago",
-		"justNow": "just now",
-		"minutesAgo": "{minutes}m ago",
-		"shortDate": "{date}",
-		"today": "today",
-		"yesterday": "yesterday"
+		"hoursAgo": "",
+		"justNow": "",
+		"minutesAgo": "",
+		"shortDate": "",
+		"today": "",
+		"yesterday": ""
 	},
 	"shareGrid": {
 		"album": {
-			"ariaLabel": "Grid of your most played album covers for this period",
-			"infoToggle": "Album info on grid",
-			"title": "Album grid"
+			"ariaLabel": "",
+			"infoToggle": "",
+			"title": ""
 		},
 		"artist": {
-			"ariaLabel": "Artist grid preview",
-			"infoToggle": "Artist info on grid",
-			"title": "Artist grid"
+			"ariaLabel": "",
+			"infoToggle": "",
+			"title": ""
 		},
-		"bordersToggle": "Include borders",
-		"download": "Download",
-		"downloaded": "Saved your album grid.",
-		"downloading": "Rendering…",
-		"failed": "Couldn't create the grid. Please try again."
+		"bordersToggle": "",
+		"download": "",
+		"downloaded": "",
+		"downloading": "",
+		"failed": ""
 	},
 	"social": {
-		"friendActivity": "Friend Activity",
-		"listeningNow": "Listening now"
+		"friendActivity": "",
+		"listeningNow": ""
 	},
 	"stats": {
-		"dateLabel": "{date, date, ::yMMMd}",
-		"duration": "{days}d {hours}h / {hours}h {minutes}m / {minutes}m",
-		"firstPlayed": "First played",
-		"lastPlayed": "Last played",
-		"plays": "Plays",
-		"playsValue": "{count, number}",
-		"rankBadge": "#{rank} most played",
-		"rankOf": "#{rank, number} of {total, number}",
-		"seeAll": "See full stats",
+		"dateLabel": "",
+		"duration": "",
+		"firstPlayed": "",
+		"lastPlayed": "",
+		"plays": "",
+		"playsValue": "",
+		"rankBadge": "",
+		"rankOf": "",
+		"seeAll": "",
 		"sparkline": {
-			"ariaLabel": "Monthly play trend"
+			"ariaLabel": ""
 		},
-		"time": "Time",
-		"timeListened": "Time Listened",
-		"title": "Your stats",
-		"uniqueArtists": "Unique Artists",
-		"uniqueArtistsValue": "{count}",
-		"uniqueTracks": "Unique Tracks",
-		"uniqueTracksValue": "{count}"
+		"time": "",
+		"timeListened": "",
+		"title": "",
+		"uniqueArtists": "",
+		"uniqueArtistsValue": "",
+		"uniqueTracks": "",
+		"uniqueTracksValue": ""
 	},
 	"tabs": {
-		"charts": "Charts",
-		"discovery": "Discovery",
-		"history": "History",
-		"overview": "Overview",
-		"records": "Records",
-		"social": "Social"
+		"charts": "",
+		"discovery": "",
+		"history": "",
+		"overview": "",
+		"records": "",
+		"social": ""
 	},
-	"title": "Listening",
+	"title": "",
 	"top": {
-		"albums": "Top Albums",
-		"artists": "Top Artists",
-		"genres": "Top Genres",
-		"playsCount": "{count, plural, one {# play} other {# plays}}",
-		"tracks": "Top Tracks"
+		"albums": "",
+		"artists": "",
+		"genres": "",
+		"playsCount": "",
+		"tracks": ""
 	},
 	"topCard": {
-		"album": "Top album",
-		"artist": "Top artist",
-		"track": "Top track"
+		"album": "",
+		"artist": "",
+		"track": ""
 	},
 	"weekday": {
-		"fri": "Fri",
-		"mon": "Mon",
-		"playsValue": "{count, number}",
-		"sat": "Sat",
-		"sun": "Sun",
-		"thu": "Thu",
-		"tue": "Tue",
-		"wed": "Wed"
+		"fri": "",
+		"mon": "",
+		"playsValue": "",
+		"sat": "",
+		"sun": "",
+		"thu": "",
+		"tue": "",
+		"wed": ""
 	},
 	"wrapped": {
-		"downloaded": "Saved your Wrapped card.",
-		"failed": "Couldn't create the card. Please try again.",
-		"heading": "Chordia Wrapped",
-		"minutesListened": "minutes listened",
+		"downloaded": "",
+		"failed": "",
+		"heading": "",
+		"minutesListened": "",
 		"periodTitle": {
-			"halfYear": "Your last 6 months in music",
-			"month": "Your month in music",
-			"overall": "Your all-time stats",
-			"quarter": "Your last 3 months in music",
-			"week": "Your week in music",
-			"year": "Your year in music"
+			"halfYear": "",
+			"month": "",
+			"overall": "",
+			"quarter": "",
+			"week": "",
+			"year": ""
 		},
-		"shareButton": "Share",
-		"shared": "Shared your Wrapped card.",
-		"sharedFallback": "Couldn't share — saved the card to your downloads instead.",
-		"sharing": "Sharing…",
-		"statLine": "{artists, number} artists · {tracks, number} tracks",
-		"topArtists": "Top artists",
-		"topGenre": "Top genre",
-		"topTracks": "Top tracks"
+		"shareButton": "",
+		"shared": "",
+		"sharedFallback": "",
+		"sharing": "",
+		"statLine": "",
+		"topArtists": "",
+		"topGenre": "",
+		"topTracks": ""
 	}
 }
