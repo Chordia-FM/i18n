@@ -1,222 +1,222 @@
 {
 	"actions": {
-		"editMetadata": "Edit metadata"
+		"editMetadata": "메타데이터 편집"
 	},
 	"album": {
 		"card": {
 			"artistYearJoin": "{artist} · {year}"
 		},
-		"count": "{count, plural, one {# album} other {# albums}}",
-		"disc": "Disc {n}",
+		"count": "{count, plural, other {앨범 #개}}",
+		"disc": "디스크 {n}",
 		"download": {
-			"albumTitle": "Download album",
-			"busy": "Downloading…",
-			"done": "Downloaded",
-			"failed": "Download failed",
-			"removePartial": "Removed {removed}, {failed} failed",
-			"removeTitle": "Remove downloads",
-			"removed": "Removed downloads",
-			"savedCount": "{count, plural, one {Downloaded # song} other {Downloaded # songs}}",
-			"savedPartial": "Downloaded {saved}, {failed} failed"
+			"albumTitle": "앨범 다운로드",
+			"busy": "다운로드 중…",
+			"done": "다운로드 완료",
+			"failed": "다운로드에 실패했습니다",
+			"removePartial": "{removed}개 제거, {failed}개 실패",
+			"removeTitle": "다운로드 제거",
+			"removed": "다운로드를 제거했습니다",
+			"savedCount": "{count, plural, other {#곡 다운로드함}}",
+			"savedPartial": "{saved}곡 다운로드, {failed}곡 실패"
 		},
-		"durationHrMin": "{count, plural, one {# hr} other {# hr}} {minutes} min",
-		"durationMin": "{minutes} min",
+		"durationHrMin": "{count, plural, other {#시간}} {minutes}분",
+		"durationMin": "{minutes}분",
 		"genresJoin": "{genres}",
-		"goToRadio": "Go to artist radio",
+		"goToRadio": "아티스트 라디오로 이동",
 		"releaseDate": "{date, date, long}",
-		"songCount": "{count, plural, one {# song} other {# songs}}",
+		"songCount": "{count, plural, other {#곡}}",
 		"typesJoin": "{types}"
 	},
 	"artist": {
-		"albums": "Albums",
-		"appearsOn": "Appears on",
-		"born": "Born {year}",
+		"albums": "앨범",
+		"appearsOn": "참여 앨범",
+		"born": "{year}년 출생",
 		"card": {
-			"albumCount": "{count, plural, one {# album} other {# albums}}"
+			"albumCount": "{count, plural, other {앨범 #개}}"
 		},
-		"discography": "Discography",
+		"discography": "디스코그래피",
 		"factsJoin": "{facts}",
-		"formed": "Formed {year}",
+		"formed": "{year}년 결성",
 		"genresJoin": "{genres}",
 		"labelMetaJoin": "{span} · {releases}",
-		"labels": "Labels",
+		"labels": "레이블",
 		"links": {
-			"open": "Artist links",
-			"title": "Links"
+			"open": "아티스트 링크",
+			"title": "링크"
 		},
 		"liveAlbum": {
-			"card": "All live recordings",
-			"label": "Live collection",
-			"subtitle": "{count, plural, one {From # album} other {From # albums}}",
-			"title": "{name} — Live"
+			"card": "모든 라이브 녹음",
+			"label": "라이브 모음",
+			"subtitle": "{count, plural, other {앨범 #개에서}}",
+			"title": "{name} — 라이브"
 		},
 		"namesJoin": "{artists}",
-		"popular": "Popular",
-		"radio": "Radio",
-		"relatedArtists": "Related artists",
+		"popular": "인기",
+		"radio": "라디오",
+		"relatedArtists": "관련 아티스트",
 		"relation": {
-			"alias": "Also known as",
-			"member": "Member of / members",
-			"related": "Related"
+			"alias": "다른 이름",
+			"member": "소속 / 멤버",
+			"related": "관련"
 		},
-		"releaseCount": "{count, plural, one {# release} other {# releases}}",
+		"releaseCount": "{count, plural, other {발매 #장}}",
 		"versions": {
-			"instrumental": "Instrumental",
-			"live": "Live"
+			"instrumental": "연주곡",
+			"live": "라이브"
 		}
 	},
 	"artistNamesJoin": "{names}",
 	"edit": {
 		"artOptionAlt": "{kind}",
-		"artworkAlt": "artwork",
-		"bannerSet": "Banner set ✓",
-		"browseAlbumCovers": "Browse album covers",
-		"browseArtwork": "Browse artwork (fanart.tv)",
+		"artworkAlt": "아트워크",
+		"bannerSet": "배너 설정 완료 ✓",
+		"browseAlbumCovers": "앨범 커버 찾아보기",
+		"browseArtwork": "아트워크 찾아보기(fanart.tv)",
 		"field": {
-			"album": "Album",
-			"artist": "Artist",
-			"bio": "Bio",
-			"discNo": "Disc #",
-			"genre": "Genre",
-			"genres": "Genres (comma-separated)",
-			"label": "Label",
-			"name": "Name",
-			"title": "Title",
-			"trackNo": "Track #",
-			"type": "Type",
-			"year": "Year"
+			"album": "앨범",
+			"artist": "아티스트",
+			"bio": "소개",
+			"discNo": "디스크 번호",
+			"genre": "장르",
+			"genres": "장르(쉼표로 구분)",
+			"label": "레이블",
+			"name": "이름",
+			"title": "제목",
+			"trackNo": "트랙 번호",
+			"type": "유형",
+			"year": "연도"
 		},
-		"helpText": "Leave a field blank to keep the original. Changes are stored for this library only, unless you enable “Override globally”.",
-		"noArtworkAlbum": "No covers found — the album needs a MusicBrainz match.",
-		"noArtworkArtist": "No online artwork found — needs a fanart.tv API key and a MusicBrainz match.",
+		"helpText": "칸을 비워 두면 원래 값이 유지됩니다. 변경 사항은 “전체에 적용”을 켜지 않는 한 이 라이브러리에만 저장됩니다.",
+		"noArtworkAlbum": "커버를 찾지 못했습니다 — 앨범에 MusicBrainz 매칭이 필요합니다.",
+		"noArtworkArtist": "온라인 아트워크를 찾지 못했습니다 — fanart.tv API 키와 MusicBrainz 매칭이 필요합니다.",
 		"overrideGlobally": {
-			"help": "Also show this edit across your whole catalog (your highest-priority library wins). Doesn't change the original or affect other users.",
-			"label": "Override globally"
+			"help": "이 편집을 전체 카탈로그에도 표시합니다(우선순위가 가장 높은 라이브러리가 적용됩니다). 원본을 바꾸거나 다른 사용자에게 영향을 주지는 않습니다.",
+			"label": "전체에 적용"
 		},
 		"reset": {
-			"confirmMessage": "Reset to original metadata? This clears your edits for this item.",
-			"confirmTitle": "Reset metadata"
+			"confirmMessage": "원본 메타데이터로 되돌릴까요? 이 항목에 적용한 편집이 모두 사라집니다.",
+			"confirmTitle": "메타데이터 되돌리기"
 		},
-		"resetToOriginal": "Reset to original",
+		"resetToOriginal": "원본으로 되돌리기",
 		"title": {
-			"album": "Edit album",
-			"artist": "Edit artist",
-			"track": "Edit track"
+			"album": "앨범 편집",
+			"artist": "아티스트 편집",
+			"track": "트랙 편집"
 		},
-		"uploadBanner": "Upload banner",
-		"uploadCover": "Upload cover",
-		"uploadImage": "Upload image",
-		"useThisArt": "Use this {kind}"
+		"uploadBanner": "배너 업로드",
+		"uploadCover": "커버 업로드",
+		"uploadImage": "이미지 업로드",
+		"useThisArt": "이 {kind} 사용"
 	},
 	"entity": {
-		"artist": "Artist",
-		"label": "Label"
+		"artist": "아티스트",
+		"label": "레이블"
 	},
 	"genres": {
-		"counts": "{albumsFormatted} {albums, plural, one {album} other {albums}} · {artistsFormatted} {artists, plural, one {artist} other {artists}}",
-		"empty": "No genres yet — they arrive with album metadata as your library is enriched.",
-		"eyebrow": "Genre",
-		"notFound": "No albums carry that genre.",
-		"title": "Genres",
-		"topAlbums": "Top albums",
-		"topArtists": "Top artists",
-		"variants": "Also tagged: {list}"
+		"counts": "앨범 {albumsFormatted}{albums, plural, other {개}} · 아티스트 {artistsFormatted}{artists, plural, other {명}}",
+		"empty": "아직 장르가 없습니다 — 라이브러리가 보강되면서 앨범 메타데이터와 함께 채워집니다.",
+		"eyebrow": "장르",
+		"notFound": "이 장르의 앨범이 없습니다.",
+		"title": "장르",
+		"topAlbums": "인기 앨범",
+		"topArtists": "인기 아티스트",
+		"variants": "함께 태그됨: {list}"
 	},
 	"label": {
-		"albumCount": "{count, plural, one {# album} other {# albums}}",
-		"albumCountWithPrefix": "Label · {count, plural, one {# album} other {# albums}}",
-		"eyebrow": "Label",
-		"factsSeparator": "type · country · lifespan",
+		"albumCount": "{count, plural, other {앨범 #개}}",
+		"albumCountWithPrefix": "레이블 · {count, plural, other {앨범 #개}}",
+		"eyebrow": "레이블",
+		"factsSeparator": "유형 · 국가 · 활동 기간",
 		"formerNames": "{name1}, {name2}",
-		"formerly": "Formerly {names}",
+		"formerly": "이전 이름 {names}",
 		"lifespan": {
-			"founded": "Founded {year}",
+			"founded": "{year}년 설립",
 			"range": "{from} – {to}",
-			"until": "Until {year}"
+			"until": "{year}년까지"
 		},
-		"noAlbums": "No albums."
+		"noAlbums": "앨범이 없습니다."
 	},
 	"labels": {
-		"empty": "No labels yet — they fill in as your catalog is enriched from MusicBrainz.",
-		"title": "Labels"
+		"empty": "아직 레이블이 없습니다 — MusicBrainz에서 카탈로그가 보강되면서 채워집니다.",
+		"title": "레이블"
 	},
 	"lyrics": {
-		"heading": "Lyrics",
-		"placeholderPlain": "First line\nSecond line",
-		"placeholderSynced": "[00:00.00] First line\n[00:04.20] Second line",
-		"plainHelp": "Plain lyrics — one line each, no timing.",
-		"resetDone": "Reset to auto-fetched lyrics",
-		"resetError": "Couldn't reset lyrics",
-		"resetToAuto": "Reset to auto",
-		"resetToAutoTitle": "Forget this edit and re-fetch from the provider",
-		"save": "Save lyrics",
-		"saveError": "Couldn't save lyrics",
-		"saved": "Lyrics saved",
-		"sharedNote": "Shared across all libraries. ",
-		"syncedHelp": "One line per lyric, each prefixed with a timestamp like [00:12.34]; untimed lines are dropped.",
-		"syncedLabel": "Synced (LRC timing)"
+		"heading": "가사",
+		"placeholderPlain": "첫 번째 줄\n두 번째 줄",
+		"placeholderSynced": "[00:00.00] 첫 번째 줄\n[00:04.20] 두 번째 줄",
+		"plainHelp": "일반 가사 — 한 줄에 한 소절씩, 시간 정보 없음.",
+		"resetDone": "자동으로 가져온 가사로 되돌렸습니다",
+		"resetError": "가사를 되돌리지 못했습니다",
+		"resetToAuto": "자동으로 되돌리기",
+		"resetToAutoTitle": "이 편집을 지우고 제공처에서 다시 가져옵니다",
+		"save": "가사 저장",
+		"saveError": "가사를 저장하지 못했습니다",
+		"saved": "가사를 저장했습니다",
+		"sharedNote": "모든 라이브러리에 공유됩니다. ",
+		"syncedHelp": "가사 한 줄마다 [00:12.34] 형식의 타임스탬프를 앞에 붙이세요. 시간이 없는 줄은 제외됩니다.",
+		"syncedLabel": "동기화됨(LRC 타이밍)"
 	},
 	"report": {
-		"action": "Report",
-		"allLibraries": "All my libraries",
-		"bannerSet": "New banner ready ✓",
-		"changeBanner": "Change banner",
-		"changeImage": "Change image",
+		"action": "수정 제안",
+		"allLibraries": "내 모든 라이브러리",
+		"bannerSet": "새 배너 준비 완료 ✓",
+		"changeBanner": "배너 변경",
+		"changeImage": "이미지 변경",
 		"field": {
-			"bio": "Bio",
-			"genres": "Genres (comma-separated)",
-			"name": "Name",
-			"note": "Note for reviewers (optional)"
+			"bio": "소개",
+			"genres": "장르(쉼표로 구분)",
+			"name": "이름",
+			"note": "검토자에게 남길 메모(선택)"
 		},
-		"genresHint": "Separate multiple genres with commas.",
-		"helpText": "Edit {name}'s details below. Save changes to a library you own instantly, or submit them as a suggestion for everyone (an admin reviews those). Only changed fields are sent.",
-		"imageAlt": "Artist image",
-		"libraryTarget": "Choose which library to save to",
-		"noteHint": "Only sent with a suggestion. Anything that helps reviewers (e.g. a source link).",
-		"saveFailed": "Couldn't save your changes.",
-		"saveToLibrary": "Save to library",
-		"savedToAll": "Saved to all your libraries.",
-		"savedToLibrary": "Saved to {name}.",
-		"submit": "Submit suggestion",
-		"submitFailed": "Couldn't send your suggestion.",
-		"suggestionSent": "Suggestion sent for review.",
-		"title": "Edit artist details"
+		"genresHint": "여러 장르는 쉼표로 구분하세요.",
+		"helpText": "아래에서 {name}의 정보를 편집하세요. 내가 소유한 라이브러리에는 바로 저장할 수 있고, 모두를 위한 제안으로 제출할 수도 있습니다(제안은 관리자가 검토합니다). 변경된 항목만 전송됩니다.",
+		"imageAlt": "아티스트 이미지",
+		"libraryTarget": "저장할 라이브러리를 선택하세요",
+		"noteHint": "제안할 때만 함께 전송됩니다. 검토에 도움이 되는 내용(예: 출처 링크)을 적어 주세요.",
+		"saveFailed": "변경 사항을 저장하지 못했습니다.",
+		"saveToLibrary": "라이브러리에 저장",
+		"savedToAll": "내 모든 라이브러리에 저장했습니다.",
+		"savedToLibrary": "{name}에 저장했습니다.",
+		"submit": "제안 제출",
+		"submitFailed": "제안을 보내지 못했습니다.",
+		"suggestionSent": "검토를 위해 제안을 보냈습니다.",
+		"title": "아티스트 정보 편집"
 	},
 	"search": {
-		"placeholder": "Artists, albums, or songs"
+		"placeholder": "아티스트, 앨범, 곡"
 	},
 	"section": {
-		"albums": "Albums",
-		"artists": "Artists",
-		"labels": "Labels",
-		"songs": "Songs",
-		"tracks": "Tracks"
+		"albums": "앨범",
+		"artists": "아티스트",
+		"labels": "레이블",
+		"songs": "곡",
+		"tracks": "트랙"
 	},
-	"songCount": "{count, plural, one {# song} other {# songs}}",
+	"songCount": "{count, plural, other {#곡}}",
 	"track": {
-		"clean": "Clean",
+		"clean": "클린",
 		"column": {
-			"album": "Album",
-			"dateAdded": "Date added",
-			"plays": "Plays",
-			"title": "Title"
+			"album": "앨범",
+			"dateAdded": "추가한 날짜",
+			"plays": "재생 횟수",
+			"title": "제목"
 		},
 		"download": {
-			"exists": "Already downloaded",
-			"removeAction": "Remove download",
-			"removeError": "Couldn't remove download",
-			"removed": "Removed download",
-			"savedNamed": "Downloaded {title}"
+			"exists": "이미 다운로드됨",
+			"removeAction": "다운로드 제거",
+			"removeError": "다운로드를 제거하지 못했습니다",
+			"removed": "다운로드를 제거했습니다",
+			"savedNamed": "{title} 다운로드함"
 		},
-		"explicit": "Explicit",
-		"playAria": "Play {title} by {artist}",
+		"explicit": "가사 주의",
+		"playAria": "{artist}의 {title} 재생",
 		"playsNumber": "{n, number}",
 		"relTime": {
-			"daysAgo": "{count, plural, one {# day ago} other {# days ago}}",
+			"daysAgo": "{count, plural, other {#일 전}}",
 			"fullDate": "{date, date, medium}",
-			"today": "Today",
-			"yesterday": "Yesterday"
+			"today": "오늘",
+			"yesterday": "어제"
 		}
 	},
-	"trackCount": "{count, plural, one {# track} other {# tracks}}"
+	"trackCount": "{count, plural, other {트랙 #개}}"
 }
