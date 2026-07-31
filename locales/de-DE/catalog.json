@@ -1,65 +1,65 @@
 {
 	"actions": {
-		"editMetadata": "Edit metadata"
+		"editMetadata": "Metadaten bearbeiten"
 	},
 	"album": {
 		"card": {
 			"artistYearJoin": "{artist} · {year}"
 		},
-		"count": "{count, plural, one {# album} other {# albums}}",
-		"disc": "Disc {n}",
+		"count": "{count, plural, one {# Album} other {# Alben}}",
+		"disc": "CD {n}",
 		"download": {
-			"albumTitle": "Download album",
-			"busy": "Downloading…",
-			"done": "Downloaded",
-			"failed": "Download failed",
-			"removePartial": "Removed {removed}, {failed} failed",
-			"removeTitle": "Remove downloads",
-			"removed": "Removed downloads",
-			"savedCount": "{count, plural, one {Downloaded # song} other {Downloaded # songs}}",
-			"savedPartial": "Downloaded {saved}, {failed} failed"
+			"albumTitle": "Album herunterladen",
+			"busy": "Wird heruntergeladen…",
+			"done": "Heruntergeladen",
+			"failed": "Download fehlgeschlagen",
+			"removePartial": "{removed} entfernt, {failed} fehlgeschlagen",
+			"removeTitle": "Downloads entfernen",
+			"removed": "Downloads entfernt",
+			"savedCount": "{count, plural, one {# Song heruntergeladen} other {# Songs heruntergeladen}}",
+			"savedPartial": "{saved} heruntergeladen, {failed} fehlgeschlagen"
 		},
-		"durationHrMin": "{count, plural, one {# hr} other {# hr}} {minutes} min",
-		"durationMin": "{minutes} min",
+		"durationHrMin": "{count, plural, one {# Std.} other {# Std.}} {minutes} Min.",
+		"durationMin": "{minutes} Min.",
 		"genresJoin": "{genres}",
-		"goToRadio": "Go to artist radio",
+		"goToRadio": "Zum Künstlerradio",
 		"releaseDate": "{date, date, long}",
-		"songCount": "{count, plural, one {# song} other {# songs}}",
+		"songCount": "{count, plural, one {# Song} other {# Songs}}",
 		"typesJoin": "{types}"
 	},
 	"artist": {
-		"albums": "Albums",
-		"appearsOn": "Appears on",
-		"born": "Born {year}",
+		"albums": "Alben",
+		"appearsOn": "Erscheint auf",
+		"born": "Geboren {year}",
 		"card": {
-			"albumCount": "{count, plural, one {# album} other {# albums}}"
+			"albumCount": "{count, plural, one {# Album} other {# Alben}}"
 		},
-		"discography": "Discography",
+		"discography": "Diskografie",
 		"factsJoin": "{facts}",
-		"formed": "Formed {year}",
+		"formed": "Gegründet {year}",
 		"genresJoin": "{genres}",
 		"labelMetaJoin": "{span} · {releases}",
 		"labels": "Labels",
 		"links": {
-			"open": "Artist links",
+			"open": "Künstler-Links",
 			"title": "Links"
 		},
 		"liveAlbum": {
-			"card": "All live recordings",
-			"label": "Live collection",
-			"subtitle": "{count, plural, one {From # album} other {From # albums}}",
+			"card": "Alle Live-Aufnahmen",
+			"label": "Live-Sammlung",
+			"subtitle": "{count, plural, one {Aus # Album} other {Aus # Alben}}",
 			"title": "{name} — Live"
 		},
 		"namesJoin": "{artists}",
-		"popular": "Popular",
+		"popular": "Beliebt",
 		"radio": "Radio",
-		"relatedArtists": "Related artists",
+		"relatedArtists": "Ähnliche Künstler",
 		"relation": {
-			"alias": "Also known as",
-			"member": "Member of / members",
-			"related": "Related"
+			"alias": "Auch bekannt als",
+			"member": "Mitglied von / Mitglieder",
+			"related": "Ähnlich"
 		},
-		"releaseCount": "{count, plural, one {# release} other {# releases}}",
+		"releaseCount": "{count, plural, one {# Veröffentlichung} other {# Veröffentlichungen}}",
 		"versions": {
 			"instrumental": "Instrumental",
 			"live": "Live"
@@ -68,155 +68,155 @@
 	"artistNamesJoin": "{names}",
 	"edit": {
 		"artOptionAlt": "{kind}",
-		"artworkAlt": "artwork",
-		"bannerSet": "Banner set ✓",
-		"browseAlbumCovers": "Browse album covers",
-		"browseArtwork": "Browse artwork (fanart.tv)",
+		"artworkAlt": "Grafik",
+		"bannerSet": "Banner gesetzt ✓",
+		"browseAlbumCovers": "Albumcover durchsuchen",
+		"browseArtwork": "Grafiken durchsuchen (fanart.tv)",
 		"field": {
 			"album": "Album",
-			"artist": "Artist",
+			"artist": "Künstler",
 			"bio": "Bio",
-			"discNo": "Disc #",
+			"discNo": "Disc-Nr.",
 			"genre": "Genre",
-			"genres": "Genres (comma-separated)",
+			"genres": "Genres (durch Kommas getrennt)",
 			"label": "Label",
 			"name": "Name",
-			"title": "Title",
-			"trackNo": "Track #",
-			"type": "Type",
-			"year": "Year"
+			"title": "Titel",
+			"trackNo": "Titel-Nr.",
+			"type": "Typ",
+			"year": "Jahr"
 		},
-		"helpText": "Leave a field blank to keep the original. Changes are stored for this library only, unless you enable “Override globally”.",
-		"noArtworkAlbum": "No covers found — the album needs a MusicBrainz match.",
-		"noArtworkArtist": "No online artwork found — needs a fanart.tv API key and a MusicBrainz match.",
+		"helpText": "Lassen Sie ein Feld leer, um den Originalwert zu behalten. Änderungen gelten nur für diese Bibliothek, sofern Sie nicht „Global überschreiben“ aktivieren.",
+		"noArtworkAlbum": "Keine Cover gefunden – das Album benötigt eine MusicBrainz-Zuordnung.",
+		"noArtworkArtist": "Keine Online-Grafiken gefunden – dafür sind ein fanart.tv-API-Schlüssel und eine MusicBrainz-Zuordnung nötig.",
 		"overrideGlobally": {
-			"help": "Also show this edit across your whole catalog (your highest-priority library wins). Doesn't change the original or affect other users.",
-			"label": "Override globally"
+			"help": "Diese Änderung auch im gesamten Katalog anzeigen (Ihre Bibliothek mit der höchsten Priorität gewinnt). Das Original bleibt unverändert, andere Nutzer sind nicht betroffen.",
+			"label": "Global überschreiben"
 		},
 		"reset": {
-			"confirmMessage": "Reset to original metadata? This clears your edits for this item.",
-			"confirmTitle": "Reset metadata"
+			"confirmMessage": "Auf die ursprünglichen Metadaten zurücksetzen? Dadurch werden Ihre Änderungen an diesem Element verworfen.",
+			"confirmTitle": "Metadaten zurücksetzen"
 		},
-		"resetToOriginal": "Reset to original",
+		"resetToOriginal": "Auf Original zurücksetzen",
 		"title": {
-			"album": "Edit album",
-			"artist": "Edit artist",
-			"track": "Edit track"
+			"album": "Album bearbeiten",
+			"artist": "Künstler bearbeiten",
+			"track": "Titel bearbeiten"
 		},
-		"uploadBanner": "Upload banner",
-		"uploadCover": "Upload cover",
-		"uploadImage": "Upload image",
-		"useThisArt": "Use this {kind}"
+		"uploadBanner": "Banner hochladen",
+		"uploadCover": "Cover hochladen",
+		"uploadImage": "Bild hochladen",
+		"useThisArt": "{kind} verwenden"
 	},
 	"entity": {
-		"artist": "Artist",
+		"artist": "Künstler",
 		"label": "Label"
 	},
 	"genres": {
-		"counts": "{albumsFormatted} {albums, plural, one {album} other {albums}} · {artistsFormatted} {artists, plural, one {artist} other {artists}}",
-		"empty": "No genres yet — they arrive with album metadata as your library is enriched.",
+		"counts": "{albumsFormatted} {albums, plural, one {Album} other {Alben}} · {artistsFormatted} {artists, plural, one {Künstler} other {Künstler}}",
+		"empty": "Noch keine Genres – sie kommen mit den Album-Metadaten, sobald Ihre Bibliothek angereichert wird.",
 		"eyebrow": "Genre",
-		"notFound": "No albums carry that genre.",
+		"notFound": "Kein Album trägt dieses Genre.",
 		"title": "Genres",
-		"topAlbums": "Top albums",
-		"topArtists": "Top artists",
-		"variants": "Also tagged: {list}"
+		"topAlbums": "Top-Alben",
+		"topArtists": "Top-Künstler",
+		"variants": "Auch getaggt: {list}"
 	},
 	"label": {
-		"albumCount": "{count, plural, one {# album} other {# albums}}",
-		"albumCountWithPrefix": "Label · {count, plural, one {# album} other {# albums}}",
+		"albumCount": "{count, plural, one {# Album} other {# Alben}}",
+		"albumCountWithPrefix": "Label · {count, plural, one {# Album} other {# Alben}}",
 		"eyebrow": "Label",
-		"factsSeparator": "type · country · lifespan",
+		"factsSeparator": "Typ · Land · Zeitraum",
 		"formerNames": "{name1}, {name2}",
-		"formerly": "Formerly {names}",
+		"formerly": "Früher {names}",
 		"lifespan": {
-			"founded": "Founded {year}",
+			"founded": "Gegründet {year}",
 			"range": "{from} – {to}",
-			"until": "Until {year}"
+			"until": "Bis {year}"
 		},
-		"noAlbums": "No albums."
+		"noAlbums": "Keine Alben."
 	},
 	"labels": {
-		"empty": "No labels yet — they fill in as your catalog is enriched from MusicBrainz.",
+		"empty": "Noch keine Labels – sie werden ergänzt, sobald Ihr Katalog über MusicBrainz angereichert wird.",
 		"title": "Labels"
 	},
 	"lyrics": {
-		"heading": "Lyrics",
-		"placeholderPlain": "First line\nSecond line",
-		"placeholderSynced": "[00:00.00] First line\n[00:04.20] Second line",
-		"plainHelp": "Plain lyrics — one line each, no timing.",
-		"resetDone": "Reset to auto-fetched lyrics",
-		"resetError": "Couldn't reset lyrics",
-		"resetToAuto": "Reset to auto",
-		"resetToAutoTitle": "Forget this edit and re-fetch from the provider",
-		"save": "Save lyrics",
-		"saveError": "Couldn't save lyrics",
-		"saved": "Lyrics saved",
-		"sharedNote": "Shared across all libraries. ",
-		"syncedHelp": "One line per lyric, each prefixed with a timestamp like [00:12.34]; untimed lines are dropped.",
-		"syncedLabel": "Synced (LRC timing)"
+		"heading": "Liedtext",
+		"placeholderPlain": "Erste Zeile\nZweite Zeile",
+		"placeholderSynced": "[00:00.00] Erste Zeile\n[00:04.20] Zweite Zeile",
+		"plainHelp": "Einfacher Liedtext – je eine Zeile, ohne Zeitangaben.",
+		"resetDone": "Auf automatisch abgerufenen Liedtext zurückgesetzt",
+		"resetError": "Liedtext konnte nicht zurückgesetzt werden",
+		"resetToAuto": "Auf Automatik zurücksetzen",
+		"resetToAutoTitle": "Diese Änderung verwerfen und erneut vom Anbieter abrufen",
+		"save": "Liedtext speichern",
+		"saveError": "Liedtext konnte nicht gespeichert werden",
+		"saved": "Liedtext gespeichert",
+		"sharedNote": "Für alle Bibliotheken gemeinsam. ",
+		"syncedHelp": "Eine Zeile pro Textzeile, jeweils mit vorangestelltem Zeitstempel wie [00:12.34]; Zeilen ohne Zeitangabe werden verworfen.",
+		"syncedLabel": "Synchronisiert (LRC-Timing)"
 	},
 	"report": {
-		"action": "Report",
-		"allLibraries": "All my libraries",
-		"bannerSet": "New banner ready ✓",
-		"changeBanner": "Change banner",
-		"changeImage": "Change image",
+		"action": "Melden",
+		"allLibraries": "Alle meine Bibliotheken",
+		"bannerSet": "Neues Banner bereit ✓",
+		"changeBanner": "Banner ändern",
+		"changeImage": "Bild ändern",
 		"field": {
 			"bio": "Bio",
-			"genres": "Genres (comma-separated)",
+			"genres": "Genres (durch Kommas getrennt)",
 			"name": "Name",
-			"note": "Note for reviewers (optional)"
+			"note": "Hinweis für Prüfer (optional)"
 		},
-		"genresHint": "Separate multiple genres with commas.",
-		"helpText": "Edit {name}'s details below. Save changes to a library you own instantly, or submit them as a suggestion for everyone (an admin reviews those). Only changed fields are sent.",
-		"imageAlt": "Artist image",
-		"libraryTarget": "Choose which library to save to",
-		"noteHint": "Only sent with a suggestion. Anything that helps reviewers (e.g. a source link).",
-		"saveFailed": "Couldn't save your changes.",
-		"saveToLibrary": "Save to library",
-		"savedToAll": "Saved to all your libraries.",
-		"savedToLibrary": "Saved to {name}.",
-		"submit": "Submit suggestion",
-		"submitFailed": "Couldn't send your suggestion.",
-		"suggestionSent": "Suggestion sent for review.",
-		"title": "Edit artist details"
+		"genresHint": "Trennen Sie mehrere Genres durch Kommas.",
+		"helpText": "Bearbeiten Sie unten die Details zu {name}. Speichern Sie Änderungen sofort in einer eigenen Bibliothek oder reichen Sie sie als Vorschlag für alle ein (ein Administrator prüft diese). Es werden nur geänderte Felder gesendet.",
+		"imageAlt": "Künstlerbild",
+		"libraryTarget": "Zielbibliothek auswählen",
+		"noteHint": "Wird nur mit einem Vorschlag gesendet. Alles, was den Prüfern hilft (z. B. ein Quellenlink).",
+		"saveFailed": "Ihre Änderungen konnten nicht gespeichert werden.",
+		"saveToLibrary": "In Bibliothek speichern",
+		"savedToAll": "In allen Ihren Bibliotheken gespeichert.",
+		"savedToLibrary": "In {name} gespeichert.",
+		"submit": "Vorschlag einreichen",
+		"submitFailed": "Ihr Vorschlag konnte nicht gesendet werden.",
+		"suggestionSent": "Vorschlag zur Prüfung gesendet.",
+		"title": "Künstlerdetails bearbeiten"
 	},
 	"search": {
-		"placeholder": "Artists, albums, or songs"
+		"placeholder": "Künstler, Alben oder Songs"
 	},
 	"section": {
-		"albums": "Albums",
-		"artists": "Artists",
+		"albums": "Alben",
+		"artists": "Künstler",
 		"labels": "Labels",
 		"songs": "Songs",
-		"tracks": "Tracks"
+		"tracks": "Titel"
 	},
-	"songCount": "{count, plural, one {# song} other {# songs}}",
+	"songCount": "{count, plural, one {# Song} other {# Songs}}",
 	"track": {
 		"clean": "Clean",
 		"column": {
 			"album": "Album",
-			"dateAdded": "Date added",
-			"plays": "Plays",
-			"title": "Title"
+			"dateAdded": "Hinzugefügt am",
+			"plays": "Wiedergaben",
+			"title": "Titel"
 		},
 		"download": {
-			"exists": "Already downloaded",
-			"removeAction": "Remove download",
-			"removeError": "Couldn't remove download",
-			"removed": "Removed download",
-			"savedNamed": "Downloaded {title}"
+			"exists": "Bereits heruntergeladen",
+			"removeAction": "Download entfernen",
+			"removeError": "Download konnte nicht entfernt werden",
+			"removed": "Download entfernt",
+			"savedNamed": "{title} heruntergeladen"
 		},
-		"explicit": "Explicit",
-		"playAria": "Play {title} by {artist}",
+		"explicit": "Explizit",
+		"playAria": "{title} von {artist} abspielen",
 		"playsNumber": "{n, number}",
 		"relTime": {
-			"daysAgo": "{count, plural, one {# day ago} other {# days ago}}",
+			"daysAgo": "{count, plural, one {vor # Tag} other {vor # Tagen}}",
 			"fullDate": "{date, date, medium}",
-			"today": "Today",
-			"yesterday": "Yesterday"
+			"today": "Heute",
+			"yesterday": "Gestern"
 		}
 	},
-	"trackCount": "{count, plural, one {# track} other {# tracks}}"
+	"trackCount": "{count, plural, one {# Titel} other {# Titel}}"
 }
