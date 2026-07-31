@@ -4,7 +4,7 @@
 	},
 	"album": {
 		"card": {
-			"artistYearJoin": "{artist} · {year}"
+			"artistYearJoin": ""
 		},
 		"count": "{count, plural, other {앨범 #개}}",
 		"disc": "디스크 {n}",
@@ -21,11 +21,11 @@
 		},
 		"durationHrMin": "{count, plural, other {#시간}} {minutes}분",
 		"durationMin": "{minutes}분",
-		"genresJoin": "{genres}",
+		"genresJoin": "",
 		"goToRadio": "아티스트 라디오로 이동",
-		"releaseDate": "{date, date, long}",
+		"releaseDate": "",
 		"songCount": "{count, plural, other {#곡}}",
-		"typesJoin": "{types}"
+		"typesJoin": ""
 	},
 	"artist": {
 		"albums": "앨범",
@@ -35,10 +35,10 @@
 			"albumCount": "{count, plural, other {앨범 #개}}"
 		},
 		"discography": "디스코그래피",
-		"factsJoin": "{facts}",
+		"factsJoin": "",
 		"formed": "{year}년 결성",
-		"genresJoin": "{genres}",
-		"labelMetaJoin": "{span} · {releases}",
+		"genresJoin": "",
+		"labelMetaJoin": "",
 		"labels": "레이블",
 		"links": {
 			"open": "아티스트 링크",
@@ -50,7 +50,7 @@
 			"subtitle": "{count, plural, other {앨범 #개에서}}",
 			"title": "{name} — 라이브"
 		},
-		"namesJoin": "{artists}",
+		"namesJoin": "",
 		"popular": "인기",
 		"radio": "라디오",
 		"relatedArtists": "관련 아티스트",
@@ -65,9 +65,9 @@
 			"live": "라이브"
 		}
 	},
-	"artistNamesJoin": "{names}",
+	"artistNamesJoin": "",
 	"edit": {
-		"artOptionAlt": "{kind}",
+		"artOptionAlt": "",
 		"artworkAlt": "아트워크",
 		"bannerSet": "배너 설정 완료 ✓",
 		"browseAlbumCovers": "앨범 커버 찾아보기",
@@ -127,11 +127,11 @@
 		"albumCountWithPrefix": "레이블 · {count, plural, other {앨범 #개}}",
 		"eyebrow": "레이블",
 		"factsSeparator": "유형 · 국가 · 활동 기간",
-		"formerNames": "{name1}, {name2}",
+		"formerNames": "",
 		"formerly": "이전 이름 {names}",
 		"lifespan": {
 			"founded": "{year}년 설립",
-			"range": "{from} – {to}",
+			"range": "",
 			"until": "{year}년까지"
 		},
 		"noAlbums": "앨범이 없습니다."
@@ -210,10 +210,10 @@
 		},
 		"explicit": "가사 주의",
 		"playAria": "{artist}의 {title} 재생",
-		"playsNumber": "{n, number}",
+		"playsNumber": "",
 		"relTime": {
 			"daysAgo": "{count, plural, other {#일 전}}",
-			"fullDate": "{date, date, medium}",
+			"fullDate": "",
 			"today": "오늘",
 			"yesterday": "어제"
 		}
