@@ -23,18 +23,18 @@
 		"title": "Apparence"
 	},
 	"connections": {
-		"title": "Connexions",
 		"lastfm": {
-			"label": "Last.fm",
-			"desc": "Scrobblez automatiquement vos écoutes sur Last.fm.",
 			"connect": "Connecter",
-			"disconnect": "Déconnecter",
 			"connectedAs": "Connecté en tant que {username}",
 			"connectedToast": "Connecté à Last.fm en tant que {username}",
+			"connecting": "Connexion à Last.fm…",
+			"desc": "Scrobblez automatiquement vos écoutes sur Last.fm.",
+			"disconnect": "Déconnecter",
 			"disconnected": "Last.fm déconnecté",
 			"failed": "Impossible de connecter Last.fm",
-			"connecting": "Connexion à Last.fm…"
-		}
+			"label": "Last.fm"
+		},
+		"title": "Connexions"
 	},
 	"data": {
 		"body": "Téléchargez tout ce que Chordia conserve à votre sujet, ou supprimez définitivement votre compte et toutes ses données.",
@@ -88,16 +88,15 @@
 			"label": "Lecture automatique"
 		},
 		"crossfade": {
-			"desc": "Superposez et fondez la fin de chaque morceau dans le suivant.",
-			"label": "Fondu enchaîné",
-			"value": "{seconds}s"
+			"desc": "Superposez et fondez la fin de chaque morceau dans le suivant. Exprimé en secondes.",
+			"label": "Fondu enchaîné"
 		},
 		"normalize": {
 			"desc": "Uniformisez le volume entre les morceaux (ReplayGain).",
 			"label": "Normaliser le volume"
 		},
 		"preload": {
-			"desc": "Téléchargez à l'avance les morceaux à venir dans la file d'attente pour une lecture instantanée et sans blanc. Plus la valeur est élevée, plus la consommation de données augmente.",
+			"desc": "Nombre de morceaux à venir dans la file d’attente téléchargés à l’avance, pour une lecture instantanée et sans blanc. Plus la valeur est élevée, plus la consommation de données augmente.",
 			"label": "Précharger les morceaux suivants"
 		},
 		"quality": {

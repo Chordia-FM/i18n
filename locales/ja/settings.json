@@ -23,18 +23,18 @@
 		"title": "外観"
 	},
 	"connections": {
-		"title": "連携",
 		"lastfm": {
-			"label": "Last.fm",
-			"desc": "再生を自動的にLast.fmへスクロブルします。",
 			"connect": "連携する",
-			"disconnect": "連携を解除",
 			"connectedAs": "{username}として連携中",
 			"connectedToast": "{username}としてLast.fmに連携しました",
+			"connecting": "Last.fmに連携中…",
+			"desc": "再生を自動的にLast.fmへスクロブルします。",
+			"disconnect": "連携を解除",
 			"disconnected": "Last.fmの連携を解除しました",
 			"failed": "Last.fmに連携できませんでした",
-			"connecting": "Last.fmに連携中…"
-		}
+			"label": "Last.fm"
+		},
+		"title": "連携"
 	},
 	"data": {
 		"body": "Chordiaが保存しているあなたのデータをすべてダウンロードするか、アカウントと全データを完全に削除できます。",
@@ -88,16 +88,15 @@
 			"label": "自動再生"
 		},
 		"crossfade": {
-			"desc": "各トラックの終わりを次の曲と重ねて、なめらかにつなぎます。",
-			"label": "クロスフェード",
-			"value": "{seconds}秒"
+			"desc": "各トラックの終わりを次の曲と重ねて、なめらかにつなぎます。単位は秒です。",
+			"label": "クロスフェード"
 		},
 		"normalize": {
 			"desc": "トラック間の音量を均一にします（ReplayGain）。",
 			"label": "音量を正規化"
 		},
 		"preload": {
-			"desc": "キューの次のトラックを事前にダウンロードし、途切れのない即時再生を実現します。高くするほどデータ使用量が増えます。",
+			"desc": "キューの次のトラックを何曲分、事前にダウンロードするかを指定します。途切れのない即時再生を実現します。高くするほどデータ使用量が増えます。",
 			"label": "次のトラックを先読み"
 		},
 		"quality": {

@@ -23,18 +23,18 @@
 		"title": "Aparência"
 	},
 	"connections": {
-		"title": "Conexões",
 		"lastfm": {
-			"label": "Last.fm",
-			"desc": "Faça scrobble das suas reproduções no Last.fm automaticamente.",
 			"connect": "Conectar",
-			"disconnect": "Desconectar",
 			"connectedAs": "Conectado como {username}",
 			"connectedToast": "Conectado ao Last.fm como {username}",
+			"connecting": "Conectando ao Last.fm…",
+			"desc": "Faça scrobble das suas reproduções no Last.fm automaticamente.",
+			"disconnect": "Desconectar",
 			"disconnected": "Last.fm desconectado",
 			"failed": "Não foi possível conectar o Last.fm",
-			"connecting": "Conectando ao Last.fm…"
-		}
+			"label": "Last.fm"
+		},
+		"title": "Conexões"
 	},
 	"data": {
 		"body": "Baixe tudo o que o Chordia guarda sobre você, ou exclua definitivamente sua conta e todos os seus dados.",
@@ -88,16 +88,15 @@
 			"label": "Reprodução automática"
 		},
 		"crossfade": {
-			"desc": "Sobrepõe e mistura o fim de cada faixa com a próxima.",
-			"label": "Crossfade",
-			"value": "{seconds}s"
+			"desc": "Sobrepõe e mistura o fim de cada faixa com a próxima. Medido em segundos.",
+			"label": "Crossfade"
 		},
 		"normalize": {
 			"desc": "Equilibra o volume entre as faixas (ReplayGain).",
 			"label": "Normalizar volume"
 		},
 		"preload": {
-			"desc": "Baixa com antecedência as próximas faixas da fila, para uma reprodução instantânea e sem intervalos. Valores maiores consomem mais dados.",
+			"desc": "Quantas faixas seguintes da fila são baixadas com antecedência, para uma reprodução instantânea e sem intervalos. Valores maiores consomem mais dados.",
 			"label": "Pré-carregar próximas faixas"
 		},
 		"quality": {

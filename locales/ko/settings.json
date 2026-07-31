@@ -23,18 +23,18 @@
 		"title": "화면"
 	},
 	"connections": {
-		"title": "연결",
 		"lastfm": {
-			"label": "Last.fm",
-			"desc": "재생 기록을 Last.fm에 자동으로 스크로블합니다.",
 			"connect": "연결",
-			"disconnect": "연결 끊기",
 			"connectedAs": "{username}(으)로 연결됨",
 			"connectedToast": "Last.fm에 {username}(으)로 연결했습니다",
+			"connecting": "Last.fm 연결 중…",
+			"desc": "재생 기록을 Last.fm에 자동으로 스크로블합니다.",
+			"disconnect": "연결 끊기",
 			"disconnected": "Last.fm 연결을 끊었습니다",
 			"failed": "Last.fm에 연결하지 못했습니다",
-			"connecting": "Last.fm 연결 중…"
-		}
+			"label": "Last.fm"
+		},
+		"title": "연결"
 	},
 	"data": {
 		"body": "Chordia가 저장한 내 정보를 모두 내려받거나, 계정과 모든 데이터를 영구 삭제할 수 있습니다.",
@@ -88,16 +88,15 @@
 			"label": "자동 재생"
 		},
 		"crossfade": {
-			"desc": "트랙의 끝과 다음 트랙을 겹쳐 자연스럽게 이어 줍니다.",
-			"label": "크로스페이드",
-			"value": "{seconds}초"
+			"desc": "트랙의 끝과 다음 트랙을 겹쳐 자연스럽게 이어 줍니다. 단위는 초입니다.",
+			"label": "크로스페이드"
 		},
 		"normalize": {
 			"desc": "트랙 간 음량 차이를 고르게 맞춥니다(ReplayGain).",
 			"label": "음량 정규화"
 		},
 		"preload": {
-			"desc": "대기열의 다음 트랙을 미리 받아 끊김 없이 바로 재생합니다. 값이 클수록 데이터를 더 사용합니다.",
+			"desc": "대기열의 다음 트랙을 몇 곡까지 미리 받을지 정합니다. 끊김 없이 바로 재생됩니다. 값이 클수록 데이터를 더 사용합니다.",
 			"label": "다음 트랙 미리 불러오기"
 		},
 		"quality": {

@@ -23,18 +23,18 @@
 		"title": "Darstellung"
 	},
 	"connections": {
-		"title": "Verbindungen",
 		"lastfm": {
-			"label": "Last.fm",
-			"desc": "Scrobbeln Sie Ihre Wiedergaben automatisch zu Last.fm.",
 			"connect": "Verbinden",
-			"disconnect": "Trennen",
 			"connectedAs": "Verbunden als {username}",
 			"connectedToast": "Mit Last.fm verbunden als {username}",
+			"connecting": "Last.fm wird verbunden…",
+			"desc": "Scrobbeln Sie Ihre Wiedergaben automatisch zu Last.fm.",
+			"disconnect": "Trennen",
 			"disconnected": "Last.fm wurde getrennt",
 			"failed": "Last.fm konnte nicht verbunden werden",
-			"connecting": "Last.fm wird verbunden…"
-		}
+			"label": "Last.fm"
+		},
+		"title": "Verbindungen"
 	},
 	"data": {
 		"body": "Laden Sie alles herunter, was Chordia über Sie speichert, oder löschen Sie Ihr Konto und alle zugehörigen Daten dauerhaft.",
@@ -88,16 +88,15 @@
 			"label": "Autoplay"
 		},
 		"crossfade": {
-			"desc": "Blendet das Ende jedes Titels in den nächsten über.",
-			"label": "Überblendung",
-			"value": "{seconds} s"
+			"desc": "Blendet das Ende jedes Titels in den nächsten über. Angabe in Sekunden.",
+			"label": "Überblendung"
 		},
 		"normalize": {
 			"desc": "Gleicht die Lautheit über alle Titel hinweg aus (ReplayGain).",
 			"label": "Lautstärke normalisieren"
 		},
 		"preload": {
-			"desc": "Lädt die nächsten Titel der Warteschlange im Voraus, damit die Wiedergabe sofort und lückenlos startet. Höhere Werte verbrauchen mehr Daten.",
+			"desc": "Wie viele der nächsten Titel in der Warteschlange im Voraus geladen werden, damit die Wiedergabe sofort und lückenlos startet. Höhere Werte verbrauchen mehr Daten.",
 			"label": "Nächste Titel vorladen"
 		},
 		"quality": {

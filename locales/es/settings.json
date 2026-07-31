@@ -23,18 +23,18 @@
 		"title": "Apariencia"
 	},
 	"connections": {
-		"title": "Conexiones",
 		"lastfm": {
-			"label": "Last.fm",
-			"desc": "Envía automáticamente tus reproducciones a Last.fm.",
 			"connect": "Conectar",
-			"disconnect": "Desconectar",
 			"connectedAs": "Conectado como {username}",
 			"connectedToast": "Conectado a Last.fm como {username}",
+			"connecting": "Conectando Last.fm…",
+			"desc": "Envía automáticamente tus reproducciones a Last.fm.",
+			"disconnect": "Desconectar",
 			"disconnected": "Last.fm desconectado",
 			"failed": "No se pudo conectar Last.fm",
-			"connecting": "Conectando Last.fm…"
-		}
+			"label": "Last.fm"
+		},
+		"title": "Conexiones"
 	},
 	"data": {
 		"body": "Descarga todo lo que Chordia guarda sobre ti o elimina permanentemente tu cuenta y todos sus datos.",
@@ -88,16 +88,15 @@
 			"label": "Reproducción automática"
 		},
 		"crossfade": {
-			"desc": "Superpone y funde el final de cada pista con la siguiente.",
-			"label": "Fundido cruzado",
-			"value": "{seconds} s"
+			"desc": "Superpone y funde el final de cada pista con la siguiente. Expresado en segundos.",
+			"label": "Fundido cruzado"
 		},
 		"normalize": {
 			"desc": "Iguala el volumen entre pistas (ReplayGain).",
 			"label": "Normalizar el volumen"
 		},
 		"preload": {
-			"desc": "Descarga por adelantado las siguientes pistas de la cola para una reproducción instantánea y sin cortes. Cuanto más alto, más datos consume.",
+			"desc": "Cuántas pistas siguientes de la cola se descargan por adelantado, para una reproducción instantánea y sin cortes. Cuanto más alto, más datos consume.",
 			"label": "Precargar las siguientes pistas"
 		},
 		"quality": {
