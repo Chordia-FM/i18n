@@ -20,14 +20,20 @@
 		"twoFactorStartFirst": "Inicie primeiro a configuração de dois fatores."
 	},
 	"catalog": {
-		"albumLoadFailed": "Falha ao carregar",
-		"artistLoadFailed": "Falha ao carregar",
+		"albumLoadFailed": "",
+		"artistLoadFailed": "",
 		"artistNameTaken": "Outro artista já tem esse nome.",
 		"labelLoadFailed": "Não foi possível carregar esta gravadora",
 		"unknownArtist": "Artista desconhecido.",
 		"unknownImageHash": "Imagem desconhecida."
 	},
 	"changeFailed": "Não foi possível salvar essa alteração — tente novamente.",
+	"debug": {
+		"copied": "",
+		"copy": "",
+		"hint": "",
+		"manualCopy": ""
+	},
 	"directory": {
 		"serverOffline": "Esse servidor está offline."
 	},
@@ -40,6 +46,21 @@
 		"cannotFriendSelf": "Você não pode enviar um pedido de amizade para si mesmo."
 	},
 	"generic": "Falha",
+	"http": {
+		"badRequest": "",
+		"clientError": "",
+		"conflict": "",
+		"forbidden": "",
+		"network": "",
+		"notFound": "",
+		"serverError": "",
+		"timeout": "",
+		"tooLarge": "",
+		"tooManyRequests": "",
+		"unauthorized": "",
+		"unavailable": "",
+		"unknown": ""
+	},
 	"image": {
 		"empty": "A imagem está vazia.",
 		"fetchFailed": "Não foi possível buscar essa imagem.",
@@ -52,9 +73,9 @@
 		"compatibilityNotFound": "Nenhum usuário com esse nome.",
 		"compatibilityPrivate": "A atividade de audição desse usuário é privada.",
 		"invalidTimezone": "Fuso horário desconhecido “{timezone}”.",
-		"loadFriendActivityFailed": "Falha ao carregar a atividade dos amigos",
-		"loadHistoryFailed": "Falha ao carregar o histórico",
-		"loadStatsFailed": "Falha ao carregar as estatísticas",
+		"loadFriendActivityFailed": "",
+		"loadHistoryFailed": "",
+		"loadStatsFailed": "",
 		"milestoneRange": "Escolha um número de reprodução igual ou maior que 1.",
 		"pagingPair": "before_ms e before_id devem ser informados juntos."
 	},
@@ -88,6 +109,10 @@
 	"saveFailed": "Falha ao salvar",
 	"share": {
 		"withSelf": "Você não pode compartilhar consigo mesmo."
+	},
+	"state": {
+		"message": "",
+		"title": ""
 	},
 	"twoFactor": {
 		"invalidCode": "Código inválido.",
