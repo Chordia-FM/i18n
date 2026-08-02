@@ -20,7 +20,20 @@
 		"customAccentAria": "Cor de destaque personalizada",
 		"customColour": "Cor personalizada",
 		"customColourHint": "Escolha qualquer cor — botões, destaques e o tom do fundo acompanham.",
-		"title": "Aparência"
+		"title": "Aparência",
+		"accents": {
+			"crimson": "",
+			"ember": "",
+			"amber": "",
+			"lime": "",
+			"green": "",
+			"teal": "",
+			"blue": "",
+			"indigo": "",
+			"purple": "",
+			"magenta": "",
+			"pink": ""
+		}
 	},
 	"connections": {
 		"lastfm": {
