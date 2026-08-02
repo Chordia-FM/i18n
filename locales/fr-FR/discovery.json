@@ -5,10 +5,34 @@
 	"greeting": {
 		"afternoon": "Bon après-midi",
 		"evening": "Bonsoir",
-		"morning": "Bonjour"
+		"morning": "Bonjour",
+		"night": "",
+		"sub": {
+			"afternoon": "",
+			"evening": "",
+			"morning": "",
+			"night": ""
+		}
+	},
+	"hero": {
+		"onboardBody": "",
+		"onboardCta": "",
+		"onboardTitle": "Bienvenue sur Chordia",
+		"resumeTitle": "",
+		"seeAll": "Voir tout",
+		"startTitle": ""
 	},
 	"home": {
-		"emptyState": "Rien ici pour l'instant — associez un serveur de bibliothèque et votre catalogue apparaîtra."
+		"empty": {
+			"body": "",
+			"cta": "",
+			"title": ""
+		},
+		"emptyState": "Rien ici pour l'instant — associez un serveur de bibliothèque et votre catalogue apparaîtra.",
+		"noHistory": {
+			"body": "",
+			"title": ""
+		}
 	},
 	"jumpBackIn": {
 		"emptyState": "Ce que vous avez écouté récemment apparaîtra ici.",
@@ -23,17 +47,36 @@
 		"playTitle": "Lire {title}",
 		"playingToast": "Lecture de {title}"
 	},
+	"onThisDay": {
+		"yearsAgo": ""
+	},
+	"quickAccess": {
+		"title": ""
+	},
 	"radio": {
 		"label": "",
 		"pin": "Épingler la radio"
 	},
 	"shelf": {
+		"friendsListening": "",
 		"jumpBackIn": "Reprendre l'écoute",
 		"madeFor": "Fait pour {name}",
 		"madeForYou": "vous",
+		"onThisDay": "",
+		"recentlyAdded": "",
 		"recommended": "Recommandé pour vous",
 		"trendingAlbums": "Albums tendance",
 		"trendingArtists": "Artistes tendance",
+		"trendingTracks": "",
 		"yourLibraries": "Vos bibliothèques"
+	},
+	"snapshot": {
+		"activeDays": "",
+		"cta": "",
+		"plays": "",
+		"streak": "",
+		"title": "",
+		"wrappedCta": "",
+		"wrappedTitle": ""
 	}
 }
