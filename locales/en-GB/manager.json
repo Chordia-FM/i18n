@@ -1,6 +1,5 @@
 {
 	"album": {
-		"back": "",
 		"coverage": "",
 		"disc": "",
 		"downloadEdition": "",
@@ -12,7 +11,6 @@
 		"remaster": ""
 	},
 	"artist": {
-		"back": "",
 		"complete": "",
 		"fetching": "",
 		"loadFailed": "",
@@ -70,7 +68,8 @@
 		"failed": "",
 		"noLibrary": "",
 		"notEnabled": "",
-		"queued": ""
+		"queued": "",
+		"viewQueue": ""
 	},
 	"follow": {
 		"follow": "",
