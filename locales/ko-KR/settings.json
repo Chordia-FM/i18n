@@ -20,7 +20,20 @@
 		"customAccentAria": "사용자 지정 강조 색상",
 		"customColour": "사용자 지정 색상",
 		"customColourHint": "원하는 색을 고르세요 - 버튼, 강조 표시, 배경 색조가 함께 바뀝니다.",
-		"title": "화면"
+		"title": "화면",
+		"accents": {
+			"crimson": "",
+			"ember": "",
+			"amber": "",
+			"lime": "",
+			"green": "",
+			"teal": "",
+			"blue": "",
+			"indigo": "",
+			"purple": "",
+			"magenta": "",
+			"pink": ""
+		}
 	},
 	"connections": {
 		"lastfm": {
