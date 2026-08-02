@@ -146,6 +146,7 @@
 		"insideDataMusic": "Dentro de {path} en el servidor",
 		"listDirFailed": "No se pudo listar el directorio",
 		"missingParams": "Faltan parámetros de configuración. Abre el enlace que aparece en la terminal del servidor de biblioteca.",
+		"missingParamsTitle": "",
 		"noFolderSelected": "Ninguna carpeta seleccionada",
 		"noSubdirectories": "Aquí no hay subdirectorios",
 		"pair": {
