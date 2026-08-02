@@ -146,6 +146,7 @@
 		"insideDataMusic": "In {path} auf dem Server",
 		"listDirFailed": "Verzeichnis konnte nicht aufgelistet werden",
 		"missingParams": "Fehlende Setup-Parameter. Bitte öffnen Sie den Link, den das Terminal des Bibliotheksservers ausgibt.",
+		"missingParamsTitle": "",
 		"noFolderSelected": "Kein Ordner ausgewählt",
 		"noSubdirectories": "Keine Unterverzeichnisse hier",
 		"pair": {
