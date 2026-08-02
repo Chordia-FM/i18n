@@ -5,10 +5,34 @@
 	"greeting": {
 		"afternoon": "こんにちは",
 		"evening": "こんばんは",
-		"morning": "おはようございます"
+		"morning": "おはようございます",
+		"night": "",
+		"sub": {
+			"afternoon": "",
+			"evening": "",
+			"morning": "",
+			"night": ""
+		}
+	},
+	"hero": {
+		"onboardBody": "",
+		"onboardCta": "",
+		"onboardTitle": "Chordiaへようこそ",
+		"resumeTitle": "",
+		"seeAll": "すべて表示",
+		"startTitle": ""
 	},
 	"home": {
-		"emptyState": "まだ何もありません。ライブラリサーバーをペアリングすると、カタログが表示されます。"
+		"empty": {
+			"body": "",
+			"cta": "",
+			"title": ""
+		},
+		"emptyState": "まだ何もありません。ライブラリサーバーをペアリングすると、カタログが表示されます。",
+		"noHistory": {
+			"body": "",
+			"title": ""
+		}
 	},
 	"jumpBackIn": {
 		"emptyState": "最近再生したものがここに表示されます。",
@@ -23,17 +47,36 @@
 		"playTitle": "{title}を再生",
 		"playingToast": "{title}を再生中"
 	},
+	"onThisDay": {
+		"yearsAgo": "{count, plural, other {#年前}}"
+	},
+	"quickAccess": {
+		"title": ""
+	},
 	"radio": {
 		"label": "ラジオ",
 		"pin": "ラジオをピン留め"
 	},
 	"shelf": {
+		"friendsListening": "",
 		"jumpBackIn": "続きから聴く",
 		"madeFor": "{name}のために",
 		"madeForYou": "あなた",
+		"onThisDay": "過去のこの日",
+		"recentlyAdded": "",
 		"recommended": "あなたへのおすすめ",
 		"trendingAlbums": "話題のアルバム",
 		"trendingArtists": "話題のアーティスト",
+		"trendingTracks": "",
 		"yourLibraries": "あなたのライブラリ"
+	},
+	"snapshot": {
+		"activeDays": "アクティブ日数",
+		"cta": "",
+		"plays": "再生回数",
+		"streak": "",
+		"title": "",
+		"wrappedCta": "",
+		"wrappedTitle": ""
 	}
 }
