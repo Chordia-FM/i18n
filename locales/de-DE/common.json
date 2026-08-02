@@ -131,9 +131,9 @@
 		"signIn": "Anmelden"
 	},
 	"notFound": {
-		"body": "Diese Seite existiert nicht.",
+		"body": "",
 		"goHome": "Zur Startseite",
-		"title": "Seite nicht gefunden"
+		"title": ""
 	},
 	"or": "oder",
 	"sidebar": {
