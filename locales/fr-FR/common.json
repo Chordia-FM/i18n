@@ -131,9 +131,9 @@
 		"signIn": "Se connecter"
 	},
 	"notFound": {
-		"body": "Cette page n'existe pas.",
+		"body": "",
 		"goHome": "Accueil",
-		"title": "Page introuvable"
+		"title": ""
 	},
 	"or": "ou",
 	"sidebar": {
