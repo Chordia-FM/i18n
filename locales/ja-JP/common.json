@@ -131,9 +131,9 @@
 		"signIn": "ログイン"
 	},
 	"notFound": {
-		"body": "このページは存在しません。",
+		"body": "",
 		"goHome": "ホームへ戻る",
-		"title": "ページが見つかりません"
+		"title": ""
 	},
 	"or": "または",
 	"sidebar": {
