@@ -107,6 +107,10 @@
 		"description": "インターフェース全体で使用する言語。",
 		"label": "言語"
 	},
+	"menu": {
+		"moreActions": "",
+		"back": "戻る"
+	},
 	"nav": {
 		"allLibraries": "すべてのライブラリ",
 		"back": "戻る",
