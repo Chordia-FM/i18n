@@ -20,7 +20,20 @@
 		"customAccentAria": "Custom accent colour",
 		"customColour": "Custom colour",
 		"customColourHint": "Pick any colour - buttons, highlights and the background tint follow it.",
-		"title": "Appearance"
+		"title": "Appearance",
+		"accents": {
+			"crimson": "Crimson",
+			"ember": "Ember",
+			"amber": "Amber",
+			"lime": "Lime",
+			"green": "Green",
+			"teal": "Teal",
+			"blue": "Blue",
+			"indigo": "Indigo",
+			"purple": "Purple",
+			"magenta": "Magenta",
+			"pink": "Pink"
+		}
 	},
 	"connections": {
 		"lastfm": {
