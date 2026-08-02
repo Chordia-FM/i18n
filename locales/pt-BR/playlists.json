@@ -15,7 +15,8 @@
 		"invited": "@{handle} convidado",
 		"justYou": "Só você",
 		"removeTitle": "Remover {name}",
-		"removed": "{name} removido"
+		"removed": "{name} removido",
+		"manage": ""
 	},
 	"confirm": {
 		"deleteMessage": "Excluir \"{name}\"?",
@@ -31,7 +32,37 @@
 		"confirmBody": "Excluir esta playlist?",
 		"title": "Excluir playlist"
 	},
+	"edit": {
+		"title": "",
+		"choosePhoto": "",
+		"removePhoto": "",
+		"name": "Nome",
+		"description": "Descrição",
+		"descriptionPlaceholder": "",
+		"visibility": {
+			"label": "",
+			"private": "",
+			"unlisted": "",
+			"public": "",
+			"privateHint": "",
+			"unlistedHint": "",
+			"publicHint": ""
+		},
+		"saveError": "",
+		"photoError": ""
+	},
 	"empty": "Esta playlist está vazia. Adicione músicas pelo menu “⋯” de qualquer faixa.",
+	"emptyState": {
+		"title": "",
+		"searchPlaceholder": "",
+		"fromLiked": "",
+		"addHint": "",
+		"added": ""
+	},
+	"kind": {
+		"collaborative": "",
+		"public": ""
+	},
 	"kindLabel": "",
 	"leave": {
 		"confirmBody": "Sair desta playlist colaborativa?",
@@ -39,6 +70,9 @@
 		"title": "Sair da playlist"
 	},
 	"menuEmpty": "Nenhuma playlist",
+	"meta": {
+		"playableNote": ""
+	},
 	"new": "Nova playlist",
 	"newFromAlbum": "Nova playlist",
 	"newFromAlbumSub": "De “{name}”",
