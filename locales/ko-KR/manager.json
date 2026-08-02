@@ -57,7 +57,8 @@
 		"version": {
 			"instrumental": "연주곡",
 			"live": "라이브"
-		}
+		},
+		"openIn": ""
 	},
 	"download": {
 		"ackConfirm": "이해합니다",
