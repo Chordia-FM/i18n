@@ -20,7 +20,20 @@
 		"customAccentAria": "Couleur d'accentuation personnalisée",
 		"customColour": "Couleur personnalisée",
 		"customColourHint": "Choisissez n'importe quelle couleur — les boutons, les surbrillances et la teinte de fond la suivent.",
-		"title": "Apparence"
+		"title": "Apparence",
+		"accents": {
+			"crimson": "",
+			"ember": "",
+			"amber": "",
+			"lime": "",
+			"green": "",
+			"teal": "",
+			"blue": "",
+			"indigo": "",
+			"purple": "",
+			"magenta": "",
+			"pink": ""
+		}
 	},
 	"connections": {
 		"lastfm": {
