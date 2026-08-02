@@ -20,14 +20,20 @@
 		"twoFactorStartFirst": "Primero inicia la configuración de dos factores."
 	},
 	"catalog": {
-		"albumLoadFailed": "No se pudo cargar",
-		"artistLoadFailed": "No se pudo cargar",
+		"albumLoadFailed": "",
+		"artistLoadFailed": "",
 		"artistNameTaken": "Ya hay otro artista con ese nombre.",
 		"labelLoadFailed": "No se pudo cargar este sello",
 		"unknownArtist": "Artista desconocido.",
 		"unknownImageHash": "Imagen desconocida."
 	},
 	"changeFailed": "No se pudo guardar ese cambio. Inténtalo de nuevo.",
+	"debug": {
+		"copied": "",
+		"copy": "",
+		"hint": "",
+		"manualCopy": ""
+	},
 	"directory": {
 		"serverOffline": "Ese servidor está desconectado."
 	},
@@ -40,6 +46,21 @@
 		"cannotFriendSelf": "No puedes enviarte una solicitud de amistad a ti mismo."
 	},
 	"generic": "Error",
+	"http": {
+		"badRequest": "",
+		"clientError": "",
+		"conflict": "",
+		"forbidden": "",
+		"network": "",
+		"notFound": "",
+		"serverError": "",
+		"timeout": "",
+		"tooLarge": "",
+		"tooManyRequests": "",
+		"unauthorized": "",
+		"unavailable": "",
+		"unknown": ""
+	},
 	"image": {
 		"empty": "La imagen está vacía.",
 		"fetchFailed": "No se pudo obtener esa imagen.",
@@ -52,9 +73,9 @@
 		"compatibilityNotFound": "No hay ningún usuario con ese nombre.",
 		"compatibilityPrivate": "La actividad de escucha de ese usuario es privada.",
 		"invalidTimezone": "Zona horaria desconocida: “{timezone}”.",
-		"loadFriendActivityFailed": "No se pudo cargar la actividad de tus amigos",
-		"loadHistoryFailed": "No se pudo cargar el historial",
-		"loadStatsFailed": "No se pudieron cargar las estadísticas",
+		"loadFriendActivityFailed": "",
+		"loadHistoryFailed": "",
+		"loadStatsFailed": "",
 		"milestoneRange": "Elige un número de reproducción igual o mayor que 1.",
 		"pagingPair": "before_ms y before_id deben enviarse juntos."
 	},
@@ -88,6 +109,10 @@
 	"saveFailed": "No se pudo guardar",
 	"share": {
 		"withSelf": "No puedes compartir contigo mismo."
+	},
+	"state": {
+		"message": "",
+		"title": ""
 	},
 	"twoFactor": {
 		"invalidCode": "Código no válido.",
