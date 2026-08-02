@@ -1,6 +1,5 @@
 {
 	"album": {
-		"back": "Zurück zum Manager",
 		"coverage": "{owned} von {total} Titeln",
 		"disc": "",
 		"downloadEdition": "Version herunterladen",
@@ -12,7 +11,6 @@
 		"remaster": ""
 	},
 	"artist": {
-		"back": "Zurück zum Manager",
 		"complete": "{pct}% vollständig",
 		"fetching": "Diskografie wird abgerufen…",
 		"loadFailed": "Die Abdeckung für diesen Künstler konnte nicht geladen werden.",
@@ -70,7 +68,8 @@
 		"failed": "Der Download konnte nicht in die Warteschlange gestellt werden",
 		"noLibrary": "Noch keine Bibliothek mit aktivierten Downloads. Richten Sie zuerst Prowlarr + qBittorrent in einer Bibliothek ein.",
 		"notEnabled": "Downloads sind für diese Bibliothek nicht aktiviert.",
-		"queued": "Zur Download-Warteschlange hinzugefügt"
+		"queued": "Zur Download-Warteschlange hinzugefügt",
+		"viewQueue": ""
 	},
 	"follow": {
 		"follow": "Folgen",
