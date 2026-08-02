@@ -15,7 +15,8 @@
 		"invited": "Invitaste a @{handle}",
 		"justYou": "Solo tú",
 		"removeTitle": "Quitar a {name}",
-		"removed": "Se quitó a {name}"
+		"removed": "Se quitó a {name}",
+		"manage": ""
 	},
 	"confirm": {
 		"deleteMessage": "¿Eliminar «{name}»?",
@@ -31,7 +32,37 @@
 		"confirmBody": "¿Eliminar esta lista?",
 		"title": "Eliminar lista"
 	},
+	"edit": {
+		"title": "",
+		"choosePhoto": "",
+		"removePhoto": "",
+		"name": "Nombre",
+		"description": "Descripción",
+		"descriptionPlaceholder": "",
+		"visibility": {
+			"label": "",
+			"private": "",
+			"unlisted": "",
+			"public": "",
+			"privateHint": "",
+			"unlistedHint": "",
+			"publicHint": ""
+		},
+		"saveError": "",
+		"photoError": ""
+	},
 	"empty": "Esta lista está vacía. Añade canciones desde el menú “⋯” de cualquier pista.",
+	"emptyState": {
+		"title": "",
+		"searchPlaceholder": "",
+		"fromLiked": "",
+		"addHint": "",
+		"added": ""
+	},
+	"kind": {
+		"collaborative": "",
+		"public": ""
+	},
 	"kindLabel": "Lista de reproducción",
 	"leave": {
 		"confirmBody": "¿Salir de esta lista colaborativa?",
@@ -39,6 +70,9 @@
 		"title": "Salir de la lista"
 	},
 	"menuEmpty": "No hay listas",
+	"meta": {
+		"playableNote": ""
+	},
 	"new": "Nueva lista",
 	"newFromAlbum": "Nueva lista",
 	"newFromAlbumSub": "De «{name}»",
