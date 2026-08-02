@@ -1,6 +1,5 @@
 {
 	"album": {
-		"back": "매니저로 돌아가기",
 		"coverage": "트랙 {total}개 중 {owned}개",
 		"disc": "디스크 {n}",
 		"downloadEdition": "버전 다운로드",
@@ -12,7 +11,6 @@
 		"remaster": "리마스터"
 	},
 	"artist": {
-		"back": "매니저로 돌아가기",
 		"complete": "{pct}% 완성",
 		"fetching": "디스코그래피를 가져오는 중…",
 		"loadFailed": "이 아티스트의 보유 현황을 불러오지 못했습니다.",
@@ -70,7 +68,8 @@
 		"failed": "다운로드를 대기열에 넣지 못했습니다",
 		"noLibrary": "다운로드를 사용할 수 있는 라이브러리가 없습니다. 먼저 라이브러리에 Prowlarr + qBittorrent를 설정하세요.",
 		"notEnabled": "해당 라이브러리에서는 다운로드가 켜져 있지 않습니다.",
-		"queued": "다운로드 대기열에 추가했습니다"
+		"queued": "다운로드 대기열에 추가했습니다",
+		"viewQueue": ""
 	},
 	"follow": {
 		"follow": "팔로우",
