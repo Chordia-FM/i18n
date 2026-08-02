@@ -107,6 +107,10 @@
 		"description": "Language used across the interface.",
 		"label": "Language"
 	},
+	"menu": {
+		"moreActions": "More actions",
+		"back": "Back"
+	},
 	"nav": {
 		"allLibraries": "All libraries",
 		"back": "Back",
