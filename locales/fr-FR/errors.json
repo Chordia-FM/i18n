@@ -20,14 +20,20 @@
 		"twoFactorStartFirst": "Commencez par lancer la configuration à deux facteurs."
 	},
 	"catalog": {
-		"albumLoadFailed": "Échec du chargement",
-		"artistLoadFailed": "Échec du chargement",
+		"albumLoadFailed": "",
+		"artistLoadFailed": "",
 		"artistNameTaken": "Un autre artiste porte déjà ce nom.",
 		"labelLoadFailed": "Impossible de charger ce label",
 		"unknownArtist": "Artiste inconnu.",
 		"unknownImageHash": "Image inconnue."
 	},
 	"changeFailed": "Impossible d'enregistrer cette modification — veuillez réessayer.",
+	"debug": {
+		"copied": "",
+		"copy": "",
+		"hint": "",
+		"manualCopy": ""
+	},
 	"directory": {
 		"serverOffline": "Ce serveur est hors ligne."
 	},
@@ -40,6 +46,21 @@
 		"cannotFriendSelf": "Vous ne pouvez pas vous envoyer une demande d'ami à vous-même."
 	},
 	"generic": "Échec",
+	"http": {
+		"badRequest": "",
+		"clientError": "",
+		"conflict": "",
+		"forbidden": "",
+		"network": "",
+		"notFound": "",
+		"serverError": "",
+		"timeout": "",
+		"tooLarge": "",
+		"tooManyRequests": "",
+		"unauthorized": "",
+		"unavailable": "",
+		"unknown": ""
+	},
 	"image": {
 		"empty": "L'image est vide.",
 		"fetchFailed": "Impossible de récupérer cette image.",
@@ -52,9 +73,9 @@
 		"compatibilityNotFound": "Aucun utilisateur avec cet identifiant.",
 		"compatibilityPrivate": "L'activité d'écoute de cet utilisateur est privée.",
 		"invalidTimezone": "Fuseau horaire inconnu « {timezone} ».",
-		"loadFriendActivityFailed": "Échec du chargement de l'activité des amis",
-		"loadHistoryFailed": "Échec du chargement de l'historique",
-		"loadStatsFailed": "Échec du chargement des statistiques",
+		"loadFriendActivityFailed": "",
+		"loadHistoryFailed": "",
+		"loadStatsFailed": "",
 		"milestoneRange": "Choisissez un numéro d'écoute supérieur ou égal à 1.",
 		"pagingPair": "before_ms et before_id doivent être fournis ensemble."
 	},
@@ -88,6 +109,10 @@
 	"saveFailed": "Échec de l'enregistrement",
 	"share": {
 		"withSelf": "Vous ne pouvez pas partager avec vous-même."
+	},
+	"state": {
+		"message": "",
+		"title": ""
 	},
 	"twoFactor": {
 		"invalidCode": "Code invalide.",
