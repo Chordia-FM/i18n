@@ -1,6 +1,5 @@
 {
 	"album": {
-		"back": "Back to Manager",
 		"coverage": "{owned} of {total} tracks",
 		"disc": "Disc {n}",
 		"downloadEdition": "Download version",
@@ -12,7 +11,6 @@
 		"remaster": "Remaster"
 	},
 	"artist": {
-		"back": "Back to Manager",
 		"complete": "{pct}% complete",
 		"fetching": "Fetching discography…",
 		"loadFailed": "Couldn't load coverage for this artist.",
@@ -70,7 +68,8 @@
 		"failed": "Couldn't queue the download",
 		"noLibrary": "No download-enabled library yet. Set up Prowlarr + qBittorrent on a library first.",
 		"notEnabled": "Downloads aren't enabled on that library.",
-		"queued": "Added to the download queue"
+		"queued": "Added to the download queue",
+		"viewQueue": "View queue"
 	},
 	"follow": {
 		"follow": "Follow",

@@ -1,6 +1,5 @@
 {
 	"album": {
-		"back": "Zurück zum Manager",
 		"coverage": "{owned} von {total} Titeln",
 		"downloadEdition": "Version herunterladen",
 		"editionCount": "{count, plural, one {# Edition} other {# Editionen}}",
@@ -10,7 +9,6 @@
 		"owned": "In Ihrer Bibliothek"
 	},
 	"artist": {
-		"back": "Zurück zum Manager",
 		"complete": "{pct}% vollständig",
 		"fetching": "Diskografie wird abgerufen…",
 		"loadFailed": "Die Abdeckung für diesen Künstler konnte nicht geladen werden.",

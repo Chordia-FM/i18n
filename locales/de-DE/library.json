@@ -104,7 +104,6 @@
 	"new": {
 		"addFailed": "Bibliothek konnte nicht hinzugefügt werden",
 		"adding": "Wird hinzugefügt…",
-		"backLink": "Alle Bibliotheken",
 		"browseFailed": "Durchsuchen fehlgeschlagen",
 		"folderLabel": "Ordner auf dem Server",
 		"nameLabel": "Bibliotheksname",

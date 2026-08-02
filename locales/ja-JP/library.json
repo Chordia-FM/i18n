@@ -107,7 +107,6 @@
 	"new": {
 		"addFailed": "ライブラリを追加できませんでした",
 		"adding": "追加中…",
-		"backLink": "すべてのライブラリ",
 		"browseFailed": "参照に失敗しました",
 		"folderLabel": "サーバー上のフォルダ",
 		"nameLabel": "ライブラリ名",

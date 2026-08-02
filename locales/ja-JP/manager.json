@@ -1,6 +1,5 @@
 {
 	"album": {
-		"back": "マネージャーに戻る",
 		"coverage": "全{total}曲中{owned}曲",
 		"disc": "ディスク{n}",
 		"downloadEdition": "バージョンをダウンロード",
@@ -12,7 +11,6 @@
 		"remaster": "リマスター"
 	},
 	"artist": {
-		"back": "マネージャーに戻る",
 		"complete": "{pct}%コンプリート",
 		"fetching": "ディスコグラフィーを取得中…",
 		"loadFailed": "このアーティストのカバー率を読み込めませんでした。",

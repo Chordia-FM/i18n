@@ -107,7 +107,6 @@
 	"new": {
 		"addFailed": "No se pudo añadir la biblioteca",
 		"adding": "Añadiendo…",
-		"backLink": "Todas las bibliotecas",
 		"browseFailed": "No se pudo explorar",
 		"folderLabel": "Carpeta en el servidor",
 		"nameLabel": "Nombre de la biblioteca",

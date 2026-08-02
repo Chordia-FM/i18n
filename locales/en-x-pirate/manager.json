@@ -28,11 +28,9 @@
 		"noMissing": "Ye have every release we know about fer this artist.",
 		"noMbid": "No MusicBrainz match fer this artist yet, so coverage ain't available.",
 		"fetching": "Fetchin' discography…",
-		"loadFailed": "Couldn't load coverage fer this artist.",
-		"back": "Back t' th' Quartermaster"
+		"loadFailed": "Couldn't load coverage fer this artist."
 	},
 	"album": {
-		"back": "Back t' th' Quartermaster",
 		"coverage": "{owned} o' {total} ditties",
 		"owned": "In yer hoard",
 		"fetching": "fetchin' tracklist…",

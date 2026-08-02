@@ -1,6 +1,5 @@
 {
 	"album": {
-		"back": "Volver al Gestor",
 		"coverage": "{owned} de {total} pistas",
 		"disc": "Disco {n}",
 		"downloadEdition": "Descargar versión",
@@ -12,7 +11,6 @@
 		"remaster": "Remasterización"
 	},
 	"artist": {
-		"back": "Volver al Gestor",
 		"complete": "{pct}% completo",
 		"fetching": "Obteniendo discografía…",
 		"loadFailed": "No se pudo cargar la cobertura de este artista.",

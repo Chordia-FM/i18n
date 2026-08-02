@@ -34,11 +34,9 @@
 		"noMissing": "Ouyay avehay everyway eleaseray eway owknay aboutway orfay isthay artistway.",
 		"noMbid": "Onay MusicBrainz atchmay orfay isthay artistway etyay, osay overagecay isnway't availableway.",
 		"fetching": "Etchingfay iscographyday…",
-		"loadFailed": "Ouldncay't oadlay overagecay orfay isthay artistway.",
-		"back": "Ackbay otay Anagermay"
+		"loadFailed": "Ouldncay't oadlay overagecay orfay isthay artistway."
 	},
 	"album": {
-		"back": "Ackbay otay Anagermay",
 		"coverage": "{owned} ofway {total} ackstray",
 		"disc": "Iscday {n}",
 		"editionCount": "{count, plural, one {# editionway} other {# editionsway}}",

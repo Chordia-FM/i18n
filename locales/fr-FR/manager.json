@@ -1,6 +1,5 @@
 {
 	"album": {
-		"back": "Retour au gestionnaire",
 		"coverage": "{owned} morceaux sur {total}",
 		"disc": "Disque {n}",
 		"downloadEdition": "Télécharger la version",
@@ -11,7 +10,6 @@
 		"owned": "Dans votre bibliothèque"
 	},
 	"artist": {
-		"back": "Retour au gestionnaire",
 		"complete": "{pct} % complet",
 		"fetching": "Récupération de la discographie…",
 		"loadFailed": "Impossible de charger la couverture de cet artiste.",

@@ -107,7 +107,6 @@
 	"new": {
 		"addFailed": "Failed to add library",
 		"adding": "Adding…",
-		"backLink": "All libraries",
 		"browseFailed": "Browse failed",
 		"folderLabel": "Folder on the server",
 		"nameLabel": "Library name",
