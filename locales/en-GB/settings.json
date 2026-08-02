@@ -20,7 +20,20 @@
 		"customAccentAria": "",
 		"customColour": "",
 		"customColourHint": "",
-		"title": ""
+		"title": "",
+		"accents": {
+			"crimson": "",
+			"ember": "",
+			"amber": "",
+			"lime": "",
+			"green": "",
+			"teal": "",
+			"blue": "",
+			"indigo": "",
+			"purple": "",
+			"magenta": "",
+			"pink": ""
+		}
 	},
 	"connections": {
 		"lastfm": {
