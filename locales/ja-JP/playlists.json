@@ -15,7 +15,8 @@
 		"invited": "@{handle}を招待しました",
 		"justYou": "あなたのみ",
 		"removeTitle": "{name}を削除",
-		"removed": "{name}を削除しました"
+		"removed": "{name}を削除しました",
+		"manage": ""
 	},
 	"confirm": {
 		"deleteMessage": "「{name}」を削除しますか？",
@@ -31,7 +32,37 @@
 		"confirmBody": "このプレイリストを削除しますか？",
 		"title": "プレイリストを削除"
 	},
+	"edit": {
+		"title": "",
+		"choosePhoto": "",
+		"removePhoto": "",
+		"name": "名前",
+		"description": "説明",
+		"descriptionPlaceholder": "",
+		"visibility": {
+			"label": "",
+			"private": "",
+			"unlisted": "",
+			"public": "",
+			"privateHint": "",
+			"unlistedHint": "",
+			"publicHint": ""
+		},
+		"saveError": "",
+		"photoError": ""
+	},
 	"empty": "このプレイリストは空です。トラックの「⋯」メニューから曲を追加できます。",
+	"emptyState": {
+		"title": "",
+		"searchPlaceholder": "",
+		"fromLiked": "",
+		"addHint": "",
+		"added": ""
+	},
+	"kind": {
+		"collaborative": "",
+		"public": ""
+	},
 	"kindLabel": "プレイリスト",
 	"leave": {
 		"confirmBody": "この共同編集プレイリストから退出しますか？",
@@ -39,6 +70,9 @@
 		"title": "プレイリストから退出"
 	},
 	"menuEmpty": "プレイリストがありません",
+	"meta": {
+		"playableNote": ""
+	},
 	"new": "新しいプレイリスト",
 	"newFromAlbum": "新しいプレイリスト",
 	"newFromAlbumSub": "「{name}」から",
