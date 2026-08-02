@@ -107,6 +107,10 @@
 		"description": "Idioma que se usa en toda la interfaz.",
 		"label": "Idioma"
 	},
+	"menu": {
+		"moreActions": "",
+		"back": "Atrás"
+	},
 	"nav": {
 		"allLibraries": "Todas las bibliotecas",
 		"back": "Atrás",
