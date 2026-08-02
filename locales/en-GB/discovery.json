@@ -5,10 +5,34 @@
 	"greeting": {
 		"afternoon": "",
 		"evening": "",
-		"morning": ""
+		"morning": "",
+		"night": "",
+		"sub": {
+			"afternoon": "",
+			"evening": "",
+			"morning": "",
+			"night": ""
+		}
+	},
+	"hero": {
+		"onboardBody": "",
+		"onboardCta": "",
+		"onboardTitle": "",
+		"resumeTitle": "",
+		"seeAll": "",
+		"startTitle": ""
 	},
 	"home": {
-		"emptyState": "Nothing here yet - pair a library server and your catalogue will appear."
+		"empty": {
+			"body": "",
+			"cta": "",
+			"title": ""
+		},
+		"emptyState": "Nothing here yet - pair a library server and your catalogue will appear.",
+		"noHistory": {
+			"body": "",
+			"title": ""
+		}
 	},
 	"jumpBackIn": {
 		"emptyState": "",
@@ -23,17 +47,36 @@
 		"playTitle": "",
 		"playingToast": ""
 	},
+	"onThisDay": {
+		"yearsAgo": ""
+	},
+	"quickAccess": {
+		"title": ""
+	},
 	"radio": {
 		"label": "",
 		"pin": ""
 	},
 	"shelf": {
+		"friendsListening": "",
 		"jumpBackIn": "",
 		"madeFor": "",
 		"madeForYou": "",
+		"onThisDay": "",
+		"recentlyAdded": "",
 		"recommended": "",
 		"trendingAlbums": "",
 		"trendingArtists": "",
+		"trendingTracks": "",
 		"yourLibraries": ""
+	},
+	"snapshot": {
+		"activeDays": "",
+		"cta": "",
+		"plays": "",
+		"streak": "",
+		"title": "",
+		"wrappedCta": "",
+		"wrappedTitle": ""
 	}
 }
