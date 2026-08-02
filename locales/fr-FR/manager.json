@@ -1,6 +1,5 @@
 {
 	"album": {
-		"back": "Retour au gestionnaire",
 		"coverage": "{owned} morceaux sur {total}",
 		"disc": "Disque {n}",
 		"downloadEdition": "Télécharger la version",
@@ -12,7 +11,6 @@
 		"remaster": ""
 	},
 	"artist": {
-		"back": "Retour au gestionnaire",
 		"complete": "{pct} % complet",
 		"fetching": "Récupération de la discographie…",
 		"loadFailed": "Impossible de charger la couverture de cet artiste.",
@@ -70,7 +68,8 @@
 		"failed": "Impossible de mettre le téléchargement en file d'attente",
 		"noLibrary": "Aucune bibliothèque compatible avec le téléchargement pour l'instant. Configurez d'abord Prowlarr + qBittorrent sur une bibliothèque.",
 		"notEnabled": "Les téléchargements ne sont pas activés sur cette bibliothèque.",
-		"queued": "Ajouté à la file d'attente de téléchargement"
+		"queued": "Ajouté à la file d'attente de téléchargement",
+		"viewQueue": ""
 	},
 	"follow": {
 		"follow": "Suivre",
