@@ -5,10 +5,34 @@
 	"greeting": {
 		"afternoon": "Good afternoon",
 		"evening": "Good evening",
-		"morning": "Good morning"
+		"morning": "Good morning",
+		"night": "Up late",
+		"sub": {
+			"afternoon": "The day could use a good soundtrack",
+			"evening": "Wind the day down properly",
+			"morning": "Something to go with the coffee",
+			"night": "The best listening happens at this hour"
+		}
+	},
+	"hero": {
+		"onboardBody": "Chordia plays music straight from your own server. Pair a library and this page comes to life.",
+		"onboardCta": "Pair a library",
+		"onboardTitle": "Welcome to Chordia",
+		"resumeTitle": "Pick up where you left off",
+		"seeAll": "See all",
+		"startTitle": "Put something on"
 	},
 	"home": {
-		"emptyState": "Nothing here yet - pair a library server and your catalog will appear."
+		"empty": {
+			"body": "Chordia streams from your own library server. Pair one and everything you own shows up here.",
+			"cta": "Pair a library",
+			"title": "Your music isn't here yet"
+		},
+		"emptyState": "Nothing here yet - pair a library server and your catalog will appear.",
+		"noHistory": {
+			"body": "Play anything and this page will start shaping itself around what you listen to.",
+			"title": "It's quiet in here"
+		}
 	},
 	"jumpBackIn": {
 		"emptyState": "Things you've played recently will show up here.",
@@ -23,17 +47,36 @@
 		"playTitle": "Play {title}",
 		"playingToast": "Playing {title}"
 	},
+	"onThisDay": {
+		"yearsAgo": "{count, plural, one {# year ago} other {# years ago}}"
+	},
+	"quickAccess": {
+		"title": "Quick access"
+	},
 	"radio": {
 		"label": "Radio",
 		"pin": "Pin radio"
 	},
 	"shelf": {
+		"friendsListening": "What your friends are playing",
 		"jumpBackIn": "Jump back in",
 		"madeFor": "Made for {name}",
 		"madeForYou": "you",
+		"onThisDay": "On this day",
+		"recentlyAdded": "Recently added",
 		"recommended": "Recommended for you",
 		"trendingAlbums": "Trending albums",
 		"trendingArtists": "Trending artists",
+		"trendingTracks": "Trending tracks",
 		"yourLibraries": "Your libraries"
+	},
+	"snapshot": {
+		"activeDays": "Active days",
+		"cta": "See the full picture",
+		"plays": "Plays",
+		"streak": "Streak",
+		"title": "Your listening lately",
+		"wrappedCta": "See your year",
+		"wrappedTitle": "Your year's almost wrapped"
 	}
 }
