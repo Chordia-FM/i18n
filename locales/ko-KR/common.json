@@ -107,6 +107,10 @@
 		"description": "인터페이스 전체에 사용할 언어입니다.",
 		"label": "언어"
 	},
+	"menu": {
+		"moreActions": "",
+		"back": "뒤로"
+	},
 	"nav": {
 		"allLibraries": "모든 라이브러리",
 		"back": "뒤로",
