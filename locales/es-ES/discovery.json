@@ -5,10 +5,34 @@
 	"greeting": {
 		"afternoon": "Buenas tardes",
 		"evening": "Buenas noches",
-		"morning": "Buenos días"
+		"morning": "Buenos días",
+		"night": "",
+		"sub": {
+			"afternoon": "",
+			"evening": "",
+			"morning": "",
+			"night": ""
+		}
+	},
+	"hero": {
+		"onboardBody": "",
+		"onboardCta": "",
+		"onboardTitle": "Te damos la bienvenida a Chordia",
+		"resumeTitle": "",
+		"seeAll": "Ver todo",
+		"startTitle": ""
 	},
 	"home": {
-		"emptyState": "Aquí no hay nada todavía: empareja un servidor de biblioteca y tu catálogo aparecerá."
+		"empty": {
+			"body": "",
+			"cta": "",
+			"title": ""
+		},
+		"emptyState": "Aquí no hay nada todavía: empareja un servidor de biblioteca y tu catálogo aparecerá.",
+		"noHistory": {
+			"body": "",
+			"title": ""
+		}
 	},
 	"jumpBackIn": {
 		"emptyState": "Lo que hayas escuchado hace poco aparecerá aquí.",
@@ -23,17 +47,36 @@
 		"playTitle": "Reproducir {title}",
 		"playingToast": "Reproduciendo {title}"
 	},
+	"onThisDay": {
+		"yearsAgo": "{count, plural, one {hace # año} other {hace # años}}"
+	},
+	"quickAccess": {
+		"title": ""
+	},
 	"radio": {
 		"label": "",
 		"pin": "Fijar la radio"
 	},
 	"shelf": {
+		"friendsListening": "",
 		"jumpBackIn": "Volver a escuchar",
 		"madeFor": "Hecho para {name}",
 		"madeForYou": "ti",
+		"onThisDay": "Un día como hoy",
+		"recentlyAdded": "",
 		"recommended": "Recomendado para ti",
 		"trendingAlbums": "Álbumes en tendencia",
 		"trendingArtists": "Artistas en tendencia",
+		"trendingTracks": "",
 		"yourLibraries": "Tus bibliotecas"
+	},
+	"snapshot": {
+		"activeDays": "Días activos",
+		"cta": "",
+		"plays": "Reproducciones",
+		"streak": "",
+		"title": "",
+		"wrappedCta": "",
+		"wrappedTitle": ""
 	}
 }
