@@ -146,6 +146,7 @@
 		"insideDataMusic": "서버의 {path} 안",
 		"listDirFailed": "디렉터리 목록을 불러오지 못했습니다",
 		"missingParams": "설정 매개변수가 없습니다. 라이브러리 서버 터미널에 표시된 링크를 열어 주세요.",
+		"missingParamsTitle": "",
 		"noFolderSelected": "선택한 폴더 없음",
 		"noSubdirectories": "하위 디렉터리가 없습니다",
 		"pair": {
