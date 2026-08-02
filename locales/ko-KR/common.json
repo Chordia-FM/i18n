@@ -131,9 +131,9 @@
 		"signIn": "로그인"
 	},
 	"notFound": {
-		"body": "이 페이지는 존재하지 않습니다.",
+		"body": "",
 		"goHome": "홈으로",
-		"title": "페이지를 찾을 수 없습니다"
+		"title": ""
 	},
 	"or": "또는",
 	"sidebar": {
