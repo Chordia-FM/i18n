@@ -146,6 +146,7 @@
 		"insideDataMusic": "サーバー上の{path}内",
 		"listDirFailed": "ディレクトリを一覧できませんでした",
 		"missingParams": "セットアップパラメータがありません。ライブラリサーバーのターミナルに表示されるリンクを開いてください。",
+		"missingParamsTitle": "",
 		"noFolderSelected": "フォルダが選択されていません",
 		"noSubdirectories": "サブディレクトリはありません",
 		"pair": {
