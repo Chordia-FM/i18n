@@ -15,7 +15,8 @@
 		"invited": "Invited @{handle}",
 		"justYou": "Just you",
 		"removeTitle": "Remove {name}",
-		"removed": "Removed {name}"
+		"removed": "Removed {name}",
+		"manage": "Manage people"
 	},
 	"confirm": {
 		"deleteMessage": "Delete \"{name}\"?",
@@ -31,7 +32,37 @@
 		"confirmBody": "Delete this playlist?",
 		"title": "Delete playlist"
 	},
+	"edit": {
+		"title": "Edit details",
+		"choosePhoto": "Choose photo",
+		"removePhoto": "Remove photo",
+		"name": "Name",
+		"description": "Description",
+		"descriptionPlaceholder": "Add an optional description",
+		"visibility": {
+			"label": "Who can see this",
+			"private": "Private",
+			"unlisted": "Unlisted",
+			"public": "Public",
+			"privateHint": "Only you and anyone you invite.",
+			"unlistedHint": "Anyone with the link can open it. It stays off your profile.",
+			"publicHint": "Anyone with the link can open it, and it's listed on your profile."
+		},
+		"saveError": "Couldn't save those changes",
+		"photoError": "Couldn't upload that image"
+	},
 	"empty": "This playlist is empty. Add songs from the “⋯” menu on any track.",
+	"emptyState": {
+		"title": "Let's find something to put in here",
+		"searchPlaceholder": "Search for songs",
+		"fromLiked": "From your liked songs",
+		"addHint": "You can also add songs from the ⋯ menu on any track.",
+		"added": "Added"
+	},
+	"kind": {
+		"collaborative": "Collaborative playlist",
+		"public": "Public playlist"
+	},
 	"kindLabel": "Playlist",
 	"leave": {
 		"confirmBody": "Leave this collaborative playlist?",
@@ -39,6 +70,9 @@
 		"title": "Leave playlist"
 	},
 	"menuEmpty": "No playlists",
+	"meta": {
+		"playableNote": "You can play {playable} of the {count, plural, one {# song} other {# songs}} in this playlist from your libraries."
+	},
 	"new": "New playlist",
 	"newFromAlbum": "New playlist",
 	"newFromAlbumSub": "From “{name}”",
