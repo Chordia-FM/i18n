@@ -28,6 +28,12 @@
 		"unknownImageHash": ""
 	},
 	"changeFailed": "",
+	"debug": {
+		"copied": "",
+		"copy": "",
+		"hint": "",
+		"manualCopy": ""
+	},
 	"directory": {
 		"serverOffline": ""
 	},
@@ -40,6 +46,21 @@
 		"cannotFriendSelf": ""
 	},
 	"generic": "",
+	"http": {
+		"badRequest": "",
+		"clientError": "",
+		"conflict": "",
+		"forbidden": "",
+		"network": "",
+		"notFound": "",
+		"serverError": "",
+		"timeout": "",
+		"tooLarge": "",
+		"tooManyRequests": "",
+		"unauthorized": "",
+		"unavailable": "",
+		"unknown": ""
+	},
 	"image": {
 		"empty": "",
 		"fetchFailed": "",
@@ -88,6 +109,10 @@
 	"saveFailed": "",
 	"share": {
 		"withSelf": ""
+	},
+	"state": {
+		"message": "",
+		"title": ""
 	},
 	"twoFactor": {
 		"invalidCode": "",
