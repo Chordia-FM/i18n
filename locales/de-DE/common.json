@@ -107,6 +107,10 @@
 		"description": "Sprache der gesamten Benutzeroberfläche.",
 		"label": "Sprache"
 	},
+	"menu": {
+		"moreActions": "",
+		"back": "Zurück"
+	},
 	"nav": {
 		"allLibraries": "Alle Bibliotheken",
 		"back": "Zurück",
