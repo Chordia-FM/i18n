@@ -107,6 +107,10 @@
 		"description": "",
 		"label": ""
 	},
+	"menu": {
+		"moreActions": "",
+		"back": ""
+	},
 	"nav": {
 		"allLibraries": "",
 		"back": "",
