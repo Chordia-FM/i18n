@@ -5,10 +5,34 @@
 	"greeting": {
 		"afternoon": "Guten Tag",
 		"evening": "Guten Abend",
-		"morning": "Guten Morgen"
+		"morning": "Guten Morgen",
+		"night": "",
+		"sub": {
+			"afternoon": "",
+			"evening": "",
+			"morning": "",
+			"night": ""
+		}
+	},
+	"hero": {
+		"onboardBody": "",
+		"onboardCta": "",
+		"onboardTitle": "Willkommen bei Chordia",
+		"resumeTitle": "",
+		"seeAll": "Alle anzeigen",
+		"startTitle": ""
 	},
 	"home": {
-		"emptyState": "Hier ist noch nichts – koppeln Sie einen Bibliotheksserver, dann erscheint Ihr Katalog."
+		"empty": {
+			"body": "",
+			"cta": "",
+			"title": ""
+		},
+		"emptyState": "Hier ist noch nichts – koppeln Sie einen Bibliotheksserver, dann erscheint Ihr Katalog.",
+		"noHistory": {
+			"body": "",
+			"title": ""
+		}
 	},
 	"jumpBackIn": {
 		"emptyState": "Titel, die Sie kürzlich gehört haben, erscheinen hier.",
@@ -23,17 +47,36 @@
 		"playTitle": "{title} abspielen",
 		"playingToast": "{title} wird abgespielt"
 	},
+	"onThisDay": {
+		"yearsAgo": "{count, plural, one {vor # Jahr} other {vor # Jahren}}"
+	},
+	"quickAccess": {
+		"title": ""
+	},
 	"radio": {
 		"label": "",
 		"pin": "Radio anheften"
 	},
 	"shelf": {
+		"friendsListening": "",
 		"jumpBackIn": "Weiterhören",
 		"madeFor": "Für {name}",
 		"madeForYou": "Sie",
+		"onThisDay": "An diesem Tag",
+		"recentlyAdded": "",
 		"recommended": "Für Sie empfohlen",
 		"trendingAlbums": "Angesagte Alben",
 		"trendingArtists": "Angesagte Künstler",
+		"trendingTracks": "",
 		"yourLibraries": "Ihre Bibliotheken"
+	},
+	"snapshot": {
+		"activeDays": "Aktive Tage",
+		"cta": "",
+		"plays": "Wiedergaben",
+		"streak": "",
+		"title": "",
+		"wrappedCta": "",
+		"wrappedTitle": ""
 	}
 }
