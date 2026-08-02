@@ -131,9 +131,9 @@
 		"signIn": "Entrar"
 	},
 	"notFound": {
-		"body": "Esta página não existe.",
+		"body": "",
 		"goHome": "Ir para o início",
-		"title": "Página não encontrada"
+		"title": ""
 	},
 	"or": "ou",
 	"sidebar": {
