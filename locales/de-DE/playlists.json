@@ -15,7 +15,8 @@
 		"invited": "@{handle} eingeladen",
 		"justYou": "Nur Sie",
 		"removeTitle": "{name} entfernen",
-		"removed": "{name} entfernt"
+		"removed": "{name} entfernt",
+		"manage": ""
 	},
 	"confirm": {
 		"deleteMessage": "„{name}“ löschen?",
@@ -31,7 +32,37 @@
 		"confirmBody": "Diese Playlist löschen?",
 		"title": "Playlist löschen"
 	},
+	"edit": {
+		"title": "",
+		"choosePhoto": "",
+		"removePhoto": "",
+		"name": "",
+		"description": "Beschreibung",
+		"descriptionPlaceholder": "",
+		"visibility": {
+			"label": "",
+			"private": "",
+			"unlisted": "",
+			"public": "",
+			"privateHint": "",
+			"unlistedHint": "",
+			"publicHint": ""
+		},
+		"saveError": "",
+		"photoError": ""
+	},
 	"empty": "Diese Playlist ist leer. Fügen Sie Songs über das Menü „⋯“ eines beliebigen Titels hinzu.",
+	"emptyState": {
+		"title": "",
+		"searchPlaceholder": "",
+		"fromLiked": "",
+		"addHint": "",
+		"added": ""
+	},
+	"kind": {
+		"collaborative": "",
+		"public": ""
+	},
 	"kindLabel": "",
 	"leave": {
 		"confirmBody": "Diese gemeinsame Playlist verlassen?",
@@ -39,6 +70,9 @@
 		"title": "Playlist verlassen"
 	},
 	"menuEmpty": "Keine Playlists",
+	"meta": {
+		"playableNote": ""
+	},
 	"new": "Neue Playlist",
 	"newFromAlbum": "Neue Playlist",
 	"newFromAlbumSub": "Aus „{name}“",
