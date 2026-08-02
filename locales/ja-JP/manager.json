@@ -57,7 +57,8 @@
 		"version": {
 			"instrumental": "インストゥルメンタル",
 			"live": "ライブ"
-		}
+		},
+		"openIn": ""
 	},
 	"download": {
 		"ackConfirm": "理解しました",
