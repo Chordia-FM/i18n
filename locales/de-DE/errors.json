@@ -20,14 +20,20 @@
 		"twoFactorStartFirst": "Starten Sie zunächst die Zwei-Faktor-Einrichtung."
 	},
 	"catalog": {
-		"albumLoadFailed": "Laden fehlgeschlagen",
-		"artistLoadFailed": "Laden fehlgeschlagen",
+		"albumLoadFailed": "",
+		"artistLoadFailed": "",
 		"artistNameTaken": "Ein anderer Künstler trägt bereits diesen Namen.",
 		"labelLoadFailed": "Dieses Label konnte nicht geladen werden",
 		"unknownArtist": "Unbekannter Künstler.",
 		"unknownImageHash": "Unbekanntes Bild."
 	},
 	"changeFailed": "Diese Änderung konnte nicht gespeichert werden – bitte versuchen Sie es erneut.",
+	"debug": {
+		"copied": "",
+		"copy": "",
+		"hint": "",
+		"manualCopy": ""
+	},
 	"directory": {
 		"serverOffline": "Dieser Server ist offline."
 	},
@@ -40,6 +46,21 @@
 		"cannotFriendSelf": "Sie können sich selbst keine Freundschaftsanfrage senden."
 	},
 	"generic": "Fehlgeschlagen",
+	"http": {
+		"badRequest": "",
+		"clientError": "",
+		"conflict": "",
+		"forbidden": "",
+		"network": "",
+		"notFound": "",
+		"serverError": "",
+		"timeout": "",
+		"tooLarge": "",
+		"tooManyRequests": "",
+		"unauthorized": "",
+		"unavailable": "",
+		"unknown": ""
+	},
 	"image": {
 		"empty": "Das Bild ist leer.",
 		"fetchFailed": "Das Bild konnte nicht abgerufen werden.",
@@ -52,9 +73,9 @@
 		"compatibilityNotFound": "Kein Benutzer mit diesem Handle.",
 		"compatibilityPrivate": "Die Höraktivität dieses Benutzers ist privat.",
 		"invalidTimezone": "Unbekannte Zeitzone „{timezone}“.",
-		"loadFriendActivityFailed": "Die Freundesaktivität konnte nicht geladen werden",
-		"loadHistoryFailed": "Der Verlauf konnte nicht geladen werden",
-		"loadStatsFailed": "Die Statistiken konnten nicht geladen werden",
+		"loadFriendActivityFailed": "",
+		"loadHistoryFailed": "",
+		"loadStatsFailed": "",
 		"milestoneRange": "Wählen Sie eine Wiedergabezahl von 1 oder mehr.",
 		"pagingPair": "before_ms und before_id müssen zusammen angegeben werden."
 	},
@@ -88,6 +109,10 @@
 	"saveFailed": "Speichern fehlgeschlagen",
 	"share": {
 		"withSelf": "Sie können nicht mit sich selbst teilen."
+	},
+	"state": {
+		"message": "",
+		"title": ""
 	},
 	"twoFactor": {
 		"invalidCode": "Ungültiger Code.",
