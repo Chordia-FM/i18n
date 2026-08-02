@@ -1,6 +1,5 @@
 {
 	"album": {
-		"back": "Volver al Gestor",
 		"coverage": "{owned} de {total} pistas",
 		"disc": "Disco {n}",
 		"downloadEdition": "Descargar versión",
@@ -12,7 +11,6 @@
 		"remaster": "Remasterización"
 	},
 	"artist": {
-		"back": "Volver al Gestor",
 		"complete": "{pct}% completo",
 		"fetching": "Obteniendo discografía…",
 		"loadFailed": "No se pudo cargar la cobertura de este artista.",
@@ -70,7 +68,8 @@
 		"failed": "No se pudo poner la descarga en cola",
 		"noLibrary": "Aún no hay ninguna biblioteca con descargas activadas. Configura antes Prowlarr + qBittorrent en una biblioteca.",
 		"notEnabled": "Las descargas no están activadas en esa biblioteca.",
-		"queued": "Añadido a la cola de descargas"
+		"queued": "Añadido a la cola de descargas",
+		"viewQueue": ""
 	},
 	"follow": {
 		"follow": "Seguir",
