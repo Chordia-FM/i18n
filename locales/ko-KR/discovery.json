@@ -5,10 +5,34 @@
 	"greeting": {
 		"afternoon": "좋은 오후입니다",
 		"evening": "좋은 저녁입니다",
-		"morning": "좋은 아침입니다"
+		"morning": "좋은 아침입니다",
+		"night": "",
+		"sub": {
+			"afternoon": "",
+			"evening": "",
+			"morning": "",
+			"night": ""
+		}
+	},
+	"hero": {
+		"onboardBody": "",
+		"onboardCta": "",
+		"onboardTitle": "Chordia에 오신 것을 환영합니다",
+		"resumeTitle": "",
+		"seeAll": "모두 보기",
+		"startTitle": ""
 	},
 	"home": {
-		"emptyState": "아직 아무것도 없습니다 - 라이브러리 서버를 연결하면 카탈로그가 표시됩니다."
+		"empty": {
+			"body": "",
+			"cta": "",
+			"title": ""
+		},
+		"emptyState": "아직 아무것도 없습니다 - 라이브러리 서버를 연결하면 카탈로그가 표시됩니다.",
+		"noHistory": {
+			"body": "",
+			"title": ""
+		}
 	},
 	"jumpBackIn": {
 		"emptyState": "최근에 재생한 항목이 여기에 표시됩니다.",
@@ -23,17 +47,36 @@
 		"playTitle": "{title} 재생",
 		"playingToast": "{title} 재생 중"
 	},
+	"onThisDay": {
+		"yearsAgo": "{count, plural, other {#년 전}}"
+	},
+	"quickAccess": {
+		"title": ""
+	},
 	"radio": {
 		"label": "라디오",
 		"pin": "라디오 고정"
 	},
 	"shelf": {
+		"friendsListening": "",
 		"jumpBackIn": "다시 듣기",
 		"madeFor": "{name} 맞춤 추천",
 		"madeForYou": "회원님",
+		"onThisDay": "오늘의 기록",
+		"recentlyAdded": "",
 		"recommended": "회원님을 위한 추천",
 		"trendingAlbums": "인기 앨범",
 		"trendingArtists": "인기 아티스트",
+		"trendingTracks": "",
 		"yourLibraries": "내 라이브러리"
+	},
+	"snapshot": {
+		"activeDays": "활동한 날",
+		"cta": "",
+		"plays": "재생 횟수",
+		"streak": "",
+		"title": "",
+		"wrappedCta": "",
+		"wrappedTitle": ""
 	}
 }
