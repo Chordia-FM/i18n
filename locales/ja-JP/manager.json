@@ -1,6 +1,5 @@
 {
 	"album": {
-		"back": "マネージャーに戻る",
 		"coverage": "全{total}曲中{owned}曲",
 		"disc": "ディスク{n}",
 		"downloadEdition": "バージョンをダウンロード",
@@ -12,7 +11,6 @@
 		"remaster": "リマスター"
 	},
 	"artist": {
-		"back": "マネージャーに戻る",
 		"complete": "{pct}%コンプリート",
 		"fetching": "ディスコグラフィーを取得中…",
 		"loadFailed": "このアーティストのカバー率を読み込めませんでした。",
@@ -70,7 +68,8 @@
 		"failed": "ダウンロードをキューに追加できませんでした",
 		"noLibrary": "ダウンロード対応のライブラリがまだありません。先にいずれかのライブラリでProwlarrとqBittorrentを設定してください。",
 		"notEnabled": "そのライブラリではダウンロードが有効になっていません。",
-		"queued": "ダウンロードキューに追加しました"
+		"queued": "ダウンロードキューに追加しました",
+		"viewQueue": ""
 	},
 	"follow": {
 		"follow": "フォロー",
