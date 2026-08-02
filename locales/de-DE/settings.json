@@ -20,7 +20,20 @@
 		"customAccentAria": "Benutzerdefinierte Akzentfarbe",
 		"customColour": "Benutzerdefinierte Farbe",
 		"customColourHint": "Wählen Sie eine beliebige Farbe – Schaltflächen, Hervorhebungen und der Hintergrundton richten sich danach.",
-		"title": "Darstellung"
+		"title": "Darstellung",
+		"accents": {
+			"crimson": "",
+			"ember": "",
+			"amber": "",
+			"lime": "",
+			"green": "",
+			"teal": "",
+			"blue": "",
+			"indigo": "",
+			"purple": "",
+			"magenta": "",
+			"pink": ""
+		}
 	},
 	"connections": {
 		"lastfm": {
