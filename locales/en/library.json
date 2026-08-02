@@ -146,6 +146,7 @@
 		"insideDataMusic": "Inside {path} on the server",
 		"listDirFailed": "Failed to list directory",
 		"missingParams": "Missing setup parameters. Please open the link printed in the library server terminal.",
+		"missingParamsTitle": "This setup link is incomplete",
 		"noFolderSelected": "No folder selected",
 		"noSubdirectories": "No subdirectories here",
 		"pair": {

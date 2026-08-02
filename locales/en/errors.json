@@ -20,14 +20,20 @@
 		"twoFactorStartFirst": "Start two-factor setup first."
 	},
 	"catalog": {
-		"albumLoadFailed": "Failed to load",
-		"artistLoadFailed": "Failed to load",
+		"albumLoadFailed": "Couldn't load this album",
+		"artistLoadFailed": "Couldn't load this artist",
 		"artistNameTaken": "Another artist already has that name.",
 		"labelLoadFailed": "Couldn't load this label",
 		"unknownArtist": "Unknown artist.",
 		"unknownImageHash": "Unknown image."
 	},
 	"changeFailed": "Couldn't save that change — please try again.",
+	"debug": {
+		"copied": "Copied",
+		"copy": "Copy debug info",
+		"hint": "The report covers when and where the error happened — never your account or your library.",
+		"manualCopy": "Copying isn't available here — select the text below and copy it yourself."
+	},
 	"directory": {
 		"serverOffline": "That server is offline."
 	},
@@ -40,6 +46,21 @@
 		"cannotFriendSelf": "You can't send a friend request to yourself."
 	},
 	"generic": "Failed",
+	"http": {
+		"badRequest": "Something about that request wasn't valid.",
+		"clientError": "That request couldn't be completed.",
+		"conflict": "That conflicts with something that already exists.",
+		"forbidden": "You don't have access to that.",
+		"network": "Couldn't reach the server. Check your connection and try again.",
+		"notFound": "We couldn't find that.",
+		"serverError": "The server ran into a problem. This one is on us.",
+		"timeout": "The request took too long. Try again.",
+		"tooLarge": "That's too large to upload.",
+		"tooManyRequests": "Too many requests. Give it a moment and try again.",
+		"unauthorized": "You need to sign in to do that.",
+		"unavailable": "The server is unavailable right now. Try again in a moment.",
+		"unknown": "Something went wrong."
+	},
 	"image": {
 		"empty": "The image is empty.",
 		"fetchFailed": "Couldn't fetch that image.",
@@ -52,9 +73,9 @@
 		"compatibilityNotFound": "No user with that handle.",
 		"compatibilityPrivate": "That user's listening activity is private.",
 		"invalidTimezone": "Unknown time zone “{timezone}”.",
-		"loadFriendActivityFailed": "Failed to load friend activity",
-		"loadHistoryFailed": "Failed to load history",
-		"loadStatsFailed": "Failed to load stats",
+		"loadFriendActivityFailed": "Couldn't load what your friends are playing",
+		"loadHistoryFailed": "Couldn't load your listening history",
+		"loadStatsFailed": "Couldn't load these stats",
 		"milestoneRange": "Pick a play number of 1 or more.",
 		"pagingPair": "before_ms and before_id must be provided together."
 	},
@@ -88,6 +109,10 @@
 	"saveFailed": "Failed to save",
 	"share": {
 		"withSelf": "You can't share with yourself."
+	},
+	"state": {
+		"message": "This section didn't load. It's usually temporary — try again in a moment.",
+		"title": "Couldn't load this"
 	},
 	"twoFactor": {
 		"invalidCode": "Invalid code.",
