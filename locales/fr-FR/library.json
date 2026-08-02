@@ -107,7 +107,6 @@
 	"new": {
 		"addFailed": "Échec de l'ajout de la bibliothèque",
 		"adding": "Ajout…",
-		"backLink": "Toutes les bibliothèques",
 		"browseFailed": "Échec de l'exploration",
 		"folderLabel": "Dossier sur le serveur",
 		"nameLabel": "Nom de la bibliothèque",
