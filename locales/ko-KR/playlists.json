@@ -15,7 +15,8 @@
 		"invited": "@{handle}님을 초대함",
 		"justYou": "회원님만",
 		"removeTitle": "{name} 제거",
-		"removed": "{name} 제거함"
+		"removed": "{name} 제거함",
+		"manage": ""
 	},
 	"confirm": {
 		"deleteMessage": "\"{name}\"을(를) 삭제할까요?",
@@ -31,7 +32,37 @@
 		"confirmBody": "이 플레이리스트를 삭제할까요?",
 		"title": "플레이리스트 삭제"
 	},
+	"edit": {
+		"title": "",
+		"choosePhoto": "",
+		"removePhoto": "",
+		"name": "이름",
+		"description": "설명",
+		"descriptionPlaceholder": "",
+		"visibility": {
+			"label": "",
+			"private": "",
+			"unlisted": "",
+			"public": "",
+			"privateHint": "",
+			"unlistedHint": "",
+			"publicHint": ""
+		},
+		"saveError": "",
+		"photoError": ""
+	},
 	"empty": "플레이리스트가 비어 있습니다. 트랙의 “⋯” 메뉴에서 곡을 추가하세요.",
+	"emptyState": {
+		"title": "",
+		"searchPlaceholder": "",
+		"fromLiked": "",
+		"addHint": "",
+		"added": ""
+	},
+	"kind": {
+		"collaborative": "",
+		"public": ""
+	},
 	"kindLabel": "플레이리스트",
 	"leave": {
 		"confirmBody": "이 공동 작업 플레이리스트에서 나갈까요?",
@@ -39,6 +70,9 @@
 		"title": "플레이리스트 나가기"
 	},
 	"menuEmpty": "플레이리스트 없음",
+	"meta": {
+		"playableNote": ""
+	},
 	"new": "새 플레이리스트",
 	"newFromAlbum": "새 플레이리스트",
 	"newFromAlbumSub": "‘{name}’에서",
