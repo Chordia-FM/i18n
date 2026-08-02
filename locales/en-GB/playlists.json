@@ -15,7 +15,8 @@
 		"invited": "",
 		"justYou": "",
 		"removeTitle": "",
-		"removed": ""
+		"removed": "",
+		"manage": ""
 	},
 	"confirm": {
 		"deleteMessage": "",
@@ -31,7 +32,37 @@
 		"confirmBody": "",
 		"title": ""
 	},
+	"edit": {
+		"title": "",
+		"choosePhoto": "",
+		"removePhoto": "",
+		"name": "",
+		"description": "",
+		"descriptionPlaceholder": "",
+		"visibility": {
+			"label": "",
+			"private": "",
+			"unlisted": "",
+			"public": "",
+			"privateHint": "",
+			"unlistedHint": "",
+			"publicHint": ""
+		},
+		"saveError": "",
+		"photoError": ""
+	},
 	"empty": "",
+	"emptyState": {
+		"title": "",
+		"searchPlaceholder": "",
+		"fromLiked": "",
+		"addHint": "",
+		"added": ""
+	},
+	"kind": {
+		"collaborative": "",
+		"public": ""
+	},
 	"kindLabel": "",
 	"leave": {
 		"confirmBody": "",
@@ -39,6 +70,9 @@
 		"title": ""
 	},
 	"menuEmpty": "",
+	"meta": {
+		"playableNote": ""
+	},
 	"new": "",
 	"newFromAlbum": "",
 	"newFromAlbumSub": "",
