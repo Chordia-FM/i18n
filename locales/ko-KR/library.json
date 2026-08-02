@@ -107,7 +107,6 @@
 	"new": {
 		"addFailed": "라이브러리를 추가하지 못했습니다",
 		"adding": "추가 중…",
-		"backLink": "모든 라이브러리",
 		"browseFailed": "찾아보지 못했습니다",
 		"folderLabel": "서버의 폴더",
 		"nameLabel": "라이브러리 이름",
