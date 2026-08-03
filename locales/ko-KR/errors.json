@@ -47,6 +47,10 @@
 		"radioFailed": "이 라디오를 만들지 못했습니다"
 	},
 	"failedToLoad": "불러오지 못했습니다",
+	"follows": {
+		"cannotFollowSelf": "",
+		"notOpen": ""
+	},
 	"friends": {
 		"cannotFriendSelf": "자신에게는 친구 요청을 보낼 수 없습니다."
 	},
@@ -126,11 +130,14 @@
 		"setupFailed": "2단계 인증 설정을 시작하지 못했습니다."
 	},
 	"user": {
+		"bioTooLong": "",
 		"handleGenFailed": "이 Discord 계정에 사용할 고유한 사용자 이름을 만들지 못했습니다.",
 		"handleOrEmailTaken": "이미 사용 중인 사용자 이름 또는 이메일입니다.",
 		"handleTaken": "이미 사용 중인 사용자 이름입니다.",
 		"invalidAvatarUrl": "",
-		"notFound": "해당 사용자 이름을 가진 사용자가 없습니다."
+		"invalidLinkUrl": "",
+		"notFound": "해당 사용자 이름을 가진 사용자가 없습니다.",
+		"tooManyLinks": ""
 	},
 	"validation": {
 		"nameOrIconRequired": "이름 또는 아이콘이 필요합니다.",
