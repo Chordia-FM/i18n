@@ -47,6 +47,10 @@
 		"radioFailed": ""
 	},
 	"failedToLoad": "",
+	"follows": {
+		"cannotFollowSelf": "",
+		"notOpen": ""
+	},
 	"friends": {
 		"cannotFriendSelf": ""
 	},
@@ -126,11 +130,14 @@
 		"setupFailed": ""
 	},
 	"user": {
+		"bioTooLong": "",
 		"handleGenFailed": "",
 		"handleOrEmailTaken": "",
 		"handleTaken": "",
 		"invalidAvatarUrl": "",
-		"notFound": ""
+		"invalidLinkUrl": "",
+		"notFound": "",
+		"tooManyLinks": ""
 	},
 	"validation": {
 		"nameOrIconRequired": "",
