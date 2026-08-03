@@ -95,10 +95,12 @@
 		"change": "変更",
 		"dataPerHourGb": "約{value} GB/時",
 		"dataPerHourMb": "約{value} MB/時",
+		"hearing": "",
 		"khz": "",
 		"lossless": "ロスレス",
 		"lossy": "非可逆",
 		"loudness": "ラウドネス",
+		"originalFile": "",
 		"originalSourceFile": "オリジナルのソースファイル",
 		"reduced": {
 			"adaptive": "",
