@@ -65,8 +65,10 @@
 		"empty": "The image is empty.",
 		"fetchFailed": "Couldn't fetch that image.",
 		"hashMismatch": "Image content didn't match the expected hash.",
+		"invalidImage": "That file isn't an image we can read.",
 		"invalidUrl": "Invalid image URL.",
-		"tooLarge": "Image is too large (max 8 MiB)."
+		"tooLarge": "Image is too large (max 8 MiB).",
+		"tooManyPixels": "That image is too big to process (max 8000 x 8000, and 50 megapixels overall)."
 	},
 	"insights": {
 		"compareSelf": "You can't compare with yourself.",
@@ -122,7 +124,7 @@
 		"handleGenFailed": "Couldn't generate a unique handle for this Discord account.",
 		"handleOrEmailTaken": "That handle or email is already taken.",
 		"handleTaken": "That handle is already taken.",
-		"invalidAvatarUrl": "Avatar URL must be an https:// address.",
+		"invalidAvatarUrl": "Avatar must be an https:// address or an uploaded image.",
 		"notFound": "No user with that handle."
 	},
 	"validation": {

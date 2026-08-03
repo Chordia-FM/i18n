@@ -2,17 +2,28 @@
 	"account": {
 		"avatarUrl": "Avatar URL",
 		"changeEmail": "Change email",
+		"changeEmailBody": "We'll send a confirmation link to the new address. It only becomes your sign-in email once you follow that link.",
+		"changeEmailTitle": "Change your email address",
+		"changePhoto": "Change photo",
 		"displayName": "Display name",
 		"emailChangeSent": "Check your new inbox for a confirmation link.",
+		"emailTitle": "Email",
 		"handle": "Handle",
 		"handleHint": "Letters, digits, “_” and “-”. Must be unique.",
 		"handlePlaceholder": "yourname",
 		"newEmailPlaceholder": "new@example.com",
+		"noEmail": "No email address on this account.",
+		"pendingChange": "Waiting for confirmation at {email}",
+		"photo": "Photo",
+		"removePhoto": "Remove",
+		"resendConfirmation": "Resend link",
 		"resendVerification": "Resend verification email",
 		"saveProfile": "Save profile",
 		"sendConfirmation": "Send confirmation",
 		"title": "Account",
-		"verificationSent": "Sent — check your inbox"
+		"unverified": "Unverified",
+		"verificationSent": "Sent — check your inbox",
+		"verified": "Verified"
 	},
 	"appearance": {
 		"accentColour": "Accent colour",
@@ -142,6 +153,20 @@
 			"desc": "Get an email for friend requests and other account activity.",
 			"label": "Email notifications"
 		},
+		"groups": {
+			"activity": {
+				"title": "Activity",
+				"desc": "What Chordia records as you listen."
+			},
+			"notifications": {
+				"title": "Notifications",
+				"desc": "When Chordia sends you email."
+			},
+			"audience": {
+				"title": "Who can see what",
+				"desc": "Who your listening is visible to."
+			}
+		},
 		"scrobble": {
 			"desc": "Record what you play for your stats and Wrapped.",
 			"label": "Scrobble listens"
@@ -184,6 +209,9 @@
 		},
 		"title": "Region"
 	},
+	"security": {
+		"title": "Security"
+	},
 	"sessions": {
 		"body": "Where you're signed in. Revoke any device you don't recognize.",
 		"lastActive": "Last active {date}",
@@ -193,6 +221,12 @@
 		"thisDevice": "This device",
 		"title": "Devices & sessions",
 		"unknownDevice": "Unknown device"
+	},
+	"startup": {
+		"title": "Startup",
+		"desc": "Where Chordia opens when you sign in.",
+		"home": "Home",
+		"library": "Library"
 	},
 	"title": "Settings",
 	"twoFactor": {
