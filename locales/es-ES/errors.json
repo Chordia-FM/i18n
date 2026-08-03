@@ -47,6 +47,10 @@
 		"radioFailed": "No se pudo crear esta radio"
 	},
 	"failedToLoad": "No se pudo cargar",
+	"follows": {
+		"cannotFollowSelf": "",
+		"notOpen": ""
+	},
 	"friends": {
 		"cannotFriendSelf": "No puedes enviarte una solicitud de amistad a ti mismo."
 	},
@@ -126,11 +130,14 @@
 		"setupFailed": "No se pudo iniciar la configuración de 2FA."
 	},
 	"user": {
+		"bioTooLong": "",
 		"handleGenFailed": "No se pudo generar un nombre de usuario único para esta cuenta de Discord.",
 		"handleOrEmailTaken": "Ese nombre de usuario o correo ya está en uso.",
 		"handleTaken": "Ese nombre de usuario ya está en uso.",
 		"invalidAvatarUrl": "",
-		"notFound": "No hay ningún usuario con ese nombre."
+		"invalidLinkUrl": "",
+		"notFound": "No hay ningún usuario con ese nombre.",
+		"tooManyLinks": ""
 	},
 	"validation": {
 		"nameOrIconRequired": "Se requiere un nombre o un icono.",
