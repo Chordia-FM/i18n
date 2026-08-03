@@ -47,6 +47,10 @@
 		"radioFailed": "Couldn't build this radio"
 	},
 	"failedToLoad": "Failed to load",
+	"follows": {
+		"cannotFollowSelf": "You can't follow yourself.",
+		"notOpen": "That account isn't accepting new followers."
+	},
 	"friends": {
 		"cannotFriendSelf": "You can't send a friend request to yourself."
 	},
@@ -126,11 +130,14 @@
 		"setupFailed": "Could not start 2FA setup."
 	},
 	"user": {
+		"bioTooLong": "Your bio can be at most 500 characters.",
 		"handleGenFailed": "Couldn't generate a unique handle for this Discord account.",
 		"handleOrEmailTaken": "That handle or email is already taken.",
 		"handleTaken": "That handle is already taken.",
 		"invalidAvatarUrl": "Avatar must be an https:// address or an uploaded image.",
-		"notFound": "No user with that handle."
+		"invalidLinkUrl": "Links must be full https:// addresses.",
+		"notFound": "No user with that handle.",
+		"tooManyLinks": "You can add at most 8 links."
 	},
 	"validation": {
 		"nameOrIconRequired": "A name or icon is required.",
