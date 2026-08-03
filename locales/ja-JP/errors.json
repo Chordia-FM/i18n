@@ -65,8 +65,10 @@
 		"empty": "画像が空です。",
 		"fetchFailed": "その画像を取得できませんでした。",
 		"hashMismatch": "画像の内容が期待されるハッシュと一致しませんでした。",
+		"invalidImage": "",
 		"invalidUrl": "画像URLが無効です。",
-		"tooLarge": "画像が大きすぎます（最大8 MiB）。"
+		"tooLarge": "画像が大きすぎます（最大8 MiB）。",
+		"tooManyPixels": ""
 	},
 	"insights": {
 		"compareSelf": "自分自身とは比較できません。",
@@ -122,7 +124,7 @@
 		"handleGenFailed": "このDiscordアカウント用の一意のハンドルを生成できませんでした。",
 		"handleOrEmailTaken": "そのハンドルまたはメールアドレスは既に使用されています。",
 		"handleTaken": "そのハンドルは既に使用されています。",
-		"invalidAvatarUrl": "アバターの URL は https:// のアドレスである必要があります。",
+		"invalidAvatarUrl": "",
 		"notFound": "そのハンドルのユーザーは存在しません。"
 	},
 	"validation": {
