@@ -1,7 +1,4 @@
 {
-	"actions": {
-		"rename": "Renomear playlist"
-	},
 	"addError": "Não foi possível adicionar à playlist",
 	"addToNamed": "Adicionar a {playlist}",
 	"addToPlaylist": "Adicionar à playlist",
@@ -13,7 +10,6 @@
 		"invite": "+ Convidar",
 		"invitePrompt": "Convide um colaborador pelo nome de usuário",
 		"invited": "@{handle} convidado",
-		"justYou": "Só você",
 		"removeTitle": "Remover {name}",
 		"removed": "{name} removido",
 		"manage": ""
@@ -21,10 +17,6 @@
 	"confirm": {
 		"deleteMessage": "Excluir \"{name}\"?",
 		"deleteTitle": "Excluir playlist"
-	},
-	"cover": {
-		"change": "Alterar imagem",
-		"remove": "Remover imagem"
 	},
 	"createFailed": "Não foi possível criar a playlist",
 	"createdFromAlbumToast": "Playlist “{name}” criada",
@@ -77,10 +69,15 @@
 	"newFromAlbum": "Nova playlist",
 	"newFromAlbumSub": "De “{name}”",
 	"prompt": {
-		"newName": "Nome da playlist",
-		"rename": "Renomear playlist"
+		"newName": "Nome da playlist"
 	},
 	"removeFromPlaylist": "Remover da playlist",
+	"reorder": {
+		"done": "",
+		"hint": "",
+		"moved": "",
+		"start": ""
+	},
 	"searchPlaceholder": "Buscar uma playlist",
 	"sharedWithYou": " · compartilhada com você",
 	"smart": {
@@ -138,6 +135,13 @@
 		"valuePlaceholder": "valor"
 	},
 	"songCount": "{count, plural, one {# música} other {# músicas}}",
+	"stats": {
+		"title": "",
+		"scopeMe": "Você",
+		"scopeEveryone": "Todos",
+		"empty": "",
+		"trackingSince": ""
+	},
 	"toast": {
 		"createFailed": "Não foi possível criar a playlist",
 		"created": "\"{name}\" criada",
