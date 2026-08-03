@@ -8,13 +8,17 @@
 	},
 	"auth": {
 		"badCredentials": "Incorrect email or password.",
+		"currentPasswordWrong": "That's not your current password.",
 		"displayNameLength": "Display name must be 1–64 characters.",
 		"emailInUse": "That email is already in use.",
 		"emailInvalid": "A valid email address is required.",
 		"handleChars": "Username may contain only letters, digits, “_” and “-”, and must start with a letter or digit.",
 		"handleLength": "Username must be 2–32 characters.",
+		"noPasswordSet": "This account doesn't have a password yet.",
 		"passwordLength": "Password must be {min}–{max} characters.",
 		"passwordRange": "Password must be 8–1024 characters.",
+		"passwordUnchanged": "That's the same as your current password.",
+		"tooManyAttempts": "Too many attempts. Wait a few minutes and try again.",
 		"twoFactorAlreadyEnabled": "Two-factor authentication is already enabled — disable it first.",
 		"twoFactorNotEnabled": "Two-factor authentication is not enabled.",
 		"twoFactorStartFirst": "Start two-factor setup first."
@@ -28,6 +32,7 @@
 		"unknownImageHash": "Unknown image."
 	},
 	"changeFailed": "Couldn't save that change — please try again.",
+	"copyFailed": "Couldn't copy to the clipboard — select the text and copy it manually.",
 	"debug": {
 		"copied": "Copied",
 		"copy": "Copy debug info",

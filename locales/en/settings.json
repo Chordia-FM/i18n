@@ -210,6 +210,36 @@
 		"title": "Region"
 	},
 	"security": {
+		"password": {
+			"changed": "Password changed.",
+			"confirm": "Confirm new password",
+			"current": "Current password",
+			"forgot": "Forgot your current password?",
+			"hideAria": "Hide password",
+			"lockoutNote": "Wrong attempts here count towards the same limit as signing in, so repeated misses will temporarily lock sign-in too.",
+			"mismatch": "Those two don't match.",
+			"new": "New password",
+			"revokeOthers": "Sign out my other devices",
+			"revokeOthersDesc": "Recommended if you're changing it because someone else may know it. This device stays signed in.",
+			"save": "Save password",
+			"showAria": "Show password",
+			"storedHint": "Chordia only ever stores a one-way hash of your password. Nobody, including us, can show it to you — if you've forgotten it, reset it by email instead.",
+			"title": "Password"
+		},
+		"setPassword": {
+			"action": "Email me a link",
+			"body": "This account signs in with Discord. Set a password to be able to sign in with your email address as well.",
+			"needsVerifiedEmail": "Verify your email address first — the link to set a password has to go somewhere you've confirmed you own.",
+			"sent": "Check your inbox for a link to set your password.",
+			"title": "Set a password"
+		},
+		"strength": {
+			"fair": "Fair",
+			"good": "Good",
+			"label": "Strength",
+			"strong": "Strong",
+			"weak": "Weak"
+		},
 		"title": "Security"
 	},
 	"sessions": {
@@ -218,6 +248,7 @@
 		"lastActiveDate": "{date}",
 		"signOutEverywhere": "Sign out everywhere",
 		"signOutEverywhereConfirm": "Sign out of all devices? You'll need to sign in again.",
+		"signedIn": "Signed in {date}",
 		"thisDevice": "This device",
 		"title": "Devices & sessions",
 		"unknownDevice": "Unknown device"
@@ -231,7 +262,10 @@
 	"title": "Settings",
 	"twoFactor": {
 		"addHint": "Add a second factor (an authenticator app) for extra account security.",
+		"copied": "Recovery codes copied.",
+		"copyAll": "Copy all",
 		"disable": "Disable 2FA",
+		"download": "Download",
 		"enable": "Enable 2FA",
 		"enableCta": "Enable two-factor auth",
 		"enabledHint": "2FA is enabled. To turn it off, enter a current code or a recovery code.",
@@ -239,6 +273,8 @@
 		"recoveryIntro": "2FA is on. Save these recovery codes somewhere safe — each works once if you lose your authenticator.",
 		"scanHint": "Scan this with your authenticator app, then enter the 6-digit code to confirm.",
 		"secretManual": "Or enter this secret manually: {secret}",
+		"statusOff": "Off",
+		"statusOn": "On",
 		"title": "Two-factor authentication"
 	},
 	"verifyEmail": {
