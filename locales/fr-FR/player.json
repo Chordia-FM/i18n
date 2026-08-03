@@ -100,6 +100,11 @@
 		"lossy": "Avec perte",
 		"loudness": "",
 		"originalSourceFile": "Fichier source d'origine",
+		"reduced": {
+			"adaptive": "",
+			"network": ""
+		},
+		"restore": "",
 		"source": "",
 		"spatial": "",
 		"streaming": "",
