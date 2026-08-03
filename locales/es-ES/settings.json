@@ -2,17 +2,28 @@
 	"account": {
 		"avatarUrl": "URL del avatar",
 		"changeEmail": "Cambiar correo",
+		"changeEmailBody": "",
+		"changeEmailTitle": "",
+		"changePhoto": "",
 		"displayName": "Nombre visible",
 		"emailChangeSent": "Revisa tu nueva bandeja de entrada: ahí tienes el enlace de confirmación.",
+		"emailTitle": "Correo",
 		"handle": "Usuario",
 		"handleHint": "Letras, números, “_” y “-”. Debe ser único.",
 		"handlePlaceholder": "tunombre",
 		"newEmailPlaceholder": "",
+		"noEmail": "",
+		"pendingChange": "",
+		"photo": "",
+		"removePhoto": "Quitar",
+		"resendConfirmation": "",
 		"resendVerification": "Reenviar el correo de verificación",
 		"saveProfile": "Guardar perfil",
 		"sendConfirmation": "Enviar confirmación",
 		"title": "Cuenta",
-		"verificationSent": "Enviado: revisa tu bandeja de entrada"
+		"unverified": "",
+		"verificationSent": "Enviado: revisa tu bandeja de entrada",
+		"verified": ""
 	},
 	"appearance": {
 		"accentColour": "Color de acento",
@@ -142,6 +153,20 @@
 			"desc": "Recibe un correo por las solicitudes de amistad y otra actividad de la cuenta.",
 			"label": "Notificaciones por correo"
 		},
+		"groups": {
+			"activity": {
+				"title": "Actividad",
+				"desc": ""
+			},
+			"notifications": {
+				"title": "",
+				"desc": ""
+			},
+			"audience": {
+				"title": "",
+				"desc": ""
+			}
+		},
 		"scrobble": {
 			"desc": "Registra lo que reproduces para tus estadísticas y tu Wrapped.",
 			"label": "Registrar escuchas"
@@ -184,6 +209,9 @@
 		},
 		"title": "Región"
 	},
+	"security": {
+		"title": ""
+	},
 	"sessions": {
 		"body": "Dónde tienes la sesión iniciada. Revoca cualquier dispositivo que no reconozcas.",
 		"lastActive": "Última actividad: {date}",
@@ -193,6 +221,12 @@
 		"thisDevice": "Este dispositivo",
 		"title": "Dispositivos y sesiones",
 		"unknownDevice": "Dispositivo desconocido"
+	},
+	"startup": {
+		"title": "",
+		"desc": "",
+		"home": "Inicio",
+		"library": "Biblioteca"
 	},
 	"title": "Ajustes",
 	"twoFactor": {
