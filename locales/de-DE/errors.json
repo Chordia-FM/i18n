@@ -8,13 +8,17 @@
 	},
 	"auth": {
 		"badCredentials": "Falsche E-Mail-Adresse oder falsches Passwort.",
+		"currentPasswordWrong": "",
 		"displayNameLength": "Der Anzeigename muss 1–64 Zeichen lang sein.",
 		"emailInUse": "Diese E-Mail-Adresse wird bereits verwendet.",
 		"emailInvalid": "Eine gültige E-Mail-Adresse ist erforderlich.",
 		"handleChars": "Der Benutzername darf nur Buchstaben, Ziffern, „_“ und „-“ enthalten und muss mit einem Buchstaben oder einer Ziffer beginnen.",
 		"handleLength": "Der Benutzername muss 2–32 Zeichen lang sein.",
+		"noPasswordSet": "",
 		"passwordLength": "Das Passwort muss {min}–{max} Zeichen lang sein.",
 		"passwordRange": "Das Passwort muss 8–1024 Zeichen lang sein.",
+		"passwordUnchanged": "",
+		"tooManyAttempts": "",
 		"twoFactorAlreadyEnabled": "Die Zwei-Faktor-Authentifizierung ist bereits aktiviert – deaktivieren Sie sie zuerst.",
 		"twoFactorNotEnabled": "Die Zwei-Faktor-Authentifizierung ist nicht aktiviert.",
 		"twoFactorStartFirst": "Starten Sie zunächst die Zwei-Faktor-Einrichtung."
@@ -28,6 +32,7 @@
 		"unknownImageHash": "Unbekanntes Bild."
 	},
 	"changeFailed": "Diese Änderung konnte nicht gespeichert werden – bitte versuchen Sie es erneut.",
+	"copyFailed": "",
 	"debug": {
 		"copied": "",
 		"copy": "",
