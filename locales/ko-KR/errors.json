@@ -65,8 +65,10 @@
 		"empty": "이미지가 비어 있습니다.",
 		"fetchFailed": "이미지를 가져오지 못했습니다.",
 		"hashMismatch": "이미지 내용이 예상 해시와 일치하지 않습니다.",
+		"invalidImage": "",
 		"invalidUrl": "잘못된 이미지 URL입니다.",
-		"tooLarge": "이미지가 너무 큽니다(최대 8MiB)."
+		"tooLarge": "이미지가 너무 큽니다(최대 8MiB).",
+		"tooManyPixels": ""
 	},
 	"insights": {
 		"compareSelf": "자신과는 비교할 수 없습니다.",
@@ -122,7 +124,7 @@
 		"handleGenFailed": "이 Discord 계정에 사용할 고유한 사용자 이름을 만들지 못했습니다.",
 		"handleOrEmailTaken": "이미 사용 중인 사용자 이름 또는 이메일입니다.",
 		"handleTaken": "이미 사용 중인 사용자 이름입니다.",
-		"invalidAvatarUrl": "아바타 URL은 https:// 주소여야 합니다.",
+		"invalidAvatarUrl": "",
 		"notFound": "해당 사용자 이름을 가진 사용자가 없습니다."
 	},
 	"validation": {
