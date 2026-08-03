@@ -2,17 +2,28 @@
 	"account": {
 		"avatarUrl": "아바타 URL",
 		"changeEmail": "이메일 변경",
+		"changeEmailBody": "",
+		"changeEmailTitle": "",
+		"changePhoto": "",
 		"displayName": "표시 이름",
 		"emailChangeSent": "새 이메일 받은편지함에서 확인 링크를 확인하세요.",
+		"emailTitle": "이메일",
 		"handle": "사용자 이름",
 		"handleHint": "영문자, 숫자, “_”, “-”만 사용할 수 있으며 중복될 수 없습니다.",
 		"handlePlaceholder": "",
 		"newEmailPlaceholder": "",
+		"noEmail": "",
+		"pendingChange": "",
+		"photo": "",
+		"removePhoto": "제거",
+		"resendConfirmation": "",
 		"resendVerification": "인증 메일 다시 보내기",
 		"saveProfile": "프로필 저장",
 		"sendConfirmation": "확인 메일 보내기",
 		"title": "계정",
-		"verificationSent": "보냈습니다 — 받은편지함을 확인하세요"
+		"unverified": "",
+		"verificationSent": "보냈습니다 — 받은편지함을 확인하세요",
+		"verified": ""
 	},
 	"appearance": {
 		"accentColour": "강조 색상",
@@ -142,6 +153,20 @@
 			"desc": "친구 요청 등 계정 활동을 이메일로 받습니다.",
 			"label": "이메일 알림"
 		},
+		"groups": {
+			"activity": {
+				"title": "활동",
+				"desc": ""
+			},
+			"notifications": {
+				"title": "",
+				"desc": ""
+			},
+			"audience": {
+				"title": "",
+				"desc": ""
+			}
+		},
 		"scrobble": {
 			"desc": "통계와 Wrapped를 위해 재생 기록을 저장합니다.",
 			"label": "감상 기록 스크로블"
@@ -184,6 +209,9 @@
 		},
 		"title": "지역"
 	},
+	"security": {
+		"title": ""
+	},
 	"sessions": {
 		"body": "로그인되어 있는 기기 목록입니다. 모르는 기기가 있으면 해제하세요.",
 		"lastActive": "마지막 활동 {date}",
@@ -193,6 +221,12 @@
 		"thisDevice": "이 기기",
 		"title": "기기 및 세션",
 		"unknownDevice": "알 수 없는 기기"
+	},
+	"startup": {
+		"title": "",
+		"desc": "",
+		"home": "홈",
+		"library": "라이브러리"
 	},
 	"title": "설정",
 	"twoFactor": {
