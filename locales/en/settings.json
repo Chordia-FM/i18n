@@ -173,6 +173,7 @@
 		},
 		"title": "Privacy",
 		"visibility": {
+			"followers": "Followers",
 			"friends": "Friends",
 			"private": "Only me",
 			"public": "Everyone"
