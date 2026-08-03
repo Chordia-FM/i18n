@@ -8,13 +8,17 @@
 	},
 	"auth": {
 		"badCredentials": "",
+		"currentPasswordWrong": "",
 		"displayNameLength": "",
 		"emailInUse": "",
 		"emailInvalid": "",
 		"handleChars": "",
 		"handleLength": "",
+		"noPasswordSet": "",
 		"passwordLength": "",
 		"passwordRange": "",
+		"passwordUnchanged": "",
+		"tooManyAttempts": "",
 		"twoFactorAlreadyEnabled": "",
 		"twoFactorNotEnabled": "",
 		"twoFactorStartFirst": ""
@@ -28,6 +32,7 @@
 		"unknownImageHash": ""
 	},
 	"changeFailed": "",
+	"copyFailed": "",
 	"debug": {
 		"copied": "",
 		"copy": "",
