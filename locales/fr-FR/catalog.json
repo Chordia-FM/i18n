@@ -216,7 +216,8 @@
 			"fullDate": "",
 			"today": "Aujourd'hui",
 			"yesterday": "Hier"
-		}
+		},
+		"reorderAria": ""
 	},
 	"trackCount": "{count, plural, one {# morceau} other {# morceaux}}"
 }
