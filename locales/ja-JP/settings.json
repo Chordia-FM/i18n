@@ -2,17 +2,28 @@
 	"account": {
 		"avatarUrl": "アバターURL",
 		"changeEmail": "メールアドレスを変更",
+		"changeEmailBody": "",
+		"changeEmailTitle": "",
+		"changePhoto": "",
 		"displayName": "表示名",
 		"emailChangeSent": "新しいメールアドレスの受信箱で確認リンクをご確認ください。",
+		"emailTitle": "メールアドレス",
 		"handle": "ハンドル",
 		"handleHint": "英字、数字、「_」「-」が使用できます。他のユーザーと重複できません。",
 		"handlePlaceholder": "",
 		"newEmailPlaceholder": "",
+		"noEmail": "",
+		"pendingChange": "",
+		"photo": "",
+		"removePhoto": "削除",
+		"resendConfirmation": "",
 		"resendVerification": "確認メールを再送信",
 		"saveProfile": "プロフィールを保存",
 		"sendConfirmation": "確認メールを送信",
 		"title": "アカウント",
-		"verificationSent": "送信しました。受信箱をご確認ください"
+		"unverified": "",
+		"verificationSent": "送信しました。受信箱をご確認ください",
+		"verified": ""
 	},
 	"appearance": {
 		"accentColour": "アクセントカラー",
@@ -142,6 +153,20 @@
 			"desc": "フレンドリクエストなどアカウントのアクティビティをメールで受け取ります。",
 			"label": "メール通知"
 		},
+		"groups": {
+			"activity": {
+				"title": "アクティビティ",
+				"desc": ""
+			},
+			"notifications": {
+				"title": "",
+				"desc": ""
+			},
+			"audience": {
+				"title": "",
+				"desc": ""
+			}
+		},
 		"scrobble": {
 			"desc": "統計とWrappedのために再生を記録します。",
 			"label": "再生をスクロブル"
@@ -184,6 +209,9 @@
 		},
 		"title": "地域"
 	},
+	"security": {
+		"title": ""
+	},
 	"sessions": {
 		"body": "ログイン中の場所です。心当たりのないデバイスは取り消してください。",
 		"lastActive": "最終アクティブ: {date}",
@@ -193,6 +221,12 @@
 		"thisDevice": "このデバイス",
 		"title": "デバイスとセッション",
 		"unknownDevice": "不明なデバイス"
+	},
+	"startup": {
+		"title": "",
+		"desc": "",
+		"home": "ホーム",
+		"library": "ライブラリ"
 	},
 	"title": "設定",
 	"twoFactor": {
