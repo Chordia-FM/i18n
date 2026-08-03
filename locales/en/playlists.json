@@ -1,7 +1,4 @@
 {
-	"actions": {
-		"rename": "Rename playlist"
-	},
 	"addError": "Couldn't add to playlist",
 	"addToNamed": "Add to {playlist}",
 	"addToPlaylist": "Add to playlist",
@@ -13,7 +10,6 @@
 		"invite": "+ Invite",
 		"invitePrompt": "Invite a collaborator by handle",
 		"invited": "Invited @{handle}",
-		"justYou": "Just you",
 		"removeTitle": "Remove {name}",
 		"removed": "Removed {name}",
 		"manage": "Manage people"
@@ -21,10 +17,6 @@
 	"confirm": {
 		"deleteMessage": "Delete \"{name}\"?",
 		"deleteTitle": "Delete playlist"
-	},
-	"cover": {
-		"change": "Change image",
-		"remove": "Remove image"
 	},
 	"createFailed": "Couldn’t create playlist",
 	"createdFromAlbumToast": "Playlist “{name}” created",
@@ -77,10 +69,15 @@
 	"newFromAlbum": "New playlist",
 	"newFromAlbumSub": "From “{name}”",
 	"prompt": {
-		"newName": "Playlist name",
-		"rename": "Rename playlist"
+		"newName": "Playlist name"
 	},
 	"removeFromPlaylist": "Remove from playlist",
+	"reorder": {
+		"done": "Done reordering",
+		"hint": "Drag a song by its handle to move it, or use “Move up” and “Move down” in its ⋯ menu.",
+		"moved": "Moved {title} to position {position} of {count}",
+		"start": "Reorder songs"
+	},
 	"searchPlaceholder": "Find a playlist",
 	"sharedWithYou": " · shared with you",
 	"smart": {
@@ -138,6 +135,13 @@
 		"valuePlaceholder": "value"
 	},
 	"songCount": "{count, plural, one {# song} other {# songs}}",
+	"stats": {
+		"title": "Playlist plays",
+		"scopeMe": "You",
+		"scopeEveryone": "Everyone",
+		"empty": "You haven't played anything from this playlist yet.",
+		"trackingSince": "Plays have been counted per playlist since {date, date, ::yMMMd}. Listening from before then wasn't recorded against a playlist, so it isn't included here."
+	},
 	"toast": {
 		"createFailed": "Couldn't create playlist",
 		"created": "Created \"{name}\"",

@@ -1,7 +1,4 @@
 {
-	"actions": {
-		"rename": "Enameray aylistplay"
-	},
 	"addError": "Ouldncay't addway otay aylistplay",
 	"addToNamed": "Addway otay {playlist}",
 	"addToPlaylist": "Addway otay aylistplay",
@@ -12,17 +9,12 @@
 		"invite": "+ Inviteway",
 		"invitePrompt": "Inviteway away ollaboratorcay ybay andlehay",
 		"invited": "Invitedway @{handle}",
-		"justYou": "Ustjay ouyay",
 		"removeTitle": "Emoveray {name}",
 		"removed": "Emovedray {name}"
 	},
 	"confirm": {
 		"deleteMessage": "Eleteday \"{name}\"?",
 		"deleteTitle": "Eleteday aylistplay"
-	},
-	"cover": {
-		"change": "Angechay imageway",
-		"remove": "Emoveray imageway"
 	},
 	"delete": {
 		"confirmBody": "Eleteday isthay aylistplay?",
@@ -38,8 +30,7 @@
 	"menuEmpty": "Onay aylistsplay",
 	"new": "Ewnay aylistplay",
 	"prompt": {
-		"newName": "Aylistplay amenay",
-		"rename": "Enameray aylistplay"
+		"newName": "Aylistplay amenay"
 	},
 	"removeFromPlaylist": "Emoveray omfray aylistplay",
 	"sharedWithYou": " · aredshay ithway ouyay",

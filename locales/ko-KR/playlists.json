@@ -1,7 +1,4 @@
 {
-	"actions": {
-		"rename": "플레이리스트 이름 변경"
-	},
 	"addError": "플레이리스트에 추가하지 못했습니다",
 	"addToNamed": "{playlist}에 추가",
 	"addToPlaylist": "플레이리스트에 추가",
@@ -13,17 +10,12 @@
 		"invite": "+ 초대",
 		"invitePrompt": "사용자 이름으로 공동 작업자를 초대하세요",
 		"invited": "@{handle}님을 초대함",
-		"justYou": "회원님만",
 		"removeTitle": "{name} 제거",
 		"removed": "{name} 제거함"
 	},
 	"confirm": {
 		"deleteMessage": "\"{name}\"을(를) 삭제할까요?",
 		"deleteTitle": "플레이리스트 삭제"
-	},
-	"cover": {
-		"change": "이미지 변경",
-		"remove": "이미지 제거"
 	},
 	"createFailed": "플레이리스트를 만들지 못했습니다",
 	"createdFromAlbumToast": "플레이리스트 ‘{name}’을(를) 만들었습니다",
@@ -43,8 +35,7 @@
 	"newFromAlbum": "새 플레이리스트",
 	"newFromAlbumSub": "‘{name}’에서",
 	"prompt": {
-		"newName": "플레이리스트 이름",
-		"rename": "플레이리스트 이름 변경"
+		"newName": "플레이리스트 이름"
 	},
 	"removeFromPlaylist": "플레이리스트에서 제거",
 	"searchPlaceholder": "플레이리스트 검색",

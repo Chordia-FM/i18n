@@ -1,21 +1,14 @@
 {
-	"actions": {
-		"rename": "Rename chart"
-	},
 	"addError": "Couldn't add t' chart",
 	"addToNamed": "Add t' {playlist}",
 	"addToPlaylist": "Add t' chart",
 	"addedToast": "Added t' {playlist}",
 	"collaborators": {
-		"justYou": "Just ye",
 		"removeTitle": "Cast off {name}"
 	},
 	"confirm": {
 		"deleteMessage": "Scuttle \"{name}\"?",
 		"deleteTitle": "Scuttle chart"
-	},
-	"cover": {
-		"remove": "Cast off image"
 	},
 	"delete": {
 		"confirmBody": "Scuttle this chart?",
@@ -31,8 +24,7 @@
 	"menuEmpty": "No charts",
 	"new": "New chart",
 	"prompt": {
-		"newName": "Chart name",
-		"rename": "Rename chart"
+		"newName": "Chart name"
 	},
 	"removeFromPlaylist": "Cast off from chart",
 	"sharedWithYou": " · divvied wi' ye",

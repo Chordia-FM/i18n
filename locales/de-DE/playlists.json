@@ -1,7 +1,4 @@
 {
-	"actions": {
-		"rename": "Playlist umbenennen"
-	},
 	"addError": "Konnte nicht zur Playlist hinzugefügt werden",
 	"addToNamed": "Zu {playlist} hinzufügen",
 	"addToPlaylist": "Zur Playlist hinzufügen",
@@ -13,17 +10,12 @@
 		"invite": "+ Einladen",
 		"invitePrompt": "Mitwirkenden per Handle einladen",
 		"invited": "@{handle} eingeladen",
-		"justYou": "Nur Sie",
 		"removeTitle": "{name} entfernen",
 		"removed": "{name} entfernt"
 	},
 	"confirm": {
 		"deleteMessage": "„{name}“ löschen?",
 		"deleteTitle": "Playlist löschen"
-	},
-	"cover": {
-		"change": "Bild ändern",
-		"remove": "Bild entfernen"
 	},
 	"createFailed": "Playlist konnte nicht erstellt werden",
 	"createdFromAlbumToast": "Playlist „{name}“ erstellt",
@@ -42,8 +34,7 @@
 	"newFromAlbum": "Neue Playlist",
 	"newFromAlbumSub": "Aus „{name}“",
 	"prompt": {
-		"newName": "Playlist-Name",
-		"rename": "Playlist umbenennen"
+		"newName": "Playlist-Name"
 	},
 	"removeFromPlaylist": "Aus Playlist entfernen",
 	"searchPlaceholder": "Playlist suchen",

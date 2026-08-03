@@ -1,7 +1,4 @@
 {
-	"actions": {
-		"rename": "Renommer la playlist"
-	},
 	"addError": "Impossible d'ajouter à la playlist",
 	"addToNamed": "Ajouter à {playlist}",
 	"addToPlaylist": "Ajouter à une playlist",
@@ -12,17 +9,12 @@
 		"invite": "+ Inviter",
 		"invitePrompt": "Inviter un collaborateur par identifiant",
 		"invited": "@{handle} invité",
-		"justYou": "Vous seul",
 		"removeTitle": "Retirer {name}",
 		"removed": "{name} retiré"
 	},
 	"confirm": {
 		"deleteMessage": "Supprimer « {name} » ?",
 		"deleteTitle": "Supprimer la playlist"
-	},
-	"cover": {
-		"change": "Changer l'image",
-		"remove": "Supprimer l'image"
 	},
 	"createFailed": "Impossible de créer la playlist",
 	"createdFromAlbumToast": "Playlist « {name} » créée",
@@ -41,8 +33,7 @@
 	"newFromAlbum": "Nouvelle playlist",
 	"newFromAlbumSub": "À partir de « {name} »",
 	"prompt": {
-		"newName": "Nom de la playlist",
-		"rename": "Renommer la playlist"
+		"newName": "Nom de la playlist"
 	},
 	"removeFromPlaylist": "Retirer de la playlist",
 	"searchPlaceholder": "Rechercher une playlist",
