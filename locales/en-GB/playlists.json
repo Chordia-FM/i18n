@@ -1,7 +1,4 @@
 {
-	"actions": {
-		"rename": ""
-	},
 	"addError": "",
 	"addToNamed": "",
 	"addToPlaylist": "",
@@ -13,7 +10,6 @@
 		"invite": "",
 		"invitePrompt": "",
 		"invited": "",
-		"justYou": "",
 		"removeTitle": "",
 		"removed": "",
 		"manage": ""
@@ -21,10 +17,6 @@
 	"confirm": {
 		"deleteMessage": "",
 		"deleteTitle": ""
-	},
-	"cover": {
-		"change": "",
-		"remove": ""
 	},
 	"createFailed": "",
 	"createdFromAlbumToast": "",
@@ -77,10 +69,15 @@
 	"newFromAlbum": "",
 	"newFromAlbumSub": "",
 	"prompt": {
-		"newName": "",
-		"rename": ""
+		"newName": ""
 	},
 	"removeFromPlaylist": "",
+	"reorder": {
+		"done": "",
+		"hint": "",
+		"moved": "",
+		"start": ""
+	},
 	"searchPlaceholder": "",
 	"sharedWithYou": "",
 	"smart": {
@@ -138,6 +135,13 @@
 		"valuePlaceholder": ""
 	},
 	"songCount": "",
+	"stats": {
+		"title": "",
+		"scopeMe": "",
+		"scopeEveryone": "",
+		"empty": "",
+		"trackingSince": ""
+	},
 	"toast": {
 		"createFailed": "",
 		"created": "",
