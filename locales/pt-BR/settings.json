@@ -2,17 +2,28 @@
 	"account": {
 		"avatarUrl": "URL do avatar",
 		"changeEmail": "Alterar e-mail",
+		"changeEmailBody": "",
+		"changeEmailTitle": "",
+		"changePhoto": "",
 		"displayName": "Nome de exibição",
 		"emailChangeSent": "Veja o link de confirmação na nova caixa de entrada.",
+		"emailTitle": "E-mail",
 		"handle": "Nome de usuário",
 		"handleHint": "Letras, dígitos, “_” e “-”. Precisa ser único.",
 		"handlePlaceholder": "seunome",
 		"newEmailPlaceholder": "",
+		"noEmail": "",
+		"pendingChange": "",
+		"photo": "",
+		"removePhoto": "Remover",
+		"resendConfirmation": "",
 		"resendVerification": "Reenviar e-mail de verificação",
 		"saveProfile": "Salvar perfil",
 		"sendConfirmation": "Enviar confirmação",
 		"title": "Conta",
-		"verificationSent": "Enviado — veja sua caixa de entrada"
+		"unverified": "",
+		"verificationSent": "Enviado — veja sua caixa de entrada",
+		"verified": ""
 	},
 	"appearance": {
 		"accentColour": "Cor de destaque",
@@ -142,6 +153,20 @@
 			"desc": "Receba um e-mail a cada pedido de amizade e outras atividades da conta.",
 			"label": "Notificações por e-mail"
 		},
+		"groups": {
+			"activity": {
+				"title": "Atividade",
+				"desc": ""
+			},
+			"notifications": {
+				"title": "",
+				"desc": ""
+			},
+			"audience": {
+				"title": "",
+				"desc": ""
+			}
+		},
 		"scrobble": {
 			"desc": "Registra o que você toca para as suas estatísticas e o Wrapped.",
 			"label": "Fazer scrobble das reproduções"
@@ -184,6 +209,9 @@
 		},
 		"title": "Região"
 	},
+	"security": {
+		"title": ""
+	},
 	"sessions": {
 		"body": "Onde você está conectado. Revogue qualquer dispositivo que você não reconheça.",
 		"lastActive": "Última atividade em {date}",
@@ -193,6 +221,12 @@
 		"thisDevice": "Este dispositivo",
 		"title": "Dispositivos e sessões",
 		"unknownDevice": "Dispositivo desconhecido"
+	},
+	"startup": {
+		"title": "",
+		"desc": "",
+		"home": "Início",
+		"library": "Biblioteca"
 	},
 	"title": "Configurações",
 	"twoFactor": {
