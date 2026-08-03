@@ -8,13 +8,17 @@
 	},
 	"auth": {
 		"badCredentials": "メールアドレスまたはパスワードが正しくありません。",
+		"currentPasswordWrong": "",
 		"displayNameLength": "表示名は1〜64文字にしてください。",
 		"emailInUse": "そのメールアドレスは既に使用されています。",
 		"emailInvalid": "有効なメールアドレスが必要です。",
 		"handleChars": "ユーザー名に使用できるのは英字、数字、「_」「-」のみで、先頭は英字または数字にしてください。",
 		"handleLength": "ユーザー名は2〜32文字にしてください。",
+		"noPasswordSet": "",
 		"passwordLength": "パスワードは{min}〜{max}文字にしてください。",
 		"passwordRange": "パスワードは8〜1024文字にしてください。",
+		"passwordUnchanged": "",
+		"tooManyAttempts": "",
 		"twoFactorAlreadyEnabled": "二要素認証は既に有効です。先に無効にしてください。",
 		"twoFactorNotEnabled": "二要素認証は有効になっていません。",
 		"twoFactorStartFirst": "先に二要素認証のセットアップを開始してください。"
@@ -28,6 +32,7 @@
 		"unknownImageHash": "不明な画像です。"
 	},
 	"changeFailed": "変更を保存できませんでした。もう一度お試しください。",
+	"copyFailed": "",
 	"debug": {
 		"copied": "",
 		"copy": "",
