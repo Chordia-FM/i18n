@@ -47,6 +47,10 @@
 		"radioFailed": "Não foi possível criar esta rádio"
 	},
 	"failedToLoad": "Falha ao carregar",
+	"follows": {
+		"cannotFollowSelf": "",
+		"notOpen": ""
+	},
 	"friends": {
 		"cannotFriendSelf": "Você não pode enviar um pedido de amizade para si mesmo."
 	},
@@ -126,11 +130,14 @@
 		"setupFailed": "Não foi possível iniciar a configuração da 2FA."
 	},
 	"user": {
+		"bioTooLong": "",
 		"handleGenFailed": "Não foi possível gerar um nome de usuário exclusivo para esta conta do Discord.",
 		"handleOrEmailTaken": "Esse nome de usuário ou e-mail já está em uso.",
 		"handleTaken": "Esse nome de usuário já está em uso.",
 		"invalidAvatarUrl": "",
-		"notFound": "Nenhum usuário com esse nome."
+		"invalidLinkUrl": "",
+		"notFound": "Nenhum usuário com esse nome.",
+		"tooManyLinks": ""
 	},
 	"validation": {
 		"nameOrIconRequired": "É necessário um nome ou ícone.",
