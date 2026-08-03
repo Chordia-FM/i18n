@@ -95,10 +95,12 @@
 		"change": "변경",
 		"dataPerHourGb": "시간당 약 {value} GB",
 		"dataPerHourMb": "시간당 약 {value} MB",
+		"hearing": "",
 		"khz": "",
 		"lossless": "무손실",
 		"lossy": "손실 압축",
 		"loudness": "음량",
+		"originalFile": "",
 		"originalSourceFile": "원본 소스 파일",
 		"reduced": {
 			"adaptive": "",
