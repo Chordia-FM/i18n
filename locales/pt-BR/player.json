@@ -95,10 +95,12 @@
 		"change": "Alterar",
 		"dataPerHourGb": "~{value} GB/hora",
 		"dataPerHourMb": "~{value} MB/hora",
+		"hearing": "",
 		"khz": "",
 		"lossless": "Sem perdas",
 		"lossy": "Com perdas",
 		"loudness": "",
+		"originalFile": "",
 		"originalSourceFile": "Arquivo de origem original",
 		"reduced": {
 			"adaptive": "",
