@@ -210,6 +210,36 @@
 		"title": "Región"
 	},
 	"security": {
+		"password": {
+			"changed": "",
+			"confirm": "",
+			"current": "",
+			"forgot": "",
+			"hideAria": "",
+			"lockoutNote": "",
+			"mismatch": "",
+			"new": "Nueva contraseña",
+			"revokeOthers": "",
+			"revokeOthersDesc": "",
+			"save": "",
+			"showAria": "",
+			"storedHint": "",
+			"title": "Contraseña"
+		},
+		"setPassword": {
+			"action": "",
+			"body": "",
+			"needsVerifiedEmail": "",
+			"sent": "",
+			"title": ""
+		},
+		"strength": {
+			"fair": "",
+			"good": "",
+			"label": "",
+			"strong": "",
+			"weak": ""
+		},
 		"title": ""
 	},
 	"sessions": {
@@ -218,6 +248,7 @@
 		"lastActiveDate": "",
 		"signOutEverywhere": "Cerrar sesión en todas partes",
 		"signOutEverywhereConfirm": "¿Cerrar sesión en todos los dispositivos? Tendrás que volver a iniciarla.",
+		"signedIn": "",
 		"thisDevice": "Este dispositivo",
 		"title": "Dispositivos y sesiones",
 		"unknownDevice": "Dispositivo desconocido"
@@ -231,7 +262,10 @@
 	"title": "Ajustes",
 	"twoFactor": {
 		"addHint": "Añade un segundo factor (una app de autenticación) para mayor seguridad de la cuenta.",
+		"copied": "",
+		"copyAll": "",
 		"disable": "Desactivar 2FA",
+		"download": "Descargar",
 		"enable": "Activar 2FA",
 		"enableCta": "Activar la autenticación de dos factores",
 		"enabledHint": "La 2FA está activada. Para desactivarla, introduce un código actual o un código de recuperación.",
@@ -239,6 +273,8 @@
 		"recoveryIntro": "La 2FA está activada. Guarda estos códigos de recuperación en un lugar seguro: cada uno sirve una sola vez si pierdes tu app de autenticación.",
 		"scanHint": "Escanea esto con tu app de autenticación y luego introduce el código de 6 dígitos para confirmar.",
 		"secretManual": "O introduce esta clave manualmente: {secret}",
+		"statusOff": "Desactivado",
+		"statusOn": "Activado",
 		"title": "Autenticación de dos factores"
 	},
 	"verifyEmail": {
