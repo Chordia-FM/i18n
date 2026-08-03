@@ -2,17 +2,28 @@
 	"account": {
 		"avatarUrl": "URL de l'avatar",
 		"changeEmail": "Changer d'e-mail",
+		"changeEmailBody": "",
+		"changeEmailTitle": "",
+		"changePhoto": "",
 		"displayName": "Nom affiché",
 		"emailChangeSent": "Un lien de confirmation vous attend dans votre nouvelle boîte de réception.",
+		"emailTitle": "E-mail",
 		"handle": "Identifiant",
 		"handleHint": "Lettres, chiffres, « _ » et « - ». Doit être unique.",
 		"handlePlaceholder": "votrenom",
 		"newEmailPlaceholder": "",
+		"noEmail": "",
+		"pendingChange": "",
+		"photo": "",
+		"removePhoto": "Retirer",
+		"resendConfirmation": "",
 		"resendVerification": "Renvoyer l'e-mail de vérification",
 		"saveProfile": "Enregistrer le profil",
 		"sendConfirmation": "Envoyer la confirmation",
 		"title": "Compte",
-		"verificationSent": "Envoyé — vérifiez votre boîte de réception"
+		"unverified": "",
+		"verificationSent": "Envoyé — vérifiez votre boîte de réception",
+		"verified": ""
 	},
 	"appearance": {
 		"accentColour": "Couleur d'accentuation",
@@ -142,6 +153,20 @@
 			"desc": "Recevez un e-mail pour les demandes d'ami et les autres activités du compte.",
 			"label": "Notifications par e-mail"
 		},
+		"groups": {
+			"activity": {
+				"title": "Activité",
+				"desc": ""
+			},
+			"notifications": {
+				"title": "",
+				"desc": ""
+			},
+			"audience": {
+				"title": "",
+				"desc": ""
+			}
+		},
 		"scrobble": {
 			"desc": "Enregistrez ce que vous écoutez pour vos statistiques et votre Wrapped.",
 			"label": "Scrobbler les écoutes"
@@ -184,6 +209,9 @@
 		},
 		"title": "Région"
 	},
+	"security": {
+		"title": ""
+	},
 	"sessions": {
 		"body": "Là où vous êtes connecté. Révoquez tout appareil que vous ne reconnaissez pas.",
 		"lastActive": "Dernière activité {date}",
@@ -193,6 +221,12 @@
 		"thisDevice": "Cet appareil",
 		"title": "Appareils et sessions",
 		"unknownDevice": "Appareil inconnu"
+	},
+	"startup": {
+		"title": "",
+		"desc": "",
+		"home": "Accueil",
+		"library": "Bibliothèque"
 	},
 	"title": "Paramètres",
 	"twoFactor": {
