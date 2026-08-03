@@ -65,8 +65,10 @@
 		"empty": "Das Bild ist leer.",
 		"fetchFailed": "Das Bild konnte nicht abgerufen werden.",
 		"hashMismatch": "Der Bildinhalt stimmt nicht mit dem erwarteten Hash überein.",
+		"invalidImage": "",
 		"invalidUrl": "Ungültige Bild-URL.",
-		"tooLarge": "Das Bild ist zu groß (maximal 8 MiB)."
+		"tooLarge": "Das Bild ist zu groß (maximal 8 MiB).",
+		"tooManyPixels": ""
 	},
 	"insights": {
 		"compareSelf": "Sie können sich nicht mit sich selbst vergleichen.",
@@ -122,7 +124,7 @@
 		"handleGenFailed": "Für dieses Discord-Konto konnte kein eindeutiges Handle erzeugt werden.",
 		"handleOrEmailTaken": "Dieses Handle oder diese E-Mail-Adresse ist bereits vergeben.",
 		"handleTaken": "Dieses Handle ist bereits vergeben.",
-		"invalidAvatarUrl": "Die Avatar-URL muss eine https://-Adresse sein.",
+		"invalidAvatarUrl": "",
 		"notFound": "Kein Benutzer mit diesem Handle."
 	},
 	"validation": {
