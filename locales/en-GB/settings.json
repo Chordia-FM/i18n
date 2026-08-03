@@ -210,6 +210,36 @@
 		"title": ""
 	},
 	"security": {
+		"password": {
+			"changed": "",
+			"confirm": "",
+			"current": "",
+			"forgot": "",
+			"hideAria": "",
+			"lockoutNote": "",
+			"mismatch": "",
+			"new": "",
+			"revokeOthers": "",
+			"revokeOthersDesc": "",
+			"save": "",
+			"showAria": "",
+			"storedHint": "",
+			"title": ""
+		},
+		"setPassword": {
+			"action": "",
+			"body": "",
+			"needsVerifiedEmail": "",
+			"sent": "",
+			"title": ""
+		},
+		"strength": {
+			"fair": "",
+			"good": "",
+			"label": "",
+			"strong": "",
+			"weak": ""
+		},
 		"title": ""
 	},
 	"sessions": {
@@ -218,6 +248,7 @@
 		"lastActiveDate": "",
 		"signOutEverywhere": "",
 		"signOutEverywhereConfirm": "",
+		"signedIn": "",
 		"thisDevice": "",
 		"title": "",
 		"unknownDevice": ""
@@ -231,7 +262,10 @@
 	"title": "",
 	"twoFactor": {
 		"addHint": "",
+		"copied": "",
+		"copyAll": "",
 		"disable": "",
+		"download": "",
 		"enable": "",
 		"enableCta": "",
 		"enabledHint": "",
@@ -239,6 +273,8 @@
 		"recoveryIntro": "",
 		"scanHint": "",
 		"secretManual": "",
+		"statusOff": "",
+		"statusOn": "",
 		"title": ""
 	},
 	"verifyEmail": {
