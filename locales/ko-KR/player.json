@@ -100,6 +100,11 @@
 		"lossy": "손실 압축",
 		"loudness": "음량",
 		"originalSourceFile": "원본 소스 파일",
+		"reduced": {
+			"adaptive": "",
+			"network": ""
+		},
+		"restore": "",
 		"source": "소스",
 		"spatial": " · 공간 음향",
 		"streaming": "스트리밍",
