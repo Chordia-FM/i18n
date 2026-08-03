@@ -65,8 +65,10 @@
 		"empty": "L'image est vide.",
 		"fetchFailed": "Impossible de récupérer cette image.",
 		"hashMismatch": "Le contenu de l'image ne correspond pas au hachage attendu.",
+		"invalidImage": "",
 		"invalidUrl": "URL d'image invalide.",
-		"tooLarge": "L'image est trop lourde (8 Mio maximum)."
+		"tooLarge": "L'image est trop lourde (8 Mio maximum).",
+		"tooManyPixels": ""
 	},
 	"insights": {
 		"compareSelf": "Vous ne pouvez pas vous comparer avec vous-même.",
@@ -122,7 +124,7 @@
 		"handleGenFailed": "Impossible de générer un identifiant unique pour ce compte Discord.",
 		"handleOrEmailTaken": "Cet identifiant ou cet e-mail est déjà pris.",
 		"handleTaken": "Cet identifiant est déjà pris.",
-		"invalidAvatarUrl": "L'URL de l'avatar doit être une adresse https://.",
+		"invalidAvatarUrl": "",
 		"notFound": "Aucun utilisateur avec cet identifiant."
 	},
 	"validation": {
