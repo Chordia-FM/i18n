@@ -216,7 +216,8 @@
 			"fullDate": "",
 			"today": "今日",
 			"yesterday": "昨日"
-		}
+		},
+		"reorderAria": ""
 	},
 	"trackCount": "{count, plural, other {#曲}}"
 }
