@@ -65,8 +65,10 @@
 		"empty": "",
 		"fetchFailed": "",
 		"hashMismatch": "",
+		"invalidImage": "",
 		"invalidUrl": "",
-		"tooLarge": ""
+		"tooLarge": "",
+		"tooManyPixels": ""
 	},
 	"insights": {
 		"compareSelf": "",
