@@ -1,7 +1,4 @@
 {
-	"actions": {
-		"rename": "プレイリスト名を変更"
-	},
 	"addError": "プレイリストに追加できませんでした",
 	"addToNamed": "{playlist}に追加",
 	"addToPlaylist": "プレイリストに追加",
@@ -13,7 +10,6 @@
 		"invite": "+ 招待",
 		"invitePrompt": "ハンドルで共同編集者を招待",
 		"invited": "@{handle}を招待しました",
-		"justYou": "あなたのみ",
 		"removeTitle": "{name}を削除",
 		"removed": "{name}を削除しました",
 		"manage": ""
@@ -21,10 +17,6 @@
 	"confirm": {
 		"deleteMessage": "「{name}」を削除しますか？",
 		"deleteTitle": "プレイリストを削除"
-	},
-	"cover": {
-		"change": "画像を変更",
-		"remove": "画像を削除"
 	},
 	"createFailed": "プレイリストを作成できませんでした",
 	"createdFromAlbumToast": "プレイリスト「{name}」を作成しました",
@@ -77,10 +69,15 @@
 	"newFromAlbum": "新しいプレイリスト",
 	"newFromAlbumSub": "「{name}」から",
 	"prompt": {
-		"newName": "プレイリスト名",
-		"rename": "プレイリスト名を変更"
+		"newName": "プレイリスト名"
 	},
 	"removeFromPlaylist": "プレイリストから削除",
+	"reorder": {
+		"done": "",
+		"hint": "",
+		"moved": "",
+		"start": ""
+	},
 	"searchPlaceholder": "プレイリストを検索",
 	"sharedWithYou": " · あなたと共有中",
 	"smart": {
@@ -138,6 +135,13 @@
 		"valuePlaceholder": "値"
 	},
 	"songCount": "{count, plural, other {#曲}}",
+	"stats": {
+		"title": "",
+		"scopeMe": "あなた",
+		"scopeEveryone": "全員",
+		"empty": "",
+		"trackingSince": ""
+	},
 	"toast": {
 		"createFailed": "プレイリストを作成できませんでした",
 		"created": "「{name}」を作成しました",
