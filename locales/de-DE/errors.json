@@ -47,6 +47,10 @@
 		"radioFailed": "Dieses Radio konnte nicht erstellt werden"
 	},
 	"failedToLoad": "Laden fehlgeschlagen",
+	"follows": {
+		"cannotFollowSelf": "",
+		"notOpen": ""
+	},
 	"friends": {
 		"cannotFriendSelf": "Sie können sich selbst keine Freundschaftsanfrage senden."
 	},
@@ -126,11 +130,14 @@
 		"setupFailed": "Die 2FA-Einrichtung konnte nicht gestartet werden."
 	},
 	"user": {
+		"bioTooLong": "",
 		"handleGenFailed": "Für dieses Discord-Konto konnte kein eindeutiges Handle erzeugt werden.",
 		"handleOrEmailTaken": "Dieses Handle oder diese E-Mail-Adresse ist bereits vergeben.",
 		"handleTaken": "Dieses Handle ist bereits vergeben.",
 		"invalidAvatarUrl": "",
-		"notFound": "Kein Benutzer mit diesem Handle."
+		"invalidLinkUrl": "",
+		"notFound": "Kein Benutzer mit diesem Handle.",
+		"tooManyLinks": ""
 	},
 	"validation": {
 		"nameOrIconRequired": "Ein Name oder ein Symbol ist erforderlich.",
