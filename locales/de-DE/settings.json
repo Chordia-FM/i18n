@@ -210,6 +210,36 @@
 		"title": ""
 	},
 	"security": {
+		"password": {
+			"changed": "",
+			"confirm": "",
+			"current": "",
+			"forgot": "",
+			"hideAria": "",
+			"lockoutNote": "",
+			"mismatch": "",
+			"new": "Neues Passwort",
+			"revokeOthers": "",
+			"revokeOthersDesc": "",
+			"save": "",
+			"showAria": "",
+			"storedHint": "",
+			"title": "Passwort"
+		},
+		"setPassword": {
+			"action": "",
+			"body": "",
+			"needsVerifiedEmail": "",
+			"sent": "",
+			"title": ""
+		},
+		"strength": {
+			"fair": "",
+			"good": "",
+			"label": "",
+			"strong": "",
+			"weak": ""
+		},
 		"title": ""
 	},
 	"sessions": {
@@ -218,6 +248,7 @@
 		"lastActiveDate": "",
 		"signOutEverywhere": "Überall abmelden",
 		"signOutEverywhereConfirm": "Von allen Geräten abmelden? Sie müssen sich erneut anmelden.",
+		"signedIn": "",
 		"thisDevice": "Dieses Gerät",
 		"title": "Geräte und Sitzungen",
 		"unknownDevice": "Unbekanntes Gerät"
@@ -231,7 +262,10 @@
 	"title": "Einstellungen",
 	"twoFactor": {
 		"addHint": "Fügen Sie einen zweiten Faktor (eine Authenticator-App) hinzu, um Ihr Konto zusätzlich abzusichern.",
+		"copied": "",
+		"copyAll": "",
 		"disable": "2FA deaktivieren",
+		"download": "Herunterladen",
 		"enable": "2FA aktivieren",
 		"enableCta": "Zwei-Faktor-Authentifizierung aktivieren",
 		"enabledHint": "2FA ist aktiviert. Um sie abzuschalten, geben Sie einen aktuellen Code oder einen Wiederherstellungscode ein.",
@@ -239,6 +273,8 @@
 		"recoveryIntro": "2FA ist aktiviert. Bewahren Sie diese Wiederherstellungscodes sicher auf – jeder funktioniert einmal, falls Sie den Zugriff auf Ihre Authenticator-App verlieren.",
 		"scanHint": "Scannen Sie dies mit Ihrer Authenticator-App und geben Sie dann zur Bestätigung den 6-stelligen Code ein.",
 		"secretManual": "Oder geben Sie diesen geheimen Schlüssel manuell ein: {secret}",
+		"statusOff": "Aus",
+		"statusOn": "An",
 		"title": "Zwei-Faktor-Authentifizierung"
 	},
 	"verifyEmail": {
