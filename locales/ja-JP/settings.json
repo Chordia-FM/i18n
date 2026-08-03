@@ -210,6 +210,36 @@
 		"title": "地域"
 	},
 	"security": {
+		"password": {
+			"changed": "",
+			"confirm": "",
+			"current": "",
+			"forgot": "",
+			"hideAria": "",
+			"lockoutNote": "",
+			"mismatch": "",
+			"new": "新しいパスワード",
+			"revokeOthers": "",
+			"revokeOthersDesc": "",
+			"save": "",
+			"showAria": "",
+			"storedHint": "",
+			"title": "パスワード"
+		},
+		"setPassword": {
+			"action": "",
+			"body": "",
+			"needsVerifiedEmail": "",
+			"sent": "",
+			"title": ""
+		},
+		"strength": {
+			"fair": "",
+			"good": "",
+			"label": "",
+			"strong": "",
+			"weak": ""
+		},
 		"title": ""
 	},
 	"sessions": {
@@ -218,6 +248,7 @@
 		"lastActiveDate": "",
 		"signOutEverywhere": "すべてのデバイスからログアウト",
 		"signOutEverywhereConfirm": "すべてのデバイスからログアウトしますか？再度ログインが必要になります。",
+		"signedIn": "",
 		"thisDevice": "このデバイス",
 		"title": "デバイスとセッション",
 		"unknownDevice": "不明なデバイス"
@@ -231,7 +262,10 @@
 	"title": "設定",
 	"twoFactor": {
 		"addHint": "認証アプリによる第2の要素を追加して、アカウントの安全性を高めます。",
+		"copied": "",
+		"copyAll": "",
 		"disable": "二要素認証を無効化",
+		"download": "ダウンロード",
 		"enable": "二要素認証を有効化",
 		"enableCta": "二要素認証を有効にする",
 		"enabledHint": "二要素認証は有効です。無効にするには、現在のコードまたはリカバリーコードを入力してください。",
@@ -239,6 +273,8 @@
 		"recoveryIntro": "二要素認証が有効になりました。以下のリカバリーコードを安全な場所に保存してください。認証アプリを使えなくなった場合、各コードを1回ずつ使用できます。",
 		"scanHint": "認証アプリでこれをスキャンし、6桁のコードを入力して確認してください。",
 		"secretManual": "または、このシークレットを手動で入力: {secret}",
+		"statusOff": "オフ",
+		"statusOn": "オン",
 		"title": "二要素認証"
 	},
 	"verifyEmail": {
