@@ -47,6 +47,10 @@
 		"radioFailed": "Impossible de créer cette radio"
 	},
 	"failedToLoad": "Échec du chargement",
+	"follows": {
+		"cannotFollowSelf": "",
+		"notOpen": ""
+	},
 	"friends": {
 		"cannotFriendSelf": "Vous ne pouvez pas vous envoyer une demande d'ami à vous-même."
 	},
@@ -126,11 +130,14 @@
 		"setupFailed": "Impossible de démarrer la configuration de la 2FA."
 	},
 	"user": {
+		"bioTooLong": "",
 		"handleGenFailed": "Impossible de générer un identifiant unique pour ce compte Discord.",
 		"handleOrEmailTaken": "Cet identifiant ou cet e-mail est déjà pris.",
 		"handleTaken": "Cet identifiant est déjà pris.",
 		"invalidAvatarUrl": "",
-		"notFound": "Aucun utilisateur avec cet identifiant."
+		"invalidLinkUrl": "",
+		"notFound": "Aucun utilisateur avec cet identifiant.",
+		"tooManyLinks": ""
 	},
 	"validation": {
 		"nameOrIconRequired": "Un nom ou une icône est requis.",
