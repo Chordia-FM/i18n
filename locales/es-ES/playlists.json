@@ -1,7 +1,4 @@
 {
-	"actions": {
-		"rename": "Cambiar el nombre de la lista"
-	},
 	"addError": "No se pudo añadir a la lista",
 	"addToNamed": "Añadir a {playlist}",
 	"addToPlaylist": "Añadir a una lista",
@@ -13,7 +10,6 @@
 		"invite": "+ Invitar",
 		"invitePrompt": "Invita a un colaborador por su nombre de usuario",
 		"invited": "Invitaste a @{handle}",
-		"justYou": "Solo tú",
 		"removeTitle": "Quitar a {name}",
 		"removed": "Se quitó a {name}",
 		"manage": ""
@@ -21,10 +17,6 @@
 	"confirm": {
 		"deleteMessage": "¿Eliminar «{name}»?",
 		"deleteTitle": "Eliminar lista"
-	},
-	"cover": {
-		"change": "Cambiar imagen",
-		"remove": "Quitar imagen"
 	},
 	"createFailed": "No se pudo crear la lista",
 	"createdFromAlbumToast": "Lista «{name}» creada",
@@ -77,10 +69,15 @@
 	"newFromAlbum": "Nueva lista",
 	"newFromAlbumSub": "De «{name}»",
 	"prompt": {
-		"newName": "Nombre de la lista",
-		"rename": "Cambiar el nombre de la lista"
+		"newName": "Nombre de la lista"
 	},
 	"removeFromPlaylist": "Quitar de la lista",
+	"reorder": {
+		"done": "",
+		"hint": "",
+		"moved": "",
+		"start": ""
+	},
 	"searchPlaceholder": "Buscar una lista",
 	"sharedWithYou": " · compartida contigo",
 	"smart": {
@@ -138,6 +135,13 @@
 		"valuePlaceholder": "valor"
 	},
 	"songCount": "{count, plural, one {# canción} other {# canciones}}",
+	"stats": {
+		"title": "",
+		"scopeMe": "Tú",
+		"scopeEveryone": "Todos",
+		"empty": "",
+		"trackingSince": ""
+	},
 	"toast": {
 		"createFailed": "No se pudo crear la lista",
 		"created": "Se creó «{name}»",
