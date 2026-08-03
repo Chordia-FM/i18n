@@ -47,6 +47,10 @@
 		"radioFailed": "このラジオを作成できませんでした"
 	},
 	"failedToLoad": "読み込みに失敗しました",
+	"follows": {
+		"cannotFollowSelf": "",
+		"notOpen": ""
+	},
 	"friends": {
 		"cannotFriendSelf": "自分自身にフレンドリクエストは送れません。"
 	},
@@ -126,11 +130,14 @@
 		"setupFailed": "二要素認証のセットアップを開始できませんでした。"
 	},
 	"user": {
+		"bioTooLong": "",
 		"handleGenFailed": "このDiscordアカウント用の一意のハンドルを生成できませんでした。",
 		"handleOrEmailTaken": "そのハンドルまたはメールアドレスは既に使用されています。",
 		"handleTaken": "そのハンドルは既に使用されています。",
 		"invalidAvatarUrl": "",
-		"notFound": "そのハンドルのユーザーは存在しません。"
+		"invalidLinkUrl": "",
+		"notFound": "そのハンドルのユーザーは存在しません。",
+		"tooManyLinks": ""
 	},
 	"validation": {
 		"nameOrIconRequired": "名前またはアイコンが必要です。",
