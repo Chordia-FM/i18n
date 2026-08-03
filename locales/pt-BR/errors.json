@@ -65,8 +65,10 @@
 		"empty": "A imagem está vazia.",
 		"fetchFailed": "Não foi possível buscar essa imagem.",
 		"hashMismatch": "O conteúdo da imagem não corresponde ao hash esperado.",
+		"invalidImage": "",
 		"invalidUrl": "URL de imagem inválida.",
-		"tooLarge": "A imagem é muito grande (máx. 8 MiB)."
+		"tooLarge": "A imagem é muito grande (máx. 8 MiB).",
+		"tooManyPixels": ""
 	},
 	"insights": {
 		"compareSelf": "Você não pode se comparar consigo mesmo.",
@@ -122,7 +124,7 @@
 		"handleGenFailed": "Não foi possível gerar um nome de usuário exclusivo para esta conta do Discord.",
 		"handleOrEmailTaken": "Esse nome de usuário ou e-mail já está em uso.",
 		"handleTaken": "Esse nome de usuário já está em uso.",
-		"invalidAvatarUrl": "A URL do avatar deve ser um endereço https://.",
+		"invalidAvatarUrl": "",
 		"notFound": "Nenhum usuário com esse nome."
 	},
 	"validation": {
