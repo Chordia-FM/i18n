@@ -147,7 +147,7 @@
 	"privacy": {
 		"activityVisibility": {
 			"desc": "Quién puede ver tus reproducciones recientes y comparar gustos contigo.",
-			"label": "Visibilidad de la actividad"
+			"label": ""
 		},
 		"emailNotifications": {
 			"desc": "Recibe un correo por las solicitudes de amistad y otra actividad de la cuenta.",
@@ -179,6 +179,10 @@
 				"desc": ""
 			}
 		},
+		"openToFollows": {
+			"desc": "",
+			"label": ""
+		},
 		"playlistsVisibility": {
 			"label": "Listas",
 			"desc": ""
@@ -198,6 +202,23 @@
 			"private": "Solo yo",
 			"public": "Todos"
 		}
+	},
+	"profile": {
+		"addLink": "",
+		"banner": "",
+		"bannerHint": "",
+		"bio": "Biografía",
+		"bioCounter": "",
+		"bioPlaceholder": "",
+		"chooseBanner": "",
+		"desc": "",
+		"linkKind": "",
+		"linkUrl": "",
+		"links": "Enlaces",
+		"linksHint": "",
+		"removeBanner": "Quitar",
+		"removeLink": "",
+		"title": "Perfil"
 	},
 	"quality": {
 		"dataSaver": {
