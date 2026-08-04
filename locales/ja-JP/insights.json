@@ -326,8 +326,10 @@
 		"listeningNow": "再生中"
 	},
 	"stats": {
+		"collapse": "",
 		"dateLabel": "",
 		"duration": "{days}日{hours}時間 / {hours}時間{minutes}分 / {minutes}分",
+		"expand": "",
 		"firstPlayed": "初回再生",
 		"lastPlayed": "最終再生",
 		"plays": "再生回数",
