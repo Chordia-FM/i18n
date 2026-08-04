@@ -326,8 +326,10 @@
 		"listeningNow": "지금 감상 중"
 	},
 	"stats": {
+		"collapse": "",
 		"dateLabel": "",
 		"duration": "{days}일 {hours}시간 / {hours}시간 {minutes}분 / {minutes}분",
+		"expand": "",
 		"firstPlayed": "처음 재생",
 		"lastPlayed": "마지막 재생",
 		"plays": "재생 횟수",
