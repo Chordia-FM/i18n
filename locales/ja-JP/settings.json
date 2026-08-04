@@ -173,6 +173,7 @@
 		},
 		"title": "プライバシー",
 		"visibility": {
+			"followers": "",
 			"friends": "フレンド",
 			"private": "自分のみ",
 			"public": "全員"
