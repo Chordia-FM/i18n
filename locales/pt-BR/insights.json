@@ -326,8 +326,10 @@
 		"listeningNow": "Ouvindo agora"
 	},
 	"stats": {
+		"collapse": "",
 		"dateLabel": "",
 		"duration": "",
+		"expand": "",
 		"firstPlayed": "Primeira reprodução",
 		"lastPlayed": "Última reprodução",
 		"plays": "Reproduções",
