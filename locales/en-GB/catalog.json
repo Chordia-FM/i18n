@@ -29,6 +29,7 @@
 	},
 	"artist": {
 		"albums": "",
+		"aliasesAndProjects": "",
 		"appearsOn": "",
 		"born": "",
 		"card": {
@@ -36,6 +37,9 @@
 		},
 		"discography": "",
 		"factsJoin": "",
+		"follow": "",
+		"followedToast": "",
+		"following": "",
 		"formed": "",
 		"genresJoin": "",
 		"labelMetaJoin": "",
