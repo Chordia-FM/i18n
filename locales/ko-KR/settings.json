@@ -147,7 +147,7 @@
 	"privacy": {
 		"activityVisibility": {
 			"desc": "내 최근 재생 기록을 보고 취향을 비교할 수 있는 사람을 정합니다.",
-			"label": "활동 공개 범위"
+			"label": ""
 		},
 		"emailNotifications": {
 			"desc": "친구 요청 등 계정 활동을 이메일로 받습니다.",
@@ -179,6 +179,10 @@
 				"desc": ""
 			}
 		},
+		"openToFollows": {
+			"desc": "",
+			"label": ""
+		},
 		"playlistsVisibility": {
 			"label": "플레이리스트",
 			"desc": ""
@@ -198,6 +202,23 @@
 			"private": "나만",
 			"public": "전체 공개"
 		}
+	},
+	"profile": {
+		"addLink": "",
+		"banner": "배너",
+		"bannerHint": "",
+		"bio": "소개",
+		"bioCounter": "",
+		"bioPlaceholder": "",
+		"chooseBanner": "",
+		"desc": "",
+		"linkKind": "",
+		"linkUrl": "",
+		"links": "링크",
+		"linksHint": "",
+		"removeBanner": "제거",
+		"removeLink": "",
+		"title": "프로필"
 	},
 	"quality": {
 		"dataSaver": {
