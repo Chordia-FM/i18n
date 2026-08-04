@@ -147,7 +147,7 @@
 	"privacy": {
 		"activityVisibility": {
 			"desc": "Who can see your recent plays and compare taste with you.",
-			"label": "Activity visibility"
+			"label": "Listening activity"
 		},
 		"emailNotifications": {
 			"desc": "Get an email for friend requests and other account activity.",
@@ -179,6 +179,10 @@
 				"desc": "Who your listening is visible to."
 			}
 		},
+		"openToFollows": {
+			"desc": "When off, nobody new can follow you. Existing followers stay.",
+			"label": "Let people follow me"
+		},
 		"playlistsVisibility": {
 			"label": "Playlists",
 			"desc": "Who can see your public playlists on your profile. Each playlist still opts in separately."
@@ -198,6 +202,23 @@
 			"private": "Only me",
 			"public": "Everyone"
 		}
+	},
+	"profile": {
+		"addLink": "Add link",
+		"banner": "Banner",
+		"bannerHint": "A wide image across the top of your profile.",
+		"bio": "Bio",
+		"bioCounter": "{count}/500",
+		"bioPlaceholder": "A line or two about what you listen to.",
+		"chooseBanner": "Choose image",
+		"desc": "What people see when they open your profile.",
+		"linkKind": "Platform",
+		"linkUrl": "Address",
+		"links": "Links",
+		"linksHint": "Up to 8. Each must be a full https:// address.",
+		"removeBanner": "Remove",
+		"removeLink": "Remove link",
+		"title": "Profile"
 	},
 	"quality": {
 		"dataSaver": {

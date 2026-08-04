@@ -10,6 +10,34 @@
 		"requestSent": "Request sent",
 		"sending": "Sending…"
 	},
+	"follow": {
+		"addFriend": "Add friend",
+		"follow": "Follow",
+		"following": "Following",
+		"friendIncoming": "Wants to be friends",
+		"friendPending": "Friend request sent",
+		"friends": "Friends",
+		"linksOpen": "Links",
+		"notOpen": "This account isn't accepting new followers.",
+		"removeFriend": "Remove friend",
+		"shareProfile": "Share profile",
+		"unfollow": "Unfollow",
+		"unfollowConfirm": "Stop following {name}?",
+		"unfollowConfirmBody": "You can follow them again any time. They aren't notified.",
+		"vsFriends": "Following is one-way and public. Being friends is mutual, and it also lets you see what each other is playing right now and share libraries."
+	},
+	"followers": {
+		"count": "{count, plural, one {# follower} other {# followers}}",
+		"empty": "No followers yet.",
+		"emptyOwn": "Nobody follows you yet. Share your profile and they will show up here.",
+		"title": "Followers"
+	},
+	"following": {
+		"count": "{count, plural, one {# following} other {# following}}",
+		"empty": "Not following anyone yet.",
+		"emptyOwn": "You aren't following anyone yet.",
+		"title": "Following"
+	},
 	"friends": {
 		"confirmRemove": "Confirm?",
 		"empty": "No friends yet - search to add some",
@@ -26,11 +54,20 @@
 		"title": "Friends"
 	},
 	"profile": {
+		"bio": {
+			"less": "Show less",
+			"more": "Show more"
+		},
 		"eyebrow": "Profile",
+		"hidden": {
+			"description": "{name} keeps their profile private.",
+			"title": "This profile isn't shared with you"
+		},
 		"itemPlays": "{count, plural, one {# play} other {# plays}}",
 		"joinedDate": "{date, date, ::yMMMM}",
 		"joinedLabel": "joined {date}",
 		"loadError": "Couldn't load this profile.",
+		"loadMore": "Load more",
 		"noActivity": "No listening activity yet.",
 		"notFound": "No user with that handle.",
 		"private": {
@@ -38,6 +75,18 @@
 			"title": "This profile is private"
 		},
 		"recentlyPlayed": "Recently played",
+		"shelves": {
+			"followedArtists": "Followed artists",
+			"noArtists": "Not following any artists yet.",
+			"noPlaylists": "No public playlists.",
+			"playlists": "Public playlists",
+			"seeAll": "See all"
+		},
+		"stats": {
+			"followers": "followers",
+			"following": "following",
+			"playlists": "playlists"
+		},
 		"topArtists": "Top artists",
 		"topTracks": "Top tracks",
 		"totalPlays": "{count, plural, one {# play} other {# plays}}",
