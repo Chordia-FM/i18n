@@ -29,6 +29,7 @@
 	},
 	"artist": {
 		"albums": "",
+		"aliasesAndProjects": "",
 		"appearsOn": "Apparaît sur",
 		"born": "Né en {year}",
 		"card": {
@@ -36,6 +37,9 @@
 		},
 		"discography": "Discographie",
 		"factsJoin": "",
+		"follow": "Suivre",
+		"followedToast": "",
+		"following": "Suivi",
 		"formed": "Formé en {year}",
 		"genresJoin": "",
 		"labelMetaJoin": "",
