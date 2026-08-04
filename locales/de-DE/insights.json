@@ -326,8 +326,10 @@
 		"listeningNow": "Hört gerade"
 	},
 	"stats": {
+		"collapse": "",
 		"dateLabel": "",
 		"duration": "{days} T {hours} Std. / {hours} Std. {minutes} Min. / {minutes} Min.",
+		"expand": "",
 		"firstPlayed": "Erstmals gehört",
 		"lastPlayed": "Zuletzt gehört",
 		"plays": "Wiedergaben",
