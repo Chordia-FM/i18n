@@ -153,6 +153,18 @@
 			"desc": "",
 			"label": ""
 		},
+		"followedArtistsVisibility": {
+			"label": "",
+			"desc": ""
+		},
+		"followersVisibility": {
+			"label": "",
+			"desc": ""
+		},
+		"followingVisibility": {
+			"label": "",
+			"desc": ""
+		},
 		"groups": {
 			"activity": {
 				"title": "",
@@ -166,6 +178,14 @@
 				"title": "",
 				"desc": ""
 			}
+		},
+		"playlistsVisibility": {
+			"label": "",
+			"desc": ""
+		},
+		"profileVisibility": {
+			"label": "",
+			"desc": ""
 		},
 		"scrobble": {
 			"desc": "",
