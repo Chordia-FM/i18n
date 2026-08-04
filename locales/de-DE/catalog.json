@@ -29,6 +29,7 @@
 	},
 	"artist": {
 		"albums": "Alben",
+		"albumsFeaturing": "",
 		"aliasesAndProjects": "",
 		"appearsOn": "Erscheint auf",
 		"born": "Geboren {year}",
@@ -36,7 +37,17 @@
 			"albumCount": "{count, plural, one {# Album} other {# Alben}}"
 		},
 		"discography": "Diskografie",
+		"discographyAll": {
+			"filter": {
+				"all": "Alle",
+				"albums": "Alben",
+				"singlesEps": "",
+				"featuring": ""
+			},
+			"empty": ""
+		},
 		"factsJoin": "",
+		"fansAlsoLike": "",
 		"follow": "Folgen",
 		"followedToast": "",
 		"following": "Folge ich",
@@ -55,6 +66,7 @@
 			"title": ""
 		},
 		"namesJoin": "",
+		"playlistsFeaturing": "",
 		"popular": "Beliebt",
 		"radio": "",
 		"relatedArtists": "Ähnliche Künstler",
