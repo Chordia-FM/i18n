@@ -147,7 +147,7 @@
 	"privacy": {
 		"activityVisibility": {
 			"desc": "最近の再生を見たり、音楽の相性を比較したりできる相手を設定します。",
-			"label": "アクティビティの公開範囲"
+			"label": ""
 		},
 		"emailNotifications": {
 			"desc": "フレンドリクエストなどアカウントのアクティビティをメールで受け取ります。",
@@ -179,6 +179,10 @@
 				"desc": ""
 			}
 		},
+		"openToFollows": {
+			"desc": "",
+			"label": ""
+		},
 		"playlistsVisibility": {
 			"label": "プレイリスト",
 			"desc": ""
@@ -198,6 +202,23 @@
 			"private": "自分のみ",
 			"public": "全員"
 		}
+	},
+	"profile": {
+		"addLink": "",
+		"banner": "バナー",
+		"bannerHint": "",
+		"bio": "経歴",
+		"bioCounter": "",
+		"bioPlaceholder": "",
+		"chooseBanner": "",
+		"desc": "",
+		"linkKind": "",
+		"linkUrl": "",
+		"links": "リンク",
+		"linksHint": "",
+		"removeBanner": "削除",
+		"removeLink": "",
+		"title": "プロフィール"
 	},
 	"quality": {
 		"dataSaver": {
