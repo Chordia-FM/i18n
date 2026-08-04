@@ -29,6 +29,7 @@
 	},
 	"artist": {
 		"albums": "アルバム",
+		"aliasesAndProjects": "",
 		"appearsOn": "参加作品",
 		"born": "{year}年生まれ",
 		"card": {
@@ -36,6 +37,9 @@
 		},
 		"discography": "ディスコグラフィー",
 		"factsJoin": "",
+		"follow": "フォロー",
+		"followedToast": "",
+		"following": "フォロー中",
 		"formed": "{year}年結成",
 		"genresJoin": "",
 		"labelMetaJoin": "",
