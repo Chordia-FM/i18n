@@ -153,6 +153,18 @@
 			"desc": "Receba um e-mail a cada pedido de amizade e outras atividades da conta.",
 			"label": "Notificações por e-mail"
 		},
+		"followedArtistsVisibility": {
+			"label": "",
+			"desc": ""
+		},
+		"followersVisibility": {
+			"label": "",
+			"desc": ""
+		},
+		"followingVisibility": {
+			"label": "",
+			"desc": ""
+		},
 		"groups": {
 			"activity": {
 				"title": "Atividade",
@@ -166,6 +178,14 @@
 				"title": "",
 				"desc": ""
 			}
+		},
+		"playlistsVisibility": {
+			"label": "",
+			"desc": ""
+		},
+		"profileVisibility": {
+			"label": "Perfil",
+			"desc": ""
 		},
 		"scrobble": {
 			"desc": "Registra o que você toca para as suas estatísticas e o Wrapped.",
