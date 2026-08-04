@@ -173,6 +173,7 @@
 		},
 		"title": "",
 		"visibility": {
+			"followers": "",
 			"friends": "",
 			"private": "",
 			"public": ""
