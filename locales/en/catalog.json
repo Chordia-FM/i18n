@@ -29,6 +29,7 @@
 	},
 	"artist": {
 		"albums": "Albums",
+		"aliasesAndProjects": "Aliases & side projects",
 		"appearsOn": "Appears on",
 		"born": "Born {year}",
 		"card": {
@@ -36,6 +37,9 @@
 		},
 		"discography": "Discography",
 		"factsJoin": "{facts}",
+		"follow": "Follow",
+		"followedToast": "Following {name} — you'll see their new releases",
+		"following": "Following",
 		"formed": "Formed {year}",
 		"genresJoin": "{genres}",
 		"labelMetaJoin": "{span} · {releases}",

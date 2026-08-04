@@ -326,8 +326,10 @@
 		"listeningNow": "Listening now"
 	},
 	"stats": {
+		"collapse": "Hide stats",
 		"dateLabel": "{date, date, ::yMMMd}",
 		"duration": "{days}d {hours}h / {hours}h {minutes}m / {minutes}m",
+		"expand": "Show stats",
 		"firstPlayed": "First played",
 		"lastPlayed": "Last played",
 		"plays": "Plays",
