@@ -147,7 +147,7 @@
 	"privacy": {
 		"activityVisibility": {
 			"desc": "Wer Ihre letzten Wiedergaben sehen und den Musikgeschmack mit Ihnen vergleichen kann.",
-			"label": "Sichtbarkeit der Aktivität"
+			"label": ""
 		},
 		"emailNotifications": {
 			"desc": "Erhalten Sie eine E-Mail bei Freundschaftsanfragen und anderen Kontoaktivitäten.",
@@ -179,6 +179,10 @@
 				"desc": ""
 			}
 		},
+		"openToFollows": {
+			"desc": "",
+			"label": ""
+		},
 		"playlistsVisibility": {
 			"label": "",
 			"desc": ""
@@ -198,6 +202,23 @@
 			"private": "Nur ich",
 			"public": "Alle"
 		}
+	},
+	"profile": {
+		"addLink": "",
+		"banner": "",
+		"bannerHint": "",
+		"bio": "",
+		"bioCounter": "",
+		"bioPlaceholder": "",
+		"chooseBanner": "",
+		"desc": "",
+		"linkKind": "",
+		"linkUrl": "",
+		"links": "",
+		"linksHint": "",
+		"removeBanner": "Entfernen",
+		"removeLink": "",
+		"title": "Profil"
 	},
 	"quality": {
 		"dataSaver": {
