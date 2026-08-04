@@ -153,6 +153,18 @@
 			"desc": "Recibe un correo por las solicitudes de amistad y otra actividad de la cuenta.",
 			"label": "Notificaciones por correo"
 		},
+		"followedArtistsVisibility": {
+			"label": "",
+			"desc": ""
+		},
+		"followersVisibility": {
+			"label": "",
+			"desc": ""
+		},
+		"followingVisibility": {
+			"label": "",
+			"desc": ""
+		},
 		"groups": {
 			"activity": {
 				"title": "Actividad",
@@ -166,6 +178,14 @@
 				"title": "",
 				"desc": ""
 			}
+		},
+		"playlistsVisibility": {
+			"label": "Listas",
+			"desc": ""
+		},
+		"profileVisibility": {
+			"label": "Perfil",
+			"desc": ""
 		},
 		"scrobble": {
 			"desc": "Registra lo que reproduces para tus estadísticas y tu Wrapped.",
