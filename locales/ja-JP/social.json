@@ -10,6 +10,34 @@
 		"requestSent": "リクエスト送信済み",
 		"sending": "送信中…"
 	},
+	"follow": {
+		"addFriend": "フレンドを追加",
+		"follow": "フォロー",
+		"following": "フォロー中",
+		"friendIncoming": "",
+		"friendPending": "",
+		"friends": "フレンド",
+		"linksOpen": "リンク",
+		"notOpen": "",
+		"removeFriend": "",
+		"shareProfile": "",
+		"unfollow": "フォロー解除",
+		"unfollowConfirm": "",
+		"unfollowConfirmBody": "",
+		"vsFriends": ""
+	},
+	"followers": {
+		"count": "",
+		"empty": "",
+		"emptyOwn": "",
+		"title": ""
+	},
+	"following": {
+		"count": "",
+		"empty": "",
+		"emptyOwn": "",
+		"title": "フォロー中"
+	},
 	"friends": {
 		"confirmRemove": "削除しますか？",
 		"empty": "まだフレンドがいません。検索して追加しましょう",
@@ -26,11 +54,20 @@
 		"title": "フレンド"
 	},
 	"profile": {
+		"bio": {
+			"less": "折りたたむ",
+			"more": "もっと見る"
+		},
 		"eyebrow": "プロフィール",
+		"hidden": {
+			"description": "",
+			"title": ""
+		},
 		"itemPlays": "{count, plural, other {#回再生}}",
 		"joinedDate": "",
 		"joinedLabel": "{date}に参加",
 		"loadError": "このプロフィールを読み込めませんでした。",
+		"loadMore": "",
 		"noActivity": "まだリスニングアクティビティはありません。",
 		"notFound": "そのハンドルのユーザーは存在しません。",
 		"private": {
@@ -38,6 +75,18 @@
 			"title": "このプロフィールは非公開です"
 		},
 		"recentlyPlayed": "最近再生した曲",
+		"shelves": {
+			"followedArtists": "",
+			"noArtists": "",
+			"noPlaylists": "",
+			"playlists": "",
+			"seeAll": "すべて表示"
+		},
+		"stats": {
+			"followers": "",
+			"following": "",
+			"playlists": ""
+		},
 		"topArtists": "トップアーティスト",
 		"topTracks": "トップトラック",
 		"totalPlays": "{count, plural, other {#回再生}}",
