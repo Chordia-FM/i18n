@@ -10,6 +10,34 @@
 		"requestSent": "",
 		"sending": ""
 	},
+	"follow": {
+		"addFriend": "",
+		"follow": "",
+		"following": "",
+		"friendIncoming": "",
+		"friendPending": "",
+		"friends": "",
+		"linksOpen": "",
+		"notOpen": "",
+		"removeFriend": "",
+		"shareProfile": "",
+		"unfollow": "",
+		"unfollowConfirm": "",
+		"unfollowConfirmBody": "",
+		"vsFriends": ""
+	},
+	"followers": {
+		"count": "",
+		"empty": "",
+		"emptyOwn": "",
+		"title": ""
+	},
+	"following": {
+		"count": "",
+		"empty": "",
+		"emptyOwn": "",
+		"title": ""
+	},
 	"friends": {
 		"confirmRemove": "",
 		"empty": "",
@@ -26,11 +54,20 @@
 		"title": ""
 	},
 	"profile": {
+		"bio": {
+			"less": "",
+			"more": ""
+		},
 		"eyebrow": "",
+		"hidden": {
+			"description": "",
+			"title": ""
+		},
 		"itemPlays": "",
 		"joinedDate": "",
 		"joinedLabel": "",
 		"loadError": "",
+		"loadMore": "",
 		"noActivity": "",
 		"notFound": "",
 		"private": {
@@ -38,6 +75,18 @@
 			"title": ""
 		},
 		"recentlyPlayed": "",
+		"shelves": {
+			"followedArtists": "",
+			"noArtists": "",
+			"noPlaylists": "",
+			"playlists": "",
+			"seeAll": ""
+		},
+		"stats": {
+			"followers": "",
+			"following": "",
+			"playlists": ""
+		},
 		"topArtists": "",
 		"topTracks": "",
 		"totalPlays": "",
