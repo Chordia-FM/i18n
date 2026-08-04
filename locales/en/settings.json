@@ -153,6 +153,18 @@
 			"desc": "Get an email for friend requests and other account activity.",
 			"label": "Email notifications"
 		},
+		"followedArtistsVisibility": {
+			"label": "Followed artists",
+			"desc": "Who can see the artists you follow."
+		},
+		"followersVisibility": {
+			"label": "Followers list",
+			"desc": "Who can see the accounts that follow you."
+		},
+		"followingVisibility": {
+			"label": "Following list",
+			"desc": "Who can see the accounts you follow."
+		},
 		"groups": {
 			"activity": {
 				"title": "Activity",
@@ -166,6 +178,14 @@
 				"title": "Who can see what",
 				"desc": "Who your listening is visible to."
 			}
+		},
+		"playlistsVisibility": {
+			"label": "Playlists",
+			"desc": "Who can see your public playlists on your profile. Each playlist still opts in separately."
+		},
+		"profileVisibility": {
+			"label": "Profile",
+			"desc": "Who can open your profile at all. Everything below is only reachable once this lets someone through."
 		},
 		"scrobble": {
 			"desc": "Record what you play for your stats and Wrapped.",
