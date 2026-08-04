@@ -153,6 +153,18 @@
 			"desc": "친구 요청 등 계정 활동을 이메일로 받습니다.",
 			"label": "이메일 알림"
 		},
+		"followedArtistsVisibility": {
+			"label": "",
+			"desc": ""
+		},
+		"followersVisibility": {
+			"label": "",
+			"desc": ""
+		},
+		"followingVisibility": {
+			"label": "",
+			"desc": ""
+		},
 		"groups": {
 			"activity": {
 				"title": "활동",
@@ -166,6 +178,14 @@
 				"title": "",
 				"desc": ""
 			}
+		},
+		"playlistsVisibility": {
+			"label": "플레이리스트",
+			"desc": ""
+		},
+		"profileVisibility": {
+			"label": "프로필",
+			"desc": ""
 		},
 		"scrobble": {
 			"desc": "통계와 Wrapped를 위해 재생 기록을 저장합니다.",
