@@ -153,6 +153,18 @@
 			"desc": "フレンドリクエストなどアカウントのアクティビティをメールで受け取ります。",
 			"label": "メール通知"
 		},
+		"followedArtistsVisibility": {
+			"label": "",
+			"desc": ""
+		},
+		"followersVisibility": {
+			"label": "",
+			"desc": ""
+		},
+		"followingVisibility": {
+			"label": "",
+			"desc": ""
+		},
 		"groups": {
 			"activity": {
 				"title": "アクティビティ",
@@ -166,6 +178,14 @@
 				"title": "",
 				"desc": ""
 			}
+		},
+		"playlistsVisibility": {
+			"label": "プレイリスト",
+			"desc": ""
+		},
+		"profileVisibility": {
+			"label": "プロフィール",
+			"desc": ""
 		},
 		"scrobble": {
 			"desc": "統計とWrappedのために再生を記録します。",
