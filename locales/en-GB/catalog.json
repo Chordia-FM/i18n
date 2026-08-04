@@ -29,6 +29,7 @@
 	},
 	"artist": {
 		"albums": "",
+		"albumsFeaturing": "",
 		"aliasesAndProjects": "",
 		"appearsOn": "",
 		"born": "",
@@ -36,7 +37,17 @@
 			"albumCount": ""
 		},
 		"discography": "",
+		"discographyAll": {
+			"filter": {
+				"all": "",
+				"albums": "",
+				"singlesEps": "",
+				"featuring": ""
+			},
+			"empty": ""
+		},
 		"factsJoin": "",
+		"fansAlsoLike": "",
 		"follow": "",
 		"followedToast": "",
 		"following": "",
@@ -55,6 +66,7 @@
 			"title": ""
 		},
 		"namesJoin": "",
+		"playlistsFeaturing": "",
 		"popular": "",
 		"radio": "",
 		"relatedArtists": "",
