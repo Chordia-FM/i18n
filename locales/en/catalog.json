@@ -29,6 +29,7 @@
 	},
 	"artist": {
 		"albums": "Albums",
+		"albumsFeaturing": "Albums featuring {name}",
 		"aliasesAndProjects": "Aliases & side projects",
 		"appearsOn": "Appears on",
 		"born": "Born {year}",
@@ -36,7 +37,17 @@
 			"albumCount": "{count, plural, one {# album} other {# albums}}"
 		},
 		"discography": "Discography",
+		"discographyAll": {
+			"filter": {
+				"all": "All",
+				"albums": "Albums",
+				"singlesEps": "Singles & EPs",
+				"featuring": "Featuring"
+			},
+			"empty": "Nothing here yet."
+		},
 		"factsJoin": "{facts}",
+		"fansAlsoLike": "Fans also like",
 		"follow": "Follow",
 		"followedToast": "Following {name} — you'll see their new releases",
 		"following": "Following",
@@ -55,6 +66,7 @@
 			"title": "{name} — Live"
 		},
 		"namesJoin": "{artists}",
+		"playlistsFeaturing": "Playlists featuring {name}",
 		"popular": "Popular",
 		"radio": "Radio",
 		"relatedArtists": "Related artists",
