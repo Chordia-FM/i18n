@@ -29,6 +29,7 @@
 	},
 	"artist": {
 		"albums": "앨범",
+		"albumsFeaturing": "",
 		"aliasesAndProjects": "",
 		"appearsOn": "참여 앨범",
 		"born": "{year}년 출생",
@@ -36,7 +37,17 @@
 			"albumCount": "{count, plural, other {앨범 #개}}"
 		},
 		"discography": "디스코그래피",
+		"discographyAll": {
+			"filter": {
+				"all": "전체",
+				"albums": "앨범",
+				"singlesEps": "",
+				"featuring": ""
+			},
+			"empty": ""
+		},
 		"factsJoin": "",
+		"fansAlsoLike": "",
 		"follow": "팔로우",
 		"followedToast": "",
 		"following": "팔로잉",
@@ -55,6 +66,7 @@
 			"title": "{name} — 라이브"
 		},
 		"namesJoin": "",
+		"playlistsFeaturing": "",
 		"popular": "인기",
 		"radio": "라디오",
 		"relatedArtists": "관련 아티스트",
