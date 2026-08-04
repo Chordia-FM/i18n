@@ -173,6 +173,7 @@
 		},
 		"title": "개인정보 보호",
 		"visibility": {
+			"followers": "",
 			"friends": "친구만",
 			"private": "나만",
 			"public": "전체 공개"
