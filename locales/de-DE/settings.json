@@ -173,6 +173,7 @@
 		},
 		"title": "Privatsphäre",
 		"visibility": {
+			"followers": "",
 			"friends": "Freunde",
 			"private": "Nur ich",
 			"public": "Alle"
