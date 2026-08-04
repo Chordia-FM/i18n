@@ -10,6 +10,34 @@
 		"requestSent": "Pedido enviado",
 		"sending": "Enviando…"
 	},
+	"follow": {
+		"addFriend": "Adicionar amigo",
+		"follow": "Seguir",
+		"following": "Seguindo",
+		"friendIncoming": "",
+		"friendPending": "",
+		"friends": "Amigos",
+		"linksOpen": "",
+		"notOpen": "",
+		"removeFriend": "",
+		"shareProfile": "",
+		"unfollow": "Deixar de seguir",
+		"unfollowConfirm": "",
+		"unfollowConfirmBody": "",
+		"vsFriends": ""
+	},
+	"followers": {
+		"count": "",
+		"empty": "",
+		"emptyOwn": "",
+		"title": ""
+	},
+	"following": {
+		"count": "",
+		"empty": "",
+		"emptyOwn": "",
+		"title": "Seguindo"
+	},
 	"friends": {
 		"confirmRemove": "Confirmar?",
 		"empty": "Ainda não há amigos — busque para adicionar alguns",
@@ -26,11 +54,20 @@
 		"title": "Amigos"
 	},
 	"profile": {
+		"bio": {
+			"less": "Mostrar menos",
+			"more": "Mostrar mais"
+		},
 		"eyebrow": "Perfil",
+		"hidden": {
+			"description": "",
+			"title": ""
+		},
 		"itemPlays": "{count, plural, one {# reprodução} other {# reproduções}}",
 		"joinedDate": "",
 		"joinedLabel": "entrou em {date}",
 		"loadError": "Não foi possível carregar este perfil.",
+		"loadMore": "",
 		"noActivity": "Nenhuma atividade de audição ainda.",
 		"notFound": "Nenhum usuário com esse nome.",
 		"private": {
@@ -38,6 +75,18 @@
 			"title": "Este perfil é privado"
 		},
 		"recentlyPlayed": "Tocados recentemente",
+		"shelves": {
+			"followedArtists": "",
+			"noArtists": "",
+			"noPlaylists": "",
+			"playlists": "",
+			"seeAll": "Ver tudo"
+		},
+		"stats": {
+			"followers": "",
+			"following": "",
+			"playlists": ""
+		},
 		"topArtists": "Principais artistas",
 		"topTracks": "Principais faixas",
 		"totalPlays": "{count, plural, one {# reprodução} other {# reproduções}}",
