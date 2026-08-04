@@ -10,6 +10,34 @@
 		"requestSent": "요청 보냄",
 		"sending": "보내는 중…"
 	},
+	"follow": {
+		"addFriend": "친구 추가",
+		"follow": "팔로우",
+		"following": "팔로잉",
+		"friendIncoming": "",
+		"friendPending": "",
+		"friends": "친구만",
+		"linksOpen": "링크",
+		"notOpen": "",
+		"removeFriend": "",
+		"shareProfile": "",
+		"unfollow": "팔로우 취소",
+		"unfollowConfirm": "",
+		"unfollowConfirmBody": "",
+		"vsFriends": ""
+	},
+	"followers": {
+		"count": "",
+		"empty": "",
+		"emptyOwn": "",
+		"title": ""
+	},
+	"following": {
+		"count": "",
+		"empty": "",
+		"emptyOwn": "",
+		"title": "팔로잉"
+	},
 	"friends": {
 		"confirmRemove": "확인?",
 		"empty": "아직 친구가 없습니다 - 검색해서 추가해 보세요",
@@ -26,11 +54,20 @@
 		"title": "친구"
 	},
 	"profile": {
+		"bio": {
+			"less": "접기",
+			"more": "더보기"
+		},
 		"eyebrow": "프로필",
+		"hidden": {
+			"description": "",
+			"title": ""
+		},
 		"itemPlays": "{count, plural, other {#회 재생}}",
 		"joinedDate": "",
 		"joinedLabel": "{date} 가입",
 		"loadError": "이 프로필을 불러오지 못했습니다.",
+		"loadMore": "",
 		"noActivity": "아직 감상 활동이 없습니다.",
 		"notFound": "해당 사용자 이름을 가진 사용자가 없습니다.",
 		"private": {
@@ -38,6 +75,18 @@
 			"title": "비공개 프로필입니다"
 		},
 		"recentlyPlayed": "최근 재생",
+		"shelves": {
+			"followedArtists": "",
+			"noArtists": "",
+			"noPlaylists": "",
+			"playlists": "",
+			"seeAll": "모두 보기"
+		},
+		"stats": {
+			"followers": "",
+			"following": "",
+			"playlists": ""
+		},
 		"topArtists": "인기 아티스트",
 		"topTracks": "인기 트랙",
 		"totalPlays": "{count, plural, other {#회 재생}}",
