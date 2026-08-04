@@ -29,6 +29,7 @@
 	},
 	"artist": {
 		"albums": "",
+		"albumsFeaturing": "",
 		"aliasesAndProjects": "",
 		"appearsOn": "Apparaît sur",
 		"born": "Né en {year}",
@@ -36,7 +37,17 @@
 			"albumCount": ""
 		},
 		"discography": "Discographie",
+		"discographyAll": {
+			"filter": {
+				"all": "Tout",
+				"albums": "",
+				"singlesEps": "",
+				"featuring": ""
+			},
+			"empty": ""
+		},
 		"factsJoin": "",
+		"fansAlsoLike": "",
 		"follow": "Suivre",
 		"followedToast": "",
 		"following": "Suivi",
@@ -55,6 +66,7 @@
 			"title": ""
 		},
 		"namesJoin": "",
+		"playlistsFeaturing": "",
 		"popular": "Populaires",
 		"radio": "",
 		"relatedArtists": "Artistes similaires",
