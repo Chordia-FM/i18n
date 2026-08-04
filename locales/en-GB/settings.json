@@ -179,6 +179,10 @@
 				"desc": ""
 			}
 		},
+		"openToFollows": {
+			"desc": "",
+			"label": ""
+		},
 		"playlistsVisibility": {
 			"label": "",
 			"desc": ""
@@ -198,6 +202,23 @@
 			"private": "",
 			"public": ""
 		}
+	},
+	"profile": {
+		"addLink": "",
+		"banner": "",
+		"bannerHint": "",
+		"bio": "",
+		"bioCounter": "",
+		"bioPlaceholder": "",
+		"chooseBanner": "",
+		"desc": "",
+		"linkKind": "",
+		"linkUrl": "",
+		"links": "",
+		"linksHint": "",
+		"removeBanner": "",
+		"removeLink": "",
+		"title": ""
 	},
 	"quality": {
 		"dataSaver": {
