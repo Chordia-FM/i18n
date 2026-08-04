@@ -29,6 +29,7 @@
 	},
 	"artist": {
 		"albums": "Álbuns",
+		"albumsFeaturing": "",
 		"aliasesAndProjects": "",
 		"appearsOn": "Participações",
 		"born": "Nascido em {year}",
@@ -36,7 +37,17 @@
 			"albumCount": "{count, plural, one {# álbum} other {# álbuns}}"
 		},
 		"discography": "Discografia",
+		"discographyAll": {
+			"filter": {
+				"all": "Todos",
+				"albums": "Álbuns",
+				"singlesEps": "",
+				"featuring": ""
+			},
+			"empty": ""
+		},
 		"factsJoin": "",
+		"fansAlsoLike": "",
 		"follow": "Seguir",
 		"followedToast": "",
 		"following": "Seguindo",
@@ -55,6 +66,7 @@
 			"title": "{name} — Ao vivo"
 		},
 		"namesJoin": "",
+		"playlistsFeaturing": "",
 		"popular": "Populares",
 		"radio": "Rádio",
 		"relatedArtists": "Artistas relacionados",
