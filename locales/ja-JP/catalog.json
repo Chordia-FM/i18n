@@ -29,6 +29,7 @@
 	},
 	"artist": {
 		"albums": "アルバム",
+		"albumsFeaturing": "",
 		"aliasesAndProjects": "",
 		"appearsOn": "参加作品",
 		"born": "{year}年生まれ",
@@ -36,7 +37,17 @@
 			"albumCount": "{count, plural, other {#枚のアルバム}}"
 		},
 		"discography": "ディスコグラフィー",
+		"discographyAll": {
+			"filter": {
+				"all": "すべて",
+				"albums": "アルバム",
+				"singlesEps": "",
+				"featuring": ""
+			},
+			"empty": ""
+		},
 		"factsJoin": "",
+		"fansAlsoLike": "",
 		"follow": "フォロー",
 		"followedToast": "",
 		"following": "フォロー中",
@@ -55,6 +66,7 @@
 			"title": "{name} — ライブ"
 		},
 		"namesJoin": "",
+		"playlistsFeaturing": "",
 		"popular": "人気",
 		"radio": "ラジオ",
 		"relatedArtists": "関連アーティスト",
