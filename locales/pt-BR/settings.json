@@ -147,7 +147,7 @@
 	"privacy": {
 		"activityVisibility": {
 			"desc": "Quem pode ver suas reproduções recentes e comparar o gosto musical com o seu.",
-			"label": "Visibilidade da atividade"
+			"label": ""
 		},
 		"emailNotifications": {
 			"desc": "Receba um e-mail a cada pedido de amizade e outras atividades da conta.",
@@ -179,6 +179,10 @@
 				"desc": ""
 			}
 		},
+		"openToFollows": {
+			"desc": "",
+			"label": ""
+		},
 		"playlistsVisibility": {
 			"label": "",
 			"desc": ""
@@ -198,6 +202,23 @@
 			"private": "Só eu",
 			"public": "Todo mundo"
 		}
+	},
+	"profile": {
+		"addLink": "",
+		"banner": "",
+		"bannerHint": "",
+		"bio": "Biografia",
+		"bioCounter": "",
+		"bioPlaceholder": "",
+		"chooseBanner": "",
+		"desc": "",
+		"linkKind": "",
+		"linkUrl": "",
+		"links": "",
+		"linksHint": "",
+		"removeBanner": "Remover",
+		"removeLink": "",
+		"title": "Perfil"
 	},
 	"quality": {
 		"dataSaver": {
