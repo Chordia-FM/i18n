@@ -10,6 +10,34 @@
 		"requestSent": "Anfrage gesendet",
 		"sending": "Wird gesendet…"
 	},
+	"follow": {
+		"addFriend": "Freund hinzufügen",
+		"follow": "Folgen",
+		"following": "Folge ich",
+		"friendIncoming": "",
+		"friendPending": "",
+		"friends": "Freunde",
+		"linksOpen": "",
+		"notOpen": "",
+		"removeFriend": "",
+		"shareProfile": "",
+		"unfollow": "Nicht mehr folgen",
+		"unfollowConfirm": "",
+		"unfollowConfirmBody": "",
+		"vsFriends": ""
+	},
+	"followers": {
+		"count": "",
+		"empty": "",
+		"emptyOwn": "",
+		"title": ""
+	},
+	"following": {
+		"count": "",
+		"empty": "",
+		"emptyOwn": "",
+		"title": "Folge ich"
+	},
 	"friends": {
 		"confirmRemove": "Bestätigen?",
 		"empty": "Noch keine Freunde – suchen Sie nach Personen zum Hinzufügen",
@@ -26,11 +54,20 @@
 		"title": "Freunde"
 	},
 	"profile": {
+		"bio": {
+			"less": "Weniger anzeigen",
+			"more": "Mehr anzeigen"
+		},
 		"eyebrow": "Profil",
+		"hidden": {
+			"description": "",
+			"title": ""
+		},
 		"itemPlays": "{count, plural, one {# Wiedergabe} other {# Wiedergaben}}",
 		"joinedDate": "",
 		"joinedLabel": "dabei seit {date}",
 		"loadError": "Dieses Profil konnte nicht geladen werden.",
+		"loadMore": "",
 		"noActivity": "Noch keine Höraktivität.",
 		"notFound": "Kein Benutzer mit diesem Handle.",
 		"private": {
@@ -38,6 +75,18 @@
 			"title": "Dieses Profil ist privat"
 		},
 		"recentlyPlayed": "Zuletzt gehört",
+		"shelves": {
+			"followedArtists": "",
+			"noArtists": "",
+			"noPlaylists": "",
+			"playlists": "",
+			"seeAll": "Alle anzeigen"
+		},
+		"stats": {
+			"followers": "",
+			"following": "",
+			"playlists": ""
+		},
 		"topArtists": "Top-Künstler",
 		"topTracks": "Top-Titel",
 		"totalPlays": "{count, plural, one {# Wiedergabe} other {# Wiedergaben}}",
