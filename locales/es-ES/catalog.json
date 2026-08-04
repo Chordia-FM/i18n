@@ -29,6 +29,7 @@
 	},
 	"artist": {
 		"albums": "Álbumes",
+		"albumsFeaturing": "",
 		"aliasesAndProjects": "",
 		"appearsOn": "Aparece en",
 		"born": "Nació en {year}",
@@ -36,7 +37,17 @@
 			"albumCount": "{count, plural, one {# álbum} other {# álbumes}}"
 		},
 		"discography": "Discografía",
+		"discographyAll": {
+			"filter": {
+				"all": "Todos",
+				"albums": "Álbumes",
+				"singlesEps": "",
+				"featuring": ""
+			},
+			"empty": ""
+		},
 		"factsJoin": "",
+		"fansAlsoLike": "",
 		"follow": "Seguir",
 		"followedToast": "",
 		"following": "Siguiendo",
@@ -55,6 +66,7 @@
 			"title": "{name} — En vivo"
 		},
 		"namesJoin": "",
+		"playlistsFeaturing": "",
 		"popular": "",
 		"radio": "",
 		"relatedArtists": "Artistas relacionados",
