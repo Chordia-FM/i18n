@@ -42,7 +42,6 @@
 	"sharedWithYou": " · compartida contigo",
 	"smart": {
 		"addRule": "Añadir regla",
-		"autoUpdating": " · se actualiza sola",
 		"bool": {
 			"false": "falso",
 			"true": "verdadero"

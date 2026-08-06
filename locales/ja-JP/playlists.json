@@ -42,7 +42,6 @@
 	"sharedWithYou": " · あなたと共有中",
 	"smart": {
 		"addRule": "ルールを追加",
-		"autoUpdating": " · 自動更新",
 		"bool": {
 			"false": "いいえ",
 			"true": "はい"

@@ -42,7 +42,6 @@
 	"sharedWithYou": " · 공유받음",
 	"smart": {
 		"addRule": "규칙 추가",
-		"autoUpdating": " · 자동 업데이트",
 		"bool": {
 			"false": "거짓",
 			"true": "참"

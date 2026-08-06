@@ -40,7 +40,6 @@
 	"sharedWithYou": " · partagée avec vous",
 	"smart": {
 		"addRule": "Ajouter une règle",
-		"autoUpdating": " · mise à jour automatique",
 		"bool": {
 			"false": "faux",
 			"true": "vrai"

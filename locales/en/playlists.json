@@ -82,7 +82,6 @@
 	"sharedWithYou": " · shared with you",
 	"smart": {
 		"addRule": "Add rule",
-		"autoUpdating": " · auto-updating",
 		"bool": {
 			"false": "false",
 			"true": "true"
@@ -120,6 +119,19 @@
 			"contains": "contains",
 			"equals": "is",
 			"is": "is"
+		},
+		"refresh": {
+			"changed": "Refreshed: {added} added, {removed} removed, {total} total",
+			"everyDay": "{count, plural, one {Every day} other {Every # days}}",
+			"everyHour": "{count, plural, one {Every hour} other {Every # hours}}",
+			"everyMinute": "{count, plural, one {Every minute} other {Every # minutes}}",
+			"everyWeek": "{count, plural, one {Every week} other {Every # weeks}}",
+			"lastRefreshed": "refreshed {when}",
+			"never": "Only when I refresh",
+			"neverRefreshed": "not refreshed yet",
+			"now": "Refresh",
+			"scheduleLabel": "Automatic refresh",
+			"unchanged": "{count, plural, one {Already up to date, # track} other {Already up to date, # tracks}}"
 		},
 		"removeRule": "Remove rule",
 		"ruleField": "Rule field",
