@@ -82,7 +82,6 @@
 	"sharedWithYou": " · あなたと共有中",
 	"smart": {
 		"addRule": "ルールを追加",
-		"autoUpdating": " · 自動更新",
 		"bool": {
 			"false": "いいえ",
 			"true": "はい"
@@ -120,6 +119,19 @@
 			"contains": "含む",
 			"equals": "等しい",
 			"is": "一致"
+		},
+		"refresh": {
+			"changed": "",
+			"everyDay": "",
+			"everyHour": "",
+			"everyMinute": "",
+			"everyWeek": "",
+			"lastRefreshed": "",
+			"never": "",
+			"neverRefreshed": "",
+			"now": "更新",
+			"scheduleLabel": "",
+			"unchanged": ""
 		},
 		"removeRule": "ルールを削除",
 		"ruleField": "ルールの項目",
