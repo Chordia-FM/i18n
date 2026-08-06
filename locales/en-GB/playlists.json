@@ -82,7 +82,6 @@
 	"sharedWithYou": "",
 	"smart": {
 		"addRule": "",
-		"autoUpdating": "",
 		"bool": {
 			"false": "",
 			"true": ""
@@ -120,6 +119,19 @@
 			"contains": "",
 			"equals": "",
 			"is": ""
+		},
+		"refresh": {
+			"changed": "",
+			"everyDay": "",
+			"everyHour": "",
+			"everyMinute": "",
+			"everyWeek": "",
+			"lastRefreshed": "",
+			"never": "",
+			"neverRefreshed": "",
+			"now": "",
+			"scheduleLabel": "",
+			"unchanged": ""
 		},
 		"removeRule": "",
 		"ruleField": "",
