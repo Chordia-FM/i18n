@@ -144,6 +144,11 @@
 		},
 		"sortBy": "정렬 기준",
 		"updated": "스마트 플레이리스트를 업데이트했습니다",
+		"valueHint": {
+			"album": "",
+			"artist": "",
+			"genre": ""
+		},
 		"valuePlaceholder": "값"
 	},
 	"songCount": "{count, plural, other {#곡}}",
