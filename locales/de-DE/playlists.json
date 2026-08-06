@@ -82,7 +82,6 @@
 	"sharedWithYou": " · mit Ihnen geteilt",
 	"smart": {
 		"addRule": "Regel hinzufügen",
-		"autoUpdating": " · aktualisiert sich automatisch",
 		"bool": {
 			"false": "falsch",
 			"true": "wahr"
@@ -120,6 +119,19 @@
 			"contains": "enthält",
 			"equals": "ist",
 			"is": "ist"
+		},
+		"refresh": {
+			"changed": "",
+			"everyDay": "",
+			"everyHour": "",
+			"everyMinute": "",
+			"everyWeek": "",
+			"lastRefreshed": "",
+			"never": "",
+			"neverRefreshed": "",
+			"now": "Aktualisieren",
+			"scheduleLabel": "",
+			"unchanged": ""
 		},
 		"removeRule": "Regel entfernen",
 		"ruleField": "Regelfeld",
