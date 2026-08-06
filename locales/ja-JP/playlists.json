@@ -144,6 +144,11 @@
 		},
 		"sortBy": "並べ替え",
 		"updated": "スマートプレイリストを更新しました",
+		"valueHint": {
+			"album": "",
+			"artist": "",
+			"genre": ""
+		},
 		"valuePlaceholder": "値"
 	},
 	"songCount": "{count, plural, other {#曲}}",
