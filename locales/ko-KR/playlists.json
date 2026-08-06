@@ -82,7 +82,6 @@
 	"sharedWithYou": " · 공유받음",
 	"smart": {
 		"addRule": "규칙 추가",
-		"autoUpdating": " · 자동 업데이트",
 		"bool": {
 			"false": "거짓",
 			"true": "참"
@@ -120,6 +119,19 @@
 			"contains": "포함",
 			"equals": "일치",
 			"is": "일치"
+		},
+		"refresh": {
+			"changed": "",
+			"everyDay": "",
+			"everyHour": "",
+			"everyMinute": "",
+			"everyWeek": "",
+			"lastRefreshed": "",
+			"never": "",
+			"neverRefreshed": "",
+			"now": "새로고침",
+			"scheduleLabel": "",
+			"unchanged": ""
 		},
 		"removeRule": "규칙 제거",
 		"ruleField": "규칙 항목",
