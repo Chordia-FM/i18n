@@ -144,6 +144,11 @@
 		},
 		"sortBy": "Sort by",
 		"updated": "Smart playlist updated",
+		"valueHint": {
+			"album": "Search albums…",
+			"artist": "Search artists…",
+			"genre": "Search genres…"
+		},
 		"valuePlaceholder": "value"
 	},
 	"songCount": "{count, plural, one {# song} other {# songs}}",
