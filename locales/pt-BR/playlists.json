@@ -144,6 +144,11 @@
 		},
 		"sortBy": "Ordenar por",
 		"updated": "Playlist inteligente atualizada",
+		"valueHint": {
+			"album": "",
+			"artist": "",
+			"genre": ""
+		},
 		"valuePlaceholder": "valor"
 	},
 	"songCount": "{count, plural, one {# música} other {# músicas}}",
