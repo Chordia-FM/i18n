@@ -144,6 +144,11 @@
 		},
 		"sortBy": "",
 		"updated": "",
+		"valueHint": {
+			"album": "",
+			"artist": "",
+			"genre": ""
+		},
 		"valuePlaceholder": ""
 	},
 	"songCount": "",
