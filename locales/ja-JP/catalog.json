@@ -103,8 +103,8 @@
 			"year": "年"
 		},
 		"helpText": "空欄のままにした項目は元の値を保持します。「グローバルに上書き」を有効にしない限り、変更はこのライブラリのみに保存されます。",
-		"noArtworkAlbum": "カバーが見つかりません。アルバムにMusicBrainzのマッチが必要です。",
-		"noArtworkArtist": "オンラインのアートワークが見つかりません。fanart.tvのAPIキーとMusicBrainzのマッチが必要です。",
+		"noArtworkAlbum": "",
+		"noArtworkArtist": "",
 		"overrideGlobally": {
 			"help": "この編集をカタログ全体にも表示します（優先度が最も高いライブラリが優先されます）。元のデータや他のユーザーには影響しません。",
 			"label": "グローバルに上書き"
