@@ -44,6 +44,7 @@
 	},
 	"discovery": {
 		"dailyMixFailed": "Couldn't build this mix",
+		"stationFailed": "Couldn't build this station",
 		"radioFailed": "Couldn't build this radio"
 	},
 	"failedToLoad": "Failed to load",

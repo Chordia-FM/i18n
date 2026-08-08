@@ -1,4 +1,20 @@
 {
+	"station": {
+		"albumRadio": "{name} Radio",
+		"artistRadio": "{name} Radio",
+		"empty": "Not enough music yet to build this station",
+		"genreRadio": "{name} Radio",
+		"kindAlbum": "Album Radio",
+		"kindArtist": "Artist Radio",
+		"kindGenre": "Genre Radio",
+		"kindPlaylist": "Playlist Radio",
+		"kindTrack": "Song Radio",
+		"mix": "{name} Mix",
+		"playlistRadio": "{name} Radio",
+		"start": "Start radio",
+		"startFrom": "Start radio from {name}",
+		"trackRadio": "{name} Radio"
+	},
 	"dailyMix": {
 		"label": "Daily Mix"
 	},

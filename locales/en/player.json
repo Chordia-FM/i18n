@@ -117,6 +117,7 @@
 	"queue": {
 		"add": "Add to queue",
 		"addedAlbum": "{count, plural, one {Added # track to the queue} other {Added # tracks to the queue}}",
+		"autoplayNext": "Autoplay",
 		"empty": "Queue is empty.",
 		"nextUp": "Next up",
 		"nothingPlayed": "Nothing played yet.",
