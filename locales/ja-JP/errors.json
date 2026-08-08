@@ -44,6 +44,7 @@
 	},
 	"discovery": {
 		"dailyMixFailed": "このミックスを作成できませんでした",
+		"stationFailed": "",
 		"radioFailed": "このラジオを作成できませんでした"
 	},
 	"failedToLoad": "読み込みに失敗しました",
