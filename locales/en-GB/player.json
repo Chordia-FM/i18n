@@ -117,6 +117,7 @@
 	"queue": {
 		"add": "",
 		"addedAlbum": "",
+		"autoplayNext": "",
 		"empty": "",
 		"nextUp": "",
 		"nothingPlayed": "",
