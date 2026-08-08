@@ -117,6 +117,7 @@
 	"queue": {
 		"add": "Adicionar à fila",
 		"addedAlbum": "{count, plural, one {# faixa adicionada à fila} other {# faixas adicionadas à fila}}",
+		"autoplayNext": "Reprodução automática",
 		"empty": "A fila está vazia.",
 		"nextUp": "A seguir",
 		"nothingPlayed": "Nada foi tocado ainda.",
