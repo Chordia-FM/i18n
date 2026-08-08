@@ -44,6 +44,7 @@
 	},
 	"discovery": {
 		"dailyMixFailed": "",
+		"stationFailed": "",
 		"radioFailed": ""
 	},
 	"failedToLoad": "",
