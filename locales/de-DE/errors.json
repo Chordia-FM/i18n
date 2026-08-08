@@ -44,6 +44,7 @@
 	},
 	"discovery": {
 		"dailyMixFailed": "Dieser Mix konnte nicht erstellt werden",
+		"stationFailed": "",
 		"radioFailed": "Dieses Radio konnte nicht erstellt werden"
 	},
 	"failedToLoad": "Laden fehlgeschlagen",
