@@ -117,6 +117,7 @@
 	"queue": {
 		"add": "Zur Warteschlange hinzufügen",
 		"addedAlbum": "{count, plural, one {# Titel zur Warteschlange hinzugefügt} other {# Titel zur Warteschlange hinzugefügt}}",
+		"autoplayNext": "",
 		"empty": "Die Warteschlange ist leer.",
 		"nextUp": "Als Nächstes",
 		"nothingPlayed": "Es wurde noch nichts gespielt.",
