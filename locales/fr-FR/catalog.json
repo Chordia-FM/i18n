@@ -103,8 +103,8 @@
 			"year": "Année"
 		},
 		"helpText": "Laissez un champ vide pour conserver la valeur d'origine. Les modifications ne sont enregistrées que pour cette bibliothèque, sauf si vous activez « Remplacer globalement ».",
-		"noArtworkAlbum": "Aucune pochette trouvée — l'album a besoin d'une correspondance MusicBrainz.",
-		"noArtworkArtist": "Aucune illustration en ligne trouvée — nécessite une clé API fanart.tv et une correspondance MusicBrainz.",
+		"noArtworkAlbum": "",
+		"noArtworkArtist": "",
 		"overrideGlobally": {
 			"help": "Afficher aussi cette modification dans tout votre catalogue (votre bibliothèque la plus prioritaire l'emporte). L'original n'est pas modifié et les autres utilisateurs ne sont pas affectés.",
 			"label": "Remplacer globalement"
