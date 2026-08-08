@@ -117,6 +117,7 @@
 	"queue": {
 		"add": "キューに追加",
 		"addedAlbum": "{count, plural, other {#曲をキューに追加しました}}",
+		"autoplayNext": "自動再生",
 		"empty": "キューは空です。",
 		"nextUp": "次の曲",
 		"nothingPlayed": "まだ再生履歴はありません。",
