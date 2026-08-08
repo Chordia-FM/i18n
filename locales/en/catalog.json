@@ -103,8 +103,8 @@
 			"year": "Year"
 		},
 		"helpText": "Leave a field blank to keep the original. Changes are stored for this library only, unless you enable “Override globally”.",
-		"noArtworkAlbum": "No covers found — the album needs a MusicBrainz match.",
-		"noArtworkArtist": "No online artwork found — needs a fanart.tv API key and a MusicBrainz match.",
+		"noArtworkAlbum": "No covers found — Cover Art Archive may not have any for this release.",
+		"noArtworkArtist": "No artwork found — fanart.tv may not have any for this artist, or this Hub has no fanart.tv key.",
 		"overrideGlobally": {
 			"help": "Also show this edit across your whole catalog (your highest-priority library wins). Doesn't change the original or affect other users.",
 			"label": "Override globally"
