@@ -44,6 +44,7 @@
 	},
 	"discovery": {
 		"dailyMixFailed": "이 믹스를 만들지 못했습니다",
+		"stationFailed": "",
 		"radioFailed": "이 라디오를 만들지 못했습니다"
 	},
 	"failedToLoad": "불러오지 못했습니다",
