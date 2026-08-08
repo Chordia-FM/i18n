@@ -117,6 +117,7 @@
 	"queue": {
 		"add": "Añadir a la cola",
 		"addedAlbum": "{count, plural, one {Se añadió # pista a la cola} other {Se añadieron # pistas a la cola}}",
+		"autoplayNext": "Reproducción automática",
 		"empty": "La cola está vacía.",
 		"nextUp": "A continuación",
 		"nothingPlayed": "Aún no se ha reproducido nada.",
