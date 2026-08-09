@@ -93,7 +93,7 @@
 		"totalPlaysCount": ""
 	},
 	"report": {
-		"promptMessage": "Denunciar @{handle} — qual é o problema?"
+		"promptMessage": ""
 	},
 	"requests": {
 		"accept": "Aceitar",
