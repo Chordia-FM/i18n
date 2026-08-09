@@ -78,7 +78,15 @@
 		"iconReset": "Reset to default",
 		"iconSearchPlaceholder": "Search icons",
 		"iconTabEmoji": "Emoji",
-		"iconTabIcons": "Icons"
+		"iconTabIcons": "Icons",
+		"tabs": {
+			"general": "General",
+			"metadata": "Metadata",
+			"folders": "Folders",
+			"sharing": "Sharing",
+			"organize": "Organize",
+			"danger": "Danger"
+		}
 	},
 	"hidden": {
 		"hide": "Hide this song",
