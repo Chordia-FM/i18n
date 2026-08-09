@@ -1,7 +1,38 @@
 {
 	"audit": {
+		"action": "",
+		"actionName": {
+			"approve_suggestion": "",
+			"delete_user": "",
+			"deny_suggestion": "",
+			"edit_album": "",
+			"edit_artist": "",
+			"edit_label": "",
+			"edit_track": "",
+			"merge_artist": "",
+			"resolve_report": "",
+			"suspend_user": "",
+			"unsuspend_user": ""
+		},
+		"actor": "",
+		"allActions": "",
+		"allActors": "",
+		"allCategories": "",
+		"backfilled": "",
+		"backfilledHint": "",
+		"category": "",
 		"createdAt": "",
+		"description": "",
+		"diff": {
+			"unset": ""
+		},
 		"empty": "아직 작업 기록이 없습니다.",
+		"loadFailed": "",
+		"loadMore": "",
+		"noDiff": "",
+		"noMatches": "",
+		"searchPlaceholder": "",
+		"targetId": "",
 		"title": "감사 로그"
 	},
 	"editCatalog": {
@@ -58,6 +89,9 @@
 		"useThisArt": "이 {kind} 사용",
 		"useThisLogo": "이 로고 사용"
 	},
+	"moderation": {
+		"loadFailed": ""
+	},
 	"noAccess": {
 		"backToApp": "앱으로 돌아가기",
 		"body": "사이트 관리 권한이 없습니다. {link}.",
@@ -88,6 +122,12 @@
 		"title": "메타데이터 제안",
 		"titleWithCount": "{count, plural, other {메타데이터 제안(대기 #건)}}"
 	},
+	"tabs": {
+		"audit": "감사 로그",
+		"content": "",
+		"moderation": "",
+		"users": "사용자"
+	},
 	"title": "사이트 관리",
 	"users": {
 		"deleteConfirm": "@{handle}님과 모든 데이터를 영구 삭제할까요? 되돌릴 수 없습니다.",
@@ -98,6 +138,8 @@
 		"suspendTitle": "사용자 정지",
 		"suspendedBadge": "정지됨",
 		"title": "사용자",
-		"unsuspend": "정지 해제"
+		"unsuspend": "정지 해제",
+		"empty": "",
+		"loadFailed": ""
 	}
 }
