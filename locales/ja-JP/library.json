@@ -78,7 +78,18 @@
 		"iconReset": "",
 		"iconSearchPlaceholder": "",
 		"iconTabEmoji": "",
-		"iconTabIcons": ""
+		"iconTabIcons": "",
+		"tabs": {
+			"general": "一般",
+			"metadata": "メタデータ",
+			"folders": "",
+			"sharing": "",
+			"organize": "",
+			"danger": ""
+		},
+		"autoRescanEvery": "",
+		"lastScanned": "",
+		"lastScanUnknown": ""
 	},
 	"hidden": {
 		"hide": "この曲を非表示",
@@ -114,7 +125,8 @@
 		"intro": "このライブラリのみのメタデータを編集します。変更はあなたの表示全体に適用され、空欄のままにした項目は元の値を保持します。カタログ全体の編集は管理ページで行えます。",
 		"noMatches": "一致する結果はありません。",
 		"searchPlaceholder": "アーティスト、アルバム、トラックを検索…",
-		"title": "メタデータ"
+		"title": "メタデータ",
+		"searchHint": ""
 	},
 	"new": {
 		"addFailed": "ライブラリを追加できませんでした",
