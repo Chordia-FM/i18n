@@ -142,7 +142,8 @@
 	},
 	"validation": {
 		"nameOrIconRequired": "",
-		"nameRequired": ""
+		"nameRequired": "",
+		"invalidIcon": ""
 	},
 	"valueEmpty": ""
 }
