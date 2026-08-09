@@ -51,7 +51,9 @@
 		"description": "Browse the Hub's own tables. Read-only — nothing here can change anything.",
 		"loadFailed": "Couldn't load that table",
 		"rowCount": "{count, plural, one {# row} other {# rows}}",
-		"searchPlaceholder": "Filter…"
+		"searchPlaceholder": "Filter…",
+		"onDisk": "{size} on disk",
+		"rowCountCapped": "more than {count} rows"
 	},
 	"metadata": {
 		"artistSubtitle": "{albumCount, plural, one {# album} other {# albums}} · {trackCount, plural, one {# track} other {# tracks}}",
