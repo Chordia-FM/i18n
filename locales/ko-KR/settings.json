@@ -22,7 +22,7 @@
 		"sendConfirmation": "확인 메일 보내기",
 		"title": "계정",
 		"unverified": "",
-		"verificationSent": "보냈습니다 — 받은편지함을 확인하세요",
+		"verificationSent": "",
 		"verified": ""
 	},
 	"appearance": {
@@ -62,7 +62,7 @@
 	},
 	"data": {
 		"body": "Chordia가 저장한 내 정보를 모두 내려받거나, 계정과 모든 데이터를 영구 삭제할 수 있습니다.",
-		"deleteAccountConfirm": "계정과 모든 데이터(감상 기록, 플레이리스트, 라이브러리, 친구)를 영구 삭제할까요? 되돌릴 수 없습니다.",
+		"deleteAccountConfirm": "",
 		"deleteAccountTitle": "계정 삭제",
 		"deleteFailedBody": "지금은 계정을 삭제할 수 없습니다. 다시 시도해 주세요.",
 		"deleteFailedTitle": "삭제에 실패했습니다",
@@ -222,11 +222,11 @@
 	},
 	"quality": {
 		"dataSaver": {
-			"desc": "약 96 kbps Opus — 데이터 사용 최소.",
+			"desc": "",
 			"label": "데이터 절약"
 		},
 		"high": {
-			"desc": "약 256 kbps AAC — 대부분 원음과 구별이 어려움.",
+			"desc": "",
 			"label": "높음"
 		},
 		"lossless": {
@@ -234,7 +234,7 @@
 			"label": "무손실"
 		},
 		"normal": {
-			"desc": "약 128 kbps — 균형.",
+			"desc": "",
 			"label": "보통"
 		},
 		"title": "스트리밍 품질"
@@ -312,7 +312,7 @@
 		"enableCta": "2단계 인증 켜기",
 		"enabledHint": "2단계 인증이 켜져 있습니다. 끄려면 현재 코드나 복구 코드를 입력하세요.",
 		"qrAlt": "2단계 인증 QR 코드",
-		"recoveryIntro": "2단계 인증이 켜졌습니다. 아래 복구 코드를 안전한 곳에 보관하세요. 인증 앱을 잃어버렸을 때 각 코드를 한 번씩 사용할 수 있습니다.",
+		"recoveryIntro": "",
 		"scanHint": "인증 앱으로 이 코드를 스캔한 뒤, 6자리 코드를 입력해 확인하세요.",
 		"secretManual": "또는 이 비밀 키를 직접 입력하세요: {secret}",
 		"statusOff": "꺼짐",
