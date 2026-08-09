@@ -114,7 +114,8 @@
 		"intro": "Edit metadata for this library only. Your changes apply across your views; anything you leave blank keeps the original value. Global catalog edits live in the admin page.",
 		"noMatches": "No matches.",
 		"searchPlaceholder": "Search artists, albums, or tracks…",
-		"title": "Metadata"
+		"title": "Metadata",
+		"searchHint": "Keep typing: {count, plural, one {# character} other {# characters}} at least."
 	},
 	"new": {
 		"addFailed": "Failed to add library",

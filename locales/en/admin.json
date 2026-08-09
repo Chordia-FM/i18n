@@ -97,7 +97,8 @@
 		"uploadIcon": "Upload icon",
 		"uploadLogo": "Upload logo",
 		"useThisArt": "Use this {kind}",
-		"useThisLogo": "Use this logo"
+		"useThisLogo": "Use this logo",
+		"searchHint": "Keep typing: {count, plural, one {# character} other {# characters}} at least."
 	},
 	"moderation": {
 		"loadFailed": "Couldn't load the moderation queue"
