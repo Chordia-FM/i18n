@@ -1,15 +1,116 @@
 {
 	"cta": {
-		"github": "Ver no GitHub",
-		"openApp": "Abrir o app"
+		"createAccount": "",
+		"github": "",
+		"note": "",
+		"openApp": "",
+		"readDocs": "",
+		"selfHost": "",
+		"signIn": "Entrar"
 	},
-	"eyebrow": "Tenha seu áudio · compartilhe do seu jeito",
+	"eyebrow": "",
+	"faq": {
+		"cost": {
+			"a": "",
+			"q": ""
+		},
+		"formats": {
+			"a": "",
+			"q": ""
+		},
+		"heading": "",
+		"offline": {
+			"a": "",
+			"q": ""
+		},
+		"privacy": {
+			"a": "",
+			"q": ""
+		},
+		"server": {
+			"a": "",
+			"q": ""
+		},
+		"spotify": {
+			"a": "",
+			"q": ""
+		}
+	},
+	"features": {
+		"everywhere": {
+			"body": "",
+			"points": {
+				"a": "",
+				"b": "",
+				"c": ""
+			},
+			"title": ""
+		},
+		"heading": "",
+		"quality": {
+			"body": "",
+			"points": {
+				"a": "",
+				"b": "",
+				"c": ""
+			},
+			"title": ""
+		},
+		"sharing": {
+			"body": "",
+			"points": {
+				"a": "",
+				"b": "",
+				"c": ""
+			},
+			"title": ""
+		},
+		"subheading": "",
+		"yours": {
+			"body": "",
+			"points": {
+				"a": "",
+				"b": "",
+				"c": ""
+			},
+			"title": ""
+		}
+	},
+	"final": {
+		"body": "",
+		"title": ""
+	},
 	"footer": {
 		"github": "",
-		"license": "Código aberto · AGPL-3.0 ·"
+		"language": "Idioma",
+		"legal": {
+			"heading": "",
+			"license": "",
+			"privacy": "Privacidade",
+			"terms": ""
+		},
+		"license": "Código aberto · AGPL-3.0 ·",
+		"product": {
+			"features": "",
+			"heading": "",
+			"listening": "",
+			"selfHost": "",
+			"signUp": "Crie uma conta"
+		},
+		"rights": "",
+		"source": {
+			"architecture": "",
+			"docs": "",
+			"github": "",
+			"heading": "",
+			"issues": ""
+		},
+		"tagline": ""
 	},
 	"hero": {
-		"paragraph": "Um ecossistema de música híbrido e auto-hospedado. Domínio absoluto sobre a sua biblioteca, com a experiência social e conectada do streaming — em fidelidade bit-perfect."
+		"paragraph": "Um ecossistema de música híbrido e auto-hospedado. Domínio absoluto sobre a sua biblioteca, com a experiência social e conectada do streaming — em fidelidade bit-perfect.",
+		"subtitle": "",
+		"title": ""
 	},
 	"pillars": {
 		"liveRooms": {
@@ -28,5 +129,66 @@
 			"body": "Cada reprodução recebe scrobble na sua conta global e fica guardada para sempre — análises semanais, mensais e anuais que sobrevivem a qualquer troca de servidor.",
 			"title": "Wrapped vitalício"
 		}
+	},
+	"proof": {
+		"heading": "",
+		"shots": {
+			"album": {
+				"alt": "",
+				"caption": ""
+			},
+			"friends": {
+				"alt": "",
+				"caption": ""
+			},
+			"insights": {
+				"alt": "",
+				"caption": ""
+			},
+			"listen": {
+				"alt": "",
+				"caption": ""
+			},
+			"mobile": {
+				"alt": "",
+				"caption": ""
+			}
+		},
+		"subheading": ""
+	},
+	"selfHost": {
+		"body": "",
+		"eyebrow": "",
+		"steps": {
+			"install": {
+				"body": "",
+				"title": ""
+			},
+			"pair": {
+				"body": "",
+				"title": ""
+			},
+			"scan": {
+				"body": "",
+				"title": ""
+			}
+		},
+		"title": ""
+	},
+	"social": {
+		"body": "",
+		"points": {
+			"a": "",
+			"b": "",
+			"c": "",
+			"d": ""
+		},
+		"title": ""
+	},
+	"trust": {
+		"formats": "",
+		"hardware": "",
+		"license": "",
+		"privacy": ""
 	}
 }
