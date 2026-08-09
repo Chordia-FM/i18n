@@ -124,7 +124,9 @@
 		"topAlbums": "",
 		"topArtists": "",
 		"topTracks": "",
-		"withTotp": ""
+		"withTotp": "",
+		"window": "",
+		"year": ""
 	},
 	"reports": {
 		"createdAt": "",
@@ -175,7 +177,22 @@
 		"tracksMissingIsrcs": "",
 		"tracksMissingLyrics": "",
 		"tracksMissingRecording": "",
-		"version": ""
+		"version": "",
+		"rollupLagHelp": "",
+		"sizeDesc": "",
+		"jobStatus": {
+			"awaiting_selection": "",
+			"cancelled": "",
+			"claimed": "",
+			"completed": "",
+			"downloading": "",
+			"failed": "",
+			"grabbing": "",
+			"importing": "",
+			"no_results": "",
+			"queued": "",
+			"searching": ""
+		}
 	},
 	"tabs": {
 		"audit": "",
@@ -186,6 +203,28 @@
 		"system": ""
 	},
 	"title": "",
+	"userDetail": {
+		"activeDays": "",
+		"back": "",
+		"device": "",
+		"history": "",
+		"joined": "",
+		"lastSeen": "",
+		"libraries": "",
+		"librariesPlaylists": "",
+		"listeningTime": "",
+		"loadFailed": "",
+		"noHistory": "",
+		"noLibraries": "",
+		"noSessions": "",
+		"offline": "",
+		"online": "",
+		"owns": "",
+		"plays": "",
+		"sessionMeta": "",
+		"sessions": "",
+		"unknownDevice": ""
+	},
 	"users": {
 		"deleteConfirm": "",
 		"deleteTitle": "",
