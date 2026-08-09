@@ -196,10 +196,10 @@
 		"thisLibrary": "Diese Bibliothek",
 		"grantAccess": "{name} Zugriff gewähren",
 		"removeAccess": "{name} den Zugriff entziehen",
-		"streamingNow": "Streamt gerade: {title} — {artist}",
+		"streamingNow": "",
 		"statsLine": "{requests} angefordert · {downloads} heruntergeladen · {plays} Wiedergaben · {time} gehört",
 		"lastPlayed": "zuletzt gehört {date}",
-		"updateFailed": "Die Freigabe konnte nicht aktualisiert werden – bitte erneut versuchen.",
+		"updateFailed": "",
 		"timeDaysHours": "{days} T {hours} Std.",
 		"timeHoursMinutes": "{hours} Std. {minutes} Min.",
 		"timeMinutes": "{minutes} Min."
