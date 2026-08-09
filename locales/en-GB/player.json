@@ -18,9 +18,9 @@
 		"current": "",
 		"none": "",
 		"pressPlay": "",
-		"remoteHint": "",
 		"thisTab": "",
-		"title": ""
+		"title": "",
+		"unreachable": ""
 	},
 	"eqPreset": {
 		"acoustic": "",
@@ -93,7 +93,6 @@
 	},
 	"plays": "",
 	"remote": {
-		"on": "",
 		"unnamedDevice": ""
 	},
 	"quality": {
