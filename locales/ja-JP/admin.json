@@ -124,7 +124,9 @@
 		"topAlbums": "トップアルバム",
 		"topArtists": "トップアーティスト",
 		"topTracks": "トップトラック",
-		"withTotp": ""
+		"withTotp": "",
+		"window": "",
+		"year": ""
 	},
 	"reports": {
 		"createdAt": "",
@@ -175,7 +177,22 @@
 		"tracksMissingIsrcs": "",
 		"tracksMissingLyrics": "",
 		"tracksMissingRecording": "",
-		"version": ""
+		"version": "",
+		"rollupLagHelp": "",
+		"sizeDesc": "",
+		"jobStatus": {
+			"awaiting_selection": "",
+			"cancelled": "キャンセル済み",
+			"claimed": "",
+			"completed": "完了",
+			"downloading": "ダウンロード中",
+			"failed": "失敗",
+			"grabbing": "取得中",
+			"importing": "インポート中",
+			"no_results": "",
+			"queued": "キュー待ち",
+			"searching": "検索中"
+		}
 	},
 	"tabs": {
 		"audit": "監査ログ",
@@ -186,6 +203,28 @@
 		"system": ""
 	},
 	"title": "サイト管理",
+	"userDetail": {
+		"activeDays": "",
+		"back": "",
+		"device": "",
+		"history": "",
+		"joined": "",
+		"lastSeen": "",
+		"libraries": "ライブラリ",
+		"librariesPlaylists": "",
+		"listeningTime": "",
+		"loadFailed": "",
+		"noHistory": "",
+		"noLibraries": "",
+		"noSessions": "",
+		"offline": "",
+		"online": "",
+		"owns": "",
+		"plays": "再生回数",
+		"sessionMeta": "",
+		"sessions": "",
+		"unknownDevice": "不明なデバイス"
+	},
 	"users": {
 		"deleteConfirm": "@{handle}とそのすべてのデータを完全に削除しますか？この操作は取り消せません。",
 		"deleteTitle": "ユーザーを削除",
