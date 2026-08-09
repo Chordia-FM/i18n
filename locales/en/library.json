@@ -125,7 +125,14 @@
 		"serverSelectHint": "This new library will be created on the selected server.",
 		"serverSelectLabel": "Library server",
 		"submit": "Add library",
-		"title": "New library"
+		"title": "New library",
+		"addFailedAt": {
+			"hub": "The folder was added to your server, but Chordia could not create the library. Try again; if it keeps failing the folder is already there and only the library is missing. {detail}",
+			"link": "The library was created but could not be linked to the folder on your server. Remove it and add it again. {detail}"
+		},
+		"dialogTitle": "Add a library",
+		"notPairedHere": "This device does not hold management credentials for that server. Open the server's setup link on this device to pair it again.",
+		"sandboxNote": "A library is a folder on {host}. Browsing is limited to that machine's music folder, and nothing else on it is reachable from here."
 	},
 	"pin": {
 		"pin": "Pin",
