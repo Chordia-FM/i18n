@@ -10,6 +10,21 @@
 		"shareTitle": "",
 		"trackCount": ""
 	},
+	"downloads": {
+		"clearConfirm": {
+			"message": "",
+			"title": ""
+		},
+		"clearError": "",
+		"emptyState": "",
+		"eyebrow": "",
+		"navLabel": "",
+		"removeError": "",
+		"removeTooltip": "",
+		"songCount": "",
+		"storedOnDevice": "",
+		"title": ""
+	},
 	"edit": {
 		"albumsLabel": "",
 		"dedupeLabel": "",
@@ -58,22 +73,12 @@
 		"singlesLabel": "",
 		"templateHelp": "",
 		"title": "",
-		"unknownLabel": ""
-	},
-	"downloads": {
-		"clearConfirm": {
-			"message": "",
-			"title": ""
-		},
-		"clearError": "",
-		"emptyState": "",
-		"eyebrow": "",
-		"navLabel": "",
-		"removeError": "",
-		"removeTooltip": "",
-		"songCount": "",
-		"storedOnDevice": "",
-		"title": ""
+		"unknownLabel": "",
+		"iconNoMatches": "",
+		"iconReset": "",
+		"iconSearchPlaceholder": "",
+		"iconTabEmoji": "",
+		"iconTabIcons": ""
 	},
 	"hidden": {
 		"hide": "",
@@ -96,7 +101,14 @@
 		"loading": "",
 		"newLibrary": "",
 		"sharedWithYou": "",
-		"title": ""
+		"title": "",
+		"addLibrary": "",
+		"connectServer": "",
+		"connectServerBody": "",
+		"openSetup": "",
+		"serverOffline": "",
+		"serverOnline": "",
+		"serverSummary": ""
 	},
 	"metadata": {
 		"intro": "Edit metadata for this library only. Your changes apply across your views; anything you leave blank keeps the original value. Global catalogue edits live in the admin page.",
@@ -118,7 +130,14 @@
 		"serverSelectHint": "",
 		"serverSelectLabel": "",
 		"submit": "",
-		"title": ""
+		"title": "",
+		"addFailedAt": {
+			"hub": "",
+			"link": ""
+		},
+		"dialogTitle": "",
+		"notPairedHere": "",
+		"sandboxNote": ""
 	},
 	"pin": {
 		"pin": "",
@@ -179,12 +198,6 @@
 		"success": "",
 		"title": ""
 	},
-	"sidebar": {
-		"pinned": "",
-		"playlists": "",
-		"yourLibrary": ""
-	},
-	"trackCount": "",
 	"shareManager": {
 		"title": "",
 		"help": "",
@@ -203,5 +216,11 @@
 		"timeDaysHours": "",
 		"timeHoursMinutes": "",
 		"timeMinutes": ""
-	}
+	},
+	"sidebar": {
+		"pinned": "",
+		"playlists": "",
+		"yourLibrary": ""
+	},
+	"trackCount": ""
 }
