@@ -116,8 +116,8 @@
 		"label": "Sprache"
 	},
 	"menu": {
-		"moreActions": "",
-		"back": "Zurück"
+		"back": "Zurück",
+		"moreActions": ""
 	},
 	"nav": {
 		"allLibraries": "Alle Bibliotheken",
@@ -134,7 +134,8 @@
 		"openMenu": "Menü öffnen",
 		"search": "Suche",
 		"settings": "Einstellungen",
-		"signIn": "Anmelden"
+		"signIn": "Anmelden",
+		"signUp": ""
 	},
 	"notFound": {
 		"body": "",
