@@ -18,9 +18,9 @@
 		"current": "Current target",
 		"none": "No playback devices found.",
 		"pressPlay": "Press play to start here",
-		"remoteHint": "Playing somewhere else. You can't control it from here yet.",
 		"thisTab": "This tab",
-		"title": "Playback device"
+		"title": "Playback device",
+		"unreachable": "Was playing here. Out of reach right now."
 	},
 	"eqPreset": {
 		"acoustic": "Acoustic",
@@ -93,8 +93,7 @@
 	},
 	"plays": "{count, plural, one {# play} other {# plays}}",
 	"remote": {
-		"on": "Playing on {device}",
-		"unnamedDevice": "another device"
+		"unnamedDevice": "Another device"
 	},
 	"quality": {
 		"change": "Change",
