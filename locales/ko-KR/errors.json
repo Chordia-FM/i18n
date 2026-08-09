@@ -142,7 +142,8 @@
 	},
 	"validation": {
 		"nameOrIconRequired": "이름 또는 아이콘이 필요합니다.",
-		"nameRequired": "이름을 입력해야 합니다."
+		"nameRequired": "이름을 입력해야 합니다.",
+		"invalidIcon": ""
 	},
 	"valueEmpty": "값은 비워둘 수 없습니다."
 }
