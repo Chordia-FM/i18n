@@ -124,7 +124,9 @@
 		"topAlbums": "인기 앨범",
 		"topArtists": "인기 아티스트",
 		"topTracks": "인기 트랙",
-		"withTotp": ""
+		"withTotp": "",
+		"window": "",
+		"year": ""
 	},
 	"reports": {
 		"createdAt": "",
@@ -175,7 +177,22 @@
 		"tracksMissingIsrcs": "",
 		"tracksMissingLyrics": "",
 		"tracksMissingRecording": "",
-		"version": ""
+		"version": "",
+		"rollupLagHelp": "",
+		"sizeDesc": "",
+		"jobStatus": {
+			"awaiting_selection": "",
+			"cancelled": "취소됨",
+			"claimed": "",
+			"completed": "완료됨",
+			"downloading": "다운로드 중",
+			"failed": "실패함",
+			"grabbing": "받는 중",
+			"importing": "가져오는 중",
+			"no_results": "",
+			"queued": "대기 중",
+			"searching": "검색 중"
+		}
 	},
 	"tabs": {
 		"audit": "감사 로그",
@@ -186,6 +203,28 @@
 		"system": ""
 	},
 	"title": "사이트 관리",
+	"userDetail": {
+		"activeDays": "",
+		"back": "",
+		"device": "",
+		"history": "",
+		"joined": "",
+		"lastSeen": "",
+		"libraries": "라이브러리",
+		"librariesPlaylists": "",
+		"listeningTime": "",
+		"loadFailed": "",
+		"noHistory": "",
+		"noLibraries": "",
+		"noSessions": "",
+		"offline": "",
+		"online": "",
+		"owns": "",
+		"plays": "재생 횟수",
+		"sessionMeta": "",
+		"sessions": "",
+		"unknownDevice": "알 수 없는 기기"
+	},
 	"users": {
 		"deleteConfirm": "@{handle}님과 모든 데이터를 영구 삭제할까요? 되돌릴 수 없습니다.",
 		"deleteTitle": "사용자 삭제",
