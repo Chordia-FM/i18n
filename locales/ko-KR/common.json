@@ -116,8 +116,8 @@
 		"label": "언어"
 	},
 	"menu": {
-		"moreActions": "",
-		"back": "뒤로"
+		"back": "뒤로",
+		"moreActions": ""
 	},
 	"nav": {
 		"allLibraries": "모든 라이브러리",
@@ -134,7 +134,8 @@
 		"openMenu": "메뉴 열기",
 		"search": "검색",
 		"settings": "설정",
-		"signIn": "로그인"
+		"signIn": "로그인",
+		"signUp": ""
 	},
 	"notFound": {
 		"body": "",
