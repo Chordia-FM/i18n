@@ -97,7 +97,8 @@
 		"uploadIcon": "アイコンをアップロード",
 		"uploadLogo": "ロゴをアップロード",
 		"useThisArt": "この{kind}を使用",
-		"useThisLogo": "このロゴを使用"
+		"useThisLogo": "このロゴを使用",
+		"searchHint": ""
 	},
 	"moderation": {
 		"loadFailed": ""
