@@ -1,15 +1,116 @@
 {
 	"cta": {
-		"github": "GitHubで見る",
-		"openApp": "アプリを開く"
+		"createAccount": "",
+		"github": "",
+		"note": "",
+		"openApp": "",
+		"readDocs": "",
+		"selfHost": "",
+		"signIn": "ログイン"
 	},
-	"eyebrow": "音楽を所有 · 共有は自分の流儀で",
+	"eyebrow": "",
+	"faq": {
+		"cost": {
+			"a": "",
+			"q": ""
+		},
+		"formats": {
+			"a": "",
+			"q": ""
+		},
+		"heading": "",
+		"offline": {
+			"a": "",
+			"q": ""
+		},
+		"privacy": {
+			"a": "",
+			"q": ""
+		},
+		"server": {
+			"a": "",
+			"q": ""
+		},
+		"spotify": {
+			"a": "",
+			"q": ""
+		}
+	},
+	"features": {
+		"everywhere": {
+			"body": "",
+			"points": {
+				"a": "",
+				"b": "",
+				"c": ""
+			},
+			"title": ""
+		},
+		"heading": "",
+		"quality": {
+			"body": "",
+			"points": {
+				"a": "",
+				"b": "",
+				"c": ""
+			},
+			"title": ""
+		},
+		"sharing": {
+			"body": "",
+			"points": {
+				"a": "",
+				"b": "",
+				"c": ""
+			},
+			"title": ""
+		},
+		"subheading": "",
+		"yours": {
+			"body": "",
+			"points": {
+				"a": "",
+				"b": "",
+				"c": ""
+			},
+			"title": ""
+		}
+	},
+	"final": {
+		"body": "",
+		"title": ""
+	},
 	"footer": {
 		"github": "",
-		"license": "オープンソース · AGPL-3.0 ·"
+		"language": "言語",
+		"legal": {
+			"heading": "",
+			"license": "",
+			"privacy": "プライバシー",
+			"terms": ""
+		},
+		"license": "オープンソース · AGPL-3.0 ·",
+		"product": {
+			"features": "",
+			"heading": "",
+			"listening": "",
+			"selfHost": "",
+			"signUp": "アカウントを作成"
+		},
+		"rights": "",
+		"source": {
+			"architecture": "",
+			"docs": "",
+			"github": "",
+			"heading": "",
+			"issues": ""
+		},
+		"tagline": ""
 	},
 	"hero": {
-		"paragraph": "ハイブリッドなセルフホスト型音楽エコシステム。ライブラリの完全な所有権と、つながりのあるソーシャルなストリーミング体験を、ビットパーフェクトな音質で。"
+		"paragraph": "ハイブリッドなセルフホスト型音楽エコシステム。ライブラリの完全な所有権と、つながりのあるソーシャルなストリーミング体験を、ビットパーフェクトな音質で。",
+		"subtitle": "",
+		"title": ""
 	},
 	"pillars": {
 		"liveRooms": {
@@ -28,5 +129,66 @@
 			"body": "すべての再生はグローバルアカウントにスクロブルされ、永久に保存されます。週間・月間・年間のインサイトは、サーバーを移行しても失われません。",
 			"title": "一生もののWrapped"
 		}
+	},
+	"proof": {
+		"heading": "",
+		"shots": {
+			"album": {
+				"alt": "",
+				"caption": ""
+			},
+			"friends": {
+				"alt": "",
+				"caption": ""
+			},
+			"insights": {
+				"alt": "",
+				"caption": ""
+			},
+			"listen": {
+				"alt": "",
+				"caption": ""
+			},
+			"mobile": {
+				"alt": "",
+				"caption": ""
+			}
+		},
+		"subheading": ""
+	},
+	"selfHost": {
+		"body": "",
+		"eyebrow": "",
+		"steps": {
+			"install": {
+				"body": "",
+				"title": ""
+			},
+			"pair": {
+				"body": "",
+				"title": ""
+			},
+			"scan": {
+				"body": "",
+				"title": ""
+			}
+		},
+		"title": ""
+	},
+	"social": {
+		"body": "",
+		"points": {
+			"a": "",
+			"b": "",
+			"c": "",
+			"d": ""
+		},
+		"title": ""
+	},
+	"trust": {
+		"formats": "",
+		"hardware": "",
+		"license": "",
+		"privacy": ""
 	}
 }
