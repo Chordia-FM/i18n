@@ -63,7 +63,7 @@
 			"card": "Todas las grabaciones en vivo",
 			"label": "Colección en vivo",
 			"subtitle": "{count, plural, one {De # álbum} other {De # álbumes}}",
-			"title": "{name} — En vivo"
+			"title": ""
 		},
 		"namesJoin": "",
 		"playlistsFeaturing": "",
@@ -130,7 +130,7 @@
 	},
 	"genres": {
 		"counts": "{albumsFormatted} {albums, plural, one {álbum} other {álbumes}} · {artistsFormatted} {artists, plural, one {artista} other {artistas}}",
-		"empty": "Aún no hay géneros: llegan con los metadatos de los álbumes a medida que se enriquece tu biblioteca.",
+		"empty": "",
 		"eyebrow": "Género",
 		"notFound": "Ningún álbum tiene ese género.",
 		"title": "Géneros",
@@ -153,14 +153,14 @@
 		"noAlbums": "No hay álbumes."
 	},
 	"labels": {
-		"empty": "Aún no hay sellos: se van completando a medida que tu catálogo se enriquece desde MusicBrainz.",
+		"empty": "",
 		"title": "Sellos"
 	},
 	"lyrics": {
 		"heading": "Letra",
 		"placeholderPlain": "Primera línea\nSegunda línea",
 		"placeholderSynced": "[00:00.00] Primera línea\n[00:04.20] Segunda línea",
-		"plainHelp": "Letra sin sincronizar: una línea por verso, sin tiempos.",
+		"plainHelp": "",
 		"resetDone": "Se restauró la letra obtenida automáticamente",
 		"resetError": "No se pudo restablecer la letra",
 		"resetToAuto": "Restablecer a automática",
