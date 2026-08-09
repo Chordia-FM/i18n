@@ -102,13 +102,9 @@
 			"type": "Type",
 			"year": "Year"
 		},
-		"helpText": "Leave a field blank to keep the original. Changes are stored for this library only, unless you enable “Override globally”.",
+		"helpText": "Leave a field empty to use the Hub's value. Anything you type here applies to this library only and never changes the shared catalog.",
 		"noArtworkAlbum": "No covers found. Cover Art Archive may not have any for this release.",
 		"noArtworkArtist": "No artwork found. fanart.tv may not have any for this artist, or this Hub has no fanart.tv key.",
-		"overrideGlobally": {
-			"help": "Also show this edit across your whole catalog (your highest-priority library wins). Doesn't change the original or affect other users.",
-			"label": "Override globally"
-		},
 		"reset": {
 			"confirmMessage": "Reset to original metadata? This clears your edits for this item.",
 			"confirmTitle": "Reset metadata"
@@ -122,7 +118,13 @@
 		"uploadBanner": "Upload banner",
 		"uploadCover": "Upload cover",
 		"uploadImage": "Upload image",
-		"useThisArt": "Use this {kind}"
+		"useThisArt": "Use this {kind}",
+		"inherited": {
+			"badge": "Your value",
+			"fromHub": "From the Hub",
+			"notSet": "Not set on the Hub",
+			"revert": "Use the Hub's"
+		}
 	},
 	"entity": {
 		"artist": "Artist",

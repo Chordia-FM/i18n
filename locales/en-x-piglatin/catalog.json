@@ -71,10 +71,6 @@
 		"helpText": "Eavelay away ieldfay ankblay otay eepkay ethay originalway. Angeschay areway oredstay orfay isthay ibrarylay onlyway, unlessway ouyay enableway “Overrideway oballyglay”.",
 		"noArtworkAlbum": "Onay overscay oundfay — ethay albumway eedsnay away MusicBrainz atchmay.",
 		"noArtworkArtist": "Onay onlineway artworkway oundfay — eedsnay away fanart.tv API eykay andway away MusicBrainz atchmay.",
-		"overrideGlobally": {
-			"help": "Alsoway owshay isthay editway acrossway ouryay olewhay atalogcay (ouryay ighesthay-ioritypray ibrarylay insway). Oesnday't angechay ethay originalway orway affectway otherway usersway.",
-			"label": "Overrideway oballyglay"
-		},
 		"reset": {
 			"confirmMessage": "Esetray otay originalway etadatamay? Isthay earsclay ouryay editsway orfay isthay itemway.",
 			"confirmTitle": "Esetray etadatamay"

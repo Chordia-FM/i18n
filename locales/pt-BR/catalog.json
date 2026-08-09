@@ -87,10 +87,6 @@
 		"helpText": "Deixe um campo em branco para manter o original. As alterações valem apenas para esta biblioteca, a menos que você ative “Substituir globalmente”.",
 		"noArtworkAlbum": "Nenhuma capa encontrada — o álbum precisa de uma correspondência no MusicBrainz.",
 		"noArtworkArtist": "Nenhuma arte online encontrada — é preciso uma chave de API do fanart.tv e uma correspondência no MusicBrainz.",
-		"overrideGlobally": {
-			"help": "Mostrar esta edição em todo o seu catálogo (sua biblioteca de maior prioridade prevalece). Não altera o original nem afeta outros usuários.",
-			"label": "Substituir globalmente"
-		},
 		"reset": {
 			"confirmMessage": "Voltar aos metadados originais? Isso apaga suas edições neste item.",
 			"confirmTitle": "Redefinir metadados"

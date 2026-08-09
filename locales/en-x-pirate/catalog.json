@@ -36,9 +36,6 @@
 		"helpText": "Leave a field blank t' keep th' original. Changes be stored fer this hoard only, unless ye enable “Override globally”.",
 		"noArtworkAlbum": "No covers spied — th' treasure needs a MusicBrainz match.",
 		"noArtworkArtist": "No online artwork spied — needs a fanart.tv API key an' a MusicBrainz match.",
-		"overrideGlobally": {
-			"help": "Also show this edit across yer whole catalog (yer highest-priority hoard wins). Doesn't change th' original or affect other crew."
-		},
 		"reset": {
 			"confirmMessage": "Reset t' original metadata? This clears yer edits fer this item."
 		},

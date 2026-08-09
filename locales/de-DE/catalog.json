@@ -77,10 +77,6 @@
 		"helpText": "Lassen Sie ein Feld leer, um den Originalwert zu behalten. Änderungen gelten nur für diese Bibliothek, sofern Sie nicht „Global überschreiben“ aktivieren.",
 		"noArtworkAlbum": "Keine Cover gefunden – das Album benötigt eine MusicBrainz-Zuordnung.",
 		"noArtworkArtist": "Keine Online-Grafiken gefunden – dafür sind ein fanart.tv-API-Schlüssel und eine MusicBrainz-Zuordnung nötig.",
-		"overrideGlobally": {
-			"help": "Diese Änderung auch im gesamten Katalog anzeigen (Ihre Bibliothek mit der höchsten Priorität gewinnt). Das Original bleibt unverändert, andere Nutzer sind nicht betroffen.",
-			"label": "Global überschreiben"
-		},
 		"reset": {
 			"confirmMessage": "Auf die ursprünglichen Metadaten zurücksetzen? Dadurch werden Ihre Änderungen an diesem Element verworfen.",
 			"confirmTitle": "Metadaten zurücksetzen"
