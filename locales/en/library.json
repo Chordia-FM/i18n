@@ -73,7 +73,12 @@
 		"singlesLabel": "Singles (no album)",
 		"templateHelp": "Variables: {vars}. Empty parts are skipped and the file extension is added automatically. {edition} is the deluxe/special qualifier (empty for the standard edition, so it collapses), and {disc} only appears for multi-disc albums. Tracks with no album use the Singles template; files we can't identify (no artist tag) use the Unidentified one.",
 		"title": "Edit library",
-		"unknownLabel": "Unidentified tracks"
+		"unknownLabel": "Unidentified tracks",
+		"iconNoMatches": "Nothing matches that.",
+		"iconReset": "Reset to default",
+		"iconSearchPlaceholder": "Search icons",
+		"iconTabEmoji": "Emoji",
+		"iconTabIcons": "Icons"
 	},
 	"hidden": {
 		"hide": "Hide this song",
