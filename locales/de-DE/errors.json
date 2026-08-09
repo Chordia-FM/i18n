@@ -19,7 +19,7 @@
 		"passwordRange": "Das Passwort muss 8–1024 Zeichen lang sein.",
 		"passwordUnchanged": "",
 		"tooManyAttempts": "",
-		"twoFactorAlreadyEnabled": "Die Zwei-Faktor-Authentifizierung ist bereits aktiviert – deaktivieren Sie sie zuerst.",
+		"twoFactorAlreadyEnabled": "",
 		"twoFactorNotEnabled": "Die Zwei-Faktor-Authentifizierung ist nicht aktiviert.",
 		"twoFactorStartFirst": "Starten Sie zunächst die Zwei-Faktor-Einrichtung."
 	},
@@ -31,7 +31,7 @@
 		"unknownArtist": "Unbekannter Künstler.",
 		"unknownImageHash": "Unbekanntes Bild."
 	},
-	"changeFailed": "Diese Änderung konnte nicht gespeichert werden – bitte versuchen Sie es erneut.",
+	"changeFailed": "",
 	"copyFailed": "",
 	"debug": {
 		"copied": "",
