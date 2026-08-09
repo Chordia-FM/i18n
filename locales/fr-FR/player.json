@@ -18,6 +18,7 @@
 		"current": "Sortie actuelle",
 		"none": "Aucun périphérique de lecture trouvé.",
 		"pressPlay": "Lancez la lecture pour commencer ici",
+		"remoteHint": "",
 		"thisTab": "Cet onglet",
 		"title": "Périphérique de lecture"
 	},
@@ -91,6 +92,10 @@
 		"title": "En cours de lecture"
 	},
 	"plays": "{count, plural, one {# écoute} other {# écoutes}}",
+	"remote": {
+		"on": "",
+		"unnamedDevice": ""
+	},
 	"quality": {
 		"change": "Modifier",
 		"dataPerHourGb": "~{value} Go/heure",
