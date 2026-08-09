@@ -102,7 +102,7 @@
 		"pickHint": "Wir konnten nicht sicher bestimmen, welche Veröffentlichung genau dieses Album ist – bitte wählen Sie die richtige aus.",
 		"requestedBy": "angefordert von @{handle}",
 		"retry": "Wiederholen",
-		"selectFailed": "Diese Quelle konnte nicht festgelegt werden – der Auftrag ist möglicherweise schon weiter. Aktualisieren Sie und wählen Sie erneut.",
+		"selectFailed": "",
 		"status": {
 			"awaiting_selection": "Quelle wählen",
 			"cancelled": "Abgebrochen",
@@ -159,6 +159,6 @@
 		"failed": "Die Upgrade-Prüfung konnte nicht in die Warteschlange gestellt werden.",
 		"inProgress": "Ein Upgrade oder Download für dieses Album läuft bereits.",
 		"notIdentified": "Dieses Album ist noch nicht MusicBrainz zugeordnet, daher lässt sich nicht zuverlässig danach suchen.",
-		"queued": "Upgrade-Prüfung eingereiht – behalten Sie Downloads im Auge. Gibt es eine eindeutig bessere Quelle, wird sie heruntergeladen; andernfalls endet der Auftrag ohne Meldung."
+		"queued": ""
 	}
 }
