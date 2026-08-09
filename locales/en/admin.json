@@ -1,7 +1,38 @@
 {
 	"audit": {
+		"action": "Action",
+		"actionName": {
+			"approve_suggestion": "Approved suggestion",
+			"delete_user": "Deleted user",
+			"deny_suggestion": "Denied suggestion",
+			"edit_album": "Edited album",
+			"edit_artist": "Edited artist",
+			"edit_label": "Edited label",
+			"edit_track": "Edited track",
+			"merge_artist": "Merged artist",
+			"resolve_report": "Resolved report",
+			"suspend_user": "Suspended user",
+			"unsuspend_user": "Unsuspended user"
+		},
+		"actor": "Actor",
+		"allActions": "All actions",
+		"allActors": "Anyone",
+		"allCategories": "All categories",
+		"backfilled": "inferred",
+		"backfilledHint": "This entry predates typed targets. Its label is the target's name today, not its name when the action happened — and for a deleted target there is none.",
+		"category": "Category",
 		"createdAt": "{date}",
+		"description": "Every privileged action, newest first. Expand an entry for its target id and what changed.",
+		"diff": {
+			"unset": "not set"
+		},
 		"empty": "No actions yet.",
+		"loadFailed": "Couldn't load the audit log",
+		"loadMore": "Load more",
+		"noDiff": "No field-level changes recorded for this action.",
+		"noMatches": "No entries match these filters.",
+		"searchPlaceholder": "Search actions, targets and details…",
+		"targetId": "Target id",
 		"title": "Audit log"
 	},
 	"editCatalog": {
@@ -58,6 +89,9 @@
 		"useThisArt": "Use this {kind}",
 		"useThisLogo": "Use this logo"
 	},
+	"moderation": {
+		"loadFailed": "Couldn't load the moderation queue"
+	},
 	"noAccess": {
 		"backToApp": "Back to the app",
 		"body": "You don't have access to site administration. {link}.",
@@ -88,6 +122,12 @@
 		"title": "Metadata suggestions",
 		"titleWithCount": "{count, plural, one {Metadata suggestions (# pending)} other {Metadata suggestions (# pending)}}"
 	},
+	"tabs": {
+		"audit": "Audit log",
+		"content": "Content",
+		"moderation": "Moderation",
+		"users": "Users"
+	},
 	"title": "Site administration",
 	"users": {
 		"deleteConfirm": "Permanently delete @{handle} and ALL their data? This cannot be undone.",
@@ -98,6 +138,8 @@
 		"suspendTitle": "Suspend user",
 		"suspendedBadge": "suspended",
 		"title": "Users",
-		"unsuspend": "Unsuspend"
+		"unsuspend": "Unsuspend",
+		"empty": "No users match that search.",
+		"loadFailed": "Couldn't load the user list"
 	}
 }
