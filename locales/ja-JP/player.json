@@ -18,6 +18,7 @@
 		"current": "現在の出力先",
 		"none": "再生デバイスが見つかりません。",
 		"pressPlay": "再生を押すとここで再生します",
+		"remoteHint": "",
 		"thisTab": "このタブ",
 		"title": "再生デバイス"
 	},
@@ -91,6 +92,10 @@
 		"title": "再生中"
 	},
 	"plays": "{count, plural, other {#回再生}}",
+	"remote": {
+		"on": "",
+		"unnamedDevice": ""
+	},
 	"quality": {
 		"change": "変更",
 		"dataPerHourGb": "約{value} GB/時",
