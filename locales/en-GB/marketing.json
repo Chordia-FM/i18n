@@ -2,7 +2,6 @@
 	"cta": {
 		"createAccount": "",
 		"github": "",
-		"note": "",
 		"openApp": "",
 		"readDocs": "",
 		"selfHost": "",
@@ -81,7 +80,6 @@
 		"title": ""
 	},
 	"footer": {
-		"github": "",
 		"language": "",
 		"legal": {
 			"heading": "",
@@ -89,7 +87,6 @@
 			"privacy": "",
 			"terms": ""
 		},
-		"license": "",
 		"product": {
 			"features": "",
 			"heading": "",
@@ -108,27 +105,8 @@
 		"tagline": ""
 	},
 	"hero": {
-		"paragraph": "",
 		"subtitle": "",
 		"title": ""
-	},
-	"pillars": {
-		"liveRooms": {
-			"body": "Synchronised listening parties with chat, votes, and turn-taking DJs. You hear your own copy when you own it; your library relays the rest.",
-			"title": ""
-		},
-		"ownIt": {
-			"body": "",
-			"title": ""
-		},
-		"selectiveSharing": {
-			"body": "Organise music into separate libraries - \"Hi-Fi Archive\", \"Family Collection\" - and share each one with exactly the friends you choose.",
-			"title": ""
-		},
-		"wrapped": {
-			"body": "",
-			"title": ""
-		}
 	},
 	"proof": {
 		"heading": "",
@@ -180,8 +158,7 @@
 		"points": {
 			"a": "",
 			"b": "",
-			"c": "",
-			"d": ""
+			"c": ""
 		},
 		"title": ""
 	},
