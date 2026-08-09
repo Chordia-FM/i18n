@@ -18,9 +18,9 @@
 		"current": "Destino actual",
 		"none": "No se encontraron dispositivos de reproducción.",
 		"pressPlay": "Pulsa reproducir para empezar aquí",
-		"remoteHint": "",
 		"thisTab": "Esta pestaña",
-		"title": "Dispositivo de reproducción"
+		"title": "Dispositivo de reproducción",
+		"unreachable": ""
 	},
 	"eqPreset": {
 		"acoustic": "Acústico",
@@ -93,7 +93,6 @@
 	},
 	"plays": "{count, plural, one {# reproducción} other {# reproducciones}}",
 	"remote": {
-		"on": "",
 		"unnamedDevice": ""
 	},
 	"quality": {
