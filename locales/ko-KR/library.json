@@ -196,10 +196,10 @@
 		"thisLibrary": "이 라이브러리",
 		"grantAccess": "{name}에게 접근 권한 주기",
 		"removeAccess": "{name}의 접근 권한 해제",
-		"streamingNow": "지금 스트리밍 중: {title} — {artist}",
+		"streamingNow": "",
 		"statsLine": "요청 {requests} · 다운로드 {downloads} · 재생 {plays}회 · 감상 {time}",
 		"lastPlayed": "마지막 재생 {date}",
-		"updateFailed": "공유 설정을 업데이트하지 못했습니다 — 다시 시도하세요.",
+		"updateFailed": "",
 		"timeDaysHours": "{days}일 {hours}시간",
 		"timeHoursMinutes": "{hours}시간 {minutes}분",
 		"timeMinutes": "{minutes}분"
