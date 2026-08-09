@@ -196,10 +196,10 @@
 		"thisLibrary": "Esta biblioteca",
 		"grantAccess": "Dar acesso a {name}",
 		"removeAccess": "Remover o acesso de {name}",
-		"streamingNow": "Ouvindo agora: {title} — {artist}",
+		"streamingNow": "",
 		"statsLine": "{requests} pedidos · {downloads} downloads · {plays} reproduções · {time} de audição",
 		"lastPlayed": "ouviu pela última vez {date}",
-		"updateFailed": "Não foi possível atualizar o compartilhamento — tente novamente.",
+		"updateFailed": "",
 		"timeDaysHours": "",
 		"timeHoursMinutes": "",
 		"timeMinutes": ""
