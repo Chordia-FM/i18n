@@ -142,7 +142,8 @@
 	},
 	"validation": {
 		"nameOrIconRequired": "A name or icon is required.",
-		"nameRequired": "Name is required."
+		"nameRequired": "Name is required.",
+		"invalidIcon": "That is not an icon Chordia can store. Pick one from the list, or a single emoji."
 	},
 	"valueEmpty": "Value cannot be empty."
 }
