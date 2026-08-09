@@ -116,8 +116,8 @@
 		"label": "Language"
 	},
 	"menu": {
-		"moreActions": "More actions",
-		"back": "Back"
+		"back": "Back",
+		"moreActions": "More actions"
 	},
 	"nav": {
 		"allLibraries": "All libraries",
@@ -134,7 +134,8 @@
 		"openMenu": "Open menu",
 		"search": "Search",
 		"settings": "Settings",
-		"signIn": "Sign in"
+		"signIn": "Sign in",
+		"signUp": "Sign up"
 	},
 	"notFound": {
 		"body": "The link might be old, or the page moved. Nothing's broken; you just took a wrong turn.",

@@ -1,15 +1,116 @@
 {
 	"cta": {
-		"github": "View on GitHub",
-		"openApp": "Open app"
+		"createAccount": "Create your free account",
+		"github": "Read the source",
+		"note": "Free while we're in early access. No card, no countdown.",
+		"openApp": "Open Chordia",
+		"readDocs": "Read the docs",
+		"selfHost": "Rather run it yourself?",
+		"signIn": "Sign in"
 	},
-	"eyebrow": "Own your audio · share it your way",
+	"eyebrow": "Bring your own music",
+	"faq": {
+		"cost": {
+			"a": "The software is free and stays free. It's AGPL-3.0 and all of it is on GitHub. The hosted account on chordia.dev is free during early access, and if that ever changes, self-hosting stays complete rather than becoming a crippled community edition.",
+			"q": "What does this cost?"
+		},
+		"formats": {
+			"a": "FLAC, ALAC, WAV, AIFF, MP3, AAC, Ogg and Opus. Dolby Atmos and other spatial mixes pass through untouched, because re-encoding something we can't improve helps nobody.",
+			"q": "Which formats work?"
+		},
+		"heading": "Questions people actually ask",
+		"offline": {
+			"a": "Yes. Download an album to your phone and it plays with no signal and no server. The files live in the app, not in a stream you have to keep alive.",
+			"q": "Does it work on a plane?"
+		},
+		"privacy": {
+			"a": "Your audio never reaches our servers, not even as a cache. Your phone talks straight to your library over an encrypted connection. We hold your account, your friends list and your play history, and you can export or delete all of it whenever you like.",
+			"q": "What can you see?"
+		},
+		"server": {
+			"a": "Your files need somewhere to live: an old laptop, a NAS, a Raspberry Pi, or a cheap VPS. The library server runs on all of them. Point it at a folder and it takes it from there.",
+			"q": "Do I need a server?"
+		},
+		"spotify": {
+			"a": "Not quite. Chordia plays the music you already have rather than a catalogue you rent. Bring your rips, your Bandcamp downloads, your Qobuz purchases. If a folder of files is your idea of a record collection, you're in the right place.",
+			"q": "Is this a Spotify replacement?"
+		}
+	},
+	"features": {
+		"everywhere": {
+			"body": "Web, desktop, and a phone that behaves like a real music app: lock-screen controls, a working scrub bar in the notification shade, gapless playback, crossfade, and an equalizer that remembers what you did to it.",
+			"points": {
+				"a": "Pick up on your phone exactly where the desktop left off.",
+				"b": "Download before a flight and play with no signal at all.",
+				"c": "Volume levelled across albums so nothing blows your ears off."
+			},
+			"title": "Everywhere you actually listen"
+		},
+		"heading": "What you get",
+		"quality": {
+			"body": "Original quality is a byte-for-byte stream with no transcode step and no quiet downgrade. On a train with two bars Chordia steps down to protect your data, says so, and steps back up when the signal returns.",
+			"points": {
+				"a": "FLAC, ALAC and WAV streamed exactly as you ripped them.",
+				"b": "Atmos and other spatial mixes pass through untouched.",
+				"c": "You decide whether it's ever allowed to drop quality."
+			},
+			"title": "The bits you ripped, not the bits we'd prefer"
+		},
+		"sharing": {
+			"body": "Split your collection into as many libraries as you like, then hand each one to exactly the friends you choose. They browse and stream it like it was always theirs. You can see what they played, and you can take it back in one click.",
+			"points": {
+				"a": "Per-library access, not all-or-nothing.",
+				"b": "Friends stream from your server without an account on it.",
+				"c": "Revoke any time. Access expires on its own too."
+			},
+			"title": "Share a shelf, not the whole collection"
+		},
+		"subheading": "Four things that are hard to get anywhere else, in plain language.",
+		"yours": {
+			"body": "Chordia never uploads your library, never re-encodes it behind your back, and never holds it hostage. Your library server hands audio straight to your devices. We only ever handle the metadata needed to sign you in and keep your friends list straight.",
+			"points": {
+				"a": "Audio goes device to library, never through us.",
+				"b": "Stop using Chordia and every file is where you left it.",
+				"c": "AGPL-3.0. The code we run is the code you get."
+			},
+			"title": "Your files stay your files"
+		}
+	},
+	"final": {
+		"body": "Make an account, point Chordia at your music, and have it on your phone before the kettle boils.",
+		"title": "Bring your music with you"
+	},
 	"footer": {
 		"github": "GitHub",
-		"license": "Open source · AGPL-3.0 ·"
+		"language": "Language",
+		"legal": {
+			"heading": "Legal",
+			"license": "License (AGPL-3.0)",
+			"privacy": "Privacy",
+			"terms": "Terms"
+		},
+		"license": "Open source · AGPL-3.0 ·",
+		"product": {
+			"features": "Features",
+			"heading": "Product",
+			"listening": "Listening history",
+			"selfHost": "Self-hosting",
+			"signUp": "Create an account"
+		},
+		"rights": "Chordia is free software, released under the AGPL-3.0.",
+		"source": {
+			"architecture": "How it works",
+			"docs": "Documentation",
+			"github": "GitHub",
+			"heading": "Open source",
+			"issues": "Report a bug"
+		},
+		"tagline": "Music you own, everywhere you are."
 	},
 	"hero": {
-		"paragraph": "A hybrid, self-hosted music ecosystem. Absolute ownership of your library, with the connected, social streaming experience - in bit-perfect fidelity."
+		"paragraph": "A hybrid, self-hosted music ecosystem. Absolute ownership of your library, with the connected, social streaming experience - in bit-perfect fidelity.",
+		"subtitle": "Chordia streams the music you already own. The FLAC rips, the Bandcamp downloads, the folder you've dragged across three laptops. It goes from wherever you keep it straight to your phone, at the quality you ripped it, and none of it passes through us.",
+		"title": "Your library, on every device you own"
 	},
 	"pillars": {
 		"liveRooms": {
@@ -28,5 +129,66 @@
 			"body": "Every play is scrobbled to your global account and kept forever - weekly, monthly, and yearly insights that survive any server move.",
 			"title": "Lifetime Wrapped"
 		}
+	},
+	"proof": {
+		"heading": "This is the actual app",
+		"shots": {
+			"album": {
+				"alt": "An album page in Chordia showing cover art, the tracklist and the source file quality",
+				"caption": "Every track shows what it really is: format, bit depth, sample rate. No guessing."
+			},
+			"friends": {
+				"alt": "The friends page in Chordia showing what people are listening to right now",
+				"caption": "See what friends are playing right now, and open the same album in one tap."
+			},
+			"insights": {
+				"alt": "The listening insights page in Chordia showing charts of plays over time",
+				"caption": "Your listening, charted by week, month and year. It keeps going after December."
+			},
+			"listen": {
+				"alt": "The Chordia home screen showing recently played albums and the player bar",
+				"caption": "Home picks up where you left off, on every device you signed in on."
+			},
+			"mobile": {
+				"alt": "Chordia on a phone showing the full-screen player with cover art and controls",
+				"caption": "On a phone it's a phone app: lock-screen controls, offline downloads, real gestures."
+			}
+		},
+		"subheading": "No blurred mockups. These are the screens you'll spend your time in."
+	},
+	"selfHost": {
+		"body": "Chordia is two pieces. A Hub holds accounts, friends and history. A library server holds your music and streams it. Use our Hub and run your own library, or run both yourself and never talk to us at all.",
+		"eyebrow": "For the people who read the source first",
+		"steps": {
+			"install": {
+				"body": "One binary or one container. It's happy on a Raspberry Pi, an old NUC, a Synology box or the cheapest VPS you can find.",
+				"title": "Install the library server"
+			},
+			"pair": {
+				"body": "One step in the browser. Your library advertises its certificate fingerprint, your devices pin it, and self-signed certificates stop being a problem.",
+				"title": "Pair it to your account"
+			},
+			"scan": {
+				"body": "Give it a folder. It reads tags, fetches artwork, and matches releases against MusicBrainz, including the files whose tags are a mess.",
+				"title": "Point it at your music"
+			}
+		},
+		"title": "Or run the whole thing yourself"
+	},
+	"social": {
+		"body": "Every play is recorded against your account, not against a server. Move house, replace the NAS, rebuild from nothing, and 2019 is still there.",
+		"points": {
+			"a": "Wrapped every week, not once a year as a marketing stunt.",
+			"b": "First-listen dates, streaks, and the album you played 47 times in March.",
+			"c": "Listening rooms: same song, same second, with a queue everyone can push to.",
+			"d": "Scrobbles to Last.fm as well, if that's where your history already lives."
+		},
+		"title": "A listening history that outlives every service you quit"
+	},
+	"trust": {
+		"formats": "FLAC, ALAC, WAV, Atmos",
+		"hardware": "Runs on a Pi, a NAS or a VPS",
+		"license": "AGPL-3.0, source on GitHub",
+		"privacy": "Your audio never touches our servers"
 	}
 }
