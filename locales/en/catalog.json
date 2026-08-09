@@ -123,7 +123,8 @@
 			"badge": "Your value",
 			"fromHub": "From the Hub",
 			"notSet": "Not set on the Hub",
-			"revert": "Use the Hub's"
+			"revert": "Use the Hub's",
+			"insert": "Edit the Hub's"
 		}
 	},
 	"entity": {
