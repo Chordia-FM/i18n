@@ -102,13 +102,9 @@
 			"type": "Tipo",
 			"year": "Ano"
 		},
-		"helpText": "Deixe um campo em branco para manter o original. As alterações valem apenas para esta biblioteca, a menos que você ative “Substituir globalmente”.",
+		"helpText": "",
 		"noArtworkAlbum": "",
 		"noArtworkArtist": "",
-		"overrideGlobally": {
-			"help": "Mostrar esta edição em todo o seu catálogo (sua biblioteca de maior prioridade prevalece). Não altera o original nem afeta outros usuários.",
-			"label": "Substituir globalmente"
-		},
 		"reset": {
 			"confirmMessage": "Voltar aos metadados originais? Isso apaga suas edições neste item.",
 			"confirmTitle": "Redefinir metadados"
@@ -122,7 +118,14 @@
 		"uploadBanner": "Enviar banner",
 		"uploadCover": "Enviar capa",
 		"uploadImage": "Enviar imagem",
-		"useThisArt": "Usar {kind}"
+		"useThisArt": "Usar {kind}",
+		"inherited": {
+			"badge": "",
+			"fromHub": "",
+			"notSet": "",
+			"revert": "",
+			"insert": ""
+		}
 	},
 	"entity": {
 		"artist": "Artista",
