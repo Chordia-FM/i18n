@@ -93,7 +93,7 @@
 		"totalPlaysCount": ""
 	},
 	"report": {
-		"promptMessage": "@{handle}を報告します。問題の内容を教えてください。"
+		"promptMessage": ""
 	},
 	"requests": {
 		"accept": "承認",
