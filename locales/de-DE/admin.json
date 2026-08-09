@@ -97,7 +97,8 @@
 		"uploadIcon": "Symbol hochladen",
 		"uploadLogo": "Logo hochladen",
 		"useThisArt": "{kind} verwenden",
-		"useThisLogo": "Logo verwenden"
+		"useThisLogo": "Logo verwenden",
+		"searchHint": ""
 	},
 	"moderation": {
 		"loadFailed": ""
