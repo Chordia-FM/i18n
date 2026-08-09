@@ -47,6 +47,14 @@
 		"starting": "開始中…",
 		"title": "メタデータの補完"
 	},
+	"explorer": {
+		"description": "",
+		"loadFailed": "",
+		"rowCount": "",
+		"searchPlaceholder": "",
+		"onDisk": "",
+		"rowCountCapped": ""
+	},
 	"metadata": {
 		"artistSubtitle": "{albumCount, plural, other {アルバム#枚}} · {trackCount, plural, other {#曲}}",
 		"artworkAlt": "アートワーク",
@@ -126,7 +134,28 @@
 		"topTracks": "トップトラック",
 		"withTotp": "",
 		"window": "",
-		"year": ""
+		"year": "",
+		"accountsGained": "",
+		"accountsOverTime": "",
+		"accountsTotal": "",
+		"busiestDay": "",
+		"coverage": "",
+		"coverage2fa": "",
+		"coverageActive": "",
+		"coverageVerified": "",
+		"daily": "",
+		"hoursTotal": "リスニング",
+		"hoursValue": "",
+		"listeningHours": "",
+		"monthly": "",
+		"noData": "",
+		"peakListeners": "",
+		"signupsTotal": "",
+		"stickiness": "",
+		"weekdayMix": "",
+		"weekly": "",
+		"playlists": "プレイリスト",
+		"labelsCount": ""
 	},
 	"reports": {
 		"createdAt": "",
@@ -200,7 +229,8 @@
 		"moderation": "",
 		"users": "ユーザー",
 		"overview": "概要",
-		"system": ""
+		"system": "",
+		"explorer": ""
 	},
 	"title": "サイト管理",
 	"userDetail": {
