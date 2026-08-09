@@ -78,12 +78,12 @@
 			"climbedBy": "{count, plural, other {#ランクアップ}}",
 			"climbers": "上昇",
 			"empty": {
-				"body": "チャートの変動は、この期間とその直前の期間を比較します。両方に再生があると表示されます。",
+				"body": "",
 				"title": "まだ比較できません"
 			},
 			"fallers": "下降",
 			"fellBy": "{count, plural, other {#ランクダウン}}",
-			"needsWindow": "チャートの変動は期間同士を比較します。短めの期間を選ぶと表示されます。",
+			"needsWindow": "",
 			"new": "初登場",
 			"newcomers": "新登場",
 			"none": "この期間の変動はありません。",
@@ -214,7 +214,7 @@
 		"title": "リスニングインサイト"
 	},
 	"overview": {
-		"firstWindow": "{person, select, them {記録上最初の期間です。履歴が増えると比較が表示されます。} other {記録上最初の期間です。履歴が増えると比較が表示されます。}}"
+		"firstWindow": ""
 	},
 	"panels": {
 		"activity": "アクティビティ",
@@ -253,7 +253,7 @@
 			"title": "まだ記録がありません"
 		},
 		"milestones": {
-			"beginning": "{person, select, them {どのライブラリにも始まりがあります。再生が積み重なると、節目のマイルストーンがここに並びます。} other {どのライブラリにも始まりがあります。再生が積み重なると、節目のマイルストーンがここに並びます。}}",
+			"beginning": "",
 			"chip": "全期間",
 			"curveAriaLabel": "累計再生数の推移（マイルストーンごとに1点）",
 			"first": "初再生",
@@ -266,7 +266,7 @@
 			"title": "マイルストーン"
 		},
 		"onThisDay": {
-			"empty": "{person, select, them {この日付の思い出はまだありません。その人の履歴が1年分たまると、ここに集まります。} other {この日付の思い出はまだありません。あなたの履歴が1年分たまると、ここに集まります。}}",
+			"empty": "",
 			"title": "過去のこの日",
 			"yearsAgo": "{count, plural, other {#年前}}"
 		},
@@ -282,7 +282,7 @@
 			"current": "現在の連続記録",
 			"days": "{count, plural, other {#日}}",
 			"detail": "{range} · {plays, plural, other {#回再生}}",
-			"live": "継続中 — このまま続けましょう",
+			"live": "",
 			"longest": "最長連続記録",
 			"noCurrent": {
 				"body": "{person, select, them {現在継続中の記録はありません。} other {今日何か再生して連続記録を始めましょう。}}",
@@ -394,7 +394,7 @@
 		},
 		"shareButton": "共有",
 		"shared": "Wrappedカードを共有しました。",
-		"sharedFallback": "共有できなかったため、カードをダウンロードに保存しました。",
+		"sharedFallback": "",
 		"sharing": "共有中…",
 		"statLine": "アーティスト{artists, number}組 · {tracks, number}曲",
 		"topArtists": "トップアーティスト",
