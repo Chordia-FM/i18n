@@ -9,7 +9,8 @@
 	},
 	"devices": {
 		"none": "No playback devices spied.",
-		"pressPlay": "Press play t' start here"
+		"pressPlay": "Press play t' start here",
+		"remoteHint": "Playin' somewhere else. Ye can't control it from here yet."
 	},
 	"equalizer": {
 		"deletePreset": "Scuttle {name}",
@@ -39,6 +40,9 @@
 		"albumFallback": "Treasure",
 		"playingFrom": "Playin' from",
 		"title": "Now playin'"
+	},
+	"remote": {
+		"on": "Playin' on {device}"
 	},
 	"quality": {
 		"hearing": "Ye be hearin'",

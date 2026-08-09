@@ -18,6 +18,7 @@
 		"current": "Current target",
 		"none": "No playback devices found.",
 		"pressPlay": "Press play to start here",
+		"remoteHint": "Playing somewhere else. You can't control it from here yet.",
 		"thisTab": "This tab",
 		"title": "Playback device"
 	},
@@ -91,6 +92,10 @@
 		"title": "Now playing"
 	},
 	"plays": "{count, plural, one {# play} other {# plays}}",
+	"remote": {
+		"on": "Playing on {device}",
+		"unnamedDevice": "another device"
+	},
 	"quality": {
 		"change": "Change",
 		"dataPerHourGb": "~{value} GB/hour",

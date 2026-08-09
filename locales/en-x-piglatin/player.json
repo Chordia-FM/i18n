@@ -18,6 +18,7 @@
 		"current": "Urrentcay argettay",
 		"none": "Onay aybackplay evicesday oundfay.",
 		"pressPlay": "Esspray ayplay otay artstay erehay",
+		"remoteHint": "Ayingplay omewheresay elseway. Ouyay ancay't ontrolcay itway omfray erehay etyay.",
 		"thisTab": "Isthay abtay",
 		"title": "Aybackplay eviceday"
 	},
@@ -89,6 +90,10 @@
 		"title": "Ownay ayingplay"
 	},
 	"plays": "{count, plural, one {# ayplay} other {# aysplay}}",
+	"remote": {
+		"on": "Ayingplay onway {device}",
+		"unnamedDevice": "anotherway eviceday"
+	},
 	"quality": {
 		"change": "Angechay",
 		"dataPerHourGb": "~{value} GB/ourhay",
