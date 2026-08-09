@@ -18,9 +18,9 @@
 		"current": "Destino atual",
 		"none": "Nenhum dispositivo de reprodução encontrado.",
 		"pressPlay": "Aperte play para começar aqui",
-		"remoteHint": "",
 		"thisTab": "Esta aba",
-		"title": "Dispositivo de reprodução"
+		"title": "Dispositivo de reprodução",
+		"unreachable": ""
 	},
 	"eqPreset": {
 		"acoustic": "Acústico",
@@ -93,7 +93,6 @@
 	},
 	"plays": "{count, plural, one {# reprodução} other {# reproduções}}",
 	"remote": {
-		"on": "",
 		"unnamedDevice": ""
 	},
 	"quality": {
