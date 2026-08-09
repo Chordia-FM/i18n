@@ -10,6 +10,21 @@
 		"shareTitle": "Partager cette bibliothèque",
 		"trackCount": "{count, plural, one {# morceau} other {# morceaux}}"
 	},
+	"downloads": {
+		"clearConfirm": {
+			"message": "Supprimer de cet appareil toutes les chansons téléchargées ?",
+			"title": "Effacer les téléchargements"
+		},
+		"clearError": "Impossible d'effacer les téléchargements",
+		"emptyState": "Les chansons que vous téléchargez se lisent sans connexion. Utilisez l'action Télécharger sur n'importe quel morceau pour l'enregistrer ici.",
+		"eyebrow": "Disponible hors ligne",
+		"navLabel": "Téléchargements",
+		"removeError": "Impossible de supprimer le téléchargement",
+		"removeTooltip": "Supprimer le téléchargement",
+		"songCount": "{count, plural, one {# chanson} other {# chansons}}",
+		"storedOnDevice": "stockées sur cet appareil",
+		"title": "Téléchargements"
+	},
 	"edit": {
 		"albumsLabel": "",
 		"dedupeLabel": "Dédupliquer — ne garder que la copie de meilleure qualité lorsque des fichiers arrivent au même endroit (sinon ils reçoivent les suffixes (2), (3)…)",
@@ -58,22 +73,12 @@
 		"singlesLabel": "Singles (sans album)",
 		"templateHelp": "Variables : {vars}. Les parties vides sont ignorées et l'extension du fichier est ajoutée automatiquement. {edition} est le qualificatif deluxe/spécial (vide pour l'édition standard, il disparaît donc), et {disc} n'apparaît que pour les albums multi-disques. Les morceaux sans album utilisent le modèle Singles ; les fichiers que nous ne parvenons pas à identifier (aucune balise d'artiste) utilisent le modèle Non identifiés.",
 		"title": "Modifier la bibliothèque",
-		"unknownLabel": "Morceaux non identifiés"
-	},
-	"downloads": {
-		"clearConfirm": {
-			"message": "Supprimer de cet appareil toutes les chansons téléchargées ?",
-			"title": "Effacer les téléchargements"
-		},
-		"clearError": "Impossible d'effacer les téléchargements",
-		"emptyState": "Les chansons que vous téléchargez se lisent sans connexion. Utilisez l'action Télécharger sur n'importe quel morceau pour l'enregistrer ici.",
-		"eyebrow": "Disponible hors ligne",
-		"navLabel": "Téléchargements",
-		"removeError": "Impossible de supprimer le téléchargement",
-		"removeTooltip": "Supprimer le téléchargement",
-		"songCount": "{count, plural, one {# chanson} other {# chansons}}",
-		"storedOnDevice": "stockées sur cet appareil",
-		"title": "Téléchargements"
+		"unknownLabel": "Morceaux non identifiés",
+		"iconNoMatches": "",
+		"iconReset": "",
+		"iconSearchPlaceholder": "",
+		"iconTabEmoji": "",
+		"iconTabIcons": ""
 	},
 	"hidden": {
 		"hide": "Masquer cette chanson",
@@ -96,7 +101,14 @@
 		"loading": "Chargement des bibliothèques…",
 		"newLibrary": "Nouvelle bibliothèque",
 		"sharedWithYou": "Partagées avec vous",
-		"title": "Vos bibliothèques"
+		"title": "Vos bibliothèques",
+		"addLibrary": "Ajouter une bibliothèque",
+		"connectServer": "",
+		"connectServerBody": "",
+		"openSetup": "",
+		"serverOffline": "",
+		"serverOnline": "",
+		"serverSummary": ""
 	},
 	"metadata": {
 		"intro": "Modifiez les métadonnées de cette bibliothèque uniquement. Vos modifications s'appliquent à toutes vos vues ; tout champ laissé vide conserve la valeur d'origine. Les modifications du catalogue global se font dans la page d'administration.",
@@ -118,7 +130,14 @@
 		"serverSelectHint": "Cette nouvelle bibliothèque sera créée sur le serveur sélectionné.",
 		"serverSelectLabel": "Serveur de bibliothèque",
 		"submit": "Ajouter une bibliothèque",
-		"title": "Nouvelle bibliothèque"
+		"title": "Nouvelle bibliothèque",
+		"addFailedAt": {
+			"hub": "",
+			"link": ""
+		},
+		"dialogTitle": "",
+		"notPairedHere": "",
+		"sandboxNote": ""
 	},
 	"pin": {
 		"pin": "Épingler",
@@ -179,12 +198,6 @@
 		"success": "Bibliothèque partagée avec succès.",
 		"title": "Partager « {name} »"
 	},
-	"sidebar": {
-		"pinned": "Épinglés",
-		"playlists": "",
-		"yourLibrary": "Votre bibliothèque"
-	},
-	"trackCount": "{count, plural, one {# morceau} other {# morceaux}}",
 	"shareManager": {
 		"title": "Amis et partage",
 		"help": "Qui a accès à cette bibliothèque, ce qu'ils en font et ce qu'ils sont autorisés à faire.",
@@ -203,5 +216,11 @@
 		"timeDaysHours": "{days}j {hours}h",
 		"timeHoursMinutes": "{hours}h {minutes}min",
 		"timeMinutes": "{minutes}min"
-	}
+	},
+	"sidebar": {
+		"pinned": "Épinglés",
+		"playlists": "",
+		"yourLibrary": "Votre bibliothèque"
+	},
+	"trackCount": "{count, plural, one {# morceau} other {# morceaux}}"
 }
