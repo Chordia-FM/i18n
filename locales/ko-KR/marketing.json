@@ -1,15 +1,116 @@
 {
 	"cta": {
-		"github": "GitHub에서 보기",
-		"openApp": "앱 열기"
+		"createAccount": "",
+		"github": "",
+		"note": "",
+		"openApp": "",
+		"readDocs": "",
+		"selfHost": "",
+		"signIn": "로그인"
 	},
-	"eyebrow": "내 음악을 소유하고 · 내 방식대로 공유하세요",
+	"eyebrow": "",
+	"faq": {
+		"cost": {
+			"a": "",
+			"q": ""
+		},
+		"formats": {
+			"a": "",
+			"q": ""
+		},
+		"heading": "",
+		"offline": {
+			"a": "",
+			"q": ""
+		},
+		"privacy": {
+			"a": "",
+			"q": ""
+		},
+		"server": {
+			"a": "",
+			"q": ""
+		},
+		"spotify": {
+			"a": "",
+			"q": ""
+		}
+	},
+	"features": {
+		"everywhere": {
+			"body": "",
+			"points": {
+				"a": "",
+				"b": "",
+				"c": ""
+			},
+			"title": ""
+		},
+		"heading": "",
+		"quality": {
+			"body": "",
+			"points": {
+				"a": "",
+				"b": "",
+				"c": ""
+			},
+			"title": ""
+		},
+		"sharing": {
+			"body": "",
+			"points": {
+				"a": "",
+				"b": "",
+				"c": ""
+			},
+			"title": ""
+		},
+		"subheading": "",
+		"yours": {
+			"body": "",
+			"points": {
+				"a": "",
+				"b": "",
+				"c": ""
+			},
+			"title": ""
+		}
+	},
+	"final": {
+		"body": "",
+		"title": ""
+	},
 	"footer": {
 		"github": "",
-		"license": "오픈 소스 · AGPL-3.0 ·"
+		"language": "언어",
+		"legal": {
+			"heading": "",
+			"license": "",
+			"privacy": "개인정보 보호",
+			"terms": ""
+		},
+		"license": "오픈 소스 · AGPL-3.0 ·",
+		"product": {
+			"features": "",
+			"heading": "",
+			"listening": "",
+			"selfHost": "",
+			"signUp": "계정 만들기"
+		},
+		"rights": "",
+		"source": {
+			"architecture": "",
+			"docs": "",
+			"github": "",
+			"heading": "",
+			"issues": ""
+		},
+		"tagline": ""
 	},
 	"hero": {
-		"paragraph": "하이브리드 방식의 자체 호스팅 음악 생태계. 라이브러리를 온전히 소유하면서도, 비트 퍼펙트 음질 그대로 사람들과 연결되는 소셜 스트리밍을 즐기세요."
+		"paragraph": "하이브리드 방식의 자체 호스팅 음악 생태계. 라이브러리를 온전히 소유하면서도, 비트 퍼펙트 음질 그대로 사람들과 연결되는 소셜 스트리밍을 즐기세요.",
+		"subtitle": "",
+		"title": ""
 	},
 	"pillars": {
 		"liveRooms": {
@@ -28,5 +129,66 @@
 			"body": "모든 재생 기록은 글로벌 계정에 스크로블되어 영구 보관됩니다. 서버를 옮겨도 그대로 남는 주간·월간·연간 인사이트를 확인하세요.",
 			"title": "평생 가는 Wrapped"
 		}
+	},
+	"proof": {
+		"heading": "",
+		"shots": {
+			"album": {
+				"alt": "",
+				"caption": ""
+			},
+			"friends": {
+				"alt": "",
+				"caption": ""
+			},
+			"insights": {
+				"alt": "",
+				"caption": ""
+			},
+			"listen": {
+				"alt": "",
+				"caption": ""
+			},
+			"mobile": {
+				"alt": "",
+				"caption": ""
+			}
+		},
+		"subheading": ""
+	},
+	"selfHost": {
+		"body": "",
+		"eyebrow": "",
+		"steps": {
+			"install": {
+				"body": "",
+				"title": ""
+			},
+			"pair": {
+				"body": "",
+				"title": ""
+			},
+			"scan": {
+				"body": "",
+				"title": ""
+			}
+		},
+		"title": ""
+	},
+	"social": {
+		"body": "",
+		"points": {
+			"a": "",
+			"b": "",
+			"c": "",
+			"d": ""
+		},
+		"title": ""
+	},
+	"trust": {
+		"formats": "",
+		"hardware": "",
+		"license": "",
+		"privacy": ""
 	}
 }
