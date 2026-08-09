@@ -18,9 +18,9 @@
 		"current": "Sortie actuelle",
 		"none": "Aucun périphérique de lecture trouvé.",
 		"pressPlay": "Lancez la lecture pour commencer ici",
-		"remoteHint": "",
 		"thisTab": "Cet onglet",
-		"title": "Périphérique de lecture"
+		"title": "Périphérique de lecture",
+		"unreachable": ""
 	},
 	"eqPreset": {
 		"acoustic": "Acoustique",
@@ -93,7 +93,6 @@
 	},
 	"plays": "{count, plural, one {# écoute} other {# écoutes}}",
 	"remote": {
-		"on": "",
 		"unnamedDevice": ""
 	},
 	"quality": {
