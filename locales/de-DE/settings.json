@@ -22,7 +22,7 @@
 		"sendConfirmation": "Bestätigung senden",
 		"title": "Konto",
 		"unverified": "",
-		"verificationSent": "Gesendet – prüfen Sie Ihren Posteingang",
+		"verificationSent": "",
 		"verified": ""
 	},
 	"appearance": {
@@ -62,7 +62,7 @@
 	},
 	"data": {
 		"body": "Laden Sie alles herunter, was Chordia über Sie speichert, oder löschen Sie Ihr Konto und alle zugehörigen Daten dauerhaft.",
-		"deleteAccountConfirm": "Ihr Konto und ALLE Ihre Daten dauerhaft löschen – Hörverlauf, Playlists, Bibliotheken und Freunde? Dies kann nicht rückgängig gemacht werden.",
+		"deleteAccountConfirm": "",
 		"deleteAccountTitle": "Konto löschen",
 		"deleteFailedBody": "Ihr Konto konnte derzeit nicht gelöscht werden. Bitte versuchen Sie es erneut.",
 		"deleteFailedTitle": "Löschen fehlgeschlagen",
@@ -222,11 +222,11 @@
 	},
 	"quality": {
 		"dataSaver": {
-			"desc": "~96 kbps Opus – minimale Datenmenge.",
+			"desc": "",
 			"label": "Datensparmodus"
 		},
 		"high": {
-			"desc": "~256 kbps AAC – für die meisten transparent.",
+			"desc": "",
 			"label": "Hoch"
 		},
 		"lossless": {
@@ -234,7 +234,7 @@
 			"label": "Verlustfrei"
 		},
 		"normal": {
-			"desc": "~128 kbps – ausgewogen.",
+			"desc": "",
 			"label": ""
 		},
 		"title": "Streaming-Qualität"
@@ -312,7 +312,7 @@
 		"enableCta": "Zwei-Faktor-Authentifizierung aktivieren",
 		"enabledHint": "2FA ist aktiviert. Um sie abzuschalten, geben Sie einen aktuellen Code oder einen Wiederherstellungscode ein.",
 		"qrAlt": "Zwei-Faktor-QR-Code",
-		"recoveryIntro": "2FA ist aktiviert. Bewahren Sie diese Wiederherstellungscodes sicher auf – jeder funktioniert einmal, falls Sie den Zugriff auf Ihre Authenticator-App verlieren.",
+		"recoveryIntro": "",
 		"scanHint": "Scannen Sie dies mit Ihrer Authenticator-App und geben Sie dann zur Bestätigung den 6-stelligen Code ein.",
 		"secretManual": "Oder geben Sie diesen geheimen Schlüssel manuell ein: {secret}",
 		"statusOff": "Aus",
