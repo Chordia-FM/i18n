@@ -142,7 +142,8 @@
 	},
 	"validation": {
 		"nameOrIconRequired": "Un nom ou une icône est requis.",
-		"nameRequired": "Le nom est requis."
+		"nameRequired": "Le nom est requis.",
+		"invalidIcon": ""
 	},
 	"valueEmpty": "La valeur ne peut pas être vide."
 }
