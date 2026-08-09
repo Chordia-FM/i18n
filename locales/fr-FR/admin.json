@@ -97,7 +97,8 @@
 		"uploadIcon": "Importer une icône",
 		"uploadLogo": "Importer un logo",
 		"useThisArt": "Utiliser : {kind}",
-		"useThisLogo": "Utiliser ce logo"
+		"useThisLogo": "Utiliser ce logo",
+		"searchHint": ""
 	},
 	"moderation": {
 		"loadFailed": ""
