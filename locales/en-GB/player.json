@@ -18,6 +18,7 @@
 		"current": "",
 		"none": "",
 		"pressPlay": "",
+		"remoteHint": "",
 		"thisTab": "",
 		"title": ""
 	},
@@ -91,6 +92,10 @@
 		"title": ""
 	},
 	"plays": "",
+	"remote": {
+		"on": "",
+		"unnamedDevice": ""
+	},
 	"quality": {
 		"change": "",
 		"dataPerHourGb": "",
