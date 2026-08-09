@@ -63,7 +63,7 @@
 			"card": "Todas as gravações ao vivo",
 			"label": "Coletânea ao vivo",
 			"subtitle": "{count, plural, one {De # álbum} other {De # álbuns}}",
-			"title": "{name} — Ao vivo"
+			"title": ""
 		},
 		"namesJoin": "",
 		"playlistsFeaturing": "",
@@ -130,7 +130,7 @@
 	},
 	"genres": {
 		"counts": "{albumsFormatted} {albums, plural, one {álbum} other {álbuns}} · {artistsFormatted} {artists, plural, one {artista} other {artistas}}",
-		"empty": "Ainda não há gêneros — eles chegam com os metadados dos álbuns conforme sua biblioteca é enriquecida.",
+		"empty": "",
 		"eyebrow": "Gênero",
 		"notFound": "Nenhum álbum tem esse gênero.",
 		"title": "Gêneros",
@@ -153,14 +153,14 @@
 		"noAlbums": "Nenhum álbum."
 	},
 	"labels": {
-		"empty": "Ainda não há gravadoras — elas são preenchidas conforme seu catálogo é enriquecido pelo MusicBrainz.",
+		"empty": "",
 		"title": "Gravadoras"
 	},
 	"lyrics": {
 		"heading": "Letra",
 		"placeholderPlain": "Primeira linha\nSegunda linha",
 		"placeholderSynced": "[00:00.00] Primeira linha\n[00:04.20] Segunda linha",
-		"plainHelp": "Letra simples — uma linha por vez, sem marcação de tempo.",
+		"plainHelp": "",
 		"resetDone": "Restaurada a letra buscada automaticamente",
 		"resetError": "Não foi possível redefinir a letra",
 		"resetToAuto": "Voltar ao automático",
