@@ -142,7 +142,8 @@
 	},
 	"validation": {
 		"nameOrIconRequired": "名前またはアイコンが必要です。",
-		"nameRequired": "名前は必須です。"
+		"nameRequired": "名前は必須です。",
+		"invalidIcon": ""
 	},
 	"valueEmpty": "値を空にすることはできません。"
 }
