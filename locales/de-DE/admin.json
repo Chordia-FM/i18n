@@ -124,7 +124,9 @@
 		"topAlbums": "Top-Alben",
 		"topArtists": "Top-Künstler",
 		"topTracks": "Top-Titel",
-		"withTotp": ""
+		"withTotp": "",
+		"window": "",
+		"year": ""
 	},
 	"reports": {
 		"createdAt": "",
@@ -175,7 +177,22 @@
 		"tracksMissingIsrcs": "",
 		"tracksMissingLyrics": "",
 		"tracksMissingRecording": "",
-		"version": ""
+		"version": "",
+		"rollupLagHelp": "",
+		"sizeDesc": "",
+		"jobStatus": {
+			"awaiting_selection": "",
+			"cancelled": "Abgebrochen",
+			"claimed": "",
+			"completed": "Abgeschlossen",
+			"downloading": "Wird heruntergeladen",
+			"failed": "Fehlgeschlagen",
+			"grabbing": "Wird geholt",
+			"importing": "Wird importiert",
+			"no_results": "",
+			"queued": "In Warteschlange",
+			"searching": "Suche läuft"
+		}
 	},
 	"tabs": {
 		"audit": "Audit-Protokoll",
@@ -186,6 +203,28 @@
 		"system": ""
 	},
 	"title": "Site-Administration",
+	"userDetail": {
+		"activeDays": "",
+		"back": "",
+		"device": "",
+		"history": "",
+		"joined": "",
+		"lastSeen": "",
+		"libraries": "Bibliotheken",
+		"librariesPlaylists": "",
+		"listeningTime": "",
+		"loadFailed": "",
+		"noHistory": "",
+		"noLibraries": "",
+		"noSessions": "",
+		"offline": "",
+		"online": "",
+		"owns": "",
+		"plays": "Wiedergaben",
+		"sessionMeta": "",
+		"sessions": "",
+		"unknownDevice": "Unbekanntes Gerät"
+	},
 	"users": {
 		"deleteConfirm": "@{handle} und ALLE zugehörigen Daten dauerhaft löschen? Dies kann nicht rückgängig gemacht werden.",
 		"deleteTitle": "Benutzer löschen",
