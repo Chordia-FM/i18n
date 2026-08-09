@@ -78,12 +78,12 @@
 			"climbedBy": "Sube {count, plural, one {# puesto} other {# puestos}}",
 			"climbers": "Subidas",
 			"empty": {
-				"body": "El movimiento en la clasificación compara este periodo con el anterior; aparece cuando ambos tienen reproducciones.",
+				"body": "",
 				"title": "Aún no hay nada que comparar"
 			},
 			"fallers": "Bajadas",
 			"fellBy": "Baja {count, plural, one {# puesto} other {# puestos}}",
-			"needsWindow": "El movimiento en la clasificación compara un periodo con el anterior; elige un periodo más corto para verlo.",
+			"needsWindow": "",
 			"new": "Nuevo",
 			"newcomers": "Nuevas entradas",
 			"none": "Sin movimiento en este periodo.",
@@ -214,7 +214,7 @@
 		"title": "Estadísticas de escucha"
 	},
 	"overview": {
-		"firstWindow": "{person, select, them {Es su primer periodo registrado; las comparaciones aparecerán cuando haya historial detrás.} other {Es tu primer periodo registrado; las comparaciones aparecerán cuando haya historial detrás.}}"
+		"firstWindow": ""
 	},
 	"panels": {
 		"activity": "Actividad",
@@ -253,7 +253,7 @@
 			"title": "Aún no hay récords"
 		},
 		"milestones": {
-			"beginning": "{person, select, them {Toda biblioteca empieza en algún punto: los hitos de números redondos irán apareciendo aquí a medida que sume reproducciones.} other {Toda biblioteca empieza en algún punto: los hitos de números redondos irán apareciendo aquí a medida que sumes reproducciones.}}",
+			"beginning": "",
 			"chip": "Todo el tiempo",
 			"curveAriaLabel": "Reproducciones acumuladas a lo largo del tiempo, un punto por hito",
 			"first": "Primera reproducción",
@@ -266,7 +266,7 @@
 			"title": "Hitos"
 		},
 		"onThisDay": {
-			"empty": "{person, select, them {Aún no hay recuerdos de esta fecha: se irán reuniendo aquí cuando su historial tenga un año.} other {Aún no hay recuerdos de esta fecha: se irán reuniendo aquí cuando tu historial tenga un año.}}",
+			"empty": "",
 			"title": "Un día como hoy",
 			"yearsAgo": "{count, plural, one {hace # año} other {hace # años}}"
 		},
@@ -282,7 +282,7 @@
 			"current": "Racha actual",
 			"days": "{count, plural, one {# día} other {# días}}",
 			"detail": "{range} · {plays, plural, one {# reproducción} other {# reproducciones}}",
-			"live": "Activa: sigue así",
+			"live": "",
 			"longest": "Racha más larga",
 			"noCurrent": {
 				"body": "{person, select, them {Nada activo en este momento.} other {Reproduce algo hoy para empezar una.}}",
@@ -394,7 +394,7 @@
 		},
 		"shareButton": "Compartir",
 		"shared": "Se compartió tu tarjeta de Wrapped.",
-		"sharedFallback": "No se pudo compartir: se guardó la tarjeta en tus descargas.",
+		"sharedFallback": "",
 		"sharing": "Compartiendo…",
 		"statLine": "{artists, number} artistas · {tracks, number} pistas",
 		"topArtists": "Artistas principales",
