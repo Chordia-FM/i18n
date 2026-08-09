@@ -10,6 +10,21 @@
 		"shareTitle": "Compartir esta biblioteca",
 		"trackCount": "{count, plural, one {# pista} other {# pistas}}"
 	},
+	"downloads": {
+		"clearConfirm": {
+			"message": "¿Quitar de este dispositivo todas las canciones descargadas?",
+			"title": "Borrar descargas"
+		},
+		"clearError": "No se pudieron borrar las descargas",
+		"emptyState": "Las canciones que descargues se reproducen sin conexión. Usa la acción Descargar en cualquier pista para guardarla aquí.",
+		"eyebrow": "Disponible sin conexión",
+		"navLabel": "Descargas",
+		"removeError": "No se pudo quitar la descarga",
+		"removeTooltip": "Quitar descarga",
+		"songCount": "{count, plural, one {# canción} other {# canciones}}",
+		"storedOnDevice": "guardadas en este dispositivo",
+		"title": "Descargas"
+	},
 	"edit": {
 		"albumsLabel": "Álbumes",
 		"dedupeLabel": "Quitar duplicados: conservar solo la copia de mayor calidad cuando varios archivos van al mismo sitio (si no, reciben sufijos (2), (3)…)",
@@ -58,22 +73,12 @@
 		"singlesLabel": "Sencillos (sin álbum)",
 		"templateHelp": "Variables: {vars}. Las partes vacías se omiten y la extensión del archivo se añade automáticamente. {edition} es el calificativo deluxe/especial (vacío en la edición estándar, así que desaparece) y {disc} solo aparece en álbumes de varios discos. Las pistas sin álbum usan la plantilla Sencillos; los archivos que no podemos identificar (sin etiqueta de artista) usan la de No identificados.",
 		"title": "Editar biblioteca",
-		"unknownLabel": "Pistas no identificadas"
-	},
-	"downloads": {
-		"clearConfirm": {
-			"message": "¿Quitar de este dispositivo todas las canciones descargadas?",
-			"title": "Borrar descargas"
-		},
-		"clearError": "No se pudieron borrar las descargas",
-		"emptyState": "Las canciones que descargues se reproducen sin conexión. Usa la acción Descargar en cualquier pista para guardarla aquí.",
-		"eyebrow": "Disponible sin conexión",
-		"navLabel": "Descargas",
-		"removeError": "No se pudo quitar la descarga",
-		"removeTooltip": "Quitar descarga",
-		"songCount": "{count, plural, one {# canción} other {# canciones}}",
-		"storedOnDevice": "guardadas en este dispositivo",
-		"title": "Descargas"
+		"unknownLabel": "Pistas no identificadas",
+		"iconNoMatches": "",
+		"iconReset": "",
+		"iconSearchPlaceholder": "",
+		"iconTabEmoji": "",
+		"iconTabIcons": ""
 	},
 	"hidden": {
 		"hide": "Ocultar esta canción",
@@ -96,7 +101,14 @@
 		"loading": "Cargando bibliotecas…",
 		"newLibrary": "Nueva biblioteca",
 		"sharedWithYou": "Compartidas contigo",
-		"title": "Tus bibliotecas"
+		"title": "Tus bibliotecas",
+		"addLibrary": "Añadir biblioteca",
+		"connectServer": "",
+		"connectServerBody": "",
+		"openSetup": "",
+		"serverOffline": "",
+		"serverOnline": "",
+		"serverSummary": ""
 	},
 	"metadata": {
 		"intro": "Edita los metadatos solo de esta biblioteca. Tus cambios se aplican en todas tus vistas; lo que dejes en blanco conserva el valor original. Las ediciones globales del catálogo están en la página de administración.",
@@ -118,7 +130,14 @@
 		"serverSelectHint": "La nueva biblioteca se creará en el servidor seleccionado.",
 		"serverSelectLabel": "Servidor de biblioteca",
 		"submit": "Añadir biblioteca",
-		"title": "Nueva biblioteca"
+		"title": "Nueva biblioteca",
+		"addFailedAt": {
+			"hub": "",
+			"link": ""
+		},
+		"dialogTitle": "",
+		"notPairedHere": "",
+		"sandboxNote": ""
 	},
 	"pin": {
 		"pin": "Fijar",
@@ -179,12 +198,6 @@
 		"success": "Biblioteca compartida correctamente.",
 		"title": "Compartir «{name}»"
 	},
-	"sidebar": {
-		"pinned": "Fijados",
-		"playlists": "Listas",
-		"yourLibrary": "Tu biblioteca"
-	},
-	"trackCount": "{count, plural, one {# pista} other {# pistas}}",
 	"shareManager": {
 		"title": "Amigos y uso compartido",
 		"help": "Quién tiene acceso a esta biblioteca, qué está haciendo con ella y qué puede hacer.",
@@ -203,5 +216,11 @@
 		"timeDaysHours": "",
 		"timeHoursMinutes": "{hours}h {minutes}min",
 		"timeMinutes": "{minutes}min"
-	}
+	},
+	"sidebar": {
+		"pinned": "Fijados",
+		"playlists": "Listas",
+		"yourLibrary": "Tu biblioteca"
+	},
+	"trackCount": "{count, plural, one {# pista} other {# pistas}}"
 }
