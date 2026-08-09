@@ -86,7 +86,10 @@
 			"sharing": "Sharing",
 			"organize": "Organize",
 			"danger": "Danger"
-		}
+		},
+		"autoRescanEvery": "rescans every {count, plural, one {# minute} other {# minutes}}",
+		"lastScanned": "Last scanned {date, date, medium} at {date, time, short}",
+		"lastScanUnknown": "Not scanned since this server started"
 	},
 	"hidden": {
 		"hide": "Hide this song",
