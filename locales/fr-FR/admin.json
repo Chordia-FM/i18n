@@ -124,7 +124,9 @@
 		"topAlbums": "",
 		"topArtists": "Top artistes",
 		"topTracks": "Top morceaux",
-		"withTotp": ""
+		"withTotp": "",
+		"window": "",
+		"year": ""
 	},
 	"reports": {
 		"createdAt": "",
@@ -175,7 +177,22 @@
 		"tracksMissingIsrcs": "",
 		"tracksMissingLyrics": "",
 		"tracksMissingRecording": "",
-		"version": ""
+		"version": "",
+		"rollupLagHelp": "",
+		"sizeDesc": "",
+		"jobStatus": {
+			"awaiting_selection": "",
+			"cancelled": "Annulé",
+			"claimed": "",
+			"completed": "Terminé",
+			"downloading": "Téléchargement",
+			"failed": "Échec",
+			"grabbing": "Récupération",
+			"importing": "Importation",
+			"no_results": "",
+			"queued": "En attente",
+			"searching": "Recherche"
+		}
 	},
 	"tabs": {
 		"audit": "Journal d'audit",
@@ -186,6 +203,28 @@
 		"system": ""
 	},
 	"title": "Administration du site",
+	"userDetail": {
+		"activeDays": "",
+		"back": "",
+		"device": "",
+		"history": "",
+		"joined": "",
+		"lastSeen": "",
+		"libraries": "Bibliothèques",
+		"librariesPlaylists": "",
+		"listeningTime": "",
+		"loadFailed": "",
+		"noHistory": "",
+		"noLibraries": "",
+		"noSessions": "",
+		"offline": "",
+		"online": "",
+		"owns": "",
+		"plays": "Écoutes",
+		"sessionMeta": "",
+		"sessions": "",
+		"unknownDevice": "Appareil inconnu"
+	},
 	"users": {
 		"deleteConfirm": "Supprimer définitivement @{handle} et TOUTES ses données ? Cette action est irréversible.",
 		"deleteTitle": "Supprimer un utilisateur",
