@@ -102,13 +102,9 @@
 			"type": "Typ",
 			"year": "Jahr"
 		},
-		"helpText": "Lassen Sie ein Feld leer, um den Originalwert zu behalten. Änderungen gelten nur für diese Bibliothek, sofern Sie nicht „Global überschreiben“ aktivieren.",
+		"helpText": "",
 		"noArtworkAlbum": "",
 		"noArtworkArtist": "",
-		"overrideGlobally": {
-			"help": "Diese Änderung auch im gesamten Katalog anzeigen (Ihre Bibliothek mit der höchsten Priorität gewinnt). Das Original bleibt unverändert, andere Nutzer sind nicht betroffen.",
-			"label": "Global überschreiben"
-		},
 		"reset": {
 			"confirmMessage": "Auf die ursprünglichen Metadaten zurücksetzen? Dadurch werden Ihre Änderungen an diesem Element verworfen.",
 			"confirmTitle": "Metadaten zurücksetzen"
@@ -122,7 +118,14 @@
 		"uploadBanner": "Banner hochladen",
 		"uploadCover": "Cover hochladen",
 		"uploadImage": "Bild hochladen",
-		"useThisArt": "{kind} verwenden"
+		"useThisArt": "{kind} verwenden",
+		"inherited": {
+			"badge": "",
+			"fromHub": "",
+			"notSet": "",
+			"revert": "",
+			"insert": ""
+		}
 	},
 	"entity": {
 		"artist": "Künstler",
