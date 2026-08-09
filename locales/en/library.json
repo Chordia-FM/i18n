@@ -10,6 +10,21 @@
 		"shareTitle": "Share this library",
 		"trackCount": "{count, plural, one {# track} other {# tracks}}"
 	},
+	"downloads": {
+		"clearConfirm": {
+			"message": "Remove all downloaded songs from this device?",
+			"title": "Clear downloads"
+		},
+		"clearError": "Couldn't clear downloads",
+		"emptyState": "Songs you download play without a connection. Use the Download action on any track to save it here.",
+		"eyebrow": "Available offline",
+		"navLabel": "Downloads",
+		"removeError": "Couldn't remove download",
+		"removeTooltip": "Remove download",
+		"songCount": "{count, plural, one {# song} other {# songs}}",
+		"storedOnDevice": "stored on this device",
+		"title": "Downloads"
+	},
 	"edit": {
 		"albumsLabel": "Albums",
 		"dedupeLabel": "De-duplicate - keep only the highest-quality copy when files land in the same place (otherwise they get (2), (3)… suffixes)",
@@ -60,21 +75,6 @@
 		"title": "Edit library",
 		"unknownLabel": "Unidentified tracks"
 	},
-	"downloads": {
-		"clearConfirm": {
-			"message": "Remove all downloaded songs from this device?",
-			"title": "Clear downloads"
-		},
-		"clearError": "Couldn't clear downloads",
-		"emptyState": "Songs you download play without a connection. Use the Download action on any track to save it here.",
-		"eyebrow": "Available offline",
-		"navLabel": "Downloads",
-		"removeError": "Couldn't remove download",
-		"removeTooltip": "Remove download",
-		"songCount": "{count, plural, one {# song} other {# songs}}",
-		"storedOnDevice": "stored on this device",
-		"title": "Downloads"
-	},
 	"hidden": {
 		"hide": "Hide this song",
 		"unhide": "Unhide"
@@ -96,7 +96,14 @@
 		"loading": "Loading libraries…",
 		"newLibrary": "New library",
 		"sharedWithYou": "Shared with you",
-		"title": "Your Libraries"
+		"title": "Your Libraries",
+		"addLibrary": "Add library",
+		"connectServer": "Connect a server",
+		"connectServerBody": "A server is a machine of yours running Chordia's library server. It prints a one-time setup link when it starts; open that link on this device to pair it. Your browser cannot find a server it has not been told about.",
+		"openSetup": "Go to pairing",
+		"serverOffline": "Offline",
+		"serverOnline": "Online",
+		"serverSummary": "{libraries, plural, one {# library} other {# libraries}} · {tracks, plural, one {# track} other {# tracks}}"
 	},
 	"metadata": {
 		"intro": "Edit metadata for this library only. Your changes apply across your views; anything you leave blank keeps the original value. Global catalog edits live in the admin page.",
@@ -179,12 +186,6 @@
 		"success": "Library shared successfully.",
 		"title": "Share \"{name}\""
 	},
-	"sidebar": {
-		"pinned": "Pinned",
-		"playlists": "Playlists",
-		"yourLibrary": "Your Library"
-	},
-	"trackCount": "{count, plural, one {# track} other {# tracks}}",
 	"shareManager": {
 		"title": "Friends & sharing",
 		"help": "Who has access to this library, what they're doing with it, and what they're allowed to do.",
@@ -203,5 +204,11 @@
 		"timeDaysHours": "{days}d {hours}h",
 		"timeHoursMinutes": "{hours}h {minutes}m",
 		"timeMinutes": "{minutes}m"
-	}
+	},
+	"sidebar": {
+		"pinned": "Pinned",
+		"playlists": "Playlists",
+		"yourLibrary": "Your Library"
+	},
+	"trackCount": "{count, plural, one {# track} other {# tracks}}"
 }
