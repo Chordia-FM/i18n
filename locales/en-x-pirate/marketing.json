@@ -9,14 +9,14 @@
 	"eyebrow": "Bring yer own shanties",
 	"faq": {
 		"cost": {
-			"a": "Th' software be free an' stays free. It's AGPL-3.0 an' all o' it be on GitHub. Th' hosted account on chordia.dev be free durin' early access, an' if that e'er changes, self-hostin' stays complete rather than becomin' a crippled community edition."
+			"a": "Playin' yer own shanties be free an' always will be; chargin' ye t' listen t' files ye own would be absurd. Th' software be AGPL-3.0 an' all o' it be on GitHub. A paid tier may arrive later fer extras built on top, an' self-hostin' will stay complete rather than becomin' a crippled community edition."
 		},
 		"formats": {
-			"a": "FLAC, ALAC, WAV, AIFF, MP3, AAC, Ogg an' Opus. Dolby Atmos an' other spatial mixes pass through untouched, because re-encodin' somethin' we can't improve helps nobody."
+			"a": "FLAC, ALAC, WAV, AIFF, MP3, AAC, Ogg an' Opus. Dolby Atmos an' other spatial mixes pass through untouched, because re-encodin' somethin' we cannot improve helps nobody."
 		},
 		"heading": "Questions scallywags actually ask",
 		"offline": {
-			"a": "Aye. Plunder an treasure t' yer phone an' it plays wi' no signal an' no server. Th' files live in th' app, not in a stream ye have t' keep alive."
+			"a": "Aye. Plunder an treasure an' it plays wi' no signal an' no server. Th' files live on th' device, not in a stream ye have t' keep alive."
 		},
 		"privacy": {
 			"a": "Yer audio ne'er reaches our servers, not even as a cache. Yer phone talks straight t' yer hoard o'er an encrypted connection. We hold yer account, yer hearties list an' yer play history, an' ye can export or scuttle all o' it whenever ye like.",
@@ -26,29 +26,29 @@
 			"a": "Yer files need somewhere t' live: an old laptop, a NAS, a Raspberry Pi, or a cheap VPS. Th' hoard server runs on all o' 'em. Point it at a folder an' it takes it from thar."
 		},
 		"spotify": {
-			"a": "Not quite. Chordia plays th' shanties ye already have rather than a catalogue ye rent. Bring yer rips, yer Bandcamp booty, yer Qobuz purchases. If a folder o' files be yer idea o' a record collection, ye be in th' right place.",
+			"a": "Not quite. Chordia plays th' shanties ye already have rather than a catalogue ye rent. Bring th' treasures ye bought, yer Bandcamp booty, yer Qobuz purchases. If a folder o' files be yer idea o' a record collection, ye be in th' right place.",
 			"q": "Be this a Spotify replacement?"
 		}
 	},
 	"features": {
 		"everywhere": {
-			"body": "Web, desktop, an' a phone that behaves like a real shanties app: lock-screen controls, a workin' scrub bar in th' notification shade, gapless playback, crossfade, an' an equalizer that remembers what ye did t' it.",
+			"body": "Chordia runs in th' browser on any machine ye sign in on, an' installs t' yer port screen on a phone. Gapless playback, crossfade an' an equalizer that remembers what ye did t' it.",
 			"points": {
 				"a": "Pick up on yer phone exactly where th' desktop left off.",
-				"b": "Plunder afore a flight an' play wi' no signal at all.",
+				"b": "Plunder an treasure fer th' flight an' play it wi' no signal.",
 				"c": "Volume levelled across treasures so nothin' blows yer ears off."
 			},
-			"title": "Everywhere ye actually listen"
+			"title": "Everywhere ye sign in"
 		},
 		"heading": "What ye get",
 		"quality": {
-			"body": "Original quality be a byte-fer-byte stream wi' no transcode step an' no quiet downgrade. On a train wi' two bars Chordia steps down t' protect yer data, says so, an' steps back up when th' signal returns.",
+			"body": "Original quality be a byte-fer-byte stream wi' no transcode step an' no silent downgrade. On a train wi' two bars Chordia steps down t' protect yer data, tells ye it has, an' steps back up when th' signal returns.",
 			"points": {
-				"a": "FLAC, ALAC an' WAV streamed exactly as ye ripped 'em.",
+				"a": "FLAC, ALAC an' WAV streamed exactly as they be on disk.",
 				"b": "Atmos an' other spatial mixes pass through untouched.",
 				"c": "Ye decide whether it's e'er allowed t' drop quality."
 			},
-			"title": "Th' bits ye ripped, not th' bits we'd prefer"
+			"title": "Full quality, or nothin' quietly changed"
 		},
 		"sharing": {
 			"body": "Split yer collection into as many hoards as ye like, then hand each one t' exactly th' hearties ye choose. They browse an' stream it like it were always theirs. Ye can see what they played, an' ye can take it back in one click.",
@@ -83,19 +83,19 @@
 		"tagline": "Shanties ye own, everywhere ye be."
 	},
 	"hero": {
-		"subtitle": "Chordia streams th' shanties ye already own. Th' FLAC rips, th' Bandcamp booty, th' folder ye've dragged across three laptops. It goes from wherever ye keep it straight t' yer phone, at th' quality ye ripped it, an' none o' it passes through us.",
+		"subtitle": "Chordia streams th' shanties ye already own. Th' treasures ye bought, th' Bandcamp booty, th' folder ye have dragged across three laptops. It goes from wherever ye keep it straight t' yer devices, at full quality, an' none o' it passes through us.",
 		"title": "Yer hoard, on every device ye own"
 	},
 	"proof": {
-		"heading": "This be th' actual app",
+		"heading": "This be th' app",
 		"shots": {
 			"album": {
 				"alt": "An treasure page in Chordia showin' cover art, th' tracklist an' th' source file quality",
-				"caption": "Every ditty shows what it really be: format, bit depth, sample rate. No guessin'."
+				"caption": "Treasures keep their artwork, their runnin' order an' their play counts."
 			},
 			"friends": {
-				"alt": "Th' hearties page in Chordia showin' what scallywags be listenin' t' right now",
-				"caption": "See what hearties be playin' right now, an' open th' same treasure in one tap."
+				"alt": "Th' hearties page in Chordia showin' a matey list an' a pendin' request",
+				"caption": "Divvy up a hoard wi' a matey an' they can browse an' play it straight from yer server."
 			},
 			"insights": {
 				"alt": "Th' listenin' insights page in Chordia showin' charts o' plays o'er time",
@@ -107,10 +107,10 @@
 			},
 			"mobile": {
 				"alt": "Chordia on a phone showin' th' full-screen player wi' cover art an' controls",
-				"caption": "On a phone it's a phone app: lock-screen controls, offline booty, real gestures."
+				"caption": "On a phone it fills th' screen: artwork, controls, lyrics an' th' muster."
 			}
 		},
-		"subheading": "No blurred mockups. These be th' screens ye'll spend yer time in."
+		"subheading": "Real screens from a real hoard, not a mockup."
 	},
 	"selfHost": {
 		"body": "Chordia be two pieces. A Hub holds accounts, hearties an' history. A hoard server holds yer shanties an' streams it. Use our Hub an' run yer own hoard, or run both yerself an' ne'er talk t' us at all.",
@@ -136,8 +136,7 @@
 		"points": {
 			"a": "Wrapped every week, not once a year as a marketin' stunt.",
 			"b": "First-listen dates, streaks, an' th' treasure ye played 47 times in March.",
-			"c": "Listenin' rooms: same shanty, same second, wi' a muster all hands can push t'.",
-			"d": "Scrobbles t' Last.fm as well, if that's where yer history already lives."
+			"c": "Scrobbles t' Last.fm as well, if that be where yer history already lives."
 		},
 		"title": "A listenin' history that outlives every service ye quit"
 	},

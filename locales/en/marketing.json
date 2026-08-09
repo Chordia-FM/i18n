@@ -2,7 +2,6 @@
 	"cta": {
 		"createAccount": "Create your free account",
 		"github": "Read the source",
-		"note": "Free while we're in early access. No card, no countdown.",
 		"openApp": "Open Chordia",
 		"readDocs": "Read the docs",
 		"selfHost": "Rather run it yourself?",
@@ -11,16 +10,16 @@
 	"eyebrow": "Bring your own music",
 	"faq": {
 		"cost": {
-			"a": "The software is free and stays free. It's AGPL-3.0 and all of it is on GitHub. The hosted account on chordia.dev is free during early access, and if that ever changes, self-hosting stays complete rather than becoming a crippled community edition.",
+			"a": "Playing your own music is free and always will be; charging you to listen to files you own would be absurd. The software is AGPL-3.0 and all of it is on GitHub. A paid tier may arrive later for extras built on top, and self-hosting will stay complete rather than becoming a crippled community edition.",
 			"q": "What does this cost?"
 		},
 		"formats": {
-			"a": "FLAC, ALAC, WAV, AIFF, MP3, AAC, Ogg and Opus. Dolby Atmos and other spatial mixes pass through untouched, because re-encoding something we can't improve helps nobody.",
+			"a": "FLAC, ALAC, WAV, AIFF, MP3, AAC, Ogg and Opus. Dolby Atmos and other spatial mixes pass through untouched, because re-encoding something we cannot improve helps nobody.",
 			"q": "Which formats work?"
 		},
 		"heading": "Questions people actually ask",
 		"offline": {
-			"a": "Yes. Download an album to your phone and it plays with no signal and no server. The files live in the app, not in a stream you have to keep alive.",
+			"a": "Yes. Download an album and it plays with no signal and no server. The files live on the device, not in a stream you have to keep alive.",
 			"q": "Does it work on a plane?"
 		},
 		"privacy": {
@@ -32,29 +31,29 @@
 			"q": "Do I need a server?"
 		},
 		"spotify": {
-			"a": "Not quite. Chordia plays the music you already have rather than a catalogue you rent. Bring your rips, your Bandcamp downloads, your Qobuz purchases. If a folder of files is your idea of a record collection, you're in the right place.",
+			"a": "Not quite. Chordia plays the music you already have rather than a catalogue you rent. Bring the albums you bought, your Bandcamp downloads, your Qobuz purchases. If a folder of files is your idea of a record collection, you are in the right place.",
 			"q": "Is this a Spotify replacement?"
 		}
 	},
 	"features": {
 		"everywhere": {
-			"body": "Web, desktop, and a phone that behaves like a real music app: lock-screen controls, a working scrub bar in the notification shade, gapless playback, crossfade, and an equalizer that remembers what you did to it.",
+			"body": "Chordia runs in the browser on any machine you sign in on, and installs to your home screen on a phone. Gapless playback, crossfade and an equalizer that remembers what you did to it.",
 			"points": {
 				"a": "Pick up on your phone exactly where the desktop left off.",
-				"b": "Download before a flight and play with no signal at all.",
+				"b": "Download an album for the flight and play it with no signal.",
 				"c": "Volume levelled across albums so nothing blows your ears off."
 			},
-			"title": "Everywhere you actually listen"
+			"title": "Everywhere you sign in"
 		},
 		"heading": "What you get",
 		"quality": {
-			"body": "Original quality is a byte-for-byte stream with no transcode step and no quiet downgrade. On a train with two bars Chordia steps down to protect your data, says so, and steps back up when the signal returns.",
+			"body": "Original quality is a byte-for-byte stream with no transcode step and no silent downgrade. On a train with two bars Chordia steps down to protect your data, tells you it has, and steps back up when the signal returns.",
 			"points": {
-				"a": "FLAC, ALAC and WAV streamed exactly as you ripped them.",
+				"a": "FLAC, ALAC and WAV streamed exactly as they are on disk.",
 				"b": "Atmos and other spatial mixes pass through untouched.",
 				"c": "You decide whether it's ever allowed to drop quality."
 			},
-			"title": "The bits you ripped, not the bits we'd prefer"
+			"title": "Full quality, or nothing quietly changed"
 		},
 		"sharing": {
 			"body": "Split your collection into as many libraries as you like, then hand each one to exactly the friends you choose. They browse and stream it like it was always theirs. You can see what they played, and you can take it back in one click.",
@@ -106,19 +105,19 @@
 		"tagline": "Music you own, everywhere you are."
 	},
 	"hero": {
-		"subtitle": "Chordia streams the music you already own. The FLAC rips, the Bandcamp downloads, the folder you've dragged across three laptops. It goes from wherever you keep it straight to your phone, at the quality you ripped it, and none of it passes through us.",
+		"subtitle": "Chordia streams the music you already own. The albums you bought, the Bandcamp downloads, the folder you have dragged across three laptops. It goes from wherever you keep it straight to your devices, at full quality, and none of it passes through us.",
 		"title": "Your library, on every device you own"
 	},
 	"proof": {
-		"heading": "This is the actual app",
+		"heading": "This is the app",
 		"shots": {
 			"album": {
 				"alt": "An album page in Chordia showing cover art, the tracklist and the source file quality",
-				"caption": "Every track shows what it really is: format, bit depth, sample rate. No guessing."
+				"caption": "Albums keep their artwork, their running order and their play counts."
 			},
 			"friends": {
-				"alt": "The friends page in Chordia showing what people are listening to right now",
-				"caption": "See what friends are playing right now, and open the same album in one tap."
+				"alt": "The friends page in Chordia showing a friend list and a pending request",
+				"caption": "Share a library with a friend and they can browse and play it straight from your server."
 			},
 			"insights": {
 				"alt": "The listening insights page in Chordia showing charts of plays over time",
@@ -130,10 +129,10 @@
 			},
 			"mobile": {
 				"alt": "Chordia on a phone showing the full-screen player with cover art and controls",
-				"caption": "On a phone it's a phone app: lock-screen controls, offline downloads, real gestures."
+				"caption": "On a phone it fills the screen: artwork, controls, lyrics and the queue."
 			}
 		},
-		"subheading": "No blurred mockups. These are the screens you'll spend your time in."
+		"subheading": "Real screens from a real library, not a mockup."
 	},
 	"selfHost": {
 		"body": "Chordia is two pieces. A Hub holds accounts, friends and history. A library server holds your music and streams it. Use our Hub and run your own library, or run both yourself and never talk to us at all.",
@@ -159,8 +158,7 @@
 		"points": {
 			"a": "Wrapped every week, not once a year as a marketing stunt.",
 			"b": "First-listen dates, streaks, and the album you played 47 times in March.",
-			"c": "Listening rooms: same song, same second, with a queue everyone can push to.",
-			"d": "Scrobbles to Last.fm as well, if that's where your history already lives."
+			"c": "Scrobbles to Last.fm as well, if that is where your history already lives."
 		},
 		"title": "A listening history that outlives every service you quit"
 	},
