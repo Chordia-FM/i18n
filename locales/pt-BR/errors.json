@@ -19,7 +19,7 @@
 		"passwordRange": "A senha deve ter de 8 a 1.024 caracteres.",
 		"passwordUnchanged": "",
 		"tooManyAttempts": "",
-		"twoFactorAlreadyEnabled": "A autenticação de dois fatores já está ativada — desative-a primeiro.",
+		"twoFactorAlreadyEnabled": "",
 		"twoFactorNotEnabled": "A autenticação de dois fatores não está ativada.",
 		"twoFactorStartFirst": "Inicie primeiro a configuração de dois fatores."
 	},
@@ -31,7 +31,7 @@
 		"unknownArtist": "Artista desconhecido.",
 		"unknownImageHash": "Imagem desconhecida."
 	},
-	"changeFailed": "Não foi possível salvar essa alteração — tente novamente.",
+	"changeFailed": "",
 	"copyFailed": "",
 	"debug": {
 		"copied": "",
