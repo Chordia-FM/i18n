@@ -47,6 +47,14 @@
 		"starting": "",
 		"title": ""
 	},
+	"explorer": {
+		"description": "",
+		"loadFailed": "",
+		"rowCount": "",
+		"searchPlaceholder": "",
+		"onDisk": "",
+		"rowCountCapped": ""
+	},
 	"metadata": {
 		"artistSubtitle": "",
 		"artworkAlt": "",
@@ -126,7 +134,28 @@
 		"topTracks": "",
 		"withTotp": "",
 		"window": "",
-		"year": ""
+		"year": "",
+		"accountsGained": "",
+		"accountsOverTime": "",
+		"accountsTotal": "",
+		"busiestDay": "",
+		"coverage": "",
+		"coverage2fa": "",
+		"coverageActive": "",
+		"coverageVerified": "",
+		"daily": "",
+		"hoursTotal": "",
+		"hoursValue": "",
+		"listeningHours": "",
+		"monthly": "",
+		"noData": "",
+		"peakListeners": "",
+		"signupsTotal": "",
+		"stickiness": "",
+		"weekdayMix": "",
+		"weekly": "",
+		"playlists": "",
+		"labelsCount": ""
 	},
 	"reports": {
 		"createdAt": "",
@@ -200,7 +229,8 @@
 		"moderation": "",
 		"users": "",
 		"overview": "",
-		"system": ""
+		"system": "",
+		"explorer": ""
 	},
 	"title": "",
 	"userDetail": {
