@@ -10,6 +10,21 @@
 		"shareTitle": "Compartilhar esta biblioteca",
 		"trackCount": "{count, plural, one {# faixa} other {# faixas}}"
 	},
+	"downloads": {
+		"clearConfirm": {
+			"message": "Remover deste dispositivo todas as músicas baixadas?",
+			"title": "Limpar downloads"
+		},
+		"clearError": "Não foi possível limpar os downloads",
+		"emptyState": "As músicas que você baixa tocam sem conexão. Use a ação Baixar em qualquer faixa para guardá-la aqui.",
+		"eyebrow": "Disponível offline",
+		"navLabel": "",
+		"removeError": "Não foi possível remover o download",
+		"removeTooltip": "Remover download",
+		"songCount": "{count, plural, one {# música} other {# músicas}}",
+		"storedOnDevice": "guardadas neste dispositivo",
+		"title": ""
+	},
 	"edit": {
 		"albumsLabel": "Álbuns",
 		"dedupeLabel": "Remover duplicatas — manter só a cópia de melhor qualidade quando os arquivos forem parar no mesmo lugar (senão eles ganham sufixos (2), (3)…)",
@@ -58,22 +73,12 @@
 		"singlesLabel": "Singles (sem álbum)",
 		"templateHelp": "Variáveis: {vars}. As partes vazias são ignoradas e a extensão do arquivo é adicionada automaticamente. {edition} é o qualificador deluxe/especial (vazio na edição padrão, então ele some), e {disc} só aparece em álbuns com vários discos. Faixas sem álbum usam o modelo Singles; arquivos que não conseguimos identificar (sem tag de artista) usam o modelo Não identificado.",
 		"title": "Editar biblioteca",
-		"unknownLabel": "Faixas não identificadas"
-	},
-	"downloads": {
-		"clearConfirm": {
-			"message": "Remover deste dispositivo todas as músicas baixadas?",
-			"title": "Limpar downloads"
-		},
-		"clearError": "Não foi possível limpar os downloads",
-		"emptyState": "As músicas que você baixa tocam sem conexão. Use a ação Baixar em qualquer faixa para guardá-la aqui.",
-		"eyebrow": "Disponível offline",
-		"navLabel": "",
-		"removeError": "Não foi possível remover o download",
-		"removeTooltip": "Remover download",
-		"songCount": "{count, plural, one {# música} other {# músicas}}",
-		"storedOnDevice": "guardadas neste dispositivo",
-		"title": ""
+		"unknownLabel": "Faixas não identificadas",
+		"iconNoMatches": "",
+		"iconReset": "",
+		"iconSearchPlaceholder": "",
+		"iconTabEmoji": "",
+		"iconTabIcons": ""
 	},
 	"hidden": {
 		"hide": "Ocultar esta música",
@@ -96,7 +101,14 @@
 		"loading": "Carregando bibliotecas…",
 		"newLibrary": "Nova biblioteca",
 		"sharedWithYou": "Compartilhadas com você",
-		"title": "Suas bibliotecas"
+		"title": "Suas bibliotecas",
+		"addLibrary": "Adicionar biblioteca",
+		"connectServer": "",
+		"connectServerBody": "",
+		"openSetup": "",
+		"serverOffline": "",
+		"serverOnline": "",
+		"serverSummary": ""
 	},
 	"metadata": {
 		"intro": "Edite os metadados só desta biblioteca. Suas alterações valem em todas as suas telas; o que você deixar em branco mantém o valor original. As edições do catálogo global ficam na página de administração.",
@@ -118,7 +130,14 @@
 		"serverSelectHint": "Esta nova biblioteca será criada no servidor selecionado.",
 		"serverSelectLabel": "Servidor de biblioteca",
 		"submit": "Adicionar biblioteca",
-		"title": "Nova biblioteca"
+		"title": "Nova biblioteca",
+		"addFailedAt": {
+			"hub": "",
+			"link": ""
+		},
+		"dialogTitle": "",
+		"notPairedHere": "",
+		"sandboxNote": ""
 	},
 	"pin": {
 		"pin": "Fixar",
@@ -179,12 +198,6 @@
 		"success": "Biblioteca compartilhada com sucesso.",
 		"title": "Compartilhar \"{name}\""
 	},
-	"sidebar": {
-		"pinned": "Fixados",
-		"playlists": "",
-		"yourLibrary": "Sua biblioteca"
-	},
-	"trackCount": "{count, plural, one {# faixa} other {# faixas}}",
 	"shareManager": {
 		"title": "Amigos e compartilhamento",
 		"help": "Quem tem acesso a esta biblioteca, o que essas pessoas estão fazendo com ela e o que elas podem fazer.",
@@ -203,5 +216,11 @@
 		"timeDaysHours": "",
 		"timeHoursMinutes": "",
 		"timeMinutes": ""
-	}
+	},
+	"sidebar": {
+		"pinned": "Fixados",
+		"playlists": "",
+		"yourLibrary": "Sua biblioteca"
+	},
+	"trackCount": "{count, plural, one {# faixa} other {# faixas}}"
 }
