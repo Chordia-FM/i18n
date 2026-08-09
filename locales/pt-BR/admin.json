@@ -124,7 +124,9 @@
 		"topAlbums": "Principais álbuns",
 		"topArtists": "Principais artistas",
 		"topTracks": "Principais faixas",
-		"withTotp": ""
+		"withTotp": "",
+		"window": "",
+		"year": ""
 	},
 	"reports": {
 		"createdAt": "",
@@ -175,7 +177,22 @@
 		"tracksMissingIsrcs": "",
 		"tracksMissingLyrics": "",
 		"tracksMissingRecording": "",
-		"version": ""
+		"version": "",
+		"rollupLagHelp": "",
+		"sizeDesc": "",
+		"jobStatus": {
+			"awaiting_selection": "",
+			"cancelled": "Cancelado",
+			"claimed": "",
+			"completed": "Concluído",
+			"downloading": "Baixando",
+			"failed": "Falhou",
+			"grabbing": "Obtendo",
+			"importing": "Importando",
+			"no_results": "",
+			"queued": "Na fila",
+			"searching": "Buscando"
+		}
 	},
 	"tabs": {
 		"audit": "Registro de auditoria",
@@ -186,6 +203,28 @@
 		"system": ""
 	},
 	"title": "Administração do site",
+	"userDetail": {
+		"activeDays": "",
+		"back": "",
+		"device": "",
+		"history": "",
+		"joined": "",
+		"lastSeen": "",
+		"libraries": "Bibliotecas",
+		"librariesPlaylists": "",
+		"listeningTime": "",
+		"loadFailed": "",
+		"noHistory": "",
+		"noLibraries": "",
+		"noSessions": "",
+		"offline": "",
+		"online": "",
+		"owns": "",
+		"plays": "Reproduções",
+		"sessionMeta": "",
+		"sessions": "",
+		"unknownDevice": "Dispositivo desconhecido"
+	},
 	"users": {
 		"deleteConfirm": "Excluir permanentemente @{handle} e TODOS os seus dados? Isso não pode ser desfeito.",
 		"deleteTitle": "Excluir usuário",
