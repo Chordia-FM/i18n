@@ -97,7 +97,8 @@
 		"uploadIcon": "Subir icono",
 		"uploadLogo": "Subir logotipo",
 		"useThisArt": "Usar {kind}",
-		"useThisLogo": "Usar este logotipo"
+		"useThisLogo": "Usar este logotipo",
+		"searchHint": ""
 	},
 	"moderation": {
 		"loadFailed": ""
