@@ -7,6 +7,21 @@
 		"shareTitle": "Divvy up this hoard",
 		"trackCount": "{count, plural, one {# ditty} other {# ditties}}"
 	},
+	"downloads": {
+		"clearConfirm": {
+			"message": "Cast off all plundered shanties from this device?",
+			"title": "Clear booty"
+		},
+		"clearError": "Couldn't clear booty",
+		"emptyState": "Shanties ye plunder play without a connection. Use th' Plunder action on any ditty t' stow it here.",
+		"eyebrow": "Plays even adrift",
+		"navLabel": "Booty",
+		"removeError": "Couldn't cast off plunder",
+		"removeTooltip": "Cast off plunder",
+		"songCount": "{count, plural, one {# shanty} other {# shanties}}",
+		"storedOnDevice": "stashed in yer sea chest",
+		"title": "Booty"
+	},
 	"edit": {
 		"albumsLabel": "Treasures",
 		"dedupeLabel": "De-duplicate - keep only th' highest-quality copy when files land in th' same place (otherwise they get (2), (3)… suffixes)",
@@ -44,22 +59,13 @@
 		"singlesLabel": "Singles (no treasure)",
 		"templateHelp": "Variables: {vars}. Empty parts be skipped an' th' file extension be added automatically. {edition} be th' deluxe/special qualifier (empty fer th' standard edition, so it collapses), an' {disc} only appears fer multi-disc treasures. Ditties wi' no treasure use th' Singles template; files we can't identify (no artist tag) use th' Unidentified one.",
 		"title": "Edit hoard",
-		"unknownLabel": "Unidentified ditties"
-	},
-	"downloads": {
-		"clearConfirm": {
-			"message": "Cast off all plundered shanties from this device?",
-			"title": "Clear booty"
-		},
-		"clearError": "Couldn't clear booty",
-		"emptyState": "Shanties ye plunder play without a connection. Use th' Plunder action on any ditty t' stow it here.",
-		"eyebrow": "Plays even adrift",
-		"navLabel": "Booty",
-		"removeError": "Couldn't cast off plunder",
-		"removeTooltip": "Cast off plunder",
-		"songCount": "{count, plural, one {# shanty} other {# shanties}}",
-		"storedOnDevice": "stashed in yer sea chest",
-		"title": "Booty"
+		"unknownLabel": "Unidentified ditties",
+		"iconNoMatches": "Nothin' matches that.",
+		"iconReset": "Reset t' default",
+		"iconSearchPlaceholder": "Hunt icons",
+		"tabs": {
+			"sharing": "Divvyin' up"
+		}
 	},
 	"hidden": {
 		"hide": "Hide this shanty"
@@ -81,12 +87,17 @@
 		"loading": "Loadin' hoards…",
 		"newLibrary": "New hoard",
 		"sharedWithYou": "Divvied wi' ye",
-		"title": "Yer Hoards"
+		"title": "Yer Hoards",
+		"addLibrary": "Add hoard",
+		"connectServerBody": "A server be a machine o' yers runnin' Chordia's hoard server. It prints a one-time setup link when it starts; open that link on this device t' pair it. Yer browser cannot spy a server it has not been told about.",
+		"openSetup": "Go t' pairin'",
+		"serverSummary": "{libraries, plural, one {# hoard} other {# hoards}} · {tracks, plural, one {# ditty} other {# ditties}}"
 	},
 	"metadata": {
 		"intro": "Edit metadata fer this hoard only. Yer changes apply across yer views; anythin' ye leave blank keeps th' original value. Global catalog edits live in th' admin page.",
 		"noMatches": "Nary a match.",
-		"searchPlaceholder": "Hunt artists, treasures, or ditties…"
+		"searchPlaceholder": "Hunt artists, treasures, or ditties…",
+		"searchHint": "Keep typin': {count, plural, one {# character} other {# characters}} at least."
 	},
 	"new": {
 		"addFailed": "Failed t' add hoard",
@@ -98,7 +109,14 @@
 		"serverSelectHint": "This new hoard will be created on th' selected server.",
 		"serverSelectLabel": "Hoard server",
 		"submit": "Add hoard",
-		"title": "New hoard"
+		"title": "New hoard",
+		"addFailedAt": {
+			"hub": "Th' folder were added t' yer server, but Chordia could not create th' hoard. Try again; if it keeps failin' th' folder be already thar an' only th' hoard be missin'. {detail}",
+			"link": "Th' hoard were created but could not be linked t' th' folder on yer server. Cast off it an' add it again. {detail}"
+		},
+		"dialogTitle": "Add a hoard",
+		"notPairedHere": "This device does not hold management credentials fer that server. Open th' server's setup link on this device t' pair it again.",
+		"sandboxNote": "A hoard be a folder on {host}. Browsin' be limited t' that machine's shanties folder, an' nothin' else on it be reachable from here."
 	},
 	"setup": {
 		"addFolderFailed": "Failed t' add folder",
@@ -119,6 +137,7 @@
 		"insideDataMusic": "Inside {path} on th' server",
 		"listDirFailed": "Failed t' list directory",
 		"missingParams": "Missin' setup parameters. Pray open th' link printed in th' hoard server terminal.",
+		"missingParamsTitle": "This setup link be incomplete",
 		"pair": {
 			"connect": "Lash on",
 			"connecting": "Comin' alongside…",
@@ -145,11 +164,6 @@
 		"success": "Hoard divvied successfully.",
 		"title": "Divvy up \"{name}\""
 	},
-	"sidebar": {
-		"playlists": "Charts",
-		"yourLibrary": "Yer Hoard"
-	},
-	"trackCount": "{count, plural, one {# ditty} other {# ditties}}",
 	"shareManager": {
 		"title": "Hearties & spoils",
 		"help": "Who has access t' this hoard, what they're doin' wi' it, an' what they're allowed t' do.",
@@ -161,8 +175,13 @@
 		"thisLibrary": "This hoard",
 		"grantAccess": "Give access t' {name}",
 		"removeAccess": "Cast off access t' {name}",
-		"streamingNow": "Streamin' now: {title} — {artist}",
+		"streamingNow": "Streamin' now: {title} · {artist}",
 		"statsLine": "{requests} requested · {downloads} plundered · {plays} plays · {time} listened",
-		"updateFailed": "Couldn't update divvyin' up — try again."
-	}
+		"updateFailed": "Couldn't update divvyin' up. Try again."
+	},
+	"sidebar": {
+		"playlists": "Charts",
+		"yourLibrary": "Yer Hoard"
+	},
+	"trackCount": "{count, plural, one {# ditty} other {# ditties}}"
 }

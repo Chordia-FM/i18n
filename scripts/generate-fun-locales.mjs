@@ -42,6 +42,22 @@ function matchBrace(s, open) {
 	return -1;
 }
 
+/**
+ * Double an apostrophe that ICU would read as an escape.
+ *
+ * In ICU MessageFormat `'` only quotes when it immediately precedes `{`, `}` or `#`, and doubling
+ * it is how you say "I meant the character". The pirate dialect elides trailing g's, so a plural
+ * branch ending in a verb produces `…listenin'}` — the apostrophe swallows the closing brace and
+ * the whole message stops parsing. Two catalogs shipped broken that way before the regeneration
+ * that surfaced this.
+ *
+ * Applied once at the outermost transform, never inside the recursion, or a second pass would turn
+ * a correct `''` into `''''`.
+ */
+export function escapeStrayApostrophes(text) {
+	return text.replace(/'(?=[{}#])/g, "''");
+}
+
 /** Apply `fn` to every run of literal text in an ICU message, leaving the machinery alone. */
 export function mapMessage(text, fn) {
 	let out = "";
@@ -357,7 +373,9 @@ export const toPirate = keepingProtected((text) =>
 
 /** Full pirate transform for one message: curated phrase first, else ICU-safe word work. */
 export function piratify(message) {
-	return PIRATE_PHRASES.get(message) ?? mapMessage(message, toPirate);
+	return escapeStrayApostrophes(
+		PIRATE_PHRASES.get(message) ?? mapMessage(message, toPirate),
+	);
 }
 
 // ── Pig Latin ──────────────────────────────────────────────────────────────────────────────────
@@ -388,7 +406,7 @@ const toPigLatin = keepingProtected((text) => text.replace(/[A-Za-z]+/g, toPigLa
 
 /** Full pig latin transform for one message. */
 export function piglatinify(message) {
-	return mapMessage(message, toPigLatin);
+	return escapeStrayApostrophes(mapMessage(message, toPigLatin));
 }
 
 // ── Generation ─────────────────────────────────────────────────────────────────────────────────

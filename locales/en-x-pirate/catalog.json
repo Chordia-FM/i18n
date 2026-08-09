@@ -11,17 +11,29 @@
 			"savedCount": "{count, plural, one {Plundered # shanty} other {Plundered # shanties}}",
 			"savedPartial": "Plundered {saved}, {failed} failed"
 		},
+		"goToRadio": "Go t' artist radio",
 		"songCount": "{count, plural, one {# shanty} other {# shanties}}"
 	},
 	"artist": {
 		"albums": "Treasures",
+		"albumsFeaturing": "Treasures featurin' {name}",
 		"card": {
 			"albumCount": "{count, plural, one {# treasure} other {# treasures}}"
 		},
+		"discographyAll": {
+			"filter": {
+				"albums": "Treasures",
+				"featuring": "Featurin'"
+			},
+			"empty": "Nothin' here yet."
+		},
+		"followedToast": "Followin' {name}. Ye'll see their new releases",
+		"following": "Followin'",
 		"liveAlbum": {
 			"card": "All live recordin's",
 			"subtitle": "{count, plural, one {From # treasure} other {From # treasures}}"
 		},
+		"playlistsFeaturing": "Charts featurin' {name}",
 		"radio": "Pirate radio",
 		"relation": {
 			"member": "Member o' / members"
@@ -33,9 +45,9 @@
 			"album": "Treasure",
 			"trackNo": "Ditty #"
 		},
-		"helpText": "Leave a field blank t' keep th' original. Changes be stored fer this hoard only, unless ye enable “Override globally”.",
-		"noArtworkAlbum": "No covers spied — th' treasure needs a MusicBrainz match.",
-		"noArtworkArtist": "No online artwork spied — needs a fanart.tv API key an' a MusicBrainz match.",
+		"helpText": "Leave a field empty t' use th' Hub's value. Anythin' ye type here applies t' this hoard only an' ne'er changes th' divvied catalog.",
+		"noArtworkAlbum": "No covers spied. Cover Art Archive may not have any fer this release.",
+		"noArtworkArtist": "No artwork spied. fanart.tv may not have any fer this artist, or this Hub has no fanart.tv key.",
 		"reset": {
 			"confirmMessage": "Reset t' original metadata? This clears yer edits fer this item."
 		},
@@ -43,11 +55,18 @@
 		"title": {
 			"album": "Edit treasure",
 			"track": "Edit ditty"
+		},
+		"inherited": {
+			"badge": "Yer value",
+			"fromHub": "From th' Hub",
+			"notSet": "Not set on th' Hub",
+			"revert": "Use th' Hub's",
+			"insert": "Edit th' Hub's"
 		}
 	},
 	"genres": {
 		"counts": "{albumsFormatted} {albums, plural, one {treasure} other {treasures}} · {artistsFormatted} {artists, plural, one {artist} other {artists}}",
-		"empty": "No genres yet — they arrive wi' treasure metadata as yer hoard be enriched.",
+		"empty": "No genres yet. They arrive wi' treasure metadata as yer hoard be enriched.",
 		"notFound": "No treasures carry that genre.",
 		"topAlbums": "Choicest treasures",
 		"topArtists": "Choicest minstrels"
@@ -58,10 +77,10 @@
 		"noAlbums": "No treasures."
 	},
 	"labels": {
-		"empty": "No labels yet — they fill in as yer catalog be enriched from MusicBrainz."
+		"empty": "No labels yet. They fill in as yer catalog be enriched from MusicBrainz."
 	},
 	"lyrics": {
-		"plainHelp": "Plain lyrics — one line each, no timin'.",
+		"plainHelp": "Plain lyrics, one line each, wi' no timin'.",
 		"resetDone": "Reset t' auto-fetched lyrics",
 		"resetToAuto": "Reset t' auto",
 		"resetToAutoTitle": "Forget this edit an' re-fetch from th' provider",
@@ -109,7 +128,8 @@
 			"savedNamed": "Plundered {title}"
 		},
 		"explicit": "Salty",
-		"playAria": "Strike up {title} by {artist}"
+		"playAria": "Strike up {title} by {artist}",
+		"reorderAria": "{title}, position {position} o' {count}"
 	},
 	"trackCount": "{count, plural, one {# ditty} other {# ditties}}"
 }

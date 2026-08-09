@@ -10,6 +10,21 @@
 		"shareTitle": "Areshay isthay ibrarylay",
 		"trackCount": "{count, plural, one {# acktray} other {# ackstray}}"
 	},
+	"downloads": {
+		"clearConfirm": {
+			"message": "Emoveray allway ownloadedday ongssay omfray isthay eviceday?",
+			"title": "Earclay ownloadsday"
+		},
+		"clearError": "Ouldncay't earclay ownloadsday",
+		"emptyState": "Ongssay ouyay ownloadday ayplay ithoutway away onnectioncay. Useway ethay Ownloadday actionway onway anyway acktray otay avesay itway erehay.",
+		"eyebrow": "Availableway offlineway",
+		"navLabel": "Ownloadsday",
+		"removeError": "Ouldncay't emoveray ownloadday",
+		"removeTooltip": "Emoveray ownloadday",
+		"songCount": "{count, plural, one {# ongsay} other {# ongssay}}",
+		"storedOnDevice": "oredstay onway isthay eviceday",
+		"title": "Ownloadsday"
+	},
 	"edit": {
 		"albumsLabel": "Albumsway",
 		"dedupeLabel": "Eday-uplicateday - eepkay onlyway ethay ighesthay-ualityqay opycay enwhay ilesfay andlay inway ethay amesay aceplay (otherwiseway eythay etgay (2), (3)… uffixessay)",
@@ -58,22 +73,23 @@
 		"singlesLabel": "Inglessay (onay albumway)",
 		"templateHelp": "Ariablesvay: {vars}. Emptyway artspay areway ippedskay andway ethay ilefay extensionway isway addedway automaticallyway. {edition} isway ethay eluxeday/ecialspay ualifierqay (emptyway orfay ethay andardstay editionway, osay itway ollapsescay), andway {disc} onlyway appearsway orfay ultimay-iscday albumsway. Ackstray ithway onay albumway useway ethay Inglessay emplatetay; ilesfay eway ancay't identifyway (onay artistway agtay) useway ethay Unidentifiedway oneway.",
 		"title": "Editway ibrarylay",
-		"unknownLabel": "Unidentifiedway ackstray"
-	},
-	"downloads": {
-		"clearConfirm": {
-			"message": "Emoveray allway ownloadedday ongssay omfray isthay eviceday?",
-			"title": "Earclay ownloadsday"
+		"unknownLabel": "Unidentifiedway ackstray",
+		"iconNoMatches": "Othingnay atchesmay atthay.",
+		"iconReset": "Esetray otay efaultday",
+		"iconSearchPlaceholder": "Earchsay iconsway",
+		"iconTabEmoji": "Emojiway",
+		"iconTabIcons": "Iconsway",
+		"tabs": {
+			"general": "Eneralgay",
+			"metadata": "Etadatamay",
+			"folders": "Oldersfay",
+			"sharing": "Aringshay",
+			"organize": "Organizeway",
+			"danger": "Angerday"
 		},
-		"clearError": "Ouldncay't earclay ownloadsday",
-		"emptyState": "Ongssay ouyay ownloadday ayplay ithoutway away onnectioncay. Useway ethay Ownloadday actionway onway anyway acktray otay avesay itway erehay.",
-		"eyebrow": "Availableway offlineway",
-		"navLabel": "Ownloadsday",
-		"removeError": "Ouldncay't emoveray ownloadday",
-		"removeTooltip": "Emoveray ownloadday",
-		"songCount": "{count, plural, one {# ongsay} other {# ongssay}}",
-		"storedOnDevice": "oredstay onway isthay eviceday",
-		"title": "Ownloadsday"
+		"autoRescanEvery": "escansray everyway {count, plural, one {# inutemay} other {# inutesmay}}",
+		"lastScanned": "Astlay annedscay {date, date, medium} atway {date, time, short}",
+		"lastScanUnknown": "Otnay annedscay incesay isthay erversay artedstay"
 	},
 	"hidden": {
 		"hide": "Idehay isthay ongsay",
@@ -96,13 +112,21 @@
 		"loading": "Oadinglay ibrarieslay…",
 		"newLibrary": "Ewnay ibrarylay",
 		"sharedWithYou": "Aredshay ithway ouyay",
-		"title": "Ouryay Ibrarieslay"
+		"title": "Ouryay Ibrarieslay",
+		"addLibrary": "Addway ibrarylay",
+		"connectServer": "Onnectcay away erversay",
+		"connectServerBody": "Away erversay isway away achinemay ofway oursyay unningray Chordia's ibrarylay erversay. Itway intspray away oneway-imetay etupsay inklay enwhay itway artsstay; openway atthay inklay onway isthay eviceday otay airpay itway. Ouryay owserbray annotcay indfay away erversay itway ashay otnay eenbay oldtay aboutway.",
+		"openSetup": "Ogay otay airingpay",
+		"serverOffline": "Offlineway",
+		"serverOnline": "Onlineway",
+		"serverSummary": "{libraries, plural, one {# ibrarylay} other {# ibrarieslay}} · {tracks, plural, one {# acktray} other {# ackstray}}"
 	},
 	"metadata": {
 		"intro": "Editway etadatamay orfay isthay ibrarylay onlyway. Ouryay angeschay applyway acrossway ouryay iewsvay; anythingway ouyay eavelay ankblay eepskay ethay originalway aluevay. Obalglay atalogcay editsway ivelay inway ethay adminway agepay.",
 		"noMatches": "Onay atchesmay.",
 		"searchPlaceholder": "Earchsay artistsway, albumsway, orway ackstray…",
-		"title": "Etadatamay"
+		"title": "Etadatamay",
+		"searchHint": "Eepkay ypingtay: {count, plural, one {# aracterchay} other {# aracterschay}} atway eastlay."
 	},
 	"new": {
 		"addFailed": "Ailedfay otay addway ibrarylay",
@@ -117,7 +141,14 @@
 		"serverSelectHint": "Isthay ewnay ibrarylay illway ebay eatedcray onway ethay electedsay erversay.",
 		"serverSelectLabel": "Ibrarylay erversay",
 		"submit": "Addway ibrarylay",
-		"title": "Ewnay ibrarylay"
+		"title": "Ewnay ibrarylay",
+		"addFailedAt": {
+			"hub": "Ethay olderfay asway addedway otay ouryay erversay, utbay Chordia ouldcay otnay eatecray ethay ibrarylay. Ytray againway; ifway itway eepskay ailingfay ethay olderfay isway alreadyway erethay andway onlyway ethay ibrarylay isway issingmay. {detail}",
+			"link": "Ethay ibrarylay asway eatedcray utbay ouldcay otnay ebay inkedlay otay ethay olderfay onway ouryay erversay. Emoveray itway andway addway itway againway. {detail}"
+		},
+		"dialogTitle": "Addway away ibrarylay",
+		"notPairedHere": "Isthay eviceday oesday otnay oldhay anagementmay edentialscray orfay atthay erversay. Openway ethay erversay's etupsay inklay onway isthay eviceday otay airpay itway againway.",
+		"sandboxNote": "Away ibrarylay isway away olderfay onway {host}. Owsingbray isway imitedlay otay atthay achinemay's usicmay olderfay, andway othingnay elseway onway itway isway eachableray omfray erehay."
 	},
 	"pin": {
 		"pin": "Inpay",
@@ -145,6 +176,7 @@
 		"insideDataMusic": "Insideway {path} onway ethay erversay",
 		"listDirFailed": "Ailedfay otay istlay irectoryday",
 		"missingParams": "Issingmay etupsay arameterspay. Easeplay openway ethay inklay intedpray inway ethay ibrarylay erversay erminaltay.",
+		"missingParamsTitle": "Isthay etupsay inklay isway incompleteway",
 		"noFolderSelected": "Onay olderfay electedsay",
 		"noSubdirectories": "Onay ubdirectoriessay erehay",
 		"pair": {
@@ -177,12 +209,6 @@
 		"success": "Ibrarylay aredshay uccessfullysay.",
 		"title": "Areshay \"{name}\""
 	},
-	"sidebar": {
-		"pinned": "Innedpay",
-		"playlists": "Aylistsplay",
-		"yourLibrary": "Ouryay Ibrarylay"
-	},
-	"trackCount": "{count, plural, one {# acktray} other {# ackstray}}",
 	"shareManager": {
 		"title": "Iendsfray & aringshay",
 		"help": "Owhay ashay accessway otay isthay ibrarylay, atwhay eythay'eray oingday ithway itway, andway atwhay eythay'eray allowedway otay oday.",
@@ -194,9 +220,15 @@
 		"thisLibrary": "Isthay ibrarylay",
 		"grantAccess": "Ivegay accessway otay {name}",
 		"removeAccess": "Emoveray accessway otay {name}",
-		"streamingNow": "Eamingstray ownay: {title} — {artist}",
+		"streamingNow": "Eamingstray ownay: {title} · {artist}",
 		"statsLine": "{requests} equestedray · {downloads} ownloadedday · {plays} aysplay · {time} istenedlay",
 		"lastPlayed": "astlay ayedplay {date}",
-		"updateFailed": "Ouldncay't updateway aringshay — ytray againway."
-	}
+		"updateFailed": "Ouldncay't updateway aringshay. Ytray againway."
+	},
+	"sidebar": {
+		"pinned": "Innedpay",
+		"playlists": "Aylistsplay",
+		"yourLibrary": "Ouryay Ibrarylay"
+	},
+	"trackCount": "{count, plural, one {# acktray} other {# ackstray}}"
 }

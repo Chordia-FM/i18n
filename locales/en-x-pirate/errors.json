@@ -4,39 +4,66 @@
 	},
 	"auth": {
 		"badCredentials": "Wrong email or watchword, matey.",
+		"currentPasswordWrong": "That's not yer current watchword.",
 		"emailInUse": "That email be already in use.",
 		"emailInvalid": "A valid email address be required.",
 		"handleChars": "Username may contain only letters, digits, “_” an' “-”, an' must start wi' a letter or digit.",
+		"noPasswordSet": "This account doesn't have a watchword yet.",
 		"passwordLength": "Watchword must be {min}–{max} characters.",
 		"passwordRange": "Watchword must be 8–1024 characters.",
-		"twoFactorAlreadyEnabled": "Two-factor authentication be already enabled — disable it first.",
+		"passwordUnchanged": "That's th' same as yer current watchword.",
+		"tooManyAttempts": "Too many attempts. Wait a few minutes an' try again.",
+		"twoFactorAlreadyEnabled": "Two-factor authentication be already enabled. Disable it first.",
 		"twoFactorNotEnabled": "Two-factor authentication be not enabled."
 	},
 	"catalog": {
-		"albumLoadFailed": "Lost at sea",
-		"artistLoadFailed": "Lost at sea"
+		"albumLoadFailed": "Couldn't load this treasure"
 	},
-	"changeFailed": "Couldn't stow that change — pray try again.",
+	"changeFailed": "Couldn't stow that change. Pray try again.",
+	"copyFailed": "Couldn't copy t' th' clipboard. Select th' text an' copy it manually.",
+	"debug": {
+		"hint": "Th' report covers when an' where th' calamity happened, ne'er yer account or yer hoard.",
+		"manualCopy": "Copyin' ain't available here. Select th' text below an' copy it yerself."
+	},
 	"directory": {
 		"serverOffline": "That server be offline."
 	},
 	"failedToLoad": "Lost at sea",
+	"follows": {
+		"cannotFollowSelf": "Ye can't follow yerself.",
+		"notOpen": "That account ain't acceptin' new followers."
+	},
 	"friends": {
 		"cannotFriendSelf": "Ye can't send a matey request t' yerself."
 	},
 	"generic": "Sunk",
+	"http": {
+		"badRequest": "Somethin' about that request wasn't valid.",
+		"conflict": "That conflicts wi' somethin' that already exists.",
+		"forbidden": "Ye don't have access t' that.",
+		"network": "Couldn't reach th' server. Check yer connection an' try again.",
+		"notFound": "We couldn't spy that.",
+		"serverError": "Th' server ran into a problem. This one be on us.",
+		"timeout": "Th' request took too long. Try again.",
+		"tooLarge": "That's too large t' upload.",
+		"tooManyRequests": "Too many requests. Give it a moment an' try again.",
+		"unauthorized": "Ye need t' sign in t' do that.",
+		"unavailable": "Th' server be unavailable right now. Try again in a moment.",
+		"unknown": "Somethin' went wrong."
+	},
 	"image": {
 		"empty": "Th' image be empty.",
 		"hashMismatch": "Image content didn't match th' expected hash.",
-		"tooLarge": "Image be too large (max 8 MiB)."
+		"invalidImage": "That file ain't an image we can read.",
+		"tooLarge": "Image be too large (max 8 MiB).",
+		"tooManyPixels": "That image be too big t' process (max 8000 x 8000, an' 50 megapixels overall)."
 	},
 	"insights": {
 		"compareSelf": "Ye can't compare wi' yerself.",
 		"compatibilityNotFound": "No deckhand wi' that handle.",
 		"compatibilityPrivate": "That user's listenin' activity be private.",
-		"loadFriendActivityFailed": "Failed t' load matey activity",
-		"loadHistoryFailed": "Failed t' load history",
-		"loadStatsFailed": "Failed t' load stats",
+		"loadFriendActivityFailed": "Couldn't load what yer hearties be playin'",
+		"loadHistoryFailed": "Couldn't load yer listenin' history",
 		"milestoneRange": "Pick a play number o' 1 or more.",
 		"pagingPair": "before_ms an' before_id must be provided together."
 	},
@@ -66,13 +93,16 @@
 		"withSelf": "Ye can't divvy up wi' yerself."
 	},
 	"user": {
+		"bioTooLong": "Yer bio can be at most 500 characters.",
 		"handleGenFailed": "Couldn't generate a unique handle fer this Discord account.",
 		"handleOrEmailTaken": "That handle or email be already taken.",
 		"handleTaken": "That handle be already taken.",
-		"notFound": "No deckhand wi' that handle."
+		"notFound": "No deckhand wi' that handle.",
+		"tooManyLinks": "Ye can add at most 8 links."
 	},
 	"validation": {
 		"nameOrIconRequired": "A name or icon be required.",
-		"nameRequired": "Name be required."
+		"nameRequired": "Name be required.",
+		"invalidIcon": "That be not an icon Chordia can store. Pick one from th' list, or a single emoji."
 	}
 }

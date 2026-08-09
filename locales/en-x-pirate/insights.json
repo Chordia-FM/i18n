@@ -52,10 +52,10 @@
 		},
 		"movers": {
 			"empty": {
-				"body": "Chart movement compares this window wi' th' one afore it — it appears once both have plays.",
+				"body": "Chart movement compares this window wi' th' one afore it. It appears once both have plays.",
 				"title": "Nothin' t' compare yet"
 			},
-			"needsWindow": "Chart movement compares a window wi' th' one afore it — pick a shorter period t' see it.",
+			"needsWindow": "Chart movement compares a window wi' th' one afore it. Pick a shorter period t' see it.",
 			"reentry": "Back on th' chart",
 			"vsPrevious": {
 				"day": "vs th' 24 hours afore",
@@ -141,7 +141,7 @@
 		"title": "Listenin' insights"
 	},
 	"overview": {
-		"firstWindow": "{person, select, them {Their first window on record — comparisons will appear once thar be history behind it.} other {Yer first window on record — comparisons will appear once thar be history behind it.}}"
+		"firstWindow": "{person, select, them {Their first window on record. Comparisons will appear once thar be history behind it.} other {Yer first window on record. Comparisons will appear once thar be history behind it.}}"
 	},
 	"panels": {
 		"clockHeatmap": "Listenin' by weekday an' hour",
@@ -167,7 +167,7 @@
 			"body": "{person, select, them {Streaks, records, an' milestones build as they listen.} other {Streaks, records, an' milestones build as ye listen.}}"
 		},
 		"milestones": {
-			"beginning": "{person, select, them {Every hoard starts somewhere — round-number milestones will land here as their plays add up.} other {Every hoard starts somewhere — round-number milestones will land here as yer plays add up.}}",
+			"beginning": "{person, select, them {Every hoard starts somewhere. Round-number milestones will land here as their plays add up.} other {Every hoard starts somewhere. Round-number milestones will land here as yer plays add up.}}",
 			"curveAriaLabel": "Cumulative plays o'er time, one point per milestone",
 			"lookup": {
 				"outOfRange": "Thar ain't that many plays on record yet.",
@@ -175,7 +175,7 @@
 			}
 		},
 		"onThisDay": {
-			"empty": "{person, select, them {No memories on this date yet — they'll gather here once their history be a year deep.} other {No memories on this date yet — they'll gather here once yer history be a year deep.}}"
+			"empty": "{person, select, them {No memories on this date yet. They'll gather here once their history be a year deep.} other {No memories on this date yet. They'll gather here once yer history be a year deep.}}"
 		},
 		"sessions": {
 			"ariaLabel": "Th' longest listenin' sessions",
@@ -184,7 +184,7 @@
 		},
 		"streaks": {
 			"alsoLongest": "Longest e'er",
-			"live": "Active — keep it goin'",
+			"live": "Active, keep it goin'",
 			"noCurrent": {
 				"body": "{person, select, them {Nothin' active right now.} other {Play somethin' today t' start one.}}"
 			}
@@ -238,7 +238,7 @@
 		},
 		"shareButton": "Divvy up",
 		"shared": "Divvied yer Wrapped card.",
-		"sharedFallback": "Couldn't divvy up — stowed th' card t' yer booty instead.",
+		"sharedFallback": "Couldn't divvy up. Stowed th' card t' yer booty instead.",
 		"sharing": "Divvyin' up…",
 		"statLine": "{artists, number} artists · {tracks, number} ditties",
 		"topArtists": "Choicest minstrels",

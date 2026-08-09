@@ -22,22 +22,35 @@
 		"savePresetPlaceholder": "Stow current as preset…",
 		"yourPresetsGroup": "Yer presets"
 	},
+	"expanded": {
+		"nowPlaying": "Now playin'",
+		"queue": "Th' muster"
+	},
 	"lyrics": {
 		"loading": "Loadin' lyrics…",
 		"none": "No lyrics available fer this ditty.",
 		"nothingPlaying": "All quiet on deck.",
 		"returnToCurrent": "Return t' current line"
 	},
+	"notPlaying": "Becalmed",
+	"nothingPlaying": "All quiet on deck.",
 	"nowPlaying": {
 		"aboutArtist": "Th' legend o' {name}",
 		"albumFallback": "Treasure",
 		"playingFrom": "Playin' from",
 		"title": "Now playin'"
 	},
-	"notPlaying": "Becalmed",
-	"nothingPlaying": "All quiet on deck.",
+	"quality": {
+		"hearing": "Ye be hearin'",
+		"reduced": {
+			"adaptive": "Reduced from {selected}. Th' connection can't keep up right now"
+		},
+		"streaming": "Streamin'",
+		"upTo": "Up t' {value}"
+	},
 	"queue": {
 		"add": "Add t' th' muster",
+		"addedAlbum": "{count, plural, one {Added # ditty t' th' muster} other {Added # ditties t' th' muster}}",
 		"empty": "Th' muster be empty.",
 		"nothingPlayed": "Nothin' played yet.",
 		"playNext": "Strike up next",
@@ -46,10 +59,6 @@
 		"repeatOne": "Repeat one be on - this shanty will keep replayin'.",
 		"thenRepeating": "Then repeatin'",
 		"title": "Th' muster"
-	},
-	"quality": {
-		"streaming": "Streamin'",
-		"upTo": "Up t' {value}"
 	},
 	"sleepTimer": {
 		"endOfTrack": "End o' ditty",

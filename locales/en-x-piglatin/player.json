@@ -59,6 +59,15 @@
 		"title": "Equalizerway",
 		"yourPresetsGroup": "Ouryay esetspray"
 	},
+	"expanded": {
+		"collapse": "Ollapsecay ayerplay",
+		"expand": "Openway ullfay ayerplay",
+		"lyrics": "Yricslay",
+		"more": "Oremay optionsway",
+		"nowPlaying": "Ownay ayingplay",
+		"queue": "Ueueqay",
+		"tabs": "Ayerplay iewvay"
+	},
 	"fullscreen": {
 		"enter": "Ullscreenfay",
 		"exit": "Exitway ullscreenfay"
@@ -71,17 +80,40 @@
 		"title": "Yricslay"
 	},
 	"monthlyListeners": "{count, plural, one {# onthlymay istenerlay} other {# onthlymay istenerslay}}",
+	"notPlaying": "Otnay ayingplay",
+	"nothingPlaying": "Othingnay ayingplay etyay.",
 	"nowPlaying": {
 		"aboutArtist": "Aboutway {name}",
 		"albumFallback": "Albumway",
 		"playingFrom": "Ayingplay omfray",
 		"title": "Ownay ayingplay"
 	},
-	"notPlaying": "Otnay ayingplay",
-	"nothingPlaying": "Othingnay ayingplay etyay.",
 	"plays": "{count, plural, one {# ayplay} other {# aysplay}}",
+	"quality": {
+		"change": "Angechay",
+		"dataPerHourGb": "~{value} GB/ourhay",
+		"dataPerHourMb": "~{value} MB/ourhay",
+		"hearing": "Ouyay'eray earinghay",
+		"lossless": "Osslesslay",
+		"lossy": "Ossylay",
+		"loudness": "Oudnesslay",
+		"originalFile": "Originalway ilefay",
+		"originalSourceFile": "Originalway ourcesay ilefay",
+		"reduced": {
+			"adaptive": "Educedray omfray {selected}. Ethay onnectioncay ancay't eepkay upway ightray ownay",
+			"network": "Imitedlay omfray {selected} ybay isthay onnectioncay"
+		},
+		"restore": "Itchsway ackbay",
+		"source": "Ourcesay",
+		"spatial": " · Atialspay",
+		"streaming": "Eamingstray",
+		"title": "Ilefay ualityqay",
+		"upTo": "Upway otay {value}"
+	},
 	"queue": {
 		"add": "Addway otay ueueqay",
+		"addedAlbum": "{count, plural, one {Addedway # acktray otay ethay ueueqay} other {Addedway # ackstray otay ethay ueueqay}}",
+		"autoplayNext": "Autoplayway",
 		"empty": "Ueueqay isway emptyway.",
 		"nextUp": "Extnay upway",
 		"nothingPlayed": "Othingnay ayedplay etyay.",
@@ -91,20 +123,6 @@
 		"repeatOne": "Epeatray oneway isway onway - isthay ongsay illway eepkay eplayingray.",
 		"thenRepeating": "Enthay epeatingray",
 		"title": "Ueueqay"
-	},
-	"quality": {
-		"change": "Angechay",
-		"dataPerHourGb": "~{value} GB/ourhay",
-		"dataPerHourMb": "~{value} MB/ourhay",
-		"loudness": "Oudnesslay",
-		"lossless": "Osslesslay",
-		"lossy": "Ossylay",
-		"originalSourceFile": "Originalway ourcesay ilefay",
-		"source": "Ourcesay",
-		"spatial": " · Atialspay",
-		"streaming": "Eamingstray",
-		"title": "Ilefay ualityqay",
-		"upTo": "Upway otay {value}"
 	},
 	"sleepTimer": {
 		"endOfTrack": "Endway ofway acktray",

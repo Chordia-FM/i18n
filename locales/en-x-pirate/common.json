@@ -12,12 +12,18 @@
 		"download": "Plunder",
 		"find": "Spy",
 		"goHome": "Back t' port",
+		"goToAlbum": "Go t' treasure",
+		"goToArtist": "Go t' artist",
+		"next": "Onward",
 		"ok": "Aye",
+		"pause": "Avast!",
 		"play": "Strike up",
+		"previous": "Astern",
 		"remove": "Cast off",
 		"save": "Stow it",
 		"search": "Hunt",
 		"share": "Divvy up",
+		"shuffleOffFor": "Turn off shuffle fer {name}",
 		"signOut": "Abandon ship",
 		"tryAgain": "Give 'er another go",
 		"undo": "As ye were"
@@ -28,6 +34,7 @@
 		},
 		"noMatches": "Nary a match.",
 		"placeholder": "Hunt shanties or jump t' a page…",
+		"searchFor": "Hunt fer “{query}”",
 		"typeToSearch": "Type t' hunt."
 	},
 	"error": {
@@ -35,6 +42,9 @@
 	},
 	"errors": {
 		"saveFailed": "Couldn't stow it."
+	},
+	"image": {
+		"hint": "Drag t' reposition · zoom in t' reframe"
 	},
 	"keybinds": {
 		"quickSearch": "Quick hunt"
@@ -46,18 +56,16 @@
 		"allLibraries": "All hoards",
 		"friends": "Hearties",
 		"home": "Port",
+		"insights": "Listenin'",
 		"library": "Hoard",
 		"search": "Hunt",
 		"settings": "Riggin'",
 		"signIn": "Come aboard"
 	},
 	"notFound": {
-		"body": "Nothin' here but open sea.",
+		"body": "Th' link might be old, or th' page moved. Nothing's broken; ye just took a wrong turn.",
 		"goHome": "Back t' port",
-		"title": "Fell off th' map"
-	},
-	"image": {
-		"hint": "Drag t' reposition · zoom in t' reframe"
+		"title": "This page ain't here"
 	},
 	"state": {
 		"loading": "Heave ho…"

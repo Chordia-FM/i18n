@@ -1,14 +1,54 @@
 {
+	"station": {
+		"albumRadio": "{name} Adioray",
+		"artistRadio": "{name} Adioray",
+		"empty": "Otnay enoughway usicmay etyay otay uildbay isthay ationstay",
+		"genreRadio": "{name} Adioray",
+		"kindAlbum": "Albumway Adioray",
+		"kindArtist": "Artistway Adioray",
+		"kindGenre": "Enregay Adioray",
+		"kindPlaylist": "Aylistplay Adioray",
+		"kindTrack": "Ongsay Adioray",
+		"mix": "{name} Ixmay",
+		"playlistRadio": "{name} Adioray",
+		"start": "Artstay adioray",
+		"startFrom": "Artstay adioray omfray {name}",
+		"trackRadio": "{name} Adioray"
+	},
 	"dailyMix": {
 		"label": "Ailyday Ixmay"
 	},
 	"greeting": {
 		"afternoon": "Oodgay afternoonway",
 		"evening": "Oodgay eveningway",
-		"morning": "Oodgay orningmay"
+		"morning": "Oodgay orningmay",
+		"night": "Upway atelay",
+		"sub": {
+			"afternoon": "Ethay ayday ouldcay useway away oodgay oundtracksay",
+			"evening": "Indway ethay ayday ownday operlypray",
+			"morning": "Omethingsay otay ogay ithway ethay offeecay",
+			"night": "Ethay estbay isteninglay appenshay atway isthay ourhay"
+		}
+	},
+	"hero": {
+		"onboardBody": "Chordia aysplay usicmay aightstray omfray ouryay ownway erversay. Airpay away ibrarylay andway isthay agepay omescay otay ifelay.",
+		"onboardCta": "Airpay away ibrarylay",
+		"onboardTitle": "Elcomeway otay Chordia",
+		"resumeTitle": "Ickpay upway erewhay ouyay eftlay offway",
+		"seeAll": "Eesay allway",
+		"startTitle": "Utpay omethingsay onway"
 	},
 	"home": {
-		"emptyState": "Othingnay erehay etyay - airpay away ibrarylay erversay andway ouryay atalogcay illway appearway."
+		"empty": {
+			"body": "Chordia eamsstray omfray ouryay ownway ibrarylay erversay. Airpay oneway andway everythingway ouyay ownway owsshay upway erehay.",
+			"cta": "Airpay away ibrarylay",
+			"title": "Ouryay usicmay isnway't erehay etyay"
+		},
+		"emptyState": "Othingnay erehay etyay - airpay away ibrarylay erversay andway ouryay atalogcay illway appearway.",
+		"noHistory": {
+			"body": "Ayplay anythingway andway isthay agepay illway artstay apingshay itselfway aroundway atwhay ouyay istenlay otay.",
+			"title": "Itway's uietqay inway erehay"
+		}
 	},
 	"jumpBackIn": {
 		"emptyState": "Ingsthay ouyay'evay ayedplay ecentlyray illway owshay upway erehay.",
@@ -23,17 +63,36 @@
 		"playTitle": "Ayplay {title}",
 		"playingToast": "Ayingplay {title}"
 	},
+	"onThisDay": {
+		"yearsAgo": "{count, plural, one {# earyay agoway} other {# earsyay agoway}}"
+	},
+	"quickAccess": {
+		"title": "Uickqay accessway"
+	},
 	"radio": {
 		"label": "Adioray",
 		"pin": "Inpay adioray"
 	},
 	"shelf": {
+		"friendsListening": "Atwhay ouryay iendsfray areway ayingplay",
 		"jumpBackIn": "Umpjay ackbay inway",
 		"madeFor": "Ademay orfay {name}",
 		"madeForYou": "ouyay",
+		"onThisDay": "Onway isthay ayday",
+		"recentlyAdded": "Ecentlyray addedway",
 		"recommended": "Ecommendedray orfay ouyay",
 		"trendingAlbums": "Endingtray albumsway",
 		"trendingArtists": "Endingtray artistsway",
+		"trendingTracks": "Endingtray ackstray",
 		"yourLibraries": "Ouryay ibrarieslay"
+	},
+	"snapshot": {
+		"activeDays": "Activeway aysday",
+		"cta": "Eesay ethay ullfay icturepay",
+		"plays": "Aysplay",
+		"streak": "Eakstray",
+		"title": "Ouryay isteninglay atelylay",
+		"wrappedCta": "Eesay ouryay earyay",
+		"wrappedTitle": "Ouryay earyay's almostway wrapped"
 	}
 }

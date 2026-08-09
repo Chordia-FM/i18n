@@ -2,6 +2,7 @@
 	"addError": "Ouldncay't addway otay aylistplay",
 	"addToNamed": "Addway otay {playlist}",
 	"addToPlaylist": "Addway otay aylistplay",
+	"addedAlbumToast": "{count, plural, one {Addedway # acktray otay {playlist}} other {Addedway # ackstray otay {playlist}}}",
 	"addedToast": "Addedway otay {playlist}",
 	"collaborators": {
 		"addError": "Ouldncay't addway atthay ollaboratorcay",
@@ -10,17 +11,50 @@
 		"invitePrompt": "Inviteway away ollaboratorcay ybay andlehay",
 		"invited": "Invitedway @{handle}",
 		"removeTitle": "Emoveray {name}",
-		"removed": "Emovedray {name}"
+		"removed": "Emovedray {name}",
+		"manage": "Anagemay eoplepay"
 	},
 	"confirm": {
 		"deleteMessage": "Eleteday \"{name}\"?",
 		"deleteTitle": "Eleteday aylistplay"
 	},
+	"createFailed": "Ouldncay’t eatecray aylistplay",
+	"createdFromAlbumToast": "Aylistplay “{name}” eatedcray",
 	"delete": {
 		"confirmBody": "Eleteday isthay aylistplay?",
 		"title": "Eleteday aylistplay"
 	},
+	"edit": {
+		"title": "Editway etailsday",
+		"choosePhoto": "Oosechay otophay",
+		"removePhoto": "Emoveray otophay",
+		"name": "Amenay",
+		"description": "Escriptionday",
+		"descriptionPlaceholder": "Addway anway optionalway escriptionday",
+		"visibility": {
+			"label": "Owhay ancay eesay isthay",
+			"private": "Ivatepray",
+			"unlisted": "Unlistedway",
+			"public": "Ublicpay",
+			"privateHint": "Onlyway ouyay andway anyoneway ouyay inviteway.",
+			"unlistedHint": "Anyoneway ithway ethay inklay ancay openway itway. Itway aysstay offway ouryay ofilepray.",
+			"publicHint": "Anyoneway ithway ethay inklay ancay openway itway, andway itway's istedlay onway ouryay ofilepray."
+		},
+		"saveError": "Ouldncay't avesay osethay angeschay",
+		"photoError": "Ouldncay't uploadway atthay imageway"
+	},
 	"empty": "Isthay aylistplay isway emptyway. Addway ongssay omfray ethay “⋯” enumay onway anyway acktray.",
+	"emptyState": {
+		"title": "Etlay's indfay omethingsay otay utpay inway erehay",
+		"searchPlaceholder": "Earchsay orfay ongssay",
+		"fromLiked": "Omfray ouryay ikedlay ongssay",
+		"addHint": "Ouyay ancay alsoway addway ongssay omfray ethay ⋯ enumay onway anyway acktray.",
+		"added": "Addedway"
+	},
+	"kind": {
+		"collaborative": "Ollaborativecay aylistplay",
+		"public": "Ublicpay aylistplay"
+	},
 	"kindLabel": "Aylistplay",
 	"leave": {
 		"confirmBody": "Eavelay isthay ollaborativecay aylistplay?",
@@ -28,11 +62,23 @@
 		"title": "Eavelay aylistplay"
 	},
 	"menuEmpty": "Onay aylistsplay",
+	"meta": {
+		"playableNote": "Ouyay ancay ayplay {playable} ofway ethay {count, plural, one {# ongsay} other {# ongssay}} inway isthay aylistplay omfray ouryay ibrarieslay."
+	},
 	"new": "Ewnay aylistplay",
+	"newFromAlbum": "Ewnay aylistplay",
+	"newFromAlbumSub": "Omfray “{name}”",
 	"prompt": {
 		"newName": "Aylistplay amenay"
 	},
 	"removeFromPlaylist": "Emoveray omfray aylistplay",
+	"reorder": {
+		"done": "Oneday eorderingray",
+		"hint": "Agdray away ongsay ybay itsway andlehay otay ovemay itway, orway useway “Ovemay upway” andway “Ovemay ownday” inway itsway ⋯ enumay.",
+		"moved": "Ovedmay {title} otay ositionpay {position} ofway {count}",
+		"start": "Eorderray ongssay"
+	},
+	"searchPlaceholder": "Indfay away aylistplay",
 	"sharedWithYou": " · aredshay ithway ouyay",
 	"smart": {
 		"addRule": "Addway uleray",
@@ -74,7 +120,22 @@
 			"equals": "isway",
 			"is": "isway"
 		},
+		"refresh": {
+			"changed": "Efreshedray: {added} addedway, {removed} emovedray, {total} otaltay",
+			"everyDay": "{count, plural, one {Everyway ayday} other {Everyway # aysday}}",
+			"everyHour": "{count, plural, one {Everyway ourhay} other {Everyway # ourshay}}",
+			"everyMinute": "{count, plural, one {Everyway inutemay} other {Everyway # inutesmay}}",
+			"everyWeek": "{count, plural, one {Everyway eekway} other {Everyway # eeksway}}",
+			"lastRefreshed": "efreshedray {when}",
+			"never": "Onlyway enwhay Iway efreshray",
+			"neverRefreshed": "otnay efreshedray etyay",
+			"now": "Efreshray",
+			"scheduleLabel": "Automaticway efreshray",
+			"unchanged": "{count, plural, one {Alreadyway upway otay ateday, # acktray} other {Alreadyway upway otay ateday, # ackstray}}"
+		},
 		"removeRule": "Emoveray uleray",
+		"ruleField": "Uleray ieldfay",
+		"ruleOperator": "Uleray operatorway",
 		"saveError": "Ouldncay't avesay ethay artsmay aylistplay",
 		"sort": {
 			"plays": "Aysplay",
@@ -83,9 +144,21 @@
 		},
 		"sortBy": "Ortsay ybay",
 		"updated": "Artsmay aylistplay updatedway",
+		"valueHint": {
+			"album": "Earchsay albumsway…",
+			"artist": "Earchsay artistsway…",
+			"genre": "Earchsay enresgay…"
+		},
 		"valuePlaceholder": "aluevay"
 	},
 	"songCount": "{count, plural, one {# ongsay} other {# ongssay}}",
+	"stats": {
+		"title": "Aylistplay aysplay",
+		"scopeMe": "Ouyay",
+		"scopeEveryone": "Everyoneway",
+		"empty": "Ouyay avenhay't ayedplay anythingway omfray isthay aylistplay etyay.",
+		"trackingSince": "Aysplay avehay eenbay ountedcay erpay aylistplay incesay {date, date, ::yMMMd}. Isteninglay omfray eforebay enthay asnway't ecordedray againstway away aylistplay, osay itway isnway't includedway erehay."
+	},
 	"toast": {
 		"createFailed": "Ouldncay't eatecray aylistplay",
 		"created": "Eatedcray \"{name}\"",

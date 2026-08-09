@@ -2,19 +2,42 @@
 	"addError": "Couldn't add t' chart",
 	"addToNamed": "Add t' {playlist}",
 	"addToPlaylist": "Add t' chart",
+	"addedAlbumToast": "{count, plural, one {Added # ditty t' {playlist}} other {Added # ditties t' {playlist}}}",
 	"addedToast": "Added t' {playlist}",
 	"collaborators": {
-		"removeTitle": "Cast off {name}"
+		"removeTitle": "Cast off {name}",
+		"manage": "Manage scallywags"
 	},
 	"confirm": {
 		"deleteMessage": "Scuttle \"{name}\"?",
 		"deleteTitle": "Scuttle chart"
 	},
+	"createFailed": "Couldn’t create chart",
+	"createdFromAlbumToast": "Chart “{name}” created",
 	"delete": {
 		"confirmBody": "Scuttle this chart?",
 		"title": "Scuttle chart"
 	},
+	"edit": {
+		"removePhoto": "Cast off photo",
+		"visibility": {
+			"privateHint": "Only ye an' anyone ye invite.",
+			"unlistedHint": "Anyone wi' th' link can open it. It stays off yer profile.",
+			"publicHint": "Anyone wi' th' link can open it, an' it's listed on yer profile."
+		},
+		"saveError": "Couldn't stow those changes"
+	},
 	"empty": "This chart be empty. Add shanties from th' “⋯” menu on any ditty.",
+	"emptyState": {
+		"title": "Let's spy somethin' t' put in here",
+		"searchPlaceholder": "Hunt fer shanties",
+		"fromLiked": "From yer liked shanties",
+		"addHint": "Ye can also add shanties from th' ⋯ menu on any ditty."
+	},
+	"kind": {
+		"collaborative": "Collaborative chart",
+		"public": "Public chart"
+	},
 	"kindLabel": "Chart",
 	"leave": {
 		"confirmBody": "Leave this collaborative chart?",
@@ -22,11 +45,22 @@
 		"title": "Leave chart"
 	},
 	"menuEmpty": "No charts",
+	"meta": {
+		"playableNote": "Ye can play {playable} o' th' {count, plural, one {# shanty} other {# shanties}} in this chart from yer hoards."
+	},
 	"new": "New chart",
+	"newFromAlbum": "New chart",
 	"prompt": {
 		"newName": "Chart name"
 	},
 	"removeFromPlaylist": "Cast off from chart",
+	"reorder": {
+		"done": "Done reorderin'",
+		"hint": "Drag a shanty by its handle t' move it, or use “Move up” an' “Move down” in its ⋯ menu.",
+		"moved": "Moved {title} t' position {position} o' {count}",
+		"start": "Reorder shanties"
+	},
+	"searchPlaceholder": "Spy a chart",
 	"sharedWithYou": " · divvied wi' ye",
 	"smart": {
 		"created": "Cunning chart created",
@@ -49,11 +83,26 @@
 			"equals": "be",
 			"is": "be"
 		},
+		"refresh": {
+			"unchanged": "{count, plural, one {Already up t' date, # ditty} other {Already up t' date, # ditties}}"
+		},
 		"removeRule": "Cast off rule",
 		"saveError": "Couldn't stow th' cunning chart",
-		"updated": "Cunning chart updated"
+		"updated": "Cunning chart updated",
+		"valueHint": {
+			"album": "Hunt treasures…",
+			"artist": "Hunt artists…",
+			"genre": "Hunt genres…"
+		}
 	},
 	"songCount": "{count, plural, one {# shanty} other {# shanties}}",
+	"stats": {
+		"title": "Chart plays",
+		"scopeMe": "Ye",
+		"scopeEveryone": "All hands",
+		"empty": "Ye haven't played anythin' from this chart yet.",
+		"trackingSince": "Plays have been counted per chart since {date, date, ::yMMMd}. Listenin' from afore then wasn't recorded against a chart, so it ain't included here."
+	},
 	"toast": {
 		"createFailed": "Couldn't create chart",
 		"deleteFailed": "Couldn't scuttle chart"

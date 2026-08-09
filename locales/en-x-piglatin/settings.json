@@ -2,17 +2,28 @@
 	"account": {
 		"avatarUrl": "Avatarway URL",
 		"changeEmail": "Angechay emailway",
+		"changeEmailBody": "Eway'll endsay away onfirmationcay inklay otay ethay ewnay addressway. Itway onlyway ecomesbay ouryay ignsay-inway emailway onceway ouyay ollowfay atthay inklay.",
+		"changeEmailTitle": "Angechay ouryay emailway addressway",
+		"changePhoto": "Angechay otophay",
 		"displayName": "Isplayday amenay",
 		"emailChangeSent": "Eckchay ouryay ewnay inboxway orfay away onfirmationcay inklay.",
+		"emailTitle": "Emailway",
 		"handle": "Andlehay",
 		"handleHint": "Etterslay, igitsday, “_” andway “-”. Ustmay ebay uniqueway.",
 		"handlePlaceholder": "ournameyay",
 		"newEmailPlaceholder": "ewnay@exampleway.omcay",
+		"noEmail": "Onay emailway addressway onway isthay accountway.",
+		"pendingChange": "Aitingway orfay onfirmationcay atway {email}",
+		"photo": "Otophay",
+		"removePhoto": "Emoveray",
+		"resendConfirmation": "Esendray inklay",
 		"resendVerification": "Esendray erificationvay emailway",
 		"saveProfile": "Avesay ofilepray",
 		"sendConfirmation": "Endsay onfirmationcay",
 		"title": "Accountway",
-		"verificationSent": "Entsay — eckchay ouryay inboxway"
+		"unverified": "Unverifiedway",
+		"verificationSent": "Entsay, eckchay ouryay inboxway",
+		"verified": "Erifiedvay"
 	},
 	"appearance": {
 		"accentColour": "Accentway olourcay",
@@ -20,24 +31,37 @@
 		"customAccentAria": "Ustomcay accentway olourcay",
 		"customColour": "Ustomcay olourcay",
 		"customColourHint": "Ickpay anyway olourcay - uttonsbay, ighlightshay andway ethay ackgroundbay inttay ollowfay itway.",
-		"title": "Appearanceway"
+		"title": "Appearanceway",
+		"accents": {
+			"crimson": "Imsoncray",
+			"ember": "Emberway",
+			"amber": "Amberway",
+			"lime": "Imelay",
+			"green": "Eengray",
+			"teal": "Ealtay",
+			"blue": "Ueblay",
+			"indigo": "Indigoway",
+			"purple": "Urplepay",
+			"magenta": "Agentamay",
+			"pink": "Inkpay"
+		}
 	},
 	"connections": {
-		"title": "Onnectionscay",
 		"lastfm": {
-			"desc": "Obblescray ouryay aysplay otay Last.fm automaticallyway.",
 			"connect": "Onnectcay",
-			"disconnect": "Isconnectday",
 			"connectedAs": "Onnectedcay asway {username}",
 			"connectedToast": "Onnectedcay otay Last.fm asway {username}",
+			"connecting": "Onnectingcay Last.fm…",
+			"desc": "Obblescray ouryay aysplay otay Last.fm automaticallyway.",
+			"disconnect": "Isconnectday",
 			"disconnected": "Last.fm isconnectedday",
-			"failed": "Ouldncay’t onnectcay Last.fm",
-			"connecting": "Onnectingcay Last.fm…"
-		}
+			"failed": "Ouldncay’t onnectcay Last.fm"
+		},
+		"title": "Onnectionscay"
 	},
 	"data": {
 		"body": "Ownloadday everythingway Chordia oresstay aboutway ouyay, orway ermanentlypay eleteday ouryay accountway andway allway itsway ataday.",
-		"deleteAccountConfirm": "Ermanentlypay eleteday ouryay accountway andway ALL ouryay ataday — isteninglay istoryhay, aylistsplay, ibrarieslay, andway iendsfray? Isthay annotcay ebay undoneway.",
+		"deleteAccountConfirm": "Ermanentlypay eleteday ouryay accountway andway everythingway inway itway, includingway ouryay isteninglay istoryhay, aylistsplay, ibrarieslay, andway iendsfray? Isthay annotcay ebay undoneway.",
 		"deleteAccountTitle": "Eleteday accountway",
 		"deleteFailedBody": "Ouldcay otnay eleteday ouryay accountway ightray ownay. Easeplay ytray againway.",
 		"deleteFailedTitle": "Eletionday ailedfay",
@@ -86,7 +110,7 @@
 			"label": "Autoplayway"
 		},
 		"crossfade": {
-			"desc": "Overlapway andway endblay ethay endway ofway eachway acktray intoway ethay extnay.",
+			"desc": "Overlapway andway endblay ethay endway ofway eachway acktray intoway ethay extnay. Easuredmay inway econdssay.",
 			"label": "Ossfadecray"
 		},
 		"normalize": {
@@ -94,7 +118,7 @@
 			"label": "Ormalizenay olumevay"
 		},
 		"preload": {
-			"desc": "Ownloadday upcomingway ueueqay ackstray aheadway ofway imetay orfay instantway, apgay-eefray aybackplay. Igherhay usesway oremay ataday.",
+			"desc": "Owhay anymay upcomingway ueueqay ackstray otay ownloadday aheadway ofway imetay, orfay instantway apgay-eefray aybackplay. Igherhay usesway oremay ataday.",
 			"label": "Eloadpray extnay ackstray"
 		},
 		"quality": {
@@ -121,11 +145,49 @@
 	"privacy": {
 		"activityVisibility": {
 			"desc": "Owhay ancay eesay ouryay ecentray aysplay andway omparecay astetay ithway ouyay.",
-			"label": "Activityway isibilityvay"
+			"label": "Isteninglay activityway"
 		},
 		"emailNotifications": {
 			"desc": "Etgay anway emailway orfay iendfray equestsray andway otherway accountway activityway.",
 			"label": "Emailway otificationsnay"
+		},
+		"followedArtistsVisibility": {
+			"label": "Ollowedfay artistsway",
+			"desc": "Owhay ancay eesay ethay artistsway ouyay ollowfay."
+		},
+		"followersVisibility": {
+			"label": "Ollowersfay istlay",
+			"desc": "Owhay ancay eesay ethay accountsway atthay ollowfay ouyay."
+		},
+		"followingVisibility": {
+			"label": "Ollowingfay istlay",
+			"desc": "Owhay ancay eesay ethay accountsway ouyay ollowfay."
+		},
+		"groups": {
+			"activity": {
+				"title": "Activityway",
+				"desc": "Atwhay Chordia ecordsray asway ouyay istenlay."
+			},
+			"notifications": {
+				"title": "Otificationsnay",
+				"desc": "Enwhay Chordia endssay ouyay emailway."
+			},
+			"audience": {
+				"title": "Owhay ancay eesay atwhay",
+				"desc": "Owhay ouryay isteninglay isway isiblevay otay."
+			}
+		},
+		"openToFollows": {
+			"desc": "Enwhay offway, obodynay ewnay ancay ollowfay ouyay. Existingway ollowersfay aystay.",
+			"label": "Etlay eoplepay ollowfay emay"
+		},
+		"playlistsVisibility": {
+			"label": "Aylistsplay",
+			"desc": "Owhay ancay eesay ouryay ublicpay aylistsplay onway ouryay ofilepray. Eachway aylistplay illstay optsway inway eparatelysay."
+		},
+		"profileVisibility": {
+			"label": "Ofilepray",
+			"desc": "Owhay ancay openway ouryay ofilepray atway allway. Everythingway elowbay isway onlyway eachableray onceway isthay etslay omeonesay oughthray."
 		},
 		"scrobble": {
 			"desc": "Ecordray atwhay ouyay ayplay orfay ouryay atsstay andway Wrapped.",
@@ -133,18 +195,35 @@
 		},
 		"title": "Ivacypray",
 		"visibility": {
+			"followers": "Ollowersfay",
 			"friends": "Iendsfray",
 			"private": "Onlyway emay",
 			"public": "Everyoneway"
 		}
 	},
+	"profile": {
+		"addLink": "Addway inklay",
+		"banner": "Annerbay",
+		"bannerHint": "Away ideway imageway acrossway ethay optay ofway ouryay ofilepray.",
+		"bio": "Iobay",
+		"bioPlaceholder": "Away inelay orway otway aboutway atwhay ouyay istenlay otay.",
+		"chooseBanner": "Oosechay imageway",
+		"desc": "Atwhay eoplepay eesay enwhay eythay openway ouryay ofilepray.",
+		"linkKind": "Atformplay",
+		"linkUrl": "Addressway",
+		"links": "Inkslay",
+		"linksHint": "Upway otay 8. Eachway ustmay ebay away ullfay https:// addressway.",
+		"removeBanner": "Emoveray",
+		"removeLink": "Emoveray inklay",
+		"title": "Ofilepray"
+	},
 	"quality": {
 		"dataSaver": {
-			"desc": "~96 kbps Opus — inimalmay ataday.",
+			"desc": "~96 kbps Opus, inimalmay ataday.",
 			"label": "Ataday Aversay"
 		},
 		"high": {
-			"desc": "~256 kbps AAC — ansparenttray orfay ostmay.",
+			"desc": "~256 kbps AAC, ansparenttray orfay ostmay.",
 			"label": "Ighhay"
 		},
 		"lossless": {
@@ -152,7 +231,7 @@
 			"label": "Osslesslay"
 		},
 		"normal": {
-			"desc": "~128 kbps — alancedbay.",
+			"desc": "~128 kbps, alancedbay.",
 			"label": "Ormalnay"
 		},
 		"title": "Eamingstray ualityqay"
@@ -168,26 +247,71 @@
 		},
 		"title": "Egionray"
 	},
+	"security": {
+		"password": {
+			"changed": "Asswordpay angedchay.",
+			"confirm": "Onfirmcay ewnay asswordpay",
+			"current": "Urrentcay asswordpay",
+			"forgot": "Orgotfay ouryay urrentcay asswordpay?",
+			"hideAria": "Idehay asswordpay",
+			"lockoutNote": "Ongwray attemptsway erehay ountcay owardstay ethay amesay imitlay asway igningsay inway, osay epeatedray issesmay illway emporarilytay ocklay ignsay-inway ootay.",
+			"mismatch": "Osethay otway onday't atchmay.",
+			"new": "Ewnay asswordpay",
+			"revokeOthers": "Ignsay outway ymay otherway evicesday",
+			"revokeOthersDesc": "Ecommendedray ifway ouyay'eray angingchay itway ecausebay omeonesay elseway aymay owknay itway. Isthay eviceday aysstay ignedsay inway.",
+			"save": "Avesay asswordpay",
+			"showAria": "Owshay asswordpay",
+			"storedHint": "Chordia onlyway everway oresstay away oneway-ayway ashhay ofway ouryay asswordpay. Obodynay, includingway usway, ancay owshay itway otay ouyay. Ifway ouyay'evay orgottenfay itway, esetray itway ybay emailway insteadway.",
+			"title": "Asswordpay"
+		},
+		"setPassword": {
+			"action": "Emailway emay away inklay",
+			"body": "Isthay accountway ignssay inway ithway Discord. Etsay away asswordpay otay ebay ableway otay ignsay inway ithway ouryay emailway addressway asway ellway.",
+			"needsVerifiedEmail": "Erifyvay ouryay emailway addressway irstfay. Ethay inklay otay etsay away asswordpay ashay otay ogay omewheresay ouyay'evay onfirmedcay ouyay ownway.",
+			"sent": "Eckchay ouryay inboxway orfay away inklay otay etsay ouryay asswordpay.",
+			"title": "Etsay away asswordpay"
+		},
+		"strength": {
+			"fair": "Airfay",
+			"good": "Oodgay",
+			"label": "Engthstray",
+			"strong": "Ongstray",
+			"weak": "Eakway"
+		},
+		"title": "Ecuritysay"
+	},
 	"sessions": {
 		"body": "Erewhay ouyay'eray ignedsay inway. Evokeray anyway eviceday ouyay onday't ecognizeray.",
 		"lastActive": "Astlay activeway {date}",
 		"signOutEverywhere": "Ignsay outway everywhereway",
 		"signOutEverywhereConfirm": "Ignsay outway ofway allway evicesday? Ouyay'll eednay otay ignsay inway againway.",
+		"signedIn": "Ignedsay inway {date}",
 		"thisDevice": "Isthay eviceday",
 		"title": "Evicesday & essionssay",
 		"unknownDevice": "Unknownway eviceday"
 	},
+	"startup": {
+		"title": "Artupstay",
+		"desc": "Erewhay Chordia opensway enwhay ouyay ignsay inway.",
+		"home": "Omehay",
+		"library": "Ibrarylay"
+	},
 	"title": "Ettingssay",
 	"twoFactor": {
 		"addHint": "Addway away econdsay actorfay (anway authenticatorway appway) orfay extraway accountway ecuritysay.",
+		"copied": "Ecoveryray odescay opiedcay.",
+		"copyAll": "Opycay allway",
 		"disable": "Isableday 2FA",
+		"download": "Ownloadday",
 		"enable": "Enableway 2FA",
 		"enableCta": "Enableway otway-actorfay authway",
 		"enabledHint": "2FA isway enabledway. Otay urntay itway offway, enterway away urrentcay odecay orway away ecoveryray odecay.",
 		"qrAlt": "Otway-actorfay QR odecay",
-		"recoveryIntro": "2FA isway onway. Avesay esethay ecoveryray odescay omewheresay afesay — eachway orksway onceway ifway ouyay oselay ouryay authenticatorway.",
+		"recoveryIntro": "2FA isway onway. Avesay esethay ecoveryray odescay omewheresay afesay. Eachway orksway onceway ifway ouyay oselay ouryay authenticatorway.",
 		"scanHint": "Anscay isthay ithway ouryay authenticatorway appway, enthay enterway ethay 6-igitday odecay otay onfirmcay.",
 		"secretManual": "Orway enterway isthay ecretsay anuallymay: {secret}",
+		"statusOff": "Offway",
+		"statusOn": "Onway",
 		"title": "Otway-actorfay authenticationway"
 	},
 	"verifyEmail": {

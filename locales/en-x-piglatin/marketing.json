@@ -1,31 +1,171 @@
 {
 	"cta": {
-		"github": "Iewvay onway GitHub",
-		"openApp": "Openway appway"
+		"createAccount": "Eatecray ouryay eefray accountway",
+		"github": "Eadray ethay ourcesay",
+		"note": "Eefray ilewhay eway'eray inway earlyway accessway. Onay ardcay, onay ountdowncay.",
+		"openApp": "Openway Chordia",
+		"readDocs": "Eadray ethay ocsday",
+		"selfHost": "Atherray unray itway ourselfyay?",
+		"signIn": "Ignsay inway"
 	},
-	"eyebrow": "Ownway ouryay audioway · areshay itway ouryay ayway",
+	"eyebrow": "Ingbray ouryay ownway usicmay",
+	"faq": {
+		"cost": {
+			"a": "Ethay oftwaresay isway eefray andway aysstay eefray. Itway's AGPL-3.0 andway allway ofway itway isway onway GitHub. Ethay ostedhay accountway onway chordia.evday isway eefray uringday earlyway accessway, andway ifway atthay everway angeschay, elfsay-ostinghay aysstay ompletecay atherray anthay ecomingbay away ippledcray ommunitycay editionway.",
+			"q": "Atwhay oesday isthay ostcay?"
+		},
+		"formats": {
+			"a": "FLAC, ALAC, WAV, AIFF, MP3, AAC, Oggway andway Opus. Dolby Atmos andway otherway atialspay ixesmay asspay oughthray untouchedway, ecausebay eray-encodingway omethingsay eway ancay't improveway elpshay obodynay.",
+			"q": "Ichwhay ormatsfay orkway?"
+		},
+		"heading": "Uestionsqay eoplepay actuallyway askway",
+		"offline": {
+			"a": "Esyay. Ownloadday anway albumway otay ouryay onephay andway itway aysplay ithway onay ignalsay andway onay erversay. Ethay ilesfay ivelay inway ethay appway, otnay inway away eamstray ouyay avehay otay eepkay aliveway.",
+			"q": "Oesday itway orkway onway away aneplay?"
+		},
+		"privacy": {
+			"a": "Ouryay audioway evernay eachesray ourway erverssay, otnay evenway asway away achecay. Ouryay onephay alkstay aightstray otay ouryay ibrarylay overway anway encryptedway onnectioncay. Eway oldhay ouryay accountway, ouryay iendsfray istlay andway ouryay ayplay istoryhay, andway ouyay ancay exportway orway eleteday allway ofway itway eneverwhay ouyay ikelay.",
+			"q": "Atwhay ancay ouyay eesay?"
+		},
+		"server": {
+			"a": "Ouryay ilesfay eednay omewheresay otay ivelay: anway oldway aptoplay, away NAS, away Aspberryray Ipay, orway away eapchay VPS. Ethay ibrarylay erversay unsray onway allway ofway emthay. Ointpay itway atway away olderfay andway itway akestay itway omfray erethay.",
+			"q": "Oday Iway eednay away erversay?"
+		},
+		"spotify": {
+			"a": "Otnay uiteqay. Chordia aysplay ethay usicmay ouyay alreadyway avehay atherray anthay away ataloguecay ouyay entray. Ingbray ouryay ipsray, ouryay Andcampbay ownloadsday, ouryay Obuzqay urchasespay. Ifway away olderfay ofway ilesfay isway ouryay ideaway ofway away ecordray ollectioncay, ouyay'eray inway ethay ightray aceplay.",
+			"q": "Isway isthay away Spotify eplacementray?"
+		}
+	},
+	"features": {
+		"everywhere": {
+			"body": "Ebway, esktopday, andway away onephay atthay ehavesbay ikelay away ealray usicmay appway: ocklay-eenscray ontrolscay, away orkingway ubscray arbay inway ethay otificationnay adeshay, aplessgay aybackplay, ossfadecray, andway anway equalizerway atthay emembersray atwhay ouyay idday otay itway.",
+			"points": {
+				"a": "Ickpay upway onway ouryay onephay exactlyway erewhay ethay esktopday eftlay offway.",
+				"b": "Ownloadday eforebay away ightflay andway ayplay ithway onay ignalsay atway allway.",
+				"c": "Olumevay evelledlay acrossway albumsway osay othingnay owsblay ouryay earsway offway."
+			},
+			"title": "Everywhereway ouyay actuallyway istenlay"
+		},
+		"heading": "Atwhay ouyay etgay",
+		"quality": {
+			"body": "Originalway ualityqay isway away ytebay-orfay-ytebay eamstray ithway onay anscodetray epstay andway onay uietqay owngradeday. Onway away aintray ithway otway arsbay Chordia epsstay ownday otay otectpray ouryay ataday, ayssay osay, andway epsstay ackbay upway enwhay ethay ignalsay eturnsray.",
+			"points": {
+				"a": "FLAC, ALAC andway WAV eamedstray exactlyway asway ouyay ippedray emthay.",
+				"b": "Atmos andway otherway atialspay ixesmay asspay oughthray untouchedway.",
+				"c": "Ouyay ecideday etherwhay itway's everway allowedway otay opdray ualityqay."
+			},
+			"title": "Ethay itsbay ouyay ippedray, otnay ethay itsbay eway'd eferpray"
+		},
+		"sharing": {
+			"body": "Itsplay ouryay ollectioncay intoway asway anymay ibrarieslay asway ouyay ikelay, enthay andhay eachway oneway otay exactlyway ethay iendsfray ouyay oosechay. Eythay owsebray andway eamstray itway ikelay itway asway alwaysway eirsthay. Ouyay ancay eesay atwhay eythay ayedplay, andway ouyay ancay aketay itway ackbay inway oneway ickclay.",
+			"points": {
+				"a": "Erpay-ibrarylay accessway, otnay allway-orway-othingnay.",
+				"b": "Iendsfray eamstray omfray ouryay erversay ithoutway anway accountway onway itway.",
+				"c": "Evokeray anyway imetay. Accessway expiresway onway itsway ownway ootay."
+			},
+			"title": "Areshay away elfshay, otnay ethay olewhay ollectioncay"
+		},
+		"subheading": "Ourfay ingsthay atthay areway ardhay otay etgay anywhereway elseway, inway ainplay anguagelay.",
+		"yours": {
+			"body": "Chordia evernay uploadsway ouryay ibrarylay, evernay eray-encodesway itway ehindbay ouryay ackbay, andway evernay oldshay itway ostagehay. Ouryay ibrarylay erversay andshay audioway aightstray otay ouryay evicesday. Eway onlyway everway andlehay ethay etadatamay eedednay otay ignsay ouyay inway andway eepkay ouryay iendsfray istlay aightstray.",
+			"points": {
+				"a": "Audioway oesgay eviceday otay ibrarylay, evernay oughthray usway.",
+				"b": "Opstay usingway Chordia andway everyway ilefay isway erewhay ouyay eftlay itway.",
+				"c": "AGPL-3.0. Ethay odecay eway unray isway ethay odecay ouyay etgay."
+			},
+			"title": "Ouryay ilesfay aystay ouryay ilesfay"
+		}
+	},
+	"final": {
+		"body": "Akemay anway accountway, ointpay Chordia atway ouryay usicmay, andway avehay itway onway ouryay onephay eforebay ethay ettlekay oilsbay.",
+		"title": "Ingbray ouryay usicmay ithway ouyay"
+	},
 	"footer": {
-		"license": "Openway ourcesay · AGPL-3.0 ·"
+		"language": "Anguagelay",
+		"legal": {
+			"heading": "Egallay",
+			"license": "Icenselay (AGPL-3.0)",
+			"privacy": "Ivacypray",
+			"terms": "Ermstay"
+		},
+		"product": {
+			"features": "Eaturesfay",
+			"heading": "Oductpray",
+			"listening": "Isteninglay istoryhay",
+			"selfHost": "Elfsay-ostinghay",
+			"signUp": "Eatecray anway accountway"
+		},
+		"rights": "Chordia isway eefray oftwaresay, eleasedray underway ethay AGPL-3.0.",
+		"source": {
+			"architecture": "Owhay itway orksway",
+			"docs": "Ocumentationday",
+			"heading": "Openway ourcesay",
+			"issues": "Eportray away ugbay"
+		},
+		"tagline": "Usicmay ouyay ownway, everywhereway ouyay areway."
 	},
 	"hero": {
-		"paragraph": "Away ybridhay, elfsay-ostedhay usicmay ecosystemway. Absoluteway ownershipway ofway ouryay ibrarylay, ithway ethay onnectedcay, ocialsay eamingstray experienceway - inway itbay-erfectpay idelityfay."
+		"subtitle": "Chordia eamsstray ethay usicmay ouyay alreadyway ownway. Ethay FLAC ipsray, ethay Andcampbay ownloadsday, ethay olderfay ouyay'evay aggeddray acrossway eethray aptopslay. Itway oesgay omfray ereverwhay ouyay eepkay itway aightstray otay ouryay onephay, atway ethay ualityqay ouyay ippedray itway, andway onenay ofway itway assespay oughthray usway.",
+		"title": "Ouryay ibrarylay, onway everyway eviceday ouyay ownway"
 	},
-	"pillars": {
-		"liveRooms": {
-			"body": "Ynchronizedsay isteninglay artiespay ithway atchay, otesvay, andway urntay-akingtay DJs. Ouyay earhay ouryay ownway opycay enwhay ouyay ownway itway; ouryay ibrarylay elaysray ethay estray.",
-			"title": "Ivelay isteninglay oomsray"
+	"proof": {
+		"heading": "Isthay isway ethay actualway appway",
+		"shots": {
+			"album": {
+				"alt": "Anway albumway agepay inway Chordia owingshay overcay artway, ethay acklisttray andway ethay ourcesay ilefay ualityqay",
+				"caption": "Everyway acktray owsshay atwhay itway eallyray isway: ormatfay, itbay epthday, amplesay ateray. Onay uessinggay."
+			},
+			"friends": {
+				"alt": "Ethay iendsfray agepay inway Chordia owingshay atwhay eoplepay areway isteninglay otay ightray ownay",
+				"caption": "Eesay atwhay iendsfray areway ayingplay ightray ownay, andway openway ethay amesay albumway inway oneway aptay."
+			},
+			"insights": {
+				"alt": "Ethay isteninglay insightsway agepay inway Chordia owingshay artschay ofway aysplay overway imetay",
+				"caption": "Ouryay isteninglay, artedchay ybay eekway, onthmay andway earyay. Itway eepskay oinggay afterway Ecemberday."
+			},
+			"listen": {
+				"alt": "Ethay Chordia omehay eenscray owingshay ecentlyray ayedplay albumsway andway ethay ayerplay arbay",
+				"caption": "Omehay ickspay upway erewhay ouyay eftlay offway, onway everyway eviceday ouyay ignedsay inway onway."
+			},
+			"mobile": {
+				"alt": "Chordia onway away onephay owingshay ethay ullfay-eenscray ayerplay ithway overcay artway andway ontrolscay",
+				"caption": "Onway away onephay itway's away onephay appway: ocklay-eenscray ontrolscay, offlineway ownloadsday, ealray esturesgay."
+			}
 		},
-		"ownIt": {
-			"body": "Eepkay ouryay ibrarylay atway omehay onway away NAS orway Ipay, orway unray itway onway away oudclay erversay - eitherway ayway ethay usicmay isway oursyay. Itway eamsstray itbay-erfectpay (FLAC, ALAC, WAV, Dolby Atmos) aightstray otay ouryay evicesday, andway Chordia evernay oresstay orway outesray ouryay audioway.",
-			"title": "Ownway itway, osthay itway anywhereway"
+		"subheading": "Onay urredblay ockupsmay. Esethay areway ethay eensscray ouyay'll endspay ouryay imetay inway."
+	},
+	"selfHost": {
+		"body": "Chordia isway otway iecespay. Away Ubhay oldshay accountsway, iendsfray andway istoryhay. Away ibrarylay erversay oldshay ouryay usicmay andway eamsstray itway. Useway ourway Ubhay andway unray ouryay ownway ibrarylay, orway unray othbay ourselfyay andway evernay alktay otay usway atway allway.",
+		"eyebrow": "Orfay ethay eoplepay owhay eadray ethay ourcesay irstfay",
+		"steps": {
+			"install": {
+				"body": "Oneway inarybay orway oneway ontainercay. Itway's appyhay onway away Aspberryray Ipay, anway oldway NUC, away Ynologysay oxbay orway ethay eapestchay VPS ouyay ancay indfay.",
+				"title": "Installway ethay ibrarylay erversay"
+			},
+			"pair": {
+				"body": "Oneway epstay inway ethay owserbray. Ouryay ibrarylay advertisesway itsway ertificatecay ingerprintfay, ouryay evicesday inpay itway, andway elfsay-ignedsay ertificatescay opstay eingbay away oblempray.",
+				"title": "Airpay itway otay ouryay accountway"
+			},
+			"scan": {
+				"body": "Ivegay itway away olderfay. Itway eadsray agstay, etchesfay artworkway, andway atchesmay eleasesray againstway MusicBrainz, includingway ethay ilesfay osewhay agstay areway away essmay.",
+				"title": "Ointpay itway atway ouryay usicmay"
+			}
 		},
-		"selectiveSharing": {
-			"body": "Organizeway usicmay intoway eparatesay ibrarieslay - \"Ihay-Ifay Archiveway\", \"Amilyfay Ollectioncay\" - andway areshay eachway oneway ithway exactlyway ethay iendsfray ouyay oosechay.",
-			"title": "Electivesay aringshay"
+		"title": "Orway unray ethay olewhay ingthay ourselfyay"
+	},
+	"social": {
+		"body": "Everyway ayplay isway ecordedray againstway ouryay accountway, otnay againstway away erversay. Ovemay ousehay, eplaceray ethay NAS, ebuildray omfray othingnay, andway 2019 isway illstay erethay.",
+		"points": {
+			"a": "Wrapped everyway eekway, otnay onceway away earyay asway away arketingmay untstay.",
+			"b": "Irstfay-istenlay atesday, eaksstray, andway ethay albumway ouyay ayedplay 47 imestay inway Archmay.",
+			"c": "Isteninglay oomsray: amesay ongsay, amesay econdsay, ithway away ueueqay everyoneway ancay ushpay otay.",
+			"d": "Obblesscray otay Last.fm asway ellway, ifway atthay's erewhay ouryay istoryhay alreadyway iveslay."
 		},
-		"wrapped": {
-			"body": "Everyway ayplay isway obbledscray otay ouryay obalglay accountway andway eptkay oreverfay - eeklyway, onthlymay, andway earlyyay insightsway atthay urvivesay anyway erversay ovemay.",
-			"title": "Ifetimelay Wrapped"
-		}
+		"title": "Away isteninglay istoryhay atthay outlivesway everyway ervicesay ouyay uitqay"
+	},
+	"trust": {
+		"hardware": "Unsray onway away Ipay, away NAS orway away VPS",
+		"license": "AGPL-3.0, ourcesay onway GitHub",
+		"privacy": "Ouryay audioway evernay ouchestay ourway erverssay"
 	}
 }

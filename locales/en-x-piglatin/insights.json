@@ -71,12 +71,12 @@
 			"climbedBy": "Upway {count, plural, one {# aceplay} other {# acesplay}}",
 			"climbers": "Imbersclay",
 			"empty": {
-				"body": "Artchay ovementmay omparescay isthay indowway ithway ethay oneway eforebay itway — itway appearsway onceway othbay avehay aysplay.",
+				"body": "Artchay ovementmay omparescay isthay indowway ithway ethay oneway eforebay itway. Itway appearsway onceway othbay avehay aysplay.",
 				"title": "Othingnay otay omparecay etyay"
 			},
 			"fallers": "Allersfay",
 			"fellBy": "Ownday {count, plural, one {# aceplay} other {# acesplay}}",
-			"needsWindow": "Artchay ovementmay omparescay away indowway ithway ethay oneway eforebay itway — ickpay away ortershay eriodpay otay eesay itway.",
+			"needsWindow": "Artchay ovementmay omparescay away indowway ithway ethay oneway eforebay itway. Ickpay away ortershay eriodpay otay eesay itway.",
 			"new": "Ewnay",
 			"newcomers": "Ewnay entriesway",
 			"none": "Onay ovementmay erehay isthay indowway.",
@@ -198,7 +198,7 @@
 		"title": "Isteninglay insightsway"
 	},
 	"overview": {
-		"firstWindow": "{person, select, them {Eirthay irstfay indowway onway ecordray — omparisonscay illway appearway onceway erethay's istoryhay ehindbay itway.} other {Ouryay irstfay indowway onway ecordray — omparisonscay illway appearway onceway erethay's istoryhay ehindbay itway.}}"
+		"firstWindow": "{person, select, them {Eirthay irstfay indowway onway ecordray. Omparisonscay illway appearway onceway erethay's istoryhay ehindbay itway.} other {Ouryay irstfay indowway onway ecordray. Omparisonscay illway appearway onceway erethay's istoryhay ehindbay itway.}}"
 	},
 	"panels": {
 		"activity": "Activityway",
@@ -237,7 +237,7 @@
 			"title": "Onay ecordsray etyay"
 		},
 		"milestones": {
-			"beginning": "{person, select, them {Everyway ibrarylay artsstay omewheresay — oundray-umbernay ilestonesmay illway andlay erehay asway eirthay aysplay addway upway.} other {Everyway ibrarylay artsstay omewheresay — oundray-umbernay ilestonesmay illway andlay erehay asway ouryay aysplay addway upway.}}",
+			"beginning": "{person, select, them {Everyway ibrarylay artsstay omewheresay. Oundray-umbernay ilestonesmay illway andlay erehay asway eirthay aysplay addway upway.} other {Everyway ibrarylay artsstay omewheresay. Oundray-umbernay ilestonesmay illway andlay erehay asway ouryay aysplay addway upway.}}",
 			"chip": "Allway imetay",
 			"curveAriaLabel": "Umulativecay aysplay overway imetay, oneway ointpay erpay ilestonemay",
 			"first": "Irstfay ayplay",
@@ -250,7 +250,7 @@
 			"title": "Ilestonesmay"
 		},
 		"onThisDay": {
-			"empty": "{person, select, them {Onay emoriesmay onway isthay ateday etyay — eythay'll athergay erehay onceway eirthay istoryhay isway away earyay eepday.} other {Onay emoriesmay onway isthay ateday etyay — eythay'll athergay erehay onceway ouryay istoryhay isway away earyay eepday.}}",
+			"empty": "{person, select, them {Onay emoriesmay onway isthay ateday etyay. Eythay'll athergay erehay onceway eirthay istoryhay isway away earyay eepday.} other {Onay emoriesmay onway isthay ateday etyay. Eythay'll athergay erehay onceway ouryay istoryhay isway away earyay eepday.}}",
 			"title": "Onway isthay ayday",
 			"yearsAgo": "{count, plural, one {# earyay agoway} other {# earsyay agoway}}"
 		},
@@ -266,7 +266,7 @@
 			"current": "Urrentcay eakstray",
 			"days": "{count, plural, one {# ayday} other {# aysday}}",
 			"detail": "{range} · {plays, plural, one {# ayplay} other {# aysplay}}",
-			"live": "Activeway — eepkay itway oinggay",
+			"live": "Activeway, eepkay itway oinggay",
 			"longest": "Ongestlay eakstray",
 			"noCurrent": {
 				"body": "{person, select, them {Othingnay activeway ightray ownay.} other {Ayplay omethingsay odaytay otay artstay oneway.}}",
@@ -309,6 +309,8 @@
 		"listeningNow": "Isteninglay ownay"
 	},
 	"stats": {
+		"collapse": "Idehay atsstay",
+		"expand": "Owshay atsstay",
 		"firstPlayed": "Irstfay ayedplay",
 		"lastPlayed": "Astlay ayedplay",
 		"plays": "Aysplay",
@@ -368,7 +370,7 @@
 		},
 		"shareButton": "Areshay",
 		"shared": "Aredshay ouryay Wrapped ardcay.",
-		"sharedFallback": "Ouldncay't areshay — avedsay ethay ardcay otay ouryay ownloadsday insteadway.",
+		"sharedFallback": "Ouldncay't areshay. Avedsay ethay ardcay otay ouryay ownloadsday insteadway.",
 		"sharing": "Aringshay…",
 		"statLine": "{artists, number} artistsway · {tracks, number} ackstray",
 		"topArtists": "Optay artistsway",

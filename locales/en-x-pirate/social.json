@@ -8,6 +8,28 @@
 		"friendsStatus": "Hearties",
 		"sending": "Sendin'…"
 	},
+	"follow": {
+		"addFriend": "Add matey",
+		"following": "Followin'",
+		"friendIncoming": "Wants t' be hearties",
+		"friendPending": "Matey request sent",
+		"friends": "Hearties",
+		"notOpen": "This account ain't acceptin' new followers.",
+		"removeFriend": "Cast off matey",
+		"shareProfile": "Divvy up profile",
+		"unfollowConfirm": "Belay followin' {name}?",
+		"unfollowConfirmBody": "Ye can follow 'em again any time. They ain't notified.",
+		"vsFriends": "Followin' be one-way an' public. Bein' hearties be mutual, an' it also lets ye see what each other be playin' right now an' divvy up hoards."
+	},
+	"followers": {
+		"emptyOwn": "Nobody follows ye yet. Divvy up yer profile an' they will show up here."
+	},
+	"following": {
+		"count": "{count, plural, one {# followin''} other {# followin''}}",
+		"empty": "Not followin' anyone yet.",
+		"emptyOwn": "Ye ain't followin' anyone yet.",
+		"title": "Followin'"
+	},
 	"friends": {
 		"confirmRemove": "Aye or nay?",
 		"empty": "No hearties yet - press-gang a few",
@@ -19,6 +41,9 @@
 		"title": "Hearties"
 	},
 	"profile": {
+		"hidden": {
+			"title": "This profile ain't divvied wi' ye"
+		},
 		"noActivity": "No listenin' activity yet.",
 		"notFound": "No deckhand wi' that handle.",
 		"private": {
@@ -26,11 +51,20 @@
 			"title": "These waters be private"
 		},
 		"recentlyPlayed": "Last heard on deck",
+		"shelves": {
+			"noArtists": "Not followin' any artists yet.",
+			"noPlaylists": "No public charts.",
+			"playlists": "Public charts"
+		},
+		"stats": {
+			"following": "followin'",
+			"playlists": "charts"
+		},
 		"topArtists": "Choicest minstrels",
 		"topTracks": "Choicest ditties"
 	},
 	"report": {
-		"promptMessage": "Report @{handle} — what's th' issue?"
+		"promptMessage": "Report @{handle}. What's th' issue?"
 	},
 	"requests": {
 		"accept": "Welcome aboard",

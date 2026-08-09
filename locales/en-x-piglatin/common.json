@@ -9,18 +9,25 @@
 		"clearAll": "Earclay allway",
 		"close": "Oseclay",
 		"confirm": "Onfirmcay",
+		"copyLink": "Opycay inklay",
 		"delete": "Eleteday",
 		"done": "Oneday",
 		"download": "Ownloadday",
 		"edit": "Editway",
 		"find": "Indfay",
 		"goHome": "Ogay omehay",
+		"goToAlbum": "Ogay otay albumway",
+		"goToArtist": "Ogay otay artistway",
+		"linkCopied": "Inklay opiedcay",
 		"more": "Oremay",
 		"moveDown": "Ovemay ownday",
 		"moveUp": "Ovemay upway",
+		"next": "Extnay",
 		"open": "Openway",
+		"pause": "Ausepay",
 		"pin": "Inpay",
 		"play": "Ayplay",
+		"previous": "Eviouspray",
 		"remove": "Emoveray",
 		"rename": "Enameray",
 		"reset": "Esetray",
@@ -31,11 +38,15 @@
 		"share": "Areshay",
 		"showLess": "Owshay esslay",
 		"showMore": "Owshay oremay",
+		"shuffle": "Uffleshay",
+		"shuffleFor": "Uffleshay {name}",
+		"shuffleOffFor": "Urntay offway uffleshay orfay {name}",
 		"signOut": "Ignsay outway",
 		"tryAgain": "Ytray againway",
 		"undo": "Undoway",
 		"unpin": "Unpinway",
-		"verify": "Erifyvay"
+		"verify": "Erifyvay",
+		"view": "Iewvay"
 	},
 	"commandPalette": {
 		"hint": {
@@ -45,6 +56,10 @@
 		},
 		"noMatches": "Onay atchesmay.",
 		"placeholder": "Earchsay usicmay orway umpjay otay away agepay…",
+		"searchFor": "Earchsay orfay “{query}”",
+		"section": {
+			"navigation": "Avigationnay"
+		},
 		"title": "Ommandcay alettepay",
 		"typeToSearch": "Ypetay otay earchsay."
 	},
@@ -69,6 +84,17 @@
 		"goUp": "Ogay upway",
 		"useThisFolder": "Useway isthay olderfay"
 	},
+	"image": {
+		"adjust": "Adjustway",
+		"adjustTitle": "Adjustway imageway",
+		"flipHorizontal": "Ipflay orizontalhay",
+		"flipVertical": "Ipflay erticalvay",
+		"hint": "Agdray otay epositionray · oomzay inway otay eframeray",
+		"reset": "Esetray",
+		"rotateLeft": "Otateray eftlay",
+		"rotateRight": "Otateray ightray",
+		"zoom": "Oomzay"
+	},
 	"keybinds": {
 		"closeDialog": "Oseclay ialogday",
 		"commandPalette": "Ommandcay alettepay",
@@ -79,43 +105,46 @@
 			"navigation": "Avigationnay",
 			"player": "Ayerplay"
 		},
+		"then": "enthay",
+		"title": "Eyboardkay ortcutsshay",
 		"toggleRightSidebar": "Oggletay ightray idebarsay"
 	},
 	"language": {
 		"description": "Anguagelay usedway acrossway ethay interfaceway.",
 		"label": "Anguagelay"
 	},
+	"menu": {
+		"back": "Ackbay",
+		"moreActions": "Oremay actionsway"
+	},
 	"nav": {
 		"allLibraries": "Allway ibrarieslay",
+		"back": "Ackbay",
+		"closeMenu": "Oseclay enumay",
+		"forward": "Orwardfay",
 		"friends": "Iendsfray",
 		"home": "Omehay",
+		"insights": "Isteninglay",
 		"library": "Ibrarylay",
 		"listen": "Istenlay",
+		"menu": "Enumay",
+		"more": "Oremay",
+		"openMenu": "Openway enumay",
 		"search": "Earchsay",
 		"settings": "Ettingssay",
-		"signIn": "Ignsay inway"
+		"signIn": "Ignsay inway",
+		"signUp": "Ignsay upway"
 	},
 	"notFound": {
-		"body": "Isthay agepay oesnday't existway.",
+		"body": "Ethay inklay ightmay ebay oldway, orway ethay agepay ovedmay. Othingnay's okenbray; ouyay ustjay ooktay away ongwray urntay.",
 		"goHome": "Ogay omehay",
-		"title": "Agepay otnay oundfay"
+		"title": "Isthay agepay isnway't erehay"
 	},
 	"or": "orway",
 	"sidebar": {
 		"collapse": "Ollapsecay idebarsay",
 		"expand": "Expandway idebarsay",
 		"resize": "Esizeray idebarsay"
-	},
-	"image": {
-		"adjust": "Adjustway",
-		"adjustTitle": "Adjustway imageway",
-		"rotateLeft": "Otateray eftlay",
-		"rotateRight": "Otateray ightray",
-		"flipHorizontal": "Ipflay orizontalhay",
-		"flipVertical": "Ipflay erticalvay",
-		"hint": "Agdray otay epositionray · oomzay inway otay eframeray",
-		"reset": "Esetray",
-		"zoom": "Oomzay"
 	},
 	"state": {
 		"loading": "Oadinglay…",

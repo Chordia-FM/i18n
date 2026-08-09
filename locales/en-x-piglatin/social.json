@@ -10,6 +10,34 @@
 		"requestSent": "Equestray entsay",
 		"sending": "Endingsay…"
 	},
+	"follow": {
+		"addFriend": "Addway iendfray",
+		"follow": "Ollowfay",
+		"following": "Ollowingfay",
+		"friendIncoming": "Antsway otay ebay iendsfray",
+		"friendPending": "Iendfray equestray entsay",
+		"friends": "Iendsfray",
+		"linksOpen": "Inkslay",
+		"notOpen": "Isthay accountway isnway't acceptingway ewnay ollowersfay.",
+		"removeFriend": "Emoveray iendfray",
+		"shareProfile": "Areshay ofilepray",
+		"unfollow": "Unfollowway",
+		"unfollowConfirm": "Opstay ollowingfay {name}?",
+		"unfollowConfirmBody": "Ouyay ancay ollowfay emthay againway anyway imetay. Eythay arenway't otifiednay.",
+		"vsFriends": "Ollowingfay isway oneway-ayway andway ublicpay. Eingbay iendsfray isway utualmay, andway itway alsoway etslay ouyay eesay atwhay eachway otherway isway ayingplay ightray ownay andway areshay ibrarieslay."
+	},
+	"followers": {
+		"count": "{count, plural, one {# ollowerfay} other {# ollowersfay}}",
+		"empty": "Onay ollowersfay etyay.",
+		"emptyOwn": "Obodynay ollowsfay ouyay etyay. Areshay ouryay ofilepray andway eythay illway owshay upway erehay.",
+		"title": "Ollowersfay"
+	},
+	"following": {
+		"count": "{count, plural, one {# ollowingfay} other {# ollowingfay}}",
+		"empty": "Otnay ollowingfay anyoneway etyay.",
+		"emptyOwn": "Ouyay arenway't ollowingfay anyoneway etyay.",
+		"title": "Ollowingfay"
+	},
 	"friends": {
 		"confirmRemove": "Onfirmcay?",
 		"empty": "Onay iendsfray etyay - earchsay otay addway omesay",
@@ -26,10 +54,19 @@
 		"title": "Iendsfray"
 	},
 	"profile": {
+		"bio": {
+			"less": "Owshay esslay",
+			"more": "Owshay oremay"
+		},
 		"eyebrow": "Ofilepray",
+		"hidden": {
+			"description": "{name} eepskay eirthay ofilepray ivatepray.",
+			"title": "Isthay ofilepray isnway't aredshay ithway ouyay"
+		},
 		"itemPlays": "{count, plural, one {# ayplay} other {# aysplay}}",
 		"joinedLabel": "oinedjay {date}",
 		"loadError": "Ouldncay't oadlay isthay ofilepray.",
+		"loadMore": "Oadlay oremay",
 		"noActivity": "Onay isteninglay activityway etyay.",
 		"notFound": "Onay userway ithway atthay andlehay.",
 		"private": {
@@ -37,12 +74,24 @@
 			"title": "Isthay ofilepray isway ivatepray"
 		},
 		"recentlyPlayed": "Ecentlyray ayedplay",
+		"shelves": {
+			"followedArtists": "Ollowedfay artistsway",
+			"noArtists": "Otnay ollowingfay anyway artistsway etyay.",
+			"noPlaylists": "Onay ublicpay aylistsplay.",
+			"playlists": "Ublicpay aylistsplay",
+			"seeAll": "Eesay allway"
+		},
+		"stats": {
+			"followers": "ollowersfay",
+			"following": "ollowingfay",
+			"playlists": "aylistsplay"
+		},
 		"topArtists": "Optay artistsway",
 		"topTracks": "Optay ackstray",
 		"totalPlays": "{count, plural, one {# ayplay} other {# aysplay}}"
 	},
 	"report": {
-		"promptMessage": "Eportray @{handle} — atwhay's ethay issueway?"
+		"promptMessage": "Eportray @{handle}. Atwhay's ethay issueway?"
 	},
 	"requests": {
 		"accept": "Acceptway",
