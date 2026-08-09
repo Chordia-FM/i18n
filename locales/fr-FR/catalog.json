@@ -102,13 +102,9 @@
 			"type": "",
 			"year": "Année"
 		},
-		"helpText": "Laissez un champ vide pour conserver la valeur d'origine. Les modifications ne sont enregistrées que pour cette bibliothèque, sauf si vous activez « Remplacer globalement ».",
+		"helpText": "",
 		"noArtworkAlbum": "",
 		"noArtworkArtist": "",
-		"overrideGlobally": {
-			"help": "Afficher aussi cette modification dans tout votre catalogue (votre bibliothèque la plus prioritaire l'emporte). L'original n'est pas modifié et les autres utilisateurs ne sont pas affectés.",
-			"label": "Remplacer globalement"
-		},
 		"reset": {
 			"confirmMessage": "Rétablir les métadonnées d'origine ? Vos modifications sur cet élément seront effacées.",
 			"confirmTitle": "Réinitialiser les métadonnées"
@@ -122,7 +118,14 @@
 		"uploadBanner": "Importer une bannière",
 		"uploadCover": "Importer une pochette",
 		"uploadImage": "Importer une image",
-		"useThisArt": "Utiliser : {kind}"
+		"useThisArt": "Utiliser : {kind}",
+		"inherited": {
+			"badge": "",
+			"fromHub": "",
+			"notSet": "",
+			"revert": "",
+			"insert": ""
+		}
 	},
 	"entity": {
 		"artist": "Artiste",
