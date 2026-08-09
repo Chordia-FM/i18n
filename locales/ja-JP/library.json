@@ -10,6 +10,21 @@
 		"shareTitle": "このライブラリを共有",
 		"trackCount": "{count, plural, other {#曲}}"
 	},
+	"downloads": {
+		"clearConfirm": {
+			"message": "ダウンロードした曲をすべてこのデバイスから削除しますか？",
+			"title": "ダウンロードを消去"
+		},
+		"clearError": "ダウンロードを消去できませんでした",
+		"emptyState": "ダウンロードした曲はオフラインでも再生できます。任意のトラックのダウンロード操作でここに保存されます。",
+		"eyebrow": "オフラインで利用可能",
+		"navLabel": "ダウンロード",
+		"removeError": "ダウンロードを削除できませんでした",
+		"removeTooltip": "ダウンロードを削除",
+		"songCount": "{count, plural, other {#曲}}",
+		"storedOnDevice": "このデバイスに保存済み",
+		"title": "ダウンロード"
+	},
 	"edit": {
 		"albumsLabel": "アルバム",
 		"dedupeLabel": "重複排除 — 同じ場所にファイルが重なった場合、最高品質のコピーだけを残します（無効の場合は (2)、(3)… の接尾辞が付きます）",
@@ -58,22 +73,12 @@
 		"singlesLabel": "シングル（アルバムなし）",
 		"templateHelp": "使用できる変数: {vars}。空の部分はスキップされ、拡張子は自動的に付加されます。{edition}はデラックス版などの限定版修飾子です（通常版では空になり、省略されます）。{disc}は複数ディスクのアルバムでのみ表示されます。アルバムのないトラックにはシングルのテンプレート、識別できないファイル（アーティストタグなし）には未識別のテンプレートが使われます。",
 		"title": "ライブラリを編集",
-		"unknownLabel": "未識別のトラック"
-	},
-	"downloads": {
-		"clearConfirm": {
-			"message": "ダウンロードした曲をすべてこのデバイスから削除しますか？",
-			"title": "ダウンロードを消去"
-		},
-		"clearError": "ダウンロードを消去できませんでした",
-		"emptyState": "ダウンロードした曲はオフラインでも再生できます。任意のトラックのダウンロード操作でここに保存されます。",
-		"eyebrow": "オフラインで利用可能",
-		"navLabel": "ダウンロード",
-		"removeError": "ダウンロードを削除できませんでした",
-		"removeTooltip": "ダウンロードを削除",
-		"songCount": "{count, plural, other {#曲}}",
-		"storedOnDevice": "このデバイスに保存済み",
-		"title": "ダウンロード"
+		"unknownLabel": "未識別のトラック",
+		"iconNoMatches": "",
+		"iconReset": "",
+		"iconSearchPlaceholder": "",
+		"iconTabEmoji": "",
+		"iconTabIcons": ""
 	},
 	"hidden": {
 		"hide": "この曲を非表示",
@@ -96,7 +101,14 @@
 		"loading": "ライブラリを読み込み中…",
 		"newLibrary": "新しいライブラリ",
 		"sharedWithYou": "あなたと共有中",
-		"title": "ライブラリ一覧"
+		"title": "ライブラリ一覧",
+		"addLibrary": "ライブラリを追加",
+		"connectServer": "",
+		"connectServerBody": "",
+		"openSetup": "",
+		"serverOffline": "",
+		"serverOnline": "",
+		"serverSummary": ""
 	},
 	"metadata": {
 		"intro": "このライブラリのみのメタデータを編集します。変更はあなたの表示全体に適用され、空欄のままにした項目は元の値を保持します。カタログ全体の編集は管理ページで行えます。",
@@ -118,7 +130,14 @@
 		"serverSelectHint": "新しいライブラリは選択したサーバー上に作成されます。",
 		"serverSelectLabel": "ライブラリサーバー",
 		"submit": "ライブラリを追加",
-		"title": "新しいライブラリ"
+		"title": "新しいライブラリ",
+		"addFailedAt": {
+			"hub": "",
+			"link": ""
+		},
+		"dialogTitle": "",
+		"notPairedHere": "",
+		"sandboxNote": ""
 	},
 	"pin": {
 		"pin": "ピン留め",
@@ -179,12 +198,6 @@
 		"success": "ライブラリを共有しました。",
 		"title": "「{name}」を共有"
 	},
-	"sidebar": {
-		"pinned": "ピン留め",
-		"playlists": "プレイリスト",
-		"yourLibrary": "マイライブラリ"
-	},
-	"trackCount": "{count, plural, other {#曲}}",
 	"shareManager": {
 		"title": "フレンドと共有",
 		"help": "このライブラリに誰がアクセスでき、何をしていて、何が許可されているかを表示します。",
@@ -203,5 +216,11 @@
 		"timeDaysHours": "{days}日{hours}時間",
 		"timeHoursMinutes": "{hours}時間{minutes}分",
 		"timeMinutes": "{minutes}分"
-	}
+	},
+	"sidebar": {
+		"pinned": "ピン留め",
+		"playlists": "プレイリスト",
+		"yourLibrary": "マイライブラリ"
+	},
+	"trackCount": "{count, plural, other {#曲}}"
 }
