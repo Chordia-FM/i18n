@@ -19,7 +19,7 @@
 		"passwordRange": "La contraseña debe tener entre 8 y 1024 caracteres.",
 		"passwordUnchanged": "",
 		"tooManyAttempts": "",
-		"twoFactorAlreadyEnabled": "La autenticación de dos factores ya está activada: desactívala primero.",
+		"twoFactorAlreadyEnabled": "",
 		"twoFactorNotEnabled": "La autenticación de dos factores no está activada.",
 		"twoFactorStartFirst": "Primero inicia la configuración de dos factores."
 	},
@@ -31,7 +31,7 @@
 		"unknownArtist": "Artista desconocido.",
 		"unknownImageHash": "Imagen desconocida."
 	},
-	"changeFailed": "No se pudo guardar ese cambio. Inténtalo de nuevo.",
+	"changeFailed": "",
 	"copyFailed": "",
 	"debug": {
 		"copied": "",
