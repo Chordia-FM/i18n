@@ -19,7 +19,7 @@
 		"passwordRange": "パスワードは8〜1024文字にしてください。",
 		"passwordUnchanged": "",
 		"tooManyAttempts": "",
-		"twoFactorAlreadyEnabled": "二要素認証は既に有効です。先に無効にしてください。",
+		"twoFactorAlreadyEnabled": "",
 		"twoFactorNotEnabled": "二要素認証は有効になっていません。",
 		"twoFactorStartFirst": "先に二要素認証のセットアップを開始してください。"
 	},
@@ -31,7 +31,7 @@
 		"unknownArtist": "不明なアーティストです。",
 		"unknownImageHash": "不明な画像です。"
 	},
-	"changeFailed": "変更を保存できませんでした。もう一度お試しください。",
+	"changeFailed": "",
 	"copyFailed": "",
 	"debug": {
 		"copied": "",
