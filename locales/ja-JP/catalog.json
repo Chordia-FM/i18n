@@ -63,7 +63,7 @@
 			"card": "すべてのライブ音源",
 			"label": "ライブコレクション",
 			"subtitle": "{count, plural, other {#枚のアルバムから}}",
-			"title": "{name} — ライブ"
+			"title": ""
 		},
 		"namesJoin": "",
 		"playlistsFeaturing": "",
@@ -130,7 +130,7 @@
 	},
 	"genres": {
 		"counts": "{albumsFormatted}{albums, plural, other {枚のアルバム}} · {artistsFormatted}{artists, plural, other {組のアーティスト}}",
-		"empty": "まだジャンルがありません。カタログの補完が進むと、アルバムのメタデータとともに表示されます。",
+		"empty": "",
 		"eyebrow": "ジャンル",
 		"notFound": "このジャンルのアルバムはありません。",
 		"title": "ジャンル",
@@ -153,14 +153,14 @@
 		"noAlbums": "アルバムはありません。"
 	},
 	"labels": {
-		"empty": "まだレーベルがありません。MusicBrainzからのカタログ補完が進むと表示されます。",
+		"empty": "",
 		"title": "レーベル"
 	},
 	"lyrics": {
 		"heading": "歌詞",
 		"placeholderPlain": "1行目\n2行目",
 		"placeholderSynced": "[00:00.00] 1行目\n[00:04.20] 2行目",
-		"plainHelp": "プレーンな歌詞。1行ずつ、タイミング情報はありません。",
+		"plainHelp": "",
 		"resetDone": "自動取得の歌詞にリセットしました",
 		"resetError": "歌詞をリセットできませんでした",
 		"resetToAuto": "自動取得に戻す",
