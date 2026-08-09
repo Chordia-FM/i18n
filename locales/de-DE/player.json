@@ -18,9 +18,9 @@
 		"current": "Aktuelles Ziel",
 		"none": "Keine Wiedergabegeräte gefunden.",
 		"pressPlay": "Drücken Sie Play, um hier zu starten",
-		"remoteHint": "",
 		"thisTab": "Dieser Tab",
-		"title": "Wiedergabegerät"
+		"title": "Wiedergabegerät",
+		"unreachable": ""
 	},
 	"eqPreset": {
 		"acoustic": "Akustisch",
@@ -93,7 +93,6 @@
 	},
 	"plays": "{count, plural, one {# Wiedergabe} other {# Wiedergaben}}",
 	"remote": {
-		"on": "",
 		"unnamedDevice": ""
 	},
 	"quality": {
