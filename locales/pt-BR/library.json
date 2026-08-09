@@ -78,7 +78,18 @@
 		"iconReset": "",
 		"iconSearchPlaceholder": "",
 		"iconTabEmoji": "",
-		"iconTabIcons": ""
+		"iconTabIcons": "",
+		"tabs": {
+			"general": "Geral",
+			"metadata": "Metadados",
+			"folders": "",
+			"sharing": "",
+			"organize": "",
+			"danger": ""
+		},
+		"autoRescanEvery": "",
+		"lastScanned": "",
+		"lastScanUnknown": ""
 	},
 	"hidden": {
 		"hide": "Ocultar esta música",
@@ -114,7 +125,8 @@
 		"intro": "Edite os metadados só desta biblioteca. Suas alterações valem em todas as suas telas; o que você deixar em branco mantém o valor original. As edições do catálogo global ficam na página de administração.",
 		"noMatches": "Nenhuma correspondência.",
 		"searchPlaceholder": "Buscar artistas, álbuns ou faixas…",
-		"title": "Metadados"
+		"title": "Metadados",
+		"searchHint": ""
 	},
 	"new": {
 		"addFailed": "Falha ao adicionar a biblioteca",
