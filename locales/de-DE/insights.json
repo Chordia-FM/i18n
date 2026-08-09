@@ -78,12 +78,12 @@
 			"climbedBy": "{count, plural, one {# Platz vor} other {# Plätze vor}}",
 			"climbers": "Aufsteiger",
 			"empty": {
-				"body": "Die Chart-Bewegung vergleicht diesen Zeitraum mit dem davor – sie erscheint, sobald in beiden Wiedergaben vorliegen.",
+				"body": "",
 				"title": "Noch nichts zum Vergleichen"
 			},
 			"fallers": "Absteiger",
 			"fellBy": "{count, plural, one {# Platz zurück} other {# Plätze zurück}}",
-			"needsWindow": "Die Chart-Bewegung vergleicht einen Zeitraum mit dem davor – wählen Sie einen kürzeren Zeitraum, um sie zu sehen.",
+			"needsWindow": "",
 			"new": "Neu",
 			"newcomers": "Neue Einträge",
 			"none": "In diesem Zeitraum keine Bewegung.",
@@ -214,7 +214,7 @@
 		"title": "Einblicke ins Hören"
 	},
 	"overview": {
-		"firstWindow": "{person, select, them {Ihr erster erfasster Zeitraum – Vergleiche erscheinen, sobald Verlauf davor liegt.} other {Ihr erster erfasster Zeitraum – Vergleiche erscheinen, sobald Verlauf davor liegt.}}"
+		"firstWindow": ""
 	},
 	"panels": {
 		"activity": "Aktivität",
@@ -253,7 +253,7 @@
 			"title": "Noch keine Rekorde"
 		},
 		"milestones": {
-			"beginning": "{person, select, them {Jede Bibliothek fängt einmal an – runde Meilensteine landen hier, sobald sich die Wiedergaben summieren.} other {Jede Bibliothek fängt einmal an – runde Meilensteine landen hier, sobald sich Ihre Wiedergaben summieren.}}",
+			"beginning": "",
 			"chip": "Alle Zeiten",
 			"curveAriaLabel": "Kumulierte Wiedergaben im Zeitverlauf, ein Punkt pro Meilenstein",
 			"first": "Erste Wiedergabe",
@@ -266,7 +266,7 @@
 			"title": "Meilensteine"
 		},
 		"onThisDay": {
-			"empty": "{person, select, them {An diesem Datum gibt es noch keine Erinnerungen – sie sammeln sich hier, sobald der Verlauf dieser Person ein Jahr zurückreicht.} other {An diesem Datum gibt es noch keine Erinnerungen – sie sammeln sich hier, sobald Ihr Verlauf ein Jahr zurückreicht.}}",
+			"empty": "",
 			"title": "An diesem Tag",
 			"yearsAgo": "{count, plural, one {vor # Jahr} other {vor # Jahren}}"
 		},
@@ -282,7 +282,7 @@
 			"current": "Aktuelle Serie",
 			"days": "{count, plural, one {# Tag} other {# Tage}}",
 			"detail": "{range} · {plays, plural, one {# Wiedergabe} other {# Wiedergaben}}",
-			"live": "Aktiv – weiter so",
+			"live": "",
 			"longest": "Längste Serie",
 			"noCurrent": {
 				"body": "{person, select, them {Im Moment ist nichts aktiv.} other {Hören Sie heute etwas, um eine zu starten.}}",
@@ -394,7 +394,7 @@
 		},
 		"shareButton": "Teilen",
 		"shared": "Ihre Wrapped-Karte wurde geteilt.",
-		"sharedFallback": "Teilen nicht möglich – die Karte wurde stattdessen in Ihren Downloads gespeichert.",
+		"sharedFallback": "",
 		"sharing": "Wird geteilt…",
 		"statLine": "{artists, number} Künstler · {tracks, number} Titel",
 		"topArtists": "Top-Künstler",
