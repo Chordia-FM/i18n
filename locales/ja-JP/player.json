@@ -18,9 +18,9 @@
 		"current": "現在の出力先",
 		"none": "再生デバイスが見つかりません。",
 		"pressPlay": "再生を押すとここで再生します",
-		"remoteHint": "",
 		"thisTab": "このタブ",
-		"title": "再生デバイス"
+		"title": "再生デバイス",
+		"unreachable": ""
 	},
 	"eqPreset": {
 		"acoustic": "アコースティック",
@@ -93,7 +93,6 @@
 	},
 	"plays": "{count, plural, other {#回再生}}",
 	"remote": {
-		"on": "",
 		"unnamedDevice": ""
 	},
 	"quality": {
