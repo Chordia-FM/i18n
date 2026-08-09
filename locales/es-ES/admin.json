@@ -124,7 +124,9 @@
 		"topAlbums": "Álbumes principales",
 		"topArtists": "Artistas principales",
 		"topTracks": "Pistas principales",
-		"withTotp": ""
+		"withTotp": "",
+		"window": "",
+		"year": ""
 	},
 	"reports": {
 		"createdAt": "",
@@ -175,7 +177,22 @@
 		"tracksMissingIsrcs": "",
 		"tracksMissingLyrics": "",
 		"tracksMissingRecording": "",
-		"version": ""
+		"version": "",
+		"rollupLagHelp": "",
+		"sizeDesc": "",
+		"jobStatus": {
+			"awaiting_selection": "",
+			"cancelled": "Cancelada",
+			"claimed": "",
+			"completed": "Completada",
+			"downloading": "Descargando",
+			"failed": "Error",
+			"grabbing": "Obteniendo",
+			"importing": "Importando",
+			"no_results": "",
+			"queued": "En cola",
+			"searching": "Buscando"
+		}
 	},
 	"tabs": {
 		"audit": "Registro de auditoría",
@@ -186,6 +203,28 @@
 		"system": ""
 	},
 	"title": "Administración del sitio",
+	"userDetail": {
+		"activeDays": "",
+		"back": "",
+		"device": "",
+		"history": "",
+		"joined": "",
+		"lastSeen": "",
+		"libraries": "Bibliotecas",
+		"librariesPlaylists": "",
+		"listeningTime": "",
+		"loadFailed": "",
+		"noHistory": "",
+		"noLibraries": "",
+		"noSessions": "",
+		"offline": "",
+		"online": "",
+		"owns": "",
+		"plays": "Reproducciones",
+		"sessionMeta": "",
+		"sessions": "",
+		"unknownDevice": "Dispositivo desconocido"
+	},
 	"users": {
 		"deleteConfirm": "¿Eliminar permanentemente a @{handle} y TODOS sus datos? Esta acción no se puede deshacer.",
 		"deleteTitle": "Eliminar usuario",
