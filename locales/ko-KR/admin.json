@@ -97,7 +97,8 @@
 		"uploadIcon": "아이콘 업로드",
 		"uploadLogo": "로고 업로드",
 		"useThisArt": "이 {kind} 사용",
-		"useThisLogo": "이 로고 사용"
+		"useThisLogo": "이 로고 사용",
+		"searchHint": ""
 	},
 	"moderation": {
 		"loadFailed": ""
