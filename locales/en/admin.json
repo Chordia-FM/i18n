@@ -203,6 +203,28 @@
 		"system": "System"
 	},
 	"title": "Site administration",
+	"userDetail": {
+		"activeDays": "{count, plural, one {# day with listening} other {# days with listening}}",
+		"back": "All users",
+		"device": "Paired device",
+		"history": "Admin actions on this account",
+		"joined": "Joined",
+		"lastSeen": "Last seen {when}",
+		"libraries": "Libraries",
+		"librariesPlaylists": "libraries / playlists",
+		"listeningTime": "Listening time",
+		"loadFailed": "Couldn't load this account",
+		"noHistory": "Nothing has been done to this account.",
+		"noLibraries": "No libraries paired.",
+		"noSessions": "No active sessions.",
+		"offline": "Offline",
+		"online": "Online",
+		"owns": "Owns",
+		"plays": "Plays",
+		"sessionMeta": "Started {started} · used {used}",
+		"sessions": "Active sessions",
+		"unknownDevice": "Unknown device"
+	},
 	"users": {
 		"deleteConfirm": "Permanently delete @{handle} and ALL their data? This cannot be undone.",
 		"deleteTitle": "Delete user",
