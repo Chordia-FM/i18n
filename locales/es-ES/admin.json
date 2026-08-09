@@ -47,6 +47,14 @@
 		"starting": "Iniciando…",
 		"title": "Enriquecimiento de metadatos"
 	},
+	"explorer": {
+		"description": "",
+		"loadFailed": "",
+		"rowCount": "",
+		"searchPlaceholder": "",
+		"onDisk": "",
+		"rowCountCapped": ""
+	},
 	"metadata": {
 		"artistSubtitle": "{albumCount, plural, one {# álbum} other {# álbumes}} · {trackCount, plural, one {# pista} other {# pistas}}",
 		"artworkAlt": "Imagen",
@@ -126,7 +134,28 @@
 		"topTracks": "Pistas principales",
 		"withTotp": "",
 		"window": "",
-		"year": ""
+		"year": "",
+		"accountsGained": "",
+		"accountsOverTime": "",
+		"accountsTotal": "",
+		"busiestDay": "",
+		"coverage": "",
+		"coverage2fa": "",
+		"coverageActive": "",
+		"coverageVerified": "",
+		"daily": "",
+		"hoursTotal": "Escuchas",
+		"hoursValue": "",
+		"listeningHours": "",
+		"monthly": "",
+		"noData": "",
+		"peakListeners": "",
+		"signupsTotal": "",
+		"stickiness": "",
+		"weekdayMix": "",
+		"weekly": "",
+		"playlists": "Listas",
+		"labelsCount": ""
 	},
 	"reports": {
 		"createdAt": "",
@@ -200,7 +229,8 @@
 		"moderation": "",
 		"users": "Usuarios",
 		"overview": "Resumen",
-		"system": ""
+		"system": "",
+		"explorer": ""
 	},
 	"title": "Administración del sitio",
 	"userDetail": {
