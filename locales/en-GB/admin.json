@@ -1,7 +1,38 @@
 {
 	"audit": {
+		"action": "",
+		"actionName": {
+			"approve_suggestion": "",
+			"delete_user": "",
+			"deny_suggestion": "",
+			"edit_album": "",
+			"edit_artist": "",
+			"edit_label": "",
+			"edit_track": "",
+			"merge_artist": "",
+			"resolve_report": "",
+			"suspend_user": "",
+			"unsuspend_user": ""
+		},
+		"actor": "",
+		"allActions": "",
+		"allActors": "",
+		"allCategories": "",
+		"backfilled": "",
+		"backfilledHint": "",
+		"category": "",
 		"createdAt": "",
+		"description": "",
+		"diff": {
+			"unset": ""
+		},
 		"empty": "",
+		"loadFailed": "",
+		"loadMore": "",
+		"noDiff": "",
+		"noMatches": "",
+		"searchPlaceholder": "",
+		"targetId": "",
 		"title": ""
 	},
 	"editCatalog": {
@@ -58,6 +89,9 @@
 		"useThisArt": "",
 		"useThisLogo": ""
 	},
+	"moderation": {
+		"loadFailed": ""
+	},
 	"noAccess": {
 		"backToApp": "",
 		"body": "",
@@ -88,6 +122,12 @@
 		"title": "",
 		"titleWithCount": ""
 	},
+	"tabs": {
+		"audit": "",
+		"content": "",
+		"moderation": "",
+		"users": ""
+	},
 	"title": "",
 	"users": {
 		"deleteConfirm": "",
@@ -98,6 +138,8 @@
 		"suspendTitle": "",
 		"suspendedBadge": "",
 		"title": "",
-		"unsuspend": ""
+		"unsuspend": "",
+		"empty": "",
+		"loadFailed": ""
 	}
 }
