@@ -124,7 +124,9 @@
 		"topAlbums": "Top albums",
 		"topArtists": "Top artists",
 		"topTracks": "Top tracks",
-		"withTotp": "{count, plural, one {# with 2FA} other {# with 2FA}}"
+		"withTotp": "{count, plural, one {# with 2FA} other {# with 2FA}}",
+		"window": "Time window",
+		"year": "1y"
 	},
 	"reports": {
 		"createdAt": "{date}",
@@ -167,7 +169,7 @@
 		"queue": "Download jobs",
 		"queueEmpty": "Nothing queued.",
 		"queueJobs": "across all statuses",
-		"rollupLag": "Rollup lag",
+		"rollupLag": "Aggregator lag",
 		"rollups": "Rollups",
 		"rows": "Rows",
 		"size": "Size",
@@ -175,7 +177,22 @@
 		"tracksMissingIsrcs": "Tracks with no ISRCs",
 		"tracksMissingLyrics": "Tracks with no lyrics",
 		"tracksMissingRecording": "Tracks with no recording id",
-		"version": "Hub version"
+		"version": "Hub version",
+		"rollupLagHelp": "How far the background aggregator is behind the newest listen. Zero means it has caught up with everything recorded.",
+		"sizeDesc": "Size ▼",
+		"jobStatus": {
+			"awaiting_selection": "Needs a choice",
+			"cancelled": "Cancelled",
+			"claimed": "Claimed",
+			"completed": "Completed",
+			"downloading": "Downloading",
+			"failed": "Failed",
+			"grabbing": "Grabbing",
+			"importing": "Importing",
+			"no_results": "No results",
+			"queued": "Queued",
+			"searching": "Searching"
+		}
 	},
 	"tabs": {
 		"audit": "Audit log",
