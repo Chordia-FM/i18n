@@ -18,6 +18,7 @@
 		"current": "Destino atual",
 		"none": "Nenhum dispositivo de reprodução encontrado.",
 		"pressPlay": "Aperte play para começar aqui",
+		"remoteHint": "",
 		"thisTab": "Esta aba",
 		"title": "Dispositivo de reprodução"
 	},
@@ -91,6 +92,10 @@
 		"title": "Tocando agora"
 	},
 	"plays": "{count, plural, one {# reprodução} other {# reproduções}}",
+	"remote": {
+		"on": "",
+		"unnamedDevice": ""
+	},
 	"quality": {
 		"change": "Alterar",
 		"dataPerHourGb": "~{value} GB/hora",
