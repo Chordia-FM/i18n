@@ -78,7 +78,18 @@
 		"iconReset": "",
 		"iconSearchPlaceholder": "",
 		"iconTabEmoji": "",
-		"iconTabIcons": ""
+		"iconTabIcons": "",
+		"tabs": {
+			"general": "",
+			"metadata": "Metadatos",
+			"folders": "",
+			"sharing": "",
+			"organize": "",
+			"danger": ""
+		},
+		"autoRescanEvery": "",
+		"lastScanned": "",
+		"lastScanUnknown": ""
 	},
 	"hidden": {
 		"hide": "Ocultar esta canción",
@@ -114,7 +125,8 @@
 		"intro": "Edita los metadatos solo de esta biblioteca. Tus cambios se aplican en todas tus vistas; lo que dejes en blanco conserva el valor original. Las ediciones globales del catálogo están en la página de administración.",
 		"noMatches": "Sin coincidencias.",
 		"searchPlaceholder": "Busca artistas, álbumes o pistas…",
-		"title": "Metadatos"
+		"title": "Metadatos",
+		"searchHint": ""
 	},
 	"new": {
 		"addFailed": "No se pudo añadir la biblioteca",
