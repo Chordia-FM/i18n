@@ -78,7 +78,18 @@
 		"iconReset": "",
 		"iconSearchPlaceholder": "",
 		"iconTabEmoji": "",
-		"iconTabIcons": ""
+		"iconTabIcons": "",
+		"tabs": {
+			"general": "Allgemein",
+			"metadata": "Metadaten",
+			"folders": "",
+			"sharing": "",
+			"organize": "",
+			"danger": ""
+		},
+		"autoRescanEvery": "",
+		"lastScanned": "",
+		"lastScanUnknown": ""
 	},
 	"hidden": {
 		"hide": "Diesen Song ausblenden",
@@ -114,7 +125,8 @@
 		"intro": "Bearbeiten Sie Metadaten nur für diese Bibliothek. Ihre Änderungen gelten in allen Ihren Ansichten; alles, was Sie leer lassen, behält den ursprünglichen Wert. Globale Katalogänderungen finden Sie auf der Admin-Seite.",
 		"noMatches": "Keine Treffer.",
 		"searchPlaceholder": "Künstler, Alben oder Titel suchen…",
-		"title": "Metadaten"
+		"title": "Metadaten",
+		"searchHint": ""
 	},
 	"new": {
 		"addFailed": "Bibliothek konnte nicht hinzugefügt werden",
