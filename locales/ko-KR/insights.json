@@ -78,12 +78,12 @@
 			"climbedBy": "{count, plural, other {#단계}} 상승",
 			"climbers": "상승",
 			"empty": {
-				"body": "차트 변동은 이 기간과 직전 기간을 비교합니다. 두 기간 모두 재생 기록이 있어야 표시됩니다.",
+				"body": "",
 				"title": "아직 비교할 기록이 없습니다"
 			},
 			"fallers": "하락",
 			"fellBy": "{count, plural, other {#단계}} 하락",
-			"needsWindow": "차트 변동은 한 기간과 직전 기간을 비교합니다. 더 짧은 기간을 선택하면 볼 수 있습니다.",
+			"needsWindow": "",
 			"new": "신규",
 			"newcomers": "신규 진입",
 			"none": "이 기간에는 순위 변동이 없습니다.",
@@ -214,7 +214,7 @@
 		"title": "감상 인사이트"
 	},
 	"overview": {
-		"firstWindow": "{person, select, them {기록에 남은 첫 기간입니다 — 이전 기록이 쌓이면 비교가 표시됩니다.} other {기록에 남은 첫 기간입니다 — 이전 기록이 쌓이면 비교가 표시됩니다.}}"
+		"firstWindow": ""
 	},
 	"panels": {
 		"activity": "활동",
@@ -253,7 +253,7 @@
 			"title": "아직 최고 기록이 없습니다"
 		},
 		"milestones": {
-			"beginning": "{person, select, them {모든 라이브러리는 어딘가에서 시작합니다 — 이 사람의 재생이 쌓이면 딱 떨어지는 숫자의 마일스톤이 여기에 표시됩니다.} other {모든 라이브러리는 어딘가에서 시작합니다 — 재생이 쌓이면 딱 떨어지는 숫자의 마일스톤이 여기에 표시됩니다.}}",
+			"beginning": "",
 			"chip": "전체 기간",
 			"curveAriaLabel": "시간에 따른 누적 재생, 마일스톤마다 한 점",
 			"first": "첫 재생",
@@ -266,7 +266,7 @@
 			"title": "마일스톤"
 		},
 		"onThisDay": {
-			"empty": "{person, select, them {이 날짜의 추억이 아직 없습니다 — 이 사람의 기록이 1년 이상 쌓이면 여기에 모입니다.} other {이 날짜의 추억이 아직 없습니다 — 내 기록이 1년 이상 쌓이면 여기에 모입니다.}}",
+			"empty": "",
 			"title": "오늘의 기록",
 			"yearsAgo": "{count, plural, other {#년 전}}"
 		},
@@ -282,7 +282,7 @@
 			"current": "현재 연속 기록",
 			"days": "{count, plural, other {#일}}",
 			"detail": "{range} · {plays, plural, other {#회 재생}}",
-			"live": "진행 중 — 계속 이어 가세요",
+			"live": "",
 			"longest": "최장 연속 기록",
 			"noCurrent": {
 				"body": "{person, select, them {지금은 진행 중인 기록이 없습니다.} other {오늘 음악을 재생해 새 기록을 시작해 보세요.}}",
@@ -394,7 +394,7 @@
 		},
 		"shareButton": "공유",
 		"shared": "Wrapped 카드를 공유했습니다.",
-		"sharedFallback": "공유하지 못해 카드를 다운로드에 저장했습니다.",
+		"sharedFallback": "",
 		"sharing": "공유 중…",
 		"statLine": "아티스트 {artists, number} · 트랙 {tracks, number}",
 		"topArtists": "인기 아티스트",
