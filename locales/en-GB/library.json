@@ -78,7 +78,18 @@
 		"iconReset": "",
 		"iconSearchPlaceholder": "",
 		"iconTabEmoji": "",
-		"iconTabIcons": ""
+		"iconTabIcons": "",
+		"tabs": {
+			"general": "",
+			"metadata": "",
+			"folders": "",
+			"sharing": "",
+			"organize": "",
+			"danger": ""
+		},
+		"autoRescanEvery": "",
+		"lastScanned": "",
+		"lastScanUnknown": ""
 	},
 	"hidden": {
 		"hide": "",
@@ -114,7 +125,8 @@
 		"intro": "Edit metadata for this library only. Your changes apply across your views; anything you leave blank keeps the original value. Global catalogue edits live in the admin page.",
 		"noMatches": "",
 		"searchPlaceholder": "",
-		"title": ""
+		"title": "",
+		"searchHint": ""
 	},
 	"new": {
 		"addFailed": "",
