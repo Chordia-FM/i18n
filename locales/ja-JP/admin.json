@@ -1,7 +1,38 @@
 {
 	"audit": {
+		"action": "",
+		"actionName": {
+			"approve_suggestion": "",
+			"delete_user": "",
+			"deny_suggestion": "",
+			"edit_album": "",
+			"edit_artist": "",
+			"edit_label": "",
+			"edit_track": "",
+			"merge_artist": "",
+			"resolve_report": "",
+			"suspend_user": "",
+			"unsuspend_user": ""
+		},
+		"actor": "",
+		"allActions": "",
+		"allActors": "",
+		"allCategories": "",
+		"backfilled": "",
+		"backfilledHint": "",
+		"category": "",
 		"createdAt": "",
+		"description": "",
+		"diff": {
+			"unset": ""
+		},
 		"empty": "まだ操作はありません。",
+		"loadFailed": "",
+		"loadMore": "",
+		"noDiff": "",
+		"noMatches": "",
+		"searchPlaceholder": "",
+		"targetId": "",
 		"title": "監査ログ"
 	},
 	"editCatalog": {
@@ -58,6 +89,9 @@
 		"useThisArt": "この{kind}を使用",
 		"useThisLogo": "このロゴを使用"
 	},
+	"moderation": {
+		"loadFailed": ""
+	},
 	"noAccess": {
 		"backToApp": "アプリに戻る",
 		"body": "サイト管理へのアクセス権がありません。{link}。",
@@ -88,6 +122,12 @@
 		"title": "メタデータの提案",
 		"titleWithCount": "{count, plural, other {メタデータの提案（#件保留中）}}"
 	},
+	"tabs": {
+		"audit": "監査ログ",
+		"content": "",
+		"moderation": "",
+		"users": "ユーザー"
+	},
 	"title": "サイト管理",
 	"users": {
 		"deleteConfirm": "@{handle}とそのすべてのデータを完全に削除しますか？この操作は取り消せません。",
@@ -98,6 +138,8 @@
 		"suspendTitle": "ユーザーを停止",
 		"suspendedBadge": "停止中",
 		"title": "ユーザー",
-		"unsuspend": "停止を解除"
+		"unsuspend": "停止を解除",
+		"empty": "",
+		"loadFailed": ""
 	}
 }
