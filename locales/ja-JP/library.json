@@ -196,10 +196,10 @@
 		"thisLibrary": "このライブラリ",
 		"grantAccess": "{name}にアクセスを許可",
 		"removeAccess": "{name}のアクセスを削除",
-		"streamingNow": "ストリーミング中: {title} — {artist}",
+		"streamingNow": "",
 		"statsLine": "リクエスト{requests}件 · ダウンロード{downloads}件 · {plays}回再生 · 再生時間{time}",
 		"lastPlayed": "最終再生: {date}",
-		"updateFailed": "共有設定を更新できませんでした。もう一度お試しください。",
+		"updateFailed": "",
 		"timeDaysHours": "{days}日{hours}時間",
 		"timeHoursMinutes": "{hours}時間{minutes}分",
 		"timeMinutes": "{minutes}分"
