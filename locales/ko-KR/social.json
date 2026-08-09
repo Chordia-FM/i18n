@@ -93,7 +93,7 @@
 		"totalPlaysCount": ""
 	},
 	"report": {
-		"promptMessage": "@{handle}님 신고 — 무엇이 문제인가요?"
+		"promptMessage": ""
 	},
 	"requests": {
 		"accept": "수락",
