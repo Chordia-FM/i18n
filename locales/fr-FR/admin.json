@@ -1,7 +1,38 @@
 {
 	"audit": {
+		"action": "",
+		"actionName": {
+			"approve_suggestion": "",
+			"delete_user": "",
+			"deny_suggestion": "",
+			"edit_album": "",
+			"edit_artist": "",
+			"edit_label": "",
+			"edit_track": "",
+			"merge_artist": "",
+			"resolve_report": "",
+			"suspend_user": "",
+			"unsuspend_user": ""
+		},
+		"actor": "",
+		"allActions": "",
+		"allActors": "",
+		"allCategories": "",
+		"backfilled": "",
+		"backfilledHint": "",
+		"category": "",
 		"createdAt": "",
+		"description": "",
+		"diff": {
+			"unset": ""
+		},
 		"empty": "Aucune action pour l'instant.",
+		"loadFailed": "",
+		"loadMore": "",
+		"noDiff": "",
+		"noMatches": "",
+		"searchPlaceholder": "",
+		"targetId": "",
 		"title": "Journal d'audit"
 	},
 	"editCatalog": {
@@ -58,6 +89,9 @@
 		"useThisArt": "Utiliser : {kind}",
 		"useThisLogo": "Utiliser ce logo"
 	},
+	"moderation": {
+		"loadFailed": ""
+	},
 	"noAccess": {
 		"backToApp": "Retour à l'application",
 		"body": "Vous n'avez pas accès à l'administration du site. {link}.",
@@ -88,6 +122,12 @@
 		"title": "Suggestions de métadonnées",
 		"titleWithCount": "{count, plural, one {Suggestions de métadonnées (# en attente)} other {Suggestions de métadonnées (# en attente)}}"
 	},
+	"tabs": {
+		"audit": "Journal d'audit",
+		"content": "",
+		"moderation": "",
+		"users": ""
+	},
 	"title": "Administration du site",
 	"users": {
 		"deleteConfirm": "Supprimer définitivement @{handle} et TOUTES ses données ? Cette action est irréversible.",
@@ -98,6 +138,8 @@
 		"suspendTitle": "Suspendre l'utilisateur",
 		"suspendedBadge": "suspendu",
 		"title": "Utilisateurs",
-		"unsuspend": "Réactiver"
+		"unsuspend": "Réactiver",
+		"empty": "",
+		"loadFailed": ""
 	}
 }
