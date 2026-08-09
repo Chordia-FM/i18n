@@ -47,6 +47,14 @@
 		"starting": "시작하는 중…",
 		"title": "메타데이터 보강"
 	},
+	"explorer": {
+		"description": "",
+		"loadFailed": "",
+		"rowCount": "",
+		"searchPlaceholder": "",
+		"onDisk": "",
+		"rowCountCapped": ""
+	},
 	"metadata": {
 		"artistSubtitle": "{albumCount, plural, other {앨범 #개}} · {trackCount, plural, other {트랙 #개}}",
 		"artworkAlt": "아트워크",
@@ -126,7 +134,28 @@
 		"topTracks": "인기 트랙",
 		"withTotp": "",
 		"window": "",
-		"year": ""
+		"year": "",
+		"accountsGained": "",
+		"accountsOverTime": "",
+		"accountsTotal": "",
+		"busiestDay": "",
+		"coverage": "",
+		"coverage2fa": "",
+		"coverageActive": "",
+		"coverageVerified": "",
+		"daily": "",
+		"hoursTotal": "감상",
+		"hoursValue": "",
+		"listeningHours": "",
+		"monthly": "",
+		"noData": "",
+		"peakListeners": "",
+		"signupsTotal": "",
+		"stickiness": "",
+		"weekdayMix": "",
+		"weekly": "",
+		"playlists": "플레이리스트",
+		"labelsCount": ""
 	},
 	"reports": {
 		"createdAt": "",
@@ -200,7 +229,8 @@
 		"moderation": "",
 		"users": "사용자",
 		"overview": "개요",
-		"system": ""
+		"system": "",
+		"explorer": ""
 	},
 	"title": "사이트 관리",
 	"userDetail": {
