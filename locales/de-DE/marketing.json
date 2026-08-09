@@ -1,15 +1,116 @@
 {
 	"cta": {
-		"github": "Auf GitHub ansehen",
-		"openApp": "App öffnen"
+		"createAccount": "",
+		"github": "",
+		"note": "",
+		"openApp": "",
+		"readDocs": "",
+		"selfHost": "",
+		"signIn": "Anmelden"
 	},
-	"eyebrow": "Ihr Audio gehört Ihnen · teilen Sie es, wie Sie wollen",
+	"eyebrow": "",
+	"faq": {
+		"cost": {
+			"a": "",
+			"q": ""
+		},
+		"formats": {
+			"a": "",
+			"q": ""
+		},
+		"heading": "",
+		"offline": {
+			"a": "",
+			"q": ""
+		},
+		"privacy": {
+			"a": "",
+			"q": ""
+		},
+		"server": {
+			"a": "",
+			"q": ""
+		},
+		"spotify": {
+			"a": "",
+			"q": ""
+		}
+	},
+	"features": {
+		"everywhere": {
+			"body": "",
+			"points": {
+				"a": "",
+				"b": "",
+				"c": ""
+			},
+			"title": ""
+		},
+		"heading": "",
+		"quality": {
+			"body": "",
+			"points": {
+				"a": "",
+				"b": "",
+				"c": ""
+			},
+			"title": ""
+		},
+		"sharing": {
+			"body": "",
+			"points": {
+				"a": "",
+				"b": "",
+				"c": ""
+			},
+			"title": ""
+		},
+		"subheading": "",
+		"yours": {
+			"body": "",
+			"points": {
+				"a": "",
+				"b": "",
+				"c": ""
+			},
+			"title": ""
+		}
+	},
+	"final": {
+		"body": "",
+		"title": ""
+	},
 	"footer": {
 		"github": "",
-		"license": "Open Source · AGPL-3.0 ·"
+		"language": "Sprache",
+		"legal": {
+			"heading": "",
+			"license": "",
+			"privacy": "Privatsphäre",
+			"terms": ""
+		},
+		"license": "Open Source · AGPL-3.0 ·",
+		"product": {
+			"features": "",
+			"heading": "",
+			"listening": "",
+			"selfHost": "",
+			"signUp": "Konto erstellen"
+		},
+		"rights": "",
+		"source": {
+			"architecture": "",
+			"docs": "",
+			"github": "",
+			"heading": "",
+			"issues": ""
+		},
+		"tagline": ""
 	},
 	"hero": {
-		"paragraph": "Ein hybrides, selbst gehostetes Musik-Ökosystem. Absolutes Eigentum an Ihrer Bibliothek – zusammen mit dem vernetzten, sozialen Streaming-Erlebnis, in bitgenauer Wiedergabetreue."
+		"paragraph": "Ein hybrides, selbst gehostetes Musik-Ökosystem. Absolutes Eigentum an Ihrer Bibliothek – zusammen mit dem vernetzten, sozialen Streaming-Erlebnis, in bitgenauer Wiedergabetreue.",
+		"subtitle": "",
+		"title": ""
 	},
 	"pillars": {
 		"liveRooms": {
@@ -28,5 +129,66 @@
 			"body": "Jede Wiedergabe wird auf Ihr globales Konto gescrobbelt und für immer gespeichert – wöchentliche, monatliche und jährliche Einblicke, die jeden Serverumzug überdauern.",
 			"title": "Wrapped fürs ganze Leben"
 		}
+	},
+	"proof": {
+		"heading": "",
+		"shots": {
+			"album": {
+				"alt": "",
+				"caption": ""
+			},
+			"friends": {
+				"alt": "",
+				"caption": ""
+			},
+			"insights": {
+				"alt": "",
+				"caption": ""
+			},
+			"listen": {
+				"alt": "",
+				"caption": ""
+			},
+			"mobile": {
+				"alt": "",
+				"caption": ""
+			}
+		},
+		"subheading": ""
+	},
+	"selfHost": {
+		"body": "",
+		"eyebrow": "",
+		"steps": {
+			"install": {
+				"body": "",
+				"title": ""
+			},
+			"pair": {
+				"body": "",
+				"title": ""
+			},
+			"scan": {
+				"body": "",
+				"title": ""
+			}
+		},
+		"title": ""
+	},
+	"social": {
+		"body": "",
+		"points": {
+			"a": "",
+			"b": "",
+			"c": "",
+			"d": ""
+		},
+		"title": ""
+	},
+	"trust": {
+		"formats": "",
+		"hardware": "",
+		"license": "",
+		"privacy": ""
 	}
 }
