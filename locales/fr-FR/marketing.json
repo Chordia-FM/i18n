@@ -1,15 +1,116 @@
 {
 	"cta": {
-		"github": "Voir sur GitHub",
-		"openApp": "Ouvrir l'application"
+		"createAccount": "",
+		"github": "",
+		"note": "",
+		"openApp": "",
+		"readDocs": "",
+		"selfHost": "",
+		"signIn": "Se connecter"
 	},
-	"eyebrow": "Possédez votre audio · partagez-le à votre façon",
+	"eyebrow": "",
+	"faq": {
+		"cost": {
+			"a": "",
+			"q": ""
+		},
+		"formats": {
+			"a": "",
+			"q": ""
+		},
+		"heading": "",
+		"offline": {
+			"a": "",
+			"q": ""
+		},
+		"privacy": {
+			"a": "",
+			"q": ""
+		},
+		"server": {
+			"a": "",
+			"q": ""
+		},
+		"spotify": {
+			"a": "",
+			"q": ""
+		}
+	},
+	"features": {
+		"everywhere": {
+			"body": "",
+			"points": {
+				"a": "",
+				"b": "",
+				"c": ""
+			},
+			"title": ""
+		},
+		"heading": "",
+		"quality": {
+			"body": "",
+			"points": {
+				"a": "",
+				"b": "",
+				"c": ""
+			},
+			"title": ""
+		},
+		"sharing": {
+			"body": "",
+			"points": {
+				"a": "",
+				"b": "",
+				"c": ""
+			},
+			"title": ""
+		},
+		"subheading": "",
+		"yours": {
+			"body": "",
+			"points": {
+				"a": "",
+				"b": "",
+				"c": ""
+			},
+			"title": ""
+		}
+	},
+	"final": {
+		"body": "",
+		"title": ""
+	},
 	"footer": {
 		"github": "",
-		"license": ""
+		"language": "Langue",
+		"legal": {
+			"heading": "",
+			"license": "",
+			"privacy": "Confidentialité",
+			"terms": ""
+		},
+		"license": "",
+		"product": {
+			"features": "",
+			"heading": "",
+			"listening": "",
+			"selfHost": "",
+			"signUp": "Créer un compte"
+		},
+		"rights": "",
+		"source": {
+			"architecture": "",
+			"docs": "",
+			"github": "",
+			"heading": "",
+			"issues": ""
+		},
+		"tagline": ""
 	},
 	"hero": {
-		"paragraph": "Un écosystème musical hybride et auto-hébergé. La maîtrise totale de votre bibliothèque, avec l'expérience sociale et connectée du streaming — en fidélité bit-perfect."
+		"paragraph": "Un écosystème musical hybride et auto-hébergé. La maîtrise totale de votre bibliothèque, avec l'expérience sociale et connectée du streaming — en fidélité bit-perfect.",
+		"subtitle": "",
+		"title": ""
 	},
 	"pillars": {
 		"liveRooms": {
@@ -28,5 +129,66 @@
 			"body": "Chaque écoute est scrobblée sur votre compte global et conservée pour toujours — des bilans hebdomadaires, mensuels et annuels qui survivent à tout changement de serveur.",
 			"title": "Wrapped à vie"
 		}
+	},
+	"proof": {
+		"heading": "",
+		"shots": {
+			"album": {
+				"alt": "",
+				"caption": ""
+			},
+			"friends": {
+				"alt": "",
+				"caption": ""
+			},
+			"insights": {
+				"alt": "",
+				"caption": ""
+			},
+			"listen": {
+				"alt": "",
+				"caption": ""
+			},
+			"mobile": {
+				"alt": "",
+				"caption": ""
+			}
+		},
+		"subheading": ""
+	},
+	"selfHost": {
+		"body": "",
+		"eyebrow": "",
+		"steps": {
+			"install": {
+				"body": "",
+				"title": ""
+			},
+			"pair": {
+				"body": "",
+				"title": ""
+			},
+			"scan": {
+				"body": "",
+				"title": ""
+			}
+		},
+		"title": ""
+	},
+	"social": {
+		"body": "",
+		"points": {
+			"a": "",
+			"b": "",
+			"c": "",
+			"d": ""
+		},
+		"title": ""
+	},
+	"trust": {
+		"formats": "",
+		"hardware": "",
+		"license": "",
+		"privacy": ""
 	}
 }
