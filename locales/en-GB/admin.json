@@ -97,7 +97,8 @@
 		"uploadIcon": "",
 		"uploadLogo": "",
 		"useThisArt": "",
-		"useThisLogo": ""
+		"useThisLogo": "",
+		"searchHint": ""
 	},
 	"moderation": {
 		"loadFailed": ""
