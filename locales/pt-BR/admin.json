@@ -1,7 +1,38 @@
 {
 	"audit": {
+		"action": "",
+		"actionName": {
+			"approve_suggestion": "",
+			"delete_user": "",
+			"deny_suggestion": "",
+			"edit_album": "",
+			"edit_artist": "",
+			"edit_label": "",
+			"edit_track": "",
+			"merge_artist": "",
+			"resolve_report": "",
+			"suspend_user": "",
+			"unsuspend_user": ""
+		},
+		"actor": "",
+		"allActions": "",
+		"allActors": "",
+		"allCategories": "",
+		"backfilled": "",
+		"backfilledHint": "",
+		"category": "",
 		"createdAt": "",
+		"description": "",
+		"diff": {
+			"unset": ""
+		},
 		"empty": "Nenhuma ação ainda.",
+		"loadFailed": "",
+		"loadMore": "",
+		"noDiff": "",
+		"noMatches": "",
+		"searchPlaceholder": "",
+		"targetId": "",
 		"title": "Registro de auditoria"
 	},
 	"editCatalog": {
@@ -58,6 +89,9 @@
 		"useThisArt": "Usar {kind}",
 		"useThisLogo": "Usar este logo"
 	},
+	"moderation": {
+		"loadFailed": ""
+	},
 	"noAccess": {
 		"backToApp": "Voltar ao app",
 		"body": "Você não tem acesso à administração do site. {link}.",
@@ -88,6 +122,12 @@
 		"title": "Sugestões de metadados",
 		"titleWithCount": "{count, plural, one {Sugestões de metadados (# pendente)} other {Sugestões de metadados (# pendentes)}}"
 	},
+	"tabs": {
+		"audit": "Registro de auditoria",
+		"content": "",
+		"moderation": "",
+		"users": "Usuários"
+	},
 	"title": "Administração do site",
 	"users": {
 		"deleteConfirm": "Excluir permanentemente @{handle} e TODOS os seus dados? Isso não pode ser desfeito.",
@@ -98,6 +138,8 @@
 		"suspendTitle": "Suspender usuário",
 		"suspendedBadge": "suspenso",
 		"title": "Usuários",
-		"unsuspend": "Reativar"
+		"unsuspend": "Reativar",
+		"empty": "",
+		"loadFailed": ""
 	}
 }
