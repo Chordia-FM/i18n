@@ -1,7 +1,38 @@
 {
 	"audit": {
+		"action": "",
+		"actionName": {
+			"approve_suggestion": "",
+			"delete_user": "",
+			"deny_suggestion": "",
+			"edit_album": "",
+			"edit_artist": "",
+			"edit_label": "",
+			"edit_track": "",
+			"merge_artist": "",
+			"resolve_report": "",
+			"suspend_user": "",
+			"unsuspend_user": ""
+		},
+		"actor": "",
+		"allActions": "",
+		"allActors": "",
+		"allCategories": "",
+		"backfilled": "",
+		"backfilledHint": "",
+		"category": "",
 		"createdAt": "",
+		"description": "",
+		"diff": {
+			"unset": ""
+		},
 		"empty": "Noch keine Aktionen.",
+		"loadFailed": "",
+		"loadMore": "",
+		"noDiff": "",
+		"noMatches": "",
+		"searchPlaceholder": "",
+		"targetId": "",
 		"title": "Audit-Protokoll"
 	},
 	"editCatalog": {
@@ -58,6 +89,9 @@
 		"useThisArt": "{kind} verwenden",
 		"useThisLogo": "Logo verwenden"
 	},
+	"moderation": {
+		"loadFailed": ""
+	},
 	"noAccess": {
 		"backToApp": "Zurück zur App",
 		"body": "Sie haben keinen Zugriff auf die Site-Administration. {link}.",
@@ -88,6 +122,12 @@
 		"title": "Metadaten-Vorschläge",
 		"titleWithCount": "{count, plural, one {Metadaten-Vorschläge (# ausstehend)} other {Metadaten-Vorschläge (# ausstehend)}}"
 	},
+	"tabs": {
+		"audit": "Audit-Protokoll",
+		"content": "",
+		"moderation": "",
+		"users": "Benutzer"
+	},
 	"title": "Site-Administration",
 	"users": {
 		"deleteConfirm": "@{handle} und ALLE zugehörigen Daten dauerhaft löschen? Dies kann nicht rückgängig gemacht werden.",
@@ -98,6 +138,8 @@
 		"suspendTitle": "Benutzer sperren",
 		"suspendedBadge": "gesperrt",
 		"title": "Benutzer",
-		"unsuspend": "Entsperren"
+		"unsuspend": "Entsperren",
+		"empty": "",
+		"loadFailed": ""
 	}
 }
