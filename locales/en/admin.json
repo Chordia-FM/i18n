@@ -47,6 +47,12 @@
 		"starting": "Starting…",
 		"title": "Metadata enrichment"
 	},
+	"explorer": {
+		"description": "Browse the Hub's own tables. Read-only — nothing here can change anything.",
+		"loadFailed": "Couldn't load that table",
+		"rowCount": "{count, plural, one {# row} other {# rows}}",
+		"searchPlaceholder": "Filter…"
+	},
 	"metadata": {
 		"artistSubtitle": "{albumCount, plural, one {# album} other {# albums}} · {trackCount, plural, one {# track} other {# tracks}}",
 		"artworkAlt": "Artwork",
@@ -200,7 +206,8 @@
 		"moderation": "Moderation",
 		"users": "Users",
 		"overview": "Overview",
-		"system": "System"
+		"system": "System",
+		"explorer": "Data"
 	},
 	"title": "Site administration",
 	"userDetail": {
