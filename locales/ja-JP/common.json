@@ -116,8 +116,8 @@
 		"label": "言語"
 	},
 	"menu": {
-		"moreActions": "",
-		"back": "戻る"
+		"back": "戻る",
+		"moreActions": ""
 	},
 	"nav": {
 		"allLibraries": "すべてのライブラリ",
@@ -134,7 +134,8 @@
 		"openMenu": "メニューを開く",
 		"search": "検索",
 		"settings": "設定",
-		"signIn": "ログイン"
+		"signIn": "ログイン",
+		"signUp": ""
 	},
 	"notFound": {
 		"body": "",
