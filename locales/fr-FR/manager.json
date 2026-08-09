@@ -102,7 +102,7 @@
 		"pickHint": "Nous ne savions pas quelle sortie correspond exactement à l'album, choisissez donc la bonne.",
 		"requestedBy": "demandé par @{handle}",
 		"retry": "Réessayer",
-		"selectFailed": "Impossible de retenir cette source — la tâche a peut-être avancé. Actualisez et choisissez à nouveau.",
+		"selectFailed": "",
 		"status": {
 			"awaiting_selection": "Choisissez une source",
 			"cancelled": "Annulé",
@@ -159,6 +159,6 @@
 		"failed": "Impossible de lancer la vérification de qualité.",
 		"inProgress": "Une amélioration ou un téléchargement est déjà en cours pour cet album.",
 		"notIdentified": "Cet album n'a pas encore de correspondance MusicBrainz, il n'y a donc rien de fiable à rechercher.",
-		"queued": "Vérification de qualité mise en file d'attente — surveillez les Téléchargements. S'il existe une source strictement meilleure, elle sera téléchargée ; sinon la tâche se termine sans rien faire."
+		"queued": ""
 	}
 }
