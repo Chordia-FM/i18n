@@ -78,7 +78,18 @@
 		"iconReset": "",
 		"iconSearchPlaceholder": "",
 		"iconTabEmoji": "",
-		"iconTabIcons": ""
+		"iconTabIcons": "",
+		"tabs": {
+			"general": "Général",
+			"metadata": "Métadonnées",
+			"folders": "",
+			"sharing": "",
+			"organize": "",
+			"danger": ""
+		},
+		"autoRescanEvery": "",
+		"lastScanned": "",
+		"lastScanUnknown": ""
 	},
 	"hidden": {
 		"hide": "Masquer cette chanson",
@@ -114,7 +125,8 @@
 		"intro": "Modifiez les métadonnées de cette bibliothèque uniquement. Vos modifications s'appliquent à toutes vos vues ; tout champ laissé vide conserve la valeur d'origine. Les modifications du catalogue global se font dans la page d'administration.",
 		"noMatches": "Aucun résultat.",
 		"searchPlaceholder": "Rechercher des artistes, des albums ou des morceaux…",
-		"title": "Métadonnées"
+		"title": "Métadonnées",
+		"searchHint": ""
 	},
 	"new": {
 		"addFailed": "Échec de l'ajout de la bibliothèque",
