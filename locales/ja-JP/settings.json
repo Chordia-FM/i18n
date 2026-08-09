@@ -22,7 +22,7 @@
 		"sendConfirmation": "確認メールを送信",
 		"title": "アカウント",
 		"unverified": "",
-		"verificationSent": "送信しました。受信箱をご確認ください",
+		"verificationSent": "",
 		"verified": ""
 	},
 	"appearance": {
@@ -62,7 +62,7 @@
 	},
 	"data": {
 		"body": "Chordiaが保存しているあなたのデータをすべてダウンロードするか、アカウントと全データを完全に削除できます。",
-		"deleteAccountConfirm": "アカウントとすべてのデータ（再生履歴、プレイリスト、ライブラリ、フレンド）を完全に削除しますか？この操作は取り消せません。",
+		"deleteAccountConfirm": "",
 		"deleteAccountTitle": "アカウントを削除",
 		"deleteFailedBody": "現在アカウントを削除できません。もう一度お試しください。",
 		"deleteFailedTitle": "削除に失敗しました",
@@ -222,11 +222,11 @@
 	},
 	"quality": {
 		"dataSaver": {
-			"desc": "約96 kbps Opus。データ使用量を最小限に。",
+			"desc": "",
 			"label": "データセーバー"
 		},
 		"high": {
-			"desc": "約256 kbps AAC。ほとんどの場合、原音と区別がつきません。",
+			"desc": "",
 			"label": "高音質"
 		},
 		"lossless": {
@@ -234,7 +234,7 @@
 			"label": "ロスレス"
 		},
 		"normal": {
-			"desc": "約128 kbps。バランス重視。",
+			"desc": "",
 			"label": "標準"
 		},
 		"title": "ストリーミング品質"
@@ -312,7 +312,7 @@
 		"enableCta": "二要素認証を有効にする",
 		"enabledHint": "二要素認証は有効です。無効にするには、現在のコードまたはリカバリーコードを入力してください。",
 		"qrAlt": "二要素認証のQRコード",
-		"recoveryIntro": "二要素認証が有効になりました。以下のリカバリーコードを安全な場所に保存してください。認証アプリを使えなくなった場合、各コードを1回ずつ使用できます。",
+		"recoveryIntro": "",
 		"scanHint": "認証アプリでこれをスキャンし、6桁のコードを入力して確認してください。",
 		"secretManual": "または、このシークレットを手動で入力: {secret}",
 		"statusOff": "オフ",
