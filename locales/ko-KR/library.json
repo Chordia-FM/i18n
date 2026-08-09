@@ -78,7 +78,18 @@
 		"iconReset": "",
 		"iconSearchPlaceholder": "",
 		"iconTabEmoji": "",
-		"iconTabIcons": ""
+		"iconTabIcons": "",
+		"tabs": {
+			"general": "일반",
+			"metadata": "메타데이터",
+			"folders": "",
+			"sharing": "",
+			"organize": "",
+			"danger": ""
+		},
+		"autoRescanEvery": "",
+		"lastScanned": "",
+		"lastScanUnknown": ""
 	},
 	"hidden": {
 		"hide": "이 곡 숨기기",
@@ -114,7 +125,8 @@
 		"intro": "이 라이브러리에만 적용되는 메타데이터를 편집합니다. 변경 사항은 내 모든 화면에 반영되며, 비워 둔 항목은 원래 값이 유지됩니다. 전체 카탈로그 편집은 관리자 페이지에 있습니다.",
 		"noMatches": "일치하는 항목이 없습니다.",
 		"searchPlaceholder": "아티스트, 앨범, 트랙 검색…",
-		"title": "메타데이터"
+		"title": "메타데이터",
+		"searchHint": ""
 	},
 	"new": {
 		"addFailed": "라이브러리를 추가하지 못했습니다",
