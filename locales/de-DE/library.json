@@ -10,6 +10,21 @@
 		"shareTitle": "Diese Bibliothek teilen",
 		"trackCount": "{count, plural, one {# Titel} other {# Titel}}"
 	},
+	"downloads": {
+		"clearConfirm": {
+			"message": "Alle heruntergeladenen Songs von diesem Gerät entfernen?",
+			"title": "Downloads löschen"
+		},
+		"clearError": "Downloads konnten nicht gelöscht werden",
+		"emptyState": "Heruntergeladene Songs lassen sich ohne Verbindung abspielen. Verwenden Sie die Download-Aktion bei einem beliebigen Titel, um ihn hier zu speichern.",
+		"eyebrow": "Offline verfügbar",
+		"navLabel": "",
+		"removeError": "Download konnte nicht entfernt werden",
+		"removeTooltip": "Download entfernen",
+		"songCount": "{count, plural, one {# Song} other {# Songs}}",
+		"storedOnDevice": "auf diesem Gerät gespeichert",
+		"title": ""
+	},
 	"edit": {
 		"albumsLabel": "Alben",
 		"dedupeLabel": "Deduplizieren – nur die Kopie mit der höchsten Qualität behalten, wenn Dateien am selben Ort landen (sonst erhalten sie die Suffixe (2), (3)…)",
@@ -58,22 +73,12 @@
 		"singlesLabel": "Singles (kein Album)",
 		"templateHelp": "Variablen: {vars}. Leere Teile werden übersprungen und die Dateiendung wird automatisch angehängt. {edition} ist der Deluxe-/Sonderausgaben-Zusatz (leer bei der Standardausgabe, sodass er entfällt), und {disc} erscheint nur bei Alben mit mehreren Discs. Titel ohne Album verwenden die Singles-Vorlage; Dateien, die sich nicht identifizieren lassen (kein Künstler-Tag), verwenden die Vorlage „Nicht identifiziert“.",
 		"title": "Bibliothek bearbeiten",
-		"unknownLabel": "Nicht identifizierte Titel"
-	},
-	"downloads": {
-		"clearConfirm": {
-			"message": "Alle heruntergeladenen Songs von diesem Gerät entfernen?",
-			"title": "Downloads löschen"
-		},
-		"clearError": "Downloads konnten nicht gelöscht werden",
-		"emptyState": "Heruntergeladene Songs lassen sich ohne Verbindung abspielen. Verwenden Sie die Download-Aktion bei einem beliebigen Titel, um ihn hier zu speichern.",
-		"eyebrow": "Offline verfügbar",
-		"navLabel": "",
-		"removeError": "Download konnte nicht entfernt werden",
-		"removeTooltip": "Download entfernen",
-		"songCount": "{count, plural, one {# Song} other {# Songs}}",
-		"storedOnDevice": "auf diesem Gerät gespeichert",
-		"title": ""
+		"unknownLabel": "Nicht identifizierte Titel",
+		"iconNoMatches": "",
+		"iconReset": "",
+		"iconSearchPlaceholder": "",
+		"iconTabEmoji": "",
+		"iconTabIcons": ""
 	},
 	"hidden": {
 		"hide": "Diesen Song ausblenden",
@@ -96,7 +101,14 @@
 		"loading": "Bibliotheken werden geladen…",
 		"newLibrary": "Neue Bibliothek",
 		"sharedWithYou": "Mit Ihnen geteilt",
-		"title": "Ihre Bibliotheken"
+		"title": "Ihre Bibliotheken",
+		"addLibrary": "Bibliothek hinzufügen",
+		"connectServer": "",
+		"connectServerBody": "",
+		"openSetup": "",
+		"serverOffline": "",
+		"serverOnline": "",
+		"serverSummary": ""
 	},
 	"metadata": {
 		"intro": "Bearbeiten Sie Metadaten nur für diese Bibliothek. Ihre Änderungen gelten in allen Ihren Ansichten; alles, was Sie leer lassen, behält den ursprünglichen Wert. Globale Katalogänderungen finden Sie auf der Admin-Seite.",
@@ -118,7 +130,14 @@
 		"serverSelectHint": "Diese neue Bibliothek wird auf dem ausgewählten Server erstellt.",
 		"serverSelectLabel": "Bibliotheksserver",
 		"submit": "Bibliothek hinzufügen",
-		"title": "Neue Bibliothek"
+		"title": "Neue Bibliothek",
+		"addFailedAt": {
+			"hub": "",
+			"link": ""
+		},
+		"dialogTitle": "",
+		"notPairedHere": "",
+		"sandboxNote": ""
 	},
 	"pin": {
 		"pin": "Anheften",
@@ -179,12 +198,6 @@
 		"success": "Bibliothek erfolgreich geteilt.",
 		"title": "„{name}“ teilen"
 	},
-	"sidebar": {
-		"pinned": "Angeheftet",
-		"playlists": "",
-		"yourLibrary": "Ihre Bibliothek"
-	},
-	"trackCount": "{count, plural, one {# Titel} other {# Titel}}",
 	"shareManager": {
 		"title": "Freunde & Freigabe",
 		"help": "Wer Zugriff auf diese Bibliothek hat, was damit geschieht und was erlaubt ist.",
@@ -203,5 +216,11 @@
 		"timeDaysHours": "{days} T {hours} Std.",
 		"timeHoursMinutes": "{hours} Std. {minutes} Min.",
 		"timeMinutes": "{minutes} Min."
-	}
+	},
+	"sidebar": {
+		"pinned": "Angeheftet",
+		"playlists": "",
+		"yourLibrary": "Ihre Bibliothek"
+	},
+	"trackCount": "{count, plural, one {# Titel} other {# Titel}}"
 }
