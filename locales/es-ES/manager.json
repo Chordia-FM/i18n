@@ -102,7 +102,7 @@
 		"pickHint": "No teníamos claro qué lanzamiento es exactamente el álbum, así que elige el correcto.",
 		"requestedBy": "solicitado por @{handle}",
 		"retry": "Reintentar",
-		"selectFailed": "No se pudo fijar esa fuente: puede que la tarea haya avanzado. Actualiza y vuelve a elegir.",
+		"selectFailed": "",
 		"status": {
 			"awaiting_selection": "Elige una fuente",
 			"cancelled": "Cancelada",
@@ -159,6 +159,6 @@
 		"failed": "No se pudo poner en cola la comprobación de mejora.",
 		"inProgress": "Ya hay una mejora o una descarga en curso para este álbum.",
 		"notIdentified": "Este álbum aún no está asociado a MusicBrainz, así que no hay nada fiable que buscar.",
-		"queued": "Comprobación de mejora en cola: revisa Descargas. Si existe una fuente claramente mejor, se descargará; si no, la tarea termina sin más."
+		"queued": ""
 	}
 }
