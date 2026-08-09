@@ -130,7 +130,7 @@
 	},
 	"genres": {
 		"counts": "{albumsFormatted} {albums, plural, one {Album} other {Alben}} · {artistsFormatted} {artists, plural, one {Künstler} other {Künstler}}",
-		"empty": "Noch keine Genres – sie kommen mit den Album-Metadaten, sobald Ihre Bibliothek angereichert wird.",
+		"empty": "",
 		"eyebrow": "",
 		"notFound": "Kein Album trägt dieses Genre.",
 		"title": "",
@@ -153,14 +153,14 @@
 		"noAlbums": "Keine Alben."
 	},
 	"labels": {
-		"empty": "Noch keine Labels – sie werden ergänzt, sobald Ihr Katalog über MusicBrainz angereichert wird.",
+		"empty": "",
 		"title": ""
 	},
 	"lyrics": {
 		"heading": "Liedtext",
 		"placeholderPlain": "Erste Zeile\nZweite Zeile",
 		"placeholderSynced": "[00:00.00] Erste Zeile\n[00:04.20] Zweite Zeile",
-		"plainHelp": "Einfacher Liedtext – je eine Zeile, ohne Zeitangaben.",
+		"plainHelp": "",
 		"resetDone": "Auf automatisch abgerufenen Liedtext zurückgesetzt",
 		"resetError": "Liedtext konnte nicht zurückgesetzt werden",
 		"resetToAuto": "Auf Automatik zurücksetzen",
