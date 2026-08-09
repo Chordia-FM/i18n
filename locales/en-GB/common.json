@@ -116,8 +116,8 @@
 		"label": ""
 	},
 	"menu": {
-		"moreActions": "",
-		"back": ""
+		"back": "",
+		"moreActions": ""
 	},
 	"nav": {
 		"allLibraries": "",
@@ -134,7 +134,8 @@
 		"openMenu": "",
 		"search": "",
 		"settings": "",
-		"signIn": ""
+		"signIn": "",
+		"signUp": ""
 	},
 	"notFound": {
 		"body": "",
