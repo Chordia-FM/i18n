@@ -137,7 +137,7 @@
 		"signIn": "Sign in"
 	},
 	"notFound": {
-		"body": "The link might be old, or the page moved. Nothing's broken — you just took a wrong turn.",
+		"body": "The link might be old, or the page moved. Nothing's broken; you just took a wrong turn.",
 		"goHome": "Go home",
 		"title": "This page isn't here"
 	},

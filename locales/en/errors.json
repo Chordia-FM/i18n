@@ -19,7 +19,7 @@
 		"passwordRange": "Password must be 8–1024 characters.",
 		"passwordUnchanged": "That's the same as your current password.",
 		"tooManyAttempts": "Too many attempts. Wait a few minutes and try again.",
-		"twoFactorAlreadyEnabled": "Two-factor authentication is already enabled — disable it first.",
+		"twoFactorAlreadyEnabled": "Two-factor authentication is already enabled. Disable it first.",
 		"twoFactorNotEnabled": "Two-factor authentication is not enabled.",
 		"twoFactorStartFirst": "Start two-factor setup first."
 	},
@@ -31,13 +31,13 @@
 		"unknownArtist": "Unknown artist.",
 		"unknownImageHash": "Unknown image."
 	},
-	"changeFailed": "Couldn't save that change — please try again.",
-	"copyFailed": "Couldn't copy to the clipboard — select the text and copy it manually.",
+	"changeFailed": "Couldn't save that change. Please try again.",
+	"copyFailed": "Couldn't copy to the clipboard. Select the text and copy it manually.",
 	"debug": {
 		"copied": "Copied",
 		"copy": "Copy debug info",
-		"hint": "The report covers when and where the error happened — never your account or your library.",
-		"manualCopy": "Copying isn't available here — select the text below and copy it yourself."
+		"hint": "The report covers when and where the error happened, never your account or your library.",
+		"manualCopy": "Copying isn't available here. Select the text below and copy it yourself."
 	},
 	"directory": {
 		"serverOffline": "That server is offline."
@@ -123,7 +123,7 @@
 		"withSelf": "You can't share with yourself."
 	},
 	"state": {
-		"message": "This section didn't load. It's usually temporary — try again in a moment.",
+		"message": "This section didn't load. It's usually temporary, so try again in a moment.",
 		"title": "Couldn't load this"
 	},
 	"twoFactor": {

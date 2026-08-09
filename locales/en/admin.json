@@ -19,7 +19,7 @@
 		"allActors": "Anyone",
 		"allCategories": "All categories",
 		"backfilled": "inferred",
-		"backfilledHint": "This entry predates typed targets. Its label is the target's name today, not its name when the action happened — and for a deleted target there is none.",
+		"backfilledHint": "This entry predates typed targets. Its label is the target's name today rather than its name at the time, and a target that has since been deleted has no label at all.",
 		"category": "Category",
 		"createdAt": "{date}",
 		"description": "Every privileged action, newest first. Expand an entry for its target id and what changed.",
@@ -33,7 +33,8 @@
 		"noMatches": "No entries match these filters.",
 		"searchPlaceholder": "Search actions, targets and details…",
 		"targetId": "Target id",
-		"title": "Audit log"
+		"title": "Audit log",
+		"toggleDetails": "Show details for {action}"
 	},
 	"editCatalog": {
 		"title": "Edit catalog metadata"
@@ -48,17 +49,18 @@
 		"title": "Metadata enrichment"
 	},
 	"explorer": {
-		"description": "Browse the Hub's own tables. Read-only — nothing here can change anything.",
+		"description": "Browse the Hub's own tables. Nothing here can be edited.",
 		"loadFailed": "Couldn't load that table",
 		"rowCount": "{count, plural, one {# row} other {# rows}}",
 		"searchPlaceholder": "Filter…",
 		"onDisk": "{size} on disk",
-		"rowCountCapped": "more than {count} rows"
+		"rowCountCapped": "more than {count} rows",
+		"copyValue": "Copy the full value"
 	},
 	"metadata": {
 		"artistSubtitle": "{albumCount, plural, one {# album} other {# albums}} · {trackCount, plural, one {# track} other {# tracks}}",
 		"artworkAlt": "Artwork",
-		"artworkLoadError": "Couldn't load artwork — try again.",
+		"artworkLoadError": "Couldn't load artwork. Try again.",
 		"bannerLabel": "banner",
 		"browseArtwork": "Browse artwork (icon + banner)",
 		"browseCovers": "Browse covers",
@@ -77,16 +79,16 @@
 		"findArtistPlaceholder": "Find artist…",
 		"imageFetchFailed": "Couldn't fetch that image.",
 		"imageUploadFailed": "Image upload failed.",
-		"intro": "Edit the shared catalog that everyone sees — rename an artist, album or track, replace its artwork, or re-attribute a release to a different artist. These changes are global and permanent (unlike per-library edits). Every change is recorded in the audit log.",
+		"intro": "Edit the shared catalog that everyone sees: rename an artist, album or track, replace its artwork, or re-attribute a release to a different artist. These changes are global and permanent (unlike per-library edits). Every change is recorded in the audit log.",
 		"labelLoadError": "Couldn't load the label.",
 		"labelSubtitle": "{count, plural, one {# album} other {# albums}}",
 		"loadError": "Couldn't load the current metadata.",
 		"logoAlt": "Logo",
 		"logoUploadFailed": "Logo upload failed.",
-		"noAlbumCovers": "No covers found — Cover Art Archive may not have any for this release.",
-		"noArtistArtwork": "No artwork found — fanart.tv may not have any for this artist, or this Hub has no fanart.tv key.",
+		"noAlbumCovers": "No covers found. Cover Art Archive may not have any for this release.",
+		"noArtistArtwork": "No artwork found. fanart.tv may not have any for this artist, or this Hub has no fanart.tv key.",
 		"noArtistsFound": "No artists found.",
-		"noLogos": "No logos found — fanart.tv may not have any for this label, or this Hub has no fanart.tv key.",
+		"noLogos": "No logos found. fanart.tv may not have any for this label, or this Hub has no fanart.tv key.",
 		"noMatches": "No matches.",
 		"reattributeTo": "Re-attribute to {name}",
 		"searchPlaceholder": "Search artists, albums, or tracks…",

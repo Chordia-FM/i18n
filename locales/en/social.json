@@ -93,7 +93,7 @@
 		"totalPlaysCount": "{count}"
 	},
 	"report": {
-		"promptMessage": "Report @{handle} — what's the issue?"
+		"promptMessage": "Report @{handle}. What's the issue?"
 	},
 	"requests": {
 		"accept": "Accept",

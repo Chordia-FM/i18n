@@ -196,10 +196,10 @@
 		"thisLibrary": "This library",
 		"grantAccess": "Give access to {name}",
 		"removeAccess": "Remove access to {name}",
-		"streamingNow": "Streaming now: {title} — {artist}",
+		"streamingNow": "Streaming now: {title} · {artist}",
 		"statsLine": "{requests} requested · {downloads} downloaded · {plays} plays · {time} listened",
 		"lastPlayed": "last played {date}",
-		"updateFailed": "Couldn't update sharing — try again.",
+		"updateFailed": "Couldn't update sharing. Try again.",
 		"timeDaysHours": "{days}d {hours}h",
 		"timeHoursMinutes": "{hours}h {minutes}m",
 		"timeMinutes": "{minutes}m"

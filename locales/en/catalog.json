@@ -49,7 +49,7 @@
 		"factsJoin": "{facts}",
 		"fansAlsoLike": "Fans also like",
 		"follow": "Follow",
-		"followedToast": "Following {name} — you'll see their new releases",
+		"followedToast": "Following {name}. You'll see their new releases",
 		"following": "Following",
 		"formed": "Formed {year}",
 		"genresJoin": "{genres}",
@@ -63,7 +63,7 @@
 			"card": "All live recordings",
 			"label": "Live collection",
 			"subtitle": "{count, plural, one {From # album} other {From # albums}}",
-			"title": "{name} — Live"
+			"title": "{name} · Live"
 		},
 		"namesJoin": "{artists}",
 		"playlistsFeaturing": "Playlists featuring {name}",
@@ -103,8 +103,8 @@
 			"year": "Year"
 		},
 		"helpText": "Leave a field blank to keep the original. Changes are stored for this library only, unless you enable “Override globally”.",
-		"noArtworkAlbum": "No covers found — Cover Art Archive may not have any for this release.",
-		"noArtworkArtist": "No artwork found — fanart.tv may not have any for this artist, or this Hub has no fanart.tv key.",
+		"noArtworkAlbum": "No covers found. Cover Art Archive may not have any for this release.",
+		"noArtworkArtist": "No artwork found. fanart.tv may not have any for this artist, or this Hub has no fanart.tv key.",
 		"overrideGlobally": {
 			"help": "Also show this edit across your whole catalog (your highest-priority library wins). Doesn't change the original or affect other users.",
 			"label": "Override globally"
@@ -130,7 +130,7 @@
 	},
 	"genres": {
 		"counts": "{albumsFormatted} {albums, plural, one {album} other {albums}} · {artistsFormatted} {artists, plural, one {artist} other {artists}}",
-		"empty": "No genres yet — they arrive with album metadata as your library is enriched.",
+		"empty": "No genres yet. They arrive with album metadata as your library is enriched.",
 		"eyebrow": "Genre",
 		"notFound": "No albums carry that genre.",
 		"title": "Genres",
@@ -153,14 +153,14 @@
 		"noAlbums": "No albums."
 	},
 	"labels": {
-		"empty": "No labels yet — they fill in as your catalog is enriched from MusicBrainz.",
+		"empty": "No labels yet. They fill in as your catalog is enriched from MusicBrainz.",
 		"title": "Labels"
 	},
 	"lyrics": {
 		"heading": "Lyrics",
 		"placeholderPlain": "First line\nSecond line",
 		"placeholderSynced": "[00:00.00] First line\n[00:04.20] Second line",
-		"plainHelp": "Plain lyrics — one line each, no timing.",
+		"plainHelp": "Plain lyrics, one line each, with no timing.",
 		"resetDone": "Reset to auto-fetched lyrics",
 		"resetError": "Couldn't reset lyrics",
 		"resetToAuto": "Reset to auto",

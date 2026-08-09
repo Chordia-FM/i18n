@@ -103,7 +103,7 @@
 		"originalFile": "Original file",
 		"originalSourceFile": "Original source file",
 		"reduced": {
-			"adaptive": "Reduced from {selected} — the connection can't keep up right now",
+			"adaptive": "Reduced from {selected}. The connection can't keep up right now",
 			"network": "Limited from {selected} by this connection"
 		},
 		"restore": "Switch back",

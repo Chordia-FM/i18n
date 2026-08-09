@@ -257,6 +257,19 @@ if (import.meta.url === pathToFileURL(process.argv[1]).href) {
 			// Same two value-shape checks the targets get. A zero-width character or an unrestored
 			// placeholder mask is no less broken for being in the source — and the source is the
 			// string that gets uploaded to Crowdin, so a defect here propagates into every language.
+			// Em dashes, banned outright in the source. They are this project's most-repeated review
+			// note: the dash reads as machine-written, and it accumulates because each one looks fine
+			// on its own. A blanket ban is the only version of this rule that a script can enforce and
+			// a writer can remember. Where two values genuinely need separating, the app already uses
+			// a middle dot ("@handle · date"); everywhere else the clause wanted a colon, a
+			// semicolon or a full stop, which is a decision worth making rather than deferring.
+			if (value.includes("—")) {
+				problems.push(
+					`${SOURCE}/${ns}: ${key} contains an em dash. Use a colon, semicolon or full stop, ` +
+						`or "·" when separating two values.`,
+				);
+				errors++;
+			}
 			const invisible = value.match(/[​‌⁠﻿‎‏]/);
 			if (invisible) {
 				const point = invisible[0].codePointAt(0).toString(16).toUpperCase();
