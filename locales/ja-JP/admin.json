@@ -32,6 +32,7 @@
 		"noDiff": "",
 		"noMatches": "",
 		"searchPlaceholder": "",
+		"copyTargetId": "",
 		"targetId": "",
 		"title": "監査ログ",
 		"toggleDetails": ""
@@ -55,7 +56,8 @@
 		"searchPlaceholder": "",
 		"onDisk": "",
 		"rowCountCapped": "",
-		"copyValue": ""
+		"copyValue": "",
+		"copyRow": ""
 	},
 	"metadata": {
 		"artistSubtitle": "{albumCount, plural, other {アルバム#枚}} · {trackCount, plural, other {#曲}}",
