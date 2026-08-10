@@ -304,6 +304,28 @@
 		"today": "",
 		"yesterday": ""
 	},
+	"rotation": {
+		"downloaded": "",
+		"failed": "",
+		"heading": "",
+		"minutesListened": "",
+		"periodTitle": {
+			"halfYear": "",
+			"month": "",
+			"overall": "",
+			"quarter": "",
+			"week": "",
+			"year": ""
+		},
+		"shareButton": "",
+		"shared": "",
+		"sharedFallback": "",
+		"sharing": "",
+		"statLine": "",
+		"topArtists": "",
+		"topGenre": "",
+		"topTracks": ""
+	},
 	"shareGrid": {
 		"album": {
 			"ariaLabel": "",
@@ -378,27 +400,5 @@
 		"thu": "",
 		"tue": "",
 		"wed": ""
-	},
-	"wrapped": {
-		"downloaded": "",
-		"failed": "",
-		"heading": "",
-		"minutesListened": "",
-		"periodTitle": {
-			"halfYear": "",
-			"month": "",
-			"overall": "",
-			"quarter": "",
-			"week": "",
-			"year": ""
-		},
-		"shareButton": "",
-		"shared": "",
-		"sharedFallback": "",
-		"sharing": "",
-		"statLine": "",
-		"topArtists": "",
-		"topGenre": "",
-		"topTracks": ""
 	}
 }
