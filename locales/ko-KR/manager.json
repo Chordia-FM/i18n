@@ -105,7 +105,7 @@
 		"selectFailed": "",
 		"status": {
 			"awaiting_selection": "소스 선택 필요",
-			"cancelled": "취소됨",
+			"cancelled": "",
 			"claimed": "시작 중",
 			"completed": "완료됨",
 			"downloading": "다운로드 중",
