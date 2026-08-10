@@ -32,6 +32,7 @@
 		"noDiff": "",
 		"noMatches": "",
 		"searchPlaceholder": "",
+		"copyTargetId": "",
 		"targetId": "",
 		"title": "감사 로그",
 		"toggleDetails": ""
@@ -55,7 +56,8 @@
 		"searchPlaceholder": "",
 		"onDisk": "",
 		"rowCountCapped": "",
-		"copyValue": ""
+		"copyValue": "",
+		"copyRow": ""
 	},
 	"metadata": {
 		"artistSubtitle": "{albumCount, plural, other {앨범 #개}} · {trackCount, plural, other {트랙 #개}}",
