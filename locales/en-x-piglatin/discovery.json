@@ -1,20 +1,4 @@
 {
-	"station": {
-		"albumRadio": "{name} Adioray",
-		"artistRadio": "{name} Adioray",
-		"empty": "Otnay enoughway usicmay etyay otay uildbay isthay ationstay",
-		"genreRadio": "{name} Adioray",
-		"kindAlbum": "Albumway Adioray",
-		"kindArtist": "Artistway Adioray",
-		"kindGenre": "Enregay Adioray",
-		"kindPlaylist": "Aylistplay Adioray",
-		"kindTrack": "Ongsay Adioray",
-		"mix": "{name} Ixmay",
-		"playlistRadio": "{name} Adioray",
-		"start": "Artstay adioray",
-		"startFrom": "Artstay adioray omfray {name}",
-		"trackRadio": "{name} Adioray"
-	},
 	"dailyMix": {
 		"label": "Ailyday Ixmay"
 	},
@@ -90,9 +74,25 @@
 		"activeDays": "Activeway aysday",
 		"cta": "Eesay ethay ullfay icturepay",
 		"plays": "Aysplay",
+		"rotationCta": "Eesay ouryay earyay",
+		"rotationTitle": "Ouryay earyay's almostway wrapped",
 		"streak": "Eakstray",
-		"title": "Ouryay isteninglay atelylay",
-		"wrappedCta": "Eesay ouryay earyay",
-		"wrappedTitle": "Ouryay earyay's almostway wrapped"
+		"title": "Ouryay isteninglay atelylay"
+	},
+	"station": {
+		"albumRadio": "{name} Adioray",
+		"artistRadio": "{name} Adioray",
+		"empty": "Otnay enoughway usicmay etyay otay uildbay isthay ationstay",
+		"genreRadio": "{name} Adioray",
+		"kindAlbum": "Albumway Adioray",
+		"kindArtist": "Artistway Adioray",
+		"kindGenre": "Enregay Adioray",
+		"kindPlaylist": "Aylistplay Adioray",
+		"kindTrack": "Ongsay Adioray",
+		"mix": "{name} Ixmay",
+		"playlistRadio": "{name} Adioray",
+		"start": "Artstay adioray",
+		"startFrom": "Artstay adioray omfray {name}",
+		"trackRadio": "{name} Adioray"
 	}
 }

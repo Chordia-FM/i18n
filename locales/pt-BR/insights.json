@@ -372,26 +372,5 @@
 		"thu": "Qui",
 		"tue": "Ter",
 		"wed": "Qua"
-	},
-	"wrapped": {
-		"downloaded": "Seu cartão do Wrapped foi salvo.",
-		"failed": "Não foi possível criar o cartão. Tente novamente.",
-		"minutesListened": "minutos ouvidos",
-		"periodTitle": {
-			"halfYear": "Seus últimos 6 meses em música",
-			"month": "Seu mês em música",
-			"overall": "Suas estatísticas de todo o período",
-			"quarter": "Seus últimos 3 meses em música",
-			"week": "Sua semana em música",
-			"year": "Seu ano em música"
-		},
-		"shareButton": "Compartilhar",
-		"shared": "Seu cartão do Wrapped foi compartilhado.",
-		"sharedFallback": "Não foi possível compartilhar — o cartão foi salvo nos seus downloads.",
-		"sharing": "Compartilhando…",
-		"statLine": "{artists, number} artistas · {tracks, number} faixas",
-		"topArtists": "Principais artistas",
-		"topGenre": "Gênero principal",
-		"topTracks": "Principais faixas"
 	}
 }

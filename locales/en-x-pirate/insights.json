@@ -193,6 +193,26 @@
 			"activeDaysOf": "o' {count, number} in this window"
 		}
 	},
+	"rotation": {
+		"downloaded": "Stowed yer Rotation card.",
+		"failed": "Couldn't create th' card. Pray try again.",
+		"periodTitle": {
+			"halfYear": "Yer last 6 months in shanties",
+			"month": "Yer month in shanties",
+			"overall": "Yer all-time stats",
+			"quarter": "Yer last 3 months in shanties",
+			"week": "Yer week in shanties",
+			"year": "Yer year in shanties"
+		},
+		"shareButton": "Divvy up",
+		"shared": "Divvied yer Rotation card.",
+		"sharedFallback": "Couldn't divvy up. Stowed th' card t' yer booty instead.",
+		"sharing": "Divvyin' up…",
+		"statLine": "{artists, number} artists · {tracks, number} ditties",
+		"topArtists": "Choicest minstrels",
+		"topGenre": "Choicest genre",
+		"topTracks": "Choicest ditties"
+	},
 	"shareGrid": {
 		"album": {
 			"ariaLabel": "Grid o' yer most played treasure covers fer this period",
@@ -224,25 +244,5 @@
 		"album": "Choicest treasure",
 		"artist": "Choicest minstrel",
 		"track": "Choicest ditty"
-	},
-	"wrapped": {
-		"downloaded": "Stowed yer Wrapped card.",
-		"failed": "Couldn't create th' card. Pray try again.",
-		"periodTitle": {
-			"halfYear": "Yer last 6 months in shanties",
-			"month": "Yer month in shanties",
-			"overall": "Yer all-time stats",
-			"quarter": "Yer last 3 months in shanties",
-			"week": "Yer week in shanties",
-			"year": "Yer year in shanties"
-		},
-		"shareButton": "Divvy up",
-		"shared": "Divvied yer Wrapped card.",
-		"sharedFallback": "Couldn't divvy up. Stowed th' card t' yer booty instead.",
-		"sharing": "Divvyin' up…",
-		"statLine": "{artists, number} artists · {tracks, number} ditties",
-		"topArtists": "Choicest minstrels",
-		"topGenre": "Choicest genre",
-		"topTracks": "Choicest ditties"
 	}
 }

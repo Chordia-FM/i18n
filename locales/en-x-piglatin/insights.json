@@ -287,6 +287,28 @@
 		"today": "odaytay",
 		"yesterday": "esterdayyay"
 	},
+	"rotation": {
+		"downloaded": "Avedsay ouryay Otationray ardcay.",
+		"failed": "Ouldncay't eatecray ethay ardcay. Easeplay ytray againway.",
+		"heading": "Chordia Otationray",
+		"minutesListened": "inutesmay istenedlay",
+		"periodTitle": {
+			"halfYear": "Ouryay astlay 6 onthsmay inway usicmay",
+			"month": "Ouryay onthmay inway usicmay",
+			"overall": "Ouryay allway-imetay atsstay",
+			"quarter": "Ouryay astlay 3 onthsmay inway usicmay",
+			"week": "Ouryay eekway inway usicmay",
+			"year": "Ouryay earyay inway usicmay"
+		},
+		"shareButton": "Areshay",
+		"shared": "Aredshay ouryay Otationray ardcay.",
+		"sharedFallback": "Ouldncay't areshay. Avedsay ethay ardcay otay ouryay ownloadsday insteadway.",
+		"sharing": "Aringshay…",
+		"statLine": "{artists, number} artistsway · {tracks, number} ackstray",
+		"topArtists": "Optay artistsway",
+		"topGenre": "Optay enregay",
+		"topTracks": "Optay ackstray"
+	},
 	"shareGrid": {
 		"album": {
 			"ariaLabel": "Idgray ofway ouryay ostmay ayedplay albumway overscay orfay isthay eriodpay",
@@ -355,26 +377,5 @@
 		"thu": "Uthay",
 		"tue": "Uetay",
 		"wed": "Edway"
-	},
-	"wrapped": {
-		"downloaded": "Avedsay ouryay Wrapped ardcay.",
-		"failed": "Ouldncay't eatecray ethay ardcay. Easeplay ytray againway.",
-		"minutesListened": "inutesmay istenedlay",
-		"periodTitle": {
-			"halfYear": "Ouryay astlay 6 onthsmay inway usicmay",
-			"month": "Ouryay onthmay inway usicmay",
-			"overall": "Ouryay allway-imetay atsstay",
-			"quarter": "Ouryay astlay 3 onthsmay inway usicmay",
-			"week": "Ouryay eekway inway usicmay",
-			"year": "Ouryay earyay inway usicmay"
-		},
-		"shareButton": "Areshay",
-		"shared": "Aredshay ouryay Wrapped ardcay.",
-		"sharedFallback": "Ouldncay't areshay. Avedsay ethay ardcay otay ouryay ownloadsday insteadway.",
-		"sharing": "Aringshay…",
-		"statLine": "{artists, number} artistsway · {tracks, number} ackstray",
-		"topArtists": "Optay artistsway",
-		"topGenre": "Optay enregay",
-		"topTracks": "Optay ackstray"
 	}
 }

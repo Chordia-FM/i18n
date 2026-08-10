@@ -304,6 +304,28 @@
 		"today": "today",
 		"yesterday": "yesterday"
 	},
+	"rotation": {
+		"downloaded": "Saved your Rotation card.",
+		"failed": "Couldn't create the card. Please try again.",
+		"heading": "Chordia Rotation",
+		"minutesListened": "minutes listened",
+		"periodTitle": {
+			"halfYear": "Your last 6 months in music",
+			"month": "Your month in music",
+			"overall": "Your all-time stats",
+			"quarter": "Your last 3 months in music",
+			"week": "Your week in music",
+			"year": "Your year in music"
+		},
+		"shareButton": "Share",
+		"shared": "Shared your Rotation card.",
+		"sharedFallback": "Couldn't share. Saved the card to your downloads instead.",
+		"sharing": "Sharing…",
+		"statLine": "{artists, number} artists · {tracks, number} tracks",
+		"topArtists": "Top artists",
+		"topGenre": "Top genre",
+		"topTracks": "Top tracks"
+	},
 	"shareGrid": {
 		"album": {
 			"ariaLabel": "Grid of your most played album covers for this period",
@@ -378,27 +400,5 @@
 		"thu": "Thu",
 		"tue": "Tue",
 		"wed": "Wed"
-	},
-	"wrapped": {
-		"downloaded": "Saved your Wrapped card.",
-		"failed": "Couldn't create the card. Please try again.",
-		"heading": "Chordia Wrapped",
-		"minutesListened": "minutes listened",
-		"periodTitle": {
-			"halfYear": "Your last 6 months in music",
-			"month": "Your month in music",
-			"overall": "Your all-time stats",
-			"quarter": "Your last 3 months in music",
-			"week": "Your week in music",
-			"year": "Your year in music"
-		},
-		"shareButton": "Share",
-		"shared": "Shared your Wrapped card.",
-		"sharedFallback": "Couldn't share. Saved the card to your downloads instead.",
-		"sharing": "Sharing…",
-		"statLine": "{artists, number} artists · {tracks, number} tracks",
-		"topArtists": "Top artists",
-		"topGenre": "Top genre",
-		"topTracks": "Top tracks"
 	}
 }

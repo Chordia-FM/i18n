@@ -376,26 +376,5 @@
 		"thu": "목",
 		"tue": "화",
 		"wed": "수"
-	},
-	"wrapped": {
-		"downloaded": "Wrapped 카드를 저장했습니다.",
-		"failed": "카드를 만들지 못했습니다. 다시 시도해 주세요.",
-		"minutesListened": "분 감상",
-		"periodTitle": {
-			"halfYear": "지난 6개월의 음악",
-			"month": "이번 달의 음악",
-			"overall": "전체 기간 통계",
-			"quarter": "지난 3개월의 음악",
-			"week": "이번 주의 음악",
-			"year": "올해의 음악"
-		},
-		"shareButton": "공유",
-		"shared": "Wrapped 카드를 공유했습니다.",
-		"sharedFallback": "공유하지 못해 카드를 다운로드에 저장했습니다.",
-		"sharing": "공유 중…",
-		"statLine": "아티스트 {artists, number} · 트랙 {tracks, number}",
-		"topArtists": "인기 아티스트",
-		"topGenre": "인기 장르",
-		"topTracks": "인기 트랙"
 	}
 }

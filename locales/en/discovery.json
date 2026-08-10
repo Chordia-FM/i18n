@@ -1,20 +1,4 @@
 {
-	"station": {
-		"albumRadio": "{name} Radio",
-		"artistRadio": "{name} Radio",
-		"empty": "Not enough music yet to build this station",
-		"genreRadio": "{name} Radio",
-		"kindAlbum": "Album Radio",
-		"kindArtist": "Artist Radio",
-		"kindGenre": "Genre Radio",
-		"kindPlaylist": "Playlist Radio",
-		"kindTrack": "Song Radio",
-		"mix": "{name} Mix",
-		"playlistRadio": "{name} Radio",
-		"start": "Start radio",
-		"startFrom": "Start radio from {name}",
-		"trackRadio": "{name} Radio"
-	},
 	"dailyMix": {
 		"label": "Daily Mix"
 	},
@@ -90,9 +74,25 @@
 		"activeDays": "Active days",
 		"cta": "See the full picture",
 		"plays": "Plays",
+		"rotationCta": "See your year",
+		"rotationTitle": "Your year's almost wrapped",
 		"streak": "Streak",
-		"title": "Your listening lately",
-		"wrappedCta": "See your year",
-		"wrappedTitle": "Your year's almost wrapped"
+		"title": "Your listening lately"
+	},
+	"station": {
+		"albumRadio": "{name} Radio",
+		"artistRadio": "{name} Radio",
+		"empty": "Not enough music yet to build this station",
+		"genreRadio": "{name} Radio",
+		"kindAlbum": "Album Radio",
+		"kindArtist": "Artist Radio",
+		"kindGenre": "Genre Radio",
+		"kindPlaylist": "Playlist Radio",
+		"kindTrack": "Song Radio",
+		"mix": "{name} Mix",
+		"playlistRadio": "{name} Radio",
+		"start": "Start radio",
+		"startFrom": "Start radio from {name}",
+		"trackRadio": "{name} Radio"
 	}
 }

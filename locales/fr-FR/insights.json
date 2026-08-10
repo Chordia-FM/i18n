@@ -371,25 +371,5 @@
 		"thu": "jeu.",
 		"tue": "mar.",
 		"wed": "mer."
-	},
-	"wrapped": {
-		"downloaded": "Carte Wrapped enregistrée.",
-		"failed": "Impossible de créer la carte. Veuillez réessayer.",
-		"minutesListened": "minutes écoutées",
-		"periodTitle": {
-			"halfYear": "Vos 6 derniers mois en musique",
-			"month": "Votre mois en musique",
-			"overall": "Vos statistiques depuis toujours",
-			"quarter": "Vos 3 derniers mois en musique",
-			"week": "Votre semaine en musique",
-			"year": "Votre année en musique"
-		},
-		"shareButton": "Partager",
-		"shared": "Carte Wrapped partagée.",
-		"sharedFallback": "Impossible de partager — la carte a été enregistrée dans vos téléchargements.",
-		"sharing": "Partage…",
-		"statLine": "{artists, number} artistes · {tracks, number} morceaux",
-		"topArtists": "Top artistes",
-		"topTracks": "Top morceaux"
 	}
 }

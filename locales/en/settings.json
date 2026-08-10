@@ -192,7 +192,7 @@
 			"desc": "Who can open your profile at all. Everything below is only reachable once this lets someone through."
 		},
 		"scrobble": {
-			"desc": "Record what you play for your stats and Wrapped.",
+			"desc": "Record what you play for your stats and Rotation.",
 			"label": "Scrobble listens"
 		},
 		"title": "Privacy",

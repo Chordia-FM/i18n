@@ -1,10 +1,4 @@
 {
-	"station": {
-		"empty": "Not enough shanties yet t' build this station",
-		"kindAlbum": "Treasure Radio",
-		"kindPlaylist": "Chart Radio",
-		"kindTrack": "Shanty Radio"
-	},
 	"dailyMix": {
 		"label": "Daily Grog"
 	},
@@ -66,8 +60,14 @@
 	},
 	"snapshot": {
 		"cta": "See th' full picture",
-		"title": "Yer listenin' lately",
-		"wrappedCta": "See yer year",
-		"wrappedTitle": "Yer year's almost wrapped"
+		"rotationCta": "See yer year",
+		"rotationTitle": "Yer year's almost wrapped",
+		"title": "Yer listenin' lately"
+	},
+	"station": {
+		"empty": "Not enough shanties yet t' build this station",
+		"kindAlbum": "Treasure Radio",
+		"kindPlaylist": "Chart Radio",
+		"kindTrack": "Shanty Radio"
 	}
 }
