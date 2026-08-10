@@ -26,11 +26,11 @@
 		"verified": ""
 	},
 	"appearance": {
-		"accentColour": "アクセントカラー",
+		"accentColour": "",
 		"accentHexAria": "アクセントカラーの16進コード",
-		"customAccentAria": "カスタムアクセントカラー",
-		"customColour": "カスタムカラー",
-		"customColourHint": "好きな色を選んでください。ボタン、ハイライト、背景の色合いに反映されます。",
+		"customAccentAria": "",
+		"customColour": "",
+		"customColourHint": "",
 		"title": "外観",
 		"accents": {
 			"crimson": "",
