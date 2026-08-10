@@ -117,6 +117,7 @@
 		"connectServer": "Onnectcay away erversay",
 		"connectServerBody": "Away erversay isway away achinemay ofway oursyay unningray Chordia's ibrarylay erversay. Itway intspray away oneway-imetay etupsay inklay enwhay itway artsstay; openway atthay inklay onway isthay eviceday otay airpay itway. Ouryay owserbray annotcay indfay away erversay itway ashay otnay eenbay oldtay aboutway.",
 		"openSetup": "Ogay otay airingpay",
+		"copyServerId": "Opycay ethay erversay idway",
 		"serverOffline": "Offlineway",
 		"serverOnline": "Onlineway",
 		"serverSummary": "{libraries, plural, one {# ibrarylay} other {# ibrarieslay}} · {tracks, plural, one {# acktray} other {# ackstray}}"

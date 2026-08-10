@@ -12,6 +12,7 @@
 		"loadFailed": "Couldn't load th' audit log",
 		"noDiff": "No field-level changes recorded fer this action.",
 		"searchPlaceholder": "Hunt actions, targets an' details…",
+		"copyTargetId": "Copy th' target id",
 		"toggleDetails": "Show details fer {action}"
 	},
 	"enrichment": {
@@ -23,7 +24,8 @@
 	},
 	"explorer": {
 		"description": "Browse th' Hub's own tables. Nothin' here can be edited.",
-		"copyValue": "Copy th' full value"
+		"copyValue": "Copy th' full value",
+		"copyRow": "Copy th' whole row"
 	},
 	"metadata": {
 		"artistSubtitle": "{albumCount, plural, one {# treasure} other {# treasures}} · {trackCount, plural, one {# ditty} other {# ditties}}",

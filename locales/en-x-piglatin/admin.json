@@ -31,6 +31,7 @@
 		"noDiff": "Onay ieldfay-evellay angeschay ecordedray orfay isthay actionway.",
 		"noMatches": "Onay entriesway atchmay esethay iltersfay.",
 		"searchPlaceholder": "Earchsay actionsway, argetstay andway etailsday…",
+		"copyTargetId": "Opycay ethay argettay idway",
 		"targetId": "Argettay idway",
 		"title": "Auditway oglay",
 		"toggleDetails": "Owshay etailsday orfay {action}"
@@ -54,7 +55,8 @@
 		"searchPlaceholder": "Ilterfay…",
 		"onDisk": "{size} onway iskday",
 		"rowCountCapped": "oremay anthay {count} owsray",
-		"copyValue": "Opycay ethay ullfay aluevay"
+		"copyValue": "Opycay ethay ullfay aluevay",
+		"copyRow": "Opycay ethay olewhay owray"
 	},
 	"metadata": {
 		"artistSubtitle": "{albumCount, plural, one {# albumway} other {# albumsway}} · {trackCount, plural, one {# acktray} other {# ackstray}}",

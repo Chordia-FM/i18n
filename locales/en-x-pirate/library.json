@@ -91,6 +91,7 @@
 		"addLibrary": "Add hoard",
 		"connectServerBody": "A server be a machine o' yers runnin' Chordia's hoard server. It prints a one-time setup link when it starts; open that link on this device t' pair it. Yer browser cannot spy a server it has not been told about.",
 		"openSetup": "Go t' pairin'",
+		"copyServerId": "Copy th' server id",
 		"serverSummary": "{libraries, plural, one {# hoard} other {# hoards}} · {tracks, plural, one {# ditty} other {# ditties}}"
 	},
 	"metadata": {
