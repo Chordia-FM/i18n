@@ -117,6 +117,7 @@
 		"connectServer": "",
 		"connectServerBody": "",
 		"openSetup": "",
+		"copyServerId": "",
 		"serverOffline": "",
 		"serverOnline": "",
 		"serverSummary": ""
