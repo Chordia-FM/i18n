@@ -23,6 +23,10 @@
 		"confirmBody": "このプレイリストを削除しますか？",
 		"title": "プレイリストを削除"
 	},
+	"edit": {
+		"description": "説明",
+		"name": "名前"
+	},
 	"empty": "このプレイリストは空です。トラックの「⋯」メニューから曲を追加できます。",
 	"kindLabel": "プレイリスト",
 	"leave": {
@@ -80,6 +84,9 @@
 			"equals": "等しい",
 			"is": "一致"
 		},
+		"refresh": {
+			"now": "更新"
+		},
 		"removeRule": "ルールを削除",
 		"ruleField": "ルールの項目",
 		"ruleOperator": "ルールの演算子",
@@ -94,6 +101,10 @@
 		"valuePlaceholder": "値"
 	},
 	"songCount": "{count, plural, other {#曲}}",
+	"stats": {
+		"scopeEveryone": "全員",
+		"scopeMe": "あなた"
+	},
 	"toast": {
 		"createFailed": "プレイリストを作成できませんでした",
 		"created": "「{name}」を作成しました",

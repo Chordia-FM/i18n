@@ -22,6 +22,9 @@
 		"confirmBody": "Supprimer cette playlist ?",
 		"title": "Supprimer la playlist"
 	},
+	"edit": {
+		"name": "Nom"
+	},
 	"empty": "Cette playlist est vide. Ajoutez des chansons depuis le menu « ⋯ » de n'importe quel morceau.",
 	"leave": {
 		"confirmBody": "Quitter cette playlist collaborative ?",
@@ -76,6 +79,9 @@
 			"equals": "est",
 			"is": "est"
 		},
+		"refresh": {
+			"now": "Actualiser"
+		},
 		"removeRule": "Supprimer la règle",
 		"ruleField": "Champ de la règle",
 		"ruleOperator": "Opérateur de la règle",
@@ -90,6 +96,10 @@
 		"valuePlaceholder": "valeur"
 	},
 	"songCount": "{count, plural, one {# chanson} other {# chansons}}",
+	"stats": {
+		"scopeEveryone": "Tout le monde",
+		"scopeMe": "Vous"
+	},
 	"toast": {
 		"createFailed": "Impossible de créer la playlist",
 		"created": "« {name} » créée",

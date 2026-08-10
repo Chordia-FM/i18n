@@ -1,0 +1,14 @@
+{
+	"cta": {
+		"signIn": "Anmelden"
+	},
+	"footer": {
+		"language": "Sprache",
+		"legal": {
+			"privacy": "Privatsphäre"
+		},
+		"product": {
+			"signUp": "Konto erstellen"
+		}
+	}
+}

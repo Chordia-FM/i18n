@@ -4,8 +4,10 @@
 		"changeEmail": "メールアドレスを変更",
 		"displayName": "表示名",
 		"emailChangeSent": "新しいメールアドレスの受信箱で確認リンクをご確認ください。",
+		"emailTitle": "メールアドレス",
 		"handle": "ハンドル",
 		"handleHint": "英字、数字、「_」「-」が使用できます。他のユーザーと重複できません。",
+		"removePhoto": "削除",
 		"resendVerification": "確認メールを再送信",
 		"saveProfile": "プロフィールを保存",
 		"sendConfirmation": "確認メールを送信",
@@ -125,6 +127,17 @@
 			"desc": "フレンドリクエストなどアカウントのアクティビティをメールで受け取ります。",
 			"label": "メール通知"
 		},
+		"groups": {
+			"activity": {
+				"title": "アクティビティ"
+			}
+		},
+		"playlistsVisibility": {
+			"label": "プレイリスト"
+		},
+		"profileVisibility": {
+			"label": "プロフィール"
+		},
 		"scrobble": {
 			"desc": "統計とWrappedのために再生を記録します。",
 			"label": "再生をスクロブル"
@@ -135,6 +148,13 @@
 			"private": "自分のみ",
 			"public": "全員"
 		}
+	},
+	"profile": {
+		"banner": "バナー",
+		"bio": "経歴",
+		"links": "リンク",
+		"removeBanner": "削除",
+		"title": "プロフィール"
 	},
 	"quality": {
 		"dataSaver": {
@@ -167,6 +187,12 @@
 		},
 		"title": "地域"
 	},
+	"security": {
+		"password": {
+			"new": "新しいパスワード",
+			"title": "パスワード"
+		}
+	},
 	"sessions": {
 		"body": "ログイン中の場所です。心当たりのないデバイスは取り消してください。",
 		"lastActive": "最終アクティブ: {date}",
@@ -177,10 +203,15 @@
 		"title": "デバイスとセッション",
 		"unknownDevice": "不明なデバイス"
 	},
+	"startup": {
+		"home": "ホーム",
+		"library": "ライブラリ"
+	},
 	"title": "設定",
 	"twoFactor": {
 		"addHint": "認証アプリによる第2の要素を追加して、アカウントの安全性を高めます。",
 		"disable": "二要素認証を無効化",
+		"download": "ダウンロード",
 		"enable": "二要素認証を有効化",
 		"enableCta": "二要素認証を有効にする",
 		"enabledHint": "二要素認証は有効です。無効にするには、現在のコードまたはリカバリーコードを入力してください。",
@@ -188,6 +219,8 @@
 		"recoveryIntro": "二要素認証が有効になりました。以下のリカバリーコードを安全な場所に保存してください。認証アプリを使えなくなった場合、各コードを1回ずつ使用できます。",
 		"scanHint": "認証アプリでこれをスキャンし、6桁のコードを入力して確認してください。",
 		"secretManual": "または、このシークレットを手動で入力: {secret}",
+		"statusOff": "オフ",
+		"statusOn": "オン",
 		"title": "二要素認証"
 	},
 	"verifyEmail": {

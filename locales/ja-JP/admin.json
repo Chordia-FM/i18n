@@ -63,6 +63,17 @@
 		"body": "サイト管理へのアクセス権がありません。{link}。",
 		"title": "管理"
 	},
+	"overview": {
+		"activity": "アクティビティ",
+		"artists": "アーティスト",
+		"days": "{count, plural, other {#日}}",
+		"hoursTotal": "リスニング",
+		"playlists": "プレイリスト",
+		"plays": "再生回数",
+		"topAlbums": "トップアルバム",
+		"topArtists": "トップアーティスト",
+		"topTracks": "トップトラック"
+	},
 	"reports": {
 		"createdAt": "{date}",
 		"dismiss": "却下",
@@ -88,11 +99,38 @@
 		"title": "メタデータの提案",
 		"titleWithCount": "{count, plural, other {メタデータの提案（#件保留中）}}"
 	},
+	"system": {
+		"jobStatus": {
+			"completed": "完了",
+			"downloading": "ダウンロード中",
+			"failed": "失敗",
+			"grabbing": "取得中",
+			"importing": "インポート中",
+			"queued": "キュー待ち",
+			"searching": "検索中"
+		}
+	},
+	"tabs": {
+		"audit": "監査ログ",
+		"overview": "概要",
+		"users": "ユーザー"
+	},
 	"title": "サイト管理",
+	"userDetail": {
+		"libraries": "ライブラリ",
+		"plays": "再生回数",
+		"unknownDevice": "不明なデバイス"
+	},
 	"users": {
 		"deleteConfirm": "@{handle}とそのすべてのデータを完全に削除しますか？この操作は取り消せません。",
 		"deleteTitle": "ユーザーを削除",
+		"email": "メールアドレス",
+		"libraries": "ライブラリ",
+		"plays": "再生回数",
 		"searchPlaceholder": "ハンドル、メールアドレス、名前で検索…",
+		"status": {
+			"all": "すべて"
+		},
 		"suspend": "停止",
 		"suspendConfirm": "@{handle}を停止しますか？ログアウトされ、ログインできなくなります。",
 		"suspendTitle": "ユーザーを停止",

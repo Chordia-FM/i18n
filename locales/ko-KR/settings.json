@@ -4,8 +4,10 @@
 		"changeEmail": "이메일 변경",
 		"displayName": "표시 이름",
 		"emailChangeSent": "새 이메일 받은편지함에서 확인 링크를 확인하세요.",
+		"emailTitle": "이메일",
 		"handle": "사용자 이름",
 		"handleHint": "영문자, 숫자, “_”, “-”만 사용할 수 있으며 중복될 수 없습니다.",
+		"removePhoto": "제거",
 		"resendVerification": "인증 메일 다시 보내기",
 		"saveProfile": "프로필 저장",
 		"sendConfirmation": "확인 메일 보내기",
@@ -125,6 +127,17 @@
 			"desc": "친구 요청 등 계정 활동을 이메일로 받습니다.",
 			"label": "이메일 알림"
 		},
+		"groups": {
+			"activity": {
+				"title": "활동"
+			}
+		},
+		"playlistsVisibility": {
+			"label": "플레이리스트"
+		},
+		"profileVisibility": {
+			"label": "프로필"
+		},
 		"scrobble": {
 			"desc": "통계와 Wrapped를 위해 재생 기록을 저장합니다.",
 			"label": "감상 기록 스크로블"
@@ -135,6 +148,13 @@
 			"private": "나만",
 			"public": "전체 공개"
 		}
+	},
+	"profile": {
+		"banner": "배너",
+		"bio": "소개",
+		"links": "링크",
+		"removeBanner": "제거",
+		"title": "프로필"
 	},
 	"quality": {
 		"dataSaver": {
@@ -167,6 +187,12 @@
 		},
 		"title": "지역"
 	},
+	"security": {
+		"password": {
+			"new": "새 비밀번호",
+			"title": "비밀번호"
+		}
+	},
 	"sessions": {
 		"body": "로그인되어 있는 기기 목록입니다. 모르는 기기가 있으면 해제하세요.",
 		"lastActive": "마지막 활동 {date}",
@@ -177,10 +203,15 @@
 		"title": "기기 및 세션",
 		"unknownDevice": "알 수 없는 기기"
 	},
+	"startup": {
+		"home": "홈",
+		"library": "라이브러리"
+	},
 	"title": "설정",
 	"twoFactor": {
 		"addHint": "인증 앱을 두 번째 인증 수단으로 추가해 계정을 더 안전하게 보호하세요.",
 		"disable": "2FA 끄기",
+		"download": "다운로드",
 		"enable": "2FA 켜기",
 		"enableCta": "2단계 인증 켜기",
 		"enabledHint": "2단계 인증이 켜져 있습니다. 끄려면 현재 코드나 복구 코드를 입력하세요.",
@@ -188,6 +219,8 @@
 		"recoveryIntro": "2단계 인증이 켜졌습니다. 아래 복구 코드를 안전한 곳에 보관하세요. 인증 앱을 잃어버렸을 때 각 코드를 한 번씩 사용할 수 있습니다.",
 		"scanHint": "인증 앱으로 이 코드를 스캔한 뒤, 6자리 코드를 입력해 확인하세요.",
 		"secretManual": "또는 이 비밀 키를 직접 입력하세요: {secret}",
+		"statusOff": "꺼짐",
+		"statusOn": "켜짐",
 		"title": "2단계 인증"
 	},
 	"verifyEmail": {

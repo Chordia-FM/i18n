@@ -62,6 +62,17 @@
 		"body": "No tienes acceso a la administración del sitio. {link}.",
 		"title": "Administración"
 	},
+	"overview": {
+		"activity": "Actividad",
+		"artists": "Artistas",
+		"days": "{count, plural, one {# día} other {# días}}",
+		"hoursTotal": "Escuchas",
+		"playlists": "Listas",
+		"plays": "Reproducciones",
+		"topAlbums": "Álbumes principales",
+		"topArtists": "Artistas principales",
+		"topTracks": "Pistas principales"
+	},
 	"reports": {
 		"createdAt": "{date}",
 		"dismiss": "Descartar",
@@ -86,11 +97,38 @@
 		"title": "Sugerencias de metadatos",
 		"titleWithCount": "{count, plural, one {Sugerencias de metadatos (# pendiente)} other {Sugerencias de metadatos (# pendientes)}}"
 	},
+	"system": {
+		"jobStatus": {
+			"completed": "Completada",
+			"downloading": "Descargando",
+			"failed": "Error",
+			"grabbing": "Obteniendo",
+			"importing": "Importando",
+			"queued": "En cola",
+			"searching": "Buscando"
+		}
+	},
+	"tabs": {
+		"audit": "Registro de auditoría",
+		"overview": "Resumen",
+		"users": "Usuarios"
+	},
 	"title": "Administración del sitio",
+	"userDetail": {
+		"libraries": "Bibliotecas",
+		"plays": "Reproducciones",
+		"unknownDevice": "Dispositivo desconocido"
+	},
 	"users": {
 		"deleteConfirm": "¿Eliminar permanentemente a @{handle} y TODOS sus datos? Esta acción no se puede deshacer.",
 		"deleteTitle": "Eliminar usuario",
+		"email": "Correo",
+		"libraries": "Bibliotecas",
+		"plays": "Reproducciones",
 		"searchPlaceholder": "Busca por usuario, correo o nombre…",
+		"status": {
+			"all": "Todos"
+		},
 		"suspend": "Suspender",
 		"suspendConfirm": "¿Suspender a @{handle}? Se cerrará su sesión y no podrá volver a entrar.",
 		"suspendTitle": "Suspender usuario",

@@ -69,6 +69,10 @@
 		"rescanning": "Wird erneut gescannt…",
 		"saveFolders": "Ordner speichern",
 		"singlesLabel": "Singles (kein Album)",
+		"tabs": {
+			"general": "Allgemein",
+			"metadata": "Metadaten"
+		},
 		"templateHelp": "Variablen: {vars}. Leere Teile werden übersprungen und die Dateiendung wird automatisch angehängt. {edition} ist der Deluxe-/Sonderausgaben-Zusatz (leer bei der Standardausgabe, sodass er entfällt), und {disc} erscheint nur bei Alben mit mehreren Discs. Titel ohne Album verwenden die Singles-Vorlage; Dateien, die sich nicht identifizieren lassen (kein Künstler-Tag), verwenden die Vorlage „Nicht identifiziert“.",
 		"title": "Bibliothek bearbeiten",
 		"unknownLabel": "Nicht identifizierte Titel"
@@ -86,6 +90,7 @@
 	},
 	"likedSongs": "Lieblingssongs",
 	"list": {
+		"addLibrary": "Bibliothek hinzufügen",
 		"empty": {
 			"hint": "Starten Sie Ihren Bibliotheksserver und öffnen Sie dann zum Koppeln den Setup-Link, den er im Terminal ausgibt.",
 			"title": "Noch keine Bibliotheken."

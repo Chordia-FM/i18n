@@ -7,6 +7,10 @@
 		"evening": "Buenas noches",
 		"morning": "Buenos días"
 	},
+	"hero": {
+		"onboardTitle": "Te damos la bienvenida a Chordia",
+		"seeAll": "Ver todo"
+	},
 	"home": {
 		"emptyState": "Aquí no hay nada todavía: empareja un servidor de biblioteca y tu catálogo aparecerá."
 	},
@@ -23,6 +27,9 @@
 		"playTitle": "Reproducir {title}",
 		"playingToast": "Reproduciendo {title}"
 	},
+	"onThisDay": {
+		"yearsAgo": "{count, plural, one {hace # año} other {hace # años}}"
+	},
 	"radio": {
 		"pin": "Fijar la radio"
 	},
@@ -30,9 +37,14 @@
 		"jumpBackIn": "Volver a escuchar",
 		"madeFor": "Hecho para {name}",
 		"madeForYou": "ti",
+		"onThisDay": "Un día como hoy",
 		"recommended": "Recomendado para ti",
 		"trendingAlbums": "Álbumes en tendencia",
 		"trendingArtists": "Artistas en tendencia",
 		"yourLibraries": "Tus bibliotecas"
+	},
+	"snapshot": {
+		"activeDays": "Días activos",
+		"plays": "Reproducciones"
 	}
 }

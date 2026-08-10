@@ -10,6 +10,21 @@
 		"shareTitle": "이 라이브러리 공유",
 		"trackCount": "{count, plural, other {트랙 #개}}"
 	},
+	"downloads": {
+		"clearConfirm": {
+			"message": "이 기기에서 다운로드한 곡을 모두 제거할까요?",
+			"title": "다운로드 지우기"
+		},
+		"clearError": "다운로드를 지우지 못했습니다",
+		"emptyState": "다운로드한 곡은 인터넷 연결 없이도 재생됩니다. 트랙의 다운로드 메뉴로 여기에 저장하세요.",
+		"eyebrow": "오프라인 사용 가능",
+		"navLabel": "다운로드",
+		"removeError": "다운로드를 제거하지 못했습니다",
+		"removeTooltip": "다운로드 제거",
+		"songCount": "{count, plural, other {#곡}}",
+		"storedOnDevice": "이 기기에 저장됨",
+		"title": "다운로드"
+	},
 	"edit": {
 		"albumsLabel": "앨범",
 		"dedupeLabel": "중복 제거 - 같은 위치에 파일이 놓이면 품질이 가장 좋은 사본만 남깁니다(끄면 (2), (3)… 접미사가 붙습니다)",
@@ -50,30 +65,19 @@
 		"rescanFailed": "다시 검색하지 못했습니다",
 		"rescanFull": "전체 재색인",
 		"rescanFullProgress": "전체 재색인 진행 중…",
-		"rescanProgress": "다시 검색 중…",
 		"rescanHelp": "디스크의 모든 파일을 다시 읽습니다(메타데이터, 추가·삭제된 트랙). 전체 재색인은 변경되지 않은 파일까지 다시 처리합니다. 에디션 병합처럼 기존 라이브러리에 새 설정을 적용할 때 사용하세요.",
+		"rescanProgress": "다시 검색 중…",
 		"rescanStatus": "모든 파일 다시 검색 중…",
 		"rescanning": "다시 검색 중…",
 		"saveFolders": "폴더 저장",
 		"singlesLabel": "싱글(앨범 없음)",
+		"tabs": {
+			"general": "일반",
+			"metadata": "메타데이터"
+		},
 		"templateHelp": "사용 가능한 변수: {vars}. 비어 있는 부분은 건너뛰며 파일 확장자는 자동으로 붙습니다. {edition}은 디럭스·스페셜 등의 판본 표시이고(일반 판본에서는 비어 있어 생략됩니다), {disc}는 멀티 디스크 앨범에만 나타납니다. 앨범이 없는 트랙은 싱글 템플릿을, 아티스트 태그가 없어 식별할 수 없는 파일은 미식별 템플릿을 사용합니다.",
 		"title": "라이브러리 편집",
 		"unknownLabel": "미식별 트랙"
-	},
-	"downloads": {
-		"clearConfirm": {
-			"message": "이 기기에서 다운로드한 곡을 모두 제거할까요?",
-			"title": "다운로드 지우기"
-		},
-		"clearError": "다운로드를 지우지 못했습니다",
-		"emptyState": "다운로드한 곡은 인터넷 연결 없이도 재생됩니다. 트랙의 다운로드 메뉴로 여기에 저장하세요.",
-		"eyebrow": "오프라인 사용 가능",
-		"navLabel": "다운로드",
-		"removeError": "다운로드를 제거하지 못했습니다",
-		"removeTooltip": "다운로드 제거",
-		"songCount": "{count, plural, other {#곡}}",
-		"storedOnDevice": "이 기기에 저장됨",
-		"title": "다운로드"
 	},
 	"hidden": {
 		"hide": "이 곡 숨기기",
@@ -89,6 +93,7 @@
 	},
 	"likedSongs": "좋아요 표시한 곡",
 	"list": {
+		"addLibrary": "라이브러리 추가",
 		"empty": {
 			"hint": "라이브러리 서버를 실행한 뒤, 터미널에 표시되는 설정 링크를 열어 연결하세요.",
 			"title": "아직 라이브러리가 없습니다."
@@ -178,29 +183,29 @@
 		"success": "라이브러리를 공유했습니다.",
 		"title": "\"{name}\" 공유"
 	},
+	"shareManager": {
+		"addFriend": "친구 추가",
+		"canRequest": "다운로드 요청 가능",
+		"directories": "라이브러리:",
+		"empty": "아직 아무에게도 공유하지 않았습니다. 아래에서 친구를 추가해 접근 권한을 주세요.",
+		"grantAccess": "{name}에게 접근 권한 주기",
+		"help": "이 라이브러리에 접근할 수 있는 사람, 그들의 활동, 허용된 권한을 확인합니다.",
+		"lastPlayed": "마지막 재생 {date}",
+		"removeAccess": "{name}의 접근 권한 해제",
+		"revoke": "접근 권한 해제",
+		"statsLine": "요청 {requests} · 다운로드 {downloads} · 재생 {plays}회 · 감상 {time}",
+		"streamingNow": "지금 스트리밍 중: {title} — {artist}",
+		"thisLibrary": "이 라이브러리",
+		"timeDaysHours": "{days}일 {hours}시간",
+		"timeHoursMinutes": "{hours}시간 {minutes}분",
+		"timeMinutes": "{minutes}분",
+		"title": "친구 및 공유",
+		"updateFailed": "공유 설정을 업데이트하지 못했습니다 — 다시 시도하세요."
+	},
 	"sidebar": {
 		"pinned": "고정됨",
 		"playlists": "플레이리스트",
 		"yourLibrary": "내 라이브러리"
 	},
-	"trackCount": "{count, plural, other {트랙 #개}}",
-	"shareManager": {
-		"title": "친구 및 공유",
-		"help": "이 라이브러리에 접근할 수 있는 사람, 그들의 활동, 허용된 권한을 확인합니다.",
-		"empty": "아직 아무에게도 공유하지 않았습니다. 아래에서 친구를 추가해 접근 권한을 주세요.",
-		"addFriend": "친구 추가",
-		"revoke": "접근 권한 해제",
-		"canRequest": "다운로드 요청 가능",
-		"directories": "라이브러리:",
-		"thisLibrary": "이 라이브러리",
-		"grantAccess": "{name}에게 접근 권한 주기",
-		"removeAccess": "{name}의 접근 권한 해제",
-		"streamingNow": "지금 스트리밍 중: {title} — {artist}",
-		"statsLine": "요청 {requests} · 다운로드 {downloads} · 재생 {plays}회 · 감상 {time}",
-		"lastPlayed": "마지막 재생 {date}",
-		"updateFailed": "공유 설정을 업데이트하지 못했습니다 — 다시 시도하세요.",
-		"timeDaysHours": "{days}일 {hours}시간",
-		"timeHoursMinutes": "{hours}시간 {minutes}분",
-		"timeMinutes": "{minutes}분"
-	}
+	"trackCount": "{count, plural, other {트랙 #개}}"
 }

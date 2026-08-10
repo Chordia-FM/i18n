@@ -95,6 +95,7 @@
 	"queue": {
 		"add": "Ajouter à la file d'attente",
 		"addedAlbum": "{count, plural, one {# morceau ajouté à la file d’attente} other {# morceaux ajoutés à la file d’attente}}",
+		"autoplayNext": "Lecture automatique",
 		"empty": "La file d'attente est vide.",
 		"nextUp": "À suivre",
 		"nothingPlayed": "Rien n'a encore été écouté.",

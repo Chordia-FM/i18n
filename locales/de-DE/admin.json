@@ -60,6 +60,16 @@
 		"backToApp": "Zurück zur App",
 		"body": "Sie haben keinen Zugriff auf die Site-Administration. {link}."
 	},
+	"overview": {
+		"activity": "Aktivität",
+		"artists": "Künstler",
+		"days": "{count, plural, one {# Tag} other {# Tage}}",
+		"hoursTotal": "Hören",
+		"plays": "Wiedergaben",
+		"topAlbums": "Top-Alben",
+		"topArtists": "Top-Künstler",
+		"topTracks": "Top-Titel"
+	},
 	"reports": {
 		"createdAt": "{date}",
 		"dismiss": "Verwerfen",
@@ -81,11 +91,38 @@
 		"title": "Metadaten-Vorschläge",
 		"titleWithCount": "{count, plural, one {Metadaten-Vorschläge (# ausstehend)} other {Metadaten-Vorschläge (# ausstehend)}}"
 	},
+	"system": {
+		"jobStatus": {
+			"completed": "Abgeschlossen",
+			"downloading": "Wird heruntergeladen",
+			"failed": "Fehlgeschlagen",
+			"grabbing": "Wird geholt",
+			"importing": "Wird importiert",
+			"queued": "In Warteschlange",
+			"searching": "Suche läuft"
+		}
+	},
+	"tabs": {
+		"audit": "Audit-Protokoll",
+		"overview": "Überblick",
+		"users": "Benutzer"
+	},
 	"title": "Site-Administration",
+	"userDetail": {
+		"libraries": "Bibliotheken",
+		"plays": "Wiedergaben",
+		"unknownDevice": "Unbekanntes Gerät"
+	},
 	"users": {
 		"deleteConfirm": "@{handle} und ALLE zugehörigen Daten dauerhaft löschen? Dies kann nicht rückgängig gemacht werden.",
 		"deleteTitle": "Benutzer löschen",
+		"email": "E-Mail",
+		"libraries": "Bibliotheken",
+		"plays": "Wiedergaben",
 		"searchPlaceholder": "Handle, E-Mail oder Name suchen…",
+		"status": {
+			"all": "Alle"
+		},
 		"suspend": "Sperren",
 		"suspendConfirm": "@{handle} sperren? Die Person wird abgemeldet und kann sich nicht mehr anmelden.",
 		"suspendTitle": "Benutzer sperren",

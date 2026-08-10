@@ -71,6 +71,9 @@
 		"rescanning": "Volviendo a escanear…",
 		"saveFolders": "Guardar carpetas",
 		"singlesLabel": "Sencillos (sin álbum)",
+		"tabs": {
+			"metadata": "Metadatos"
+		},
 		"templateHelp": "Variables: {vars}. Las partes vacías se omiten y la extensión del archivo se añade automáticamente. {edition} es el calificativo deluxe/especial (vacío en la edición estándar, así que desaparece) y {disc} solo aparece en álbumes de varios discos. Las pistas sin álbum usan la plantilla Sencillos; los archivos que no podemos identificar (sin etiqueta de artista) usan la de No identificados.",
 		"title": "Editar biblioteca",
 		"unknownLabel": "Pistas no identificadas"
@@ -89,6 +92,7 @@
 	},
 	"likedSongs": "Canciones que te gustan",
 	"list": {
+		"addLibrary": "Añadir biblioteca",
 		"empty": {
 			"hint": "Inicia tu servidor de biblioteca y abre el enlace de configuración que imprime en su terminal para emparejarlo.",
 			"title": "Aún no hay bibliotecas."

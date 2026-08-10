@@ -23,6 +23,10 @@
 		"confirmBody": "¿Eliminar esta lista?",
 		"title": "Eliminar lista"
 	},
+	"edit": {
+		"description": "Descripción",
+		"name": "Nombre"
+	},
 	"empty": "Esta lista está vacía. Añade canciones desde el menú “⋯” de cualquier pista.",
 	"kindLabel": "Lista de reproducción",
 	"leave": {
@@ -80,6 +84,9 @@
 			"equals": "es",
 			"is": "es"
 		},
+		"refresh": {
+			"now": "Actualizar"
+		},
 		"removeRule": "Quitar regla",
 		"ruleField": "Campo de la regla",
 		"ruleOperator": "Operador de la regla",
@@ -94,6 +101,10 @@
 		"valuePlaceholder": "valor"
 	},
 	"songCount": "{count, plural, one {# canción} other {# canciones}}",
+	"stats": {
+		"scopeEveryone": "Todos",
+		"scopeMe": "Tú"
+	},
 	"toast": {
 		"createFailed": "No se pudo crear la lista",
 		"created": "Se creó «{name}»",

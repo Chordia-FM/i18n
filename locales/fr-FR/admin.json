@@ -61,6 +61,15 @@
 		"backToApp": "Retour à l'application",
 		"body": "Vous n'avez pas accès à l'administration du site. {link}."
 	},
+	"overview": {
+		"activity": "Activité",
+		"artists": "Artistes",
+		"days": "{count, plural, one {# jour} other {# jours}}",
+		"hoursTotal": "Écoutes",
+		"plays": "Écoutes",
+		"topArtists": "Top artistes",
+		"topTracks": "Top morceaux"
+	},
 	"reports": {
 		"createdAt": "{date}",
 		"dismiss": "Rejeter",
@@ -84,11 +93,38 @@
 		"title": "Suggestions de métadonnées",
 		"titleWithCount": "{count, plural, one {Suggestions de métadonnées (# en attente)} other {Suggestions de métadonnées (# en attente)}}"
 	},
+	"system": {
+		"jobStatus": {
+			"completed": "Terminé",
+			"downloading": "Téléchargement",
+			"failed": "Échec",
+			"grabbing": "Récupération",
+			"importing": "Importation",
+			"queued": "En attente",
+			"searching": "Recherche"
+		}
+	},
+	"tabs": {
+		"audit": "Journal d'audit",
+		"overview": "Vue d'ensemble",
+		"users": "Utilisateurs"
+	},
 	"title": "Administration du site",
+	"userDetail": {
+		"libraries": "Bibliothèques",
+		"plays": "Écoutes",
+		"unknownDevice": "Appareil inconnu"
+	},
 	"users": {
 		"deleteConfirm": "Supprimer définitivement @{handle} et TOUTES ses données ? Cette action est irréversible.",
 		"deleteTitle": "Supprimer un utilisateur",
+		"email": "E-mail",
+		"libraries": "Bibliothèques",
+		"plays": "Écoutes",
 		"searchPlaceholder": "Rechercher un identifiant, un e-mail ou un nom…",
+		"status": {
+			"all": "Tout"
+		},
 		"suspend": "Suspendre",
 		"suspendConfirm": "Suspendre @{handle} ? La personne sera déconnectée et ne pourra plus se connecter.",
 		"suspendTitle": "Suspendre l'utilisateur",

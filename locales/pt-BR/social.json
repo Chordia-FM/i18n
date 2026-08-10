@@ -10,6 +10,16 @@
 		"requestSent": "Pedido enviado",
 		"sending": "Enviando…"
 	},
+	"follow": {
+		"addFriend": "Adicionar amigo",
+		"follow": "Seguir",
+		"following": "Seguindo",
+		"friends": "Amigos",
+		"unfollow": "Deixar de seguir"
+	},
+	"following": {
+		"title": "Seguindo"
+	},
 	"friends": {
 		"confirmRemove": "Confirmar?",
 		"empty": "Ainda não há amigos — busque para adicionar alguns",
@@ -26,6 +36,10 @@
 		"title": "Amigos"
 	},
 	"profile": {
+		"bio": {
+			"less": "Mostrar menos",
+			"more": "Mostrar mais"
+		},
 		"eyebrow": "Perfil",
 		"itemPlays": "{count, plural, one {# reprodução} other {# reproduções}}",
 		"joinedDate": "{date, date, ::yMMMM}",
@@ -38,6 +52,9 @@
 			"title": "Este perfil é privado"
 		},
 		"recentlyPlayed": "Tocados recentemente",
+		"shelves": {
+			"seeAll": "Ver tudo"
+		},
 		"topArtists": "Principais artistas",
 		"topTracks": "Principais faixas",
 		"totalPlays": "{count, plural, one {# reprodução} other {# reproduções}}",

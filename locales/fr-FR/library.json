@@ -70,6 +70,10 @@
 		"rescanning": "Analyse en cours…",
 		"saveFolders": "Enregistrer les dossiers",
 		"singlesLabel": "Singles (sans album)",
+		"tabs": {
+			"general": "Général",
+			"metadata": "Métadonnées"
+		},
 		"templateHelp": "Variables : {vars}. Les parties vides sont ignorées et l'extension du fichier est ajoutée automatiquement. {edition} est le qualificatif deluxe/spécial (vide pour l'édition standard, il disparaît donc), et {disc} n'apparaît que pour les albums multi-disques. Les morceaux sans album utilisent le modèle Singles ; les fichiers que nous ne parvenons pas à identifier (aucune balise d'artiste) utilisent le modèle Non identifiés.",
 		"title": "Modifier la bibliothèque",
 		"unknownLabel": "Morceaux non identifiés"
@@ -87,6 +91,7 @@
 	},
 	"likedSongs": "Chansons aimées",
 	"list": {
+		"addLibrary": "Ajouter une bibliothèque",
 		"empty": {
 			"hint": "Démarrez votre serveur de bibliothèque, puis ouvrez le lien de configuration qu'il affiche dans son terminal pour l'associer.",
 			"title": "Aucune bibliothèque pour l'instant."

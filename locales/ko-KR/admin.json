@@ -63,6 +63,17 @@
 		"body": "사이트 관리 권한이 없습니다. {link}.",
 		"title": "관리자"
 	},
+	"overview": {
+		"activity": "활동",
+		"artists": "아티스트",
+		"days": "{count, plural, other {#일}}",
+		"hoursTotal": "감상",
+		"playlists": "플레이리스트",
+		"plays": "재생 횟수",
+		"topAlbums": "인기 앨범",
+		"topArtists": "인기 아티스트",
+		"topTracks": "인기 트랙"
+	},
 	"reports": {
 		"createdAt": "{date}",
 		"dismiss": "무시",
@@ -88,11 +99,38 @@
 		"title": "메타데이터 제안",
 		"titleWithCount": "{count, plural, other {메타데이터 제안(대기 #건)}}"
 	},
+	"system": {
+		"jobStatus": {
+			"completed": "완료됨",
+			"downloading": "다운로드 중",
+			"failed": "실패함",
+			"grabbing": "받는 중",
+			"importing": "가져오는 중",
+			"queued": "대기 중",
+			"searching": "검색 중"
+		}
+	},
+	"tabs": {
+		"audit": "감사 로그",
+		"overview": "개요",
+		"users": "사용자"
+	},
 	"title": "사이트 관리",
+	"userDetail": {
+		"libraries": "라이브러리",
+		"plays": "재생 횟수",
+		"unknownDevice": "알 수 없는 기기"
+	},
 	"users": {
 		"deleteConfirm": "@{handle}님과 모든 데이터를 영구 삭제할까요? 되돌릴 수 없습니다.",
 		"deleteTitle": "사용자 삭제",
+		"email": "이메일",
+		"libraries": "라이브러리",
+		"plays": "재생 횟수",
 		"searchPlaceholder": "사용자 이름, 이메일, 이름 검색…",
+		"status": {
+			"all": "전체"
+		},
 		"suspend": "정지",
 		"suspendConfirm": "@{handle}님을 정지할까요? 로그아웃되며 다시 로그인할 수 없게 됩니다.",
 		"suspendTitle": "사용자 정지",

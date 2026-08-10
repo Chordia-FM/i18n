@@ -7,6 +7,10 @@
 		"evening": "こんばんは",
 		"morning": "おはようございます"
 	},
+	"hero": {
+		"onboardTitle": "Chordiaへようこそ",
+		"seeAll": "すべて表示"
+	},
 	"home": {
 		"emptyState": "まだ何もありません。ライブラリサーバーをペアリングすると、カタログが表示されます。"
 	},
@@ -23,6 +27,9 @@
 		"playTitle": "{title}を再生",
 		"playingToast": "{title}を再生中"
 	},
+	"onThisDay": {
+		"yearsAgo": "{count, plural, other {#年前}}"
+	},
 	"radio": {
 		"label": "ラジオ",
 		"pin": "ラジオをピン留め"
@@ -31,9 +38,14 @@
 		"jumpBackIn": "続きから聴く",
 		"madeFor": "{name}のために",
 		"madeForYou": "あなた",
+		"onThisDay": "過去のこの日",
 		"recommended": "あなたへのおすすめ",
 		"trendingAlbums": "話題のアルバム",
 		"trendingArtists": "話題のアーティスト",
 		"yourLibraries": "あなたのライブラリ"
+	},
+	"snapshot": {
+		"activeDays": "アクティブ日数",
+		"plays": "再生回数"
 	}
 }

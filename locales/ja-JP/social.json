@@ -10,6 +10,17 @@
 		"requestSent": "リクエスト送信済み",
 		"sending": "送信中…"
 	},
+	"follow": {
+		"addFriend": "フレンドを追加",
+		"follow": "フォロー",
+		"following": "フォロー中",
+		"friends": "フレンド",
+		"linksOpen": "リンク",
+		"unfollow": "フォロー解除"
+	},
+	"following": {
+		"title": "フォロー中"
+	},
 	"friends": {
 		"confirmRemove": "削除しますか？",
 		"empty": "まだフレンドがいません。検索して追加しましょう",
@@ -26,6 +37,10 @@
 		"title": "フレンド"
 	},
 	"profile": {
+		"bio": {
+			"less": "折りたたむ",
+			"more": "もっと見る"
+		},
 		"eyebrow": "プロフィール",
 		"itemPlays": "{count, plural, other {#回再生}}",
 		"joinedDate": "{date, date, ::yMMMM}",
@@ -38,6 +53,9 @@
 			"title": "このプロフィールは非公開です"
 		},
 		"recentlyPlayed": "最近再生した曲",
+		"shelves": {
+			"seeAll": "すべて表示"
+		},
 		"topArtists": "トップアーティスト",
 		"topTracks": "トップトラック",
 		"totalPlays": "{count, plural, other {#回再生}}",

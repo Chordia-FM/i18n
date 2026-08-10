@@ -7,6 +7,10 @@
 		"evening": "좋은 저녁입니다",
 		"morning": "좋은 아침입니다"
 	},
+	"hero": {
+		"onboardTitle": "Chordia에 오신 것을 환영합니다",
+		"seeAll": "모두 보기"
+	},
 	"home": {
 		"emptyState": "아직 아무것도 없습니다 - 라이브러리 서버를 연결하면 카탈로그가 표시됩니다."
 	},
@@ -23,6 +27,9 @@
 		"playTitle": "{title} 재생",
 		"playingToast": "{title} 재생 중"
 	},
+	"onThisDay": {
+		"yearsAgo": "{count, plural, other {#년 전}}"
+	},
 	"radio": {
 		"label": "라디오",
 		"pin": "라디오 고정"
@@ -31,9 +38,14 @@
 		"jumpBackIn": "다시 듣기",
 		"madeFor": "{name} 맞춤 추천",
 		"madeForYou": "회원님",
+		"onThisDay": "오늘의 기록",
 		"recommended": "회원님을 위한 추천",
 		"trendingAlbums": "인기 앨범",
 		"trendingArtists": "인기 아티스트",
 		"yourLibraries": "내 라이브러리"
+	},
+	"snapshot": {
+		"activeDays": "활동한 날",
+		"plays": "재생 횟수"
 	}
 }

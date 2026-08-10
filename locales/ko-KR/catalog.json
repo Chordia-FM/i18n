@@ -35,7 +35,15 @@
 			"albumCount": "{count, plural, other {앨범 #개}}"
 		},
 		"discography": "디스코그래피",
+		"discographyAll": {
+			"filter": {
+				"albums": "앨범",
+				"all": "전체"
+			}
+		},
 		"factsJoin": "{facts}",
+		"follow": "팔로우",
+		"following": "팔로잉",
 		"formed": "{year}년 결성",
 		"genresJoin": "{genres}",
 		"labelMetaJoin": "{span} · {releases}",

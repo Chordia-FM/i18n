@@ -4,9 +4,11 @@
 		"changeEmail": "Cambiar correo",
 		"displayName": "Nombre visible",
 		"emailChangeSent": "Revisa tu nueva bandeja de entrada: ahí tienes el enlace de confirmación.",
+		"emailTitle": "Correo",
 		"handle": "Usuario",
 		"handleHint": "Letras, números, “_” y “-”. Debe ser único.",
 		"handlePlaceholder": "tunombre",
+		"removePhoto": "Quitar",
 		"resendVerification": "Reenviar el correo de verificación",
 		"saveProfile": "Guardar perfil",
 		"sendConfirmation": "Enviar confirmación",
@@ -120,6 +122,17 @@
 			"desc": "Recibe un correo por las solicitudes de amistad y otra actividad de la cuenta.",
 			"label": "Notificaciones por correo"
 		},
+		"groups": {
+			"activity": {
+				"title": "Actividad"
+			}
+		},
+		"playlistsVisibility": {
+			"label": "Listas"
+		},
+		"profileVisibility": {
+			"label": "Perfil"
+		},
 		"scrobble": {
 			"desc": "Registra lo que reproduces para tus estadísticas y tu Wrapped.",
 			"label": "Registrar escuchas"
@@ -130,6 +143,12 @@
 			"private": "Solo yo",
 			"public": "Todos"
 		}
+	},
+	"profile": {
+		"bio": "Biografía",
+		"links": "Enlaces",
+		"removeBanner": "Quitar",
+		"title": "Perfil"
 	},
 	"quality": {
 		"dataSaver": {
@@ -161,6 +180,12 @@
 		},
 		"title": "Región"
 	},
+	"security": {
+		"password": {
+			"new": "Nueva contraseña",
+			"title": "Contraseña"
+		}
+	},
 	"sessions": {
 		"body": "Dónde tienes la sesión iniciada. Revoca cualquier dispositivo que no reconozcas.",
 		"lastActive": "Última actividad: {date}",
@@ -171,10 +196,15 @@
 		"title": "Dispositivos y sesiones",
 		"unknownDevice": "Dispositivo desconocido"
 	},
+	"startup": {
+		"home": "Inicio",
+		"library": "Biblioteca"
+	},
 	"title": "Ajustes",
 	"twoFactor": {
 		"addHint": "Añade un segundo factor (una app de autenticación) para mayor seguridad de la cuenta.",
 		"disable": "Desactivar 2FA",
+		"download": "Descargar",
 		"enable": "Activar 2FA",
 		"enableCta": "Activar la autenticación de dos factores",
 		"enabledHint": "La 2FA está activada. Para desactivarla, introduce un código actual o un código de recuperación.",
@@ -182,6 +212,8 @@
 		"recoveryIntro": "La 2FA está activada. Guarda estos códigos de recuperación en un lugar seguro: cada uno sirve una sola vez si pierdes tu app de autenticación.",
 		"scanHint": "Escanea esto con tu app de autenticación y luego introduce el código de 6 dígitos para confirmar.",
 		"secretManual": "O introduce esta clave manualmente: {secret}",
+		"statusOff": "Desactivado",
+		"statusOn": "Activado",
 		"title": "Autenticación de dos factores"
 	},
 	"verifyEmail": {

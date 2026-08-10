@@ -4,8 +4,10 @@
 		"changeEmail": "E-Mail-Adresse ändern",
 		"displayName": "Anzeigename",
 		"emailChangeSent": "Prüfen Sie Ihren neuen Posteingang auf einen Bestätigungslink.",
+		"emailTitle": "E-Mail",
 		"handleHint": "Buchstaben, Ziffern, „_“ und „-“. Muss eindeutig sein.",
 		"handlePlaceholder": "ihrname",
+		"removePhoto": "Entfernen",
 		"resendVerification": "Bestätigungs-E-Mail erneut senden",
 		"saveProfile": "Profil speichern",
 		"sendConfirmation": "Bestätigung senden",
@@ -114,6 +116,14 @@
 			"desc": "Erhalten Sie eine E-Mail bei Freundschaftsanfragen und anderen Kontoaktivitäten.",
 			"label": "E-Mail-Benachrichtigungen"
 		},
+		"groups": {
+			"activity": {
+				"title": "Aktivität"
+			}
+		},
+		"profileVisibility": {
+			"label": "Profil"
+		},
 		"scrobble": {
 			"desc": "Zeichnet auf, was Sie hören – für Ihre Statistiken und Wrapped.",
 			"label": "Wiedergaben scrobbeln"
@@ -124,6 +134,10 @@
 			"private": "Nur ich",
 			"public": "Alle"
 		}
+	},
+	"profile": {
+		"removeBanner": "Entfernen",
+		"title": "Profil"
 	},
 	"quality": {
 		"dataSaver": {
@@ -154,6 +168,12 @@
 			"zoneWithOffset": "{zone} ({offset})"
 		}
 	},
+	"security": {
+		"password": {
+			"new": "Neues Passwort",
+			"title": "Passwort"
+		}
+	},
 	"sessions": {
 		"body": "Hier sind Sie angemeldet. Widerrufen Sie jedes Gerät, das Sie nicht kennen.",
 		"lastActive": "Zuletzt aktiv {date}",
@@ -164,10 +184,15 @@
 		"title": "Geräte und Sitzungen",
 		"unknownDevice": "Unbekanntes Gerät"
 	},
+	"startup": {
+		"home": "Start",
+		"library": "Bibliothek"
+	},
 	"title": "Einstellungen",
 	"twoFactor": {
 		"addHint": "Fügen Sie einen zweiten Faktor (eine Authenticator-App) hinzu, um Ihr Konto zusätzlich abzusichern.",
 		"disable": "2FA deaktivieren",
+		"download": "Herunterladen",
 		"enable": "2FA aktivieren",
 		"enableCta": "Zwei-Faktor-Authentifizierung aktivieren",
 		"enabledHint": "2FA ist aktiviert. Um sie abzuschalten, geben Sie einen aktuellen Code oder einen Wiederherstellungscode ein.",
@@ -175,6 +200,8 @@
 		"recoveryIntro": "2FA ist aktiviert. Bewahren Sie diese Wiederherstellungscodes sicher auf – jeder funktioniert einmal, falls Sie den Zugriff auf Ihre Authenticator-App verlieren.",
 		"scanHint": "Scannen Sie dies mit Ihrer Authenticator-App und geben Sie dann zur Bestätigung den 6-stelligen Code ein.",
 		"secretManual": "Oder geben Sie diesen geheimen Schlüssel manuell ein: {secret}",
+		"statusOff": "Aus",
+		"statusOn": "An",
 		"title": "Zwei-Faktor-Authentifizierung"
 	},
 	"verifyEmail": {

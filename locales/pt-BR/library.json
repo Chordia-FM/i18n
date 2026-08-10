@@ -69,6 +69,10 @@
 		"rescanning": "Verificando de novo…",
 		"saveFolders": "Salvar pastas",
 		"singlesLabel": "Singles (sem álbum)",
+		"tabs": {
+			"general": "Geral",
+			"metadata": "Metadados"
+		},
 		"templateHelp": "Variáveis: {vars}. As partes vazias são ignoradas e a extensão do arquivo é adicionada automaticamente. {edition} é o qualificador deluxe/especial (vazio na edição padrão, então ele some), e {disc} só aparece em álbuns com vários discos. Faixas sem álbum usam o modelo Singles; arquivos que não conseguimos identificar (sem tag de artista) usam o modelo Não identificado.",
 		"title": "Editar biblioteca",
 		"unknownLabel": "Faixas não identificadas"
@@ -86,6 +90,7 @@
 	},
 	"likedSongs": "Músicas Curtidas",
 	"list": {
+		"addLibrary": "Adicionar biblioteca",
 		"empty": {
 			"hint": "Inicie seu servidor de biblioteca e abra o link de configuração que ele mostra no terminal para parear.",
 			"title": "Ainda não há bibliotecas."

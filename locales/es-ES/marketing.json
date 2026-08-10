@@ -1,0 +1,14 @@
+{
+	"cta": {
+		"signIn": "Iniciar sesión"
+	},
+	"footer": {
+		"language": "Idioma",
+		"legal": {
+			"privacy": "Privacidad"
+		},
+		"product": {
+			"signUp": "Crear una cuenta"
+		}
+	}
+}

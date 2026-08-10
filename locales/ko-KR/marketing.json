@@ -1,0 +1,14 @@
+{
+	"cta": {
+		"signIn": "로그인"
+	},
+	"footer": {
+		"language": "언어",
+		"legal": {
+			"privacy": "개인정보 보호"
+		},
+		"product": {
+			"signUp": "계정 만들기"
+		}
+	}
+}

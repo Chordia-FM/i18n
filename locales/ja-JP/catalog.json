@@ -35,7 +35,15 @@
 			"albumCount": "{count, plural, other {#枚のアルバム}}"
 		},
 		"discography": "ディスコグラフィー",
+		"discographyAll": {
+			"filter": {
+				"albums": "アルバム",
+				"all": "すべて"
+			}
+		},
 		"factsJoin": "{facts}",
+		"follow": "フォロー",
+		"following": "フォロー中",
 		"formed": "{year}年結成",
 		"genresJoin": "{genres}",
 		"labelMetaJoin": "{span} · {releases}",

@@ -10,6 +10,17 @@
 		"requestSent": "요청 보냄",
 		"sending": "보내는 중…"
 	},
+	"follow": {
+		"addFriend": "친구 추가",
+		"follow": "팔로우",
+		"following": "팔로잉",
+		"friends": "친구만",
+		"linksOpen": "링크",
+		"unfollow": "팔로우 취소"
+	},
+	"following": {
+		"title": "팔로잉"
+	},
 	"friends": {
 		"confirmRemove": "확인?",
 		"empty": "아직 친구가 없습니다 - 검색해서 추가해 보세요",
@@ -26,6 +37,10 @@
 		"title": "친구"
 	},
 	"profile": {
+		"bio": {
+			"less": "접기",
+			"more": "더보기"
+		},
 		"eyebrow": "프로필",
 		"itemPlays": "{count, plural, other {#회 재생}}",
 		"joinedDate": "{date, date, ::yMMMM}",
@@ -38,6 +53,9 @@
 			"title": "비공개 프로필입니다"
 		},
 		"recentlyPlayed": "최근 재생",
+		"shelves": {
+			"seeAll": "모두 보기"
+		},
 		"topArtists": "인기 아티스트",
 		"topTracks": "인기 트랙",
 		"totalPlays": "{count, plural, other {#회 재생}}",

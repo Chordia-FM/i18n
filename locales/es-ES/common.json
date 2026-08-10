@@ -20,10 +20,13 @@
 		"more": "Más",
 		"moveDown": "Bajar",
 		"moveUp": "Subir",
+		"next": "Siguiente",
 		"ok": "Aceptar",
 		"open": "Abrir",
+		"pause": "Pausar",
 		"pin": "Fijar",
 		"play": "Reproducir",
+		"previous": "Anterior",
 		"remove": "Quitar",
 		"rename": "Cambiar nombre",
 		"reset": "Restablecer",
@@ -34,6 +37,7 @@
 		"share": "Compartir",
 		"showLess": "Mostrar menos",
 		"showMore": "Mostrar más",
+		"shuffle": "Aleatorio",
 		"signOut": "Cerrar sesión",
 		"tryAgain": "Reintentar",
 		"undo": "Deshacer",
@@ -103,6 +107,9 @@
 	"language": {
 		"description": "Idioma que se usa en toda la interfaz.",
 		"label": "Idioma"
+	},
+	"menu": {
+		"back": "Atrás"
 	},
 	"nav": {
 		"allLibraries": "Todas las bibliotecas",

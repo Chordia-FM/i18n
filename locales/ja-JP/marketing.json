@@ -1,0 +1,14 @@
+{
+	"cta": {
+		"signIn": "ログイン"
+	},
+	"footer": {
+		"language": "言語",
+		"legal": {
+			"privacy": "プライバシー"
+		},
+		"product": {
+			"signUp": "アカウントを作成"
+		}
+	}
+}

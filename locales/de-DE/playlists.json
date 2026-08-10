@@ -23,6 +23,9 @@
 		"confirmBody": "Diese Playlist löschen?",
 		"title": "Playlist löschen"
 	},
+	"edit": {
+		"description": "Beschreibung"
+	},
 	"empty": "Diese Playlist ist leer. Fügen Sie Songs über das Menü „⋯“ eines beliebigen Titels hinzu.",
 	"leave": {
 		"confirmBody": "Diese gemeinsame Playlist verlassen?",
@@ -76,6 +79,9 @@
 			"equals": "ist",
 			"is": "ist"
 		},
+		"refresh": {
+			"now": "Aktualisieren"
+		},
 		"removeRule": "Regel entfernen",
 		"ruleField": "Regelfeld",
 		"ruleOperator": "Regeloperator",
@@ -90,6 +96,10 @@
 		"valuePlaceholder": "Wert"
 	},
 	"songCount": "{count, plural, one {# Song} other {# Songs}}",
+	"stats": {
+		"scopeEveryone": "Alle",
+		"scopeMe": "Sie"
+	},
 	"toast": {
 		"createFailed": "Playlist konnte nicht erstellt werden",
 		"created": "„{name}“ erstellt",

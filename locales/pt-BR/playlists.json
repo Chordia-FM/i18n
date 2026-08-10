@@ -23,6 +23,10 @@
 		"confirmBody": "Excluir esta playlist?",
 		"title": "Excluir playlist"
 	},
+	"edit": {
+		"description": "Descrição",
+		"name": "Nome"
+	},
 	"empty": "Esta playlist está vazia. Adicione músicas pelo menu “⋯” de qualquer faixa.",
 	"leave": {
 		"confirmBody": "Sair desta playlist colaborativa?",
@@ -79,6 +83,9 @@
 			"equals": "é",
 			"is": "é"
 		},
+		"refresh": {
+			"now": "Atualizar"
+		},
 		"removeRule": "Remover regra",
 		"ruleField": "Campo da regra",
 		"ruleOperator": "Operador da regra",
@@ -93,6 +100,10 @@
 		"valuePlaceholder": "valor"
 	},
 	"songCount": "{count, plural, one {# música} other {# músicas}}",
+	"stats": {
+		"scopeEveryone": "Todos",
+		"scopeMe": "Você"
+	},
 	"toast": {
 		"createFailed": "Não foi possível criar a playlist",
 		"created": "\"{name}\" criada",

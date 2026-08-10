@@ -20,9 +20,11 @@
 		"more": "Plus",
 		"moveDown": "Descendre",
 		"moveUp": "Monter",
+		"next": "Suivant",
 		"open": "Ouvrir",
 		"pin": "Épingler",
 		"play": "Lire",
+		"previous": "Précédent",
 		"remove": "Retirer",
 		"rename": "Renommer",
 		"reset": "Réinitialiser",
@@ -33,6 +35,7 @@
 		"share": "Partager",
 		"showLess": "Afficher moins",
 		"showMore": "Afficher plus",
+		"shuffle": "Aléatoire",
 		"signOut": "Se déconnecter",
 		"tryAgain": "Réessayer",
 		"undo": "Annuler",
@@ -96,6 +99,9 @@
 	"language": {
 		"description": "Langue utilisée dans l'interface.",
 		"label": "Langue"
+	},
+	"menu": {
+		"back": "Retour"
 	},
 	"nav": {
 		"allLibraries": "Toutes les bibliothèques",

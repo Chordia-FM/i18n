@@ -34,7 +34,15 @@
 			"albumCount": "{count, plural, one {# álbum} other {# álbuns}}"
 		},
 		"discography": "Discografia",
+		"discographyAll": {
+			"filter": {
+				"albums": "Álbuns",
+				"all": "Todos"
+			}
+		},
 		"factsJoin": "{facts}",
+		"follow": "Seguir",
+		"following": "Seguindo",
 		"formed": "Formado em {year}",
 		"genresJoin": "{genres}",
 		"labelMetaJoin": "{span} · {releases}",

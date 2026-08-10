@@ -23,6 +23,10 @@
 		"confirmBody": "이 플레이리스트를 삭제할까요?",
 		"title": "플레이리스트 삭제"
 	},
+	"edit": {
+		"description": "설명",
+		"name": "이름"
+	},
 	"empty": "플레이리스트가 비어 있습니다. 트랙의 “⋯” 메뉴에서 곡을 추가하세요.",
 	"kindLabel": "플레이리스트",
 	"leave": {
@@ -80,6 +84,9 @@
 			"equals": "일치",
 			"is": "일치"
 		},
+		"refresh": {
+			"now": "새로고침"
+		},
 		"removeRule": "규칙 제거",
 		"ruleField": "규칙 항목",
 		"ruleOperator": "규칙 연산자",
@@ -94,6 +101,10 @@
 		"valuePlaceholder": "값"
 	},
 	"songCount": "{count, plural, other {#곡}}",
+	"stats": {
+		"scopeEveryone": "전체 공개",
+		"scopeMe": "나"
+	},
 	"toast": {
 		"createFailed": "플레이리스트를 만들지 못했습니다",
 		"created": "\"{name}\"을(를) 만들었습니다",
