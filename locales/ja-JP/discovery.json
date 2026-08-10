@@ -1,20 +1,4 @@
 {
-	"station": {
-		"albumRadio": "",
-		"artistRadio": "",
-		"empty": "",
-		"genreRadio": "",
-		"kindAlbum": "",
-		"kindArtist": "",
-		"kindGenre": "",
-		"kindPlaylist": "",
-		"kindTrack": "",
-		"mix": "",
-		"playlistRadio": "",
-		"start": "",
-		"startFrom": "",
-		"trackRadio": ""
-	},
 	"dailyMix": {
 		"label": "デイリーミックス"
 	},
@@ -90,9 +74,25 @@
 		"activeDays": "アクティブ日数",
 		"cta": "",
 		"plays": "再生回数",
+		"rotationCta": "",
+		"rotationTitle": "",
 		"streak": "",
-		"title": "",
-		"wrappedCta": "",
-		"wrappedTitle": ""
+		"title": ""
+	},
+	"station": {
+		"albumRadio": "",
+		"artistRadio": "",
+		"empty": "",
+		"genreRadio": "",
+		"kindAlbum": "",
+		"kindArtist": "",
+		"kindGenre": "",
+		"kindPlaylist": "",
+		"kindTrack": "",
+		"mix": "",
+		"playlistRadio": "",
+		"start": "",
+		"startFrom": "",
+		"trackRadio": ""
 	}
 }
