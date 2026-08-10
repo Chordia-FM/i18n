@@ -26,11 +26,11 @@
 		"verified": ""
 	},
 	"appearance": {
-		"accentColour": "Akzentfarbe",
+		"accentColour": "",
 		"accentHexAria": "Akzent-Hex",
-		"customAccentAria": "Benutzerdefinierte Akzentfarbe",
-		"customColour": "Benutzerdefinierte Farbe",
-		"customColourHint": "Wählen Sie eine beliebige Farbe – Schaltflächen, Hervorhebungen und der Hintergrundton richten sich danach.",
+		"customAccentAria": "",
+		"customColour": "",
+		"customColourHint": "",
 		"title": "Darstellung",
 		"accents": {
 			"crimson": "",
