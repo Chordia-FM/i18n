@@ -26,11 +26,11 @@
 		"verified": "Verified"
 	},
 	"appearance": {
-		"accentColour": "Accent colour",
+		"accentColour": "Accent color",
 		"accentHexAria": "Accent hex",
-		"customAccentAria": "Custom accent colour",
-		"customColour": "Custom colour",
-		"customColourHint": "Pick any colour - buttons, highlights and the background tint follow it.",
+		"customAccentAria": "Custom accent color",
+		"customColour": "Custom color",
+		"customColourHint": "Pick any color - buttons, highlights and the background tint follow it.",
 		"title": "Appearance",
 		"accents": {
 			"crimson": "Crimson",

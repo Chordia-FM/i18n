@@ -105,7 +105,7 @@
 		"selectFailed": "Couldn't pin that source. The job may have moved on; refresh and pick again.",
 		"status": {
 			"awaiting_selection": "Choose a source",
-			"cancelled": "Cancelled",
+			"cancelled": "Canceled",
 			"claimed": "Starting",
 			"completed": "Completed",
 			"downloading": "Downloading",

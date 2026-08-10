@@ -85,7 +85,6 @@
 		"tracksMissingRecording": "Ditties wi' no recordin' id",
 		"rollupLagHelp": "How far th' background aggregator be behind th' newest listen. Zero means it has caught up wi' everythin' recorded.",
 		"jobStatus": {
-			"cancelled": "Belayed",
 			"completed": "Safe in th' hold",
 			"downloading": "Plunderin'",
 			"failed": "Sunk",

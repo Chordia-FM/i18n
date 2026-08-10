@@ -31,6 +31,73 @@ const PLURAL_CATEGORIES = {
 	tr: ["one", "other"],
 };
 
+/**
+ * British spellings, and what the source should say instead.
+ *
+ * The source language is **en-US**, and `en-GB` exists precisely to hold the British forms as
+ * overrides — it already carries "catalogue", "Organise", "Visualiser" and "Normalise". That split
+ * only works if the source stays American, and it had quietly stopped: "Accent colour" and
+ * "Cancelled" had leaked in, so British users were getting British spellings by accident on those
+ * keys and American ones everywhere else.
+ *
+ * Matched as a stem inside a word, so "colour" catches "colours" and "colourful" too.
+ *
+ * Deliberately NOT on this list: "dialogue", which is correct American English for a conversation
+ * and would fire on legitimate prose; and "practise"/"licence", whose noun/verb split makes a
+ * blanket rule wrong often enough to be annoying. A gate people learn to work around is worse than
+ * no gate.
+ */
+const AMERICAN_SPELLING = new Map([
+	["colour", "color"],
+	["favourite", "favorite"],
+	["behaviour", "behavior"],
+	["catalogue", "catalog"],
+	["organis", "organiz"],
+	["customis", "customiz"],
+	["personalis", "personaliz"],
+	["normalis", "normaliz"],
+	["synchronis", "synchroniz"],
+	["recognis", "recogniz"],
+	["visualis", "visualiz"],
+	["prioritis", "prioritiz"],
+	["initialis", "initializ"],
+	["analys", "analyz"],
+	["cancelled", "canceled"],
+	["cancelling", "canceling"],
+	["labelled", "labeled"],
+	["labelling", "labeling"],
+	["travelling", "traveling"],
+	["artefact", "artifact"],
+	["centre", "center"],
+	["defence", "defense"],
+	["programme", "program"],
+	["enrolment", "enrollment"],
+	["fulfil ", "fulfill "],
+	["ageing", "aging"],
+	["grey", "gray"],
+	["whilst", "while"],
+	["amongst", "among"],
+]);
+
+const BRITISH_RE = new RegExp(
+	`\\b\\w*(?:${[...AMERICAN_SPELLING.keys()].map((s) => s.trim()).join("|")})\\w*\\b`,
+	"i",
+);
+
+/** The offending word and its American form, or null. */
+function britishSpelling(value) {
+	const hit = BRITISH_RE.exec(value);
+	if (!hit) return null;
+	const word = hit[0];
+	for (const [british, american] of AMERICAN_SPELLING) {
+		const stem = british.trim();
+		if (word.toLowerCase().includes(stem)) {
+			return { word, suggestion: word.replace(new RegExp(stem, "i"), american.trim()) };
+		}
+	}
+	return null;
+}
+
 /** Flatten to dotted paths so two catalogs can be compared key by key. */
 function flatten(obj, prefix = "", out = {}) {
 	for (const [k, v] of Object.entries(obj)) {
@@ -267,6 +334,18 @@ if (import.meta.url === pathToFileURL(process.argv[1]).href) {
 				problems.push(
 					`${SOURCE}/${ns}: ${key} contains an em dash. Use a colon, semicolon or full stop, ` +
 						`or "·" when separating two values.`,
+				);
+				errors++;
+			}
+			// American spelling in the source. `en-GB` is the deliberate home for the British forms,
+			// and it can only do that job if the source it overrides is consistently American.
+			// Checked in the SOURCE loop only — every target locale, en-GB included, is exempt.
+			const british = britishSpelling(value);
+			if (british) {
+				problems.push(
+					`${SOURCE}/${ns}: ${key} uses the British spelling "${british.word}". The source ` +
+						`catalog is en-US, so write "${british.suggestion}" and put the British form in ` +
+						`locales/en-GB/${ns} if it is worth overriding.`,
 				);
 				errors++;
 			}

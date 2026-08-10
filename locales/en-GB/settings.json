@@ -1,4 +1,10 @@
 {
+	"appearance": {
+		"accentColour": "Accent colour",
+		"customAccentAria": "Custom accent colour",
+		"customColour": "Custom colour",
+		"customColourHint": "Pick any colour - buttons, highlights and the background tint follow it."
+	},
 	"downloads": {
 		"serverNote": "Music libraries themselves are added and organised on your Chordia library server, not here. Saving downloads to a custom folder (with your own path + organisation layout) is coming to the desktop app."
 	},

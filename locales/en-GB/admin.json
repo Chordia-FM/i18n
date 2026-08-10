@@ -1,4 +1,9 @@
 {
+	"system": {
+		"jobStatus": {
+			"cancelled": "Cancelled"
+		}
+	},
 	"editCatalog": {
 		"title": "Edit catalogue metadata"
 	},

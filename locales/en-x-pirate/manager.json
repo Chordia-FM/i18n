@@ -78,7 +78,6 @@
 		"retry": "Fire again",
 		"selectFailed": "Couldn't pin that source. Th' job may have moved on; refresh an' pick again.",
 		"status": {
-			"cancelled": "Belayed",
 			"claimed": "Startin'",
 			"completed": "Safe in th' hold",
 			"downloading": "Plunderin'",

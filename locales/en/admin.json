@@ -214,7 +214,7 @@
 		"sizeDesc": "Size ▼",
 		"jobStatus": {
 			"awaiting_selection": "Needs a choice",
-			"cancelled": "Cancelled",
+			"cancelled": "Canceled",
 			"claimed": "Claimed",
 			"completed": "Completed",
 			"downloading": "Downloading",
