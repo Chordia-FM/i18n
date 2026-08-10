@@ -1,20 +1,4 @@
 {
-	"station": {
-		"albumRadio": "",
-		"artistRadio": "",
-		"empty": "",
-		"genreRadio": "",
-		"kindAlbum": "",
-		"kindArtist": "",
-		"kindGenre": "",
-		"kindPlaylist": "",
-		"kindTrack": "",
-		"mix": "",
-		"playlistRadio": "",
-		"start": "",
-		"startFrom": "",
-		"trackRadio": ""
-	},
 	"dailyMix": {
 		"label": "Mix du jour"
 	},
@@ -90,9 +74,25 @@
 		"activeDays": "Jours actifs",
 		"cta": "",
 		"plays": "Écoutes",
+		"rotationCta": "",
+		"rotationTitle": "",
 		"streak": "",
-		"title": "",
-		"wrappedCta": "",
-		"wrappedTitle": ""
+		"title": ""
+	},
+	"station": {
+		"albumRadio": "",
+		"artistRadio": "",
+		"empty": "",
+		"genreRadio": "",
+		"kindAlbum": "",
+		"kindArtist": "",
+		"kindGenre": "",
+		"kindPlaylist": "",
+		"kindTrack": "",
+		"mix": "",
+		"playlistRadio": "",
+		"start": "",
+		"startFrom": "",
+		"trackRadio": ""
 	}
 }
