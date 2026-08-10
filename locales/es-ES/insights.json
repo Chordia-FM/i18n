@@ -304,6 +304,28 @@
 		"today": "hoy",
 		"yesterday": "ayer"
 	},
+	"rotation": {
+		"downloaded": "",
+		"failed": "No se pudo crear la tarjeta. Inténtalo de nuevo.",
+		"heading": "",
+		"minutesListened": "minutos escuchados",
+		"periodTitle": {
+			"halfYear": "Tus últimos 6 meses en música",
+			"month": "Tu mes en música",
+			"overall": "Tus estadísticas de siempre",
+			"quarter": "Tus últimos 3 meses en música",
+			"week": "Tu semana en música",
+			"year": "Tu año en música"
+		},
+		"shareButton": "Compartir",
+		"shared": "",
+		"sharedFallback": "",
+		"sharing": "Compartiendo…",
+		"statLine": "{artists, number} artistas · {tracks, number} pistas",
+		"topArtists": "Artistas principales",
+		"topGenre": "Género principal",
+		"topTracks": "Pistas principales"
+	},
 	"shareGrid": {
 		"album": {
 			"ariaLabel": "Cuadrícula con las portadas de los álbumes que más has escuchado en este periodo",
@@ -378,27 +400,5 @@
 		"thu": "Jue",
 		"tue": "Mar",
 		"wed": "Mié"
-	},
-	"wrapped": {
-		"downloaded": "Se guardó tu tarjeta de Wrapped.",
-		"failed": "No se pudo crear la tarjeta. Inténtalo de nuevo.",
-		"heading": "",
-		"minutesListened": "minutos escuchados",
-		"periodTitle": {
-			"halfYear": "Tus últimos 6 meses en música",
-			"month": "Tu mes en música",
-			"overall": "Tus estadísticas de siempre",
-			"quarter": "Tus últimos 3 meses en música",
-			"week": "Tu semana en música",
-			"year": "Tu año en música"
-		},
-		"shareButton": "Compartir",
-		"shared": "Se compartió tu tarjeta de Wrapped.",
-		"sharedFallback": "",
-		"sharing": "Compartiendo…",
-		"statLine": "{artists, number} artistas · {tracks, number} pistas",
-		"topArtists": "Artistas principales",
-		"topGenre": "Género principal",
-		"topTracks": "Pistas principales"
 	}
 }
