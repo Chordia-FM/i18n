@@ -26,11 +26,11 @@
 		"verified": ""
 	},
 	"appearance": {
-		"accentColour": "Couleur d'accentuation",
+		"accentColour": "",
 		"accentHexAria": "Code hexadécimal de l'accentuation",
-		"customAccentAria": "Couleur d'accentuation personnalisée",
-		"customColour": "Couleur personnalisée",
-		"customColourHint": "Choisissez n'importe quelle couleur — les boutons, les surbrillances et la teinte de fond la suivent.",
+		"customAccentAria": "",
+		"customColour": "",
+		"customColourHint": "",
 		"title": "Apparence",
 		"accents": {
 			"crimson": "",
