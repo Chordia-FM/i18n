@@ -105,7 +105,7 @@
 		"selectFailed": "",
 		"status": {
 			"awaiting_selection": "ソースを選択してください",
-			"cancelled": "キャンセル済み",
+			"cancelled": "",
 			"claimed": "開始中",
 			"completed": "完了",
 			"downloading": "ダウンロード中",
