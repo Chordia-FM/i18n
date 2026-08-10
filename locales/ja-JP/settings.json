@@ -192,7 +192,7 @@
 			"desc": ""
 		},
 		"scrobble": {
-			"desc": "統計とWrappedのために再生を記録します。",
+			"desc": "",
 			"label": "再生をスクロブル"
 		},
 		"title": "プライバシー",
