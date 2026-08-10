@@ -304,6 +304,28 @@
 		"today": "heute",
 		"yesterday": "gestern"
 	},
+	"rotation": {
+		"downloaded": "",
+		"failed": "Die Karte konnte nicht erstellt werden. Bitte versuchen Sie es erneut.",
+		"heading": "",
+		"minutesListened": "Minuten gehört",
+		"periodTitle": {
+			"halfYear": "Ihre letzten 6 Monate in Musik",
+			"month": "Ihr Monat in Musik",
+			"overall": "Ihre Statistiken aller Zeiten",
+			"quarter": "Ihre letzten 3 Monate in Musik",
+			"week": "Ihre Woche in Musik",
+			"year": "Ihr Jahr in Musik"
+		},
+		"shareButton": "Teilen",
+		"shared": "",
+		"sharedFallback": "",
+		"sharing": "Wird geteilt…",
+		"statLine": "{artists, number} Künstler · {tracks, number} Titel",
+		"topArtists": "Top-Künstler",
+		"topGenre": "Top-Genre",
+		"topTracks": "Top-Titel"
+	},
 	"shareGrid": {
 		"album": {
 			"ariaLabel": "Raster Ihrer meistgehörten Albumcover für diesen Zeitraum",
@@ -378,27 +400,5 @@
 		"thu": "Do",
 		"tue": "Di",
 		"wed": "Mi"
-	},
-	"wrapped": {
-		"downloaded": "Ihre Wrapped-Karte wurde gespeichert.",
-		"failed": "Die Karte konnte nicht erstellt werden. Bitte versuchen Sie es erneut.",
-		"heading": "",
-		"minutesListened": "Minuten gehört",
-		"periodTitle": {
-			"halfYear": "Ihre letzten 6 Monate in Musik",
-			"month": "Ihr Monat in Musik",
-			"overall": "Ihre Statistiken aller Zeiten",
-			"quarter": "Ihre letzten 3 Monate in Musik",
-			"week": "Ihre Woche in Musik",
-			"year": "Ihr Jahr in Musik"
-		},
-		"shareButton": "Teilen",
-		"shared": "Ihre Wrapped-Karte wurde geteilt.",
-		"sharedFallback": "",
-		"sharing": "Wird geteilt…",
-		"statLine": "{artists, number} Künstler · {tracks, number} Titel",
-		"topArtists": "Top-Künstler",
-		"topGenre": "Top-Genre",
-		"topTracks": "Top-Titel"
 	}
 }
