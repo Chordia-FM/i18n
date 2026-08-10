@@ -192,7 +192,7 @@
 			"desc": ""
 		},
 		"scrobble": {
-			"desc": "Enregistrez ce que vous écoutez pour vos statistiques et votre Wrapped.",
+			"desc": "",
 			"label": "Scrobbler les écoutes"
 		},
 		"title": "Confidentialité",
