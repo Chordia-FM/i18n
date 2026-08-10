@@ -192,7 +192,7 @@
 			"desc": ""
 		},
 		"scrobble": {
-			"desc": "통계와 Wrapped를 위해 재생 기록을 저장합니다.",
+			"desc": "",
 			"label": "감상 기록 스크로블"
 		},
 		"title": "개인정보 보호",
