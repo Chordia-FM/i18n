@@ -214,7 +214,7 @@
 		"sizeDesc": "",
 		"jobStatus": {
 			"awaiting_selection": "",
-			"cancelled": "Cancelado",
+			"cancelled": "",
 			"claimed": "",
 			"completed": "Concluído",
 			"downloading": "Baixando",
