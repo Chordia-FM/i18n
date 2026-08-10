@@ -32,6 +32,7 @@
 		"noDiff": "",
 		"noMatches": "",
 		"searchPlaceholder": "",
+		"copyTargetId": "",
 		"targetId": "",
 		"title": "Registro de auditoria",
 		"toggleDetails": ""
@@ -55,7 +56,8 @@
 		"searchPlaceholder": "",
 		"onDisk": "",
 		"rowCountCapped": "",
-		"copyValue": ""
+		"copyValue": "",
+		"copyRow": ""
 	},
 	"metadata": {
 		"artistSubtitle": "{albumCount, plural, one {# álbum} other {# álbuns}} · {trackCount, plural, one {# faixa} other {# faixas}}",
