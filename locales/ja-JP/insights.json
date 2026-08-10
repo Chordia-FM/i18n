@@ -304,6 +304,28 @@
 		"today": "今日",
 		"yesterday": "昨日"
 	},
+	"rotation": {
+		"downloaded": "",
+		"failed": "カードを作成できませんでした。もう一度お試しください。",
+		"heading": "",
+		"minutesListened": "分間再生",
+		"periodTitle": {
+			"halfYear": "この6か月の音楽",
+			"month": "この1か月の音楽",
+			"overall": "全期間の統計",
+			"quarter": "この3か月の音楽",
+			"week": "この1週間の音楽",
+			"year": "この1年の音楽"
+		},
+		"shareButton": "共有",
+		"shared": "",
+		"sharedFallback": "",
+		"sharing": "共有中…",
+		"statLine": "アーティスト{artists, number}組 · {tracks, number}曲",
+		"topArtists": "トップアーティスト",
+		"topGenre": "トップジャンル",
+		"topTracks": "トップトラック"
+	},
 	"shareGrid": {
 		"album": {
 			"ariaLabel": "この期間に最も再生したアルバムカバーのグリッド",
@@ -378,27 +400,5 @@
 		"thu": "木",
 		"tue": "火",
 		"wed": "水"
-	},
-	"wrapped": {
-		"downloaded": "Wrappedカードを保存しました。",
-		"failed": "カードを作成できませんでした。もう一度お試しください。",
-		"heading": "",
-		"minutesListened": "分間再生",
-		"periodTitle": {
-			"halfYear": "この6か月の音楽",
-			"month": "この1か月の音楽",
-			"overall": "全期間の統計",
-			"quarter": "この3か月の音楽",
-			"week": "この1週間の音楽",
-			"year": "この1年の音楽"
-		},
-		"shareButton": "共有",
-		"shared": "Wrappedカードを共有しました。",
-		"sharedFallback": "",
-		"sharing": "共有中…",
-		"statLine": "アーティスト{artists, number}組 · {tracks, number}曲",
-		"topArtists": "トップアーティスト",
-		"topGenre": "トップジャンル",
-		"topTracks": "トップトラック"
 	}
 }
