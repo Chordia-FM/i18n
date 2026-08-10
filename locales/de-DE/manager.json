@@ -105,7 +105,7 @@
 		"selectFailed": "",
 		"status": {
 			"awaiting_selection": "Quelle wählen",
-			"cancelled": "Abgebrochen",
+			"cancelled": "",
 			"claimed": "Wird gestartet",
 			"completed": "Abgeschlossen",
 			"downloading": "Wird heruntergeladen",
