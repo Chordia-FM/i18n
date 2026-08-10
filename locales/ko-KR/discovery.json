@@ -1,20 +1,4 @@
 {
-	"station": {
-		"albumRadio": "",
-		"artistRadio": "",
-		"empty": "",
-		"genreRadio": "",
-		"kindAlbum": "",
-		"kindArtist": "",
-		"kindGenre": "",
-		"kindPlaylist": "",
-		"kindTrack": "",
-		"mix": "",
-		"playlistRadio": "",
-		"start": "",
-		"startFrom": "",
-		"trackRadio": ""
-	},
 	"dailyMix": {
 		"label": "데일리 믹스"
 	},
@@ -90,9 +74,25 @@
 		"activeDays": "활동한 날",
 		"cta": "",
 		"plays": "재생 횟수",
+		"rotationCta": "",
+		"rotationTitle": "",
 		"streak": "",
-		"title": "",
-		"wrappedCta": "",
-		"wrappedTitle": ""
+		"title": ""
+	},
+	"station": {
+		"albumRadio": "",
+		"artistRadio": "",
+		"empty": "",
+		"genreRadio": "",
+		"kindAlbum": "",
+		"kindArtist": "",
+		"kindGenre": "",
+		"kindPlaylist": "",
+		"kindTrack": "",
+		"mix": "",
+		"playlistRadio": "",
+		"start": "",
+		"startFrom": "",
+		"trackRadio": ""
 	}
 }
