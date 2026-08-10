@@ -26,11 +26,11 @@
 		"verified": ""
 	},
 	"appearance": {
-		"accentColour": "Cor de destaque",
+		"accentColour": "",
 		"accentHexAria": "Hex da cor de destaque",
-		"customAccentAria": "Cor de destaque personalizada",
-		"customColour": "Cor personalizada",
-		"customColourHint": "Escolha qualquer cor — botões, destaques e o tom do fundo acompanham.",
+		"customAccentAria": "",
+		"customColour": "",
+		"customColourHint": "",
 		"title": "Aparência",
 		"accents": {
 			"crimson": "",
