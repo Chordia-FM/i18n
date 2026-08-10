@@ -26,11 +26,11 @@
 		"verified": ""
 	},
 	"appearance": {
-		"accentColour": "강조 색상",
+		"accentColour": "",
 		"accentHexAria": "강조 색상 16진값",
-		"customAccentAria": "사용자 지정 강조 색상",
-		"customColour": "사용자 지정 색상",
-		"customColourHint": "원하는 색을 고르세요 - 버튼, 강조 표시, 배경 색조가 함께 바뀝니다.",
+		"customAccentAria": "",
+		"customColour": "",
+		"customColourHint": "",
 		"title": "화면",
 		"accents": {
 			"crimson": "",
