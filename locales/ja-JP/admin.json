@@ -214,7 +214,7 @@
 		"sizeDesc": "",
 		"jobStatus": {
 			"awaiting_selection": "",
-			"cancelled": "キャンセル済み",
+			"cancelled": "",
 			"claimed": "",
 			"completed": "完了",
 			"downloading": "ダウンロード中",
