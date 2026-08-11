@@ -115,6 +115,7 @@
 	},
 	"noFields": "Keine Felder zum Aktualisieren.",
 	"oauth": {
+		"missingChallenge": "",
 		"missingCode": "Fehlender Autorisierungscode."
 	},
 	"pins": {
