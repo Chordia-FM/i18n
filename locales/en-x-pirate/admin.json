@@ -101,9 +101,9 @@
 	"backups": {
 		"description": "Archives written by th' nightly backup, an' th' erasure ledger that stops a restore bringin' deleted accounts back.",
 		"loadFailed": "Couldn't read th' backups directory",
-		"lookingIn": "Readin' {directory}",
+		"lookingIn": "Archives on this server, in {directory}. Copies in object storage be separate an' be not listed here, so deletin' one thar leaves this list unchanged.",
 		"unconfigured": "No backups directory be configured, so thar be nothin' t' list. Set CHORDIA_BACKUPS_DIR an' mount it read-only.",
-		"none": "No archives here yet. Th' nightly backup writes one at 2:27 AM.",
+		"none": "No archives on this server yet. Th' nightly backup writes one at 2:27 AM an' keeps 30 days o' 'em here.",
 		"plaintextHint": "This archive holds every watchword hash an' TOTP secret on th' instance in th' clear. Set AGE_RECIPIENT in backup.sh.",
 		"ledgerOn": "Erasure ledger be mirrored t' {object}",
 		"ledgerOff": "Erasure ledger be NOT mirrored. Restorin' will bring back every account deleted since th' archive were taken.",
