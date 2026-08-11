@@ -3,6 +3,15 @@
 		"emailChangeFailed": "Die E-Mail-Änderung konnte nicht gestartet werden."
 	},
 	"admin": {
+		"backupKeyInvalid": "",
+		"backupKeyRequired": "",
+		"backupKeyWrong": "",
+		"backupMissing": "",
+		"backupName": "",
+		"backupNoDump": "",
+		"backupTruncated": "",
+		"backupUnreadable": "",
+		"backupsUnconfigured": "",
 		"deleteSelf": "Verwenden Sie die Kontoeinstellungen, um Ihr eigenes Konto zu löschen.",
 		"invalidReportAction": "Die Aktion muss „resolved“ oder „dismissed“ sein."
 	},
