@@ -115,6 +115,7 @@
 	},
 	"noFields": "",
 	"oauth": {
+		"missingChallenge": "",
 		"missingCode": ""
 	},
 	"pins": {
