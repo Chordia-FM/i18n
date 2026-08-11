@@ -115,6 +115,7 @@
 	},
 	"noFields": "更新する項目がありません。",
 	"oauth": {
+		"missingChallenge": "",
 		"missingCode": "認可コードがありません。"
 	},
 	"pins": {
