@@ -3,6 +3,15 @@
 		"emailChangeFailed": ""
 	},
 	"admin": {
+		"backupKeyInvalid": "",
+		"backupKeyRequired": "",
+		"backupKeyWrong": "",
+		"backupMissing": "",
+		"backupName": "",
+		"backupNoDump": "",
+		"backupTruncated": "",
+		"backupUnreadable": "",
+		"backupsUnconfigured": "",
 		"deleteSelf": "",
 		"invalidReportAction": ""
 	},
