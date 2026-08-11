@@ -3,6 +3,15 @@
 		"emailChangeFailed": "이메일 변경을 시작하지 못했습니다."
 	},
 	"admin": {
+		"backupKeyInvalid": "",
+		"backupKeyRequired": "",
+		"backupKeyWrong": "",
+		"backupMissing": "",
+		"backupName": "",
+		"backupNoDump": "",
+		"backupTruncated": "",
+		"backupUnreadable": "",
+		"backupsUnconfigured": "",
 		"deleteSelf": "본인 계정은 계정 설정에서 삭제하세요.",
 		"invalidReportAction": "작업은 “resolved” 또는 “dismissed”여야 합니다."
 	},
