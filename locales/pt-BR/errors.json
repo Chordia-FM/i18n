@@ -3,6 +3,15 @@
 		"emailChangeFailed": "Não foi possível iniciar a alteração do e-mail."
 	},
 	"admin": {
+		"backupKeyInvalid": "",
+		"backupKeyRequired": "",
+		"backupKeyWrong": "",
+		"backupMissing": "",
+		"backupName": "",
+		"backupNoDump": "",
+		"backupTruncated": "",
+		"backupUnreadable": "",
+		"backupsUnconfigured": "",
 		"deleteSelf": "Use as configurações da conta para excluir sua própria conta.",
 		"invalidReportAction": "A ação deve ser “resolvida” ou “rejeitada”."
 	},
