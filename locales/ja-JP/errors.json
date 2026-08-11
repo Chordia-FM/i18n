@@ -3,6 +3,15 @@
 		"emailChangeFailed": "メールアドレスの変更を開始できませんでした。"
 	},
 	"admin": {
+		"backupKeyInvalid": "",
+		"backupKeyRequired": "",
+		"backupKeyWrong": "",
+		"backupMissing": "",
+		"backupName": "",
+		"backupNoDump": "",
+		"backupTruncated": "",
+		"backupUnreadable": "",
+		"backupsUnconfigured": "",
 		"deleteSelf": "自分のアカウントの削除にはアカウント設定を使用してください。",
 		"invalidReportAction": "操作は「resolved」または「dismissed」である必要があります。"
 	},
