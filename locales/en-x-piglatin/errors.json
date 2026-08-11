@@ -115,6 +115,7 @@
 	},
 	"noFields": "Onay ieldsfay otay updateway.",
 	"oauth": {
+		"missingChallenge": "Issingmay orway alformedmay esktopday allengechay.",
 		"missingCode": "Issingmay authorizationway odecay."
 	},
 	"pins": {

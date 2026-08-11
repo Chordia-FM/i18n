@@ -88,6 +88,7 @@
 	},
 	"noFields": "No fields t' update.",
 	"oauth": {
+		"missingChallenge": "Missin' or malformed desktop challenge.",
 		"missingCode": "Missin' authorization code."
 	},
 	"playlist": {

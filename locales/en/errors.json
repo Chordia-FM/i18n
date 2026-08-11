@@ -115,6 +115,7 @@
 	},
 	"noFields": "No fields to update.",
 	"oauth": {
+		"missingChallenge": "Missing or malformed desktop challenge.",
 		"missingCode": "Missing authorization code."
 	},
 	"pins": {
