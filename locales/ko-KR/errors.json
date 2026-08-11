@@ -115,6 +115,7 @@
 	},
 	"noFields": "업데이트할 항목이 없습니다.",
 	"oauth": {
+		"missingChallenge": "",
 		"missingCode": "인증 코드가 누락되었습니다."
 	},
 	"pins": {
