@@ -3,6 +3,15 @@
 		"emailChangeFailed": "Ouldcay otnay artstay emailway angechay."
 	},
 	"admin": {
+		"backupKeyInvalid": "Atthay oesnday't ooklay ikelay anway ageway ivatepray eykay. Itway artsstay ithway AGE-SECRET-KEY-1.",
+		"backupKeyRequired": "Isthay archiveway isway encryptedway. Astepay ethay ivatepray eykay otay eadray itway.",
+		"backupKeyWrong": "Atthay eykay ancay't openway isthay archiveway. Itway asway encryptedway otay away ifferentday ecipientray.",
+		"backupMissing": "Atthay archiveway isway onay ongerlay inway ethay ackupsbay irectoryday.",
+		"backupName": "Atthay isnway't ethay amenay ofway anway archiveway inway ethay ackupsbay irectoryday.",
+		"backupNoDump": "Ethay archiveway openedway utbay oldshay onay atabaseday umpday.",
+		"backupTruncated": "Atthay archiveway isway incompleteway, osay itway asway otnay estoredray. Ethay atabaseday isway untouchedway.",
+		"backupUnreadable": "Ethay archiveway ouldcay otnay ebay eadray. Itway aymay ebay orruptcay.",
+		"backupsUnconfigured": "Onay ackupsbay irectoryday isway onfiguredcay onway isthay erversay.",
 		"deleteSelf": "Useway accountway ettingssay otay eleteday ouryay ownway accountway.",
 		"invalidReportAction": "Actionway ustmay ebay “esolvedray” orway “ismissedday”."
 	},

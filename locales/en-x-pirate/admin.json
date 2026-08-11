@@ -98,6 +98,27 @@
 	"tabs": {
 		"users": "Crew"
 	},
+	"backups": {
+		"description": "Archives written by th' nightly backup, an' th' erasure ledger that stops a restore bringin' deleted accounts back.",
+		"loadFailed": "Couldn't read th' backups directory",
+		"lookingIn": "Readin' {directory}",
+		"unconfigured": "No backups directory be configured, so thar be nothin' t' list. Set CHORDIA_BACKUPS_DIR an' mount it read-only.",
+		"none": "No archives here yet. Th' nightly backup writes one at 2:27 AM.",
+		"plaintextHint": "This archive holds every watchword hash an' TOTP secret on th' instance in th' clear. Set AGE_RECIPIENT in backup.sh.",
+		"ledgerOn": "Erasure ledger be mirrored t' {object}",
+		"ledgerOff": "Erasure ledger be NOT mirrored. Restorin' will bring back every account deleted since th' archive were taken.",
+		"keyHint": "Used fer this request only. It be ne'er stored, logged, or written t' disk.",
+		"verifying": "Checkin'…",
+		"intact": "Archive be complete",
+		"truncated": "Archive be incomplete an' cannot be restored",
+		"sqlSize": "{size} o' SQL",
+		"replayNote": "They be erased again automatically after th' restore. Th' number be shown so it be a decision rather than a surprise.",
+		"restoring": "Restorin'…",
+		"confirmBody": "This replaces th' entire database wi' th' contents o' this archive. Everythin' since it were taken be lost. A safety copy be written first.",
+		"confirmPrompt": "Type th' archive name t' confirm",
+		"restored": "Restored. {count, plural, one {# account were erased again} other {# accounts were erased again}}.",
+		"safetyDump": "Safety copy written t' {path}"
+	},
 	"userDetail": {
 		"activeDays": "{count, plural, one {# day wi' listenin''} other {# days wi' listenin''}}",
 		"back": "All crew",

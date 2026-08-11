@@ -3,6 +3,15 @@
 		"emailChangeFailed": "Could not start email change."
 	},
 	"admin": {
+		"backupKeyInvalid": "That doesn't look like an age private key. It starts with AGE-SECRET-KEY-1.",
+		"backupKeyRequired": "This archive is encrypted. Paste the private key to read it.",
+		"backupKeyWrong": "That key can't open this archive. It was encrypted to a different recipient.",
+		"backupMissing": "That archive is no longer in the backups directory.",
+		"backupName": "That isn't the name of an archive in the backups directory.",
+		"backupNoDump": "The archive opened but holds no database dump.",
+		"backupTruncated": "That archive is incomplete, so it was not restored. The database is untouched.",
+		"backupUnreadable": "The archive could not be read. It may be corrupt.",
+		"backupsUnconfigured": "No backups directory is configured on this server.",
 		"deleteSelf": "Use account settings to delete your own account.",
 		"invalidReportAction": "Action must be “resolved” or “dismissed”."
 	},
