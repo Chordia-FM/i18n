@@ -3,6 +3,15 @@
 		"emailChangeFailed": "Impossible de démarrer le changement d'adresse e-mail."
 	},
 	"admin": {
+		"backupKeyInvalid": "",
+		"backupKeyRequired": "",
+		"backupKeyWrong": "",
+		"backupMissing": "",
+		"backupName": "",
+		"backupNoDump": "",
+		"backupTruncated": "",
+		"backupUnreadable": "",
+		"backupsUnconfigured": "",
 		"deleteSelf": "Utilisez les paramètres du compte pour supprimer votre propre compte.",
 		"invalidReportAction": "L'action doit être « resolved » ou « dismissed »."
 	},
