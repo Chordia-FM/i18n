@@ -115,6 +115,7 @@
 	},
 	"noFields": "Aucun champ à mettre à jour.",
 	"oauth": {
+		"missingChallenge": "",
 		"missingCode": "Code d'autorisation manquant."
 	},
 	"pins": {
