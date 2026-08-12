@@ -4,6 +4,7 @@
 		"playTrack": "Ayplay {title}"
 	},
 	"actions": {
+		"add": "Addway",
 		"cancel": "Ancelcay",
 		"changeImage": "Angechay imageway",
 		"clearAll": "Earclay allway",
@@ -152,6 +153,7 @@
 		"on": "Onway"
 	},
 	"states": {
+		"checking": "Eckingchay…",
 		"loading": "Oadinglay…",
 		"off": "Offway",
 		"saving": "Avingsay…",

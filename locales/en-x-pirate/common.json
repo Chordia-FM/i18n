@@ -71,6 +71,7 @@
 		"loading": "Heave ho…"
 	},
 	"states": {
+		"checking": "Checkin'…",
 		"loading": "Heave ho…",
 		"saving": "Stowin'…",
 		"verifying": "Verifyin'…"

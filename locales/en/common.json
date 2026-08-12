@@ -4,6 +4,7 @@
 		"playTrack": "Play {title}"
 	},
 	"actions": {
+		"add": "Add",
 		"cancel": "Cancel",
 		"changeImage": "Change image",
 		"clearAll": "Clear all",
@@ -154,6 +155,7 @@
 		"on": "On"
 	},
 	"states": {
+		"checking": "Checking…",
 		"loading": "Loading…",
 		"off": "Off",
 		"saving": "Saving…",
