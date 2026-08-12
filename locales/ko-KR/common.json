@@ -4,6 +4,7 @@
 		"playTrack": "{title} 재생"
 	},
 	"actions": {
+		"add": "",
 		"cancel": "취소",
 		"changeImage": "이미지 변경",
 		"clearAll": "모두 지우기",
@@ -154,6 +155,7 @@
 		"on": "켜짐"
 	},
 	"states": {
+		"checking": "",
 		"loading": "불러오는 중…",
 		"off": "꺼짐",
 		"saving": "저장 중…",
