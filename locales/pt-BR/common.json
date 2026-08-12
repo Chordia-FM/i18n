@@ -4,6 +4,7 @@
 		"playTrack": "Reproduzir {title}"
 	},
 	"actions": {
+		"add": "",
 		"cancel": "Cancelar",
 		"changeImage": "Alterar imagem",
 		"clearAll": "Limpar tudo",
@@ -154,6 +155,7 @@
 		"on": "Ativado"
 	},
 	"states": {
+		"checking": "",
 		"loading": "Carregando…",
 		"off": "Desativado",
 		"saving": "Salvando…",
