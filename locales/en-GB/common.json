@@ -4,6 +4,7 @@
 		"playTrack": ""
 	},
 	"actions": {
+		"add": "",
 		"cancel": "",
 		"changeImage": "",
 		"clearAll": "",
@@ -154,6 +155,7 @@
 		"on": ""
 	},
 	"states": {
+		"checking": "",
 		"loading": "",
 		"off": "",
 		"saving": "",
