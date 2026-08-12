@@ -4,6 +4,7 @@
 		"playTrack": "Lire {title}"
 	},
 	"actions": {
+		"add": "",
 		"cancel": "Annuler",
 		"changeImage": "Changer l'image",
 		"clearAll": "Tout effacer",
@@ -154,6 +155,7 @@
 		"on": "Activé"
 	},
 	"states": {
+		"checking": "",
 		"loading": "Chargement…",
 		"off": "Désactivé",
 		"saving": "Enregistrement…",
