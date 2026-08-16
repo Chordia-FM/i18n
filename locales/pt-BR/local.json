@@ -1,0 +1,12 @@
+{
+	"empty": "",
+	"folders": {
+		"add": "Adicionar pasta",
+		"remove": "Remover",
+		"removeConfirm": "",
+		"trackCount": "{count, plural, one {# faixa} other {# faixas}}"
+	},
+	"intro": "",
+	"title": "Este dispositivo",
+	"unavailable": ""
+}
