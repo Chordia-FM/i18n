@@ -6,7 +6,10 @@
 		"removeConfirm": "",
 		"trackCount": "{count, plural, one {# morceau} other {# morceaux}}"
 	},
+	"hubEntry": "",
 	"intro": "",
+	"leave": "",
+	"leaveHint": "",
 	"title": "Cet appareil",
 	"unavailable": ""
 }
