@@ -6,7 +6,10 @@
 		"removeConfirm": "",
 		"trackCount": "{count, plural, one {# pista} other {# pistas}}"
 	},
+	"hubEntry": "",
 	"intro": "",
+	"leave": "",
+	"leaveHint": "",
 	"title": "Este dispositivo",
 	"unavailable": ""
 }
