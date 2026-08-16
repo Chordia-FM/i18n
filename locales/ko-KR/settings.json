@@ -73,13 +73,18 @@
 		"title": "내 데이터"
 	},
 	"desktop": {
-		"title": "",
 		"close": {
 			"title": "",
 			"desc": "",
 			"tray": "",
 			"quit": ""
-		}
+		},
+		"presence": {
+			"title": "",
+			"label": "",
+			"desc": ""
+		},
+		"title": ""
 	},
 	"downloads": {
 		"browserStorageName": "이 기기(브라우저 저장소)",
