@@ -33,17 +33,18 @@
 		"customColourHint": "Ickpay anyway olorcay - uttonsbay, ighlightshay andway ethay ackgroundbay inttay ollowfay itway.",
 		"title": "Appearanceway",
 		"accents": {
-			"crimson": "Imsoncray",
-			"ember": "Emberway",
 			"amber": "Amberway",
-			"lime": "Imelay",
-			"green": "Eengray",
-			"teal": "Ealtay",
 			"blue": "Ueblay",
+			"crimson": "Imsoncray",
+			"default": "Atchmay isthay itesay",
+			"ember": "Emberway",
+			"green": "Eengray",
 			"indigo": "Indigoway",
-			"purple": "Urplepay",
+			"lime": "Imelay",
 			"magenta": "Agentamay",
-			"pink": "Inkpay"
+			"pink": "Inkpay",
+			"purple": "Urplepay",
+			"teal": "Ealtay"
 		}
 	},
 	"connections": {

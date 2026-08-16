@@ -33,17 +33,18 @@
 		"customColourHint": "Pick any color - buttons, highlights and the background tint follow it.",
 		"title": "Appearance",
 		"accents": {
-			"crimson": "Crimson",
-			"ember": "Ember",
 			"amber": "Amber",
-			"lime": "Lime",
-			"green": "Green",
-			"teal": "Teal",
 			"blue": "Blue",
+			"crimson": "Crimson",
+			"default": "Match this site",
+			"ember": "Ember",
+			"green": "Green",
 			"indigo": "Indigo",
-			"purple": "Purple",
+			"lime": "Lime",
 			"magenta": "Magenta",
-			"pink": "Pink"
+			"pink": "Pink",
+			"purple": "Purple",
+			"teal": "Teal"
 		}
 	},
 	"connections": {

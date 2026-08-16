@@ -76,16 +76,16 @@
 		"titleWithCount": "{count, plural, one {Metadata suggestions (# pendin')} other {Metadata suggestions (# pendin')}}"
 	},
 	"system": {
+		"accent": {
+			"title": "Colours of the ship",
+			"desc": "The hue every soul sees who has not run up their own, landlubbers included. It shifts nobody who has chosen a colour in Appearance.",
+			"clear": "Fly the standard colours",
+			"set": "Presently {accent}.",
+			"unset": "Unset, so the ship's own {accent} flies."
+		},
 		"artistsMissingArt": "Artists wi' no image",
 		"artistsNeverEnriched": "Artists ne'er enriched",
 		"downloadQueue": "Plunder muster",
-		"keepingUp": "Keepin' up",
-		"queue": "Plunder jobs",
-		"queueEmpty": "Nothin' queued.",
-		"tracksMissingIsrcs": "Ditties wi' no ISRCs",
-		"tracksMissingLyrics": "Ditties wi' no lyrics",
-		"tracksMissingRecording": "Ditties wi' no recordin' id",
-		"rollupLagHelp": "How far th' background aggregator be behind th' newest listen. Zero means it has caught up wi' everythin' recorded.",
 		"jobStatus": {
 			"completed": "Safe in th' hold",
 			"downloading": "Plunderin'",
@@ -93,7 +93,14 @@
 			"grabbing": "Grabbin'",
 			"importing": "Importin'",
 			"searching": "Huntin'"
-		}
+		},
+		"keepingUp": "Keepin' up",
+		"queue": "Plunder jobs",
+		"queueEmpty": "Nothin' queued.",
+		"rollupLagHelp": "How far th' background aggregator be behind th' newest listen. Zero means it has caught up wi' everythin' recorded.",
+		"tracksMissingIsrcs": "Ditties wi' no ISRCs",
+		"tracksMissingLyrics": "Ditties wi' no lyrics",
+		"tracksMissingRecording": "Ditties wi' no recordin' id"
 	},
 	"tabs": {
 		"users": "Crew"

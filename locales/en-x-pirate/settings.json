@@ -10,7 +10,10 @@
 		"verificationSent": "Sent, check yer inbox"
 	},
 	"appearance": {
-		"customColourHint": "Pick any color - buttons, highlights an' th' background tint follow it."
+		"customColourHint": "Pick any color - buttons, highlights an' th' background tint follow it.",
+		"accents": {
+			"default": "Match this here ship"
+		}
 	},
 	"connections": {
 		"lastfm": {
