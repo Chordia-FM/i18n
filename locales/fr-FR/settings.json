@@ -72,6 +72,15 @@
 		"exportMyData": "Exporter mes données",
 		"title": "Vos données"
 	},
+	"desktop": {
+		"title": "",
+		"close": {
+			"title": "",
+			"desc": "",
+			"tray": "",
+			"quit": ""
+		}
+	},
 	"downloads": {
 		"browserStorageName": "Cet appareil (stockage du navigateur)",
 		"bytes": "{bytes} o / {kb} Ko / {mb} Mo / {gb} Go",
