@@ -6,7 +6,10 @@
 		"removeConfirm": "",
 		"trackCount": ""
 	},
+	"hubEntry": "",
 	"intro": "",
+	"leave": "",
+	"leaveHint": "",
 	"title": "",
 	"unavailable": ""
 }
