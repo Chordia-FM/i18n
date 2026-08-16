@@ -72,13 +72,18 @@
 		"title": "Ouryay ataday"
 	},
 	"desktop": {
-		"title": "Esktopday",
 		"close": {
 			"title": "Enwhay ouyay oseclay ethay indowway",
 			"desc": "Ordiachay ancay eepkay ayingplay inway ethay ackgroundbay. Osingclay uitsqay insteadway ifway ouryay esktopday ashay onay aytray.",
 			"tray": "Eepkay ayingplay",
 			"quit": "Uitqay"
-		}
+		},
+		"presence": {
+			"title": "Iscordday",
+			"label": "Owshay atwhay I'mway isteninglay otay",
+			"desc": "Utspay ethay urrentcay acktray onway ouryay Iscordday ofilepray. Eedsnay Iscordday unningray onway isthay omputercay. Offway unlessway ouyay urntay itway onway."
+		},
+		"title": "Esktopday"
 	},
 	"downloads": {
 		"browserStorageName": "Isthay eviceday (owserbray oragestay)",

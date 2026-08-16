@@ -31,13 +31,18 @@
 		"title": "Yer data"
 	},
 	"desktop": {
-		"title": "Cap'n's Deck",
 		"close": {
 			"title": "When ye shut the porthole",
 			"desc": "Chordia can keep singin' below decks. She scuttles instead if yer desktop flies no tray.",
 			"tray": "Keep singin'",
 			"quit": "Scuttle her"
-		}
+		},
+		"presence": {
+			"title": "Discord",
+			"label": "Cry me shanty to the fleet",
+			"desc": "Hoists the current shanty on yer Discord colours. Needs Discord afloat on this here machine. Silent unless ye raise it."
+		},
+		"title": "Cap'n's Deck"
 	},
 	"downloads": {
 		"serverNote": "Shanties hoards themselves be added an' organized on yer Chordia hoard server, not here. Stowin' booty t' a custom folder (wi' yer own path + organization layout) be comin' t' th' desktop app.",

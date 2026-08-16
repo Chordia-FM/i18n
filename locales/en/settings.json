@@ -73,13 +73,18 @@
 		"title": "Your data"
 	},
 	"desktop": {
-		"title": "Desktop",
 		"close": {
 			"title": "When you close the window",
 			"desc": "Chordia can keep playing in the background. Closing quits instead if your desktop has no tray.",
 			"tray": "Keep playing",
 			"quit": "Quit"
-		}
+		},
+		"presence": {
+			"title": "Discord",
+			"label": "Show what I'm listening to",
+			"desc": "Puts the current track on your Discord profile. Needs Discord running on this computer. Off unless you turn it on."
+		},
+		"title": "Desktop"
 	},
 	"downloads": {
 		"browserStorageName": "This device (browser storage)",
