@@ -72,6 +72,15 @@
 		"exportMyData": "データをエクスポート",
 		"title": "あなたのデータ"
 	},
+	"desktop": {
+		"title": "",
+		"close": {
+			"title": "",
+			"desc": "",
+			"tray": "",
+			"quit": ""
+		}
+	},
 	"downloads": {
 		"browserStorageName": "このデバイス（ブラウザストレージ）",
 		"bytes": "",
