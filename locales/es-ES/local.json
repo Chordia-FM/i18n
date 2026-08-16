@@ -1,0 +1,12 @@
+{
+	"empty": "",
+	"folders": {
+		"add": "Añadir carpeta",
+		"remove": "Quitar",
+		"removeConfirm": "",
+		"trackCount": "{count, plural, one {# pista} other {# pistas}}"
+	},
+	"intro": "",
+	"title": "Este dispositivo",
+	"unavailable": ""
+}
