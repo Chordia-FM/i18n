@@ -85,7 +85,22 @@
 			"label": "Show what I'm listening to",
 			"desc": "Puts the current track on your Discord profile. Needs Discord running on this computer. Off unless you turn it on."
 		},
-		"title": "Desktop"
+		"title": "Desktop",
+		"updates": {
+			"title": "Updates",
+			"label": "Check for new versions",
+			"desc": "Looks for a new version every few hours. Nothing installs until you say so, so it will never interrupt what you're playing.",
+			"check": "Check now",
+			"install": "Restart to update",
+			"checking": "Checking…",
+			"current": "You're on the latest version.",
+			"version": "Version {version}.",
+			"found": "Version {version} is ready to install.",
+			"downloading": "Downloading…",
+			"downloadingPercent": "Downloading… {percent}%",
+			"restarting": "Restarting…",
+			"failed": "Couldn't check for updates. {error}"
+		}
 	},
 	"downloads": {
 		"browserStorageName": "This device (browser storage)",
