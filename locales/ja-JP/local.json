@@ -6,7 +6,10 @@
 		"removeConfirm": "",
 		"trackCount": "{count, plural, other {#曲}}"
 	},
+	"hubEntry": "",
 	"intro": "",
+	"leave": "",
+	"leaveHint": "",
 	"title": "このデバイス",
 	"unavailable": ""
 }
