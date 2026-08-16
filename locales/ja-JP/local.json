@@ -1,0 +1,12 @@
+{
+	"empty": "",
+	"folders": {
+		"add": "フォルダを追加",
+		"remove": "削除",
+		"removeConfirm": "",
+		"trackCount": "{count, plural, other {#曲}}"
+	},
+	"intro": "",
+	"title": "このデバイス",
+	"unavailable": ""
+}
