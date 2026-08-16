@@ -1,0 +1,12 @@
+{
+	"empty": "No folders yet. Add one to start playing music from this computer.",
+	"folders": {
+		"add": "Add folder",
+		"remove": "Remove",
+		"removeConfirm": "Remove {name} from your local library? The files on disk are not touched.",
+		"trackCount": "{count, plural, one {# track} other {# tracks}}"
+	},
+	"intro": "Music stored on this computer. Chordia indexes the folders you choose and plays them straight from disk: no server, no network.",
+	"title": "This device",
+	"unavailable": "The local library could not start. Restart Chordia and try again."
+}

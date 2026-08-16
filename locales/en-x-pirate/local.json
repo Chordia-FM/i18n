@@ -1,0 +1,12 @@
+{
+	"empty": "No holds yet. Add one to start the music from this here machine.",
+	"folders": {
+		"add": "Add a hold",
+		"remove": "Cast off",
+		"removeConfirm": "Cast {name} out of yer local hold? The files on the boards stay put.",
+		"trackCount": "{count, plural, one {# shanty} other {# shanties}}"
+	},
+	"intro": "Shanties stowed on this here machine. Chordia charts the holds ye choose and plays 'em straight off the boards: no port, no sea.",
+	"title": "This here vessel",
+	"unavailable": "The local hold would not open. Weigh anchor and try again."
+}

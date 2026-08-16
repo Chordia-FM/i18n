@@ -1,0 +1,12 @@
+{
+	"empty": "Onay oldersfay etyay. Addway oneway otay artstay ayingplay usicmay omfray isthay omputercay.",
+	"folders": {
+		"add": "Addway olderfay",
+		"remove": "Emoveray",
+		"removeConfirm": "Emoveray {name} omfray ouryay ocallay ibrarylay? Ethay ilesfay onway iskday areway otnay ouchedtay.",
+		"trackCount": "{count, plural, one {# acktray} other {# ackstray}}"
+	},
+	"intro": "Usicmay oredstay onway isthay omputercay. Ordiachay indexesway ethay oldersfay ouyay oosechay andway aysplay emthay aightstray omfray iskday: onay erversay, onay etworknay.",
+	"title": "Isthay eviceday",
+	"unavailable": "Ethay ocallay ibrarylay ouldcay otnay artstay. Estartray Ordiachay andway ytray againway."
+}
