@@ -71,6 +71,15 @@
 		"exportMyData": "Exportway ymay ataday",
 		"title": "Ouryay ataday"
 	},
+	"desktop": {
+		"title": "Esktopday",
+		"close": {
+			"title": "Enwhay ouyay oseclay ethay indowway",
+			"desc": "Ordiachay ancay eepkay ayingplay inway ethay ackgroundbay. Osingclay uitsqay insteadway ifway ouryay esktopday ashay onay aytray.",
+			"tray": "Eepkay ayingplay",
+			"quit": "Uitqay"
+		}
+	},
 	"downloads": {
 		"browserStorageName": "Isthay eviceday (owserbray oragestay)",
 		"serverNote": "Usicmay ibrarieslay emselvesthay areway addedway andway organizedway onway ouryay Chordia ibrarylay erversay, otnay erehay. Avingsay ownloadsday otay away ustomcay olderfay (ithway ouryay ownway athpay + organizationway ayoutlay) isway omingcay otay ethay esktopday appway.",

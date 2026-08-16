@@ -72,6 +72,15 @@
 		"exportMyData": "Export my data",
 		"title": "Your data"
 	},
+	"desktop": {
+		"title": "Desktop",
+		"close": {
+			"title": "When you close the window",
+			"desc": "Chordia can keep playing in the background. Closing quits instead if your desktop has no tray.",
+			"tray": "Keep playing",
+			"quit": "Quit"
+		}
+	},
 	"downloads": {
 		"browserStorageName": "This device (browser storage)",
 		"bytes": "{bytes} B / {kb} KB / {mb} MB / {gb} GB",
