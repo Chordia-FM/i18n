@@ -1,0 +1,12 @@
+{
+	"empty": "",
+	"folders": {
+		"add": "Ajouter un dossier",
+		"remove": "Retirer",
+		"removeConfirm": "",
+		"trackCount": "{count, plural, one {# morceau} other {# morceaux}}"
+	},
+	"intro": "",
+	"title": "Cet appareil",
+	"unavailable": ""
+}
