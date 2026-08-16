@@ -73,13 +73,18 @@
 		"title": "Ihre Daten"
 	},
 	"desktop": {
-		"title": "",
 		"close": {
 			"title": "",
 			"desc": "",
 			"tray": "",
 			"quit": ""
-		}
+		},
+		"presence": {
+			"title": "",
+			"label": "",
+			"desc": ""
+		},
+		"title": ""
 	},
 	"downloads": {
 		"browserStorageName": "Dieses Gerät (Browserspeicher)",
