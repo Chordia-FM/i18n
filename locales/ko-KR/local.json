@@ -1,0 +1,12 @@
+{
+	"empty": "",
+	"folders": {
+		"add": "폴더 추가",
+		"remove": "제거",
+		"removeConfirm": "",
+		"trackCount": "{count, plural, other {트랙 #개}}"
+	},
+	"intro": "",
+	"title": "이 기기",
+	"unavailable": ""
+}
