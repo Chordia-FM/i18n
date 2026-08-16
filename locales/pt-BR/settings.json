@@ -73,13 +73,18 @@
 		"title": "Seus dados"
 	},
 	"desktop": {
-		"title": "",
 		"close": {
 			"title": "",
 			"desc": "",
 			"tray": "",
 			"quit": ""
-		}
+		},
+		"presence": {
+			"title": "",
+			"label": "",
+			"desc": ""
+		},
+		"title": ""
 	},
 	"downloads": {
 		"browserStorageName": "Este dispositivo (armazenamento do navegador)",
