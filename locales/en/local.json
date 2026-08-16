@@ -6,7 +6,10 @@
 		"removeConfirm": "Remove {name} from your local library? The files on disk are not touched.",
 		"trackCount": "{count, plural, one {# track} other {# tracks}}"
 	},
+	"hubEntry": "Local (this device)",
 	"intro": "Music stored on this computer. Chordia indexes the folders you choose and plays them straight from disk: no server, no network.",
+	"leave": "Sign in to a server instead",
+	"leaveHint": "Chordia is running on this computer's files only. Sign in to a server to get your library, friends and history.",
 	"title": "This device",
 	"unavailable": "The local library could not start. Restart Chordia and try again."
 }

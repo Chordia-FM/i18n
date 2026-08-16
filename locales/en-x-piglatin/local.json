@@ -6,7 +6,10 @@
 		"removeConfirm": "Emoveray {name} omfray ouryay ocallay ibrarylay? Ethay ilesfay onway iskday areway otnay ouchedtay.",
 		"trackCount": "{count, plural, one {# acktray} other {# ackstray}}"
 	},
+	"hubEntry": "Ocallay (isthay eviceday)",
 	"intro": "Usicmay oredstay onway isthay omputercay. Ordiachay indexesway ethay oldersfay ouyay oosechay andway aysplay emthay aightstray omfray iskday: onay erversay, onay etworknay.",
+	"leave": "Ignsay inway otay away erversay insteadway",
+	"leaveHint": "Ordiachay isway unningray onway isthay omputercay's ilesfay onlyway. Ignsay inway otay away erversay otay etgay ouryay ibrarylay, iendsfray andway istoryhay.",
 	"title": "Isthay eviceday",
 	"unavailable": "Ethay ocallay ibrarylay ouldcay otnay artstay. Estartray Ordiachay andway ytray againway."
 }
