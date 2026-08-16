@@ -33,17 +33,18 @@
 		"customColourHint": "",
 		"title": "外観",
 		"accents": {
-			"crimson": "",
-			"ember": "",
 			"amber": "",
-			"lime": "",
-			"green": "",
-			"teal": "",
 			"blue": "",
+			"crimson": "",
+			"default": "",
+			"ember": "",
+			"green": "",
 			"indigo": "",
-			"purple": "",
+			"lime": "",
 			"magenta": "",
-			"pink": ""
+			"pink": "",
+			"purple": "",
+			"teal": ""
 		}
 	},
 	"connections": {
