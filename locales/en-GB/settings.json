@@ -72,6 +72,15 @@
 		"exportMyData": "",
 		"title": ""
 	},
+	"desktop": {
+		"title": "",
+		"close": {
+			"title": "",
+			"desc": "",
+			"tray": "",
+			"quit": ""
+		}
+	},
 	"downloads": {
 		"browserStorageName": "",
 		"bytes": "",
