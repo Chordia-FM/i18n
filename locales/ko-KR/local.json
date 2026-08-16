@@ -6,7 +6,10 @@
 		"removeConfirm": "",
 		"trackCount": "{count, plural, other {트랙 #개}}"
 	},
+	"hubEntry": "",
 	"intro": "",
+	"leave": "",
+	"leaveHint": "",
 	"title": "이 기기",
 	"unavailable": ""
 }
