@@ -42,11 +42,9 @@
 		"title": "Now playin'"
 	},
 	"quality": {
-		"hearing": "Ye be hearin'",
 		"reduced": {
 			"adaptive": "Reduced from {selected}. Th' connection can't keep up right now"
 		},
-		"streaming": "Streamin'",
 		"upTo": "Up t' {value}"
 	},
 	"queue": {

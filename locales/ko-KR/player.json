@@ -99,7 +99,6 @@
 		"originalSourceFile": "원본 소스 파일",
 		"source": "소스",
 		"spatial": " · 공간 음향",
-		"streaming": "스트리밍",
 		"title": "파일 품질",
 		"upTo": "최대 {value}"
 	},
