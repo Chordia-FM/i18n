@@ -99,7 +99,6 @@
 		"originalSourceFile": "オリジナルのソースファイル",
 		"source": "ソース",
 		"spatial": " · 空間オーディオ",
-		"streaming": "ストリーミング",
 		"streamingRate": "約{kbps} kbps · {data}",
 		"title": "ファイル品質",
 		"upTo": "最大{value}"

@@ -99,13 +99,13 @@
 		"change": "Change",
 		"dataPerHourGb": "~{value} GB/hour",
 		"dataPerHourMb": "~{value} MB/hour",
-		"hearing": "You're hearing",
 		"khz": "{value} kHz",
 		"lossless": "Lossless",
 		"lossy": "Lossy",
 		"loudness": "Loudness",
 		"originalFile": "Original file",
 		"originalSourceFile": "Original source file",
+		"playingAt": "Playing at",
 		"reduced": {
 			"adaptive": "Reduced from {selected}. The connection can't keep up right now",
 			"network": "Limited from {selected} by this connection"
@@ -113,7 +113,7 @@
 		"restore": "Switch back",
 		"source": "Source",
 		"spatial": " · Spatial",
-		"streaming": "Streaming",
+		"spatialOnly": "Spatial",
 		"streamingRate": "~{kbps} kbps · {data}",
 		"title": "File quality",
 		"upTo": "Up to {value}"

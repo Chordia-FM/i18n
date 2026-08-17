@@ -97,7 +97,6 @@
 		"change": "Angechay",
 		"dataPerHourGb": "~{value} GB/ourhay",
 		"dataPerHourMb": "~{value} MB/ourhay",
-		"hearing": "Ouyay'eray earinghay",
 		"lossless": "Osslesslay",
 		"lossy": "Ossylay",
 		"loudness": "Oudnesslay",
@@ -110,7 +109,6 @@
 		"restore": "Itchsway ackbay",
 		"source": "Ourcesay",
 		"spatial": " · Atialspay",
-		"streaming": "Eamingstray",
 		"title": "Ilefay ualityqay",
 		"upTo": "Upway otay {value}"
 	},
