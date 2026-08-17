@@ -81,19 +81,12 @@
 			"quit": ""
 		},
 		"presence": {
-			"addButton": "",
 			"artwork": "",
 			"artworkDesc": "",
 			"badge": "",
 			"badgeDesc": "",
-			"buttonLabel": "",
-			"buttonsDesc": "",
-			"buttonsInert": "",
-			"buttonsTitle": "",
 			"desc": "",
 			"empty": "",
-			"kind": "",
-			"kindDesc": "",
 			"label": "",
 			"lines": {
 				"details": "",
@@ -101,23 +94,16 @@
 				"largeText": "",
 				"smallText": ""
 			},
-			"newButton": "",
 			"opt": {
 				"art": "",
-				"hide": "",
-				"keep": "",
-				"keepNoTimer": "",
-				"listening": "",
 				"logo": "",
 				"none": "",
-				"playState": "",
-				"playing": ""
+				"playState": ""
 			},
 			"paused": "",
 			"playing": "",
 			"previewIdle": "",
 			"previewTitle": "",
-			"removeButton": "",
 			"reset": "",
 			"title": "",
 			"vars": {
