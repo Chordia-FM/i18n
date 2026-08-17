@@ -82,11 +82,18 @@
 		},
 		"presence": {
 			"addButton": "Add a button",
+			"artwork": "Artwork",
+			"artworkDesc": "Album art follows any cover you have overridden for the track or album in your library.",
+			"badge": "Corner badge",
+			"badgeDesc": "The small icon over the artwork. Needs artwork to sit on.",
 			"buttonLabel": "Label",
 			"buttonsDesc": "Up to two links under your status. Discord shows these to people looking at your profile, not to you.",
+			"buttonsInert": "Discord only draws buttons on a “Playing” status. Set “Show it as” to Playing above, or these will be ignored.",
 			"buttonsTitle": "Buttons",
 			"desc": "Puts the current track on your Discord profile. Needs Discord running on this computer. Off unless you turn it on.",
 			"empty": "(empty)",
+			"kind": "Show it as",
+			"kindDesc": "Listening gives you the header “Listening to Chordia” and a progress bar that tracks the song, but Discord will not draw your buttons. Playing draws the buttons and drops the progress bar.",
 			"label": "Show what I'm listening to",
 			"lines": {
 				"details": "First line",
@@ -95,6 +102,16 @@
 				"smallText": "Badge tooltip"
 			},
 			"newButton": "Listen on Chordia",
+			"opt": {
+				"listening": "Listening",
+				"playing": "Playing",
+				"art": "Album art",
+				"logo": "Chordia logo",
+				"none": "Nothing",
+				"playState": "Play/pause",
+				"hide": "Hide the status",
+				"keep": "Keep it showing"
+			},
 			"paused": "Paused",
 			"playing": "Playing",
 			"previewIdle": "Play something to see how your status will read.",
@@ -116,7 +133,9 @@
 				"globalPlays": "How many times everyone on this server has played it"
 			},
 			"varsDesc": "Click one to insert it where your cursor is. Anything that turns out to be empty is removed along with the punctuation around it.",
-			"varsTitle": "Variables"
+			"varsTitle": "Variables",
+			"whenPaused": "While paused",
+			"whenPausedDesc": "Discord draws a paused song with a static 0:00 where the progress bar was, which reads as broken rather than paused."
 		},
 		"title": "Desktop",
 		"updates": {
