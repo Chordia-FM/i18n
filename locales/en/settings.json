@@ -81,9 +81,42 @@
 			"quit": "Quit"
 		},
 		"presence": {
-			"title": "Discord",
+			"addButton": "Add a button",
+			"buttonLabel": "Label",
+			"buttonsDesc": "Up to two links under your status. Discord shows these to people looking at your profile, not to you.",
+			"buttonsTitle": "Buttons",
+			"desc": "Puts the current track on your Discord profile. Needs Discord running on this computer. Off unless you turn it on.",
+			"empty": "(empty)",
 			"label": "Show what I'm listening to",
-			"desc": "Puts the current track on your Discord profile. Needs Discord running on this computer. Off unless you turn it on."
+			"lines": {
+				"details": "First line",
+				"state": "Second line",
+				"largeText": "Artwork tooltip",
+				"smallText": "Badge tooltip"
+			},
+			"newButton": "Listen on Chordia",
+			"paused": "Paused",
+			"playing": "Playing",
+			"previewIdle": "Play something to see how your status will read.",
+			"previewTitle": "Preview",
+			"removeButton": "Remove this button",
+			"reset": "Reset to the default",
+			"title": "Discord",
+			"vars": {
+				"title": "Track title",
+				"artist": "Track artist",
+				"album": "Album name",
+				"playState": "Playing or Paused",
+				"duration": "Track length",
+				"trackUrl": "Link to this track",
+				"albumUrl": "Link to this album",
+				"artistUrl": "Link to this artist",
+				"plays": "How many times you've played it in that window",
+				"rank": "Where it ranks among your most played in that window",
+				"globalPlays": "How many times everyone on this server has played it"
+			},
+			"varsDesc": "Click one to insert it where your cursor is. Anything that turns out to be empty is removed along with the punctuation around it.",
+			"varsTitle": "Variables"
 		},
 		"title": "Desktop",
 		"updates": {
