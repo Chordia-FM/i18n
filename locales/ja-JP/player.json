@@ -99,13 +99,13 @@
 		"change": "変更",
 		"dataPerHourGb": "約{value} GB/時",
 		"dataPerHourMb": "約{value} MB/時",
-		"hearing": "",
 		"khz": "",
 		"lossless": "ロスレス",
 		"lossy": "非可逆",
 		"loudness": "ラウドネス",
 		"originalFile": "",
 		"originalSourceFile": "オリジナルのソースファイル",
+		"playingAt": "",
 		"reduced": {
 			"adaptive": "",
 			"network": ""
@@ -113,7 +113,7 @@
 		"restore": "",
 		"source": "ソース",
 		"spatial": " · 空間オーディオ",
-		"streaming": "ストリーミング",
+		"spatialOnly": "",
 		"streamingRate": "約{kbps} kbps · {data}",
 		"title": "ファイル品質",
 		"upTo": "最大{value}"
