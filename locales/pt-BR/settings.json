@@ -81,9 +81,42 @@
 			"quit": ""
 		},
 		"presence": {
-			"title": "",
+			"addButton": "",
+			"buttonLabel": "Gravadora",
+			"buttonsDesc": "",
+			"buttonsTitle": "",
+			"desc": "",
+			"empty": "",
 			"label": "",
-			"desc": ""
+			"lines": {
+				"details": "",
+				"state": "",
+				"largeText": "",
+				"smallText": ""
+			},
+			"newButton": "",
+			"paused": "",
+			"playing": "",
+			"previewIdle": "",
+			"previewTitle": "",
+			"removeButton": "",
+			"reset": "",
+			"title": "",
+			"vars": {
+				"title": "",
+				"artist": "",
+				"album": "",
+				"playState": "",
+				"duration": "",
+				"trackUrl": "",
+				"albumUrl": "",
+				"artistUrl": "",
+				"plays": "",
+				"rank": "",
+				"globalPlays": ""
+			},
+			"varsDesc": "",
+			"varsTitle": ""
 		},
 		"title": "",
 		"updates": {
