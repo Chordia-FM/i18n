@@ -189,10 +189,12 @@
 	},
 	"system": {
 		"accent": {
-			"title": "Site color",
-			"desc": "The accent everyone sees who has not chosen their own, including every signed-out visitor. It does not change anyone who has picked a color in Appearance.",
 			"clear": "Use the default",
+			"custom": "Custom color",
+			"customAria": "Custom site color",
+			"desc": "The accent everyone sees who has not chosen their own, including every signed-out visitor. It does not change anyone who has picked a color in Appearance.",
 			"set": "Currently {accent}.",
+			"title": "Site color",
 			"unset": "Not set, so the app's own {accent} is used."
 		},
 		"artistsMissingArt": "Artists with no image",
