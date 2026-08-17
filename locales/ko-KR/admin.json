@@ -189,10 +189,12 @@
 	},
 	"system": {
 		"accent": {
-			"title": "",
-			"desc": "",
 			"clear": "",
+			"custom": "",
+			"customAria": "",
+			"desc": "",
 			"set": "",
+			"title": "",
 			"unset": ""
 		},
 		"artistsMissingArt": "",
