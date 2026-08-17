@@ -99,13 +99,13 @@
 		"change": "Ändern",
 		"dataPerHourGb": "~{value} GB/Stunde",
 		"dataPerHourMb": "~{value} MB/Stunde",
-		"hearing": "",
 		"khz": "",
 		"lossless": "Verlustfrei",
 		"lossy": "Verlustbehaftet",
 		"loudness": "Lautheit",
 		"originalFile": "",
 		"originalSourceFile": "Original-Quelldatei",
+		"playingAt": "",
 		"reduced": {
 			"adaptive": "",
 			"network": ""
@@ -113,7 +113,7 @@
 		"restore": "",
 		"source": "Quelle",
 		"spatial": " · Räumlich",
-		"streaming": "",
+		"spatialOnly": "",
 		"streamingRate": "~{kbps} kbit/s · {data}",
 		"title": "Dateiqualität",
 		"upTo": "Bis zu {value}"
