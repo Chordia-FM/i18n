@@ -85,7 +85,22 @@
 			"label": "",
 			"desc": ""
 		},
-		"title": ""
+		"title": "",
+		"updates": {
+			"title": "",
+			"label": "",
+			"desc": "",
+			"check": "",
+			"install": "",
+			"checking": "",
+			"current": "",
+			"version": "",
+			"found": "",
+			"downloading": "Baixando…",
+			"downloadingPercent": "",
+			"restarting": "",
+			"failed": ""
+		}
 	},
 	"downloads": {
 		"browserStorageName": "Este dispositivo (armazenamento do navegador)",
