@@ -82,11 +82,18 @@
 		},
 		"presence": {
 			"addButton": "",
+			"artwork": "Illustration",
+			"artworkDesc": "",
+			"badge": "",
+			"badgeDesc": "",
 			"buttonLabel": "",
 			"buttonsDesc": "",
+			"buttonsInert": "",
 			"buttonsTitle": "",
 			"desc": "",
 			"empty": "",
+			"kind": "",
+			"kindDesc": "",
 			"label": "",
 			"lines": {
 				"details": "",
@@ -95,6 +102,17 @@
 				"smallText": ""
 			},
 			"newButton": "",
+			"opt": {
+				"art": "",
+				"hide": "",
+				"keep": "",
+				"keepNoTimer": "",
+				"listening": "Écoutes",
+				"logo": "",
+				"none": "",
+				"playState": "",
+				"playing": ""
+			},
 			"paused": "",
 			"playing": "",
 			"previewIdle": "",
@@ -116,7 +134,9 @@
 				"globalPlays": ""
 			},
 			"varsDesc": "",
-			"varsTitle": ""
+			"varsTitle": "",
+			"whenPaused": "",
+			"whenPausedDesc": ""
 		},
 		"title": "",
 		"updates": {
