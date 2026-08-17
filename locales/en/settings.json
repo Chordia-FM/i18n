@@ -96,8 +96,6 @@
 			},
 			"opt": {
 				"art": "Album art",
-				"hide": "Hide the status",
-				"keep": "Keep it showing",
 				"logo": "Chordia logo",
 				"none": "Nothing",
 				"playState": "Play/pause"
@@ -123,8 +121,8 @@
 			},
 			"varsDesc": "Click one to insert it where your cursor is. Anything that turns out to be empty is removed along with the punctuation around it.",
 			"varsTitle": "Variables",
-			"whenPaused": "While paused",
-			"whenPausedDesc": "A paused song still gets a time counter from Discord, counting up from when the status was last updated — it isn't the song's position or its length. There is no way to turn it off."
+			"whenPaused": "Keep showing while paused",
+			"whenPausedDesc": "Discord adds a time counter of its own to a paused song, counting up from when the status was last updated — it isn't the song's position or its length, and there is no way to turn it off."
 		},
 		"title": "Desktop",
 		"updates": {
