@@ -99,13 +99,13 @@
 		"change": "변경",
 		"dataPerHourGb": "시간당 약 {value} GB",
 		"dataPerHourMb": "시간당 약 {value} MB",
-		"hearing": "",
 		"khz": "",
 		"lossless": "무손실",
 		"lossy": "손실 압축",
 		"loudness": "음량",
 		"originalFile": "",
 		"originalSourceFile": "원본 소스 파일",
+		"playingAt": "",
 		"reduced": {
 			"adaptive": "",
 			"network": ""
@@ -113,7 +113,7 @@
 		"restore": "",
 		"source": "소스",
 		"spatial": " · 공간 음향",
-		"streaming": "스트리밍",
+		"spatialOnly": "",
 		"streamingRate": "",
 		"title": "파일 품질",
 		"upTo": "최대 {value}"
