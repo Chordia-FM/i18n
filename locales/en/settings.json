@@ -175,6 +175,22 @@
 	"equalizer": {
 		"title": "Equalizer"
 	},
+	"layout": {
+		"title": "Layout",
+		"customizeSidebar": "Customize sidebar",
+		"customizeControls": "Customize controls",
+		"reset": "Reset to default",
+		"sidebar": {
+			"title": "Sidebar",
+			"help": "Drag to reorder the top of your sidebar, and untick anything you would rather not see. Hidden entries stay reachable from search and keyboard shortcuts.",
+			"empty": "Nothing pinned yet. Pin an album, artist or playlist and it will show up here."
+		},
+		"playerBar": {
+			"title": "Now playing bar",
+			"help": "Choose which controls sit at the right of the player bar, and in what order.",
+			"allHidden": "No controls shown"
+		}
+	},
 	"playback": {
 		"autoplay": {
 			"desc": "Keep playing similar music when the queue ends.",
