@@ -28,10 +28,6 @@
 	"appearance": {
 		"accentColour": "Accent color",
 		"accentHexAria": "Accent hex",
-		"customAccentAria": "Custom accent color",
-		"customColour": "Custom color",
-		"customColourHint": "Pick any color - buttons, highlights and the background tint follow it.",
-		"title": "Appearance",
 		"accents": {
 			"amber": "Amber",
 			"blue": "Blue",
@@ -45,7 +41,34 @@
 			"pink": "Pink",
 			"purple": "Purple",
 			"teal": "Teal"
-		}
+		},
+		"customAccentAria": "Custom accent color",
+		"customColour": "Custom color",
+		"customColourHint": "Pick any color - buttons, highlights and the background tint follow it.",
+		"mode": {
+			"artwork": "Artwork",
+			"artworkHint": "Follows the cover that is playing.",
+			"chroma": "Spectrum",
+			"chromaHint": "Circles slowly through every hue.",
+			"fade": "Fade",
+			"fadeHint": "Drifts through your palette.",
+			"gradient": "Gradient",
+			"gradientHint": "Blends across your palette.",
+			"static": "Steady",
+			"staticHint": "One color."
+		},
+		"modeHint": "Anything but Steady pauses while the tab is in the background, and holds still if you have asked your system for reduced motion.",
+		"modeTitle": "How your color behaves",
+		"nameAccent": "Show my name in my color",
+		"nameAccentHint": "Wherever your name appears to other people.",
+		"palette": "Your palette",
+		"paletteAdd": "Add color",
+		"paletteHint": "Two to six colors. Fade moves between them; Gradient blends them.",
+		"paletteRemove": "Remove color {index}",
+		"paletteStopAria": "Color {index}",
+		"showProfileAccents": "Let profiles use their own colors",
+		"showProfileAccentsHint": "When someone has set a color, their profile page wears it while you are on it.",
+		"title": "Appearance"
 	},
 	"connections": {
 		"lastfm": {
@@ -75,10 +98,10 @@
 	},
 	"desktop": {
 		"close": {
-			"title": "When you close the window",
 			"desc": "Chordia can keep playing in the background. Closing quits instead if your desktop has no tray.",
-			"tray": "Keep playing",
-			"quit": "Quit"
+			"quit": "Quit",
+			"title": "When you close the window",
+			"tray": "Keep playing"
 		},
 		"presence": {
 			"artwork": "Artwork",
@@ -90,9 +113,9 @@
 			"label": "Show what I'm listening to",
 			"lines": {
 				"details": "First line",
-				"state": "Second line",
 				"largeText": "Artwork tooltip",
-				"smallText": "Badge tooltip"
+				"smallText": "Badge tooltip",
+				"state": "Second line"
 			},
 			"opt": {
 				"art": "Album art",
@@ -107,17 +130,17 @@
 			"reset": "Reset to the default",
 			"title": "Discord",
 			"vars": {
-				"title": "Track title",
-				"artist": "Track artist",
 				"album": "Album name",
-				"playState": "Playing or Paused",
-				"duration": "Track length",
-				"trackUrl": "Link to this track",
 				"albumUrl": "Link to this album",
+				"artist": "Track artist",
 				"artistUrl": "Link to this artist",
+				"duration": "Track length",
+				"globalPlays": "How many times everyone on this server has played it",
+				"playState": "Playing or Paused",
 				"plays": "How many times you've played it in that window",
 				"rank": "Where it ranks among your most played in that window",
-				"globalPlays": "How many times everyone on this server has played it"
+				"title": "Track title",
+				"trackUrl": "Link to this track"
 			},
 			"varsDesc": "Click one to insert it where your cursor is. Anything that turns out to be empty is removed along with the punctuation around it.",
 			"varsTitle": "Variables",
@@ -126,19 +149,19 @@
 		},
 		"title": "Desktop",
 		"updates": {
-			"title": "Updates",
-			"label": "Check for new versions",
-			"desc": "Looks for a new version every few hours. Nothing installs until you say so, so it will never interrupt what you're playing.",
 			"check": "Check now",
-			"install": "Restart to update",
 			"checking": "Checking…",
 			"current": "You're on the latest version.",
-			"version": "Version {version}.",
-			"found": "Version {version} is ready to install.",
+			"desc": "Looks for a new version every few hours. Nothing installs until you say so, so it will never interrupt what you're playing.",
 			"downloading": "Downloading…",
 			"downloadingPercent": "Downloading… {percent}%",
+			"failed": "Couldn't check for updates. {error}",
+			"found": "Version {version} is ready to install.",
+			"install": "Restart to update",
+			"label": "Check for new versions",
 			"restarting": "Restarting…",
-			"failed": "Couldn't check for updates. {error}"
+			"title": "Updates",
+			"version": "Version {version}."
 		}
 	},
 	"downloads": {
@@ -176,24 +199,24 @@
 		"title": "Equalizer"
 	},
 	"layout": {
-		"title": "Layout",
-		"customizeSidebar": "Customize sidebar",
 		"customizeControls": "Customize controls",
+		"customizeSidebar": "Customize sidebar",
+		"playerBar": {
+			"allHidden": "No controls shown",
+			"help": "Choose which controls sit at the right of the player bar, and in what order.",
+			"title": "Now playing bar"
+		},
 		"reset": "Reset to default",
 		"sidebar": {
-			"title": "Sidebar",
+			"empty": "Nothing pinned yet. Pin an album, artist or playlist and it will show up here.",
 			"help": "Drag to reorder the top of your sidebar, and untick anything you would rather not see. Hidden entries stay reachable from search and keyboard shortcuts.",
-			"empty": "Nothing pinned yet. Pin an album, artist or playlist and it will show up here."
+			"title": "Sidebar"
 		},
-		"playerBar": {
-			"title": "Now playing bar",
-			"help": "Choose which controls sit at the right of the player bar, and in what order.",
-			"allHidden": "No controls shown"
-		}
+		"title": "Layout"
 	},
 	"plan": {
-		"title": "Plan",
-		"selfHosted": "This is a self-hosted Chordia server, so there is nothing to buy here. Every feature is available to every account."
+		"selfHosted": "This is a self-hosted Chordia server, so there is nothing to buy here. Every feature is available to every account.",
+		"title": "Plan"
 	},
 	"playback": {
 		"autoplay": {
@@ -251,29 +274,29 @@
 			"label": "Email notifications"
 		},
 		"followedArtistsVisibility": {
-			"label": "Followed artists",
-			"desc": "Who can see the artists you follow."
+			"desc": "Who can see the artists you follow.",
+			"label": "Followed artists"
 		},
 		"followersVisibility": {
-			"label": "Followers list",
-			"desc": "Who can see the accounts that follow you."
+			"desc": "Who can see the accounts that follow you.",
+			"label": "Followers list"
 		},
 		"followingVisibility": {
-			"label": "Following list",
-			"desc": "Who can see the accounts you follow."
+			"desc": "Who can see the accounts you follow.",
+			"label": "Following list"
 		},
 		"groups": {
 			"activity": {
-				"title": "Activity",
-				"desc": "What Chordia records as you listen."
-			},
-			"notifications": {
-				"title": "Notifications",
-				"desc": "When Chordia sends you email."
+				"desc": "What Chordia records as you listen.",
+				"title": "Activity"
 			},
 			"audience": {
-				"title": "Who can see what",
-				"desc": "Who your listening is visible to."
+				"desc": "Who your listening is visible to.",
+				"title": "Who can see what"
+			},
+			"notifications": {
+				"desc": "When Chordia sends you email.",
+				"title": "Notifications"
 			}
 		},
 		"openToFollows": {
@@ -281,12 +304,12 @@
 			"label": "Let people follow me"
 		},
 		"playlistsVisibility": {
-			"label": "Playlists",
-			"desc": "Who can see your public playlists on your profile. Each playlist still opts in separately."
+			"desc": "Who can see your public playlists on your profile. Each playlist still opts in separately.",
+			"label": "Playlists"
 		},
 		"profileVisibility": {
-			"label": "Profile",
-			"desc": "Who can open your profile at all. Everything below is only reachable once this lets someone through."
+			"desc": "Who can open your profile at all. Everything below is only reachable once this lets someone through.",
+			"label": "Profile"
 		},
 		"scrobble": {
 			"desc": "Record what you play for your stats and Rotation.",
@@ -393,10 +416,10 @@
 		"unknownDevice": "Unknown device"
 	},
 	"startup": {
-		"title": "Startup",
 		"desc": "Where Chordia opens when you sign in.",
 		"home": "Home",
-		"library": "Library"
+		"library": "Library",
+		"title": "Startup"
 	},
 	"title": "Settings",
 	"twoFactor": {
