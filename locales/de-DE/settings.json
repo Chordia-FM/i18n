@@ -188,6 +188,14 @@
 			"desc": "Gleicht die Lautheit über alle Titel hinweg aus (ReplayGain).",
 			"label": "Lautstärke normalisieren"
 		},
+		"output": {
+			"choose": "",
+			"desc": "",
+			"label": "",
+			"reset": "",
+			"system": "",
+			"unknown": ""
+		},
 		"preload": {
 			"desc": "Wie viele der nächsten Titel in der Warteschlange im Voraus geladen werden, damit die Wiedergabe sofort und lückenlos startet. Höhere Werte verbrauchen mehr Daten.",
 			"label": "Nächste Titel vorladen"
