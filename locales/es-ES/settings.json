@@ -188,6 +188,14 @@
 			"desc": "Iguala el volumen entre pistas (ReplayGain).",
 			"label": "Normalizar el volumen"
 		},
+		"output": {
+			"choose": "",
+			"desc": "",
+			"label": "",
+			"reset": "",
+			"system": "",
+			"unknown": ""
+		},
 		"preload": {
 			"desc": "Cuántas pistas siguientes de la cola se descargan por adelantado, para una reproducción instantánea y sin cortes. Cuanto más alto, más datos consume.",
 			"label": "Precargar las siguientes pistas"
