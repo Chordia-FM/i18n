@@ -188,6 +188,14 @@
 			"desc": "Equilibra o volume entre as faixas (ReplayGain).",
 			"label": "Normalizar volume"
 		},
+		"output": {
+			"choose": "",
+			"desc": "",
+			"label": "",
+			"reset": "",
+			"system": "",
+			"unknown": ""
+		},
 		"preload": {
 			"desc": "Quantas faixas seguintes da fila são baixadas com antecedência, para uma reprodução instantânea e sem intervalos. Valores maiores consomem mais dados.",
 			"label": "Pré-carregar próximas faixas"
