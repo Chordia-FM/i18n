@@ -188,6 +188,14 @@
 			"desc": "",
 			"label": "Normalise volume"
 		},
+		"output": {
+			"choose": "",
+			"desc": "",
+			"label": "",
+			"reset": "",
+			"system": "",
+			"unknown": ""
+		},
 		"preload": {
 			"desc": "",
 			"label": ""
