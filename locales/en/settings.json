@@ -198,6 +198,30 @@
 	"equalizer": {
 		"title": "Equalizer"
 	},
+	"import": {
+		"body": "Bring your listening history from Spotify or Last.fm. Plays that match music in your libraries are linked to it; everything else is kept with its original text and matches later if that music arrives.",
+		"chooseFile": "Choose file",
+		"errors": {
+			"internal": "Something went wrong while importing. Try again.",
+			"interrupted": "The import was interrupted before it finished. Upload the file again; rows already imported are recognized and never doubled.",
+			"malformed": "The file could not be read all the way through. Export it again and retry.",
+			"unrecognized": "This file does not look like a Spotify or Last.fm export."
+		},
+		"hint": "Accepts a Spotify extended streaming history (.json) or a Last.fm export (.csv), up to 200 MB. Uploading the same file twice never duplicates plays.",
+		"progress": "{processed} of {total} rows",
+		"sourceAuto": "Detect source",
+		"status": {
+			"done": "Done",
+			"failed": "Failed",
+			"pending": "Waiting",
+			"running": "Importing"
+		},
+		"summary": "{imported} imported · {matched} matched · {duplicates} duplicates · {skipped} skipped",
+		"title": "Import listening history",
+		"tooLarge": "That file is over 64 MB. Split the export and upload the parts one at a time; nothing is counted twice.",
+		"uploadFailed": "Could not start the import. Try again.",
+		"uploading": "Uploading"
+	},
 	"layout": {
 		"customizeControls": "Customize controls",
 		"customizeSidebar": "Customize sidebar",
