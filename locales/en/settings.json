@@ -191,6 +191,10 @@
 			"allHidden": "No controls shown"
 		}
 	},
+	"plan": {
+		"title": "Plan",
+		"selfHosted": "This is a self-hosted Chordia server, so there is nothing to buy here. Every feature is available to every account."
+	},
 	"playback": {
 		"autoplay": {
 			"desc": "Keep playing similar music when the queue ends.",

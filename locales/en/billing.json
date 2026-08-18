@@ -1,0 +1,97 @@
+{
+	"activation": {
+		"pending": "Activating your plan. This usually takes a few seconds.",
+		"slow": "Still waiting on the payment provider. Your plan will appear here as soon as it confirms; nothing further is needed from you."
+	},
+	"errors": {
+		"changeFailed": "Could not change your plan. Nothing was charged.",
+		"checkoutFailed": "Could not start checkout. Nothing was charged.",
+		"portalFailed": "Could not open your billing page. Try again in a moment."
+	},
+	"features": {
+		"accents": { "name": "Accent colors" },
+		"animated_avatar": {
+			"locked": "Keep your avatar animated instead of frozen on its first frame.",
+			"name": "Animated avatars"
+		},
+		"csv_export": {
+			"locked": "Download your whole listening history as a spreadsheet.",
+			"name": "Export history as CSV"
+		},
+		"custom_accent": {
+			"locked": "Use any color you like as your accent, not just the presets.",
+			"name": "Any accent color"
+		},
+		"deep_analytics": {
+			"locked": "Build charts and a Wrapped for any date range you choose.",
+			"name": "Any-range charts and Wrapped"
+		},
+		"dynamic_accent": {
+			"locked": "Let your accent fade through colors, follow the artwork, or drift through the spectrum.",
+			"name": "Living accent colors"
+		},
+		"libraries": { "name": "Your own libraries" },
+		"name_accent": {
+			"locked": "Your name shows in your own color wherever it appears.",
+			"name": "Colored display name"
+		},
+		"playback": { "name": "Full-quality playback, EQ and offline" },
+		"profile_accent": {
+			"locked": "Your profile page wears your color for anyone who visits it.",
+			"name": "Your color on your profile"
+		},
+		"retention": { "name": "Listening history kept" },
+		"scrobble_editing": {
+			"locked": "Fix a mis-tagged play or remove one that should not be there.",
+			"name": "Edit your play history"
+		},
+		"smart_playlists": {
+			"locked": "Playlists that build themselves from rules and keep themselves current.",
+			"name": "Smart playlists"
+		},
+		"social": { "name": "Friends, profiles and sharing" },
+		"taste_match_summary": {
+			"locked": "See what you actually share with a friend, not just a percentage.",
+			"name": "Detailed taste match"
+		}
+	},
+	"plan": {
+		"cancellingBody": "Your plan is set to end on {date}. Everything keeps working until then.",
+		"complimentary": "Complimentary",
+		"endsOn": "Ends {date}",
+		"freeBody": "You are on the free plan. Everything about listening works; the plans below add expression, deeper stats, and keeping your history for longer.",
+		"manage": "Manage billing",
+		"manageHint": "Payment method, invoices and canceling all live on your billing page.",
+		"renewsBody": "Renews on {date}.",
+		"since": "Supporting Chordia since {date}."
+	},
+	"plans": {
+		"blurb": {
+			"free": "Everything you need to listen, with your history kept for a year.",
+			"sonic": "Make it yours, and let playlists build themselves.",
+			"super_sonic": "Living color, the whole picture of your listening, and your history forever."
+		},
+		"current": "Current plan",
+		"downgrade": "Downgrade",
+		"featureColumn": "What you get",
+		"forever": "Forever",
+		"freePrice": "Free",
+		"included": "Included",
+		"intervalLabel": "Billing period",
+		"monthly": "Monthly",
+		"monthsFree": "{count, plural, one {# month free} other {# months free}}",
+		"notIncluded": "Not included",
+		"perMonth": "{amount} / month",
+		"perYear": "{amount} / year",
+		"switch": "Switch to this",
+		"title": "Plans",
+		"upgrade": "Upgrade",
+		"years": "{count, plural, one {# year} other {# years}}",
+		"yearly": "Yearly"
+	},
+	"upgrade": {
+		"body": "This is part of {plan}.",
+		"cta": "See plans",
+		"title": "{plan} unlocks this"
+	}
+}
