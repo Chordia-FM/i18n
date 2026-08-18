@@ -188,6 +188,14 @@
 			"desc": "Uniformisez le volume entre les morceaux (ReplayGain).",
 			"label": "Normaliser le volume"
 		},
+		"output": {
+			"choose": "",
+			"desc": "",
+			"label": "",
+			"reset": "",
+			"system": "",
+			"unknown": ""
+		},
 		"preload": {
 			"desc": "Nombre de morceaux à venir dans la file d’attente téléchargés à l’avance, pour une lecture instantanée et sans blanc. Plus la valeur est élevée, plus la consommation de données augmente.",
 			"label": "Précharger les morceaux suivants"
