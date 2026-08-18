@@ -1,4 +1,29 @@
 {
+	"badges": {
+		"earlyBird": {
+			"detail": "Here since {date}.",
+			"title": "First Pressing"
+		},
+		"earlySupporter": {
+			"detail": "№ {rank} of the first hundred supporters, since {date}.",
+			"title": "Founding 100"
+		},
+		"premium": {
+			"detail": "{count, plural, one {# month} other {# months}} unbroken, since {date}."
+		},
+		"staff": {
+			"admin": "Admin",
+			"detail": "Part of the team running this instance.",
+			"moderator": "Moderator",
+			"support": "Support"
+		},
+		"stage": {
+			"diamond": "Diamond",
+			"nova": "Nova",
+			"orbit": "Orbit",
+			"spark": "Spark"
+		}
+	},
 	"block": {
 		"confirmLabel": "Block",
 		"confirmMessage": "Block @{handle}? You won't be able to add each other as friends.",
