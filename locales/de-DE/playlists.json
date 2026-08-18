@@ -44,10 +44,6 @@
 	"sharedWithYou": " · mit Ihnen geteilt",
 	"smart": {
 		"addRule": "Regel hinzufügen",
-		"bool": {
-			"false": "falsch",
-			"true": "wahr"
-		},
 		"created": "Intelligente Playlist erstellt",
 		"delete": {
 			"confirmBody": "Diese intelligente Playlist löschen?",

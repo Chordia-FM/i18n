@@ -45,10 +45,6 @@
 	"sharedWithYou": " · compartilhada com você",
 	"smart": {
 		"addRule": "Adicionar regra",
-		"bool": {
-			"false": "falso",
-			"true": "verdadeiro"
-		},
 		"created": "Playlist inteligente criada",
 		"delete": {
 			"confirmBody": "Excluir esta playlist inteligente?",

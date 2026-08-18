@@ -82,10 +82,6 @@
 	"sharedWithYou": " · aredshay ithway ouyay",
 	"smart": {
 		"addRule": "Addway uleray",
-		"bool": {
-			"false": "alsefay",
-			"true": "uetray"
-		},
 		"created": "Artsmay aylistplay eatedcray",
 		"delete": {
 			"confirmBody": "Eleteday isthay artsmay aylistplay?",

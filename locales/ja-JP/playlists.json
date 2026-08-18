@@ -46,10 +46,6 @@
 	"sharedWithYou": " · あなたと共有中",
 	"smart": {
 		"addRule": "ルールを追加",
-		"bool": {
-			"false": "いいえ",
-			"true": "はい"
-		},
 		"created": "スマートプレイリストを作成しました",
 		"delete": {
 			"confirmBody": "このスマートプレイリストを削除しますか？",

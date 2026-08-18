@@ -46,10 +46,6 @@
 	"sharedWithYou": " · compartida contigo",
 	"smart": {
 		"addRule": "Añadir regla",
-		"bool": {
-			"false": "falso",
-			"true": "verdadero"
-		},
 		"created": "Lista inteligente creada",
 		"delete": {
 			"confirmBody": "¿Eliminar esta lista inteligente?",
