@@ -105,7 +105,13 @@
 		"savedToAll": "Stowed t' all yer hoards.",
 		"savedToLibrary": "Stowed t' {name}.",
 		"submitFailed": "Couldn't send yer suggestion.",
-		"suggestionSent": "Suggestion sent fer review."
+		"suggestionSent": "Suggestion sent fer review.",
+		"nothingChanged": "Change something first, then report it.",
+		"title": {
+			"artist": "Artist details",
+			"album": "Album details",
+			"track": "Track details"
+		}
 	},
 	"search": {
 		"placeholder": "Artists, treasures, or shanties"

@@ -185,7 +185,12 @@
 		"submit": "Ubmitsay uggestionsay",
 		"submitFailed": "Ouldncay't endsay ouryay uggestionsay.",
 		"suggestionSent": "Uggestionsay entsay orfay eviewray.",
-		"title": "Editway artistway etailsday"
+		"title": {
+			"artist": "Artist details",
+			"album": "Album details",
+			"track": "Track details"
+		},
+		"nothingChanged": "Change something first, then report it."
 	},
 	"search": {
 		"placeholder": "Artistsway, albumsway, orway ongssay"

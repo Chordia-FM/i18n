@@ -180,7 +180,12 @@
 		"submit": "Enviar sugerencia",
 		"submitFailed": "No se pudo enviar tu sugerencia.",
 		"suggestionSent": "Sugerencia enviada para revisión.",
-		"title": "Editar los datos del artista"
+		"title": {
+			"artist": "Artist details",
+			"album": "Album details",
+			"track": "Track details"
+		},
+		"nothingChanged": "Change something first, then report it."
 	},
 	"search": {
 		"placeholder": "Artistas, álbumes o canciones"
