@@ -2,7 +2,8 @@
 	"badges": {
 		"earlyBird": {
 			"detail": "Here since {date}.",
-			"title": "First Pressing"
+			"title": "First Pressing",
+			"detailRanked": "{position, selectordinal, one {#st} two {#nd} few {#rd} other {#th}} account here, since {date}."
 		},
 		"earlySupporter": {
 			"detail": "№ {rank} of the first hundred supporters, since {date}.",
@@ -22,6 +23,14 @@
 			"nova": "Nova",
 			"orbit": "Orbit",
 			"spark": "Spark"
+		},
+		"about": {
+			"developer": "Given to the people who build Chordia.",
+			"staff": "Given to the people who run this instance and keep it working.",
+			"early_bird": "For accounts created before this instance opened its doors properly.",
+			"early_supporter": "One of the first hundred people to ever pay for Chordia. The number never changes hands.",
+			"sonic": "A current Sonic subscriber. The streak counts unbroken months.",
+			"super_sonic": "A current Super-Sonic subscriber. The badge gains a ring for every stage of the streak."
 		}
 	},
 	"block": {
