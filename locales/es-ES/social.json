@@ -58,7 +58,8 @@
 		"topArtists": "Artistas principales",
 		"topTracks": "Pistas principales",
 		"totalPlays": "{count, plural, one {# reproducción} other {# reproducciones}}",
-		"totalPlaysCount": "{count}"
+		"totalPlaysCount": "{count}",
+		"listTabs": "Playlists, followers and following"
 	},
 	"report": {
 		"promptMessage": "Denunciar a @{handle}: ¿cuál es el problema?"

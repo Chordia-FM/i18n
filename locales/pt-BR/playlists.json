@@ -77,7 +77,9 @@
 		"op": {
 			"contains": "contém",
 			"equals": "é",
-			"is": "é"
+			"is": "é",
+			"not_contains": "does not contain",
+			"not_equals": "is not"
 		},
 		"refresh": {
 			"now": "Atualizar"

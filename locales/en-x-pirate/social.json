@@ -61,7 +61,8 @@
 			"playlists": "charts"
 		},
 		"topArtists": "Choicest minstrels",
-		"topTracks": "Choicest ditties"
+		"topTracks": "Choicest ditties",
+		"listTabs": "Playlists, followers and following"
 	},
 	"report": {
 		"promptMessage": "Report @{handle}. What's th' issue?"

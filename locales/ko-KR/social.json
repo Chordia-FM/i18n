@@ -58,7 +58,8 @@
 		"topArtists": "인기 아티스트",
 		"topTracks": "인기 트랙",
 		"totalPlays": "{count, plural, other {#회 재생}}",
-		"totalPlaysCount": "{count}"
+		"totalPlaysCount": "{count}",
+		"listTabs": "Playlists, followers and following"
 	},
 	"report": {
 		"promptMessage": "@{handle}님 신고 — 무엇이 문제인가요?"

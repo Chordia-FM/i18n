@@ -58,7 +58,8 @@
 		"topArtists": "トップアーティスト",
 		"topTracks": "トップトラック",
 		"totalPlays": "{count, plural, other {#回再生}}",
-		"totalPlaysCount": "{count}"
+		"totalPlaysCount": "{count}",
+		"listTabs": "Playlists, followers and following"
 	},
 	"report": {
 		"promptMessage": "@{handle}を報告します。問題の内容を教えてください。"

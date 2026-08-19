@@ -57,7 +57,8 @@
 		"topArtists": "Top-Künstler",
 		"topTracks": "Top-Titel",
 		"totalPlays": "{count, plural, one {# Wiedergabe} other {# Wiedergaben}}",
-		"totalPlaysCount": "{count}"
+		"totalPlaysCount": "{count}",
+		"listTabs": "Playlists, followers and following"
 	},
 	"report": {
 		"promptMessage": "@{handle} melden – worum geht es?"

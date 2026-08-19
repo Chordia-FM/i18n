@@ -114,7 +114,9 @@
 		"op": {
 			"contains": "ontainscay",
 			"equals": "isway",
-			"is": "isway"
+			"is": "isway",
+			"not_contains": "does not contain",
+			"not_equals": "is not"
 		},
 		"refresh": {
 			"changed": "Efreshedray: {added} addedway, {removed} emovedray, {total} otaltay",

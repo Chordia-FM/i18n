@@ -73,7 +73,9 @@
 		"op": {
 			"contains": "contient",
 			"equals": "est",
-			"is": "est"
+			"is": "est",
+			"not_contains": "does not contain",
+			"not_equals": "is not"
 		},
 		"refresh": {
 			"now": "Actualiser"

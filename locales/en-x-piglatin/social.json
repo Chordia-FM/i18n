@@ -87,7 +87,8 @@
 		},
 		"topArtists": "Optay artistsway",
 		"topTracks": "Optay ackstray",
-		"totalPlays": "{count, plural, one {# ayplay} other {# aysplay}}"
+		"totalPlays": "{count, plural, one {# ayplay} other {# aysplay}}",
+		"listTabs": "Playlists, followers and following"
 	},
 	"report": {
 		"promptMessage": "Eportray @{handle}. Atwhay's ethay issueway?"

@@ -154,7 +154,8 @@
 		"topArtists": "Top artists",
 		"topTracks": "Top tracks",
 		"totalPlays": "{count, plural, one {# play} other {# plays}}",
-		"totalPlaysCount": "{count}"
+		"totalPlaysCount": "{count}",
+		"listTabs": "Playlists, followers and following"
 	},
 	"report": {
 		"promptMessage": "Report @{handle}. What's the issue?"

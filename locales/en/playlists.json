@@ -156,7 +156,9 @@
 			"in_last": "is within the last",
 			"is": "is",
 			"lte": "is at most",
-			"not_in_last": "is not within the last"
+			"not_in_last": "is not within the last",
+			"not_contains": "does not contain",
+			"not_equals": "is not"
 		},
 		"period": {
 			"month": "in {month}",

@@ -81,7 +81,9 @@
 		"ofTheseRules": "o' these rules:",
 		"op": {
 			"equals": "be",
-			"is": "be"
+			"is": "be",
+			"not_contains": "does not contain",
+			"not_equals": "is not"
 		},
 		"refresh": {
 			"unchanged": "{count, plural, one {Already up t' date, # ditty} other {Already up t' date, # ditties}}"
