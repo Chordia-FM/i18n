@@ -1,7 +1,16 @@
 {
 	"artists": {
 		"empty": "Onay artistsway etyay - ethay atalogcay aymay illstay ebay yncingsay.",
-		"title": "Artistsway"
+		"title": "Artistsway",
+		"searchPlaceholder": "Search artists",
+		"sortLabel": "Sort artists",
+		"sort": {
+			"name": "Name (A to Z)",
+			"albums": "Most albums",
+			"tracks": "Most tracks"
+		},
+		"filtered": "{count, plural, one {# of {total} artist} other {# of {total} artists}}",
+		"noMatches": "No artists match \"{query}\"."
 	},
 	"card": {
 		"editTitle": "Editway isthay ibrarylay",

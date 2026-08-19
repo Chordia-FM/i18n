@@ -1,7 +1,16 @@
 {
 	"artists": {
 		"empty": "아직 아티스트가 없습니다 - 카탈로그가 아직 동기화 중일 수 있습니다.",
-		"title": "아티스트"
+		"title": "아티스트",
+		"searchPlaceholder": "Search artists",
+		"sortLabel": "Sort artists",
+		"sort": {
+			"name": "Name (A to Z)",
+			"albums": "Most albums",
+			"tracks": "Most tracks"
+		},
+		"filtered": "{count, plural, other {# of {total} artists}}",
+		"noMatches": "No artists match \"{query}\"."
 	},
 	"card": {
 		"editTitle": "이 라이브러리 편집",
