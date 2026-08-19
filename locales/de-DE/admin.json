@@ -128,6 +128,7 @@
 		"suspendTitle": "Benutzer sperren",
 		"suspendedBadge": "gesperrt",
 		"title": "Benutzer",
-		"unsuspend": "Entsperren"
+		"unsuspend": "Entsperren",
+		"noEmail": "No email"
 	}
 }

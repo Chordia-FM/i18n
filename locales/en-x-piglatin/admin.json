@@ -354,6 +354,7 @@
 		"statusLabel": "Atusstay",
 		"suspendedCount": "Uspendedsay",
 		"user": "Userway",
-		"verified": "Emailway erifiedvay"
+		"verified": "Emailway erifiedvay",
+		"noEmail": "No email"
 	}
 }

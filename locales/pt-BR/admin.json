@@ -132,6 +132,7 @@
 		"suspendTitle": "Suspender usuário",
 		"suspendedBadge": "suspenso",
 		"title": "Usuários",
-		"unsuspend": "Reativar"
+		"unsuspend": "Reativar",
+		"noEmail": "No email"
 	}
 }

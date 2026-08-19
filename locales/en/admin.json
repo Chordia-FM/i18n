@@ -375,6 +375,7 @@
 		"title": "Users",
 		"unsuspend": "Unsuspend",
 		"user": "User",
-		"verified": "Email verified"
+		"verified": "Email verified",
+		"noEmail": "No email"
 	}
 }
