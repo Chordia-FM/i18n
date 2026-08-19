@@ -205,7 +205,8 @@
 	"sidebar": {
 		"pinned": "ピン留め",
 		"playlists": "プレイリスト",
-		"yourLibrary": "マイライブラリ"
+		"yourLibrary": "マイライブラリ",
+		"sharedWithYou": "Shared with you"
 	},
 	"trackCount": "{count, plural, other {#曲}}"
 }

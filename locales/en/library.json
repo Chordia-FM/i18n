@@ -233,7 +233,8 @@
 	"sidebar": {
 		"pinned": "Pinned",
 		"playlists": "Playlists",
-		"yourLibrary": "Your Library"
+		"yourLibrary": "Your Library",
+		"sharedWithYou": "Shared with you"
 	},
 	"trackCount": "{count, plural, one {# track} other {# tracks}}"
 }

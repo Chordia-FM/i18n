@@ -229,7 +229,8 @@
 	"sidebar": {
 		"pinned": "Innedpay",
 		"playlists": "Aylistsplay",
-		"yourLibrary": "Ouryay Ibrarylay"
+		"yourLibrary": "Ouryay Ibrarylay",
+		"sharedWithYou": "Shared with you"
 	},
 	"trackCount": "{count, plural, one {# acktray} other {# ackstray}}"
 }

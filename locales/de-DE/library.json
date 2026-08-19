@@ -201,7 +201,8 @@
 	},
 	"sidebar": {
 		"pinned": "Angeheftet",
-		"yourLibrary": "Ihre Bibliothek"
+		"yourLibrary": "Ihre Bibliothek",
+		"sharedWithYou": "Shared with you"
 	},
 	"trackCount": "{count, plural, one {# Titel} other {# Titel}}"
 }

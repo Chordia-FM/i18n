@@ -205,7 +205,8 @@
 	"sidebar": {
 		"pinned": "고정됨",
 		"playlists": "플레이리스트",
-		"yourLibrary": "내 라이브러리"
+		"yourLibrary": "내 라이브러리",
+		"sharedWithYou": "Shared with you"
 	},
 	"trackCount": "{count, plural, other {트랙 #개}}"
 }

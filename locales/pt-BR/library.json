@@ -199,7 +199,8 @@
 	},
 	"sidebar": {
 		"pinned": "Fixados",
-		"yourLibrary": "Sua biblioteca"
+		"yourLibrary": "Sua biblioteca",
+		"sharedWithYou": "Shared with you"
 	},
 	"trackCount": "{count, plural, one {# faixa} other {# faixas}}"
 }

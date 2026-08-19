@@ -202,7 +202,8 @@
 	},
 	"sidebar": {
 		"pinned": "Épinglés",
-		"yourLibrary": "Votre bibliothèque"
+		"yourLibrary": "Votre bibliothèque",
+		"sharedWithYou": "Shared with you"
 	},
 	"trackCount": "{count, plural, one {# morceau} other {# morceaux}}"
 }
