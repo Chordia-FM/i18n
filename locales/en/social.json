@@ -2,7 +2,7 @@
 	"badges": {
 		"earlyBird": {
 			"detail": "Here since {date}.",
-			"title": "First Pressing",
+			"title": "Early Bird",
 			"detailRanked": "{position, selectordinal, one {#st} two {#nd} few {#rd} other {#th}} account here, since {date}."
 		},
 		"earlySupporter": {
@@ -27,10 +27,41 @@
 		"about": {
 			"developer": "Given to the people who build Chordia.",
 			"staff": "Given to the people who run this instance and keep it working.",
-			"early_bird": "For accounts created before this instance opened its doors properly.",
+			"early_bird": "For accounts that were here before this instance opened its doors properly: the first pressing, in record terms.",
 			"early_supporter": "One of the first hundred people to ever pay for Chordia. The number never changes hands.",
 			"sonic": "A current Sonic subscriber. The streak counts unbroken months.",
 			"super_sonic": "A current Super-Sonic subscriber. The badge gains a ring for every stage of the streak."
+		},
+		"directory": {
+			"title": "Badges",
+			"subtitle": "Every badge on this instance, who has one, and how to get one.",
+			"howTo": "How to get it:",
+			"open": "Still available",
+			"closed": "No longer available",
+			"overTime": "Holders over time",
+			"holders": "{count, plural, one {# holder} other {# holders}}",
+			"remaining": "{count, plural, one {# left} other {# left}}",
+			"until": "open until {date}",
+			"name": {
+				"developer": "Developer",
+				"staff": "Staff",
+				"early_bird": "Early Bird",
+				"early_supporter": "Founding 100",
+				"sonic": "Sonic",
+				"super_sonic": "Super-Sonic"
+			},
+			"earn": {
+				"developer": "Granted by an admin to people who work on Chordia itself.",
+				"staff": "Granted by an admin to people who help run this instance.",
+				"early_bird": "Have an account created before this instance's cutoff date. There is nothing to sign up for; if you were here, you have it.",
+				"early_supporter": "Be one of the first hundred accounts to ever start a paid subscription. Ranks are never reissued, so a rank that is taken is taken forever.",
+				"sonic": "Subscribe to Sonic. The badge lasts as long as the subscription does.",
+				"super_sonic": "Subscribe to Super-Sonic. The badge gains a ring at three, six and twelve unbroken months."
+			},
+			"noHistory": {
+				"tooFew": "Nobody has earned this yet, so there is nothing to plot.",
+				"untracked": "Not plotted. A subscription badge records when its holder's current streak began, which moves if they lapse and come back, so past totals cannot be recovered. Drawing a line here would mean inventing one."
+			}
 		}
 	},
 	"block": {
