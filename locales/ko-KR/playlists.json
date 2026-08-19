@@ -94,7 +94,18 @@
 		},
 		"sortBy": "정렬 기준",
 		"updated": "스마트 플레이리스트를 업데이트했습니다",
-		"valuePlaceholder": "값"
+		"valuePlaceholder": "값",
+		"period": {
+			"all": "All time"
+		},
+		"valueList": {
+			"addMore": "Add another…",
+			"remove": "Remove {name}"
+		},
+		"valueHint": {
+			"label": "Search labels…",
+			"title": "Search titles…"
+		}
 	},
 	"songCount": "{count, plural, other {#곡}}",
 	"stats": {

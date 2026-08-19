@@ -89,7 +89,18 @@
 		},
 		"sortBy": "Sortieren nach",
 		"updated": "Intelligente Playlist aktualisiert",
-		"valuePlaceholder": "Wert"
+		"valuePlaceholder": "Wert",
+		"period": {
+			"all": "All time"
+		},
+		"valueList": {
+			"addMore": "Add another…",
+			"remove": "Remove {name}"
+		},
+		"valueHint": {
+			"label": "Search labels…",
+			"title": "Search titles…"
+		}
 	},
 	"songCount": "{count, plural, one {# Song} other {# Songs}}",
 	"stats": {

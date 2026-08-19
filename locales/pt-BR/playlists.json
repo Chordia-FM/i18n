@@ -93,7 +93,18 @@
 		},
 		"sortBy": "Ordenar por",
 		"updated": "Playlist inteligente atualizada",
-		"valuePlaceholder": "valor"
+		"valuePlaceholder": "valor",
+		"period": {
+			"all": "All time"
+		},
+		"valueList": {
+			"addMore": "Add another…",
+			"remove": "Remove {name}"
+		},
+		"valueHint": {
+			"label": "Search labels…",
+			"title": "Search titles…"
+		}
 	},
 	"songCount": "{count, plural, one {# música} other {# músicas}}",
 	"stats": {

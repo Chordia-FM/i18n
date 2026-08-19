@@ -92,7 +92,16 @@
 		"valueHint": {
 			"album": "Hunt treasures…",
 			"artist": "Hunt artists…",
-			"genre": "Hunt genres…"
+			"genre": "Hunt genres…",
+			"label": "Search labels…",
+			"title": "Search titles…"
+		},
+		"period": {
+			"all": "All time"
+		},
+		"valueList": {
+			"addMore": "Add another…",
+			"remove": "Remove {name}"
 		}
 	},
 	"songCount": "{count, plural, one {# shanty} other {# shanties}}",

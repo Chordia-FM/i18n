@@ -143,9 +143,18 @@
 		"valueHint": {
 			"album": "Earchsay albumsway…",
 			"artist": "Earchsay artistsway…",
-			"genre": "Earchsay enresgay…"
+			"genre": "Earchsay enresgay…",
+			"label": "Search labels…",
+			"title": "Search titles…"
 		},
-		"valuePlaceholder": "aluevay"
+		"valuePlaceholder": "aluevay",
+		"period": {
+			"all": "All time"
+		},
+		"valueList": {
+			"addMore": "Add another…",
+			"remove": "Remove {name}"
+		}
 	},
 	"songCount": "{count, plural, one {# ongsay} other {# ongssay}}",
 	"stats": {

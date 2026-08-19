@@ -134,7 +134,6 @@
 			"listening": "Your listening",
 			"track": "Track"
 		},
-		"iconLabel": "Icon",
 		"kindLabel": "Smart playlist",
 		"limit": "Limit",
 		"match": "Match",
@@ -162,7 +161,8 @@
 		"period": {
 			"month": "in {month}",
 			"rolling": "{count, plural, one {in the last day} other {in the last # days}}",
-			"year": "in {year}"
+			"year": "in {year}",
+			"all": "All time"
 		},
 		"periodLabel": "Window",
 		"presets": {
@@ -251,10 +251,16 @@
 		"valueHint": {
 			"album": "Search albums…",
 			"artist": "Search artists…",
-			"genre": "Search genres…"
+			"genre": "Search genres…",
+			"label": "Search labels…",
+			"title": "Search titles…"
 		},
 		"valuePlaceholder": "value",
-		"valueUpper": "upper value"
+		"valueUpper": "upper value",
+		"valueList": {
+			"addMore": "Add another…",
+			"remove": "Remove {name}"
+		}
 	},
 	"songCount": "{count, plural, one {# song} other {# songs}}",
 	"stats": {

@@ -94,7 +94,18 @@
 		},
 		"sortBy": "Ordenar por",
 		"updated": "Lista inteligente actualizada",
-		"valuePlaceholder": "valor"
+		"valuePlaceholder": "valor",
+		"period": {
+			"all": "All time"
+		},
+		"valueList": {
+			"addMore": "Add another…",
+			"remove": "Remove {name}"
+		},
+		"valueHint": {
+			"label": "Search labels…",
+			"title": "Search titles…"
+		}
 	},
 	"songCount": "{count, plural, one {# canción} other {# canciones}}",
 	"stats": {

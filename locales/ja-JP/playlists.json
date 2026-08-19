@@ -94,7 +94,18 @@
 		},
 		"sortBy": "並べ替え",
 		"updated": "スマートプレイリストを更新しました",
-		"valuePlaceholder": "値"
+		"valuePlaceholder": "値",
+		"period": {
+			"all": "All time"
+		},
+		"valueList": {
+			"addMore": "Add another…",
+			"remove": "Remove {name}"
+		},
+		"valueHint": {
+			"label": "Search labels…",
+			"title": "Search titles…"
+		}
 	},
 	"songCount": "{count, plural, other {#曲}}",
 	"stats": {
