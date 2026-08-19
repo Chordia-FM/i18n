@@ -380,5 +380,22 @@
 		"user": "User",
 		"verified": "Email verified",
 		"noEmail": "No email"
+	},
+	"plan": {
+		"title": "Complimentary plan",
+		"hint": "Gives this account a plan for free, including the tier badge. It only ever raises: comping a lower tier to somebody who already pays for a higher one changes nothing.",
+		"tierLabel": "Tier to grant",
+		"untilLabel": "Until",
+		"untilHint": "Runs out at the end of the chosen day.",
+		"foreverHint": "Leave the date empty for a lifetime grant.",
+		"notePlaceholder": "Note, e.g. beta tester",
+		"grant": "Grant",
+		"update": "Update grant",
+		"revoke": "Revoke",
+		"revokeConfirm": "Take this complimentary plan back? They keep whatever they actually pay for.",
+		"granted": "Plan granted.",
+		"revoked": "Plan revoked.",
+		"current": "Currently granted {tier}, {when}.",
+		"forever": "no expiry"
 	}
 }
