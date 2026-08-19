@@ -131,7 +131,8 @@
 			"scheduleLabel": "Automaticway efreshray",
 			"unchanged": "{count, plural, one {Alreadyway upway otay ateday, # acktray} other {Alreadyway upway otay ateday, # ackstray}}",
 			"onCompleteLabel": "Refresh when I finish it",
-			"onCompleteHint": "Re-runs the rules once you have played the whole playlist through."
+			"onCompleteHint": "Re-runs the rules once you have played the whole playlist through.",
+			"action": "Refresh now"
 		},
 		"removeRule": "Emoveray uleray",
 		"ruleField": "Uleray ieldfay",

@@ -80,7 +80,8 @@
 		"refresh": {
 			"now": "Actualiser",
 			"onCompleteLabel": "Refresh when I finish it",
-			"onCompleteHint": "Re-runs the rules once you have played the whole playlist through."
+			"onCompleteHint": "Re-runs the rules once you have played the whole playlist through.",
+			"action": "Refresh now"
 		},
 		"removeRule": "Supprimer la règle",
 		"ruleField": "Champ de la règle",
