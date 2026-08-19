@@ -99,7 +99,10 @@
 		"saved": "Badges updated",
 		"staff": "Staff",
 		"staffHint": "A staff role also grants the top plan's features, marked complimentary. It does not grant a supporter badge.",
-		"title": "Badges"
+		"title": "Badges",
+		"translator": "Translator",
+		"translatorPlaceholder": "Languages, e.g. Japanese, Korean",
+		"translatorHint": "Naming the languages grants the badge; clearing the field removes it."
 	},
 	"editCatalog": {
 		"title": "Edit catalog metadata"

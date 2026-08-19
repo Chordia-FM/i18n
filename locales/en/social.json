@@ -30,7 +30,8 @@
 			"early_bird": "For accounts that were here before this instance opened its doors properly: the first pressing, in record terms.",
 			"early_supporter": "One of the first hundred people to ever pay for Chordia. The number never changes hands.",
 			"sonic": "A current Sonic subscriber. The streak counts unbroken months.",
-			"super_sonic": "A current Super-Sonic subscriber. The badge gains a ring for every stage of the streak."
+			"super_sonic": "A current Super-Sonic subscriber. The badge gains a ring for every stage of the streak.",
+			"translator": "For the people who translate Chordia into other languages."
 		},
 		"directory": {
 			"title": "Badges",
@@ -48,7 +49,8 @@
 				"early_bird": "Early Bird",
 				"early_supporter": "Founding 100",
 				"sonic": "Sonic",
-				"super_sonic": "Super-Sonic"
+				"super_sonic": "Super-Sonic",
+				"translator": "Translator"
 			},
 			"earn": {
 				"developer": "Granted by an admin to people who work on Chordia itself.",
@@ -56,7 +58,8 @@
 				"early_bird": "Have an account created before this instance's cutoff date. There is nothing to sign up for; if you were here, you have it.",
 				"early_supporter": "Be one of the first hundred accounts to ever start a paid subscription. Ranks are never reissued, so a rank that is taken is taken forever.",
 				"sonic": "Subscribe to Sonic. The badge lasts as long as the subscription does.",
-				"super_sonic": "Subscribe to Super-Sonic. The badge gains a ring at three, six and twelve unbroken months."
+				"super_sonic": "Subscribe to Super-Sonic. The badge gains a ring at three, six and twelve unbroken months.",
+				"translator": "Translate Chordia and ask an admin to add it. The catalogs are community work and there was no way to say so."
 			},
 			"noHistory": {
 				"tooFew": "Nobody has earned this yet, so there is nothing to plot.",
