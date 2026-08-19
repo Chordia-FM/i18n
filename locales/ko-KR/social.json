@@ -41,7 +41,6 @@
 			"less": "접기",
 			"more": "더보기"
 		},
-		"eyebrow": "프로필",
 		"itemPlays": "{count, plural, other {#회 재생}}",
 		"joinedDate": "{date, date, ::yMMMM}",
 		"joinedLabel": "{date} 가입",

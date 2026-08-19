@@ -41,7 +41,6 @@
 			"less": "Afficher moins",
 			"more": "Afficher plus"
 		},
-		"eyebrow": "Profil",
 		"itemPlays": "{count, plural, one {# écoute} other {# écoutes}}",
 		"joinedDate": "{date, date, ::yMMMM}",
 		"joinedLabel": "inscrit en {date}",

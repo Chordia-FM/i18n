@@ -40,7 +40,6 @@
 			"less": "Mostrar menos",
 			"more": "Mostrar mais"
 		},
-		"eyebrow": "Perfil",
 		"itemPlays": "{count, plural, one {# reprodução} other {# reproduções}}",
 		"joinedDate": "{date, date, ::yMMMM}",
 		"joinedLabel": "entrou em {date}",

@@ -41,7 +41,6 @@
 			"less": "折りたたむ",
 			"more": "もっと見る"
 		},
-		"eyebrow": "プロフィール",
 		"itemPlays": "{count, plural, other {#回再生}}",
 		"joinedDate": "{date, date, ::yMMMM}",
 		"joinedLabel": "{date}に参加",

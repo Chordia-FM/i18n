@@ -92,7 +92,6 @@
 			"less": "Show less",
 			"more": "Show more"
 		},
-		"eyebrow": "Profile",
 		"hidden": {
 			"description": "{name} keeps their profile private.",
 			"title": "This profile isn't shared with you"
