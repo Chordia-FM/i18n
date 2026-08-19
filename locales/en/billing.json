@@ -9,7 +9,9 @@
 		"portalFailed": "Could not open your billing page. Try again in a moment."
 	},
 	"features": {
-		"accents": { "name": "Accent colors" },
+		"accents": {
+			"name": "Accent colors"
+		},
 		"animated_avatar": {
 			"locked": "Keep your avatar animated instead of frozen on its first frame.",
 			"name": "Animated avatars"
@@ -30,17 +32,23 @@
 			"locked": "Let your accent fade through colors, follow the artwork, or drift through the spectrum.",
 			"name": "Living accent colors"
 		},
-		"libraries": { "name": "Your own libraries" },
+		"libraries": {
+			"name": "Your own libraries"
+		},
 		"name_accent": {
 			"locked": "Your name shows in your own color wherever it appears.",
 			"name": "Colored display name"
 		},
-		"playback": { "name": "Full-quality playback, EQ and offline" },
+		"playback": {
+			"name": "Full-quality playback, EQ and offline"
+		},
 		"profile_accent": {
 			"locked": "Your profile page wears your color for anyone who visits it.",
 			"name": "Your color on your profile"
 		},
-		"retention": { "name": "Listening history kept" },
+		"retention": {
+			"name": "Listening history kept"
+		},
 		"scrobble_editing": {
 			"locked": "Fix a mis-tagged play or remove one that should not be there.",
 			"name": "Edit your play history"
@@ -49,11 +57,16 @@
 			"locked": "Playlists that build themselves from rules and keep themselves current.",
 			"name": "Smart playlists"
 		},
-		"social": { "name": "Friends, profiles and sharing" },
+		"social": {
+			"name": "Friends, profiles and sharing"
+		},
 		"taste_match_summary": {
 			"locked": "See what you actually share with a friend, not just a percentage.",
 			"name": "Detailed taste match"
 		}
+	},
+	"gate": {
+		"unlock": "Unlock this"
 	},
 	"plan": {
 		"cancellingBody": "Your plan is set to end on {date}. Everything keeps working until then.",
@@ -86,8 +99,8 @@
 		"switch": "Switch to this",
 		"title": "Plans",
 		"upgrade": "Upgrade",
-		"years": "{count, plural, one {# year} other {# years}}",
-		"yearly": "Yearly"
+		"yearly": "Yearly",
+		"years": "{count, plural, one {# year} other {# years}}"
 	},
 	"upgrade": {
 		"body": "This is part of {plan}.",

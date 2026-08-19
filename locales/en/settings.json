@@ -68,6 +68,13 @@
 		"paletteStopAria": "Color {index}",
 		"showProfileAccents": "Let profiles use their own colors",
 		"showProfileAccentsHint": "When someone has set a color, their profile page wears it while you are on it.",
+		"speed": {
+			"brisk": "Brisk",
+			"relaxed": "Relaxed",
+			"steady": "Steady"
+		},
+		"speedHint": "How quickly it moves. Even the fastest takes about a minute to come round.",
+		"speedTitle": "Speed",
 		"title": "Appearance"
 	},
 	"connections": {
