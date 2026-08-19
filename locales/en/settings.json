@@ -289,7 +289,7 @@
 			},
 			"original": {
 				"desc": "Bit-perfect source. Highest bandwidth.",
-				"label": "Lossless"
+				"label": "Source"
 			}
 		},
 		"streamingQuality": "Streaming quality",
@@ -382,7 +382,7 @@
 		},
 		"lossless": {
 			"desc": "Bit-perfect source. Highest bandwidth.",
-			"label": "Lossless"
+			"label": "Source"
 		},
 		"normal": {
 			"desc": "~128 kbps, balanced.",
