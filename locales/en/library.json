@@ -31,6 +31,23 @@
 		"removeError": "Couldn't remove download",
 		"removeTooltip": "Remove download",
 		"songCount": "{count, plural, one {# song} other {# songs}}",
+		"stats": {
+			"artistCount": "{count, plural, one {# song} other {# songs}}",
+			"bitrate": "Average bitrate",
+			"bitrateValue": "{value, number} kbps",
+			"byArtist": "Most downloaded artists",
+			"device": "Device storage",
+			"deviceUsage": "{used} of {total} used by this browser, downloads included",
+			"length": "Total length",
+			"liked": "In your Liked Songs",
+			"likedShare": "{liked, number} of {total, number}",
+			"newest": "Newest",
+			"oldest": "Oldest",
+			"size": "On disk",
+			"songs": "Songs",
+			"title": "Your downloads",
+			"unknownQuota": "This browser will not say how much room is left."
+		},
 		"storedOnDevice": "stored on this device",
 		"title": "Downloads"
 	},
@@ -110,6 +127,20 @@
 		"remove": "Remove from Liked Songs",
 		"save": "Save to Liked Songs",
 		"songCount": "{count, plural, one {# song} other {# songs}}",
+		"stats": {
+			"artistCount": "{count, plural, one {# song} other {# songs}}",
+			"firstLike": "First like",
+			"keepRatio": "You kept {liked, number} of the {played, number} songs you have played",
+			"length": "Total length",
+			"missed": "The songs the heart missed",
+			"missedHint": "Played the most, never liked. Tap a heart to fix that.",
+			"neverPlayed": "Never played",
+			"overTime": "How your collection grew",
+			"plays": "Plays",
+			"songs": "Songs",
+			"title": "Your liked songs",
+			"topArtists": "Most kept artists"
+		},
 		"title": "Liked Songs"
 	},
 	"likedSongs": "Liked Songs",
@@ -134,9 +165,40 @@
 	"metadata": {
 		"intro": "Edit metadata for this library only. Your changes apply across your views; anything you leave blank keeps the original value. Global catalog edits live in the admin page.",
 		"noMatches": "No matches.",
+		"overrides": {
+			"field": {
+				"album": "Album",
+				"album_type": "Type",
+				"artist": "Artist",
+				"banner": "Banner",
+				"bio": "Biography",
+				"cover": "Cover",
+				"disc_no": "Disc number",
+				"genre": "Genre",
+				"genres": "Genres",
+				"image": "Image",
+				"label": "Label",
+				"name": "Name",
+				"title": "Title",
+				"track_no": "Track number",
+				"year": "Year"
+			},
+			"kind": {
+				"album": "Album",
+				"artist": "Artist",
+				"track": "Track"
+			},
+			"main": "Also in the main catalog",
+			"none": "You have not overridden anything in this library yet.",
+			"reset": "Reset",
+			"resetConfirm": "Clear this override? The entity goes back to what the catalog says.",
+			"resetDone": "Override cleared",
+			"title": "{count, plural, one {# override you have set} other {# overrides you have set}}",
+			"wasCalled": "Catalog name: {name}"
+		},
+		"searchHint": "Keep typing: {count, plural, one {# character} other {# characters}} at least.",
 		"searchPlaceholder": "Search artists, albums, or tracks…",
-		"title": "Metadata",
-		"searchHint": "Keep typing: {count, plural, one {# character} other {# characters}} at least."
+		"title": "Metadata"
 	},
 	"new": {
 		"addFailed": "Failed to add library",
