@@ -78,7 +78,9 @@
 			"not_equals": "is not"
 		},
 		"refresh": {
-			"now": "Aktualisieren"
+			"now": "Aktualisieren",
+			"onCompleteLabel": "Refresh when I finish it",
+			"onCompleteHint": "Re-runs the rules once you have played the whole playlist through."
 		},
 		"removeRule": "Regel entfernen",
 		"ruleField": "Regelfeld",

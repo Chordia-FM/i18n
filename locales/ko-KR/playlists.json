@@ -83,7 +83,9 @@
 			"not_equals": "is not"
 		},
 		"refresh": {
-			"now": "새로고침"
+			"now": "새로고침",
+			"onCompleteLabel": "Refresh when I finish it",
+			"onCompleteHint": "Re-runs the rules once you have played the whole playlist through."
 		},
 		"removeRule": "규칙 제거",
 		"ruleField": "규칙 항목",

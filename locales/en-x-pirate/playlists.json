@@ -86,7 +86,9 @@
 			"not_equals": "is not"
 		},
 		"refresh": {
-			"unchanged": "{count, plural, one {Already up t' date, # ditty} other {Already up t' date, # ditties}}"
+			"unchanged": "{count, plural, one {Already up t' date, # ditty} other {Already up t' date, # ditties}}",
+			"onCompleteLabel": "Refresh when I finish it",
+			"onCompleteHint": "Re-runs the rules once you have played the whole playlist through."
 		},
 		"removeRule": "Cast off rule",
 		"saveError": "Couldn't stow th' cunning chart",

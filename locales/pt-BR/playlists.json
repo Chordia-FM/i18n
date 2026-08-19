@@ -82,7 +82,9 @@
 			"not_equals": "is not"
 		},
 		"refresh": {
-			"now": "Atualizar"
+			"now": "Atualizar",
+			"onCompleteLabel": "Refresh when I finish it",
+			"onCompleteHint": "Re-runs the rules once you have played the whole playlist through."
 		},
 		"removeRule": "Remover regra",
 		"ruleField": "Campo da regra",

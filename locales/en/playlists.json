@@ -224,7 +224,9 @@
 			"neverRefreshed": "not refreshed yet",
 			"now": "Refresh",
 			"scheduleLabel": "Automatic refresh",
-			"unchanged": "{count, plural, one {Already up to date, # track} other {Already up to date, # tracks}}"
+			"unchanged": "{count, plural, one {Already up to date, # track} other {Already up to date, # tracks}}",
+			"onCompleteLabel": "Refresh when I finish it",
+			"onCompleteHint": "Re-runs the rules once you have played the whole playlist through."
 		},
 		"removeRule": "Remove rule",
 		"ruleField": "Rule field",
