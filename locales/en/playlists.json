@@ -145,6 +145,7 @@
 		"new": "New smart playlist",
 		"newTitle": "New smart playlist",
 		"noRules": "No rules yet. Pick a starting point above, or add one.",
+		"noRulesYet": "No rules yet",
 		"ofTheseRules": "of these rules:",
 		"op": {
 			"after": "is after",
@@ -160,6 +161,7 @@
 			"not_contains": "does not contain",
 			"not_equals": "is not"
 		},
+		"or": "or",
 		"period": {
 			"month": "in {month}",
 			"rolling": "{count, plural, one {in the last day} other {in the last # days}}",
