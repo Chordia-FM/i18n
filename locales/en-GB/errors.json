@@ -32,6 +32,14 @@
 		"twoFactorNotEnabled": "",
 		"twoFactorStartFirst": ""
 	},
+	"billing": {
+		"disabled": "",
+		"alreadySubscribed": "",
+		"noCustomer": "",
+		"invalidPlan": "",
+		"samePlan": "",
+		"upstream": ""
+	},
 	"catalog": {
 		"albumLoadFailed": "",
 		"artistLoadFailed": "",
@@ -121,6 +129,9 @@
 	"pins": {
 		"unknownKind": ""
 	},
+	"plan": {
+		"required": ""
+	},
 	"playlist": {
 		"limitReached": ""
 	},
@@ -129,8 +140,19 @@
 		"title": ""
 	},
 	"saveFailed": "",
+	"scrobble": {
+		"notFound": "",
+		"invalidTime": "",
+		"unknownTrack": ""
+	},
+	"settings": {
+		"invalidAccent": ""
+	},
 	"share": {
 		"withSelf": ""
+	},
+	"smart": {
+		"invalidRule": ""
 	},
 	"state": {
 		"message": "",
