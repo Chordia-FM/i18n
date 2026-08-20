@@ -199,7 +199,12 @@
 		"submit": "",
 		"submitFailed": "",
 		"suggestionSent": "",
-		"title": ""
+		"title": {
+			"artist": "",
+			"album": "",
+			"track": ""
+		},
+		"nothingChanged": ""
 	},
 	"search": {
 		"placeholder": ""
@@ -236,7 +241,22 @@
 			"today": "",
 			"yesterday": ""
 		},
-		"reorderAria": ""
+		"reorderAria": "",
+		"variant": {
+			"acoustic": "",
+			"bonus": "",
+			"cover": "",
+			"deluxe": "",
+			"demo": "",
+			"extended": "",
+			"instrumental": "",
+			"karaoke": "",
+			"live": "",
+			"radio_edit": "",
+			"remaster": "",
+			"remix": "",
+			"single_version": ""
+		}
 	},
 	"trackCount": ""
 }
