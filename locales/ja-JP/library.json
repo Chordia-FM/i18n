@@ -1,7 +1,16 @@
 {
 	"artists": {
 		"empty": "アーティストがまだいません。カタログの同期中かもしれません。",
-		"title": "アーティスト"
+		"title": "アーティスト",
+		"searchPlaceholder": "",
+		"sortLabel": "",
+		"sort": {
+			"name": "",
+			"albums": "",
+			"tracks": ""
+		},
+		"filtered": "",
+		"noMatches": ""
 	},
 	"card": {
 		"editTitle": "このライブラリを編集",
@@ -22,6 +31,23 @@
 		"removeError": "ダウンロードを削除できませんでした",
 		"removeTooltip": "ダウンロードを削除",
 		"songCount": "{count, plural, other {#曲}}",
+		"stats": {
+			"artistCount": "{count, plural, other {#曲}}",
+			"bitrate": "",
+			"bitrateValue": "",
+			"byArtist": "",
+			"device": "",
+			"deviceUsage": "",
+			"length": "",
+			"liked": "",
+			"likedShare": "",
+			"newest": "",
+			"oldest": "",
+			"size": "",
+			"songs": "曲",
+			"title": "",
+			"unknownQuota": ""
+		},
 		"storedOnDevice": "このデバイスに保存済み",
 		"title": "ダウンロード"
 	},
@@ -101,6 +127,20 @@
 		"remove": "お気に入りの曲から削除",
 		"save": "お気に入りの曲に保存",
 		"songCount": "{count, plural, other {#曲}}",
+		"stats": {
+			"artistCount": "{count, plural, other {#曲}}",
+			"firstLike": "",
+			"keepRatio": "",
+			"length": "",
+			"missed": "",
+			"missedHint": "",
+			"neverPlayed": "",
+			"overTime": "",
+			"plays": "再生回数",
+			"songs": "曲",
+			"title": "",
+			"topArtists": ""
+		},
 		"title": "お気に入りの曲"
 	},
 	"likedSongs": "お気に入りの曲",
@@ -125,9 +165,40 @@
 	"metadata": {
 		"intro": "このライブラリのみのメタデータを編集します。変更はあなたの表示全体に適用され、空欄のままにした項目は元の値を保持します。カタログ全体の編集は管理ページで行えます。",
 		"noMatches": "一致する結果はありません。",
+		"overrides": {
+			"field": {
+				"album": "アルバム",
+				"album_type": "種類",
+				"artist": "アーティスト",
+				"banner": "バナー",
+				"bio": "",
+				"cover": "",
+				"disc_no": "",
+				"genre": "ジャンル",
+				"genres": "ジャンル",
+				"image": "画像",
+				"label": "レーベル",
+				"name": "名前",
+				"title": "タイトル",
+				"track_no": "",
+				"year": "年"
+			},
+			"kind": {
+				"album": "アルバム",
+				"artist": "アーティスト",
+				"track": ""
+			},
+			"main": "",
+			"none": "",
+			"reset": "リセット",
+			"resetConfirm": "",
+			"resetDone": "",
+			"title": "",
+			"wasCalled": ""
+		},
+		"searchHint": "",
 		"searchPlaceholder": "アーティスト、アルバム、トラックを検索…",
-		"title": "メタデータ",
-		"searchHint": ""
+		"title": "メタデータ"
 	},
 	"new": {
 		"addFailed": "ライブラリを追加できませんでした",
@@ -233,7 +304,8 @@
 	"sidebar": {
 		"pinned": "ピン留め",
 		"playlists": "プレイリスト",
-		"yourLibrary": "マイライブラリ"
+		"yourLibrary": "マイライブラリ",
+		"sharedWithYou": "あなたと共有中"
 	},
 	"trackCount": "{count, plural, other {#曲}}"
 }
