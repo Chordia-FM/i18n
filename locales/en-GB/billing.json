@@ -1,0 +1,110 @@
+{
+	"activation": {
+		"pending": "",
+		"slow": ""
+	},
+	"errors": {
+		"changeFailed": "",
+		"checkoutFailed": "",
+		"portalFailed": ""
+	},
+	"features": {
+		"accents": {
+			"name": ""
+		},
+		"animated_avatar": {
+			"locked": "",
+			"name": ""
+		},
+		"csv_export": {
+			"locked": "",
+			"name": ""
+		},
+		"custom_accent": {
+			"locked": "",
+			"name": ""
+		},
+		"deep_analytics": {
+			"locked": "",
+			"name": ""
+		},
+		"dynamic_accent": {
+			"locked": "",
+			"name": ""
+		},
+		"libraries": {
+			"name": ""
+		},
+		"name_accent": {
+			"locked": "",
+			"name": ""
+		},
+		"playback": {
+			"name": ""
+		},
+		"profile_accent": {
+			"locked": "",
+			"name": ""
+		},
+		"retention": {
+			"name": ""
+		},
+		"scrobble_editing": {
+			"locked": "",
+			"name": ""
+		},
+		"smart_playlists": {
+			"locked": "",
+			"name": ""
+		},
+		"social": {
+			"name": ""
+		},
+		"taste_match_summary": {
+			"locked": "",
+			"name": ""
+		}
+	},
+	"gate": {
+		"unlock": ""
+	},
+	"plan": {
+		"cancellingBody": "",
+		"complimentary": "",
+		"endsOn": "",
+		"freeBody": "",
+		"manage": "",
+		"manageHint": "",
+		"renewsBody": "",
+		"since": ""
+	},
+	"plans": {
+		"blurb": {
+			"free": "",
+			"sonic": "",
+			"super_sonic": ""
+		},
+		"current": "",
+		"downgrade": "",
+		"featureColumn": "",
+		"forever": "",
+		"freePrice": "",
+		"included": "",
+		"intervalLabel": "",
+		"monthly": "",
+		"monthsFree": "",
+		"notIncluded": "",
+		"perMonth": "",
+		"perYear": "",
+		"switch": "",
+		"title": "",
+		"upgrade": "",
+		"yearly": "",
+		"years": ""
+	},
+	"upgrade": {
+		"body": "",
+		"cta": "",
+		"title": ""
+	}
+}
