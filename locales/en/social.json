@@ -34,24 +34,7 @@
 			"translator": "For the people who translate Chordia into other languages."
 		},
 		"directory": {
-			"title": "Badges",
-			"subtitle": "Every badge on this instance, who has one, and how to get one.",
-			"howTo": "How to get it:",
-			"open": "Still available",
 			"closed": "No longer available",
-			"overTime": "Holders over time",
-			"holders": "{count, plural, one {# holder} other {# holders}}",
-			"remaining": "{count, plural, one {# left} other {# left}}",
-			"until": "open until {date}",
-			"name": {
-				"developer": "Developer",
-				"staff": "Staff",
-				"early_bird": "Early Bird",
-				"early_supporter": "Founding 100",
-				"sonic": "Sonic",
-				"super_sonic": "Super-Sonic",
-				"translator": "Translator"
-			},
 			"earn": {
 				"developer": "Granted by an admin to people who work on Chordia itself.",
 				"staff": "Granted by an admin to people who help run this instance.",
@@ -61,10 +44,30 @@
 				"super_sonic": "Subscribe to Super-Sonic. The badge gains a ring at three, six and twelve unbroken months.",
 				"translator": "Translate Chordia and ask an admin to add it. The catalogs are community work and there was no way to say so."
 			},
+			"holders": "{count, plural, one {# holder} other {# holders}}",
+			"howTo": "How to get it:",
+			"name": {
+				"developer": "Developer",
+				"staff": "Staff",
+				"early_bird": "Early Bird",
+				"early_supporter": "Founding 100",
+				"sonic": "Sonic",
+				"super_sonic": "Super-Sonic",
+				"translator": "Translator"
+			},
 			"noHistory": {
 				"tooFew": "Nobody has earned this yet, so there is nothing to plot.",
 				"untracked": "Not plotted. A subscription badge records when its holder's current streak began, which moves if they lapse and come back, so past totals cannot be recovered. Drawing a line here would mean inventing one."
-			}
+			},
+			"open": "Still available",
+			"overTime": "Holders over time",
+			"remaining": "{count, plural, one {# left} other {# left}}",
+			"stageFromStart": "From day one",
+			"stageMonths": "{count, plural, one {After # month} other {After # months}}",
+			"stages": "How it grows",
+			"subtitle": "Every badge on this instance, who has one, and how to get one.",
+			"title": "Badges",
+			"until": "open until {date}"
 		}
 	},
 	"block": {
