@@ -1,7 +1,16 @@
 {
 	"artists": {
 		"empty": "No artists yet - the catalogue may still be syncing.",
-		"title": ""
+		"title": "",
+		"searchPlaceholder": "",
+		"sortLabel": "",
+		"sort": {
+			"name": "",
+			"albums": "",
+			"tracks": ""
+		},
+		"filtered": "",
+		"noMatches": ""
 	},
 	"card": {
 		"editTitle": "",
@@ -22,6 +31,23 @@
 		"removeError": "",
 		"removeTooltip": "",
 		"songCount": "",
+		"stats": {
+			"artistCount": "",
+			"bitrate": "",
+			"bitrateValue": "",
+			"byArtist": "",
+			"device": "",
+			"deviceUsage": "",
+			"length": "",
+			"liked": "",
+			"likedShare": "",
+			"newest": "",
+			"oldest": "",
+			"size": "",
+			"songs": "",
+			"title": "",
+			"unknownQuota": ""
+		},
 		"storedOnDevice": "",
 		"title": ""
 	},
@@ -101,6 +127,20 @@
 		"remove": "",
 		"save": "",
 		"songCount": "",
+		"stats": {
+			"artistCount": "",
+			"firstLike": "",
+			"keepRatio": "",
+			"length": "",
+			"missed": "",
+			"missedHint": "",
+			"neverPlayed": "",
+			"overTime": "",
+			"plays": "",
+			"songs": "",
+			"title": "",
+			"topArtists": ""
+		},
 		"title": ""
 	},
 	"likedSongs": "",
@@ -125,9 +165,40 @@
 	"metadata": {
 		"intro": "Edit metadata for this library only. Your changes apply across your views; anything you leave blank keeps the original value. Global catalogue edits live in the admin page.",
 		"noMatches": "",
+		"overrides": {
+			"field": {
+				"album": "",
+				"album_type": "",
+				"artist": "",
+				"banner": "",
+				"bio": "",
+				"cover": "",
+				"disc_no": "",
+				"genre": "",
+				"genres": "",
+				"image": "",
+				"label": "",
+				"name": "",
+				"title": "",
+				"track_no": "",
+				"year": ""
+			},
+			"kind": {
+				"album": "",
+				"artist": "",
+				"track": ""
+			},
+			"main": "",
+			"none": "",
+			"reset": "",
+			"resetConfirm": "",
+			"resetDone": "",
+			"title": "",
+			"wasCalled": ""
+		},
+		"searchHint": "",
 		"searchPlaceholder": "",
-		"title": "",
-		"searchHint": ""
+		"title": ""
 	},
 	"new": {
 		"addFailed": "",
@@ -233,7 +304,8 @@
 	"sidebar": {
 		"pinned": "",
 		"playlists": "",
-		"yourLibrary": ""
+		"yourLibrary": "",
+		"sharedWithYou": ""
 	},
 	"trackCount": ""
 }
