@@ -7,6 +7,26 @@
 		"selfHost": "",
 		"signIn": ""
 	},
+	"download": {
+		"eyebrow": "",
+		"title": "",
+		"subtitle": "",
+		"version": "",
+		"platform": {
+			"windows": "",
+			"mac_os": "",
+			"linux_app_image": "",
+			"linux_deb": ""
+		},
+		"unavailable": "",
+		"releasesLink": "",
+		"smartScreen": "",
+		"updates": "",
+		"checksums": "",
+		"browserHeading": "",
+		"browserBody": "",
+		"openInBrowser": ""
+	},
 	"eyebrow": "",
 	"faq": {
 		"cost": {
@@ -88,6 +108,7 @@
 			"terms": ""
 		},
 		"product": {
+			"download": "",
 			"features": "",
 			"heading": "",
 			"listening": "",
