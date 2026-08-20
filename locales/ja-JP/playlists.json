@@ -10,13 +10,23 @@
 		"invite": "+ 招待",
 		"invitePrompt": "ハンドルで共同編集者を招待",
 		"invited": "@{handle}を招待しました",
+		"manage": "",
 		"removeTitle": "{name}を削除",
-		"removed": "{name}を削除しました",
-		"manage": ""
+		"removed": "{name}を削除しました"
 	},
 	"confirm": {
 		"deleteMessage": "「{name}」を削除しますか？",
 		"deleteTitle": "プレイリストを削除"
+	},
+	"create": {
+		"kindLabel": "",
+		"namePlaceholder": "プレイリスト名",
+		"normal": "標準",
+		"normalDescription": "",
+		"smart": "",
+		"smartDescription": "",
+		"submit": "",
+		"title": "新しいプレイリスト"
 	},
 	"createFailed": "プレイリストを作成できませんでした",
 	"createdFromAlbumToast": "プレイリスト「{name}」を作成しました",
@@ -25,31 +35,31 @@
 		"title": "プレイリストを削除"
 	},
 	"edit": {
-		"title": "",
 		"choosePhoto": "",
-		"removePhoto": "",
-		"name": "名前",
 		"description": "説明",
 		"descriptionPlaceholder": "",
+		"name": "名前",
+		"photoError": "",
+		"removePhoto": "",
+		"saveError": "",
+		"title": "",
 		"visibility": {
 			"label": "",
 			"private": "",
-			"unlisted": "",
-			"public": "",
 			"privateHint": "",
-			"unlistedHint": "",
-			"publicHint": ""
-		},
-		"saveError": "",
-		"photoError": ""
+			"public": "",
+			"publicHint": "",
+			"unlisted": "",
+			"unlistedHint": ""
+		}
 	},
 	"empty": "このプレイリストは空です。トラックの「⋯」メニューから曲を追加できます。",
 	"emptyState": {
-		"title": "",
-		"searchPlaceholder": "",
-		"fromLiked": "",
 		"addHint": "",
-		"added": ""
+		"added": "",
+		"fromLiked": "",
+		"searchPlaceholder": "",
+		"title": ""
 	},
 	"kind": {
 		"collaborative": "",
@@ -82,9 +92,12 @@
 	"sharedWithYou": " · あなたと共有中",
 	"smart": {
 		"addRule": "ルールを追加",
+		"and": "",
 		"bool": {
-			"false": "いいえ",
-			"true": "はい"
+			"explicitFalse": "",
+			"explicitTrue": "",
+			"likedFalse": "",
+			"likedTrue": ""
 		},
 		"created": "スマートプレイリストを作成しました",
 		"delete": {
@@ -92,17 +105,35 @@
 			"title": "スマートプレイリストを削除"
 		},
 		"description": "ルールに一致するトラックが自動的に反映されます。",
+		"dir": {
+			"asc": "",
+			"desc": ""
+		},
 		"editRules": "ルールを編集",
 		"editTitle": "スマートプレイリストを編集",
 		"empty": "これらのルールに一致するトラックはまだありません。「ルールを編集」で条件を緩めてみてください。",
 		"field": {
+			"added_at": "追加日",
 			"album": "アルバム",
 			"artist": "アーティスト",
+			"duration": "",
+			"explicit": "露骨な表現",
+			"first_played": "初回再生",
 			"genre": "ジャンル",
+			"label": "レーベル",
+			"last_played": "最終再生",
 			"liked": "お気に入り",
-			"plays": "再生回数",
+			"my_plays": "",
+			"plays": "",
+			"release_date": "",
 			"title": "タイトル",
+			"version_type": "",
 			"year": "年"
+		},
+		"group": {
+			"library": "所有済み",
+			"listening": "",
+			"track": ""
 		},
 		"kindLabel": "スマートプレイリスト",
 		"limit": "上限",
@@ -114,11 +145,76 @@
 		"namePlaceholder": "プレイリスト名",
 		"new": "新しいスマートプレイリスト",
 		"newTitle": "新しいスマートプレイリスト",
+		"noRules": "",
+		"noRulesYet": "",
 		"ofTheseRules": "に一致:",
 		"op": {
+			"after": "",
+			"before": "",
+			"between": "",
 			"contains": "含む",
 			"equals": "等しい",
-			"is": "一致"
+			"gte": "",
+			"in_last": "",
+			"is": "一致",
+			"lte": "",
+			"not_in_last": "",
+			"not_contains": "",
+			"not_equals": ""
+		},
+		"or": "または",
+		"period": {
+			"month": "",
+			"rolling": "",
+			"year": "",
+			"all": "全期間"
+		},
+		"periodLabel": "",
+		"presets": {
+			"forgotten": {
+				"description": "",
+				"label": "",
+				"name": ""
+			},
+			"likedOldest": {
+				"description": "",
+				"label": "",
+				"name": ""
+			},
+			"neverPlayed": {
+				"description": "",
+				"label": "",
+				"name": ""
+			},
+			"onRepeat": {
+				"description": "",
+				"label": "",
+				"name": ""
+			},
+			"recentlyAdded": {
+				"description": "",
+				"label": "",
+				"name": ""
+			},
+			"title": "",
+			"topMonth": {
+				"description": "",
+				"label": "",
+				"name": ""
+			},
+			"topYear": {
+				"description": "",
+				"label": "",
+				"name": ""
+			}
+		},
+		"preview": {
+			"count": "{count, plural, other {#曲}}",
+			"countCapped": "",
+			"empty": "",
+			"limited": "",
+			"title": "",
+			"unavailable": ""
 		},
 		"refresh": {
 			"changed": "",
@@ -131,32 +227,55 @@
 			"neverRefreshed": "",
 			"now": "更新",
 			"scheduleLabel": "",
-			"unchanged": ""
+			"unchanged": "",
+			"onCompleteLabel": "",
+			"onCompleteHint": "",
+			"action": ""
 		},
 		"removeRule": "ルールを削除",
 		"ruleField": "ルールの項目",
 		"ruleOperator": "ルールの演算子",
 		"saveError": "スマートプレイリストを保存できませんでした",
 		"sort": {
-			"plays": "再生回数",
+			"added_at": "追加日",
+			"duration": "",
+			"last_played": "最終再生",
+			"my_plays": "",
+			"my_plays_in_period": "",
+			"plays": "",
 			"random": "ランダム",
+			"release_date": "",
 			"title": "タイトル"
 		},
 		"sortBy": "並べ替え",
+		"sortDir": "",
+		"unit": {
+			"days": "",
+			"months": "",
+			"weeks": ""
+		},
+		"unitLabel": "",
 		"updated": "スマートプレイリストを更新しました",
 		"valueHint": {
 			"album": "",
 			"artist": "",
-			"genre": ""
+			"genre": "",
+			"label": "",
+			"title": ""
 		},
-		"valuePlaceholder": "値"
+		"valuePlaceholder": "値",
+		"valueUpper": "",
+		"valueList": {
+			"addMore": "",
+			"remove": "{name}を削除"
+		}
 	},
 	"songCount": "{count, plural, other {#曲}}",
 	"stats": {
-		"title": "",
-		"scopeMe": "あなた",
-		"scopeEveryone": "全員",
 		"empty": "",
+		"scopeEveryone": "全員",
+		"scopeMe": "あなた",
+		"title": "",
 		"trackingSince": ""
 	},
 	"toast": {
