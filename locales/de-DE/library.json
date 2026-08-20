@@ -1,7 +1,16 @@
 {
 	"artists": {
 		"empty": "Noch keine Künstler – der Katalog wird möglicherweise noch synchronisiert.",
-		"title": "Künstler"
+		"title": "Künstler",
+		"searchPlaceholder": "",
+		"sortLabel": "",
+		"sort": {
+			"name": "",
+			"albums": "",
+			"tracks": ""
+		},
+		"filtered": "",
+		"noMatches": ""
 	},
 	"card": {
 		"editTitle": "Diese Bibliothek bearbeiten",
@@ -22,6 +31,23 @@
 		"removeError": "Download konnte nicht entfernt werden",
 		"removeTooltip": "Download entfernen",
 		"songCount": "{count, plural, one {# Song} other {# Songs}}",
+		"stats": {
+			"artistCount": "{count, plural, one {# Song} other {# Songs}}",
+			"bitrate": "",
+			"bitrateValue": "",
+			"byArtist": "",
+			"device": "",
+			"deviceUsage": "",
+			"length": "",
+			"liked": "",
+			"likedShare": "",
+			"newest": "",
+			"oldest": "",
+			"size": "",
+			"songs": "",
+			"title": "",
+			"unknownQuota": ""
+		},
 		"storedOnDevice": "auf diesem Gerät gespeichert",
 		"title": ""
 	},
@@ -101,6 +127,20 @@
 		"remove": "Aus Lieblingssongs entfernen",
 		"save": "Zu Lieblingssongs hinzufügen",
 		"songCount": "{count, plural, one {# Song} other {# Songs}}",
+		"stats": {
+			"artistCount": "{count, plural, one {# Song} other {# Songs}}",
+			"firstLike": "",
+			"keepRatio": "",
+			"length": "",
+			"missed": "",
+			"missedHint": "",
+			"neverPlayed": "",
+			"overTime": "",
+			"plays": "Wiedergaben",
+			"songs": "",
+			"title": "",
+			"topArtists": ""
+		},
 		"title": "Lieblingssongs"
 	},
 	"likedSongs": "Lieblingssongs",
@@ -125,9 +165,40 @@
 	"metadata": {
 		"intro": "Bearbeiten Sie Metadaten nur für diese Bibliothek. Ihre Änderungen gelten in allen Ihren Ansichten; alles, was Sie leer lassen, behält den ursprünglichen Wert. Globale Katalogänderungen finden Sie auf der Admin-Seite.",
 		"noMatches": "Keine Treffer.",
+		"overrides": {
+			"field": {
+				"album": "",
+				"album_type": "Typ",
+				"artist": "Künstler",
+				"banner": "",
+				"bio": "",
+				"cover": "",
+				"disc_no": "",
+				"genre": "",
+				"genres": "",
+				"image": "Bild",
+				"label": "",
+				"name": "",
+				"title": "Titel",
+				"track_no": "",
+				"year": "Jahr"
+			},
+			"kind": {
+				"album": "",
+				"artist": "Künstler",
+				"track": ""
+			},
+			"main": "",
+			"none": "",
+			"reset": "Zurücksetzen",
+			"resetConfirm": "",
+			"resetDone": "",
+			"title": "",
+			"wasCalled": ""
+		},
+		"searchHint": "",
 		"searchPlaceholder": "Künstler, Alben oder Titel suchen…",
-		"title": "Metadaten",
-		"searchHint": ""
+		"title": "Metadaten"
 	},
 	"new": {
 		"addFailed": "Bibliothek konnte nicht hinzugefügt werden",
@@ -233,7 +304,8 @@
 	"sidebar": {
 		"pinned": "Angeheftet",
 		"playlists": "",
-		"yourLibrary": "Ihre Bibliothek"
+		"yourLibrary": "Ihre Bibliothek",
+		"sharedWithYou": "Mit Ihnen geteilt"
 	},
 	"trackCount": "{count, plural, one {# Titel} other {# Titel}}"
 }
