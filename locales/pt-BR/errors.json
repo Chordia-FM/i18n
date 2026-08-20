@@ -32,6 +32,14 @@
 		"twoFactorNotEnabled": "A autenticação de dois fatores não está ativada.",
 		"twoFactorStartFirst": "Inicie primeiro a configuração de dois fatores."
 	},
+	"billing": {
+		"disabled": "",
+		"alreadySubscribed": "",
+		"noCustomer": "",
+		"invalidPlan": "",
+		"samePlan": "",
+		"upstream": ""
+	},
 	"catalog": {
 		"albumLoadFailed": "",
 		"artistLoadFailed": "",
@@ -121,6 +129,9 @@
 	"pins": {
 		"unknownKind": "Tipo de item fixado desconhecido."
 	},
+	"plan": {
+		"required": ""
+	},
 	"playlist": {
 		"limitReached": "Limite de playlists atingido para esta conta."
 	},
@@ -129,8 +140,19 @@
 		"title": "Algo deu errado"
 	},
 	"saveFailed": "Falha ao salvar",
+	"scrobble": {
+		"notFound": "",
+		"invalidTime": "",
+		"unknownTrack": ""
+	},
+	"settings": {
+		"invalidAccent": ""
+	},
 	"share": {
 		"withSelf": "Você não pode compartilhar consigo mesmo."
+	},
+	"smart": {
+		"invalidRule": ""
 	},
 	"state": {
 		"message": "",
