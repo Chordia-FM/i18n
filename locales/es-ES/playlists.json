@@ -10,13 +10,23 @@
 		"invite": "+ Invitar",
 		"invitePrompt": "Invita a un colaborador por su nombre de usuario",
 		"invited": "Invitaste a @{handle}",
+		"manage": "",
 		"removeTitle": "Quitar a {name}",
-		"removed": "Se quitó a {name}",
-		"manage": ""
+		"removed": "Se quitó a {name}"
 	},
 	"confirm": {
 		"deleteMessage": "¿Eliminar «{name}»?",
 		"deleteTitle": "Eliminar lista"
+	},
+	"create": {
+		"kindLabel": "",
+		"namePlaceholder": "Nombre de la lista",
+		"normal": "",
+		"normalDescription": "",
+		"smart": "",
+		"smartDescription": "",
+		"submit": "",
+		"title": "Nueva lista"
 	},
 	"createFailed": "No se pudo crear la lista",
 	"createdFromAlbumToast": "Lista «{name}» creada",
@@ -25,31 +35,31 @@
 		"title": "Eliminar lista"
 	},
 	"edit": {
-		"title": "",
 		"choosePhoto": "",
-		"removePhoto": "",
-		"name": "Nombre",
 		"description": "Descripción",
 		"descriptionPlaceholder": "",
+		"name": "Nombre",
+		"photoError": "",
+		"removePhoto": "",
+		"saveError": "",
+		"title": "",
 		"visibility": {
 			"label": "",
 			"private": "",
-			"unlisted": "",
-			"public": "",
 			"privateHint": "",
-			"unlistedHint": "",
-			"publicHint": ""
-		},
-		"saveError": "",
-		"photoError": ""
+			"public": "",
+			"publicHint": "",
+			"unlisted": "",
+			"unlistedHint": ""
+		}
 	},
 	"empty": "Esta lista está vacía. Añade canciones desde el menú “⋯” de cualquier pista.",
 	"emptyState": {
-		"title": "",
-		"searchPlaceholder": "",
-		"fromLiked": "",
 		"addHint": "",
-		"added": ""
+		"added": "",
+		"fromLiked": "",
+		"searchPlaceholder": "",
+		"title": ""
 	},
 	"kind": {
 		"collaborative": "",
@@ -82,9 +92,12 @@
 	"sharedWithYou": " · compartida contigo",
 	"smart": {
 		"addRule": "Añadir regla",
+		"and": "",
 		"bool": {
-			"false": "falso",
-			"true": "verdadero"
+			"explicitFalse": "",
+			"explicitTrue": "",
+			"likedFalse": "",
+			"likedTrue": ""
 		},
 		"created": "Lista inteligente creada",
 		"delete": {
@@ -92,17 +105,35 @@
 			"title": "Eliminar lista inteligente"
 		},
 		"description": "Las reglas seleccionan automáticamente las pistas que coinciden.",
+		"dir": {
+			"asc": "",
+			"desc": ""
+		},
 		"editRules": "Editar reglas",
 		"editTitle": "Editar lista inteligente",
 		"empty": "Todavía no hay pistas que cumplan estas reglas. Prueba a relajarlas con “Editar reglas”.",
 		"field": {
+			"added_at": "Fecha de adición",
 			"album": "Álbum",
 			"artist": "Artista",
+			"duration": "",
+			"explicit": "Explícito",
+			"first_played": "Primera reproducción",
 			"genre": "Género",
+			"label": "Sello",
+			"last_played": "Última reproducción",
 			"liked": "Me gusta",
-			"plays": "Reproducciones",
+			"my_plays": "",
+			"plays": "",
+			"release_date": "",
 			"title": "Título",
+			"version_type": "",
 			"year": "Año"
+		},
+		"group": {
+			"library": "En tu biblioteca",
+			"listening": "",
+			"track": ""
 		},
 		"kindLabel": "Lista inteligente",
 		"limit": "Límite",
@@ -114,11 +145,76 @@
 		"namePlaceholder": "Nombre de la lista",
 		"new": "Nueva lista inteligente",
 		"newTitle": "Nueva lista inteligente",
+		"noRules": "",
+		"noRulesYet": "",
 		"ofTheseRules": "de estas reglas:",
 		"op": {
+			"after": "",
+			"before": "",
+			"between": "",
 			"contains": "contiene",
 			"equals": "es",
-			"is": "es"
+			"gte": "",
+			"in_last": "",
+			"is": "es",
+			"lte": "",
+			"not_in_last": "",
+			"not_contains": "",
+			"not_equals": ""
+		},
+		"or": "o",
+		"period": {
+			"month": "",
+			"rolling": "",
+			"year": "",
+			"all": "Todo el tiempo"
+		},
+		"periodLabel": "",
+		"presets": {
+			"forgotten": {
+				"description": "",
+				"label": "",
+				"name": ""
+			},
+			"likedOldest": {
+				"description": "",
+				"label": "",
+				"name": ""
+			},
+			"neverPlayed": {
+				"description": "",
+				"label": "",
+				"name": ""
+			},
+			"onRepeat": {
+				"description": "",
+				"label": "",
+				"name": ""
+			},
+			"recentlyAdded": {
+				"description": "",
+				"label": "",
+				"name": ""
+			},
+			"title": "",
+			"topMonth": {
+				"description": "",
+				"label": "",
+				"name": ""
+			},
+			"topYear": {
+				"description": "",
+				"label": "",
+				"name": ""
+			}
+		},
+		"preview": {
+			"count": "{count, plural, one {# pista} other {# pistas}}",
+			"countCapped": "",
+			"empty": "",
+			"limited": "",
+			"title": "",
+			"unavailable": ""
 		},
 		"refresh": {
 			"changed": "",
@@ -131,32 +227,55 @@
 			"neverRefreshed": "",
 			"now": "Actualizar",
 			"scheduleLabel": "",
-			"unchanged": ""
+			"unchanged": "",
+			"onCompleteLabel": "",
+			"onCompleteHint": "",
+			"action": ""
 		},
 		"removeRule": "Quitar regla",
 		"ruleField": "Campo de la regla",
 		"ruleOperator": "Operador de la regla",
 		"saveError": "No se pudo guardar la lista inteligente",
 		"sort": {
-			"plays": "Reproducciones",
+			"added_at": "Fecha de adición",
+			"duration": "",
+			"last_played": "Última reproducción",
+			"my_plays": "",
+			"my_plays_in_period": "",
+			"plays": "",
 			"random": "Aleatorio",
+			"release_date": "",
 			"title": "Título"
 		},
 		"sortBy": "Ordenar por",
+		"sortDir": "",
+		"unit": {
+			"days": "",
+			"months": "",
+			"weeks": ""
+		},
+		"unitLabel": "",
 		"updated": "Lista inteligente actualizada",
 		"valueHint": {
 			"album": "",
 			"artist": "",
-			"genre": ""
+			"genre": "",
+			"label": "",
+			"title": ""
 		},
-		"valuePlaceholder": "valor"
+		"valuePlaceholder": "valor",
+		"valueUpper": "",
+		"valueList": {
+			"addMore": "",
+			"remove": "Quitar a {name}"
+		}
 	},
 	"songCount": "{count, plural, one {# canción} other {# canciones}}",
 	"stats": {
-		"title": "",
-		"scopeMe": "Tú",
-		"scopeEveryone": "Todos",
 		"empty": "",
+		"scopeEveryone": "Todos",
+		"scopeMe": "Tú",
+		"title": "",
 		"trackingSince": ""
 	},
 	"toast": {
