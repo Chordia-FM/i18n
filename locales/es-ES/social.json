@@ -1,4 +1,72 @@
 {
+	"badges": {
+		"earlyBird": {
+			"detail": "",
+			"title": "",
+			"detailRanked": ""
+		},
+		"earlySupporter": {
+			"detail": "",
+			"title": ""
+		},
+		"premium": {
+			"detail": ""
+		},
+		"staff": {
+			"admin": "Administración",
+			"detail": "",
+			"moderator": "",
+			"support": ""
+		},
+		"stage": {
+			"diamond": "",
+			"nova": "",
+			"orbit": "",
+			"spark": ""
+		},
+		"about": {
+			"developer": "",
+			"staff": "",
+			"early_bird": "",
+			"early_supporter": "",
+			"sonic": "",
+			"super_sonic": "",
+			"translator": ""
+		},
+		"directory": {
+			"title": "",
+			"subtitle": "",
+			"howTo": "",
+			"open": "",
+			"closed": "",
+			"overTime": "",
+			"holders": "",
+			"remaining": "",
+			"until": "",
+			"name": {
+				"developer": "",
+				"staff": "",
+				"early_bird": "",
+				"early_supporter": "",
+				"sonic": "",
+				"super_sonic": "",
+				"translator": ""
+			},
+			"earn": {
+				"developer": "",
+				"staff": "",
+				"early_bird": "",
+				"early_supporter": "",
+				"sonic": "",
+				"super_sonic": "",
+				"translator": ""
+			},
+			"noHistory": {
+				"tooFew": "",
+				"untracked": ""
+			}
+		}
+	},
 	"block": {
 		"confirmLabel": "Bloquear",
 		"confirmMessage": "¿Bloquear a @{handle}? Ninguno de los dos podrá añadir al otro como amigo.",
@@ -58,7 +126,6 @@
 			"less": "Mostrar menos",
 			"more": "Mostrar más"
 		},
-		"eyebrow": "Perfil",
 		"hidden": {
 			"description": "",
 			"title": ""
@@ -90,7 +157,8 @@
 		"topArtists": "Artistas principales",
 		"topTracks": "Pistas principales",
 		"totalPlays": "{count, plural, one {# reproducción} other {# reproducciones}}",
-		"totalPlaysCount": ""
+		"totalPlaysCount": "",
+		"listTabs": ""
 	},
 	"report": {
 		"promptMessage": ""
