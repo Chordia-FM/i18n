@@ -1,7 +1,16 @@
 {
 	"artists": {
 		"empty": "Aucun artiste pour l'instant — le catalogue est peut-être encore en cours de synchronisation.",
-		"title": "Artistes"
+		"title": "Artistes",
+		"searchPlaceholder": "",
+		"sortLabel": "",
+		"sort": {
+			"name": "",
+			"albums": "",
+			"tracks": ""
+		},
+		"filtered": "",
+		"noMatches": ""
 	},
 	"card": {
 		"editTitle": "Modifier cette bibliothèque",
@@ -22,6 +31,23 @@
 		"removeError": "Impossible de supprimer le téléchargement",
 		"removeTooltip": "Supprimer le téléchargement",
 		"songCount": "{count, plural, one {# chanson} other {# chansons}}",
+		"stats": {
+			"artistCount": "{count, plural, one {# chanson} other {# chansons}}",
+			"bitrate": "",
+			"bitrateValue": "",
+			"byArtist": "",
+			"device": "",
+			"deviceUsage": "",
+			"length": "",
+			"liked": "",
+			"likedShare": "",
+			"newest": "",
+			"oldest": "",
+			"size": "",
+			"songs": "Chansons",
+			"title": "",
+			"unknownQuota": ""
+		},
 		"storedOnDevice": "stockées sur cet appareil",
 		"title": "Téléchargements"
 	},
@@ -101,6 +127,20 @@
 		"remove": "Retirer des chansons aimées",
 		"save": "Ajouter aux chansons aimées",
 		"songCount": "{count, plural, one {# chanson} other {# chansons}}",
+		"stats": {
+			"artistCount": "{count, plural, one {# chanson} other {# chansons}}",
+			"firstLike": "",
+			"keepRatio": "",
+			"length": "",
+			"missed": "",
+			"missedHint": "",
+			"neverPlayed": "",
+			"overTime": "",
+			"plays": "Écoutes",
+			"songs": "Chansons",
+			"title": "",
+			"topArtists": ""
+		},
 		"title": "Chansons aimées"
 	},
 	"likedSongs": "Chansons aimées",
@@ -125,9 +165,40 @@
 	"metadata": {
 		"intro": "Modifiez les métadonnées de cette bibliothèque uniquement. Vos modifications s'appliquent à toutes vos vues ; tout champ laissé vide conserve la valeur d'origine. Les modifications du catalogue global se font dans la page d'administration.",
 		"noMatches": "Aucun résultat.",
+		"overrides": {
+			"field": {
+				"album": "",
+				"album_type": "",
+				"artist": "Artiste",
+				"banner": "Bannière",
+				"bio": "",
+				"cover": "",
+				"disc_no": "",
+				"genre": "",
+				"genres": "",
+				"image": "",
+				"label": "",
+				"name": "Nom",
+				"title": "Titre",
+				"track_no": "",
+				"year": "Année"
+			},
+			"kind": {
+				"album": "",
+				"artist": "Artiste",
+				"track": ""
+			},
+			"main": "",
+			"none": "",
+			"reset": "Réinitialiser",
+			"resetConfirm": "",
+			"resetDone": "",
+			"title": "",
+			"wasCalled": ""
+		},
+		"searchHint": "",
 		"searchPlaceholder": "Rechercher des artistes, des albums ou des morceaux…",
-		"title": "Métadonnées",
-		"searchHint": ""
+		"title": "Métadonnées"
 	},
 	"new": {
 		"addFailed": "Échec de l'ajout de la bibliothèque",
@@ -233,7 +304,8 @@
 	"sidebar": {
 		"pinned": "Épinglés",
 		"playlists": "",
-		"yourLibrary": "Votre bibliothèque"
+		"yourLibrary": "Votre bibliothèque",
+		"sharedWithYou": "Partagées avec vous"
 	},
 	"trackCount": "{count, plural, one {# morceau} other {# morceaux}}"
 }
