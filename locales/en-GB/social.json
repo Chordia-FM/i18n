@@ -1,4 +1,72 @@
 {
+	"badges": {
+		"earlyBird": {
+			"detail": "",
+			"title": "",
+			"detailRanked": ""
+		},
+		"earlySupporter": {
+			"detail": "",
+			"title": ""
+		},
+		"premium": {
+			"detail": ""
+		},
+		"staff": {
+			"admin": "",
+			"detail": "",
+			"moderator": "",
+			"support": ""
+		},
+		"stage": {
+			"diamond": "",
+			"nova": "",
+			"orbit": "",
+			"spark": ""
+		},
+		"about": {
+			"developer": "",
+			"staff": "",
+			"early_bird": "",
+			"early_supporter": "",
+			"sonic": "",
+			"super_sonic": "",
+			"translator": ""
+		},
+		"directory": {
+			"title": "",
+			"subtitle": "",
+			"howTo": "",
+			"open": "",
+			"closed": "",
+			"overTime": "",
+			"holders": "",
+			"remaining": "",
+			"until": "",
+			"name": {
+				"developer": "",
+				"staff": "",
+				"early_bird": "",
+				"early_supporter": "",
+				"sonic": "",
+				"super_sonic": "",
+				"translator": ""
+			},
+			"earn": {
+				"developer": "",
+				"staff": "",
+				"early_bird": "",
+				"early_supporter": "",
+				"sonic": "",
+				"super_sonic": "",
+				"translator": ""
+			},
+			"noHistory": {
+				"tooFew": "",
+				"untracked": ""
+			}
+		}
+	},
 	"block": {
 		"confirmLabel": "",
 		"confirmMessage": "",
@@ -58,7 +126,6 @@
 			"less": "",
 			"more": ""
 		},
-		"eyebrow": "",
 		"hidden": {
 			"description": "",
 			"title": ""
@@ -90,7 +157,8 @@
 		"topArtists": "",
 		"topTracks": "",
 		"totalPlays": "",
-		"totalPlaysCount": ""
+		"totalPlaysCount": "",
+		"listTabs": ""
 	},
 	"report": {
 		"promptMessage": ""
