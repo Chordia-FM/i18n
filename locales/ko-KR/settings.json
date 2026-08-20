@@ -28,10 +28,6 @@
 	"appearance": {
 		"accentColour": "",
 		"accentHexAria": "강조 색상 16진값",
-		"customAccentAria": "",
-		"customColour": "",
-		"customColourHint": "",
-		"title": "화면",
 		"accents": {
 			"amber": "",
 			"blue": "",
@@ -45,7 +41,41 @@
 			"pink": "",
 			"purple": "",
 			"teal": ""
-		}
+		},
+		"customAccentAria": "",
+		"customColour": "",
+		"customColourHint": "",
+		"mode": {
+			"artwork": "아트워크",
+			"artworkHint": "",
+			"chroma": "",
+			"chromaHint": "",
+			"fade": "",
+			"fadeHint": "",
+			"gradient": "",
+			"gradientHint": "",
+			"static": "",
+			"staticHint": ""
+		},
+		"modeHint": "",
+		"modeTitle": "",
+		"nameAccent": "",
+		"nameAccentHint": "",
+		"palette": "",
+		"paletteAdd": "",
+		"paletteHint": "",
+		"paletteRemove": "",
+		"paletteStopAria": "",
+		"showProfileAccents": "",
+		"showProfileAccentsHint": "",
+		"speed": {
+			"brisk": "",
+			"relaxed": "",
+			"steady": ""
+		},
+		"speedHint": "",
+		"speedTitle": "",
+		"title": "화면"
 	},
 	"connections": {
 		"lastfm": {
@@ -75,10 +105,10 @@
 	},
 	"desktop": {
 		"close": {
-			"title": "",
 			"desc": "",
-			"tray": "",
-			"quit": ""
+			"quit": "",
+			"title": "",
+			"tray": ""
 		},
 		"presence": {
 			"artwork": "아트워크",
@@ -90,9 +120,9 @@
 			"label": "",
 			"lines": {
 				"details": "",
-				"state": "",
 				"largeText": "",
-				"smallText": ""
+				"smallText": "",
+				"state": ""
 			},
 			"opt": {
 				"art": "",
@@ -107,17 +137,17 @@
 			"reset": "",
 			"title": "",
 			"vars": {
-				"title": "",
-				"artist": "",
 				"album": "",
-				"playState": "",
-				"duration": "",
-				"trackUrl": "",
 				"albumUrl": "",
+				"artist": "",
 				"artistUrl": "",
+				"duration": "",
+				"globalPlays": "",
+				"playState": "",
 				"plays": "",
 				"rank": "",
-				"globalPlays": ""
+				"title": "",
+				"trackUrl": ""
 			},
 			"varsDesc": "",
 			"varsTitle": "",
@@ -126,19 +156,19 @@
 		},
 		"title": "",
 		"updates": {
-			"title": "",
-			"label": "",
-			"desc": "",
 			"check": "",
-			"install": "",
 			"checking": "",
 			"current": "",
-			"version": "",
-			"found": "",
+			"desc": "",
 			"downloading": "다운로드 중…",
 			"downloadingPercent": "",
+			"failed": "",
+			"found": "",
+			"install": "",
+			"label": "",
 			"restarting": "",
-			"failed": ""
+			"title": "",
+			"version": ""
 		}
 	},
 	"downloads": {
@@ -174,6 +204,50 @@
 	},
 	"equalizer": {
 		"title": "이퀄라이저"
+	},
+	"import": {
+		"body": "",
+		"chooseFile": "",
+		"errors": {
+			"internal": "",
+			"interrupted": "",
+			"malformed": "",
+			"unrecognized": ""
+		},
+		"hint": "",
+		"progress": "",
+		"sourceAuto": "",
+		"status": {
+			"done": "완료",
+			"failed": "실패함",
+			"pending": "",
+			"running": "가져오는 중"
+		},
+		"summary": "",
+		"title": "",
+		"tooLarge": "",
+		"uploadFailed": "",
+		"uploading": ""
+	},
+	"layout": {
+		"customizeControls": "",
+		"customizeSidebar": "",
+		"playerBar": {
+			"allHidden": "",
+			"help": "",
+			"title": ""
+		},
+		"reset": "",
+		"sidebar": {
+			"empty": "",
+			"help": "",
+			"title": ""
+		},
+		"title": ""
+	},
+	"plan": {
+		"selfHosted": "",
+		"title": ""
 	},
 	"playback": {
 		"autoplay": {
@@ -215,7 +289,7 @@
 			},
 			"original": {
 				"desc": "비트 퍼펙트 원본. 대역폭을 가장 많이 사용합니다.",
-				"label": "무손실"
+				"label": "소스"
 			}
 		},
 		"streamingQuality": "스트리밍 품질",
@@ -231,29 +305,29 @@
 			"label": "이메일 알림"
 		},
 		"followedArtistsVisibility": {
-			"label": "",
-			"desc": ""
+			"desc": "",
+			"label": ""
 		},
 		"followersVisibility": {
-			"label": "",
-			"desc": ""
+			"desc": "",
+			"label": ""
 		},
 		"followingVisibility": {
-			"label": "",
-			"desc": ""
+			"desc": "",
+			"label": ""
 		},
 		"groups": {
 			"activity": {
-				"title": "활동",
-				"desc": ""
-			},
-			"notifications": {
-				"title": "",
-				"desc": ""
+				"desc": "",
+				"title": "활동"
 			},
 			"audience": {
-				"title": "",
-				"desc": ""
+				"desc": "",
+				"title": ""
+			},
+			"notifications": {
+				"desc": "",
+				"title": ""
 			}
 		},
 		"openToFollows": {
@@ -261,12 +335,12 @@
 			"label": ""
 		},
 		"playlistsVisibility": {
-			"label": "플레이리스트",
-			"desc": ""
+			"desc": "",
+			"label": "플레이리스트"
 		},
 		"profileVisibility": {
-			"label": "프로필",
-			"desc": ""
+			"desc": "",
+			"label": "프로필"
 		},
 		"scrobble": {
 			"desc": "",
@@ -308,7 +382,7 @@
 		},
 		"lossless": {
 			"desc": "비트 퍼펙트 원본. 대역폭을 가장 많이 사용합니다.",
-			"label": "무손실"
+			"label": "소스"
 		},
 		"normal": {
 			"desc": "",
@@ -373,10 +447,10 @@
 		"unknownDevice": "알 수 없는 기기"
 	},
 	"startup": {
-		"title": "",
 		"desc": "",
 		"home": "홈",
-		"library": "라이브러리"
+		"library": "라이브러리",
+		"title": ""
 	},
 	"title": "설정",
 	"twoFactor": {
