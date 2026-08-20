@@ -188,7 +188,7 @@
 			"note": "Nota para los revisores (opcional)"
 		},
 		"genresHint": "Separa varios géneros con comas.",
-		"helpText": "Edita abajo los datos de {name}. Guarda los cambios al instante en una biblioteca tuya o envíalos como sugerencia para todos (las revisa un administrador). Solo se envían los campos modificados.",
+		"helpText": "",
 		"imageAlt": "Imagen del artista",
 		"libraryTarget": "Elige en qué biblioteca guardar",
 		"noteHint": "Solo se envía con una sugerencia. Cualquier cosa que ayude a los revisores (por ejemplo, un enlace a la fuente).",
@@ -199,7 +199,12 @@
 		"submit": "Enviar sugerencia",
 		"submitFailed": "No se pudo enviar tu sugerencia.",
 		"suggestionSent": "Sugerencia enviada para revisión.",
-		"title": "Editar los datos del artista"
+		"title": {
+			"artist": "",
+			"album": "",
+			"track": ""
+		},
+		"nothingChanged": ""
 	},
 	"search": {
 		"placeholder": "Artistas, álbumes o canciones"
@@ -236,7 +241,22 @@
 			"today": "Hoy",
 			"yesterday": "Ayer"
 		},
-		"reorderAria": ""
+		"reorderAria": "",
+		"variant": {
+			"acoustic": "Acústico",
+			"bonus": "",
+			"cover": "",
+			"deluxe": "",
+			"demo": "",
+			"extended": "",
+			"instrumental": "",
+			"karaoke": "",
+			"live": "En vivo",
+			"radio_edit": "",
+			"remaster": "Remasterización",
+			"remix": "",
+			"single_version": ""
+		}
 	},
 	"trackCount": "{count, plural, one {# pista} other {# pistas}}"
 }
