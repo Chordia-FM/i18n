@@ -241,7 +241,22 @@
 			"today": "Today",
 			"yesterday": "Yesterday"
 		},
-		"reorderAria": "{title}, position {position} of {count}"
+		"reorderAria": "{title}, position {position} of {count}",
+		"variant": {
+			"acoustic": "Acoustic",
+			"bonus": "Bonus track",
+			"cover": "Cover",
+			"deluxe": "Deluxe edition",
+			"demo": "Demo",
+			"extended": "Extended",
+			"instrumental": "Instrumental",
+			"karaoke": "Karaoke",
+			"live": "Live",
+			"radio_edit": "Radio edit",
+			"remaster": "Remaster",
+			"remix": "Remix",
+			"single_version": "Single version"
+		}
 	},
 	"trackCount": "{count, plural, one {# track} other {# tracks}}"
 }

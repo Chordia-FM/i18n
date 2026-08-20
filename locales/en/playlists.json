@@ -127,6 +127,7 @@
 			"plays": "Plays by everyone",
 			"release_date": "Release date",
 			"title": "Title",
+			"version_type": "Version",
 			"year": "Year"
 		},
 		"group": {
