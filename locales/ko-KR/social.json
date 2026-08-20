@@ -1,4 +1,72 @@
 {
+	"badges": {
+		"earlyBird": {
+			"detail": "",
+			"title": "",
+			"detailRanked": ""
+		},
+		"earlySupporter": {
+			"detail": "",
+			"title": ""
+		},
+		"premium": {
+			"detail": ""
+		},
+		"staff": {
+			"admin": "관리자",
+			"detail": "",
+			"moderator": "",
+			"support": ""
+		},
+		"stage": {
+			"diamond": "",
+			"nova": "",
+			"orbit": "",
+			"spark": ""
+		},
+		"about": {
+			"developer": "",
+			"staff": "",
+			"early_bird": "",
+			"early_supporter": "",
+			"sonic": "",
+			"super_sonic": "",
+			"translator": ""
+		},
+		"directory": {
+			"title": "",
+			"subtitle": "",
+			"howTo": "",
+			"open": "",
+			"closed": "",
+			"overTime": "",
+			"holders": "",
+			"remaining": "",
+			"until": "",
+			"name": {
+				"developer": "",
+				"staff": "",
+				"early_bird": "",
+				"early_supporter": "",
+				"sonic": "",
+				"super_sonic": "",
+				"translator": ""
+			},
+			"earn": {
+				"developer": "",
+				"staff": "",
+				"early_bird": "",
+				"early_supporter": "",
+				"sonic": "",
+				"super_sonic": "",
+				"translator": ""
+			},
+			"noHistory": {
+				"tooFew": "",
+				"untracked": ""
+			}
+		}
+	},
 	"block": {
 		"confirmLabel": "차단",
 		"confirmMessage": "@{handle}님을 차단할까요? 서로 친구로 추가할 수 없게 됩니다.",
@@ -58,7 +126,6 @@
 			"less": "접기",
 			"more": "더보기"
 		},
-		"eyebrow": "프로필",
 		"hidden": {
 			"description": "",
 			"title": ""
@@ -90,7 +157,8 @@
 		"topArtists": "인기 아티스트",
 		"topTracks": "인기 트랙",
 		"totalPlays": "{count, plural, other {#회 재생}}",
-		"totalPlaysCount": ""
+		"totalPlaysCount": "",
+		"listTabs": ""
 	},
 	"report": {
 		"promptMessage": ""
