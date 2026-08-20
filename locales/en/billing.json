@@ -80,7 +80,7 @@
 	},
 	"plans": {
 		"blurb": {
-			"free": "Everything you need to listen, with your history kept for a year.",
+			"free": "Everything you need to listen, with {years, plural, one {# year} other {# years}} of listening history.",
 			"sonic": "Make it yours, and let playlists build themselves.",
 			"super_sonic": "Living color, the whole picture of your listening, and your history forever."
 		},
