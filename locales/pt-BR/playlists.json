@@ -45,10 +45,6 @@
 	"sharedWithYou": " · compartilhada com você",
 	"smart": {
 		"addRule": "Adicionar regra",
-		"bool": {
-			"false": "falso",
-			"true": "verdadeiro"
-		},
 		"created": "Playlist inteligente criada",
 		"delete": {
 			"confirmBody": "Excluir esta playlist inteligente?",
@@ -81,10 +77,15 @@
 		"op": {
 			"contains": "contém",
 			"equals": "é",
-			"is": "é"
+			"is": "é",
+			"not_contains": "does not contain",
+			"not_equals": "is not"
 		},
 		"refresh": {
-			"now": "Atualizar"
+			"now": "Atualizar",
+			"onCompleteLabel": "Refresh when I finish it",
+			"onCompleteHint": "Re-runs the rules once you have played the whole playlist through.",
+			"action": "Refresh now"
 		},
 		"removeRule": "Remover regra",
 		"ruleField": "Campo da regra",
@@ -97,7 +98,18 @@
 		},
 		"sortBy": "Ordenar por",
 		"updated": "Playlist inteligente atualizada",
-		"valuePlaceholder": "valor"
+		"valuePlaceholder": "valor",
+		"period": {
+			"all": "All time"
+		},
+		"valueList": {
+			"addMore": "Add another…",
+			"remove": "Remove {name}"
+		},
+		"valueHint": {
+			"label": "Search labels…",
+			"title": "Search titles…"
+		}
 	},
 	"songCount": "{count, plural, one {# música} other {# músicas}}",
 	"stats": {

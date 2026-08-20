@@ -1,4 +1,72 @@
 {
+	"badges": {
+		"earlyBird": {
+			"detail": "Here since {date}.",
+			"title": "Early Bird",
+			"detailRanked": "{position, selectordinal, one {#st} two {#nd} few {#rd} other {#th}} account here, since {date}."
+		},
+		"earlySupporter": {
+			"detail": "№ {rank} of the first hundred supporters, since {date}.",
+			"title": "Founding 100"
+		},
+		"premium": {
+			"detail": "{count, plural, one {# month} other {# months}} unbroken, since {date}."
+		},
+		"staff": {
+			"admin": "Admin",
+			"detail": "Part of the team running this instance.",
+			"moderator": "Moderator",
+			"support": "Support"
+		},
+		"stage": {
+			"diamond": "Diamond",
+			"nova": "Nova",
+			"orbit": "Orbit",
+			"spark": "Spark"
+		},
+		"about": {
+			"developer": "Given to the people who build Chordia.",
+			"staff": "Given to the people who run this instance and keep it working.",
+			"early_bird": "For accounts that were here before this instance opened its doors properly: the first pressing, in record terms.",
+			"early_supporter": "One of the first hundred people to ever pay for Chordia. The number never changes hands.",
+			"sonic": "A current Sonic subscriber. The streak counts unbroken months.",
+			"super_sonic": "A current Super-Sonic subscriber. The badge gains a ring for every stage of the streak.",
+			"translator": "For the people who translate Chordia into other languages."
+		},
+		"directory": {
+			"title": "Badges",
+			"subtitle": "Every badge on this instance, who has one, and how to get one.",
+			"howTo": "How to get it:",
+			"open": "Still available",
+			"closed": "No longer available",
+			"overTime": "Holders over time",
+			"holders": "{count, plural, one {# holder} other {# holders}}",
+			"remaining": "{count, plural, one {# left} other {# left}}",
+			"until": "open until {date}",
+			"name": {
+				"developer": "Developer",
+				"staff": "Staff",
+				"early_bird": "Early Bird",
+				"early_supporter": "Founding 100",
+				"sonic": "Sonic",
+				"super_sonic": "Super-Sonic",
+				"translator": "Translator"
+			},
+			"earn": {
+				"developer": "Granted by an admin to people who work on Chordia itself.",
+				"staff": "Granted by an admin to people who help run this instance.",
+				"early_bird": "Have an account created before this instance's cutoff date. There is nothing to sign up for; if you were here, you have it.",
+				"early_supporter": "Be one of the first hundred accounts to ever start a paid subscription. Ranks are never reissued, so a rank that is taken is taken forever.",
+				"sonic": "Subscribe to Sonic. The badge lasts as long as the subscription does.",
+				"super_sonic": "Subscribe to Super-Sonic. The badge gains a ring at three, six and twelve unbroken months.",
+				"translator": "Translate Chordia and ask an admin to add it. The catalogs are community work and there was no way to say so."
+			},
+			"noHistory": {
+				"tooFew": "Nobody has earned this yet, so there is nothing to plot.",
+				"untracked": "Not plotted. A subscription badge records when its holder's current streak began, which moves if they lapse and come back, so past totals cannot be recovered. Drawing a line here would mean inventing one."
+			}
+		}
+	},
 	"block": {
 		"confirmLabel": "Block",
 		"confirmMessage": "Block @{handle}? You won't be able to add each other as friends.",
@@ -58,7 +126,6 @@
 			"less": "Show less",
 			"more": "Show more"
 		},
-		"eyebrow": "Profile",
 		"hidden": {
 			"description": "{name} keeps their profile private.",
 			"title": "This profile isn't shared with you"
@@ -90,7 +157,8 @@
 		"topArtists": "Top artists",
 		"topTracks": "Top tracks",
 		"totalPlays": "{count, plural, one {# play} other {# plays}}",
-		"totalPlaysCount": "{count}"
+		"totalPlaysCount": "{count}",
+		"listTabs": "Playlists, followers and following"
 	},
 	"report": {
 		"promptMessage": "Report @{handle}. What's the issue?"

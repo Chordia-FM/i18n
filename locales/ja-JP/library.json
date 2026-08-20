@@ -1,7 +1,16 @@
 {
 	"artists": {
 		"empty": "アーティストがまだいません。カタログの同期中かもしれません。",
-		"title": "アーティスト"
+		"title": "アーティスト",
+		"searchPlaceholder": "Search artists",
+		"sortLabel": "Sort artists",
+		"sort": {
+			"name": "Name (A to Z)",
+			"albums": "Most albums",
+			"tracks": "Most tracks"
+		},
+		"filtered": "{count, plural, other {# of {total} artists}}",
+		"noMatches": "No artists match \"{query}\"."
 	},
 	"card": {
 		"editTitle": "このライブラリを編集",
@@ -205,7 +214,8 @@
 	"sidebar": {
 		"pinned": "ピン留め",
 		"playlists": "プレイリスト",
-		"yourLibrary": "マイライブラリ"
+		"yourLibrary": "マイライブラリ",
+		"sharedWithYou": "Shared with you"
 	},
 	"trackCount": "{count, plural, other {#曲}}"
 }

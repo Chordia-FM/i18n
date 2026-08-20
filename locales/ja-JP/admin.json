@@ -136,6 +136,7 @@
 		"suspendTitle": "ユーザーを停止",
 		"suspendedBadge": "停止中",
 		"title": "ユーザー",
-		"unsuspend": "停止を解除"
+		"unsuspend": "停止を解除",
+		"noEmail": "No email"
 	}
 }

@@ -165,7 +165,12 @@
 		"submit": "Vorschlag einreichen",
 		"submitFailed": "Ihr Vorschlag konnte nicht gesendet werden.",
 		"suggestionSent": "Vorschlag zur Prüfung gesendet.",
-		"title": "Künstlerdetails bearbeiten"
+		"title": {
+			"artist": "Artist details",
+			"album": "Album details",
+			"track": "Track details"
+		},
+		"nothingChanged": "Change something first, then report it."
 	},
 	"search": {
 		"placeholder": "Künstler, Alben oder Songs"

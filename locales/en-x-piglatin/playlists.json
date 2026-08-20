@@ -82,10 +82,6 @@
 	"sharedWithYou": " · aredshay ithway ouyay",
 	"smart": {
 		"addRule": "Addway uleray",
-		"bool": {
-			"false": "alsefay",
-			"true": "uetray"
-		},
 		"created": "Artsmay aylistplay eatedcray",
 		"delete": {
 			"confirmBody": "Eleteday isthay artsmay aylistplay?",
@@ -118,7 +114,9 @@
 		"op": {
 			"contains": "ontainscay",
 			"equals": "isway",
-			"is": "isway"
+			"is": "isway",
+			"not_contains": "does not contain",
+			"not_equals": "is not"
 		},
 		"refresh": {
 			"changed": "Efreshedray: {added} addedway, {removed} emovedray, {total} otaltay",
@@ -131,7 +129,10 @@
 			"neverRefreshed": "otnay efreshedray etyay",
 			"now": "Efreshray",
 			"scheduleLabel": "Automaticway efreshray",
-			"unchanged": "{count, plural, one {Alreadyway upway otay ateday, # acktray} other {Alreadyway upway otay ateday, # ackstray}}"
+			"unchanged": "{count, plural, one {Alreadyway upway otay ateday, # acktray} other {Alreadyway upway otay ateday, # ackstray}}",
+			"onCompleteLabel": "Refresh when I finish it",
+			"onCompleteHint": "Re-runs the rules once you have played the whole playlist through.",
+			"action": "Refresh now"
 		},
 		"removeRule": "Emoveray uleray",
 		"ruleField": "Uleray ieldfay",
@@ -147,9 +148,18 @@
 		"valueHint": {
 			"album": "Earchsay albumsway…",
 			"artist": "Earchsay artistsway…",
-			"genre": "Earchsay enresgay…"
+			"genre": "Earchsay enresgay…",
+			"label": "Search labels…",
+			"title": "Search titles…"
 		},
-		"valuePlaceholder": "aluevay"
+		"valuePlaceholder": "aluevay",
+		"period": {
+			"all": "All time"
+		},
+		"valueList": {
+			"addMore": "Add another…",
+			"remove": "Remove {name}"
+		}
 	},
 	"songCount": "{count, plural, one {# ongsay} other {# ongssay}}",
 	"stats": {

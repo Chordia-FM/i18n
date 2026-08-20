@@ -81,10 +81,15 @@
 		"ofTheseRules": "o' these rules:",
 		"op": {
 			"equals": "be",
-			"is": "be"
+			"is": "be",
+			"not_contains": "does not contain",
+			"not_equals": "is not"
 		},
 		"refresh": {
-			"unchanged": "{count, plural, one {Already up t' date, # ditty} other {Already up t' date, # ditties}}"
+			"unchanged": "{count, plural, one {Already up t' date, # ditty} other {Already up t' date, # ditties}}",
+			"onCompleteLabel": "Refresh when I finish it",
+			"onCompleteHint": "Re-runs the rules once you have played the whole playlist through.",
+			"action": "Refresh now"
 		},
 		"removeRule": "Cast off rule",
 		"saveError": "Couldn't stow th' cunning chart",
@@ -92,7 +97,16 @@
 		"valueHint": {
 			"album": "Hunt treasures…",
 			"artist": "Hunt artists…",
-			"genre": "Hunt genres…"
+			"genre": "Hunt genres…",
+			"label": "Search labels…",
+			"title": "Search titles…"
+		},
+		"period": {
+			"all": "All time"
+		},
+		"valueList": {
+			"addMore": "Add another…",
+			"remove": "Remove {name}"
 		}
 	},
 	"songCount": "{count, plural, one {# shanty} other {# shanties}}",

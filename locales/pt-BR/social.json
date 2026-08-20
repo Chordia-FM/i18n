@@ -40,7 +40,6 @@
 			"less": "Mostrar menos",
 			"more": "Mostrar mais"
 		},
-		"eyebrow": "Perfil",
 		"itemPlays": "{count, plural, one {# reprodução} other {# reproduções}}",
 		"joinedDate": "{date, date, ::yMMMM}",
 		"joinedLabel": "entrou em {date}",
@@ -58,7 +57,8 @@
 		"topArtists": "Principais artistas",
 		"topTracks": "Principais faixas",
 		"totalPlays": "{count, plural, one {# reprodução} other {# reproduções}}",
-		"totalPlaysCount": "{count}"
+		"totalPlaysCount": "{count}",
+		"listTabs": "Playlists, followers and following"
 	},
 	"report": {
 		"promptMessage": "Denunciar @{handle} — qual é o problema?"

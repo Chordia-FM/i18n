@@ -32,6 +32,14 @@
 		"twoFactorNotEnabled": "Two-factor authentication is not enabled.",
 		"twoFactorStartFirst": "Start two-factor setup first."
 	},
+	"billing": {
+		"disabled": "Billing is not available on this server.",
+		"alreadySubscribed": "You already have a subscription. Change your plan instead of starting a new one.",
+		"noCustomer": "There is no billing account to manage yet.",
+		"invalidPlan": "That is not a plan you can buy.",
+		"samePlan": "You are already on that plan.",
+		"upstream": "The payment provider did not respond. Nothing was charged; please try again."
+	},
 	"catalog": {
 		"albumLoadFailed": "Couldn't load this album",
 		"artistLoadFailed": "Couldn't load this artist",
@@ -121,6 +129,9 @@
 	"pins": {
 		"unknownKind": "Unknown pin kind."
 	},
+	"plan": {
+		"required": "Your plan does not include this. Upgrade to unlock it."
+	},
 	"playlist": {
 		"limitReached": "Playlist limit reached for this account."
 	},
@@ -129,8 +140,19 @@
 		"title": "Something went wrong"
 	},
 	"saveFailed": "Failed to save",
+	"scrobble": {
+		"notFound": "That play is not in your history.",
+		"invalidTime": "Pick a time in the past, after the year 2000.",
+		"unknownTrack": "That track is not in a library you can play from."
+	},
+	"settings": {
+		"invalidAccent": "That is not a color Chordia can use."
+	},
 	"share": {
 		"withSelf": "You can't share with yourself."
+	},
+	"smart": {
+		"invalidRule": "One of the rules has a value Chordia cannot read. Check dates are YYYY-MM-DD and counts are whole numbers."
 	},
 	"state": {
 		"message": "This section didn't load. It's usually temporary, so try again in a moment.",

@@ -160,6 +160,7 @@
 		"sort": {
 			"libraries": "Most hoards"
 		},
-		"user": "Deckhand"
+		"user": "Deckhand",
+		"noEmail": "No email"
 	}
 }

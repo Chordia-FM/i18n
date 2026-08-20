@@ -184,7 +184,12 @@
 		"submit": "提案を送信",
 		"submitFailed": "提案を送信できませんでした。",
 		"suggestionSent": "提案を送信しました。管理者が確認します。",
-		"title": "アーティスト情報を編集"
+		"title": {
+			"artist": "Artist details",
+			"album": "Album details",
+			"track": "Track details"
+		},
+		"nothingChanged": "Change something first, then report it."
 	},
 	"search": {
 		"placeholder": "アーティスト、アルバム、曲"

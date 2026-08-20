@@ -188,7 +188,7 @@
 			"note": "Note for reviewers (optional)"
 		},
 		"genresHint": "Separate multiple genres with commas.",
-		"helpText": "Edit {name}'s details below. Save changes to a library you own instantly, or submit them as a suggestion for everyone (an admin reviews those). Only changed fields are sent.",
+		"helpText": "Change what is wrong below. Save it to a library you own and only you see it; submit it and an admin reviews it for everyone. Only changed fields are sent.",
 		"imageAlt": "Artist image",
 		"libraryTarget": "Choose which library to save to",
 		"noteHint": "Only sent with a suggestion. Anything that helps reviewers (e.g. a source link).",
@@ -199,7 +199,12 @@
 		"submit": "Submit suggestion",
 		"submitFailed": "Couldn't send your suggestion.",
 		"suggestionSent": "Suggestion sent for review.",
-		"title": "Edit artist details"
+		"title": {
+			"artist": "Artist details",
+			"album": "Album details",
+			"track": "Track details"
+		},
+		"nothingChanged": "Change something first, then report it."
 	},
 	"search": {
 		"placeholder": "Artists, albums, or songs"
@@ -236,7 +241,22 @@
 			"today": "Today",
 			"yesterday": "Yesterday"
 		},
-		"reorderAria": "{title}, position {position} of {count}"
+		"reorderAria": "{title}, position {position} of {count}",
+		"variant": {
+			"acoustic": "Acoustic",
+			"bonus": "Bonus track",
+			"cover": "Cover",
+			"deluxe": "Deluxe edition",
+			"demo": "Demo",
+			"extended": "Extended",
+			"instrumental": "Instrumental",
+			"karaoke": "Karaoke",
+			"live": "Live",
+			"radio_edit": "Radio edit",
+			"remaster": "Remaster",
+			"remix": "Remix",
+			"single_version": "Single version"
+		}
 	},
 	"trackCount": "{count, plural, one {# track} other {# tracks}}"
 }

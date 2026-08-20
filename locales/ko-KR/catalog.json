@@ -184,7 +184,12 @@
 		"submit": "제안 제출",
 		"submitFailed": "제안을 보내지 못했습니다.",
 		"suggestionSent": "검토를 위해 제안을 보냈습니다.",
-		"title": "아티스트 정보 편집"
+		"title": {
+			"artist": "Artist details",
+			"album": "Album details",
+			"track": "Track details"
+		},
+		"nothingChanged": "Change something first, then report it."
 	},
 	"search": {
 		"placeholder": "아티스트, 앨범, 곡"

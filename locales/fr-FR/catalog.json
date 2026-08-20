@@ -163,7 +163,12 @@
 		"submit": "Soumettre la suggestion",
 		"submitFailed": "Impossible d'envoyer votre suggestion.",
 		"suggestionSent": "Suggestion envoyée pour examen.",
-		"title": "Modifier les informations de l'artiste"
+		"title": {
+			"artist": "Artist details",
+			"album": "Album details",
+			"track": "Track details"
+		},
+		"nothingChanged": "Change something first, then report it."
 	},
 	"search": {
 		"placeholder": "Artistes, albums ou chansons"

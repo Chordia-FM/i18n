@@ -1,6 +1,15 @@
 {
 	"artists": {
-		"empty": "No artists yet - the catalogue may still be syncing."
+		"empty": "No artists yet - the catalogue may still be syncing.",
+		"searchPlaceholder": "Search artists",
+		"sortLabel": "Sort artists",
+		"sort": {
+			"name": "Name (A to Z)",
+			"albums": "Most albums",
+			"tracks": "Most tracks"
+		},
+		"filtered": "{count, plural, one {# of {total} artist} other {# of {total} artists}}",
+		"noMatches": "No artists match \"{query}\"."
 	},
 	"edit": {
 		"organizeConfirm": {

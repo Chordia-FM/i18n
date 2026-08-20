@@ -10,13 +10,23 @@
 		"invite": "+ Invite",
 		"invitePrompt": "Invite a collaborator by handle",
 		"invited": "Invited @{handle}",
+		"manage": "Manage people",
 		"removeTitle": "Remove {name}",
-		"removed": "Removed {name}",
-		"manage": "Manage people"
+		"removed": "Removed {name}"
 	},
 	"confirm": {
 		"deleteMessage": "Delete \"{name}\"?",
 		"deleteTitle": "Delete playlist"
+	},
+	"create": {
+		"kindLabel": "Playlist kind",
+		"namePlaceholder": "Playlist name",
+		"normal": "Normal",
+		"normalDescription": "A playlist you fill yourself, in the order you choose.",
+		"smart": "Smart",
+		"smartDescription": "Rules pick the tracks, and keep the playlist current on their own.",
+		"submit": "Create",
+		"title": "New playlist"
 	},
 	"createFailed": "Couldn’t create playlist",
 	"createdFromAlbumToast": "Playlist “{name}” created",
@@ -25,31 +35,31 @@
 		"title": "Delete playlist"
 	},
 	"edit": {
-		"title": "Edit details",
 		"choosePhoto": "Choose photo",
-		"removePhoto": "Remove photo",
-		"name": "Name",
 		"description": "Description",
 		"descriptionPlaceholder": "Add an optional description",
+		"name": "Name",
+		"photoError": "Couldn't upload that image",
+		"removePhoto": "Remove photo",
+		"saveError": "Couldn't save those changes",
+		"title": "Edit details",
 		"visibility": {
 			"label": "Who can see this",
 			"private": "Private",
-			"unlisted": "Unlisted",
-			"public": "Public",
 			"privateHint": "Only you and anyone you invite.",
-			"unlistedHint": "Anyone with the link can open it. It stays off your profile.",
-			"publicHint": "Anyone with the link can open it, and it's listed on your profile."
-		},
-		"saveError": "Couldn't save those changes",
-		"photoError": "Couldn't upload that image"
+			"public": "Public",
+			"publicHint": "Anyone with the link can open it, and it's listed on your profile.",
+			"unlisted": "Unlisted",
+			"unlistedHint": "Anyone with the link can open it. It stays off your profile."
+		}
 	},
 	"empty": "This playlist is empty. Add songs from the “⋯” menu on any track.",
 	"emptyState": {
-		"title": "Let's find something to put in here",
-		"searchPlaceholder": "Search for songs",
-		"fromLiked": "From your liked songs",
 		"addHint": "You can also add songs from the ⋯ menu on any track.",
-		"added": "Added"
+		"added": "Added",
+		"fromLiked": "From your liked songs",
+		"searchPlaceholder": "Search for songs",
+		"title": "Let's find something to put in here"
 	},
 	"kind": {
 		"collaborative": "Collaborative playlist",
@@ -82,9 +92,12 @@
 	"sharedWithYou": " · shared with you",
 	"smart": {
 		"addRule": "Add rule",
+		"and": "and",
 		"bool": {
-			"false": "false",
-			"true": "true"
+			"explicitFalse": "clean",
+			"explicitTrue": "explicit",
+			"likedFalse": "not liked",
+			"likedTrue": "liked"
 		},
 		"created": "Smart playlist created",
 		"delete": {
@@ -92,17 +105,35 @@
 			"title": "Delete smart playlist"
 		},
 		"description": "Rules resolve to matching tracks automatically.",
+		"dir": {
+			"asc": "Lowest first",
+			"desc": "Highest first"
+		},
 		"editRules": "Edit rules",
 		"editTitle": "Edit smart playlist",
 		"empty": "No tracks match these rules yet. Try loosening them with “Edit rules”.",
 		"field": {
+			"added_at": "Date added",
 			"album": "Album",
 			"artist": "Artist",
+			"duration": "Length",
+			"explicit": "Explicit",
+			"first_played": "First played",
 			"genre": "Genre",
+			"label": "Label",
+			"last_played": "Last played",
 			"liked": "Liked",
-			"plays": "Plays",
+			"my_plays": "My plays",
+			"plays": "Plays by everyone",
+			"release_date": "Release date",
 			"title": "Title",
+			"version_type": "Version",
 			"year": "Year"
+		},
+		"group": {
+			"library": "In your library",
+			"listening": "Your listening",
+			"track": "Track"
 		},
 		"kindLabel": "Smart playlist",
 		"limit": "Limit",
@@ -114,11 +145,76 @@
 		"namePlaceholder": "Playlist name",
 		"new": "New smart playlist",
 		"newTitle": "New smart playlist",
+		"noRules": "No rules yet. Pick a starting point above, or add one.",
+		"noRulesYet": "No rules yet",
 		"ofTheseRules": "of these rules:",
 		"op": {
+			"after": "is after",
+			"before": "is before",
+			"between": "is between",
 			"contains": "contains",
 			"equals": "is",
-			"is": "is"
+			"gte": "is at least",
+			"in_last": "is within the last",
+			"is": "is",
+			"lte": "is at most",
+			"not_in_last": "is not within the last",
+			"not_contains": "does not contain",
+			"not_equals": "is not"
+		},
+		"or": "or",
+		"period": {
+			"month": "in {month}",
+			"rolling": "{count, plural, one {in the last day} other {in the last # days}}",
+			"year": "in {year}",
+			"all": "All time"
+		},
+		"periodLabel": "Window",
+		"presets": {
+			"forgotten": {
+				"description": "Liked, but not played in three months.",
+				"label": "Forgotten favorites",
+				"name": "Forgotten favorites"
+			},
+			"likedOldest": {
+				"description": "Your likes from the beginning.",
+				"label": "Liked, oldest first",
+				"name": "Liked, oldest first"
+			},
+			"neverPlayed": {
+				"description": "In your library, still unheard.",
+				"label": "Never played",
+				"name": "Never played"
+			},
+			"onRepeat": {
+				"description": "Tracks you have come back to in the last month.",
+				"label": "On repeat",
+				"name": "On repeat"
+			},
+			"recentlyAdded": {
+				"description": "Everything that arrived in the last month.",
+				"label": "Recently added",
+				"name": "Recently added"
+			},
+			"title": "Start from",
+			"topMonth": {
+				"description": "What you have played most this month.",
+				"label": "Top of the month",
+				"name": "Top tracks · {month}"
+			},
+			"topYear": {
+				"description": "Your most played of the year so far.",
+				"label": "Top of the year",
+				"name": "Top tracks · {year}"
+			}
+		},
+		"preview": {
+			"count": "{count, plural, one {# track} other {# tracks}}",
+			"countCapped": "{count, plural, other {# tracks or more}}",
+			"empty": "Add a rule to see what it would match.",
+			"limited": "{count, plural, one {Limited to # track} other {Limited to the first # tracks}}",
+			"title": "Preview",
+			"unavailable": "Preview unavailable"
 		},
 		"refresh": {
 			"changed": "Refreshed: {added} added, {removed} removed, {total} total",
@@ -131,32 +227,55 @@
 			"neverRefreshed": "not refreshed yet",
 			"now": "Refresh",
 			"scheduleLabel": "Automatic refresh",
-			"unchanged": "{count, plural, one {Already up to date, # track} other {Already up to date, # tracks}}"
+			"unchanged": "{count, plural, one {Already up to date, # track} other {Already up to date, # tracks}}",
+			"onCompleteLabel": "Refresh when I finish it",
+			"onCompleteHint": "Re-runs the rules once you have played the whole playlist through.",
+			"action": "Refresh now"
 		},
 		"removeRule": "Remove rule",
 		"ruleField": "Rule field",
 		"ruleOperator": "Rule operator",
 		"saveError": "Couldn't save the smart playlist",
 		"sort": {
-			"plays": "Plays",
+			"added_at": "Date added",
+			"duration": "Length",
+			"last_played": "Last played",
+			"my_plays": "My plays",
+			"my_plays_in_period": "My plays in the window",
+			"plays": "Plays by everyone",
 			"random": "Random",
+			"release_date": "Release date",
 			"title": "Title"
 		},
 		"sortBy": "Sort by",
+		"sortDir": "Sort direction",
+		"unit": {
+			"days": "days",
+			"months": "months",
+			"weeks": "weeks"
+		},
+		"unitLabel": "Unit",
 		"updated": "Smart playlist updated",
 		"valueHint": {
 			"album": "Search albums…",
 			"artist": "Search artists…",
-			"genre": "Search genres…"
+			"genre": "Search genres…",
+			"label": "Search labels…",
+			"title": "Search titles…"
 		},
-		"valuePlaceholder": "value"
+		"valuePlaceholder": "value",
+		"valueUpper": "upper value",
+		"valueList": {
+			"addMore": "Add another…",
+			"remove": "Remove {name}"
+		}
 	},
 	"songCount": "{count, plural, one {# song} other {# songs}}",
 	"stats": {
-		"title": "Playlist plays",
-		"scopeMe": "You",
-		"scopeEveryone": "Everyone",
 		"empty": "You haven't played anything from this playlist yet.",
+		"scopeEveryone": "Everyone",
+		"scopeMe": "You",
+		"title": "Playlist plays",
 		"trackingSince": "Plays have been counted per playlist since {date, date, ::yMMMd}. Listening from before then wasn't recorded against a playlist, so it isn't included here."
 	},
 	"toast": {

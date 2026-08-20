@@ -46,10 +46,6 @@
 	"sharedWithYou": " · 공유받음",
 	"smart": {
 		"addRule": "규칙 추가",
-		"bool": {
-			"false": "거짓",
-			"true": "참"
-		},
 		"created": "스마트 플레이리스트를 만들었습니다",
 		"delete": {
 			"confirmBody": "이 스마트 플레이리스트를 삭제할까요?",
@@ -82,10 +78,15 @@
 		"op": {
 			"contains": "포함",
 			"equals": "일치",
-			"is": "일치"
+			"is": "일치",
+			"not_contains": "does not contain",
+			"not_equals": "is not"
 		},
 		"refresh": {
-			"now": "새로고침"
+			"now": "새로고침",
+			"onCompleteLabel": "Refresh when I finish it",
+			"onCompleteHint": "Re-runs the rules once you have played the whole playlist through.",
+			"action": "Refresh now"
 		},
 		"removeRule": "규칙 제거",
 		"ruleField": "규칙 항목",
@@ -98,7 +99,18 @@
 		},
 		"sortBy": "정렬 기준",
 		"updated": "스마트 플레이리스트를 업데이트했습니다",
-		"valuePlaceholder": "값"
+		"valuePlaceholder": "값",
+		"period": {
+			"all": "All time"
+		},
+		"valueList": {
+			"addMore": "Add another…",
+			"remove": "Remove {name}"
+		},
+		"valueHint": {
+			"label": "Search labels…",
+			"title": "Search titles…"
+		}
 	},
 	"songCount": "{count, plural, other {#곡}}",
 	"stats": {

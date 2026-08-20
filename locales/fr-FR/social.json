@@ -41,7 +41,6 @@
 			"less": "Afficher moins",
 			"more": "Afficher plus"
 		},
-		"eyebrow": "Profil",
 		"itemPlays": "{count, plural, one {# écoute} other {# écoutes}}",
 		"joinedDate": "{date, date, ::yMMMM}",
 		"joinedLabel": "inscrit en {date}",
@@ -59,7 +58,8 @@
 		"topArtists": "Top artistes",
 		"topTracks": "Top morceaux",
 		"totalPlays": "{count, plural, one {# écoute} other {# écoutes}}",
-		"totalPlaysCount": "{count}"
+		"totalPlaysCount": "{count}",
+		"listTabs": "Playlists, followers and following"
 	},
 	"report": {
 		"promptMessage": "Signaler @{handle} — quel est le problème ?"

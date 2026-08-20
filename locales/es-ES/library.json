@@ -1,7 +1,16 @@
 {
 	"artists": {
 		"empty": "Aún no hay artistas: puede que el catálogo se siga sincronizando.",
-		"title": "Artistas"
+		"title": "Artistas",
+		"searchPlaceholder": "Search artists",
+		"sortLabel": "Sort artists",
+		"sort": {
+			"name": "Name (A to Z)",
+			"albums": "Most albums",
+			"tracks": "Most tracks"
+		},
+		"filtered": "{count, plural, one {# of {total} artist} other {# of {total} artists}}",
+		"noMatches": "No artists match \"{query}\"."
 	},
 	"card": {
 		"editTitle": "Editar esta biblioteca",
@@ -203,7 +212,8 @@
 	"sidebar": {
 		"pinned": "Fijados",
 		"playlists": "Listas",
-		"yourLibrary": "Tu biblioteca"
+		"yourLibrary": "Tu biblioteca",
+		"sharedWithYou": "Shared with you"
 	},
 	"trackCount": "{count, plural, one {# pista} other {# pistas}}"
 }

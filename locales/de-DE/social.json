@@ -40,7 +40,6 @@
 			"less": "Weniger anzeigen",
 			"more": "Mehr anzeigen"
 		},
-		"eyebrow": "Profil",
 		"itemPlays": "{count, plural, one {# Wiedergabe} other {# Wiedergaben}}",
 		"joinedDate": "{date, date, ::yMMMM}",
 		"joinedLabel": "dabei seit {date}",
@@ -58,7 +57,8 @@
 		"topArtists": "Top-Künstler",
 		"topTracks": "Top-Titel",
 		"totalPlays": "{count, plural, one {# Wiedergabe} other {# Wiedergaben}}",
-		"totalPlaysCount": "{count}"
+		"totalPlaysCount": "{count}",
+		"listTabs": "Playlists, followers and following"
 	},
 	"report": {
 		"promptMessage": "@{handle} melden – worum geht es?"

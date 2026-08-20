@@ -136,6 +136,7 @@
 		"suspendTitle": "사용자 정지",
 		"suspendedBadge": "정지됨",
 		"title": "사용자",
-		"unsuspend": "정지 해제"
+		"unsuspend": "정지 해제",
+		"noEmail": "No email"
 	}
 }

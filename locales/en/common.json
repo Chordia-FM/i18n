@@ -44,6 +44,7 @@
 		"shuffleFor": "Shuffle {name}",
 		"shuffleOffFor": "Turn off shuffle for {name}",
 		"signOut": "Sign out",
+		"stop": "Stop",
 		"tryAgain": "Try again",
 		"undo": "Undo",
 		"unpin": "Unpin",
