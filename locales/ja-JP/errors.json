@@ -32,6 +32,14 @@
 		"twoFactorNotEnabled": "二要素認証は有効になっていません。",
 		"twoFactorStartFirst": "先に二要素認証のセットアップを開始してください。"
 	},
+	"billing": {
+		"disabled": "",
+		"alreadySubscribed": "",
+		"noCustomer": "",
+		"invalidPlan": "",
+		"samePlan": "",
+		"upstream": ""
+	},
 	"catalog": {
 		"albumLoadFailed": "",
 		"artistLoadFailed": "",
@@ -121,6 +129,9 @@
 	"pins": {
 		"unknownKind": "不明なピンの種類です。"
 	},
+	"plan": {
+		"required": ""
+	},
 	"playlist": {
 		"limitReached": "このアカウントのプレイリスト数の上限に達しました。"
 	},
@@ -129,8 +140,19 @@
 		"title": "問題が発生しました"
 	},
 	"saveFailed": "保存に失敗しました",
+	"scrobble": {
+		"notFound": "",
+		"invalidTime": "",
+		"unknownTrack": ""
+	},
+	"settings": {
+		"invalidAccent": ""
+	},
 	"share": {
 		"withSelf": "自分自身とは共有できません。"
+	},
+	"smart": {
+		"invalidRule": ""
 	},
 	"state": {
 		"message": "",
