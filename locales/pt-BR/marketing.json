@@ -91,6 +91,7 @@
 			"features": "",
 			"heading": "",
 			"listening": "",
+			"pricing": "",
 			"selfHost": "",
 			"signUp": "Crie uma conta"
 		},
@@ -102,11 +103,46 @@
 			"heading": "",
 			"issues": ""
 		},
-		"tagline": ""
+		"tagline": "",
+		"support": {
+			"email": "",
+			"heading": ""
+		}
 	},
 	"hero": {
 		"subtitle": "",
 		"title": ""
+	},
+	"pricing": {
+		"eyebrow": "",
+		"faq": {
+			"cancel": {
+				"q": "",
+				"a": ""
+			},
+			"free": {
+				"q": "",
+				"a": ""
+			},
+			"refund": {
+				"q": "",
+				"a": ""
+			},
+			"selfhost": {
+				"q": "",
+				"a": ""
+			},
+			"trial": {
+				"q": "",
+				"a": ""
+			}
+		},
+		"faqHeading": "",
+		"support": "",
+		"subtitle": "",
+		"terms": "",
+		"title": "",
+		"unavailable": ""
 	},
 	"proof": {
 		"heading": "",
