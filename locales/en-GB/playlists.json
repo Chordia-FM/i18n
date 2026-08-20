@@ -10,13 +10,23 @@
 		"invite": "",
 		"invitePrompt": "",
 		"invited": "",
+		"manage": "",
 		"removeTitle": "",
-		"removed": "",
-		"manage": ""
+		"removed": ""
 	},
 	"confirm": {
 		"deleteMessage": "",
 		"deleteTitle": ""
+	},
+	"create": {
+		"kindLabel": "",
+		"namePlaceholder": "",
+		"normal": "",
+		"normalDescription": "",
+		"smart": "",
+		"smartDescription": "",
+		"submit": "",
+		"title": ""
 	},
 	"createFailed": "",
 	"createdFromAlbumToast": "",
@@ -25,31 +35,31 @@
 		"title": ""
 	},
 	"edit": {
-		"title": "",
 		"choosePhoto": "",
-		"removePhoto": "",
-		"name": "",
 		"description": "",
 		"descriptionPlaceholder": "",
+		"name": "",
+		"photoError": "",
+		"removePhoto": "",
+		"saveError": "",
+		"title": "",
 		"visibility": {
 			"label": "",
 			"private": "",
-			"unlisted": "",
-			"public": "",
 			"privateHint": "",
-			"unlistedHint": "",
-			"publicHint": ""
-		},
-		"saveError": "",
-		"photoError": ""
+			"public": "",
+			"publicHint": "",
+			"unlisted": "",
+			"unlistedHint": ""
+		}
 	},
 	"empty": "",
 	"emptyState": {
-		"title": "",
-		"searchPlaceholder": "",
-		"fromLiked": "",
 		"addHint": "",
-		"added": ""
+		"added": "",
+		"fromLiked": "",
+		"searchPlaceholder": "",
+		"title": ""
 	},
 	"kind": {
 		"collaborative": "",
@@ -82,9 +92,12 @@
 	"sharedWithYou": "",
 	"smart": {
 		"addRule": "",
+		"and": "",
 		"bool": {
-			"false": "",
-			"true": ""
+			"explicitFalse": "",
+			"explicitTrue": "",
+			"likedFalse": "",
+			"likedTrue": ""
 		},
 		"created": "",
 		"delete": {
@@ -92,17 +105,35 @@
 			"title": ""
 		},
 		"description": "",
+		"dir": {
+			"asc": "",
+			"desc": ""
+		},
 		"editRules": "",
 		"editTitle": "",
 		"empty": "",
 		"field": {
+			"added_at": "",
 			"album": "",
 			"artist": "",
+			"duration": "",
+			"explicit": "",
+			"first_played": "",
 			"genre": "",
+			"label": "",
+			"last_played": "",
 			"liked": "",
+			"my_plays": "",
 			"plays": "",
+			"release_date": "",
 			"title": "",
+			"version_type": "",
 			"year": ""
+		},
+		"group": {
+			"library": "",
+			"listening": "",
+			"track": ""
 		},
 		"kindLabel": "",
 		"limit": "",
@@ -114,11 +145,76 @@
 		"namePlaceholder": "",
 		"new": "",
 		"newTitle": "",
+		"noRules": "",
+		"noRulesYet": "",
 		"ofTheseRules": "",
 		"op": {
+			"after": "",
+			"before": "",
+			"between": "",
 			"contains": "",
 			"equals": "",
-			"is": ""
+			"gte": "",
+			"in_last": "",
+			"is": "",
+			"lte": "",
+			"not_in_last": "",
+			"not_contains": "",
+			"not_equals": ""
+		},
+		"or": "",
+		"period": {
+			"month": "",
+			"rolling": "",
+			"year": "",
+			"all": ""
+		},
+		"periodLabel": "",
+		"presets": {
+			"forgotten": {
+				"description": "",
+				"label": "",
+				"name": ""
+			},
+			"likedOldest": {
+				"description": "",
+				"label": "",
+				"name": ""
+			},
+			"neverPlayed": {
+				"description": "",
+				"label": "",
+				"name": ""
+			},
+			"onRepeat": {
+				"description": "",
+				"label": "",
+				"name": ""
+			},
+			"recentlyAdded": {
+				"description": "",
+				"label": "",
+				"name": ""
+			},
+			"title": "",
+			"topMonth": {
+				"description": "",
+				"label": "",
+				"name": ""
+			},
+			"topYear": {
+				"description": "",
+				"label": "",
+				"name": ""
+			}
+		},
+		"preview": {
+			"count": "",
+			"countCapped": "",
+			"empty": "",
+			"limited": "",
+			"title": "",
+			"unavailable": ""
 		},
 		"refresh": {
 			"changed": "",
@@ -131,32 +227,55 @@
 			"neverRefreshed": "",
 			"now": "",
 			"scheduleLabel": "",
-			"unchanged": ""
+			"unchanged": "",
+			"onCompleteLabel": "",
+			"onCompleteHint": "",
+			"action": ""
 		},
 		"removeRule": "",
 		"ruleField": "",
 		"ruleOperator": "",
 		"saveError": "",
 		"sort": {
+			"added_at": "",
+			"duration": "",
+			"last_played": "",
+			"my_plays": "",
+			"my_plays_in_period": "",
 			"plays": "",
 			"random": "",
+			"release_date": "",
 			"title": ""
 		},
 		"sortBy": "",
+		"sortDir": "",
+		"unit": {
+			"days": "",
+			"months": "",
+			"weeks": ""
+		},
+		"unitLabel": "",
 		"updated": "",
 		"valueHint": {
 			"album": "",
 			"artist": "",
-			"genre": ""
+			"genre": "",
+			"label": "",
+			"title": ""
 		},
-		"valuePlaceholder": ""
+		"valuePlaceholder": "",
+		"valueUpper": "",
+		"valueList": {
+			"addMore": "",
+			"remove": ""
+		}
 	},
 	"songCount": "",
 	"stats": {
-		"title": "",
-		"scopeMe": "",
-		"scopeEveryone": "",
 		"empty": "",
+		"scopeEveryone": "",
+		"scopeMe": "",
+		"title": "",
 		"trackingSince": ""
 	},
 	"toast": {
