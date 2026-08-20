@@ -10,13 +10,23 @@
 		"invite": "+ Inviter",
 		"invitePrompt": "Inviter un collaborateur par identifiant",
 		"invited": "@{handle} invité",
+		"manage": "",
 		"removeTitle": "Retirer {name}",
-		"removed": "{name} retiré",
-		"manage": ""
+		"removed": "{name} retiré"
 	},
 	"confirm": {
 		"deleteMessage": "Supprimer « {name} » ?",
 		"deleteTitle": "Supprimer la playlist"
+	},
+	"create": {
+		"kindLabel": "",
+		"namePlaceholder": "Nom de la playlist",
+		"normal": "Normale",
+		"normalDescription": "",
+		"smart": "",
+		"smartDescription": "",
+		"submit": "",
+		"title": "Nouvelle playlist"
 	},
 	"createFailed": "Impossible de créer la playlist",
 	"createdFromAlbumToast": "Playlist « {name} » créée",
@@ -25,31 +35,31 @@
 		"title": "Supprimer la playlist"
 	},
 	"edit": {
-		"title": "",
 		"choosePhoto": "",
-		"removePhoto": "",
-		"name": "Nom",
 		"description": "",
 		"descriptionPlaceholder": "",
+		"name": "Nom",
+		"photoError": "",
+		"removePhoto": "",
+		"saveError": "",
+		"title": "",
 		"visibility": {
 			"label": "",
 			"private": "",
-			"unlisted": "",
-			"public": "",
 			"privateHint": "",
-			"unlistedHint": "",
-			"publicHint": ""
-		},
-		"saveError": "",
-		"photoError": ""
+			"public": "",
+			"publicHint": "",
+			"unlisted": "",
+			"unlistedHint": ""
+		}
 	},
 	"empty": "Cette playlist est vide. Ajoutez des chansons depuis le menu « ⋯ » de n'importe quel morceau.",
 	"emptyState": {
-		"title": "",
-		"searchPlaceholder": "",
-		"fromLiked": "",
 		"addHint": "",
-		"added": ""
+		"added": "",
+		"fromLiked": "",
+		"searchPlaceholder": "",
+		"title": ""
 	},
 	"kind": {
 		"collaborative": "",
@@ -82,9 +92,12 @@
 	"sharedWithYou": " · partagée avec vous",
 	"smart": {
 		"addRule": "Ajouter une règle",
+		"and": "",
 		"bool": {
-			"false": "faux",
-			"true": "vrai"
+			"explicitFalse": "",
+			"explicitTrue": "",
+			"likedFalse": "",
+			"likedTrue": ""
 		},
 		"created": "Playlist intelligente créée",
 		"delete": {
@@ -92,17 +105,35 @@
 			"title": "Supprimer la playlist intelligente"
 		},
 		"description": "Les règles sélectionnent automatiquement les morceaux correspondants.",
+		"dir": {
+			"asc": "",
+			"desc": ""
+		},
 		"editRules": "Modifier les règles",
 		"editTitle": "Modifier la playlist intelligente",
 		"empty": "Aucun morceau ne correspond encore à ces règles. Essayez de les assouplir avec « Modifier les règles ».",
 		"field": {
+			"added_at": "Date d'ajout",
 			"album": "",
 			"artist": "Artiste",
+			"duration": "",
+			"explicit": "Explicite",
+			"first_played": "Première écoute",
 			"genre": "",
+			"label": "",
+			"last_played": "Dernière écoute",
 			"liked": "Aimé",
-			"plays": "Écoutes",
+			"my_plays": "",
+			"plays": "",
+			"release_date": "",
 			"title": "Titre",
+			"version_type": "",
 			"year": "Année"
+		},
+		"group": {
+			"library": "Dans votre bibliothèque",
+			"listening": "",
+			"track": ""
 		},
 		"kindLabel": "Playlist intelligente",
 		"limit": "Limite",
@@ -114,11 +145,76 @@
 		"namePlaceholder": "Nom de la playlist",
 		"new": "Nouvelle playlist intelligente",
 		"newTitle": "Nouvelle playlist intelligente",
+		"noRules": "",
+		"noRulesYet": "",
 		"ofTheseRules": "ci-dessous :",
 		"op": {
+			"after": "",
+			"before": "",
+			"between": "",
 			"contains": "contient",
 			"equals": "est",
-			"is": "est"
+			"gte": "",
+			"in_last": "",
+			"is": "est",
+			"lte": "",
+			"not_in_last": "",
+			"not_contains": "",
+			"not_equals": ""
+		},
+		"or": "ou",
+		"period": {
+			"month": "",
+			"rolling": "",
+			"year": "",
+			"all": "Depuis toujours"
+		},
+		"periodLabel": "",
+		"presets": {
+			"forgotten": {
+				"description": "",
+				"label": "",
+				"name": ""
+			},
+			"likedOldest": {
+				"description": "",
+				"label": "",
+				"name": ""
+			},
+			"neverPlayed": {
+				"description": "",
+				"label": "",
+				"name": ""
+			},
+			"onRepeat": {
+				"description": "",
+				"label": "",
+				"name": ""
+			},
+			"recentlyAdded": {
+				"description": "",
+				"label": "",
+				"name": ""
+			},
+			"title": "",
+			"topMonth": {
+				"description": "",
+				"label": "",
+				"name": ""
+			},
+			"topYear": {
+				"description": "",
+				"label": "",
+				"name": ""
+			}
+		},
+		"preview": {
+			"count": "{count, plural, one {# morceau} other {# morceaux}}",
+			"countCapped": "",
+			"empty": "",
+			"limited": "",
+			"title": "",
+			"unavailable": ""
 		},
 		"refresh": {
 			"changed": "",
@@ -131,32 +227,55 @@
 			"neverRefreshed": "",
 			"now": "Actualiser",
 			"scheduleLabel": "",
-			"unchanged": ""
+			"unchanged": "",
+			"onCompleteLabel": "",
+			"onCompleteHint": "",
+			"action": ""
 		},
 		"removeRule": "Supprimer la règle",
 		"ruleField": "Champ de la règle",
 		"ruleOperator": "Opérateur de la règle",
 		"saveError": "Impossible d'enregistrer la playlist intelligente",
 		"sort": {
-			"plays": "Écoutes",
+			"added_at": "Date d'ajout",
+			"duration": "",
+			"last_played": "Dernière écoute",
+			"my_plays": "",
+			"my_plays_in_period": "",
+			"plays": "",
 			"random": "Aléatoire",
+			"release_date": "",
 			"title": "Titre"
 		},
 		"sortBy": "Trier par",
+		"sortDir": "",
+		"unit": {
+			"days": "",
+			"months": "",
+			"weeks": ""
+		},
+		"unitLabel": "",
 		"updated": "Playlist intelligente mise à jour",
 		"valueHint": {
 			"album": "",
 			"artist": "",
-			"genre": ""
+			"genre": "",
+			"label": "",
+			"title": ""
 		},
-		"valuePlaceholder": "valeur"
+		"valuePlaceholder": "valeur",
+		"valueUpper": "",
+		"valueList": {
+			"addMore": "",
+			"remove": "Retirer {name}"
+		}
 	},
 	"songCount": "{count, plural, one {# chanson} other {# chansons}}",
 	"stats": {
-		"title": "",
-		"scopeMe": "Vous",
-		"scopeEveryone": "Tout le monde",
 		"empty": "",
+		"scopeEveryone": "Tout le monde",
+		"scopeMe": "Vous",
+		"title": "",
 		"trackingSince": ""
 	},
 	"toast": {
