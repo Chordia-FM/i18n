@@ -28,10 +28,6 @@
 	"appearance": {
 		"accentColour": "",
 		"accentHexAria": "アクセントカラーの16進コード",
-		"customAccentAria": "",
-		"customColour": "",
-		"customColourHint": "",
-		"title": "外観",
 		"accents": {
 			"amber": "",
 			"blue": "",
@@ -45,7 +41,41 @@
 			"pink": "",
 			"purple": "",
 			"teal": ""
-		}
+		},
+		"customAccentAria": "",
+		"customColour": "",
+		"customColourHint": "",
+		"mode": {
+			"artwork": "アートワーク",
+			"artworkHint": "",
+			"chroma": "",
+			"chromaHint": "",
+			"fade": "",
+			"fadeHint": "",
+			"gradient": "",
+			"gradientHint": "",
+			"static": "",
+			"staticHint": ""
+		},
+		"modeHint": "",
+		"modeTitle": "",
+		"nameAccent": "",
+		"nameAccentHint": "",
+		"palette": "",
+		"paletteAdd": "",
+		"paletteHint": "",
+		"paletteRemove": "",
+		"paletteStopAria": "",
+		"showProfileAccents": "",
+		"showProfileAccentsHint": "",
+		"speed": {
+			"brisk": "",
+			"relaxed": "",
+			"steady": ""
+		},
+		"speedHint": "",
+		"speedTitle": "",
+		"title": "外観"
 	},
 	"connections": {
 		"lastfm": {
@@ -75,10 +105,10 @@
 	},
 	"desktop": {
 		"close": {
-			"title": "",
 			"desc": "",
-			"tray": "",
-			"quit": ""
+			"quit": "",
+			"title": "",
+			"tray": ""
 		},
 		"presence": {
 			"artwork": "アートワーク",
@@ -90,9 +120,9 @@
 			"label": "",
 			"lines": {
 				"details": "",
-				"state": "",
 				"largeText": "",
-				"smallText": ""
+				"smallText": "",
+				"state": ""
 			},
 			"opt": {
 				"art": "",
@@ -107,17 +137,17 @@
 			"reset": "",
 			"title": "",
 			"vars": {
-				"title": "",
-				"artist": "",
 				"album": "",
-				"playState": "",
-				"duration": "",
-				"trackUrl": "",
 				"albumUrl": "",
+				"artist": "",
 				"artistUrl": "",
+				"duration": "",
+				"globalPlays": "",
+				"playState": "",
 				"plays": "",
 				"rank": "",
-				"globalPlays": ""
+				"title": "",
+				"trackUrl": ""
 			},
 			"varsDesc": "",
 			"varsTitle": "",
@@ -126,19 +156,19 @@
 		},
 		"title": "",
 		"updates": {
-			"title": "",
-			"label": "",
-			"desc": "",
 			"check": "",
-			"install": "",
 			"checking": "",
 			"current": "",
-			"version": "",
-			"found": "",
+			"desc": "",
 			"downloading": "ダウンロード中…",
 			"downloadingPercent": "",
+			"failed": "",
+			"found": "",
+			"install": "",
+			"label": "",
 			"restarting": "",
-			"failed": ""
+			"title": "",
+			"version": ""
 		}
 	},
 	"downloads": {
@@ -174,6 +204,50 @@
 	},
 	"equalizer": {
 		"title": "イコライザー"
+	},
+	"import": {
+		"body": "",
+		"chooseFile": "",
+		"errors": {
+			"internal": "",
+			"interrupted": "",
+			"malformed": "",
+			"unrecognized": ""
+		},
+		"hint": "",
+		"progress": "",
+		"sourceAuto": "",
+		"status": {
+			"done": "完了",
+			"failed": "失敗",
+			"pending": "",
+			"running": "インポート中"
+		},
+		"summary": "",
+		"title": "",
+		"tooLarge": "",
+		"uploadFailed": "",
+		"uploading": ""
+	},
+	"layout": {
+		"customizeControls": "",
+		"customizeSidebar": "",
+		"playerBar": {
+			"allHidden": "",
+			"help": "",
+			"title": ""
+		},
+		"reset": "",
+		"sidebar": {
+			"empty": "",
+			"help": "",
+			"title": ""
+		},
+		"title": ""
+	},
+	"plan": {
+		"selfHosted": "",
+		"title": ""
 	},
 	"playback": {
 		"autoplay": {
@@ -215,7 +289,7 @@
 			},
 			"original": {
 				"desc": "ビットパーフェクトなソース。帯域使用は最大。",
-				"label": "ロスレス"
+				"label": "ソース"
 			}
 		},
 		"streamingQuality": "ストリーミング品質",
@@ -231,29 +305,29 @@
 			"label": "メール通知"
 		},
 		"followedArtistsVisibility": {
-			"label": "",
-			"desc": ""
+			"desc": "",
+			"label": ""
 		},
 		"followersVisibility": {
-			"label": "",
-			"desc": ""
+			"desc": "",
+			"label": ""
 		},
 		"followingVisibility": {
-			"label": "",
-			"desc": ""
+			"desc": "",
+			"label": ""
 		},
 		"groups": {
 			"activity": {
-				"title": "アクティビティ",
-				"desc": ""
-			},
-			"notifications": {
-				"title": "",
-				"desc": ""
+				"desc": "",
+				"title": "アクティビティ"
 			},
 			"audience": {
-				"title": "",
-				"desc": ""
+				"desc": "",
+				"title": ""
+			},
+			"notifications": {
+				"desc": "",
+				"title": ""
 			}
 		},
 		"openToFollows": {
@@ -261,12 +335,12 @@
 			"label": ""
 		},
 		"playlistsVisibility": {
-			"label": "プレイリスト",
-			"desc": ""
+			"desc": "",
+			"label": "プレイリスト"
 		},
 		"profileVisibility": {
-			"label": "プロフィール",
-			"desc": ""
+			"desc": "",
+			"label": "プロフィール"
 		},
 		"scrobble": {
 			"desc": "",
@@ -308,7 +382,7 @@
 		},
 		"lossless": {
 			"desc": "ビットパーフェクトなソース。帯域使用は最大。",
-			"label": "ロスレス"
+			"label": "ソース"
 		},
 		"normal": {
 			"desc": "",
@@ -373,10 +447,10 @@
 		"unknownDevice": "不明なデバイス"
 	},
 	"startup": {
-		"title": "",
 		"desc": "",
 		"home": "ホーム",
-		"library": "ライブラリ"
+		"library": "ライブラリ",
+		"title": ""
 	},
 	"title": "設定",
 	"twoFactor": {
