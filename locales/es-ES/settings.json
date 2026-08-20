@@ -28,10 +28,6 @@
 	"appearance": {
 		"accentColour": "",
 		"accentHexAria": "Hexadecimal del acento",
-		"customAccentAria": "",
-		"customColour": "",
-		"customColourHint": "",
-		"title": "Apariencia",
 		"accents": {
 			"amber": "",
 			"blue": "",
@@ -45,7 +41,41 @@
 			"pink": "",
 			"purple": "",
 			"teal": ""
-		}
+		},
+		"customAccentAria": "",
+		"customColour": "",
+		"customColourHint": "",
+		"mode": {
+			"artwork": "Imagen",
+			"artworkHint": "",
+			"chroma": "",
+			"chromaHint": "",
+			"fade": "",
+			"fadeHint": "",
+			"gradient": "",
+			"gradientHint": "",
+			"static": "",
+			"staticHint": ""
+		},
+		"modeHint": "",
+		"modeTitle": "",
+		"nameAccent": "",
+		"nameAccentHint": "",
+		"palette": "",
+		"paletteAdd": "",
+		"paletteHint": "",
+		"paletteRemove": "",
+		"paletteStopAria": "",
+		"showProfileAccents": "",
+		"showProfileAccentsHint": "",
+		"speed": {
+			"brisk": "",
+			"relaxed": "",
+			"steady": ""
+		},
+		"speedHint": "",
+		"speedTitle": "",
+		"title": "Apariencia"
 	},
 	"connections": {
 		"lastfm": {
@@ -75,10 +105,10 @@
 	},
 	"desktop": {
 		"close": {
-			"title": "",
 			"desc": "",
-			"tray": "",
-			"quit": ""
+			"quit": "",
+			"title": "",
+			"tray": ""
 		},
 		"presence": {
 			"artwork": "Imagen",
@@ -90,9 +120,9 @@
 			"label": "",
 			"lines": {
 				"details": "",
-				"state": "",
 				"largeText": "",
-				"smallText": ""
+				"smallText": "",
+				"state": ""
 			},
 			"opt": {
 				"art": "",
@@ -107,17 +137,17 @@
 			"reset": "",
 			"title": "",
 			"vars": {
-				"title": "",
-				"artist": "",
 				"album": "",
-				"playState": "",
-				"duration": "",
-				"trackUrl": "",
 				"albumUrl": "",
+				"artist": "",
 				"artistUrl": "",
+				"duration": "",
+				"globalPlays": "",
+				"playState": "",
 				"plays": "",
 				"rank": "",
-				"globalPlays": ""
+				"title": "",
+				"trackUrl": ""
 			},
 			"varsDesc": "",
 			"varsTitle": "",
@@ -126,19 +156,19 @@
 		},
 		"title": "",
 		"updates": {
-			"title": "",
-			"label": "",
-			"desc": "",
 			"check": "",
-			"install": "",
 			"checking": "",
 			"current": "",
-			"version": "",
-			"found": "",
+			"desc": "",
 			"downloading": "Descargando…",
 			"downloadingPercent": "",
+			"failed": "",
+			"found": "",
+			"install": "",
+			"label": "",
 			"restarting": "",
-			"failed": ""
+			"title": "",
+			"version": ""
 		}
 	},
 	"downloads": {
@@ -174,6 +204,50 @@
 	},
 	"equalizer": {
 		"title": "Ecualizador"
+	},
+	"import": {
+		"body": "",
+		"chooseFile": "",
+		"errors": {
+			"internal": "",
+			"interrupted": "",
+			"malformed": "",
+			"unrecognized": ""
+		},
+		"hint": "",
+		"progress": "",
+		"sourceAuto": "",
+		"status": {
+			"done": "Listo",
+			"failed": "Error",
+			"pending": "",
+			"running": "Importando"
+		},
+		"summary": "",
+		"title": "",
+		"tooLarge": "",
+		"uploadFailed": "",
+		"uploading": ""
+	},
+	"layout": {
+		"customizeControls": "",
+		"customizeSidebar": "",
+		"playerBar": {
+			"allHidden": "",
+			"help": "",
+			"title": ""
+		},
+		"reset": "",
+		"sidebar": {
+			"empty": "",
+			"help": "",
+			"title": ""
+		},
+		"title": ""
+	},
+	"plan": {
+		"selfHosted": "",
+		"title": ""
 	},
 	"playback": {
 		"autoplay": {
@@ -215,7 +289,7 @@
 			},
 			"original": {
 				"desc": "Fuente bit a bit. Máximo ancho de banda.",
-				"label": "Sin pérdida"
+				"label": "Fuente"
 			}
 		},
 		"streamingQuality": "Calidad de streaming",
@@ -231,29 +305,29 @@
 			"label": "Notificaciones por correo"
 		},
 		"followedArtistsVisibility": {
-			"label": "",
-			"desc": ""
+			"desc": "",
+			"label": ""
 		},
 		"followersVisibility": {
-			"label": "",
-			"desc": ""
+			"desc": "",
+			"label": ""
 		},
 		"followingVisibility": {
-			"label": "",
-			"desc": ""
+			"desc": "",
+			"label": ""
 		},
 		"groups": {
 			"activity": {
-				"title": "Actividad",
-				"desc": ""
-			},
-			"notifications": {
-				"title": "",
-				"desc": ""
+				"desc": "",
+				"title": "Actividad"
 			},
 			"audience": {
-				"title": "",
-				"desc": ""
+				"desc": "",
+				"title": ""
+			},
+			"notifications": {
+				"desc": "",
+				"title": ""
 			}
 		},
 		"openToFollows": {
@@ -261,12 +335,12 @@
 			"label": ""
 		},
 		"playlistsVisibility": {
-			"label": "Listas",
-			"desc": ""
+			"desc": "",
+			"label": "Listas"
 		},
 		"profileVisibility": {
-			"label": "Perfil",
-			"desc": ""
+			"desc": "",
+			"label": "Perfil"
 		},
 		"scrobble": {
 			"desc": "",
@@ -308,7 +382,7 @@
 		},
 		"lossless": {
 			"desc": "Fuente bit a bit. Máximo ancho de banda.",
-			"label": "Sin pérdida"
+			"label": "Fuente"
 		},
 		"normal": {
 			"desc": "",
@@ -373,10 +447,10 @@
 		"unknownDevice": "Dispositivo desconocido"
 	},
 	"startup": {
-		"title": "",
 		"desc": "",
 		"home": "Inicio",
-		"library": "Biblioteca"
+		"library": "Biblioteca",
+		"title": ""
 	},
 	"title": "Ajustes",
 	"twoFactor": {
