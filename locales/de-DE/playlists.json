@@ -10,13 +10,23 @@
 		"invite": "+ Einladen",
 		"invitePrompt": "Mitwirkenden per Handle einladen",
 		"invited": "@{handle} eingeladen",
+		"manage": "",
 		"removeTitle": "{name} entfernen",
-		"removed": "{name} entfernt",
-		"manage": ""
+		"removed": "{name} entfernt"
 	},
 	"confirm": {
 		"deleteMessage": "„{name}“ löschen?",
 		"deleteTitle": "Playlist löschen"
+	},
+	"create": {
+		"kindLabel": "",
+		"namePlaceholder": "Playlist-Name",
+		"normal": "",
+		"normalDescription": "",
+		"smart": "",
+		"smartDescription": "",
+		"submit": "",
+		"title": "Neue Playlist"
 	},
 	"createFailed": "Playlist konnte nicht erstellt werden",
 	"createdFromAlbumToast": "Playlist „{name}“ erstellt",
@@ -25,31 +35,31 @@
 		"title": "Playlist löschen"
 	},
 	"edit": {
-		"title": "",
 		"choosePhoto": "",
-		"removePhoto": "",
-		"name": "",
 		"description": "Beschreibung",
 		"descriptionPlaceholder": "",
+		"name": "",
+		"photoError": "",
+		"removePhoto": "",
+		"saveError": "",
+		"title": "",
 		"visibility": {
 			"label": "",
 			"private": "",
-			"unlisted": "",
-			"public": "",
 			"privateHint": "",
-			"unlistedHint": "",
-			"publicHint": ""
-		},
-		"saveError": "",
-		"photoError": ""
+			"public": "",
+			"publicHint": "",
+			"unlisted": "",
+			"unlistedHint": ""
+		}
 	},
 	"empty": "Diese Playlist ist leer. Fügen Sie Songs über das Menü „⋯“ eines beliebigen Titels hinzu.",
 	"emptyState": {
-		"title": "",
-		"searchPlaceholder": "",
-		"fromLiked": "",
 		"addHint": "",
-		"added": ""
+		"added": "",
+		"fromLiked": "",
+		"searchPlaceholder": "",
+		"title": ""
 	},
 	"kind": {
 		"collaborative": "",
@@ -82,9 +92,12 @@
 	"sharedWithYou": " · mit Ihnen geteilt",
 	"smart": {
 		"addRule": "Regel hinzufügen",
+		"and": "",
 		"bool": {
-			"false": "falsch",
-			"true": "wahr"
+			"explicitFalse": "",
+			"explicitTrue": "",
+			"likedFalse": "",
+			"likedTrue": ""
 		},
 		"created": "Intelligente Playlist erstellt",
 		"delete": {
@@ -92,17 +105,35 @@
 			"title": "Intelligente Playlist löschen"
 		},
 		"description": "Regeln werden automatisch zu passenden Titeln aufgelöst.",
+		"dir": {
+			"asc": "",
+			"desc": ""
+		},
 		"editRules": "Regeln bearbeiten",
 		"editTitle": "Intelligente Playlist bearbeiten",
 		"empty": "Bisher entsprechen keine Titel diesen Regeln. Versuchen Sie, sie über „Regeln bearbeiten“ zu lockern.",
 		"field": {
+			"added_at": "Hinzugefügt am",
 			"album": "",
 			"artist": "Künstler",
+			"duration": "",
+			"explicit": "Explizit",
+			"first_played": "Erstmals gehört",
 			"genre": "",
+			"label": "",
+			"last_played": "Zuletzt gehört",
 			"liked": "Gefällt mir",
-			"plays": "Wiedergaben",
+			"my_plays": "",
+			"plays": "",
+			"release_date": "",
 			"title": "Titel",
+			"version_type": "",
 			"year": "Jahr"
+		},
+		"group": {
+			"library": "In Ihrer Bibliothek",
+			"listening": "",
+			"track": ""
 		},
 		"kindLabel": "Intelligente Playlist",
 		"limit": "",
@@ -114,11 +145,76 @@
 		"namePlaceholder": "Playlist-Name",
 		"new": "Neue intelligente Playlist",
 		"newTitle": "Neue intelligente Playlist",
+		"noRules": "",
+		"noRulesYet": "",
 		"ofTheseRules": "dieser Regeln:",
 		"op": {
+			"after": "",
+			"before": "",
+			"between": "",
 			"contains": "enthält",
 			"equals": "ist",
-			"is": "ist"
+			"gte": "",
+			"in_last": "",
+			"is": "ist",
+			"lte": "",
+			"not_in_last": "",
+			"not_contains": "",
+			"not_equals": ""
+		},
+		"or": "oder",
+		"period": {
+			"month": "",
+			"rolling": "",
+			"year": "",
+			"all": "Alle Zeiten"
+		},
+		"periodLabel": "",
+		"presets": {
+			"forgotten": {
+				"description": "",
+				"label": "",
+				"name": ""
+			},
+			"likedOldest": {
+				"description": "",
+				"label": "",
+				"name": ""
+			},
+			"neverPlayed": {
+				"description": "",
+				"label": "",
+				"name": ""
+			},
+			"onRepeat": {
+				"description": "",
+				"label": "",
+				"name": ""
+			},
+			"recentlyAdded": {
+				"description": "",
+				"label": "",
+				"name": ""
+			},
+			"title": "",
+			"topMonth": {
+				"description": "",
+				"label": "",
+				"name": ""
+			},
+			"topYear": {
+				"description": "",
+				"label": "",
+				"name": ""
+			}
+		},
+		"preview": {
+			"count": "{count, plural, one {# Titel} other {# Titel}}",
+			"countCapped": "",
+			"empty": "",
+			"limited": "",
+			"title": "",
+			"unavailable": ""
 		},
 		"refresh": {
 			"changed": "",
@@ -131,32 +227,55 @@
 			"neverRefreshed": "",
 			"now": "Aktualisieren",
 			"scheduleLabel": "",
-			"unchanged": ""
+			"unchanged": "",
+			"onCompleteLabel": "",
+			"onCompleteHint": "",
+			"action": ""
 		},
 		"removeRule": "Regel entfernen",
 		"ruleField": "Regelfeld",
 		"ruleOperator": "Regeloperator",
 		"saveError": "Die intelligente Playlist konnte nicht gespeichert werden",
 		"sort": {
-			"plays": "Wiedergaben",
+			"added_at": "Hinzugefügt am",
+			"duration": "",
+			"last_played": "Zuletzt gehört",
+			"my_plays": "",
+			"my_plays_in_period": "",
+			"plays": "",
 			"random": "Zufällig",
+			"release_date": "",
 			"title": "Titel"
 		},
 		"sortBy": "Sortieren nach",
+		"sortDir": "",
+		"unit": {
+			"days": "",
+			"months": "",
+			"weeks": ""
+		},
+		"unitLabel": "",
 		"updated": "Intelligente Playlist aktualisiert",
 		"valueHint": {
 			"album": "",
 			"artist": "",
-			"genre": ""
+			"genre": "",
+			"label": "",
+			"title": ""
 		},
-		"valuePlaceholder": "Wert"
+		"valuePlaceholder": "Wert",
+		"valueUpper": "",
+		"valueList": {
+			"addMore": "",
+			"remove": "{name} entfernen"
+		}
 	},
 	"songCount": "{count, plural, one {# Song} other {# Songs}}",
 	"stats": {
-		"title": "",
-		"scopeMe": "Sie",
-		"scopeEveryone": "Alle",
 		"empty": "",
+		"scopeEveryone": "Alle",
+		"scopeMe": "Sie",
+		"title": "",
 		"trackingSince": ""
 	},
 	"toast": {
