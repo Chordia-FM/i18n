@@ -1,7 +1,16 @@
 {
 	"artists": {
 		"empty": "Ainda não há artistas — o catálogo pode estar sincronizando.",
-		"title": "Artistas"
+		"title": "Artistas",
+		"searchPlaceholder": "",
+		"sortLabel": "",
+		"sort": {
+			"name": "",
+			"albums": "",
+			"tracks": ""
+		},
+		"filtered": "",
+		"noMatches": ""
 	},
 	"card": {
 		"editTitle": "Editar esta biblioteca",
@@ -22,6 +31,23 @@
 		"removeError": "Não foi possível remover o download",
 		"removeTooltip": "Remover download",
 		"songCount": "{count, plural, one {# música} other {# músicas}}",
+		"stats": {
+			"artistCount": "{count, plural, one {# música} other {# músicas}}",
+			"bitrate": "",
+			"bitrateValue": "",
+			"byArtist": "",
+			"device": "",
+			"deviceUsage": "",
+			"length": "",
+			"liked": "",
+			"likedShare": "",
+			"newest": "",
+			"oldest": "",
+			"size": "",
+			"songs": "Músicas",
+			"title": "",
+			"unknownQuota": ""
+		},
 		"storedOnDevice": "guardadas neste dispositivo",
 		"title": ""
 	},
@@ -101,6 +127,20 @@
 		"remove": "Remover das Músicas Curtidas",
 		"save": "Salvar em Músicas Curtidas",
 		"songCount": "{count, plural, one {# música} other {# músicas}}",
+		"stats": {
+			"artistCount": "{count, plural, one {# música} other {# músicas}}",
+			"firstLike": "",
+			"keepRatio": "",
+			"length": "",
+			"missed": "",
+			"missedHint": "",
+			"neverPlayed": "",
+			"overTime": "",
+			"plays": "Reproduções",
+			"songs": "Músicas",
+			"title": "",
+			"topArtists": ""
+		},
 		"title": "Músicas Curtidas"
 	},
 	"likedSongs": "Músicas Curtidas",
@@ -125,9 +165,40 @@
 	"metadata": {
 		"intro": "Edite os metadados só desta biblioteca. Suas alterações valem em todas as suas telas; o que você deixar em branco mantém o valor original. As edições do catálogo global ficam na página de administração.",
 		"noMatches": "Nenhuma correspondência.",
+		"overrides": {
+			"field": {
+				"album": "Álbum",
+				"album_type": "Tipo",
+				"artist": "Artista",
+				"banner": "",
+				"bio": "",
+				"cover": "",
+				"disc_no": "",
+				"genre": "Gênero",
+				"genres": "Gêneros",
+				"image": "Imagem",
+				"label": "Gravadora",
+				"name": "Nome",
+				"title": "Título",
+				"track_no": "",
+				"year": "Ano"
+			},
+			"kind": {
+				"album": "Álbum",
+				"artist": "Artista",
+				"track": ""
+			},
+			"main": "",
+			"none": "",
+			"reset": "Redefinir",
+			"resetConfirm": "",
+			"resetDone": "",
+			"title": "",
+			"wasCalled": ""
+		},
+		"searchHint": "",
 		"searchPlaceholder": "Buscar artistas, álbuns ou faixas…",
-		"title": "Metadados",
-		"searchHint": ""
+		"title": "Metadados"
 	},
 	"new": {
 		"addFailed": "Falha ao adicionar a biblioteca",
@@ -233,7 +304,8 @@
 	"sidebar": {
 		"pinned": "Fixados",
 		"playlists": "",
-		"yourLibrary": "Sua biblioteca"
+		"yourLibrary": "Sua biblioteca",
+		"sharedWithYou": "Compartilhadas com você"
 	},
 	"trackCount": "{count, plural, one {# faixa} other {# faixas}}"
 }
