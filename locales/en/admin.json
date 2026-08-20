@@ -127,8 +127,8 @@
 		"searchPlaceholder": "Filter…"
 	},
 	"images": {
-		"batchNote": "images per batch. Stopping is safe; anything not reached stays as it is.",
 		"help": "Art is stored at whatever size it arrived at. This brings everything down to the size the app actually displays, which on most instances is where the database size comes from.",
+		"keepsRunning": "This keeps going on the server, so you can close this page. Stopping is safe; anything not reached stays as it is.",
 		"progress": "{count, plural, one {# image rewritten} other {# images rewritten}}, {saved} saved",
 		"remaining": "{count, plural, one {# left} other {# left}}",
 		"running": "Working...",
