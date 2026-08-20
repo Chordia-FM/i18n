@@ -7,6 +7,26 @@
 		"selfHost": "Rather run it yourself?",
 		"signIn": "Sign in"
 	},
+	"download": {
+		"eyebrow": "Desktop app",
+		"title": "Chordia on your desktop",
+		"subtitle": "The same app in its own window. It answers the media keys on your keyboard, keeps your offline downloads on disk, and can play local files without a server at all.",
+		"version": "Version {version}",
+		"platform": {
+			"windows": "Windows",
+			"mac_os": "macOS",
+			"linux_app_image": "Linux (AppImage)",
+			"linux_deb": "Linux (.deb)"
+		},
+		"unavailable": "The list of builds could not be loaded just now. Every release is here:",
+		"releasesLink": "all releases",
+		"smartScreen": "On first run Windows will say it does not recognize the app. The installer is not signed yet, so that warning is expected. Choose More info, then Run anyway.",
+		"updates": "It updates itself from then on, so you should only need this page once.",
+		"checksums": "Want to check what you downloaded?",
+		"browserHeading": "Or stay in the browser",
+		"browserBody": "Nothing here is desktop only. The web app plays the same library and works offline once you install it from your browser. The desktop build adds the media keys, a window of its own, and local files.",
+		"openInBrowser": "Open Chordia in your browser"
+	},
 	"eyebrow": "Bring your own music",
 	"faq": {
 		"cost": {
@@ -88,6 +108,7 @@
 			"terms": "Terms"
 		},
 		"product": {
+			"download": "Download",
 			"features": "Features",
 			"heading": "Product",
 			"listening": "Listening history",
