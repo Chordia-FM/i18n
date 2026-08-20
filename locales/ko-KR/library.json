@@ -1,7 +1,16 @@
 {
 	"artists": {
 		"empty": "아직 아티스트가 없습니다 - 카탈로그가 아직 동기화 중일 수 있습니다.",
-		"title": "아티스트"
+		"title": "아티스트",
+		"searchPlaceholder": "",
+		"sortLabel": "",
+		"sort": {
+			"name": "",
+			"albums": "",
+			"tracks": ""
+		},
+		"filtered": "",
+		"noMatches": ""
 	},
 	"card": {
 		"editTitle": "이 라이브러리 편집",
@@ -22,6 +31,23 @@
 		"removeError": "다운로드를 제거하지 못했습니다",
 		"removeTooltip": "다운로드 제거",
 		"songCount": "{count, plural, other {#곡}}",
+		"stats": {
+			"artistCount": "{count, plural, other {#곡}}",
+			"bitrate": "",
+			"bitrateValue": "",
+			"byArtist": "",
+			"device": "",
+			"deviceUsage": "",
+			"length": "",
+			"liked": "",
+			"likedShare": "",
+			"newest": "",
+			"oldest": "",
+			"size": "",
+			"songs": "곡",
+			"title": "",
+			"unknownQuota": ""
+		},
 		"storedOnDevice": "이 기기에 저장됨",
 		"title": "다운로드"
 	},
@@ -101,6 +127,20 @@
 		"remove": "좋아요 표시한 곡에서 제거",
 		"save": "좋아요 표시한 곡에 저장",
 		"songCount": "{count, plural, other {#곡}}",
+		"stats": {
+			"artistCount": "{count, plural, other {#곡}}",
+			"firstLike": "",
+			"keepRatio": "",
+			"length": "",
+			"missed": "",
+			"missedHint": "",
+			"neverPlayed": "",
+			"overTime": "",
+			"plays": "재생 횟수",
+			"songs": "곡",
+			"title": "",
+			"topArtists": ""
+		},
 		"title": "좋아요 표시한 곡"
 	},
 	"likedSongs": "좋아요 표시한 곡",
@@ -125,9 +165,40 @@
 	"metadata": {
 		"intro": "이 라이브러리에만 적용되는 메타데이터를 편집합니다. 변경 사항은 내 모든 화면에 반영되며, 비워 둔 항목은 원래 값이 유지됩니다. 전체 카탈로그 편집은 관리자 페이지에 있습니다.",
 		"noMatches": "일치하는 항목이 없습니다.",
+		"overrides": {
+			"field": {
+				"album": "앨범",
+				"album_type": "유형",
+				"artist": "아티스트",
+				"banner": "배너",
+				"bio": "",
+				"cover": "",
+				"disc_no": "",
+				"genre": "장르",
+				"genres": "장르",
+				"image": "이미지",
+				"label": "레이블",
+				"name": "이름",
+				"title": "제목",
+				"track_no": "",
+				"year": "연도"
+			},
+			"kind": {
+				"album": "앨범",
+				"artist": "아티스트",
+				"track": ""
+			},
+			"main": "",
+			"none": "",
+			"reset": "초기화",
+			"resetConfirm": "",
+			"resetDone": "",
+			"title": "",
+			"wasCalled": ""
+		},
+		"searchHint": "",
 		"searchPlaceholder": "아티스트, 앨범, 트랙 검색…",
-		"title": "메타데이터",
-		"searchHint": ""
+		"title": "메타데이터"
 	},
 	"new": {
 		"addFailed": "라이브러리를 추가하지 못했습니다",
@@ -233,7 +304,8 @@
 	"sidebar": {
 		"pinned": "고정됨",
 		"playlists": "플레이리스트",
-		"yourLibrary": "내 라이브러리"
+		"yourLibrary": "내 라이브러리",
+		"sharedWithYou": "공유받음"
 	},
 	"trackCount": "{count, plural, other {트랙 #개}}"
 }
