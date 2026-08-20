@@ -10,13 +10,23 @@
 		"invite": "+ 초대",
 		"invitePrompt": "사용자 이름으로 공동 작업자를 초대하세요",
 		"invited": "@{handle}님을 초대함",
+		"manage": "",
 		"removeTitle": "{name} 제거",
-		"removed": "{name} 제거함",
-		"manage": ""
+		"removed": "{name} 제거함"
 	},
 	"confirm": {
 		"deleteMessage": "\"{name}\"을(를) 삭제할까요?",
 		"deleteTitle": "플레이리스트 삭제"
+	},
+	"create": {
+		"kindLabel": "",
+		"namePlaceholder": "플레이리스트 이름",
+		"normal": "보통",
+		"normalDescription": "",
+		"smart": "",
+		"smartDescription": "",
+		"submit": "",
+		"title": "새 플레이리스트"
 	},
 	"createFailed": "플레이리스트를 만들지 못했습니다",
 	"createdFromAlbumToast": "플레이리스트 ‘{name}’을(를) 만들었습니다",
@@ -25,31 +35,31 @@
 		"title": "플레이리스트 삭제"
 	},
 	"edit": {
-		"title": "",
 		"choosePhoto": "",
-		"removePhoto": "",
-		"name": "이름",
 		"description": "설명",
 		"descriptionPlaceholder": "",
+		"name": "이름",
+		"photoError": "",
+		"removePhoto": "",
+		"saveError": "",
+		"title": "",
 		"visibility": {
 			"label": "",
 			"private": "",
-			"unlisted": "",
-			"public": "",
 			"privateHint": "",
-			"unlistedHint": "",
-			"publicHint": ""
-		},
-		"saveError": "",
-		"photoError": ""
+			"public": "",
+			"publicHint": "",
+			"unlisted": "",
+			"unlistedHint": ""
+		}
 	},
 	"empty": "플레이리스트가 비어 있습니다. 트랙의 “⋯” 메뉴에서 곡을 추가하세요.",
 	"emptyState": {
-		"title": "",
-		"searchPlaceholder": "",
-		"fromLiked": "",
 		"addHint": "",
-		"added": ""
+		"added": "",
+		"fromLiked": "",
+		"searchPlaceholder": "",
+		"title": ""
 	},
 	"kind": {
 		"collaborative": "",
@@ -82,9 +92,12 @@
 	"sharedWithYou": " · 공유받음",
 	"smart": {
 		"addRule": "규칙 추가",
+		"and": "",
 		"bool": {
-			"false": "거짓",
-			"true": "참"
+			"explicitFalse": "",
+			"explicitTrue": "",
+			"likedFalse": "",
+			"likedTrue": ""
 		},
 		"created": "스마트 플레이리스트를 만들었습니다",
 		"delete": {
@@ -92,17 +105,35 @@
 			"title": "스마트 플레이리스트 삭제"
 		},
 		"description": "규칙에 맞는 트랙이 자동으로 채워집니다.",
+		"dir": {
+			"asc": "",
+			"desc": ""
+		},
 		"editRules": "규칙 편집",
 		"editTitle": "스마트 플레이리스트 편집",
 		"empty": "아직 이 규칙에 맞는 트랙이 없습니다. “규칙 편집”에서 조건을 완화해 보세요.",
 		"field": {
+			"added_at": "추가한 날짜",
 			"album": "앨범",
 			"artist": "아티스트",
+			"duration": "",
+			"explicit": "가사 주의",
+			"first_played": "처음 재생",
 			"genre": "장르",
+			"label": "레이블",
+			"last_played": "마지막 재생",
 			"liked": "좋아요",
-			"plays": "재생 횟수",
+			"my_plays": "",
+			"plays": "",
+			"release_date": "",
 			"title": "제목",
+			"version_type": "",
 			"year": "연도"
+		},
+		"group": {
+			"library": "내 라이브러리에 있음",
+			"listening": "",
+			"track": ""
 		},
 		"kindLabel": "스마트 플레이리스트",
 		"limit": "개수 제한",
@@ -114,11 +145,76 @@
 		"namePlaceholder": "플레이리스트 이름",
 		"new": "새 스마트 플레이리스트",
 		"newTitle": "새 스마트 플레이리스트",
+		"noRules": "",
+		"noRulesYet": "",
 		"ofTheseRules": "일치하는 트랙:",
 		"op": {
+			"after": "",
+			"before": "",
+			"between": "",
 			"contains": "포함",
 			"equals": "일치",
-			"is": "일치"
+			"gte": "",
+			"in_last": "",
+			"is": "일치",
+			"lte": "",
+			"not_in_last": "",
+			"not_contains": "",
+			"not_equals": ""
+		},
+		"or": "또는",
+		"period": {
+			"month": "",
+			"rolling": "",
+			"year": "",
+			"all": "전체 기간"
+		},
+		"periodLabel": "",
+		"presets": {
+			"forgotten": {
+				"description": "",
+				"label": "",
+				"name": ""
+			},
+			"likedOldest": {
+				"description": "",
+				"label": "",
+				"name": ""
+			},
+			"neverPlayed": {
+				"description": "",
+				"label": "",
+				"name": ""
+			},
+			"onRepeat": {
+				"description": "",
+				"label": "",
+				"name": ""
+			},
+			"recentlyAdded": {
+				"description": "",
+				"label": "",
+				"name": ""
+			},
+			"title": "",
+			"topMonth": {
+				"description": "",
+				"label": "",
+				"name": ""
+			},
+			"topYear": {
+				"description": "",
+				"label": "",
+				"name": ""
+			}
+		},
+		"preview": {
+			"count": "{count, plural, other {트랙 #개}}",
+			"countCapped": "",
+			"empty": "",
+			"limited": "",
+			"title": "",
+			"unavailable": ""
 		},
 		"refresh": {
 			"changed": "",
@@ -131,32 +227,55 @@
 			"neverRefreshed": "",
 			"now": "새로고침",
 			"scheduleLabel": "",
-			"unchanged": ""
+			"unchanged": "",
+			"onCompleteLabel": "",
+			"onCompleteHint": "",
+			"action": ""
 		},
 		"removeRule": "규칙 제거",
 		"ruleField": "규칙 항목",
 		"ruleOperator": "규칙 연산자",
 		"saveError": "스마트 플레이리스트를 저장하지 못했습니다",
 		"sort": {
-			"plays": "재생 횟수",
+			"added_at": "추가한 날짜",
+			"duration": "",
+			"last_played": "마지막 재생",
+			"my_plays": "",
+			"my_plays_in_period": "",
+			"plays": "",
 			"random": "무작위",
+			"release_date": "",
 			"title": "제목"
 		},
 		"sortBy": "정렬 기준",
+		"sortDir": "",
+		"unit": {
+			"days": "",
+			"months": "",
+			"weeks": ""
+		},
+		"unitLabel": "",
 		"updated": "스마트 플레이리스트를 업데이트했습니다",
 		"valueHint": {
 			"album": "",
 			"artist": "",
-			"genre": ""
+			"genre": "",
+			"label": "",
+			"title": ""
 		},
-		"valuePlaceholder": "값"
+		"valuePlaceholder": "값",
+		"valueUpper": "",
+		"valueList": {
+			"addMore": "",
+			"remove": "{name} 제거"
+		}
 	},
 	"songCount": "{count, plural, other {#곡}}",
 	"stats": {
-		"title": "",
-		"scopeMe": "나",
-		"scopeEveryone": "전체 공개",
 		"empty": "",
+		"scopeEveryone": "전체 공개",
+		"scopeMe": "나",
+		"title": "",
 		"trackingSince": ""
 	},
 	"toast": {
