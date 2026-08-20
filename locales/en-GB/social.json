@@ -34,16 +34,8 @@
 			"translator": ""
 		},
 		"directory": {
-			"title": "",
-			"subtitle": "",
-			"howTo": "",
-			"open": "",
 			"closed": "",
-			"overTime": "",
-			"holders": "",
-			"remaining": "",
-			"until": "",
-			"name": {
+			"earn": {
 				"developer": "",
 				"staff": "",
 				"early_bird": "",
@@ -52,7 +44,9 @@
 				"super_sonic": "",
 				"translator": ""
 			},
-			"earn": {
+			"holders": "",
+			"howTo": "",
+			"name": {
 				"developer": "",
 				"staff": "",
 				"early_bird": "",
@@ -64,7 +58,16 @@
 			"noHistory": {
 				"tooFew": "",
 				"untracked": ""
-			}
+			},
+			"open": "",
+			"overTime": "",
+			"remaining": "",
+			"stageFromStart": "",
+			"stageMonths": "",
+			"stages": "",
+			"subtitle": "",
+			"title": "",
+			"until": ""
 		}
 	},
 	"block": {
