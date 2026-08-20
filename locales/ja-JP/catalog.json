@@ -188,7 +188,7 @@
 			"note": "レビュアーへのメモ（任意）"
 		},
 		"genresHint": "複数のジャンルはカンマで区切ってください。",
-		"helpText": "{name}の情報を編集します。自分のライブラリには即時に保存でき、全員向けの提案として送信することもできます（提案は管理者が確認します）。変更した項目のみ送信されます。",
+		"helpText": "",
 		"imageAlt": "アーティスト画像",
 		"libraryTarget": "保存先のライブラリを選択",
 		"noteHint": "提案の送信時のみ添付されます。参考リンクなど、レビュアーの助けになる情報をどうぞ。",
@@ -199,7 +199,12 @@
 		"submit": "提案を送信",
 		"submitFailed": "提案を送信できませんでした。",
 		"suggestionSent": "提案を送信しました。管理者が確認します。",
-		"title": "アーティスト情報を編集"
+		"title": {
+			"artist": "",
+			"album": "",
+			"track": ""
+		},
+		"nothingChanged": ""
 	},
 	"search": {
 		"placeholder": "アーティスト、アルバム、曲"
@@ -236,7 +241,22 @@
 			"today": "今日",
 			"yesterday": "昨日"
 		},
-		"reorderAria": ""
+		"reorderAria": "",
+		"variant": {
+			"acoustic": "アコースティック",
+			"bonus": "",
+			"cover": "",
+			"deluxe": "",
+			"demo": "",
+			"extended": "",
+			"instrumental": "インストゥルメンタル",
+			"karaoke": "",
+			"live": "ライブ",
+			"radio_edit": "",
+			"remaster": "リマスター",
+			"remix": "",
+			"single_version": ""
+		}
 	},
 	"trackCount": "{count, plural, other {#曲}}"
 }
