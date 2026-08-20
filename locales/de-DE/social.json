@@ -1,4 +1,72 @@
 {
+	"badges": {
+		"earlyBird": {
+			"detail": "",
+			"title": "",
+			"detailRanked": ""
+		},
+		"earlySupporter": {
+			"detail": "",
+			"title": ""
+		},
+		"premium": {
+			"detail": ""
+		},
+		"staff": {
+			"admin": "",
+			"detail": "",
+			"moderator": "",
+			"support": ""
+		},
+		"stage": {
+			"diamond": "",
+			"nova": "",
+			"orbit": "",
+			"spark": ""
+		},
+		"about": {
+			"developer": "",
+			"staff": "",
+			"early_bird": "",
+			"early_supporter": "",
+			"sonic": "",
+			"super_sonic": "",
+			"translator": ""
+		},
+		"directory": {
+			"title": "",
+			"subtitle": "",
+			"howTo": "",
+			"open": "",
+			"closed": "",
+			"overTime": "",
+			"holders": "",
+			"remaining": "",
+			"until": "",
+			"name": {
+				"developer": "",
+				"staff": "",
+				"early_bird": "",
+				"early_supporter": "",
+				"sonic": "",
+				"super_sonic": "",
+				"translator": ""
+			},
+			"earn": {
+				"developer": "",
+				"staff": "",
+				"early_bird": "",
+				"early_supporter": "",
+				"sonic": "",
+				"super_sonic": "",
+				"translator": ""
+			},
+			"noHistory": {
+				"tooFew": "",
+				"untracked": ""
+			}
+		}
+	},
 	"block": {
 		"confirmLabel": "Blockieren",
 		"confirmMessage": "@{handle} blockieren? Sie können sich dann nicht mehr gegenseitig als Freunde hinzufügen.",
@@ -58,7 +126,6 @@
 			"less": "Weniger anzeigen",
 			"more": "Mehr anzeigen"
 		},
-		"eyebrow": "Profil",
 		"hidden": {
 			"description": "",
 			"title": ""
@@ -90,7 +157,8 @@
 		"topArtists": "Top-Künstler",
 		"topTracks": "Top-Titel",
 		"totalPlays": "{count, plural, one {# Wiedergabe} other {# Wiedergaben}}",
-		"totalPlaysCount": ""
+		"totalPlaysCount": "",
+		"listTabs": ""
 	},
 	"report": {
 		"promptMessage": ""
