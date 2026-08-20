@@ -127,8 +127,8 @@
 		"searchPlaceholder": ""
 	},
 	"images": {
-		"batchNote": "",
 		"help": "",
+		"keepsRunning": "",
 		"progress": "",
 		"remaining": "",
 		"running": "",
