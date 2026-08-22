@@ -225,7 +225,7 @@
 		"noMatches": "No matches.",
 		"overrides": {
 			"applyToCatalog": "Also correct the main catalog",
-			"applyToCatalogHint": "Everyone sees this correction, not just your libraries. Use it when the catalog is wrong — not when you simply prefer a different spelling.",
+			"applyToCatalogHint": "Everyone sees this correction, not just your libraries. Use it when the catalog is wrong, not when you simply prefer a different spelling.",
 			"editTitle": "Edit {name}",
 			"field": {
 				"album": "Album",
@@ -289,7 +289,7 @@
 	},
 	"pairing": {
 		"title": "Connect a library server",
-		"intro": "Your music lives on a computer of yours running the Chordia library server. Pairing lets this phone reach it — songs stream straight from that machine and never pass through Chordia.",
+		"intro": "Your music lives on a computer of yours running the Chordia library server. Pairing lets this phone reach it: songs stream straight from that machine and never pass through Chordia.",
 		"stepStartTitle": "Start the server",
 		"stepStartBody": "On the computer holding your music, start Chordia Library. The first time it runs it prints a one-time setup link in its terminal.",
 		"stepLinkTitle": "Paste the setup link",
@@ -300,12 +300,12 @@
 		"checkingTitle": "Looking for the server",
 		"checkingBody": "Trying to reach {host}.",
 		"trustTitle": "Is this your server?",
-		"trustBody": "{host} signed its own certificate, which is normal for a home server. From now on this phone accepts only this exact certificate and refuses anything else — which is what makes a self-signed server safe to stream from.",
+		"trustBody": "{host} signed its own certificate, which is normal for a home server. From now on this phone accepts only this exact certificate and refuses anything else, which is what makes a self-signed server safe to stream from.",
 		"trustFingerprint": "Certificate fingerprint",
 		"trustConfirm": "Yes, that is my server",
 		"claimingTitle": "Introducing your account",
 		"claimingBody": "Chordia is issuing a one-time pass, good for two minutes and for nothing but this handshake, and handing it to the server. Your sign-in never leaves this phone.",
-		"ticketExpired": "The one-time pass ran out before the server answered. Nothing was lost — try again.",
+		"ticketExpired": "The one-time pass ran out before the server answered. Nothing was lost; try again.",
 		"nameTitle": "Name this library",
 		"nameBody": "One server can hold several libraries. This is the name you will see on this phone.",
 		"namePlaceholder": "My Music",
@@ -314,7 +314,7 @@
 		"doneBody": "The server is scanning its folders now. Tracks appear as they are indexed.",
 		"doneAction": "Go to the library",
 		"unreachable": "Could not reach {host}. Check the server is running and that this phone is on the same network.",
-		"refused": "The server would not accept that setup link. A link works once — restart the library server to print a fresh one.",
+		"refused": "The server would not accept that setup link. A link works once; restart the library server to print a fresh one.",
 		"startOver": "Start over"
 	},
 	"pin": {

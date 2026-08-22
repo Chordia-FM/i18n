@@ -50,7 +50,7 @@
 		"customAccentAria": "Custom accent color",
 		"customColour": "Custom color",
 		"customColourHint": "Pick any color - buttons, highlights and the background tint follow it.",
-		"languageHint": "Sets the language your server writes in — its emails, and the messages it sends back to this app.",
+		"languageHint": "Sets the language your server writes in: its emails, and the messages it sends back to this app.",
 		"mode": {
 			"artwork": "Artwork",
 			"artworkHint": "Follows the cover that is playing.",
