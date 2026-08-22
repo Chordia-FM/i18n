@@ -5,12 +5,15 @@
 		"changeEmailBody": "We'll send a confirmation link to the new address. It only becomes your sign-in email once you follow that link.",
 		"changeEmailTitle": "Change your email address",
 		"changePhoto": "Change photo",
+		"deleteTypeHandle": "Type {handle} to confirm.",
 		"displayName": "Display name",
 		"emailChangeSent": "Check your new inbox for a confirmation link.",
 		"emailTitle": "Email",
 		"handle": "Handle",
 		"handleHint": "Letters, digits, “_” and “-”. Must be unique.",
 		"handlePlaceholder": "yourname",
+		"leaveDesc": "Sign out on this device, or close the account for good.",
+		"leaveTitle": "Leaving",
 		"newEmailPlaceholder": "new@example.com",
 		"noEmail": "No email address on this account.",
 		"pendingChange": "Waiting for confirmation at {email}",
@@ -20,6 +23,7 @@
 		"resendVerification": "Resend verification email",
 		"saveProfile": "Save profile",
 		"sendConfirmation": "Send confirmation",
+		"signOutConfirm": "Sign out of {hub}? Anything you have downloaded stays on this device.",
 		"title": "Account",
 		"unverified": "Unverified",
 		"verificationSent": "Sent, check your inbox",
@@ -28,6 +32,7 @@
 	"appearance": {
 		"accentColour": "Accent color",
 		"accentHexAria": "Accent hex",
+		"accentProfileHint": "Your color is what your name and your profile wear wherever other people see them.",
 		"accents": {
 			"amber": "Amber",
 			"blue": "Blue",
@@ -45,6 +50,7 @@
 		"customAccentAria": "Custom accent color",
 		"customColour": "Custom color",
 		"customColourHint": "Pick any color - buttons, highlights and the background tint follow it.",
+		"languageHint": "Sets the language your server writes in — its emails, and the messages it sends back to this app.",
 		"mode": {
 			"artwork": "Artwork",
 			"artworkHint": "Follows the cover that is playing.",
@@ -78,6 +84,12 @@
 		"title": "Appearance"
 	},
 	"connections": {
+		"discord": {
+			"desc": "Linking and unlinking Discord happens on the Chordia website.",
+			"label": "Discord",
+			"linked": "Linked to your account",
+			"notLinked": "Not linked"
+		},
 		"lastfm": {
 			"connect": "Connect",
 			"connectedAs": "Connected as {username}",
@@ -87,8 +99,10 @@
 			"disconnect": "Disconnect",
 			"disconnected": "Last.fm disconnected",
 			"failed": "Couldn’t connect Last.fm",
-			"label": "Last.fm"
+			"label": "Last.fm",
+			"opensBrowser": "Connecting opens Last.fm in your browser. Come back and refresh when it is done."
 		},
+		"refresh": "Refresh",
 		"title": "Connections"
 	},
 	"data": {
@@ -101,6 +115,8 @@
 		"exportFailedBody": "Could not export your data right now. Please try again.",
 		"exportFailedTitle": "Export failed",
 		"exportMyData": "Export my data",
+		"exportReady": "Your export is ready to save or send on.",
+		"exportSubject": "Chordia data export",
 		"title": "Your data"
 	},
 	"desktop": {
@@ -208,6 +224,7 @@
 	"import": {
 		"body": "Bring your listening history from Spotify or Last.fm. Plays that match music in your libraries are linked to it; everything else is kept with its original text and matches later if that music arrives.",
 		"chooseFile": "Choose file",
+		"empty": "No imports yet.",
 		"errors": {
 			"internal": "Something went wrong while importing. Try again.",
 			"interrupted": "The import was interrupted before it finished. Upload the file again; rows already imported are recognized and never doubled.",
@@ -217,6 +234,7 @@
 		"hint": "Accepts a Spotify extended streaming history (.json) or a Last.fm export (.csv), up to 200 MB. Uploading the same file twice never duplicates plays.",
 		"progress": "{processed} of {total} rows",
 		"sourceAuto": "Detect source",
+		"startInBrowser": "Uploading an export file needs the Chordia website. Jobs you start there show their progress here.",
 		"status": {
 			"done": "Done",
 			"failed": "Failed",
@@ -246,6 +264,9 @@
 		"title": "Layout"
 	},
 	"plan": {
+		"current": "Current plan",
+		"includes": "What your plan includes",
+		"opensInBrowser": "Payment happens on the Chordia website, in your browser.",
 		"selfHosted": "This is a self-hosted Chordia server, so there is nothing to buy here. Every feature is available to every account.",
 		"title": "Plan"
 	},
@@ -258,6 +279,8 @@
 			"desc": "Overlap and blend the end of each track into the next. Measured in seconds.",
 			"label": "Crossfade"
 		},
+		"crossfadeSeconds": "{count, plural, one {# second} other {# seconds}}",
+		"equalizerDesc": "Shape the sound with a parametric equalizer.",
 		"normalize": {
 			"desc": "Even out loudness across tracks (ReplayGain).",
 			"label": "Normalize volume"
@@ -292,6 +315,7 @@
 				"label": "Source"
 			}
 		},
+		"storageDesc": "Music saved on this device, and the room it takes.",
 		"streamingQuality": "Streaming quality",
 		"title": "Playback"
 	},
@@ -401,6 +425,16 @@
 			"zoneWithOffset": "{zone} ({offset})"
 		},
 		"title": "Region"
+	},
+	"sections": {
+		"account": "Profile, email, and closing your account",
+		"appearance": "Color, language, and where the app opens",
+		"connections": "Last.fm and Discord",
+		"data": "Export your data, import your history",
+		"plan": "Your plan and what it includes",
+		"playback": "Quality, crossfade, equalizer and downloads",
+		"privacy": "Scrobbling, and who can see what",
+		"security": "Password, two-factor, and signed-in devices"
 	},
 	"security": {
 		"password": {

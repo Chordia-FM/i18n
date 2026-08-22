@@ -20,17 +20,52 @@
 		"trackCount": "{count, plural, one {# track} other {# tracks}}"
 	},
 	"downloads": {
+		"action": {
+			"cancel": "Cancel download",
+			"download": "Download",
+			"downloadAlbum": "Download album",
+			"downloadPlaylist": "Download playlist",
+			"manage": "Manage downloads",
+			"pause": "Pause",
+			"remove": "Remove download",
+			"resume": "Resume",
+			"retry": "Retry"
+		},
 		"clearConfirm": {
 			"message": "Remove all downloaded songs from this device?",
 			"title": "Clear downloads"
 		},
 		"clearError": "Couldn't clear downloads",
 		"emptyState": "Songs you download play without a connection. Use the Download action on any track to save it here.",
+		"error": {
+			"cap": "No room left in your download limit.",
+			"incomplete": "The download ended early and was discarded.",
+			"offline": "Couldn't reach the library server.",
+			"server": "The library refused the download ({status}).",
+			"storage": "This device wouldn't store the file.",
+			"unknown": "Download failed."
+		},
 		"eyebrow": "Available offline",
 		"navLabel": "Downloads",
+		"queue": {
+			"empty": "Nothing is downloading right now.",
+			"paused": "Paused",
+			"progress": "{done} of {total}",
+			"queued": "Waiting",
+			"title": "Downloading"
+		},
 		"removeError": "Couldn't remove download",
 		"removeTooltip": "Remove download",
 		"songCount": "{count, plural, one {# song} other {# songs}}",
+		"storage": {
+			"cap": "Download limit",
+			"capUnlimited": "No limit",
+			"clear": "Remove all downloads",
+			"full": "Your download limit is full. Remove some songs, or raise the limit.",
+			"title": "Storage",
+			"used": "{used} of {cap} used",
+			"usedNoCap": "{used} on this device"
+		},
 		"stats": {
 			"artistCount": "{count, plural, one {# song} other {# songs}}",
 			"bitrate": "Average bitrate",
@@ -47,6 +82,15 @@
 			"songs": "Songs",
 			"title": "Your downloads",
 			"unknownQuota": "This browser will not say how much room is left."
+		},
+		"toast": {
+			"cleared": "{count, plural, one {# download removed} other {# downloads removed}}",
+			"existing": "Already on this device",
+			"inUse": "That song is playing. Stop it before removing the download.",
+			"queued": "{count, plural, one {# song queued} other {# songs queued}}",
+			"refused": "{count, plural, one {# song didn't fit} other {# songs didn't fit}} in your download limit",
+			"removed": "Download removed",
+			"skipped": "{count, plural, one {# song is playing and was kept} other {# songs are playing and were kept}}"
 		},
 		"storedOnDevice": "stored on this device",
 		"title": "Downloads"
