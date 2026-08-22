@@ -139,7 +139,8 @@
 		"search": "Search",
 		"settings": "Settings",
 		"signIn": "Sign in",
-		"signUp": "Sign up"
+		"signUp": "Sign up",
+		"you": "You"
 	},
 	"notFound": {
 		"body": "The link might be old, or the page moved. Nothing's broken; you just took a wrong turn.",
