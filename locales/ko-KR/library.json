@@ -194,7 +194,6 @@
 	},
 	"shareManager": {
 		"addFriend": "친구 추가",
-		"canRequest": "다운로드 요청 가능",
 		"directories": "라이브러리:",
 		"empty": "아직 아무에게도 공유하지 않았습니다. 아래에서 친구를 추가해 접근 권한을 주세요.",
 		"grantAccess": "{name}에게 접근 권한 주기",
@@ -202,7 +201,7 @@
 		"lastPlayed": "마지막 재생 {date}",
 		"removeAccess": "{name}의 접근 권한 해제",
 		"revoke": "접근 권한 해제",
-		"statsLine": "요청 {requests} · 다운로드 {downloads} · 재생 {plays}회 · 감상 {time}",
+		"statsLine": "재생 {plays}회 · 감상 {time}",
 		"streamingNow": "지금 스트리밍 중: {title} — {artist}",
 		"thisLibrary": "이 라이브러리",
 		"timeDaysHours": "{days}일 {hours}시간",

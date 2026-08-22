@@ -99,17 +99,6 @@
 		"title": "메타데이터 제안",
 		"titleWithCount": "{count, plural, other {메타데이터 제안(대기 #건)}}"
 	},
-	"system": {
-		"jobStatus": {
-			"completed": "완료됨",
-			"downloading": "다운로드 중",
-			"failed": "실패함",
-			"grabbing": "받는 중",
-			"importing": "가져오는 중",
-			"queued": "대기 중",
-			"searching": "검색 중"
-		}
-	},
 	"tabs": {
 		"audit": "감사 로그",
 		"overview": "개요",

@@ -95,17 +95,6 @@
 		"title": "Sugestões de metadados",
 		"titleWithCount": "{count, plural, one {Sugestões de metadados (# pendente)} other {Sugestões de metadados (# pendentes)}}"
 	},
-	"system": {
-		"jobStatus": {
-			"completed": "Concluído",
-			"downloading": "Baixando",
-			"failed": "Falhou",
-			"grabbing": "Obtendo",
-			"importing": "Importando",
-			"queued": "Na fila",
-			"searching": "Buscando"
-		}
-	},
 	"tabs": {
 		"audit": "Registro de auditoria",
 		"overview": "Visão geral",

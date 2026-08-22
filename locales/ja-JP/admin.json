@@ -99,17 +99,6 @@
 		"title": "メタデータの提案",
 		"titleWithCount": "{count, plural, other {メタデータの提案（#件保留中）}}"
 	},
-	"system": {
-		"jobStatus": {
-			"completed": "完了",
-			"downloading": "ダウンロード中",
-			"failed": "失敗",
-			"grabbing": "取得中",
-			"importing": "インポート中",
-			"queued": "キュー待ち",
-			"searching": "検索中"
-		}
-	},
 	"tabs": {
 		"audit": "監査ログ",
 		"overview": "概要",

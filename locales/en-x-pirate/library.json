@@ -180,13 +180,12 @@
 		"empty": "Not divvied wi' anyone yet. Add a matey below t' give 'em access.",
 		"addFriend": "Add matey",
 		"revoke": "Cast off access",
-		"canRequest": "Can request booty",
 		"directories": "Hoards:",
 		"thisLibrary": "This hoard",
 		"grantAccess": "Give access t' {name}",
 		"removeAccess": "Cast off access t' {name}",
 		"streamingNow": "Streamin' now: {title} · {artist}",
-		"statsLine": "{requests} requested · {downloads} plundered · {plays} plays · {time} listened",
+		"statsLine": "{plays} plays · {time} listened",
 		"updateFailed": "Couldn't update divvyin' up. Try again."
 	},
 	"sidebar": {

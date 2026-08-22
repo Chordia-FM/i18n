@@ -2,7 +2,6 @@
 	"album": {
 		"coverage": "{owned} of {total} tracks",
 		"disc": "Disc {n}",
-		"downloadEdition": "Download version",
 		"editionCount": "{count, plural, one {# edition} other {# editions}}",
 		"fetching": "fetching tracklist…",
 		"loadFailed": "Couldn't load this album's tracklist.",
@@ -60,18 +59,6 @@
 		},
 		"openIn": "Open in Discover"
 	},
-	"download": {
-		"ackConfirm": "I understand",
-		"ackMessage": "Chordia ships no indexers or trackers. Downloads use the Prowlarr and qBittorrent you configured, and you are responsible for the legality of what you acquire in your jurisdiction.",
-		"ackTitle": "Before you download",
-		"button": "Download",
-		"chooseLibrary": "Download into…",
-		"failed": "Couldn't queue the download",
-		"noLibrary": "No download-enabled library yet. Set up Prowlarr + qBittorrent on a library first.",
-		"notEnabled": "Downloads aren't enabled on that library.",
-		"queued": "Added to the download queue",
-		"viewQueue": "View queue"
-	},
 	"follow": {
 		"follow": "Follow",
 		"following": "Following"
@@ -93,72 +80,11 @@
 	},
 	"loadFailed": "Couldn't load coverage.",
 	"nav": "Manager",
-	"queue": {
-		"cancel": "Cancel",
-		"choose": "Choose source",
-		"empty": "No downloads yet. Hit Download on a missing album to start one.",
-		"intoLibrary": "into @{handle}'s library",
-		"loadFailed": "Couldn't load your downloads.",
-		"pickHint": "We weren't sure which release is the exact album, so pick the right one.",
-		"requestedBy": "requested by @{handle}",
-		"retry": "Retry",
-		"selectFailed": "Couldn't pin that source. The job may have moved on; refresh and pick again.",
-		"status": {
-			"awaiting_selection": "Choose a source",
-			"cancelled": "Canceled",
-			"claimed": "Starting",
-			"completed": "Completed",
-			"downloading": "Downloading",
-			"failed": "Failed",
-			"grabbing": "Grabbing",
-			"importing": "Importing",
-			"no_results": "No sources found",
-			"queued": "Queued",
-			"searching": "Searching"
-		},
-		"subtitle": "Your download activity.",
-		"title": "Downloads"
-	},
-	"settings": {
-		"created": "Profile saved",
-		"default": "Default",
-		"delete": "Delete",
-		"destinationAsk": "Ask every time",
-		"destinationHelp": "Where new download requests land. Friends' libraries appear here when they've given you request access.",
-		"destinationSaved": "Default destination saved.",
-		"destinationTitle": "Download destination",
-		"disabled": "Downloads off",
-		"enabled": "Downloads enabled",
-		"formats": "Allowed formats (best first)",
-		"indexers": "{count} indexers",
-		"libraries": "Library download status",
-		"librariesHint": "Enable downloads by configuring Prowlarr + qBittorrent in each library's chordia-library.toml.",
-		"makeDefault": "Make default",
-		"maxSize": "Max size (MB, optional)",
-		"name": "Name",
-		"newProfile": "New profile",
-		"preferSeeders": "Prefer more seeders",
-		"profiles": "Quality profiles",
-		"profilesHint": "Downloads always pick the best available source within a profile's allowed formats.",
-		"save": "Save",
-		"saveFailed": "Couldn't save the profile",
-		"subtitle": "Quality profiles and per-library download status.",
-		"title": "Manager settings"
-	},
 	"subtitle": "Track your coverage and find what you're missing.",
 	"tabs": {
 		"coverage": "Coverage",
 		"discover": "Discover",
-		"downloads": "Downloads",
-		"follows": "Following",
-		"settings": "Settings"
+		"follows": "Following"
 	},
-	"title": "Library Manager",
-	"upgrade": {
-		"check": "Check for better quality",
-		"failed": "Couldn't queue the upgrade check.",
-		"inProgress": "An upgrade or download for this album is already in flight.",
-		"notIdentified": "This album isn't matched to MusicBrainz yet, so there's nothing reliable to search for.",
-		"queued": "Upgrade check queued. Watch Downloads: if a strictly better source exists it'll download, otherwise the job ends quietly."
-	}
+	"title": "Library Manager"
 }
