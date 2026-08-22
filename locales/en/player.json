@@ -7,6 +7,9 @@
 		"play": "Play",
 		"previous": "Previous",
 		"repeat": "Repeat",
+		"repeatAll": "Repeat all",
+		"repeatOff": "Repeat off",
+		"repeatOne": "Repeat one",
 		"seek": "Seek",
 		"shuffle": "Shuffle",
 		"unmute": "Unmute",
@@ -16,6 +19,7 @@
 	},
 	"devices": {
 		"current": "Current target",
+		"mobileApp": "Chordia mobile",
 		"none": "No playback devices found.",
 		"pressPlay": "Press play to start here",
 		"thisTab": "This tab",
@@ -85,6 +89,9 @@
 	"monthlyListeners": "{count, plural, one {# monthly listener} other {# monthly listeners}}",
 	"notPlaying": "Not playing",
 	"nothingPlaying": "Nothing playing yet.",
+	"notification": {
+		"channelName": "Playback"
+	},
 	"nowPlaying": {
 		"aboutArtist": "About {name}",
 		"albumFallback": "Album",

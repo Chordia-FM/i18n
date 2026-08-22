@@ -44,7 +44,11 @@
 		"albumLoadFailed": "Couldn't load this album",
 		"artistLoadFailed": "Couldn't load this artist",
 		"artistNameTaken": "Another artist already has that name.",
+		"genreLoadFailed": "Couldn't load this genre",
+		"genresLoadFailed": "Couldn't load genres",
 		"labelLoadFailed": "Couldn't load this label",
+		"labelsLoadFailed": "Couldn't load labels",
+		"trackLoadFailed": "Couldn't load this track",
 		"unknownArtist": "Unknown artist.",
 		"unknownImageHash": "Unknown image."
 	},
