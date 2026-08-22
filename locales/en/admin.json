@@ -104,6 +104,16 @@
 		"translatorPlaceholder": "Languages, e.g. Japanese, Korean",
 		"translatorHint": "Naming the languages grants the badge; clearing the field removes it."
 	},
+	"content": {
+		"albums": "Albums",
+		"artists": "Artists",
+		"description": "Search the shared catalog every account sees. Tap a result to open it.",
+		"empty": "Search for an artist or an album."
+	},
+	"desktopOnly": {
+		"body": "Backups and the data explorer are left out on purpose. They are operator tools for a desk: long-running jobs and very wide tables that a phone cannot show honestly. Use the web or desktop client for those.",
+		"title": "Left out on purpose"
+	},
 	"editCatalog": {
 		"title": "Edit catalog metadata"
 	},
@@ -185,6 +195,7 @@
 	"noAccess": {
 		"backToApp": "Back to the app",
 		"body": "You don't have access to site administration. {link}.",
+		"plainBody": "You don't have access to site administration.",
 		"title": "Admin"
 	},
 	"overview": {
@@ -261,6 +272,9 @@
 		"dismiss": "Dismiss",
 		"empty": "No open reports.",
 		"resolve": "Resolve",
+		"statusDismissed": "Dismissed",
+		"statusOpen": "Open",
+		"statusResolved": "Resolved",
 		"title": "Reports",
 		"titleWithCount": "{count, plural, one {Reports (# open)} other {Reports (# open)}}"
 	},
@@ -389,6 +403,7 @@
 		"unsuspend": "Unsuspend",
 		"user": "User",
 		"verified": "Email verified",
+		"loadMore": "Load more",
 		"noEmail": "No email"
 	}
 }

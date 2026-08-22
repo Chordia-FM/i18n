@@ -43,6 +43,7 @@
 		"removePhoto": "Remove photo",
 		"saveError": "Couldn't save those changes",
 		"title": "Edit details",
+		"uploadPhoto": "Upload a photo",
 		"visibility": {
 			"label": "Who can see this",
 			"private": "Private",
@@ -268,6 +269,21 @@
 		"valueList": {
 			"addMore": "Add another…",
 			"remove": "Remove {name}"
+		},
+		"variant": {
+			"live": "Live",
+			"acoustic": "Acoustic",
+			"instrumental": "Instrumental",
+			"remix": "Remix",
+			"demo": "Demo",
+			"cover": "Cover",
+			"karaoke": "Karaoke",
+			"extended": "Extended",
+			"radio_edit": "Radio edit",
+			"single_version": "Single version",
+			"remaster": "Remaster",
+			"bonus": "Bonus track",
+			"deluxe": "Deluxe edition"
 		}
 	},
 	"songCount": "{count, plural, one {# song} other {# songs}}",

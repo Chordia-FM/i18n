@@ -206,10 +206,27 @@
 		"serverOnline": "Online",
 		"serverSummary": "{libraries, plural, one {# library} other {# libraries}} · {tracks, plural, one {# track} other {# tracks}}"
 	},
+	"manage": {
+		"title": "Manage library",
+		"nameLabel": "Library name",
+		"contents": "Contents",
+		"countTracks": "Tracks",
+		"countAlbums": "Albums",
+		"countArtists": "Artists",
+		"countsUnavailable": "Counts are still being worked out.",
+		"serverSection": "Server",
+		"sharingSection": "Sharing",
+		"overridesSection": "Metadata",
+		"openOverrides": "Metadata you have corrected",
+		"notOwner": "This library belongs to someone else. You can listen to it; only its owner can change it."
+	},
 	"metadata": {
 		"intro": "Edit metadata for this library only. Your changes apply across your views; anything you leave blank keeps the original value. Global catalog edits live in the admin page.",
 		"noMatches": "No matches.",
 		"overrides": {
+			"applyToCatalog": "Also correct the main catalog",
+			"applyToCatalogHint": "Everyone sees this correction, not just your libraries. Use it when the catalog is wrong — not when you simply prefer a different spelling.",
+			"editTitle": "Edit {name}",
 			"field": {
 				"album": "Album",
 				"album_type": "Type",
@@ -227,6 +244,7 @@
 				"track_no": "Track number",
 				"year": "Year"
 			},
+			"inherited": "Leave a field blank to keep what the catalog says.",
 			"kind": {
 				"album": "Album",
 				"artist": "Artist",
@@ -237,6 +255,8 @@
 			"reset": "Reset",
 			"resetConfirm": "Clear this override? The entity goes back to what the catalog says.",
 			"resetDone": "Override cleared",
+			"saveFailed": "Couldn't save that correction",
+			"saved": "Correction saved",
 			"title": "{count, plural, one {# override you have set} other {# overrides you have set}}",
 			"wasCalled": "Catalog name: {name}"
 		},
@@ -266,6 +286,36 @@
 		"dialogTitle": "Add a library",
 		"notPairedHere": "This device does not hold management credentials for that server. Open the server's setup link on this device to pair it again.",
 		"sandboxNote": "A library is a folder on {host}. Browsing is limited to that machine's music folder, and nothing else on it is reachable from here."
+	},
+	"pairing": {
+		"title": "Connect a library server",
+		"intro": "Your music lives on a computer of yours running the Chordia library server. Pairing lets this phone reach it — songs stream straight from that machine and never pass through Chordia.",
+		"stepStartTitle": "Start the server",
+		"stepStartBody": "On the computer holding your music, start Chordia Library. The first time it runs it prints a one-time setup link in its terminal.",
+		"stepLinkTitle": "Paste the setup link",
+		"stepLinkBody": "It looks like https://192.168.1.20:8443/setup/abc123. Copy the whole line, including the code at the end.",
+		"linkLabel": "Setup link",
+		"linkInvalid": "That is not a setup link. It ends in /setup/ followed by the one-time code the server printed.",
+		"connect": "Connect",
+		"checkingTitle": "Looking for the server",
+		"checkingBody": "Trying to reach {host}.",
+		"trustTitle": "Is this your server?",
+		"trustBody": "{host} signed its own certificate, which is normal for a home server. From now on this phone accepts only this exact certificate and refuses anything else — which is what makes a self-signed server safe to stream from.",
+		"trustFingerprint": "Certificate fingerprint",
+		"trustConfirm": "Yes, that is my server",
+		"claimingTitle": "Introducing your account",
+		"claimingBody": "Chordia is issuing a one-time pass, good for two minutes and for nothing but this handshake, and handing it to the server. Your sign-in never leaves this phone.",
+		"ticketExpired": "The one-time pass ran out before the server answered. Nothing was lost — try again.",
+		"nameTitle": "Name this library",
+		"nameBody": "One server can hold several libraries. This is the name you will see on this phone.",
+		"namePlaceholder": "My Music",
+		"registering": "Creating the library…",
+		"doneTitle": "{name} is connected",
+		"doneBody": "The server is scanning its folders now. Tracks appear as they are indexed.",
+		"doneAction": "Go to the library",
+		"unreachable": "Could not reach {host}. Check the server is running and that this phone is on the same network.",
+		"refused": "The server would not accept that setup link. A link works once — restart the library server to print a fresh one.",
+		"startOver": "Start over"
 	},
 	"pin": {
 		"pin": "Pin",
