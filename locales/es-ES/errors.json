@@ -44,7 +44,11 @@
 		"albumLoadFailed": "",
 		"artistLoadFailed": "",
 		"artistNameTaken": "Ya hay otro artista con ese nombre.",
+		"genreLoadFailed": "",
+		"genresLoadFailed": "",
 		"labelLoadFailed": "No se pudo cargar este sello",
+		"labelsLoadFailed": "",
+		"trackLoadFailed": "",
 		"unknownArtist": "Artista desconocido.",
 		"unknownImageHash": "Imagen desconocida."
 	},
