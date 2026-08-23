@@ -136,6 +136,11 @@
 	"plan": {
 		"required": "Your plan does not include this. Upgrade to unlock it."
 	},
+	"playback": {
+		"retrying": "Trouble playing {title} - trying again",
+		"skipped": "Could not play {title} - skipping to the next track",
+		"stopped": "Could not play {title}. Playback stopped."
+	},
 	"playlist": {
 		"limitReached": "Playlist limit reached for this account."
 	},
