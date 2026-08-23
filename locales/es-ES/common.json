@@ -139,7 +139,8 @@
 		"search": "Buscar",
 		"settings": "Ajustes",
 		"signIn": "Iniciar sesión",
-		"signUp": ""
+		"signUp": "",
+		"you": "Tú"
 	},
 	"notFound": {
 		"body": "",
@@ -170,7 +171,14 @@
 	},
 	"update": {
 		"available": "Hay una nueva versión disponible.",
-		"refresh": "Actualizar"
+		"download": "Descargar",
+		"file": "",
+		"later": "",
+		"notes": "",
+		"refresh": "Actualizar",
+		"sideload": "",
+		"title": "",
+		"youHave": ""
 	},
 	"userMenu": {
 		"admin": "Administración",
