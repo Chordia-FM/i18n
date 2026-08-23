@@ -23,6 +23,7 @@
 		"durationMin": "{minutes}분",
 		"genresJoin": "",
 		"goToRadio": "아티스트 라디오로 이동",
+		"noTracks": "",
 		"releaseDate": "",
 		"songCount": "{count, plural, other {#곡}}",
 		"typesJoin": ""
@@ -139,6 +140,7 @@
 		"title": "장르",
 		"topAlbums": "인기 앨범",
 		"topArtists": "인기 아티스트",
+		"topTracks": "인기 트랙",
 		"variants": "함께 태그됨: {list}"
 	},
 	"label": {
@@ -212,7 +214,9 @@
 	"section": {
 		"albums": "앨범",
 		"artists": "아티스트",
+		"genres": "장르",
 		"labels": "레이블",
+		"playlists": "플레이리스트",
 		"songs": "곡",
 		"tracks": "트랙"
 	},
@@ -232,9 +236,15 @@
 			"removed": "다운로드를 제거했습니다",
 			"savedNamed": "{title} 다운로드함"
 		},
+		"details": "",
 		"explicit": "가사 주의",
+		"explicitShort": "",
+		"hubPlays": "",
+		"length": "",
+		"number": "",
 		"playAria": "{artist}의 {title} 재생",
 		"playsNumber": "",
+		"rank": "",
 		"relTime": {
 			"daysAgo": "{count, plural, other {#일 전}}",
 			"fullDate": "",
