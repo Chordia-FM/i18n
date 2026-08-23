@@ -7,6 +7,9 @@
 		"play": "",
 		"previous": "",
 		"repeat": "",
+		"repeatAll": "",
+		"repeatOff": "",
+		"repeatOne": "",
 		"seek": "",
 		"shuffle": "",
 		"unmute": "",
@@ -16,8 +19,13 @@
 	},
 	"devices": {
 		"current": "",
+		"mobileApp": "",
 		"none": "",
+		"offline": "",
+		"playHere": "",
+		"playingOn": "",
 		"pressPlay": "",
+		"thisDevice": "",
 		"thisTab": "",
 		"title": "",
 		"unreachable": ""
@@ -43,6 +51,7 @@
 		"bandWidth": "",
 		"close": "",
 		"deletePreset": "",
+		"deviceApproximation": "",
 		"dragHint": "",
 		"dragHintParametric": "",
 		"enable": "",
@@ -51,6 +60,7 @@
 			"ariaLabel": "",
 			"title": ""
 		},
+		"notApplied": "",
 		"parametric": "",
 		"preamp": "",
 		"preampDisplay": "",
@@ -85,6 +95,9 @@
 	"monthlyListeners": "",
 	"notPlaying": "",
 	"nothingPlaying": "",
+	"notification": {
+		"channelName": ""
+	},
 	"nowPlaying": {
 		"aboutArtist": "",
 		"albumFallback": "",
@@ -99,6 +112,7 @@
 		"change": "",
 		"dataPerHourGb": "",
 		"dataPerHourMb": "",
+		"fixedLocal": "",
 		"khz": "",
 		"lossless": "",
 		"lossy": "",
@@ -116,7 +130,8 @@
 		"spatialOnly": "",
 		"streamingRate": "",
 		"title": "",
-		"upTo": ""
+		"upTo": "",
+		"yourSetting": ""
 	},
 	"queue": {
 		"add": "",
