@@ -20,17 +20,52 @@
 		"trackCount": "{count, plural, other {트랙 #개}}"
 	},
 	"downloads": {
+		"action": {
+			"cancel": "",
+			"download": "다운로드",
+			"downloadAlbum": "앨범 다운로드",
+			"downloadPlaylist": "",
+			"manage": "",
+			"pause": "일시정지",
+			"remove": "다운로드 제거",
+			"resume": "",
+			"retry": "재시도"
+		},
 		"clearConfirm": {
 			"message": "이 기기에서 다운로드한 곡을 모두 제거할까요?",
 			"title": "다운로드 지우기"
 		},
 		"clearError": "다운로드를 지우지 못했습니다",
 		"emptyState": "다운로드한 곡은 인터넷 연결 없이도 재생됩니다. 트랙의 다운로드 메뉴로 여기에 저장하세요.",
+		"error": {
+			"cap": "",
+			"incomplete": "",
+			"offline": "",
+			"server": "",
+			"storage": "",
+			"unknown": ""
+		},
 		"eyebrow": "오프라인 사용 가능",
 		"navLabel": "다운로드",
+		"queue": {
+			"empty": "",
+			"paused": "",
+			"progress": "",
+			"queued": "",
+			"title": "다운로드 중"
+		},
 		"removeError": "다운로드를 제거하지 못했습니다",
 		"removeTooltip": "다운로드 제거",
 		"songCount": "{count, plural, other {#곡}}",
+		"storage": {
+			"cap": "",
+			"capUnlimited": "",
+			"clear": "",
+			"full": "",
+			"title": "",
+			"used": "",
+			"usedNoCap": ""
+		},
 		"stats": {
 			"artistCount": "{count, plural, other {#곡}}",
 			"bitrate": "",
@@ -47,6 +82,15 @@
 			"songs": "곡",
 			"title": "",
 			"unknownQuota": ""
+		},
+		"toast": {
+			"cleared": "",
+			"existing": "",
+			"inUse": "",
+			"queued": "",
+			"refused": "",
+			"removed": "",
+			"skipped": ""
 		},
 		"storedOnDevice": "이 기기에 저장됨",
 		"title": "다운로드"
@@ -162,10 +206,27 @@
 		"serverOnline": "",
 		"serverSummary": ""
 	},
+	"manage": {
+		"title": "",
+		"nameLabel": "라이브러리 이름",
+		"contents": "",
+		"countTracks": "트랙",
+		"countAlbums": "앨범",
+		"countArtists": "아티스트",
+		"countsUnavailable": "",
+		"serverSection": "",
+		"sharingSection": "",
+		"overridesSection": "메타데이터",
+		"openOverrides": "",
+		"notOwner": ""
+	},
 	"metadata": {
 		"intro": "이 라이브러리에만 적용되는 메타데이터를 편집합니다. 변경 사항은 내 모든 화면에 반영되며, 비워 둔 항목은 원래 값이 유지됩니다. 전체 카탈로그 편집은 관리자 페이지에 있습니다.",
 		"noMatches": "일치하는 항목이 없습니다.",
 		"overrides": {
+			"applyToCatalog": "",
+			"applyToCatalogHint": "",
+			"editTitle": "",
 			"field": {
 				"album": "앨범",
 				"album_type": "유형",
@@ -183,6 +244,7 @@
 				"track_no": "",
 				"year": "연도"
 			},
+			"inherited": "",
 			"kind": {
 				"album": "앨범",
 				"artist": "아티스트",
@@ -193,6 +255,8 @@
 			"reset": "초기화",
 			"resetConfirm": "",
 			"resetDone": "",
+			"saveFailed": "",
+			"saved": "",
 			"title": "",
 			"wasCalled": ""
 		},
@@ -222,6 +286,36 @@
 		"dialogTitle": "",
 		"notPairedHere": "",
 		"sandboxNote": ""
+	},
+	"pairing": {
+		"title": "",
+		"intro": "",
+		"stepStartTitle": "",
+		"stepStartBody": "",
+		"stepLinkTitle": "",
+		"stepLinkBody": "",
+		"linkLabel": "",
+		"linkInvalid": "",
+		"connect": "연결",
+		"checkingTitle": "",
+		"checkingBody": "",
+		"trustTitle": "",
+		"trustBody": "",
+		"trustFingerprint": "",
+		"trustConfirm": "",
+		"claimingTitle": "",
+		"claimingBody": "",
+		"ticketExpired": "",
+		"nameTitle": "",
+		"nameBody": "",
+		"namePlaceholder": "내 음악",
+		"registering": "",
+		"doneTitle": "",
+		"doneBody": "",
+		"doneAction": "",
+		"unreachable": "",
+		"refused": "",
+		"startOver": ""
 	},
 	"pin": {
 		"pin": "고정",
@@ -288,13 +382,12 @@
 		"empty": "아직 아무에게도 공유하지 않았습니다. 아래에서 친구를 추가해 접근 권한을 주세요.",
 		"addFriend": "친구 추가",
 		"revoke": "접근 권한 해제",
-		"canRequest": "다운로드 요청 가능",
 		"directories": "라이브러리:",
 		"thisLibrary": "이 라이브러리",
 		"grantAccess": "{name}에게 접근 권한 주기",
 		"removeAccess": "{name}의 접근 권한 해제",
 		"streamingNow": "",
-		"statsLine": "요청 {requests} · 다운로드 {downloads} · 재생 {plays}회 · 감상 {time}",
+		"statsLine": "",
 		"lastPlayed": "마지막 재생 {date}",
 		"updateFailed": "",
 		"timeDaysHours": "{days}일 {hours}시간",
