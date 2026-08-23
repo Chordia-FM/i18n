@@ -20,17 +20,52 @@
 		"trackCount": "{count, plural, other {#曲}}"
 	},
 	"downloads": {
+		"action": {
+			"cancel": "",
+			"download": "ダウンロード",
+			"downloadAlbum": "アルバムをダウンロード",
+			"downloadPlaylist": "",
+			"manage": "",
+			"pause": "一時停止",
+			"remove": "ダウンロードを削除",
+			"resume": "",
+			"retry": "再試行"
+		},
 		"clearConfirm": {
 			"message": "ダウンロードした曲をすべてこのデバイスから削除しますか？",
 			"title": "ダウンロードを消去"
 		},
 		"clearError": "ダウンロードを消去できませんでした",
 		"emptyState": "ダウンロードした曲はオフラインでも再生できます。任意のトラックのダウンロード操作でここに保存されます。",
+		"error": {
+			"cap": "",
+			"incomplete": "",
+			"offline": "",
+			"server": "",
+			"storage": "",
+			"unknown": ""
+		},
 		"eyebrow": "オフラインで利用可能",
 		"navLabel": "ダウンロード",
+		"queue": {
+			"empty": "",
+			"paused": "",
+			"progress": "",
+			"queued": "",
+			"title": "ダウンロード中"
+		},
 		"removeError": "ダウンロードを削除できませんでした",
 		"removeTooltip": "ダウンロードを削除",
 		"songCount": "{count, plural, other {#曲}}",
+		"storage": {
+			"cap": "",
+			"capUnlimited": "",
+			"clear": "",
+			"full": "",
+			"title": "",
+			"used": "",
+			"usedNoCap": ""
+		},
 		"stats": {
 			"artistCount": "{count, plural, other {#曲}}",
 			"bitrate": "",
@@ -47,6 +82,15 @@
 			"songs": "曲",
 			"title": "",
 			"unknownQuota": ""
+		},
+		"toast": {
+			"cleared": "",
+			"existing": "",
+			"inUse": "",
+			"queued": "",
+			"refused": "",
+			"removed": "",
+			"skipped": ""
 		},
 		"storedOnDevice": "このデバイスに保存済み",
 		"title": "ダウンロード"
@@ -162,10 +206,27 @@
 		"serverOnline": "",
 		"serverSummary": ""
 	},
+	"manage": {
+		"title": "",
+		"nameLabel": "ライブラリ名",
+		"contents": "",
+		"countTracks": "トラック",
+		"countAlbums": "アルバム",
+		"countArtists": "アーティスト",
+		"countsUnavailable": "",
+		"serverSection": "",
+		"sharingSection": "",
+		"overridesSection": "メタデータ",
+		"openOverrides": "",
+		"notOwner": ""
+	},
 	"metadata": {
 		"intro": "このライブラリのみのメタデータを編集します。変更はあなたの表示全体に適用され、空欄のままにした項目は元の値を保持します。カタログ全体の編集は管理ページで行えます。",
 		"noMatches": "一致する結果はありません。",
 		"overrides": {
+			"applyToCatalog": "",
+			"applyToCatalogHint": "",
+			"editTitle": "",
 			"field": {
 				"album": "アルバム",
 				"album_type": "種類",
@@ -183,6 +244,7 @@
 				"track_no": "",
 				"year": "年"
 			},
+			"inherited": "",
 			"kind": {
 				"album": "アルバム",
 				"artist": "アーティスト",
@@ -193,6 +255,8 @@
 			"reset": "リセット",
 			"resetConfirm": "",
 			"resetDone": "",
+			"saveFailed": "",
+			"saved": "",
 			"title": "",
 			"wasCalled": ""
 		},
@@ -222,6 +286,36 @@
 		"dialogTitle": "",
 		"notPairedHere": "",
 		"sandboxNote": ""
+	},
+	"pairing": {
+		"title": "",
+		"intro": "",
+		"stepStartTitle": "",
+		"stepStartBody": "",
+		"stepLinkTitle": "",
+		"stepLinkBody": "",
+		"linkLabel": "",
+		"linkInvalid": "",
+		"connect": "連携する",
+		"checkingTitle": "",
+		"checkingBody": "",
+		"trustTitle": "",
+		"trustBody": "",
+		"trustFingerprint": "",
+		"trustConfirm": "",
+		"claimingTitle": "",
+		"claimingBody": "",
+		"ticketExpired": "",
+		"nameTitle": "",
+		"nameBody": "",
+		"namePlaceholder": "マイミュージック",
+		"registering": "",
+		"doneTitle": "",
+		"doneBody": "",
+		"doneAction": "",
+		"unreachable": "",
+		"refused": "",
+		"startOver": ""
 	},
 	"pin": {
 		"pin": "ピン留め",
@@ -288,13 +382,12 @@
 		"empty": "まだ誰とも共有していません。下からフレンドを追加してアクセスを許可しましょう。",
 		"addFriend": "フレンドを追加",
 		"revoke": "アクセスを削除",
-		"canRequest": "ダウンロードのリクエストを許可",
 		"directories": "ライブラリ:",
 		"thisLibrary": "このライブラリ",
 		"grantAccess": "{name}にアクセスを許可",
 		"removeAccess": "{name}のアクセスを削除",
 		"streamingNow": "",
-		"statsLine": "リクエスト{requests}件 · ダウンロード{downloads}件 · {plays}回再生 · 再生時間{time}",
+		"statsLine": "",
 		"lastPlayed": "最終再生: {date}",
 		"updateFailed": "",
 		"timeDaysHours": "{days}日{hours}時間",
