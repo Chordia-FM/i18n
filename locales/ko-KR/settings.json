@@ -5,12 +5,15 @@
 		"changeEmailBody": "",
 		"changeEmailTitle": "",
 		"changePhoto": "",
+		"deleteTypeHandle": "",
 		"displayName": "표시 이름",
 		"emailChangeSent": "새 이메일 받은편지함에서 확인 링크를 확인하세요.",
 		"emailTitle": "이메일",
 		"handle": "사용자 이름",
 		"handleHint": "영문자, 숫자, “_”, “-”만 사용할 수 있으며 중복될 수 없습니다.",
 		"handlePlaceholder": "",
+		"leaveDesc": "",
+		"leaveTitle": "",
 		"newEmailPlaceholder": "",
 		"noEmail": "",
 		"pendingChange": "",
@@ -20,6 +23,7 @@
 		"resendVerification": "인증 메일 다시 보내기",
 		"saveProfile": "프로필 저장",
 		"sendConfirmation": "확인 메일 보내기",
+		"signOutConfirm": "",
 		"title": "계정",
 		"unverified": "",
 		"verificationSent": "",
@@ -28,6 +32,7 @@
 	"appearance": {
 		"accentColour": "",
 		"accentHexAria": "강조 색상 16진값",
+		"accentProfileHint": "",
 		"accents": {
 			"amber": "",
 			"blue": "",
@@ -45,6 +50,7 @@
 		"customAccentAria": "",
 		"customColour": "",
 		"customColourHint": "",
+		"languageHint": "",
 		"mode": {
 			"artwork": "아트워크",
 			"artworkHint": "",
@@ -78,6 +84,12 @@
 		"title": "화면"
 	},
 	"connections": {
+		"discord": {
+			"desc": "",
+			"label": "",
+			"linked": "",
+			"notLinked": ""
+		},
 		"lastfm": {
 			"connect": "연결",
 			"connectedAs": "{username}(으)로 연결됨",
@@ -87,8 +99,10 @@
 			"disconnect": "연결 끊기",
 			"disconnected": "Last.fm 연결을 끊었습니다",
 			"failed": "Last.fm에 연결하지 못했습니다",
-			"label": ""
+			"label": "",
+			"opensBrowser": ""
 		},
+		"refresh": "새로고침",
 		"title": "연결"
 	},
 	"data": {
@@ -101,6 +115,8 @@
 		"exportFailedBody": "지금은 데이터를 내보낼 수 없습니다. 다시 시도해 주세요.",
 		"exportFailedTitle": "내보내기에 실패했습니다",
 		"exportMyData": "내 데이터 내보내기",
+		"exportReady": "",
+		"exportSubject": "",
 		"title": "내 데이터"
 	},
 	"desktop": {
@@ -208,6 +224,7 @@
 	"import": {
 		"body": "",
 		"chooseFile": "",
+		"empty": "",
 		"errors": {
 			"internal": "",
 			"interrupted": "",
@@ -217,6 +234,7 @@
 		"hint": "",
 		"progress": "",
 		"sourceAuto": "",
+		"startInBrowser": "",
 		"status": {
 			"done": "완료",
 			"failed": "실패함",
@@ -246,6 +264,9 @@
 		"title": ""
 	},
 	"plan": {
+		"current": "",
+		"includes": "",
+		"opensInBrowser": "",
 		"selfHosted": "",
 		"title": ""
 	},
@@ -258,6 +279,8 @@
 			"desc": "트랙의 끝과 다음 트랙을 겹쳐 자연스럽게 이어 줍니다. 단위는 초입니다.",
 			"label": "크로스페이드"
 		},
+		"crossfadeSeconds": "",
+		"equalizerDesc": "",
 		"normalize": {
 			"desc": "트랙 간 음량 차이를 고르게 맞춥니다(ReplayGain).",
 			"label": "음량 정규화"
@@ -292,6 +315,7 @@
 				"label": "소스"
 			}
 		},
+		"storageDesc": "",
 		"streamingQuality": "스트리밍 품질",
 		"title": "재생"
 	},
@@ -401,6 +425,16 @@
 			"zoneWithOffset": ""
 		},
 		"title": "지역"
+	},
+	"sections": {
+		"account": "",
+		"appearance": "",
+		"connections": "",
+		"data": "",
+		"plan": "",
+		"playback": "",
+		"privacy": "",
+		"security": ""
 	},
 	"security": {
 		"password": {
