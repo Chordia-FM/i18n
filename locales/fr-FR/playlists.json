@@ -43,6 +43,7 @@
 		"removePhoto": "",
 		"saveError": "",
 		"title": "",
+		"uploadPhoto": "",
 		"visibility": {
 			"label": "",
 			"private": "",
@@ -268,6 +269,21 @@
 		"valueList": {
 			"addMore": "",
 			"remove": "Retirer {name}"
+		},
+		"variant": {
+			"live": "",
+			"acoustic": "Acoustique",
+			"instrumental": "",
+			"remix": "",
+			"demo": "",
+			"cover": "",
+			"karaoke": "",
+			"extended": "",
+			"radio_edit": "",
+			"single_version": "",
+			"remaster": "",
+			"bonus": "",
+			"deluxe": ""
 		}
 	},
 	"songCount": "{count, plural, one {# chanson} other {# chansons}}",
