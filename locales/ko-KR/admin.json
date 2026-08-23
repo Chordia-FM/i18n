@@ -104,6 +104,16 @@
 		"translatorPlaceholder": "",
 		"translatorHint": ""
 	},
+	"content": {
+		"albums": "앨범",
+		"artists": "아티스트",
+		"description": "",
+		"empty": ""
+	},
+	"desktopOnly": {
+		"body": "",
+		"title": ""
+	},
 	"editCatalog": {
 		"title": "카탈로그 메타데이터 편집"
 	},
@@ -185,6 +195,7 @@
 	"noAccess": {
 		"backToApp": "앱으로 돌아가기",
 		"body": "사이트 관리 권한이 없습니다. {link}.",
+		"plainBody": "",
 		"title": "관리자"
 	},
 	"overview": {
@@ -261,6 +272,9 @@
 		"dismiss": "무시",
 		"empty": "처리할 신고가 없습니다.",
 		"resolve": "해결",
+		"statusDismissed": "",
+		"statusOpen": "열기",
+		"statusResolved": "",
 		"title": "신고",
 		"titleWithCount": "{count, plural, other {신고(미처리 #건)}}"
 	},
@@ -296,29 +310,12 @@
 		"behind": "",
 		"biggestTables": "",
 		"database": "",
-		"downloadQueue": "",
 		"enrichment": "",
-		"jobStatus": {
-			"awaiting_selection": "",
-			"cancelled": "",
-			"claimed": "",
-			"completed": "완료됨",
-			"downloading": "다운로드 중",
-			"failed": "실패함",
-			"grabbing": "받는 중",
-			"importing": "가져오는 중",
-			"no_results": "",
-			"queued": "대기 중",
-			"searching": "검색 중"
-		},
 		"keepingUp": "",
 		"loadFailed": "",
 		"migrations": "",
 		"noRollups": "",
 		"partitions": "",
-		"queue": "",
-		"queueEmpty": "",
-		"queueJobs": "",
 		"rollupLag": "",
 		"rollupLagHelp": "",
 		"rollups": "",
@@ -406,6 +403,7 @@
 		"unsuspend": "정지 해제",
 		"user": "",
 		"verified": "",
+		"loadMore": "",
 		"noEmail": ""
 	}
 }
