@@ -44,7 +44,11 @@
 		"albumLoadFailed": "",
 		"artistLoadFailed": "",
 		"artistNameTaken": "Un autre artiste porte déjà ce nom.",
+		"genreLoadFailed": "",
+		"genresLoadFailed": "",
 		"labelLoadFailed": "Impossible de charger ce label",
+		"labelsLoadFailed": "",
+		"trackLoadFailed": "",
 		"unknownArtist": "Artiste inconnu.",
 		"unknownImageHash": "Image inconnue."
 	},
