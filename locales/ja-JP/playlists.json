@@ -43,6 +43,7 @@
 		"removePhoto": "",
 		"saveError": "",
 		"title": "",
+		"uploadPhoto": "",
 		"visibility": {
 			"label": "",
 			"private": "",
@@ -268,6 +269,21 @@
 		"valueList": {
 			"addMore": "",
 			"remove": "{name}を削除"
+		},
+		"variant": {
+			"live": "ライブ",
+			"acoustic": "アコースティック",
+			"instrumental": "インストゥルメンタル",
+			"remix": "",
+			"demo": "",
+			"cover": "",
+			"karaoke": "",
+			"extended": "",
+			"radio_edit": "",
+			"single_version": "",
+			"remaster": "リマスター",
+			"bonus": "",
+			"deluxe": ""
 		}
 	},
 	"songCount": "{count, plural, other {#曲}}",
