@@ -7,6 +7,9 @@
 		"play": "Reproducir",
 		"previous": "Anterior",
 		"repeat": "Repetir",
+		"repeatAll": "",
+		"repeatOff": "",
+		"repeatOne": "",
 		"seek": "Barra de progreso",
 		"shuffle": "Aleatorio",
 		"unmute": "Activar sonido",
@@ -16,8 +19,13 @@
 	},
 	"devices": {
 		"current": "Destino actual",
+		"mobileApp": "",
 		"none": "No se encontraron dispositivos de reproducción.",
+		"offline": "",
+		"playHere": "",
+		"playingOn": "",
 		"pressPlay": "Pulsa reproducir para empezar aquí",
+		"thisDevice": "Este dispositivo",
 		"thisTab": "Esta pestaña",
 		"title": "Dispositivo de reproducción",
 		"unreachable": ""
@@ -43,6 +51,7 @@
 		"bandWidth": "Ancho de la banda {n} (Q)",
 		"close": "Cerrar el ecualizador",
 		"deletePreset": "Eliminar {name}",
+		"deviceApproximation": "",
 		"dragHint": "Arrastra un nodo para modelar la curva",
 		"dragHintParametric": " · arrastra en horizontal para la frecuencia · desplaza para el ancho (Q)",
 		"enable": "Activar el ecualizador",
@@ -51,6 +60,7 @@
 			"ariaLabel": "Respuesta del ecualizador: arrastra los nodos de las bandas para modelar el sonido",
 			"title": "Curva de respuesta del ecualizador"
 		},
+		"notApplied": "",
 		"parametric": "Paramétrico",
 		"preamp": "Preamplificación",
 		"preampDisplay": "",
@@ -85,6 +95,9 @@
 	"monthlyListeners": "{count, plural, one {# oyente mensual} other {# oyentes mensuales}}",
 	"notPlaying": "Sin reproducción",
 	"nothingPlaying": "Aún no se ha reproducido nada.",
+	"notification": {
+		"channelName": "Reproducción"
+	},
 	"nowPlaying": {
 		"aboutArtist": "Sobre {name}",
 		"albumFallback": "Álbum",
@@ -99,6 +112,7 @@
 		"change": "Cambiar",
 		"dataPerHourGb": "~{value} GB/hora",
 		"dataPerHourMb": "~{value} MB/hora",
+		"fixedLocal": "",
 		"khz": "",
 		"lossless": "Sin pérdida",
 		"lossy": "Con pérdida",
@@ -116,7 +130,8 @@
 		"spatialOnly": "",
 		"streamingRate": "",
 		"title": "Calidad del archivo",
-		"upTo": "Hasta {value}"
+		"upTo": "Hasta {value}",
+		"yourSetting": ""
 	},
 	"queue": {
 		"add": "Añadir a la cola",
