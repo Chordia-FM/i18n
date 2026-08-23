@@ -23,6 +23,7 @@
 		"durationMin": "{minutes}分",
 		"genresJoin": "",
 		"goToRadio": "アーティストラジオへ",
+		"noTracks": "",
 		"releaseDate": "",
 		"songCount": "{count, plural, other {#曲}}",
 		"typesJoin": ""
@@ -139,6 +140,7 @@
 		"title": "ジャンル",
 		"topAlbums": "トップアルバム",
 		"topArtists": "トップアーティスト",
+		"topTracks": "トップトラック",
 		"variants": "関連タグ: {list}"
 	},
 	"label": {
@@ -212,7 +214,9 @@
 	"section": {
 		"albums": "アルバム",
 		"artists": "アーティスト",
+		"genres": "ジャンル",
 		"labels": "レーベル",
+		"playlists": "プレイリスト",
 		"songs": "曲",
 		"tracks": "トラック"
 	},
@@ -232,9 +236,15 @@
 			"removed": "ダウンロードを削除しました",
 			"savedNamed": "{title}をダウンロードしました"
 		},
+		"details": "",
 		"explicit": "露骨な表現",
+		"explicitShort": "",
+		"hubPlays": "",
+		"length": "",
+		"number": "",
 		"playAria": "{artist}の{title}を再生",
 		"playsNumber": "",
+		"rank": "",
 		"relTime": {
 			"daysAgo": "{count, plural, other {#日前}}",
 			"fullDate": "",
