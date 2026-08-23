@@ -71,9 +71,11 @@
 		}
 	},
 	"block": {
+		"blockedHeading": "",
 		"confirmLabel": "Bloquear",
 		"confirmMessage": "Bloquear @{handle}? Vocês não poderão se adicionar como amigos.",
-		"confirmTitle": "Bloquear usuário"
+		"confirmTitle": "Bloquear usuário",
+		"unblock": ""
 	},
 	"discovery": {
 		"addFriend": "Adicionar amigo",
@@ -114,6 +116,7 @@
 		"empty": "Ainda não há amigos — busque para adicionar alguns",
 		"heading": "Amigos ({count})",
 		"removing": "Removendo…",
+		"requestByHandle": "",
 		"title": "Amigos"
 	},
 	"modMenu": {
@@ -169,7 +172,9 @@
 	"requests": {
 		"accept": "Aceitar",
 		"accepting": "Aceitando…",
-		"pendingHeading": "Pedidos pendentes ({count})"
+		"cancel": "",
+		"pendingHeading": "Pedidos pendentes ({count})",
+		"sentHeading": ""
 	},
 	"search": {
 		"noResults": "Nenhum usuário encontrado.",
