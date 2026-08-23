@@ -23,6 +23,7 @@
 		"durationMin": "{minutes} Min.",
 		"genresJoin": "",
 		"goToRadio": "Zum Künstlerradio",
+		"noTracks": "",
 		"releaseDate": "",
 		"songCount": "{count, plural, one {# Song} other {# Songs}}",
 		"typesJoin": ""
@@ -139,6 +140,7 @@
 		"title": "",
 		"topAlbums": "Top-Alben",
 		"topArtists": "Top-Künstler",
+		"topTracks": "Top-Titel",
 		"variants": "Auch getaggt: {list}"
 	},
 	"label": {
@@ -212,7 +214,9 @@
 	"section": {
 		"albums": "Alben",
 		"artists": "Künstler",
+		"genres": "",
 		"labels": "",
+		"playlists": "",
 		"songs": "",
 		"tracks": "Titel"
 	},
@@ -232,9 +236,15 @@
 			"removed": "Download entfernt",
 			"savedNamed": "{title} heruntergeladen"
 		},
+		"details": "",
 		"explicit": "Explizit",
+		"explicitShort": "",
+		"hubPlays": "",
+		"length": "",
+		"number": "",
 		"playAria": "{title} von {artist} abspielen",
 		"playsNumber": "",
+		"rank": "",
 		"relTime": {
 			"daysAgo": "{count, plural, one {vor # Tag} other {vor # Tagen}}",
 			"fullDate": "",
