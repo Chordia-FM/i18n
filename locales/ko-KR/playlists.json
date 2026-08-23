@@ -43,6 +43,7 @@
 		"removePhoto": "",
 		"saveError": "",
 		"title": "",
+		"uploadPhoto": "",
 		"visibility": {
 			"label": "",
 			"private": "",
@@ -268,6 +269,21 @@
 		"valueList": {
 			"addMore": "",
 			"remove": "{name} 제거"
+		},
+		"variant": {
+			"live": "라이브",
+			"acoustic": "어쿠스틱",
+			"instrumental": "연주곡",
+			"remix": "",
+			"demo": "",
+			"cover": "",
+			"karaoke": "",
+			"extended": "",
+			"radio_edit": "",
+			"single_version": "",
+			"remaster": "리마스터",
+			"bonus": "",
+			"deluxe": ""
 		}
 	},
 	"songCount": "{count, plural, other {#곡}}",
