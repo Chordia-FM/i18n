@@ -20,17 +20,52 @@
 		"trackCount": ""
 	},
 	"downloads": {
+		"action": {
+			"cancel": "",
+			"download": "",
+			"downloadAlbum": "",
+			"downloadPlaylist": "",
+			"manage": "",
+			"pause": "",
+			"remove": "",
+			"resume": "",
+			"retry": ""
+		},
 		"clearConfirm": {
 			"message": "",
 			"title": ""
 		},
 		"clearError": "",
 		"emptyState": "",
+		"error": {
+			"cap": "",
+			"incomplete": "",
+			"offline": "",
+			"server": "",
+			"storage": "",
+			"unknown": ""
+		},
 		"eyebrow": "",
 		"navLabel": "",
+		"queue": {
+			"empty": "",
+			"paused": "",
+			"progress": "",
+			"queued": "",
+			"title": ""
+		},
 		"removeError": "",
 		"removeTooltip": "",
 		"songCount": "",
+		"storage": {
+			"cap": "",
+			"capUnlimited": "",
+			"clear": "",
+			"full": "",
+			"title": "",
+			"used": "",
+			"usedNoCap": ""
+		},
 		"stats": {
 			"artistCount": "",
 			"bitrate": "",
@@ -47,6 +82,15 @@
 			"songs": "",
 			"title": "",
 			"unknownQuota": ""
+		},
+		"toast": {
+			"cleared": "",
+			"existing": "",
+			"inUse": "",
+			"queued": "",
+			"refused": "",
+			"removed": "",
+			"skipped": ""
 		},
 		"storedOnDevice": "",
 		"title": ""
@@ -162,10 +206,27 @@
 		"serverOnline": "",
 		"serverSummary": ""
 	},
+	"manage": {
+		"title": "",
+		"nameLabel": "",
+		"contents": "",
+		"countTracks": "",
+		"countAlbums": "",
+		"countArtists": "",
+		"countsUnavailable": "",
+		"serverSection": "",
+		"sharingSection": "",
+		"overridesSection": "",
+		"openOverrides": "",
+		"notOwner": ""
+	},
 	"metadata": {
 		"intro": "Edit metadata for this library only. Your changes apply across your views; anything you leave blank keeps the original value. Global catalogue edits live in the admin page.",
 		"noMatches": "",
 		"overrides": {
+			"applyToCatalog": "",
+			"applyToCatalogHint": "",
+			"editTitle": "",
 			"field": {
 				"album": "",
 				"album_type": "",
@@ -183,6 +244,7 @@
 				"track_no": "",
 				"year": ""
 			},
+			"inherited": "",
 			"kind": {
 				"album": "",
 				"artist": "",
@@ -193,6 +255,8 @@
 			"reset": "",
 			"resetConfirm": "",
 			"resetDone": "",
+			"saveFailed": "",
+			"saved": "",
 			"title": "",
 			"wasCalled": ""
 		},
@@ -222,6 +286,36 @@
 		"dialogTitle": "",
 		"notPairedHere": "",
 		"sandboxNote": ""
+	},
+	"pairing": {
+		"title": "",
+		"intro": "",
+		"stepStartTitle": "",
+		"stepStartBody": "",
+		"stepLinkTitle": "",
+		"stepLinkBody": "",
+		"linkLabel": "",
+		"linkInvalid": "",
+		"connect": "",
+		"checkingTitle": "",
+		"checkingBody": "",
+		"trustTitle": "",
+		"trustBody": "",
+		"trustFingerprint": "",
+		"trustConfirm": "",
+		"claimingTitle": "",
+		"claimingBody": "",
+		"ticketExpired": "",
+		"nameTitle": "",
+		"nameBody": "",
+		"namePlaceholder": "",
+		"registering": "",
+		"doneTitle": "",
+		"doneBody": "",
+		"doneAction": "",
+		"unreachable": "",
+		"refused": "",
+		"startOver": ""
 	},
 	"pin": {
 		"pin": "",
@@ -288,7 +382,6 @@
 		"empty": "",
 		"addFriend": "",
 		"revoke": "",
-		"canRequest": "",
 		"directories": "",
 		"thisLibrary": "",
 		"grantAccess": "",
