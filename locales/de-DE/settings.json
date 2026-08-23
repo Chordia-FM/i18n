@@ -5,12 +5,15 @@
 		"changeEmailBody": "",
 		"changeEmailTitle": "",
 		"changePhoto": "",
+		"deleteTypeHandle": "",
 		"displayName": "Anzeigename",
 		"emailChangeSent": "Prüfen Sie Ihren neuen Posteingang auf einen Bestätigungslink.",
 		"emailTitle": "E-Mail",
 		"handle": "",
 		"handleHint": "Buchstaben, Ziffern, „_“ und „-“. Muss eindeutig sein.",
 		"handlePlaceholder": "ihrname",
+		"leaveDesc": "",
+		"leaveTitle": "",
 		"newEmailPlaceholder": "",
 		"noEmail": "",
 		"pendingChange": "",
@@ -20,6 +23,7 @@
 		"resendVerification": "Bestätigungs-E-Mail erneut senden",
 		"saveProfile": "Profil speichern",
 		"sendConfirmation": "Bestätigung senden",
+		"signOutConfirm": "",
 		"title": "Konto",
 		"unverified": "",
 		"verificationSent": "",
@@ -28,6 +32,7 @@
 	"appearance": {
 		"accentColour": "",
 		"accentHexAria": "Akzent-Hex",
+		"accentProfileHint": "",
 		"accents": {
 			"amber": "",
 			"blue": "",
@@ -45,6 +50,7 @@
 		"customAccentAria": "",
 		"customColour": "",
 		"customColourHint": "",
+		"languageHint": "",
 		"mode": {
 			"artwork": "Grafik",
 			"artworkHint": "",
@@ -78,6 +84,12 @@
 		"title": "Darstellung"
 	},
 	"connections": {
+		"discord": {
+			"desc": "",
+			"label": "",
+			"linked": "",
+			"notLinked": ""
+		},
 		"lastfm": {
 			"connect": "Verbinden",
 			"connectedAs": "Verbunden als {username}",
@@ -87,8 +99,10 @@
 			"disconnect": "Trennen",
 			"disconnected": "Last.fm wurde getrennt",
 			"failed": "Last.fm konnte nicht verbunden werden",
-			"label": ""
+			"label": "",
+			"opensBrowser": ""
 		},
+		"refresh": "Aktualisieren",
 		"title": "Verbindungen"
 	},
 	"data": {
@@ -101,6 +115,8 @@
 		"exportFailedBody": "Ihre Daten konnten derzeit nicht exportiert werden. Bitte versuchen Sie es erneut.",
 		"exportFailedTitle": "Export fehlgeschlagen",
 		"exportMyData": "Meine Daten exportieren",
+		"exportReady": "",
+		"exportSubject": "",
 		"title": "Ihre Daten"
 	},
 	"desktop": {
@@ -208,6 +224,7 @@
 	"import": {
 		"body": "",
 		"chooseFile": "",
+		"empty": "",
 		"errors": {
 			"internal": "",
 			"interrupted": "",
@@ -217,6 +234,7 @@
 		"hint": "",
 		"progress": "",
 		"sourceAuto": "",
+		"startInBrowser": "",
 		"status": {
 			"done": "Fertig",
 			"failed": "Fehlgeschlagen",
@@ -246,6 +264,9 @@
 		"title": ""
 	},
 	"plan": {
+		"current": "",
+		"includes": "",
+		"opensInBrowser": "",
 		"selfHosted": "",
 		"title": ""
 	},
@@ -258,6 +279,8 @@
 			"desc": "Blendet das Ende jedes Titels in den nächsten über. Angabe in Sekunden.",
 			"label": "Überblendung"
 		},
+		"crossfadeSeconds": "",
+		"equalizerDesc": "",
 		"normalize": {
 			"desc": "Gleicht die Lautheit über alle Titel hinweg aus (ReplayGain).",
 			"label": "Lautstärke normalisieren"
@@ -292,6 +315,7 @@
 				"label": "Quelle"
 			}
 		},
+		"storageDesc": "",
 		"streamingQuality": "Streaming-Qualität",
 		"title": "Wiedergabe"
 	},
@@ -401,6 +425,16 @@
 			"zoneWithOffset": ""
 		},
 		"title": ""
+	},
+	"sections": {
+		"account": "",
+		"appearance": "",
+		"connections": "",
+		"data": "",
+		"plan": "",
+		"playback": "",
+		"privacy": "",
+		"security": ""
 	},
 	"security": {
 		"password": {
