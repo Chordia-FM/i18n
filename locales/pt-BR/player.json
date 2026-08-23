@@ -7,6 +7,9 @@
 		"play": "Reproduzir",
 		"previous": "Anterior",
 		"repeat": "Repetir",
+		"repeatAll": "",
+		"repeatOff": "",
+		"repeatOne": "",
 		"seek": "Posição da faixa",
 		"shuffle": "Aleatório",
 		"unmute": "Ativar som",
@@ -16,8 +19,13 @@
 	},
 	"devices": {
 		"current": "Destino atual",
+		"mobileApp": "",
 		"none": "Nenhum dispositivo de reprodução encontrado.",
+		"offline": "",
+		"playHere": "",
+		"playingOn": "",
 		"pressPlay": "Aperte play para começar aqui",
+		"thisDevice": "Este dispositivo",
 		"thisTab": "Esta aba",
 		"title": "Dispositivo de reprodução",
 		"unreachable": ""
@@ -43,6 +51,7 @@
 		"bandWidth": "Largura da banda {n} (Q)",
 		"close": "Fechar equalizador",
 		"deletePreset": "Excluir {name}",
+		"deviceApproximation": "",
 		"dragHint": "Arraste um ponto para moldar a curva",
 		"dragHintParametric": " · arraste na horizontal para a frequência · role para a largura (Q)",
 		"enable": "Ativar equalizador",
@@ -51,6 +60,7 @@
 			"ariaLabel": "Resposta do equalizador — arraste os pontos das bandas para moldar o som",
 			"title": "Curva de resposta do equalizador"
 		},
+		"notApplied": "",
 		"parametric": "Paramétrico",
 		"preamp": "Pré-amplificação",
 		"preampDisplay": "",
@@ -85,6 +95,9 @@
 	"monthlyListeners": "{count, plural, one {# ouvinte mensal} other {# ouvintes mensais}}",
 	"notPlaying": "Sem reprodução",
 	"nothingPlaying": "Nada tocando ainda.",
+	"notification": {
+		"channelName": "Reprodução"
+	},
 	"nowPlaying": {
 		"aboutArtist": "Sobre {name}",
 		"albumFallback": "Álbum",
@@ -99,6 +112,7 @@
 		"change": "Alterar",
 		"dataPerHourGb": "~{value} GB/hora",
 		"dataPerHourMb": "~{value} MB/hora",
+		"fixedLocal": "",
 		"khz": "",
 		"lossless": "Sem perdas",
 		"lossy": "Com perdas",
@@ -116,7 +130,8 @@
 		"spatialOnly": "",
 		"streamingRate": "",
 		"title": "Qualidade do arquivo",
-		"upTo": "Até {value}"
+		"upTo": "Até {value}",
+		"yourSetting": ""
 	},
 	"queue": {
 		"add": "Adicionar à fila",
