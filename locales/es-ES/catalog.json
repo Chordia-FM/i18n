@@ -23,6 +23,7 @@
 		"durationMin": "",
 		"genresJoin": "",
 		"goToRadio": "Ir a la radio del artista",
+		"noTracks": "",
 		"releaseDate": "",
 		"songCount": "{count, plural, one {# canción} other {# canciones}}",
 		"typesJoin": ""
@@ -139,6 +140,7 @@
 		"title": "Géneros",
 		"topAlbums": "Álbumes principales",
 		"topArtists": "Artistas principales",
+		"topTracks": "Pistas principales",
 		"variants": "También etiquetado como: {list}"
 	},
 	"label": {
@@ -212,7 +214,9 @@
 	"section": {
 		"albums": "Álbumes",
 		"artists": "Artistas",
+		"genres": "Géneros",
 		"labels": "Sellos",
+		"playlists": "Listas",
 		"songs": "Canciones",
 		"tracks": "Pistas"
 	},
@@ -232,9 +236,15 @@
 			"removed": "Descarga eliminada",
 			"savedNamed": "Se descargó {title}"
 		},
+		"details": "",
 		"explicit": "Explícito",
+		"explicitShort": "",
+		"hubPlays": "",
+		"length": "",
+		"number": "",
 		"playAria": "Reproducir {title} de {artist}",
 		"playsNumber": "",
+		"rank": "",
 		"relTime": {
 			"daysAgo": "{count, plural, one {hace # día} other {hace # días}}",
 			"fullDate": "",
