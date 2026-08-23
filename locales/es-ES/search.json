@@ -1,4 +1,7 @@
 {
 	"noResults": "Sin resultados para “{term}”.",
-	"prompt": "Busca artistas, álbumes o canciones en el cuadro de arriba."
+	"prompt": "Busca artistas, álbumes o canciones en el cuadro de arriba.",
+	"recent": {
+		"title": ""
+	}
 }
