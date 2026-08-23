@@ -104,6 +104,16 @@
 		"translatorPlaceholder": "",
 		"translatorHint": ""
 	},
+	"content": {
+		"albums": "アルバム",
+		"artists": "アーティスト",
+		"description": "",
+		"empty": ""
+	},
+	"desktopOnly": {
+		"body": "",
+		"title": ""
+	},
 	"editCatalog": {
 		"title": "カタログのメタデータを編集"
 	},
@@ -185,6 +195,7 @@
 	"noAccess": {
 		"backToApp": "アプリに戻る",
 		"body": "サイト管理へのアクセス権がありません。{link}。",
+		"plainBody": "",
 		"title": "管理"
 	},
 	"overview": {
@@ -261,6 +272,9 @@
 		"dismiss": "却下",
 		"empty": "未対応の報告はありません。",
 		"resolve": "解決",
+		"statusDismissed": "",
+		"statusOpen": "開く",
+		"statusResolved": "",
 		"title": "報告",
 		"titleWithCount": "{count, plural, other {報告（#件未対応）}}"
 	},
@@ -296,29 +310,12 @@
 		"behind": "",
 		"biggestTables": "",
 		"database": "",
-		"downloadQueue": "",
 		"enrichment": "",
-		"jobStatus": {
-			"awaiting_selection": "",
-			"cancelled": "",
-			"claimed": "",
-			"completed": "完了",
-			"downloading": "ダウンロード中",
-			"failed": "失敗",
-			"grabbing": "取得中",
-			"importing": "インポート中",
-			"no_results": "",
-			"queued": "キュー待ち",
-			"searching": "検索中"
-		},
 		"keepingUp": "",
 		"loadFailed": "",
 		"migrations": "",
 		"noRollups": "",
 		"partitions": "",
-		"queue": "",
-		"queueEmpty": "",
-		"queueJobs": "",
 		"rollupLag": "",
 		"rollupLagHelp": "",
 		"rollups": "",
@@ -406,6 +403,7 @@
 		"unsuspend": "停止を解除",
 		"user": "",
 		"verified": "",
+		"loadMore": "",
 		"noEmail": ""
 	}
 }
