@@ -71,9 +71,11 @@
 		}
 	},
 	"block": {
+		"blockedHeading": "Blocked ({count})",
 		"confirmLabel": "Block",
 		"confirmMessage": "Block @{handle}? You won't be able to add each other as friends.",
-		"confirmTitle": "Block user"
+		"confirmTitle": "Block user",
+		"unblock": "Unblock"
 	},
 	"discovery": {
 		"addFriend": "Add friend",
@@ -114,6 +116,7 @@
 		"empty": "No friends yet - search to add some",
 		"heading": "Friends ({count})",
 		"removing": "Removing…",
+		"requestByHandle": "Send a friend request to @{handle}",
 		"title": "Friends"
 	},
 	"modMenu": {
@@ -169,7 +172,9 @@
 	"requests": {
 		"accept": "Accept",
 		"accepting": "Accepting…",
-		"pendingHeading": "Pending requests ({count})"
+		"cancel": "Cancel request",
+		"pendingHeading": "Pending requests ({count})",
+		"sentHeading": "Sent requests ({count})"
 	},
 	"search": {
 		"noResults": "No users found.",

@@ -139,7 +139,8 @@
 		"search": "Search",
 		"settings": "Settings",
 		"signIn": "Sign in",
-		"signUp": "Sign up"
+		"signUp": "Sign up",
+		"you": "You"
 	},
 	"notFound": {
 		"body": "The link might be old, or the page moved. Nothing's broken; you just took a wrong turn.",
@@ -170,7 +171,14 @@
 	},
 	"update": {
 		"available": "A new version is available.",
-		"refresh": "Refresh"
+		"download": "Download",
+		"file": "{name} · {size}",
+		"later": "Not now",
+		"notes": "What's new",
+		"refresh": "Refresh",
+		"sideload": "Chordia isn't on the Play Store, so the file downloads in your browser and Android asks you to confirm the install.",
+		"title": "Chordia {version} is out",
+		"youHave": "You're on {version}."
 	},
 	"userMenu": {
 		"admin": "Admin",

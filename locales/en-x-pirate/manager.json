@@ -1,7 +1,6 @@
 {
 	"album": {
 		"coverage": "{owned} o' {total} ditties",
-		"downloadEdition": "Plunder version",
 		"fetching": "fetchin' tracklist…",
 		"loadFailed": "Couldn't load this treasure's tracklist.",
 		"noTracks": "No tracklist available fer this treasure yet.",
@@ -40,18 +39,6 @@
 			"Album": "Treasures"
 		}
 	},
-	"download": {
-		"ackConfirm": "Aye, savvy",
-		"ackMessage": "Chordia ships no indexers or trackers. Booty use th' Prowlarr an' qBittorrent ye configured, an' ye be responsible fer th' legality o' what ye acquire in yer jurisdiction.",
-		"ackTitle": "Afore ye plunder",
-		"button": "Plunder",
-		"chooseLibrary": "Plunder into…",
-		"failed": "Couldn't muster th' plunder",
-		"noLibrary": "No plunder-enabled hoard yet. Set up Prowlarr + qBittorrent on a hoard first.",
-		"notEnabled": "Booty ain't enabled on that hoard.",
-		"queued": "Added t' th' plunder muster",
-		"viewQueue": "View muster"
-	},
 	"follow": {
 		"following": "Followin'"
 	},
@@ -69,55 +56,9 @@
 		"title": "Hoards in coverage"
 	},
 	"nav": "Quartermaster",
-	"queue": {
-		"cancel": "Belay that",
-		"empty": "No booty yet. Hit Plunder on a missin' treasure t' start one.",
-		"intoLibrary": "into @{handle}'s hoard",
-		"loadFailed": "Couldn't load yer booty.",
-		"pickHint": "We weren't sure which release be th' exact treasure, so pick th' right one.",
-		"retry": "Fire again",
-		"selectFailed": "Couldn't pin that source. Th' job may have moved on; refresh an' pick again.",
-		"status": {
-			"claimed": "Startin'",
-			"completed": "Safe in th' hold",
-			"downloading": "Plunderin'",
-			"failed": "Sunk",
-			"grabbing": "Grabbin'",
-			"importing": "Importin'",
-			"no_results": "No sources spied",
-			"searching": "Huntin'"
-		},
-		"subtitle": "Yer plunder activity.",
-		"title": "Booty"
-	},
-	"settings": {
-		"created": "Profile stowed",
-		"delete": "Scuttle",
-		"destinationHelp": "Where new plunder requests land. Hearties' hoards appear here when they've given ye request access.",
-		"destinationSaved": "Default destination stowed.",
-		"destinationTitle": "Plunder destination",
-		"disabled": "Booty off",
-		"enabled": "Booty enabled",
-		"libraries": "Hoard plunder status",
-		"librariesHint": "Enable booty by configurin' Prowlarr + qBittorrent in each hoard's chordia-library.toml.",
-		"profilesHint": "Booty always pick th' best available source within a profile's allowed formats.",
-		"save": "Stow it",
-		"saveFailed": "Couldn't stow th' profile",
-		"subtitle": "Quality profiles an' per-hoard plunder status.",
-		"title": "Quartermaster's riggin'"
-	},
 	"subtitle": "Chart yer coverage an' spy what ye be missin'.",
 	"tabs": {
-		"downloads": "Booty",
-		"follows": "Followin'",
-		"settings": "Riggin'"
+		"follows": "Followin'"
 	},
-	"title": "Th' Quartermaster",
-	"upgrade": {
-		"check": "Check fer better quality",
-		"failed": "Couldn't muster th' upgrade check.",
-		"inProgress": "An upgrade or plunder fer this treasure be already in flight.",
-		"notIdentified": "This treasure ain't matched t' MusicBrainz yet, so thar be nothin' reliable t' hunt fer.",
-		"queued": "Upgrade check queued. Watch Booty: if a strictly better source exists it'll plunder, otherwise th' job ends quietly."
-	}
+	"title": "Th' Quartermaster"
 }

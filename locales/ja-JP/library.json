@@ -194,7 +194,6 @@
 	},
 	"shareManager": {
 		"addFriend": "フレンドを追加",
-		"canRequest": "ダウンロードのリクエストを許可",
 		"directories": "ライブラリ:",
 		"empty": "まだ誰とも共有していません。下からフレンドを追加してアクセスを許可しましょう。",
 		"grantAccess": "{name}にアクセスを許可",
@@ -202,7 +201,7 @@
 		"lastPlayed": "最終再生: {date}",
 		"removeAccess": "{name}のアクセスを削除",
 		"revoke": "アクセスを削除",
-		"statsLine": "リクエスト{requests}件 · ダウンロード{downloads}件 · {plays}回再生 · 再生時間{time}",
+		"statsLine": "{plays}回再生 · 再生時間{time}",
 		"streamingNow": "ストリーミング中: {title} — {artist}",
 		"thisLibrary": "このライブラリ",
 		"timeDaysHours": "{days}日{hours}時間",

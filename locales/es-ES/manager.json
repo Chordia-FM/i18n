@@ -2,7 +2,6 @@
 	"album": {
 		"coverage": "{owned} de {total} pistas",
 		"disc": "Disco {n}",
-		"downloadEdition": "Descargar versión",
 		"editionCount": "{count, plural, one {# edición} other {# ediciones}}",
 		"fetching": "obteniendo la lista de pistas…",
 		"loadFailed": "No se pudo cargar la lista de pistas de este álbum.",
@@ -58,17 +57,6 @@
 			"live": "En vivo"
 		}
 	},
-	"download": {
-		"ackConfirm": "Lo entiendo",
-		"ackMessage": "Chordia no incluye ningún indexador ni tracker. Las descargas usan el Prowlarr y el qBittorrent que hayas configurado, y tú eres responsable de la legalidad de lo que obtengas en tu jurisdicción.",
-		"ackTitle": "Antes de descargar",
-		"button": "Descargar",
-		"chooseLibrary": "Descargar en…",
-		"failed": "No se pudo poner la descarga en cola",
-		"noLibrary": "Aún no hay ninguna biblioteca con descargas activadas. Configura antes Prowlarr + qBittorrent en una biblioteca.",
-		"notEnabled": "Las descargas no están activadas en esa biblioteca.",
-		"queued": "Añadido a la cola de descargas"
-	},
 	"follow": {
 		"follow": "Seguir",
 		"following": "Siguiendo"
@@ -90,72 +78,11 @@
 	},
 	"loadFailed": "No se pudo cargar la cobertura.",
 	"nav": "Gestor",
-	"queue": {
-		"cancel": "Cancelar",
-		"choose": "Elegir fuente",
-		"empty": "Aún no hay descargas. Pulsa Descargar en un álbum que te falte para empezar.",
-		"intoLibrary": "en la biblioteca de @{handle}",
-		"loadFailed": "No se pudieron cargar tus descargas.",
-		"pickHint": "No teníamos claro qué lanzamiento es exactamente el álbum, así que elige el correcto.",
-		"requestedBy": "solicitado por @{handle}",
-		"retry": "Reintentar",
-		"selectFailed": "No se pudo fijar esa fuente: puede que la tarea haya avanzado. Actualiza y vuelve a elegir.",
-		"status": {
-			"awaiting_selection": "Elige una fuente",
-			"cancelled": "Cancelada",
-			"claimed": "Iniciando",
-			"completed": "Completada",
-			"downloading": "Descargando",
-			"failed": "Error",
-			"grabbing": "Obteniendo",
-			"importing": "Importando",
-			"no_results": "Sin fuentes",
-			"queued": "En cola",
-			"searching": "Buscando"
-		},
-		"subtitle": "Tu actividad de descargas.",
-		"title": "Descargas"
-	},
-	"settings": {
-		"created": "Perfil guardado",
-		"default": "Predeterminado",
-		"delete": "Eliminar",
-		"destinationAsk": "Preguntar siempre",
-		"destinationHelp": "Dónde van a parar las nuevas solicitudes de descarga. Las bibliotecas de tus amigos aparecen aquí cuando te han dado permiso para solicitar.",
-		"destinationSaved": "Destino predeterminado guardado.",
-		"destinationTitle": "Destino de descarga",
-		"disabled": "Descargas desactivadas",
-		"enabled": "Descargas activadas",
-		"formats": "Formatos permitidos (el mejor primero)",
-		"indexers": "{count} indexadores",
-		"libraries": "Estado de las descargas por biblioteca",
-		"librariesHint": "Activa las descargas configurando Prowlarr + qBittorrent en el chordia-library.toml de cada biblioteca.",
-		"makeDefault": "Establecer como predeterminado",
-		"maxSize": "Tamaño máx. (MB, opcional)",
-		"name": "Nombre",
-		"newProfile": "Nuevo perfil",
-		"preferSeeders": "Preferir más semillas",
-		"profiles": "Perfiles de calidad",
-		"profilesHint": "Las descargas siempre eligen la mejor fuente disponible entre los formatos permitidos del perfil.",
-		"save": "Guardar",
-		"saveFailed": "No se pudo guardar el perfil",
-		"subtitle": "Perfiles de calidad y estado de las descargas por biblioteca.",
-		"title": "Ajustes del gestor"
-	},
 	"subtitle": "Controla tu cobertura y descubre lo que te falta.",
 	"tabs": {
 		"coverage": "Cobertura",
 		"discover": "Descubrir",
-		"downloads": "Descargas",
-		"follows": "Siguiendo",
-		"settings": "Ajustes"
+		"follows": "Siguiendo"
 	},
-	"title": "Gestor de biblioteca",
-	"upgrade": {
-		"check": "Buscar mejor calidad",
-		"failed": "No se pudo poner en cola la comprobación de mejora.",
-		"inProgress": "Ya hay una mejora o una descarga en curso para este álbum.",
-		"notIdentified": "Este álbum aún no está asociado a MusicBrainz, así que no hay nada fiable que buscar.",
-		"queued": "Comprobación de mejora en cola: revisa Descargas. Si existe una fuente claramente mejor, se descargará; si no, la tarea termina sin más."
-	}
+	"title": "Gestor de biblioteca"
 }

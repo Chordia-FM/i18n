@@ -93,17 +93,6 @@
 		"title": "Suggestions de métadonnées",
 		"titleWithCount": "{count, plural, one {Suggestions de métadonnées (# en attente)} other {Suggestions de métadonnées (# en attente)}}"
 	},
-	"system": {
-		"jobStatus": {
-			"completed": "Terminé",
-			"downloading": "Téléchargement",
-			"failed": "Échec",
-			"grabbing": "Récupération",
-			"importing": "Importation",
-			"queued": "En attente",
-			"searching": "Recherche"
-		}
-	},
 	"tabs": {
 		"audit": "Journal d'audit",
 		"overview": "Vue d'ensemble",

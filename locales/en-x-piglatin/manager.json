@@ -2,7 +2,6 @@
 	"album": {
 		"coverage": "{owned} ofway {total} ackstray",
 		"disc": "Iscday {n}",
-		"downloadEdition": "Ownloadday ersionvay",
 		"editionCount": "{count, plural, one {# editionway} other {# editionsway}}",
 		"fetching": "etchingfay acklisttray…",
 		"loadFailed": "Ouldncay't oadlay isthay albumway's acklisttray.",
@@ -59,18 +58,6 @@
 		},
 		"openIn": "Openway inway Iscoverday"
 	},
-	"download": {
-		"ackConfirm": "Iway understandway",
-		"ackMessage": "Chordia ipsshay onay indexersway orway ackerstray. Ownloadsday useway ethay Prowlarr andway qBittorrent ouyay onfiguredcay, andway ouyay areway esponsibleray orfay ethay egalitylay ofway atwhay ouyay acquireway inway ouryay urisdictionjay.",
-		"ackTitle": "Eforebay ouyay ownloadday",
-		"button": "Ownloadday",
-		"chooseLibrary": "Ownloadday intoway…",
-		"failed": "Ouldncay't ueueqay ethay ownloadday",
-		"noLibrary": "Onay ownloadday-enabledway ibrarylay etyay. Etsay upway Prowlarr + qBittorrent onway away ibrarylay irstfay.",
-		"notEnabled": "Ownloadsday arenway't enabledway onway atthay ibrarylay.",
-		"queued": "Addedway otay ethay ownloadday ueueqay",
-		"viewQueue": "Iewvay ueueqay"
-	},
 	"follow": {
 		"follow": "Ollowfay",
 		"following": "Ollowingfay"
@@ -92,72 +79,11 @@
 	},
 	"loadFailed": "Ouldncay't oadlay overagecay.",
 	"nav": "Anagermay",
-	"queue": {
-		"cancel": "Ancelcay",
-		"choose": "Oosechay ourcesay",
-		"empty": "Onay ownloadsday etyay. Ithay Ownloadday onway away issingmay albumway otay artstay oneway.",
-		"intoLibrary": "intoway @{handle}'s ibrarylay",
-		"loadFailed": "Ouldncay't oadlay ouryay ownloadsday.",
-		"pickHint": "Eway erenway't uresay ichwhay eleaseray isway ethay exactway albumway, osay ickpay ethay ightray oneway.",
-		"requestedBy": "equestedray ybay @{handle}",
-		"retry": "Etryray",
-		"selectFailed": "Ouldncay't inpay atthay ourcesay. Ethay objay aymay avehay ovedmay onway; efreshray andway ickpay againway.",
-		"status": {
-			"awaiting_selection": "Oosechay away ourcesay",
-			"cancelled": "Anceledcay",
-			"claimed": "Artingstay",
-			"completed": "Ompletedcay",
-			"downloading": "Ownloadingday",
-			"failed": "Ailedfay",
-			"grabbing": "Abbinggray",
-			"importing": "Importingway",
-			"no_results": "Onay ourcessay oundfay",
-			"queued": "Ueuedqay",
-			"searching": "Earchingsay"
-		},
-		"subtitle": "Ouryay ownloadday activityway.",
-		"title": "Ownloadsday"
-	},
-	"settings": {
-		"created": "Ofilepray avedsay",
-		"default": "Efaultday",
-		"delete": "Eleteday",
-		"destinationAsk": "Askway everyway imetay",
-		"destinationHelp": "Erewhay ewnay ownloadday equestsray andlay. Iendsfray' ibrarieslay appearway erehay enwhay eythay'evay ivengay ouyay equestray accessway.",
-		"destinationSaved": "Efaultday estinationday avedsay.",
-		"destinationTitle": "Ownloadday estinationday",
-		"disabled": "Ownloadsday offway",
-		"enabled": "Ownloadsday enabledway",
-		"formats": "Allowedway ormatsfay (estbay irstfay)",
-		"indexers": "{count} indexersway",
-		"libraries": "Ibrarylay ownloadday atusstay",
-		"librariesHint": "Enableway ownloadsday ybay onfiguringcay Prowlarr + qBittorrent inway eachway ibrarylay's chordia-library.toml.",
-		"makeDefault": "Akemay efaultday",
-		"maxSize": "Axmay izesay (MB, optionalway)",
-		"name": "Amenay",
-		"newProfile": "Ewnay ofilepray",
-		"preferSeeders": "Eferpray oremay eederssay",
-		"profiles": "Ualityqay ofilespray",
-		"profilesHint": "Ownloadsday alwaysway ickpay ethay estbay availableway ourcesay ithinway away ofilepray's allowedway ormatsfay.",
-		"save": "Avesay",
-		"saveFailed": "Ouldncay't avesay ethay ofilepray",
-		"subtitle": "Ualityqay ofilespray andway erpay-ibrarylay ownloadday atusstay.",
-		"title": "Anagermay ettingssay"
-	},
 	"subtitle": "Acktray ouryay overagecay andway indfay atwhay ouyay'eray issingmay.",
 	"tabs": {
 		"coverage": "Overagecay",
 		"discover": "Iscoverday",
-		"downloads": "Ownloadsday",
-		"follows": "Ollowingfay",
-		"settings": "Ettingssay"
+		"follows": "Ollowingfay"
 	},
-	"title": "Ibrarylay Anagermay",
-	"upgrade": {
-		"check": "Eckchay orfay etterbay ualityqay",
-		"failed": "Ouldncay't ueueqay ethay upgradeway eckchay.",
-		"inProgress": "Anway upgradeway orway ownloadday orfay isthay albumway isway alreadyway inway ightflay.",
-		"notIdentified": "Isthay albumway isnway't atchedmay otay MusicBrainz etyay, osay erethay's othingnay eliableray otay earchsay orfay.",
-		"queued": "Upgradeway eckchay ueuedqay. Atchway Ownloadsday: ifway away ictlystray etterbay ourcesay existsway itway'll ownloadday, otherwiseway ethay objay endsway uietlyqay."
-	}
+	"title": "Ibrarylay Anagermay"
 }

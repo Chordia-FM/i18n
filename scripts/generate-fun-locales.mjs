@@ -123,7 +123,7 @@ function mapArgument(inner, fn) {
 // `chordia-library.toml` survives too) but only at word edges: "WAV" must not fire inside "wave".
 
 const PROTECTED =
-	/((?<![A-Za-z])(?:chordia-library\.toml|Chordia|Last\.fm|MusicBrainz|AcoustID|Prowlarr|qBittorrent|Spotify|Discord|GitHub|ReplayGain|fanart\.tv|Dolby|Atmos|Opus|Wrapped|FLAC|ALAC|WAV|AAC|LRC|MiB|e\.g\.|before_ms|before_id)(?![A-Za-z]))/i;
+	/((?<![A-Za-z])(?:chordia-library\.toml|Chordia|Last\.fm|MusicBrainz|AcoustID|Spotify|Discord|GitHub|ReplayGain|fanart\.tv|Dolby|Atmos|Opus|Wrapped|FLAC|ALAC|WAV|AAC|LRC|MiB|e\.g\.|before_ms|before_id)(?![A-Za-z]))/i;
 
 /** Wrap a literal-text transform so protected names pass through verbatim. */
 function keepingProtected(fn) {

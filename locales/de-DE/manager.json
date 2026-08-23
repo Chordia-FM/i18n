@@ -1,7 +1,6 @@
 {
 	"album": {
 		"coverage": "{owned} von {total} Titeln",
-		"downloadEdition": "Version herunterladen",
 		"editionCount": "{count, plural, one {# Edition} other {# Editionen}}",
 		"fetching": "Titelliste wird abgerufen…",
 		"loadFailed": "Die Titelliste dieses Albums konnte nicht geladen werden.",
@@ -50,17 +49,6 @@
 			"Other": "Andere"
 		}
 	},
-	"download": {
-		"ackConfirm": "Ich habe verstanden",
-		"ackMessage": "Chordia liefert keine Indexer und keine Tracker mit. Downloads nutzen das von Ihnen konfigurierte Prowlarr und qBittorrent, und Sie sind dafür verantwortlich, dass das, was Sie beziehen, in Ihrem Rechtsraum legal ist.",
-		"ackTitle": "Bevor Sie herunterladen",
-		"button": "Herunterladen",
-		"chooseLibrary": "Herunterladen in…",
-		"failed": "Der Download konnte nicht in die Warteschlange gestellt werden",
-		"noLibrary": "Noch keine Bibliothek mit aktivierten Downloads. Richten Sie zuerst Prowlarr + qBittorrent in einer Bibliothek ein.",
-		"notEnabled": "Downloads sind für diese Bibliothek nicht aktiviert.",
-		"queued": "Zur Download-Warteschlange hinzugefügt"
-	},
 	"follow": {
 		"follow": "Folgen",
 		"following": "Folge ich"
@@ -81,69 +69,11 @@
 		"title": "Bibliotheken in der Abdeckung"
 	},
 	"loadFailed": "Die Abdeckung konnte nicht geladen werden.",
-	"queue": {
-		"cancel": "Abbrechen",
-		"choose": "Quelle wählen",
-		"empty": "Noch keine Downloads. Klicken Sie bei einem fehlenden Album auf „Herunterladen“, um einen zu starten.",
-		"intoLibrary": "in die Bibliothek von @{handle}",
-		"loadFailed": "Ihre Downloads konnten nicht geladen werden.",
-		"pickHint": "Wir konnten nicht sicher bestimmen, welche Veröffentlichung genau dieses Album ist – bitte wählen Sie die richtige aus.",
-		"requestedBy": "angefordert von @{handle}",
-		"retry": "Wiederholen",
-		"selectFailed": "Diese Quelle konnte nicht festgelegt werden – der Auftrag ist möglicherweise schon weiter. Aktualisieren Sie und wählen Sie erneut.",
-		"status": {
-			"awaiting_selection": "Quelle wählen",
-			"cancelled": "Abgebrochen",
-			"claimed": "Wird gestartet",
-			"completed": "Abgeschlossen",
-			"downloading": "Wird heruntergeladen",
-			"failed": "Fehlgeschlagen",
-			"grabbing": "Wird geholt",
-			"importing": "Wird importiert",
-			"no_results": "Keine Quellen gefunden",
-			"queued": "In Warteschlange",
-			"searching": "Suche läuft"
-		},
-		"subtitle": "Ihre Download-Aktivität."
-	},
-	"settings": {
-		"created": "Profil gespeichert",
-		"default": "Standard",
-		"delete": "Löschen",
-		"destinationAsk": "Jedes Mal fragen",
-		"destinationHelp": "Wohin neue Download-Anfragen gehen. Bibliotheken von Freunden erscheinen hier, sobald diese Ihnen Anfragezugriff gewährt haben.",
-		"destinationSaved": "Standardziel gespeichert.",
-		"destinationTitle": "Download-Ziel",
-		"disabled": "Downloads aus",
-		"enabled": "Downloads aktiviert",
-		"formats": "Zulässige Formate (bestes zuerst)",
-		"indexers": "{count} Indexer",
-		"libraries": "Download-Status der Bibliotheken",
-		"librariesHint": "Aktivieren Sie Downloads, indem Sie Prowlarr + qBittorrent in der chordia-library.toml jeder Bibliothek konfigurieren.",
-		"makeDefault": "Als Standard festlegen",
-		"maxSize": "Maximale Größe (MB, optional)",
-		"newProfile": "Neues Profil",
-		"preferSeeders": "Mehr Seeder bevorzugen",
-		"profiles": "Qualitätsprofile",
-		"profilesHint": "Downloads wählen immer die beste verfügbare Quelle innerhalb der zulässigen Formate eines Profils.",
-		"save": "Speichern",
-		"saveFailed": "Das Profil konnte nicht gespeichert werden",
-		"subtitle": "Qualitätsprofile und Download-Status pro Bibliothek.",
-		"title": "Manager-Einstellungen"
-	},
 	"subtitle": "Behalten Sie Ihre Abdeckung im Blick und finden Sie, was Ihnen fehlt.",
 	"tabs": {
 		"coverage": "Abdeckung",
 		"discover": "Entdecken",
-		"follows": "Folge ich",
-		"settings": "Einstellungen"
+		"follows": "Folge ich"
 	},
-	"title": "Bibliotheksmanager",
-	"upgrade": {
-		"check": "Auf bessere Qualität prüfen",
-		"failed": "Die Upgrade-Prüfung konnte nicht in die Warteschlange gestellt werden.",
-		"inProgress": "Ein Upgrade oder Download für dieses Album läuft bereits.",
-		"notIdentified": "Dieses Album ist noch nicht MusicBrainz zugeordnet, daher lässt sich nicht zuverlässig danach suchen.",
-		"queued": "Upgrade-Prüfung eingereiht – behalten Sie Downloads im Auge. Gibt es eine eindeutig bessere Quelle, wird sie heruntergeladen; andernfalls endet der Auftrag ohne Meldung."
-	}
+	"title": "Bibliotheksmanager"
 }

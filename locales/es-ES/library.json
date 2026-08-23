@@ -193,7 +193,6 @@
 	},
 	"shareManager": {
 		"addFriend": "Añadir amigo",
-		"canRequest": "Puede solicitar descargas",
 		"directories": "Bibliotecas:",
 		"empty": "Aún no la compartes con nadie. Añade abajo a un amigo para darle acceso.",
 		"grantAccess": "Dar acceso a {name}",
@@ -201,7 +200,7 @@
 		"lastPlayed": "última reproducción {date}",
 		"removeAccess": "Quitar el acceso de {name}",
 		"revoke": "Quitar acceso",
-		"statsLine": "{requests} solicitadas · {downloads} descargadas · {plays} reproducciones · {time} escuchado",
+		"statsLine": "{plays} reproducciones · {time} escuchado",
 		"streamingNow": "Escuchando ahora: {title} — {artist}",
 		"thisLibrary": "Esta biblioteca",
 		"timeHoursMinutes": "{hours}h {minutes}min",

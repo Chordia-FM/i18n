@@ -91,17 +91,6 @@
 		"title": "Metadaten-Vorschläge",
 		"titleWithCount": "{count, plural, one {Metadaten-Vorschläge (# ausstehend)} other {Metadaten-Vorschläge (# ausstehend)}}"
 	},
-	"system": {
-		"jobStatus": {
-			"completed": "Abgeschlossen",
-			"downloading": "Wird heruntergeladen",
-			"failed": "Fehlgeschlagen",
-			"grabbing": "Wird geholt",
-			"importing": "Wird importiert",
-			"queued": "In Warteschlange",
-			"searching": "Suche läuft"
-		}
-	},
 	"tabs": {
 		"audit": "Audit-Protokoll",
 		"overview": "Überblick",

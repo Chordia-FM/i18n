@@ -23,6 +23,7 @@
 		"durationMin": "{minutes} min",
 		"genresJoin": "{genres}",
 		"goToRadio": "Go to artist radio",
+		"noTracks": "No songs on this release yet.",
 		"releaseDate": "{date, date, long}",
 		"songCount": "{count, plural, one {# song} other {# songs}}",
 		"typesJoin": "{types}"
@@ -139,6 +140,7 @@
 		"title": "Genres",
 		"topAlbums": "Top albums",
 		"topArtists": "Top artists",
+		"topTracks": "Top tracks",
 		"variants": "Also tagged: {list}"
 	},
 	"label": {
@@ -212,7 +214,9 @@
 	"section": {
 		"albums": "Albums",
 		"artists": "Artists",
+		"genres": "Genres",
 		"labels": "Labels",
+		"playlists": "Playlists",
 		"songs": "Songs",
 		"tracks": "Tracks"
 	},
@@ -232,9 +236,15 @@
 			"removed": "Removed download",
 			"savedNamed": "Downloaded {title}"
 		},
+		"details": "Details",
 		"explicit": "Explicit",
+		"explicitShort": "E",
+		"hubPlays": "Plays across the hub",
+		"length": "Length",
+		"number": "Track number",
 		"playAria": "Play {title} by {artist}",
 		"playsNumber": "{n, number}",
+		"rank": "Your rank",
 		"relTime": {
 			"daysAgo": "{count, plural, one {# day ago} other {# days ago}}",
 			"fullDate": "{date, date, medium}",

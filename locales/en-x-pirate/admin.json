@@ -85,18 +85,7 @@
 		},
 		"artistsMissingArt": "Artists wi' no image",
 		"artistsNeverEnriched": "Artists ne'er enriched",
-		"downloadQueue": "Plunder muster",
-		"jobStatus": {
-			"completed": "Safe in th' hold",
-			"downloading": "Plunderin'",
-			"failed": "Sunk",
-			"grabbing": "Grabbin'",
-			"importing": "Importin'",
-			"searching": "Huntin'"
-		},
 		"keepingUp": "Keepin' up",
-		"queue": "Plunder jobs",
-		"queueEmpty": "Nothin' queued.",
 		"rollupLagHelp": "How far th' background aggregator be behind th' newest listen. Zero means it has caught up wi' everythin' recorded.",
 		"tracksMissingIsrcs": "Ditties wi' no ISRCs",
 		"tracksMissingLyrics": "Ditties wi' no lyrics",

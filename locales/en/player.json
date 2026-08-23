@@ -7,6 +7,9 @@
 		"play": "Play",
 		"previous": "Previous",
 		"repeat": "Repeat",
+		"repeatAll": "Repeat all",
+		"repeatOff": "Repeat off",
+		"repeatOne": "Repeat one",
 		"seek": "Seek",
 		"shuffle": "Shuffle",
 		"unmute": "Unmute",
@@ -16,8 +19,13 @@
 	},
 	"devices": {
 		"current": "Current target",
+		"mobileApp": "Chordia mobile",
 		"none": "No playback devices found.",
+		"offline": "Not connected to your other devices",
+		"playHere": "Play here",
+		"playingOn": "Playing on {device}",
 		"pressPlay": "Press play to start here",
+		"thisDevice": "This device",
 		"thisTab": "This tab",
 		"title": "Playback device",
 		"unreachable": "Was playing here. Out of reach right now."
@@ -43,6 +51,7 @@
 		"bandWidth": "Band {n} width (Q)",
 		"close": "Close equalizer",
 		"deletePreset": "Delete {name}",
+		"deviceApproximation": "Your phone's equalizer has bands of its own, so this curve is matched onto them as closely as it goes. What you hear is an approximation of what you drew.",
 		"dragHint": "Drag a node to shape the curve",
 		"dragHintParametric": " · drag sideways for frequency · scroll for width (Q)",
 		"enable": "Enable equalizer",
@@ -51,6 +60,7 @@
 			"ariaLabel": "Equalizer response - drag the band nodes to shape the sound",
 			"title": "Equalizer response curve"
 		},
+		"notApplied": "This device has no equalizer Chordia can drive, so these settings are saved and travel with your account, but nothing is applied to playback here.",
 		"parametric": "Parametric",
 		"preamp": "Preamp",
 		"preampDisplay": "{value} dB",
@@ -85,6 +95,9 @@
 	"monthlyListeners": "{count, plural, one {# monthly listener} other {# monthly listeners}}",
 	"notPlaying": "Not playing",
 	"nothingPlaying": "Nothing playing yet.",
+	"notification": {
+		"channelName": "Playback"
+	},
 	"nowPlaying": {
 		"aboutArtist": "About {name}",
 		"albumFallback": "Album",
@@ -99,6 +112,7 @@
 		"change": "Change",
 		"dataPerHourGb": "~{value} GB/hour",
 		"dataPerHourMb": "~{value} MB/hour",
+		"fixedLocal": "Playing a local copy. Its quality is whatever the file is.",
 		"khz": "{value} kHz",
 		"lossless": "Lossless",
 		"lossy": "Lossy",
@@ -116,7 +130,8 @@
 		"spatialOnly": "Spatial",
 		"streamingRate": "~{kbps} kbps · {data}",
 		"title": "File quality",
-		"upTo": "Up to {value}"
+		"upTo": "Up to {value}",
+		"yourSetting": "Your setting"
 	},
 	"queue": {
 		"add": "Add to queue",
