@@ -1,4 +1,7 @@
 {
 	"noResults": "Aucun résultat pour « {term} ».",
-	"prompt": "Recherchez des artistes, des albums ou des chansons dans le champ ci-dessus."
+	"prompt": "Recherchez des artistes, des albums ou des chansons dans le champ ci-dessus.",
+	"recent": {
+		"title": ""
+	}
 }
