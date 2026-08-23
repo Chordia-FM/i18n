@@ -104,6 +104,16 @@
 		"translatorPlaceholder": "",
 		"translatorHint": ""
 	},
+	"content": {
+		"albums": "Álbuns",
+		"artists": "Artistas",
+		"description": "",
+		"empty": ""
+	},
+	"desktopOnly": {
+		"body": "",
+		"title": ""
+	},
 	"editCatalog": {
 		"title": "Editar metadados do catálogo"
 	},
@@ -185,6 +195,7 @@
 	"noAccess": {
 		"backToApp": "Voltar ao app",
 		"body": "Você não tem acesso à administração do site. {link}.",
+		"plainBody": "",
 		"title": "Administração"
 	},
 	"overview": {
@@ -261,6 +272,9 @@
 		"dismiss": "Rejeitar",
 		"empty": "Nenhuma denúncia aberta.",
 		"resolve": "Resolver",
+		"statusDismissed": "",
+		"statusOpen": "Abrir",
+		"statusResolved": "",
 		"title": "Denúncias",
 		"titleWithCount": "{count, plural, one {Denúncias (# aberta)} other {Denúncias (# abertas)}}"
 	},
@@ -296,29 +310,12 @@
 		"behind": "",
 		"biggestTables": "",
 		"database": "",
-		"downloadQueue": "",
 		"enrichment": "",
-		"jobStatus": {
-			"awaiting_selection": "",
-			"cancelled": "",
-			"claimed": "",
-			"completed": "Concluído",
-			"downloading": "Baixando",
-			"failed": "Falhou",
-			"grabbing": "Obtendo",
-			"importing": "Importando",
-			"no_results": "",
-			"queued": "Na fila",
-			"searching": "Buscando"
-		},
 		"keepingUp": "",
 		"loadFailed": "",
 		"migrations": "",
 		"noRollups": "",
 		"partitions": "",
-		"queue": "",
-		"queueEmpty": "",
-		"queueJobs": "",
 		"rollupLag": "",
 		"rollupLagHelp": "",
 		"rollups": "",
@@ -406,6 +403,7 @@
 		"unsuspend": "Reativar",
 		"user": "",
 		"verified": "",
+		"loadMore": "",
 		"noEmail": ""
 	}
 }
