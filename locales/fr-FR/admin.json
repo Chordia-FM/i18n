@@ -104,6 +104,16 @@
 		"translatorPlaceholder": "",
 		"translatorHint": ""
 	},
+	"content": {
+		"albums": "",
+		"artists": "Artistes",
+		"description": "",
+		"empty": ""
+	},
+	"desktopOnly": {
+		"body": "",
+		"title": ""
+	},
 	"editCatalog": {
 		"title": "Modifier les métadonnées du catalogue"
 	},
@@ -185,6 +195,7 @@
 	"noAccess": {
 		"backToApp": "Retour à l'application",
 		"body": "Vous n'avez pas accès à l'administration du site. {link}.",
+		"plainBody": "",
 		"title": ""
 	},
 	"overview": {
@@ -261,6 +272,9 @@
 		"dismiss": "Rejeter",
 		"empty": "Aucun signalement ouvert.",
 		"resolve": "Résoudre",
+		"statusDismissed": "",
+		"statusOpen": "Ouvrir",
+		"statusResolved": "",
 		"title": "Signalements",
 		"titleWithCount": "{count, plural, one {Signalements (# ouvert)} other {Signalements (# ouverts)}}"
 	},
@@ -296,29 +310,12 @@
 		"behind": "",
 		"biggestTables": "",
 		"database": "",
-		"downloadQueue": "",
 		"enrichment": "",
-		"jobStatus": {
-			"awaiting_selection": "",
-			"cancelled": "",
-			"claimed": "",
-			"completed": "Terminé",
-			"downloading": "Téléchargement",
-			"failed": "Échec",
-			"grabbing": "Récupération",
-			"importing": "Importation",
-			"no_results": "",
-			"queued": "En attente",
-			"searching": "Recherche"
-		},
 		"keepingUp": "",
 		"loadFailed": "",
 		"migrations": "",
 		"noRollups": "",
 		"partitions": "",
-		"queue": "",
-		"queueEmpty": "",
-		"queueJobs": "",
 		"rollupLag": "",
 		"rollupLagHelp": "",
 		"rollups": "",
@@ -406,6 +403,7 @@
 		"unsuspend": "Réactiver",
 		"user": "",
 		"verified": "",
+		"loadMore": "",
 		"noEmail": ""
 	}
 }
