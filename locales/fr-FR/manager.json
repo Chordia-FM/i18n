@@ -2,7 +2,6 @@
 	"album": {
 		"coverage": "{owned} morceaux sur {total}",
 		"disc": "Disque {n}",
-		"downloadEdition": "Télécharger la version",
 		"editionCount": "{count, plural, one {# édition} other {# éditions}}",
 		"fetching": "récupération de la liste des morceaux…",
 		"loadFailed": "Impossible de charger la liste des morceaux de cet album.",
@@ -60,18 +59,6 @@
 		},
 		"openIn": ""
 	},
-	"download": {
-		"ackConfirm": "J'ai compris",
-		"ackMessage": "Chordia ne fournit aucun indexeur ni tracker. Les téléchargements utilisent les Prowlarr et qBittorrent que vous avez configurés, et vous êtes responsable de la légalité de ce que vous récupérez dans votre juridiction.",
-		"ackTitle": "Avant de télécharger",
-		"button": "Télécharger",
-		"chooseLibrary": "Télécharger dans…",
-		"failed": "Impossible de mettre le téléchargement en file d'attente",
-		"noLibrary": "Aucune bibliothèque compatible avec le téléchargement pour l'instant. Configurez d'abord Prowlarr + qBittorrent sur une bibliothèque.",
-		"notEnabled": "Les téléchargements ne sont pas activés sur cette bibliothèque.",
-		"queued": "Ajouté à la file d'attente de téléchargement",
-		"viewQueue": ""
-	},
 	"follow": {
 		"follow": "Suivre",
 		"following": "Suivi"
@@ -93,72 +80,11 @@
 	},
 	"loadFailed": "Impossible de charger la couverture.",
 	"nav": "Gestionnaire",
-	"queue": {
-		"cancel": "Annuler",
-		"choose": "Choisir la source",
-		"empty": "Aucun téléchargement pour l'instant. Appuyez sur Télécharger sur un album manquant pour en lancer un.",
-		"intoLibrary": "dans la bibliothèque de @{handle}",
-		"loadFailed": "Impossible de charger vos téléchargements.",
-		"pickHint": "Nous ne savions pas quelle sortie correspond exactement à l'album, choisissez donc la bonne.",
-		"requestedBy": "demandé par @{handle}",
-		"retry": "Réessayer",
-		"selectFailed": "",
-		"status": {
-			"awaiting_selection": "Choisissez une source",
-			"cancelled": "",
-			"claimed": "Démarrage",
-			"completed": "Terminé",
-			"downloading": "Téléchargement",
-			"failed": "Échec",
-			"grabbing": "Récupération",
-			"importing": "Importation",
-			"no_results": "Aucune source trouvée",
-			"queued": "En attente",
-			"searching": "Recherche"
-		},
-		"subtitle": "Votre activité de téléchargement.",
-		"title": "Téléchargements"
-	},
-	"settings": {
-		"created": "Profil enregistré",
-		"default": "Par défaut",
-		"delete": "Supprimer",
-		"destinationAsk": "Demander à chaque fois",
-		"destinationHelp": "Où arrivent les nouvelles demandes de téléchargement. Les bibliothèques de vos amis apparaissent ici lorsqu'ils vous ont accordé le droit de demande.",
-		"destinationSaved": "Destination par défaut enregistrée.",
-		"destinationTitle": "Destination des téléchargements",
-		"disabled": "Téléchargements désactivés",
-		"enabled": "Téléchargements activés",
-		"formats": "Formats autorisés (le meilleur en premier)",
-		"indexers": "{count} indexeurs",
-		"libraries": "État des téléchargements par bibliothèque",
-		"librariesHint": "Activez les téléchargements en configurant Prowlarr + qBittorrent dans le fichier chordia-library.toml de chaque bibliothèque.",
-		"makeDefault": "Définir par défaut",
-		"maxSize": "Taille max (Mo, facultatif)",
-		"name": "Nom",
-		"newProfile": "Nouveau profil",
-		"preferSeeders": "Privilégier plus de seeders",
-		"profiles": "Profils de qualité",
-		"profilesHint": "Les téléchargements retiennent toujours la meilleure source disponible parmi les formats autorisés d'un profil.",
-		"save": "Enregistrer",
-		"saveFailed": "Impossible d'enregistrer le profil",
-		"subtitle": "Profils de qualité et état des téléchargements par bibliothèque.",
-		"title": "Paramètres du gestionnaire"
-	},
 	"subtitle": "Suivez votre couverture et trouvez ce qui vous manque.",
 	"tabs": {
 		"coverage": "Couverture",
 		"discover": "Découvrir",
-		"downloads": "Téléchargements",
-		"follows": "Abonnements",
-		"settings": "Paramètres"
+		"follows": "Abonnements"
 	},
-	"title": "Gestionnaire de bibliothèque",
-	"upgrade": {
-		"check": "Chercher une meilleure qualité",
-		"failed": "Impossible de lancer la vérification de qualité.",
-		"inProgress": "Une amélioration ou un téléchargement est déjà en cours pour cet album.",
-		"notIdentified": "Cet album n'a pas encore de correspondance MusicBrainz, il n'y a donc rien de fiable à rechercher.",
-		"queued": ""
-	}
+	"title": "Gestionnaire de bibliothèque"
 }
