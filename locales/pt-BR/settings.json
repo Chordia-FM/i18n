@@ -5,12 +5,15 @@
 		"changeEmailBody": "",
 		"changeEmailTitle": "",
 		"changePhoto": "",
+		"deleteTypeHandle": "",
 		"displayName": "Nome de exibição",
 		"emailChangeSent": "Veja o link de confirmação na nova caixa de entrada.",
 		"emailTitle": "E-mail",
 		"handle": "Nome de usuário",
 		"handleHint": "Letras, dígitos, “_” e “-”. Precisa ser único.",
 		"handlePlaceholder": "seunome",
+		"leaveDesc": "",
+		"leaveTitle": "",
 		"newEmailPlaceholder": "",
 		"noEmail": "",
 		"pendingChange": "",
@@ -20,6 +23,7 @@
 		"resendVerification": "Reenviar e-mail de verificação",
 		"saveProfile": "Salvar perfil",
 		"sendConfirmation": "Enviar confirmação",
+		"signOutConfirm": "",
 		"title": "Conta",
 		"unverified": "",
 		"verificationSent": "",
@@ -28,6 +32,7 @@
 	"appearance": {
 		"accentColour": "",
 		"accentHexAria": "Hex da cor de destaque",
+		"accentProfileHint": "",
 		"accents": {
 			"amber": "",
 			"blue": "",
@@ -45,6 +50,7 @@
 		"customAccentAria": "",
 		"customColour": "",
 		"customColourHint": "",
+		"languageHint": "",
 		"mode": {
 			"artwork": "Arte",
 			"artworkHint": "",
@@ -78,6 +84,12 @@
 		"title": "Aparência"
 	},
 	"connections": {
+		"discord": {
+			"desc": "",
+			"label": "",
+			"linked": "",
+			"notLinked": ""
+		},
 		"lastfm": {
 			"connect": "Conectar",
 			"connectedAs": "Conectado como {username}",
@@ -87,8 +99,10 @@
 			"disconnect": "Desconectar",
 			"disconnected": "Last.fm desconectado",
 			"failed": "Não foi possível conectar o Last.fm",
-			"label": ""
+			"label": "",
+			"opensBrowser": ""
 		},
+		"refresh": "Atualizar",
 		"title": "Conexões"
 	},
 	"data": {
@@ -101,6 +115,8 @@
 		"exportFailedBody": "Não foi possível exportar seus dados agora. Tente novamente.",
 		"exportFailedTitle": "Falha ao exportar",
 		"exportMyData": "Exportar meus dados",
+		"exportReady": "",
+		"exportSubject": "",
 		"title": "Seus dados"
 	},
 	"desktop": {
@@ -208,6 +224,7 @@
 	"import": {
 		"body": "",
 		"chooseFile": "",
+		"empty": "",
 		"errors": {
 			"internal": "",
 			"interrupted": "",
@@ -217,6 +234,7 @@
 		"hint": "",
 		"progress": "",
 		"sourceAuto": "",
+		"startInBrowser": "",
 		"status": {
 			"done": "Concluído",
 			"failed": "Falhou",
@@ -246,6 +264,9 @@
 		"title": ""
 	},
 	"plan": {
+		"current": "",
+		"includes": "",
+		"opensInBrowser": "",
 		"selfHosted": "",
 		"title": ""
 	},
@@ -258,6 +279,8 @@
 			"desc": "Sobrepõe e mistura o fim de cada faixa com a próxima. Medido em segundos.",
 			"label": ""
 		},
+		"crossfadeSeconds": "",
+		"equalizerDesc": "",
 		"normalize": {
 			"desc": "Equilibra o volume entre as faixas (ReplayGain).",
 			"label": "Normalizar volume"
@@ -292,6 +315,7 @@
 				"label": "Origem"
 			}
 		},
+		"storageDesc": "",
 		"streamingQuality": "Qualidade do streaming",
 		"title": "Reprodução"
 	},
@@ -401,6 +425,16 @@
 			"zoneWithOffset": ""
 		},
 		"title": "Região"
+	},
+	"sections": {
+		"account": "",
+		"appearance": "",
+		"connections": "",
+		"data": "",
+		"plan": "",
+		"playback": "",
+		"privacy": "",
+		"security": ""
 	},
 	"security": {
 		"password": {
