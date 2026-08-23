@@ -71,9 +71,11 @@
 		}
 	},
 	"block": {
+		"blockedHeading": "",
 		"confirmLabel": "Blockieren",
 		"confirmMessage": "@{handle} blockieren? Sie können sich dann nicht mehr gegenseitig als Freunde hinzufügen.",
-		"confirmTitle": "Benutzer blockieren"
+		"confirmTitle": "Benutzer blockieren",
+		"unblock": ""
 	},
 	"discovery": {
 		"addFriend": "Freund hinzufügen",
@@ -114,6 +116,7 @@
 		"empty": "Noch keine Freunde – suchen Sie nach Personen zum Hinzufügen",
 		"heading": "Freunde ({count})",
 		"removing": "Wird entfernt…",
+		"requestByHandle": "",
 		"title": "Freunde"
 	},
 	"modMenu": {
@@ -169,7 +172,9 @@
 	"requests": {
 		"accept": "Annehmen",
 		"accepting": "Wird angenommen…",
-		"pendingHeading": "Ausstehende Anfragen ({count})"
+		"cancel": "",
+		"pendingHeading": "Ausstehende Anfragen ({count})",
+		"sentHeading": ""
 	},
 	"search": {
 		"noResults": "Keine Benutzer gefunden.",
