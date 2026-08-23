@@ -7,6 +7,9 @@
 		"play": "Abspielen",
 		"previous": "Zurück",
 		"repeat": "Wiederholen",
+		"repeatAll": "",
+		"repeatOff": "",
+		"repeatOne": "",
 		"seek": "Wiedergabeposition",
 		"shuffle": "Zufallswiedergabe",
 		"unmute": "Stummschaltung aufheben",
@@ -16,8 +19,13 @@
 	},
 	"devices": {
 		"current": "Aktuelles Ziel",
+		"mobileApp": "",
 		"none": "Keine Wiedergabegeräte gefunden.",
+		"offline": "",
+		"playHere": "",
+		"playingOn": "",
 		"pressPlay": "Drücken Sie Play, um hier zu starten",
+		"thisDevice": "Dieses Gerät",
 		"thisTab": "Dieser Tab",
 		"title": "Wiedergabegerät",
 		"unreachable": ""
@@ -43,6 +51,7 @@
 		"bandWidth": "Breite von Band {n} (Q)",
 		"close": "Equalizer schließen",
 		"deletePreset": "{name} löschen",
+		"deviceApproximation": "",
 		"dragHint": "Ziehen Sie einen Knoten, um die Kurve zu formen",
 		"dragHintParametric": " · seitwärts ziehen für die Frequenz · scrollen für die Breite (Q)",
 		"enable": "Equalizer aktivieren",
@@ -51,6 +60,7 @@
 			"ariaLabel": "Frequenzgang des Equalizers – ziehen Sie die Bandknoten, um den Klang zu formen",
 			"title": "Frequenzgangkurve des Equalizers"
 		},
+		"notApplied": "",
 		"parametric": "Parametrisch",
 		"preamp": "Vorverstärker",
 		"preampDisplay": "",
@@ -85,6 +95,9 @@
 	"monthlyListeners": "{count, plural, one {# monatlicher Hörer} other {# monatliche Hörer}}",
 	"notPlaying": "Keine Wiedergabe",
 	"nothingPlaying": "Es wird noch nichts abgespielt.",
+	"notification": {
+		"channelName": "Wiedergabe"
+	},
 	"nowPlaying": {
 		"aboutArtist": "Über {name}",
 		"albumFallback": "",
@@ -99,6 +112,7 @@
 		"change": "Ändern",
 		"dataPerHourGb": "~{value} GB/Stunde",
 		"dataPerHourMb": "~{value} MB/Stunde",
+		"fixedLocal": "",
 		"khz": "",
 		"lossless": "Verlustfrei",
 		"lossy": "Verlustbehaftet",
@@ -116,7 +130,8 @@
 		"spatialOnly": "",
 		"streamingRate": "~{kbps} kbit/s · {data}",
 		"title": "Dateiqualität",
-		"upTo": "Bis zu {value}"
+		"upTo": "Bis zu {value}",
+		"yourSetting": ""
 	},
 	"queue": {
 		"add": "Zur Warteschlange hinzufügen",
