@@ -2,6 +2,9 @@
 	"dailyMix": {
 		"label": "Mix du jour"
 	},
+	"friends": {
+		"nowPlaying": ""
+	},
 	"greeting": {
 		"afternoon": "Bon après-midi",
 		"evening": "Bonsoir",
