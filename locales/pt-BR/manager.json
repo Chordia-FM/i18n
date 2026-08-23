@@ -2,7 +2,6 @@
 	"album": {
 		"coverage": "{owned} de {total} faixas",
 		"disc": "Disco {n}",
-		"downloadEdition": "Baixar versão",
 		"editionCount": "{count, plural, one {# edição} other {# edições}}",
 		"fetching": "buscando a lista de faixas…",
 		"loadFailed": "Não foi possível carregar a lista de faixas deste álbum.",
@@ -60,18 +59,6 @@
 		},
 		"openIn": ""
 	},
-	"download": {
-		"ackConfirm": "Entendi",
-		"ackMessage": "O Chordia não inclui indexadores nem trackers. Os downloads usam o Prowlarr e o qBittorrent que você configurou, e você é responsável pela legalidade do que adquirir na sua jurisdição.",
-		"ackTitle": "Antes de baixar",
-		"button": "Baixar",
-		"chooseLibrary": "Baixar em…",
-		"failed": "Não foi possível colocar o download na fila",
-		"noLibrary": "Ainda não há biblioteca com download ativado. Configure antes o Prowlarr + qBittorrent em uma biblioteca.",
-		"notEnabled": "Os downloads não estão ativados nessa biblioteca.",
-		"queued": "Adicionado à fila de downloads",
-		"viewQueue": ""
-	},
 	"follow": {
 		"follow": "Seguir",
 		"following": "Seguindo"
@@ -93,72 +80,11 @@
 	},
 	"loadFailed": "Não foi possível carregar a cobertura.",
 	"nav": "Gerenciador",
-	"queue": {
-		"cancel": "Cancelar",
-		"choose": "Escolher fonte",
-		"empty": "Ainda não há downloads. Toque em Baixar em um álbum que falta para começar.",
-		"intoLibrary": "na biblioteca de @{handle}",
-		"loadFailed": "Não foi possível carregar seus downloads.",
-		"pickHint": "Não tivemos certeza de qual lançamento é exatamente este álbum, então escolha o certo.",
-		"requestedBy": "pedido por @{handle}",
-		"retry": "Tentar novamente",
-		"selectFailed": "",
-		"status": {
-			"awaiting_selection": "Escolha uma fonte",
-			"cancelled": "",
-			"claimed": "Iniciando",
-			"completed": "Concluído",
-			"downloading": "Baixando",
-			"failed": "Falhou",
-			"grabbing": "Obtendo",
-			"importing": "Importando",
-			"no_results": "Nenhuma fonte encontrada",
-			"queued": "Na fila",
-			"searching": "Buscando"
-		},
-		"subtitle": "Sua atividade de downloads.",
-		"title": ""
-	},
-	"settings": {
-		"created": "Perfil salvo",
-		"default": "Padrão",
-		"delete": "Excluir",
-		"destinationAsk": "Perguntar sempre",
-		"destinationHelp": "Onde os novos pedidos de download vão parar. As bibliotecas dos amigos aparecem aqui quando eles te dão permissão para pedir.",
-		"destinationSaved": "Destino padrão salvo.",
-		"destinationTitle": "Destino dos downloads",
-		"disabled": "Downloads desativados",
-		"enabled": "Downloads ativados",
-		"formats": "Formatos permitidos (melhor primeiro)",
-		"indexers": "{count} indexadores",
-		"libraries": "Status de download das bibliotecas",
-		"librariesHint": "Ative os downloads configurando Prowlarr + qBittorrent no arquivo chordia-library.toml de cada biblioteca.",
-		"makeDefault": "Tornar padrão",
-		"maxSize": "Tamanho máximo (MB, opcional)",
-		"name": "Nome",
-		"newProfile": "Novo perfil",
-		"preferSeeders": "Preferir mais seeders",
-		"profiles": "Perfis de qualidade",
-		"profilesHint": "Os downloads sempre escolhem a melhor fonte disponível dentro dos formatos permitidos pelo perfil.",
-		"save": "Salvar",
-		"saveFailed": "Não foi possível salvar o perfil",
-		"subtitle": "Perfis de qualidade e status de download por biblioteca.",
-		"title": "Configurações do Gerenciador"
-	},
 	"subtitle": "Acompanhe sua cobertura e descubra o que está faltando.",
 	"tabs": {
 		"coverage": "Cobertura",
 		"discover": "Descobrir",
-		"downloads": "",
-		"follows": "Seguindo",
-		"settings": "Configurações"
+		"follows": "Seguindo"
 	},
-	"title": "Gerenciador de biblioteca",
-	"upgrade": {
-		"check": "Buscar qualidade melhor",
-		"failed": "Não foi possível colocar a busca por qualidade na fila.",
-		"inProgress": "Já há uma busca por qualidade ou um download deste álbum em andamento.",
-		"notIdentified": "Este álbum ainda não tem correspondência no MusicBrainz, então não há nada confiável para buscar.",
-		"queued": ""
-	}
+	"title": "Gerenciador de biblioteca"
 }
