@@ -7,6 +7,9 @@
 		"play": "再生",
 		"previous": "前へ",
 		"repeat": "リピート",
+		"repeatAll": "",
+		"repeatOff": "",
+		"repeatOne": "",
 		"seek": "シーク",
 		"shuffle": "シャッフル",
 		"unmute": "ミュート解除",
@@ -16,8 +19,13 @@
 	},
 	"devices": {
 		"current": "現在の出力先",
+		"mobileApp": "",
 		"none": "再生デバイスが見つかりません。",
+		"offline": "",
+		"playHere": "",
+		"playingOn": "",
 		"pressPlay": "再生を押すとここで再生します",
+		"thisDevice": "このデバイス",
 		"thisTab": "このタブ",
 		"title": "再生デバイス",
 		"unreachable": ""
@@ -43,6 +51,7 @@
 		"bandWidth": "バンド{n}の幅（Q）",
 		"close": "イコライザーを閉じる",
 		"deletePreset": "{name}を削除",
+		"deviceApproximation": "",
 		"dragHint": "ノードをドラッグしてカーブを調整",
 		"dragHintParametric": " · 左右ドラッグで周波数 · スクロールで幅（Q）",
 		"enable": "イコライザーを有効化",
@@ -51,6 +60,7 @@
 			"ariaLabel": "イコライザーの応答。バンドのノードをドラッグして音を調整します",
 			"title": "イコライザー応答カーブ"
 		},
+		"notApplied": "",
 		"parametric": "パラメトリック",
 		"preamp": "プリアンプ",
 		"preampDisplay": "",
@@ -85,6 +95,9 @@
 	"monthlyListeners": "{count, plural, other {月間リスナー#人}}",
 	"notPlaying": "停止中",
 	"nothingPlaying": "まだ何も再生していません。",
+	"notification": {
+		"channelName": "再生"
+	},
 	"nowPlaying": {
 		"aboutArtist": "{name}について",
 		"albumFallback": "アルバム",
@@ -99,6 +112,7 @@
 		"change": "変更",
 		"dataPerHourGb": "約{value} GB/時",
 		"dataPerHourMb": "約{value} MB/時",
+		"fixedLocal": "",
 		"khz": "",
 		"lossless": "ロスレス",
 		"lossy": "非可逆",
@@ -116,7 +130,8 @@
 		"spatialOnly": "",
 		"streamingRate": "約{kbps} kbps · {data}",
 		"title": "ファイル品質",
-		"upTo": "最大{value}"
+		"upTo": "最大{value}",
+		"yourSetting": ""
 	},
 	"queue": {
 		"add": "キューに追加",
