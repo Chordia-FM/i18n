@@ -7,6 +7,9 @@
 		"play": "재생",
 		"previous": "이전",
 		"repeat": "반복",
+		"repeatAll": "",
+		"repeatOff": "",
+		"repeatOne": "",
 		"seek": "탐색",
 		"shuffle": "셔플",
 		"unmute": "음소거 해제",
@@ -16,8 +19,13 @@
 	},
 	"devices": {
 		"current": "현재 대상",
+		"mobileApp": "",
 		"none": "재생 기기를 찾을 수 없습니다.",
+		"offline": "",
+		"playHere": "",
+		"playingOn": "",
 		"pressPlay": "재생을 누르면 여기서 시작합니다",
+		"thisDevice": "이 기기",
 		"thisTab": "현재 탭",
 		"title": "재생 기기",
 		"unreachable": ""
@@ -43,6 +51,7 @@
 		"bandWidth": "{n}번 대역 폭(Q)",
 		"close": "이퀄라이저 닫기",
 		"deletePreset": "{name} 삭제",
+		"deviceApproximation": "",
 		"dragHint": "노드를 드래그해 곡선을 조절하세요",
 		"dragHintParametric": " · 좌우 드래그로 주파수 · 스크롤로 대역폭(Q)",
 		"enable": "이퀄라이저 사용",
@@ -51,6 +60,7 @@
 			"ariaLabel": "이퀄라이저 응답 - 대역 노드를 드래그해 소리를 조절하세요",
 			"title": "이퀄라이저 응답 곡선"
 		},
+		"notApplied": "",
 		"parametric": "파라메트릭",
 		"preamp": "프리앰프",
 		"preampDisplay": "",
@@ -85,6 +95,9 @@
 	"monthlyListeners": "{count, plural, other {월간 청취자 #명}}",
 	"notPlaying": "재생 중 아님",
 	"nothingPlaying": "아직 재생 중인 항목이 없습니다.",
+	"notification": {
+		"channelName": "재생"
+	},
 	"nowPlaying": {
 		"aboutArtist": "{name} 정보",
 		"albumFallback": "앨범",
@@ -99,6 +112,7 @@
 		"change": "변경",
 		"dataPerHourGb": "시간당 약 {value} GB",
 		"dataPerHourMb": "시간당 약 {value} MB",
+		"fixedLocal": "",
 		"khz": "",
 		"lossless": "무손실",
 		"lossy": "손실 압축",
@@ -116,7 +130,8 @@
 		"spatialOnly": "",
 		"streamingRate": "",
 		"title": "파일 품질",
-		"upTo": "최대 {value}"
+		"upTo": "최대 {value}",
+		"yourSetting": ""
 	},
 	"queue": {
 		"add": "대기열에 추가",
