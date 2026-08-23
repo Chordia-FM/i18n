@@ -5,12 +5,15 @@
 		"changeEmailBody": "",
 		"changeEmailTitle": "",
 		"changePhoto": "",
+		"deleteTypeHandle": "",
 		"displayName": "Nom affiché",
 		"emailChangeSent": "Un lien de confirmation vous attend dans votre nouvelle boîte de réception.",
 		"emailTitle": "E-mail",
 		"handle": "Identifiant",
 		"handleHint": "Lettres, chiffres, « _ » et « - ». Doit être unique.",
 		"handlePlaceholder": "votrenom",
+		"leaveDesc": "",
+		"leaveTitle": "",
 		"newEmailPlaceholder": "",
 		"noEmail": "",
 		"pendingChange": "",
@@ -20,6 +23,7 @@
 		"resendVerification": "Renvoyer l'e-mail de vérification",
 		"saveProfile": "Enregistrer le profil",
 		"sendConfirmation": "Envoyer la confirmation",
+		"signOutConfirm": "",
 		"title": "Compte",
 		"unverified": "",
 		"verificationSent": "",
@@ -28,6 +32,7 @@
 	"appearance": {
 		"accentColour": "",
 		"accentHexAria": "Code hexadécimal de l'accentuation",
+		"accentProfileHint": "",
 		"accents": {
 			"amber": "",
 			"blue": "",
@@ -45,6 +50,7 @@
 		"customAccentAria": "",
 		"customColour": "",
 		"customColourHint": "",
+		"languageHint": "",
 		"mode": {
 			"artwork": "Illustration",
 			"artworkHint": "",
@@ -78,6 +84,12 @@
 		"title": "Apparence"
 	},
 	"connections": {
+		"discord": {
+			"desc": "",
+			"label": "",
+			"linked": "",
+			"notLinked": ""
+		},
 		"lastfm": {
 			"connect": "Connecter",
 			"connectedAs": "Connecté en tant que {username}",
@@ -87,8 +99,10 @@
 			"disconnect": "Déconnecter",
 			"disconnected": "Last.fm déconnecté",
 			"failed": "Impossible de connecter Last.fm",
-			"label": ""
+			"label": "",
+			"opensBrowser": ""
 		},
+		"refresh": "Actualiser",
 		"title": "Connexions"
 	},
 	"data": {
@@ -101,6 +115,8 @@
 		"exportFailedBody": "Impossible d'exporter vos données pour le moment. Veuillez réessayer.",
 		"exportFailedTitle": "Échec de l'export",
 		"exportMyData": "Exporter mes données",
+		"exportReady": "",
+		"exportSubject": "",
 		"title": "Vos données"
 	},
 	"desktop": {
@@ -208,6 +224,7 @@
 	"import": {
 		"body": "",
 		"chooseFile": "",
+		"empty": "",
 		"errors": {
 			"internal": "",
 			"interrupted": "",
@@ -217,6 +234,7 @@
 		"hint": "",
 		"progress": "",
 		"sourceAuto": "",
+		"startInBrowser": "",
 		"status": {
 			"done": "Terminé",
 			"failed": "Échec",
@@ -246,6 +264,9 @@
 		"title": ""
 	},
 	"plan": {
+		"current": "",
+		"includes": "",
+		"opensInBrowser": "",
 		"selfHosted": "",
 		"title": ""
 	},
@@ -258,6 +279,8 @@
 			"desc": "Superposez et fondez la fin de chaque morceau dans le suivant. Exprimé en secondes.",
 			"label": "Fondu enchaîné"
 		},
+		"crossfadeSeconds": "",
+		"equalizerDesc": "",
 		"normalize": {
 			"desc": "Uniformisez le volume entre les morceaux (ReplayGain).",
 			"label": "Normaliser le volume"
@@ -292,6 +315,7 @@
 				"label": ""
 			}
 		},
+		"storageDesc": "",
 		"streamingQuality": "Qualité de streaming",
 		"title": "Lecture"
 	},
@@ -401,6 +425,16 @@
 			"zoneWithOffset": ""
 		},
 		"title": "Région"
+	},
+	"sections": {
+		"account": "",
+		"appearance": "",
+		"connections": "",
+		"data": "",
+		"plan": "",
+		"playback": "",
+		"privacy": "",
+		"security": ""
 	},
 	"security": {
 		"password": {
