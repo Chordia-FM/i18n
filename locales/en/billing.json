@@ -32,6 +32,9 @@
 			"locked": "Let your accent fade through colors, follow the artwork, or drift through the spectrum.",
 			"name": "Living accent colors"
 		},
+		"history_import": {
+			"locked": "Bring your plays over from Spotify or Last.fm and keep the history you already have."
+		},
 		"libraries": {
 			"name": "Your own libraries"
 		},
