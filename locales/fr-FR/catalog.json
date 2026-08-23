@@ -23,6 +23,7 @@
 		"durationMin": "",
 		"genresJoin": "",
 		"goToRadio": "Aller à la radio de l’artiste",
+		"noTracks": "",
 		"releaseDate": "",
 		"songCount": "{count, plural, one {# chanson} other {# chansons}}",
 		"typesJoin": ""
@@ -139,6 +140,7 @@
 		"title": "",
 		"topAlbums": "",
 		"topArtists": "Top artistes",
+		"topTracks": "Top morceaux",
 		"variants": "Autres appellations : {list}"
 	},
 	"label": {
@@ -212,7 +214,9 @@
 	"section": {
 		"albums": "",
 		"artists": "Artistes",
+		"genres": "",
 		"labels": "",
+		"playlists": "",
 		"songs": "Chansons",
 		"tracks": "Morceaux"
 	},
@@ -232,9 +236,15 @@
 			"removed": "Téléchargement supprimé",
 			"savedNamed": "{title} téléchargé"
 		},
+		"details": "",
 		"explicit": "Explicite",
+		"explicitShort": "",
+		"hubPlays": "",
+		"length": "",
+		"number": "",
 		"playAria": "Lire {title} par {artist}",
 		"playsNumber": "",
+		"rank": "",
 		"relTime": {
 			"daysAgo": "{count, plural, one {il y a # jour} other {il y a # jours}}",
 			"fullDate": "",
