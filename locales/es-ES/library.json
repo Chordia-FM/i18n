@@ -20,17 +20,52 @@
 		"trackCount": "{count, plural, one {# pista} other {# pistas}}"
 	},
 	"downloads": {
+		"action": {
+			"cancel": "",
+			"download": "Descargar",
+			"downloadAlbum": "Descargar álbum",
+			"downloadPlaylist": "",
+			"manage": "",
+			"pause": "Pausar",
+			"remove": "Quitar descarga",
+			"resume": "",
+			"retry": "Reintentar"
+		},
 		"clearConfirm": {
 			"message": "¿Quitar de este dispositivo todas las canciones descargadas?",
 			"title": "Borrar descargas"
 		},
 		"clearError": "No se pudieron borrar las descargas",
 		"emptyState": "Las canciones que descargues se reproducen sin conexión. Usa la acción Descargar en cualquier pista para guardarla aquí.",
+		"error": {
+			"cap": "",
+			"incomplete": "",
+			"offline": "",
+			"server": "",
+			"storage": "",
+			"unknown": ""
+		},
 		"eyebrow": "Disponible sin conexión",
 		"navLabel": "Descargas",
+		"queue": {
+			"empty": "",
+			"paused": "",
+			"progress": "",
+			"queued": "",
+			"title": "Descargando"
+		},
 		"removeError": "No se pudo quitar la descarga",
 		"removeTooltip": "Quitar descarga",
 		"songCount": "{count, plural, one {# canción} other {# canciones}}",
+		"storage": {
+			"cap": "",
+			"capUnlimited": "",
+			"clear": "",
+			"full": "",
+			"title": "",
+			"used": "",
+			"usedNoCap": ""
+		},
 		"stats": {
 			"artistCount": "{count, plural, one {# canción} other {# canciones}}",
 			"bitrate": "",
@@ -47,6 +82,15 @@
 			"songs": "Canciones",
 			"title": "",
 			"unknownQuota": ""
+		},
+		"toast": {
+			"cleared": "",
+			"existing": "",
+			"inUse": "",
+			"queued": "",
+			"refused": "",
+			"removed": "",
+			"skipped": ""
 		},
 		"storedOnDevice": "guardadas en este dispositivo",
 		"title": "Descargas"
@@ -162,10 +206,27 @@
 		"serverOnline": "",
 		"serverSummary": ""
 	},
+	"manage": {
+		"title": "",
+		"nameLabel": "Nombre de la biblioteca",
+		"contents": "",
+		"countTracks": "Pistas",
+		"countAlbums": "Álbumes",
+		"countArtists": "Artistas",
+		"countsUnavailable": "",
+		"serverSection": "",
+		"sharingSection": "",
+		"overridesSection": "Metadatos",
+		"openOverrides": "",
+		"notOwner": ""
+	},
 	"metadata": {
 		"intro": "Edita los metadatos solo de esta biblioteca. Tus cambios se aplican en todas tus vistas; lo que dejes en blanco conserva el valor original. Las ediciones globales del catálogo están en la página de administración.",
 		"noMatches": "Sin coincidencias.",
 		"overrides": {
+			"applyToCatalog": "",
+			"applyToCatalogHint": "",
+			"editTitle": "",
 			"field": {
 				"album": "Álbum",
 				"album_type": "Tipo",
@@ -183,6 +244,7 @@
 				"track_no": "",
 				"year": "Año"
 			},
+			"inherited": "",
 			"kind": {
 				"album": "Álbum",
 				"artist": "Artista",
@@ -193,6 +255,8 @@
 			"reset": "Restablecer",
 			"resetConfirm": "",
 			"resetDone": "",
+			"saveFailed": "",
+			"saved": "",
 			"title": "",
 			"wasCalled": ""
 		},
@@ -222,6 +286,36 @@
 		"dialogTitle": "",
 		"notPairedHere": "",
 		"sandboxNote": ""
+	},
+	"pairing": {
+		"title": "",
+		"intro": "",
+		"stepStartTitle": "",
+		"stepStartBody": "",
+		"stepLinkTitle": "",
+		"stepLinkBody": "",
+		"linkLabel": "",
+		"linkInvalid": "",
+		"connect": "Conectar",
+		"checkingTitle": "",
+		"checkingBody": "",
+		"trustTitle": "",
+		"trustBody": "",
+		"trustFingerprint": "",
+		"trustConfirm": "",
+		"claimingTitle": "",
+		"claimingBody": "",
+		"ticketExpired": "",
+		"nameTitle": "",
+		"nameBody": "",
+		"namePlaceholder": "Mi música",
+		"registering": "",
+		"doneTitle": "",
+		"doneBody": "",
+		"doneAction": "",
+		"unreachable": "",
+		"refused": "",
+		"startOver": ""
 	},
 	"pin": {
 		"pin": "Fijar",
@@ -288,13 +382,12 @@
 		"empty": "Aún no la compartes con nadie. Añade abajo a un amigo para darle acceso.",
 		"addFriend": "Añadir amigo",
 		"revoke": "Quitar acceso",
-		"canRequest": "Puede solicitar descargas",
 		"directories": "Bibliotecas:",
 		"thisLibrary": "Esta biblioteca",
 		"grantAccess": "Dar acceso a {name}",
 		"removeAccess": "Quitar el acceso de {name}",
 		"streamingNow": "",
-		"statsLine": "{requests} solicitadas · {downloads} descargadas · {plays} reproducciones · {time} escuchado",
+		"statsLine": "",
 		"lastPlayed": "última reproducción {date}",
 		"updateFailed": "",
 		"timeDaysHours": "",
