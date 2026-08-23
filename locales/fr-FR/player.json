@@ -7,6 +7,9 @@
 		"play": "Lire",
 		"previous": "Précédent",
 		"repeat": "Répéter",
+		"repeatAll": "",
+		"repeatOff": "",
+		"repeatOne": "",
 		"seek": "Position de lecture",
 		"shuffle": "Aléatoire",
 		"unmute": "Activer le son",
@@ -16,8 +19,13 @@
 	},
 	"devices": {
 		"current": "Sortie actuelle",
+		"mobileApp": "",
 		"none": "Aucun périphérique de lecture trouvé.",
+		"offline": "",
+		"playHere": "",
+		"playingOn": "",
 		"pressPlay": "Lancez la lecture pour commencer ici",
+		"thisDevice": "Cet appareil",
 		"thisTab": "Cet onglet",
 		"title": "Périphérique de lecture",
 		"unreachable": ""
@@ -43,6 +51,7 @@
 		"bandWidth": "Largeur de la bande {n} (Q)",
 		"close": "Fermer l'égaliseur",
 		"deletePreset": "Supprimer {name}",
+		"deviceApproximation": "",
 		"dragHint": "Faites glisser un nœud pour modeler la courbe",
 		"dragHintParametric": " · glissez latéralement pour la fréquence · faites défiler pour la largeur (Q)",
 		"enable": "Activer l'égaliseur",
@@ -51,6 +60,7 @@
 			"ariaLabel": "Réponse de l'égaliseur — faites glisser les nœuds des bandes pour modeler le son",
 			"title": "Courbe de réponse de l'égaliseur"
 		},
+		"notApplied": "",
 		"parametric": "Paramétrique",
 		"preamp": "Préampli",
 		"preampDisplay": "",
@@ -85,6 +95,9 @@
 	"monthlyListeners": "{count, plural, one {# auditeur mensuel} other {# auditeurs mensuels}}",
 	"notPlaying": "Aucune lecture",
 	"nothingPlaying": "Aucune lecture pour l'instant.",
+	"notification": {
+		"channelName": "Lecture"
+	},
 	"nowPlaying": {
 		"aboutArtist": "À propos de {name}",
 		"albumFallback": "",
@@ -99,6 +112,7 @@
 		"change": "Modifier",
 		"dataPerHourGb": "~{value} Go/heure",
 		"dataPerHourMb": "~{value} Mo/heure",
+		"fixedLocal": "",
 		"khz": "",
 		"lossless": "Sans perte",
 		"lossy": "Avec perte",
@@ -116,7 +130,8 @@
 		"spatialOnly": "",
 		"streamingRate": "~{kbps} kbit/s · {data}",
 		"title": "Qualité du fichier",
-		"upTo": "Jusqu'à {value}"
+		"upTo": "Jusqu'à {value}",
+		"yourSetting": ""
 	},
 	"queue": {
 		"add": "Ajouter à la file d'attente",
