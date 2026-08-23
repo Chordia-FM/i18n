@@ -5,12 +5,15 @@
 		"changeEmailBody": "",
 		"changeEmailTitle": "",
 		"changePhoto": "",
+		"deleteTypeHandle": "",
 		"displayName": "表示名",
 		"emailChangeSent": "新しいメールアドレスの受信箱で確認リンクをご確認ください。",
 		"emailTitle": "メールアドレス",
 		"handle": "ハンドル",
 		"handleHint": "英字、数字、「_」「-」が使用できます。他のユーザーと重複できません。",
 		"handlePlaceholder": "",
+		"leaveDesc": "",
+		"leaveTitle": "",
 		"newEmailPlaceholder": "",
 		"noEmail": "",
 		"pendingChange": "",
@@ -20,6 +23,7 @@
 		"resendVerification": "確認メールを再送信",
 		"saveProfile": "プロフィールを保存",
 		"sendConfirmation": "確認メールを送信",
+		"signOutConfirm": "",
 		"title": "アカウント",
 		"unverified": "",
 		"verificationSent": "",
@@ -28,6 +32,7 @@
 	"appearance": {
 		"accentColour": "",
 		"accentHexAria": "アクセントカラーの16進コード",
+		"accentProfileHint": "",
 		"accents": {
 			"amber": "",
 			"blue": "",
@@ -45,6 +50,7 @@
 		"customAccentAria": "",
 		"customColour": "",
 		"customColourHint": "",
+		"languageHint": "",
 		"mode": {
 			"artwork": "アートワーク",
 			"artworkHint": "",
@@ -78,6 +84,12 @@
 		"title": "外観"
 	},
 	"connections": {
+		"discord": {
+			"desc": "",
+			"label": "",
+			"linked": "",
+			"notLinked": ""
+		},
 		"lastfm": {
 			"connect": "連携する",
 			"connectedAs": "{username}として連携中",
@@ -87,8 +99,10 @@
 			"disconnect": "連携を解除",
 			"disconnected": "Last.fmの連携を解除しました",
 			"failed": "Last.fmに連携できませんでした",
-			"label": ""
+			"label": "",
+			"opensBrowser": ""
 		},
+		"refresh": "更新",
 		"title": "連携"
 	},
 	"data": {
@@ -101,6 +115,8 @@
 		"exportFailedBody": "現在データをエクスポートできません。もう一度お試しください。",
 		"exportFailedTitle": "エクスポートに失敗しました",
 		"exportMyData": "データをエクスポート",
+		"exportReady": "",
+		"exportSubject": "",
 		"title": "あなたのデータ"
 	},
 	"desktop": {
@@ -208,6 +224,7 @@
 	"import": {
 		"body": "",
 		"chooseFile": "",
+		"empty": "",
 		"errors": {
 			"internal": "",
 			"interrupted": "",
@@ -217,6 +234,7 @@
 		"hint": "",
 		"progress": "",
 		"sourceAuto": "",
+		"startInBrowser": "",
 		"status": {
 			"done": "完了",
 			"failed": "失敗",
@@ -246,6 +264,9 @@
 		"title": ""
 	},
 	"plan": {
+		"current": "",
+		"includes": "",
+		"opensInBrowser": "",
 		"selfHosted": "",
 		"title": ""
 	},
@@ -258,6 +279,8 @@
 			"desc": "各トラックの終わりを次の曲と重ねて、なめらかにつなぎます。単位は秒です。",
 			"label": "クロスフェード"
 		},
+		"crossfadeSeconds": "",
+		"equalizerDesc": "",
 		"normalize": {
 			"desc": "トラック間の音量を均一にします（ReplayGain）。",
 			"label": "音量を正規化"
@@ -292,6 +315,7 @@
 				"label": "ソース"
 			}
 		},
+		"storageDesc": "",
 		"streamingQuality": "ストリーミング品質",
 		"title": "再生"
 	},
@@ -401,6 +425,16 @@
 			"zoneWithOffset": "{zone}（{offset}）"
 		},
 		"title": "地域"
+	},
+	"sections": {
+		"account": "",
+		"appearance": "",
+		"connections": "",
+		"data": "",
+		"plan": "",
+		"playback": "",
+		"privacy": "",
+		"security": ""
 	},
 	"security": {
 		"password": {
