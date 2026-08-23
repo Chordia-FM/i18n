@@ -71,9 +71,11 @@
 		}
 	},
 	"block": {
+		"blockedHeading": "",
 		"confirmLabel": "ブロック",
 		"confirmMessage": "@{handle}をブロックしますか？お互いにフレンド追加ができなくなります。",
-		"confirmTitle": "ユーザーをブロック"
+		"confirmTitle": "ユーザーをブロック",
+		"unblock": ""
 	},
 	"discovery": {
 		"addFriend": "フレンドを追加",
@@ -114,6 +116,7 @@
 		"empty": "まだフレンドがいません。検索して追加しましょう",
 		"heading": "フレンド（{count}）",
 		"removing": "削除中…",
+		"requestByHandle": "",
 		"title": "フレンド"
 	},
 	"modMenu": {
@@ -169,7 +172,9 @@
 	"requests": {
 		"accept": "承認",
 		"accepting": "承認中…",
-		"pendingHeading": "保留中のリクエスト（{count}）"
+		"cancel": "",
+		"pendingHeading": "保留中のリクエスト（{count}）",
+		"sentHeading": ""
 	},
 	"search": {
 		"noResults": "ユーザーが見つかりません。",
