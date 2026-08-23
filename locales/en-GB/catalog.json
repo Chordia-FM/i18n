@@ -23,6 +23,7 @@
 		"durationMin": "",
 		"genresJoin": "",
 		"goToRadio": "",
+		"noTracks": "",
 		"releaseDate": "",
 		"songCount": "",
 		"typesJoin": ""
@@ -139,6 +140,7 @@
 		"title": "",
 		"topAlbums": "",
 		"topArtists": "",
+		"topTracks": "",
 		"variants": ""
 	},
 	"label": {
@@ -212,7 +214,9 @@
 	"section": {
 		"albums": "",
 		"artists": "",
+		"genres": "",
 		"labels": "",
+		"playlists": "",
 		"songs": "",
 		"tracks": ""
 	},
@@ -232,9 +236,15 @@
 			"removed": "",
 			"savedNamed": ""
 		},
+		"details": "",
 		"explicit": "",
+		"explicitShort": "",
+		"hubPlays": "",
+		"length": "",
+		"number": "",
 		"playAria": "",
 		"playsNumber": "",
+		"rank": "",
 		"relTime": {
 			"daysAgo": "",
 			"fullDate": "",
