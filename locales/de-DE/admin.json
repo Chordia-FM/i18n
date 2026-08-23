@@ -104,6 +104,16 @@
 		"translatorPlaceholder": "",
 		"translatorHint": ""
 	},
+	"content": {
+		"albums": "Alben",
+		"artists": "Künstler",
+		"description": "",
+		"empty": ""
+	},
+	"desktopOnly": {
+		"body": "",
+		"title": ""
+	},
 	"editCatalog": {
 		"title": "Katalogmetadaten bearbeiten"
 	},
@@ -185,6 +195,7 @@
 	"noAccess": {
 		"backToApp": "Zurück zur App",
 		"body": "Sie haben keinen Zugriff auf die Site-Administration. {link}.",
+		"plainBody": "",
 		"title": ""
 	},
 	"overview": {
@@ -261,6 +272,9 @@
 		"dismiss": "Verwerfen",
 		"empty": "Keine offenen Meldungen.",
 		"resolve": "Erledigen",
+		"statusDismissed": "",
+		"statusOpen": "Öffnen",
+		"statusResolved": "",
 		"title": "Meldungen",
 		"titleWithCount": "{count, plural, one {Meldungen (# offen)} other {Meldungen (# offen)}}"
 	},
@@ -296,29 +310,12 @@
 		"behind": "",
 		"biggestTables": "",
 		"database": "",
-		"downloadQueue": "",
 		"enrichment": "",
-		"jobStatus": {
-			"awaiting_selection": "",
-			"cancelled": "",
-			"claimed": "",
-			"completed": "Abgeschlossen",
-			"downloading": "Wird heruntergeladen",
-			"failed": "Fehlgeschlagen",
-			"grabbing": "Wird geholt",
-			"importing": "Wird importiert",
-			"no_results": "",
-			"queued": "In Warteschlange",
-			"searching": "Suche läuft"
-		},
 		"keepingUp": "",
 		"loadFailed": "",
 		"migrations": "",
 		"noRollups": "",
 		"partitions": "",
-		"queue": "",
-		"queueEmpty": "",
-		"queueJobs": "",
 		"rollupLag": "",
 		"rollupLagHelp": "",
 		"rollups": "",
@@ -406,6 +403,7 @@
 		"unsuspend": "Entsperren",
 		"user": "",
 		"verified": "",
+		"loadMore": "",
 		"noEmail": ""
 	}
 }
