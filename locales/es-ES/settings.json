@@ -5,12 +5,15 @@
 		"changeEmailBody": "",
 		"changeEmailTitle": "",
 		"changePhoto": "",
+		"deleteTypeHandle": "",
 		"displayName": "Nombre visible",
 		"emailChangeSent": "Revisa tu nueva bandeja de entrada: ahí tienes el enlace de confirmación.",
 		"emailTitle": "Correo",
 		"handle": "Usuario",
 		"handleHint": "Letras, números, “_” y “-”. Debe ser único.",
 		"handlePlaceholder": "tunombre",
+		"leaveDesc": "",
+		"leaveTitle": "",
 		"newEmailPlaceholder": "",
 		"noEmail": "",
 		"pendingChange": "",
@@ -20,6 +23,7 @@
 		"resendVerification": "Reenviar el correo de verificación",
 		"saveProfile": "Guardar perfil",
 		"sendConfirmation": "Enviar confirmación",
+		"signOutConfirm": "",
 		"title": "Cuenta",
 		"unverified": "",
 		"verificationSent": "",
@@ -28,6 +32,7 @@
 	"appearance": {
 		"accentColour": "",
 		"accentHexAria": "Hexadecimal del acento",
+		"accentProfileHint": "",
 		"accents": {
 			"amber": "",
 			"blue": "",
@@ -45,6 +50,7 @@
 		"customAccentAria": "",
 		"customColour": "",
 		"customColourHint": "",
+		"languageHint": "",
 		"mode": {
 			"artwork": "Imagen",
 			"artworkHint": "",
@@ -78,6 +84,12 @@
 		"title": "Apariencia"
 	},
 	"connections": {
+		"discord": {
+			"desc": "",
+			"label": "",
+			"linked": "",
+			"notLinked": ""
+		},
 		"lastfm": {
 			"connect": "Conectar",
 			"connectedAs": "Conectado como {username}",
@@ -87,8 +99,10 @@
 			"disconnect": "Desconectar",
 			"disconnected": "Last.fm desconectado",
 			"failed": "No se pudo conectar Last.fm",
-			"label": ""
+			"label": "",
+			"opensBrowser": ""
 		},
+		"refresh": "Actualizar",
 		"title": "Conexiones"
 	},
 	"data": {
@@ -101,6 +115,8 @@
 		"exportFailedBody": "No se pudieron exportar tus datos en este momento. Inténtalo de nuevo.",
 		"exportFailedTitle": "No se pudo exportar",
 		"exportMyData": "Exportar mis datos",
+		"exportReady": "",
+		"exportSubject": "",
 		"title": "Tus datos"
 	},
 	"desktop": {
@@ -208,6 +224,7 @@
 	"import": {
 		"body": "",
 		"chooseFile": "",
+		"empty": "",
 		"errors": {
 			"internal": "",
 			"interrupted": "",
@@ -217,6 +234,7 @@
 		"hint": "",
 		"progress": "",
 		"sourceAuto": "",
+		"startInBrowser": "",
 		"status": {
 			"done": "Listo",
 			"failed": "Error",
@@ -246,6 +264,9 @@
 		"title": ""
 	},
 	"plan": {
+		"current": "",
+		"includes": "",
+		"opensInBrowser": "",
 		"selfHosted": "",
 		"title": ""
 	},
@@ -258,6 +279,8 @@
 			"desc": "Superpone y funde el final de cada pista con la siguiente. Expresado en segundos.",
 			"label": "Fundido cruzado"
 		},
+		"crossfadeSeconds": "",
+		"equalizerDesc": "",
 		"normalize": {
 			"desc": "Iguala el volumen entre pistas (ReplayGain).",
 			"label": "Normalizar el volumen"
@@ -292,6 +315,7 @@
 				"label": "Fuente"
 			}
 		},
+		"storageDesc": "",
 		"streamingQuality": "Calidad de streaming",
 		"title": "Reproducción"
 	},
@@ -401,6 +425,16 @@
 			"zoneWithOffset": ""
 		},
 		"title": "Región"
+	},
+	"sections": {
+		"account": "",
+		"appearance": "",
+		"connections": "",
+		"data": "",
+		"plan": "",
+		"playback": "",
+		"privacy": "",
+		"security": ""
 	},
 	"security": {
 		"password": {
