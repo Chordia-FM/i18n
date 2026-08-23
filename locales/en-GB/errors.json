@@ -44,7 +44,11 @@
 		"albumLoadFailed": "",
 		"artistLoadFailed": "",
 		"artistNameTaken": "",
+		"genreLoadFailed": "",
+		"genresLoadFailed": "",
 		"labelLoadFailed": "",
+		"labelsLoadFailed": "",
+		"trackLoadFailed": "",
 		"unknownArtist": "",
 		"unknownImageHash": ""
 	},
