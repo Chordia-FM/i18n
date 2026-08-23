@@ -2,7 +2,6 @@
 	"album": {
 		"coverage": "全{total}曲中{owned}曲",
 		"disc": "ディスク{n}",
-		"downloadEdition": "バージョンをダウンロード",
 		"editionCount": "{count, plural, other {#種のエディション}}",
 		"fetching": "トラックリストを取得中…",
 		"loadFailed": "このアルバムのトラックリストを読み込めませんでした。",
@@ -60,18 +59,6 @@
 		},
 		"openIn": ""
 	},
-	"download": {
-		"ackConfirm": "理解しました",
-		"ackMessage": "Chordiaはインデクサーやトラッカーを同梱していません。ダウンロードはあなたが設定したProwlarrとqBittorrentを使用し、取得するものの適法性については、お住まいの法域においてあなたが責任を負います。",
-		"ackTitle": "ダウンロードの前に",
-		"button": "ダウンロード",
-		"chooseLibrary": "ダウンロード先…",
-		"failed": "ダウンロードをキューに追加できませんでした",
-		"noLibrary": "ダウンロード対応のライブラリがまだありません。先にいずれかのライブラリでProwlarrとqBittorrentを設定してください。",
-		"notEnabled": "そのライブラリではダウンロードが有効になっていません。",
-		"queued": "ダウンロードキューに追加しました",
-		"viewQueue": ""
-	},
 	"follow": {
 		"follow": "フォロー",
 		"following": "フォロー中"
@@ -93,72 +80,11 @@
 	},
 	"loadFailed": "カバー率を読み込めませんでした。",
 	"nav": "マネージャー",
-	"queue": {
-		"cancel": "キャンセル",
-		"choose": "ソースを選択",
-		"empty": "まだダウンロードはありません。未所有のアルバムでダウンロードを押して始めましょう。",
-		"intoLibrary": "@{handle}のライブラリへ",
-		"loadFailed": "ダウンロードを読み込めませんでした。",
-		"pickHint": "どのリリースが正確なアルバムか判断できなかったため、正しいものを選んでください。",
-		"requestedBy": "リクエスト: @{handle}",
-		"retry": "再試行",
-		"selectFailed": "",
-		"status": {
-			"awaiting_selection": "ソースを選択してください",
-			"cancelled": "",
-			"claimed": "開始中",
-			"completed": "完了",
-			"downloading": "ダウンロード中",
-			"failed": "失敗",
-			"grabbing": "取得中",
-			"importing": "インポート中",
-			"no_results": "ソースが見つかりません",
-			"queued": "キュー待ち",
-			"searching": "検索中"
-		},
-		"subtitle": "あなたのダウンロードアクティビティ。",
-		"title": "ダウンロード"
-	},
-	"settings": {
-		"created": "プロファイルを保存しました",
-		"default": "デフォルト",
-		"delete": "削除",
-		"destinationAsk": "毎回確認",
-		"destinationHelp": "新しいダウンロードリクエストの保存先です。フレンドからリクエスト権限をもらうと、フレンドのライブラリもここに表示されます。",
-		"destinationSaved": "デフォルトの保存先を保存しました。",
-		"destinationTitle": "ダウンロード先",
-		"disabled": "ダウンロード無効",
-		"enabled": "ダウンロード有効",
-		"formats": "許可する形式（優先順）",
-		"indexers": "インデクサー{count}件",
-		"libraries": "ライブラリのダウンロード状態",
-		"librariesHint": "各ライブラリのchordia-library.tomlでProwlarrとqBittorrentを設定すると、ダウンロードが有効になります。",
-		"makeDefault": "デフォルトにする",
-		"maxSize": "最大サイズ（MB、任意）",
-		"name": "名前",
-		"newProfile": "新しいプロファイル",
-		"preferSeeders": "シーダーの多いソースを優先",
-		"profiles": "品質プロファイル",
-		"profilesHint": "ダウンロードは常に、プロファイルで許可された形式の中から最良のソースを選びます。",
-		"save": "保存",
-		"saveFailed": "プロファイルを保存できませんでした",
-		"subtitle": "品質プロファイルとライブラリごとのダウンロード状態。",
-		"title": "マネージャー設定"
-	},
 	"subtitle": "コレクションのカバー率を追跡し、足りないものを見つけましょう。",
 	"tabs": {
 		"coverage": "カバー率",
 		"discover": "発見",
-		"downloads": "ダウンロード",
-		"follows": "フォロー中",
-		"settings": "設定"
+		"follows": "フォロー中"
 	},
-	"title": "ライブラリマネージャー",
-	"upgrade": {
-		"check": "より高品質なソースを確認",
-		"failed": "アップグレード確認をキューに追加できませんでした。",
-		"inProgress": "このアルバムのアップグレードまたはダウンロードは既に進行中です。",
-		"notIdentified": "このアルバムはまだMusicBrainzとマッチしていないため、確実に検索できる対象がありません。",
-		"queued": ""
-	}
+	"title": "ライブラリマネージャー"
 }
