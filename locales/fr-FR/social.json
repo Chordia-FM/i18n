@@ -71,9 +71,11 @@
 		}
 	},
 	"block": {
+		"blockedHeading": "",
 		"confirmLabel": "Bloquer",
 		"confirmMessage": "Bloquer @{handle} ? Vous ne pourrez plus vous ajouter comme amis.",
-		"confirmTitle": "Bloquer l'utilisateur"
+		"confirmTitle": "Bloquer l'utilisateur",
+		"unblock": ""
 	},
 	"discovery": {
 		"addFriend": "Ajouter un ami",
@@ -114,6 +116,7 @@
 		"empty": "Pas encore d'amis — recherchez-en pour en ajouter",
 		"heading": "Amis ({count})",
 		"removing": "Suppression…",
+		"requestByHandle": "",
 		"title": "Amis"
 	},
 	"modMenu": {
@@ -169,7 +172,9 @@
 	"requests": {
 		"accept": "Accepter",
 		"accepting": "Acceptation…",
-		"pendingHeading": "Demandes en attente ({count})"
+		"cancel": "",
+		"pendingHeading": "Demandes en attente ({count})",
+		"sentHeading": ""
 	},
 	"search": {
 		"noResults": "Aucun utilisateur trouvé.",
