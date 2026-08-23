@@ -20,17 +20,52 @@
 		"trackCount": "{count, plural, one {# morceau} other {# morceaux}}"
 	},
 	"downloads": {
+		"action": {
+			"cancel": "",
+			"download": "Télécharger",
+			"downloadAlbum": "Télécharger l'album",
+			"downloadPlaylist": "",
+			"manage": "",
+			"pause": "",
+			"remove": "Supprimer le téléchargement",
+			"resume": "",
+			"retry": "Réessayer"
+		},
 		"clearConfirm": {
 			"message": "Supprimer de cet appareil toutes les chansons téléchargées ?",
 			"title": "Effacer les téléchargements"
 		},
 		"clearError": "Impossible d'effacer les téléchargements",
 		"emptyState": "Les chansons que vous téléchargez se lisent sans connexion. Utilisez l'action Télécharger sur n'importe quel morceau pour l'enregistrer ici.",
+		"error": {
+			"cap": "",
+			"incomplete": "",
+			"offline": "",
+			"server": "",
+			"storage": "",
+			"unknown": ""
+		},
 		"eyebrow": "Disponible hors ligne",
 		"navLabel": "Téléchargements",
+		"queue": {
+			"empty": "",
+			"paused": "",
+			"progress": "",
+			"queued": "",
+			"title": "Téléchargement"
+		},
 		"removeError": "Impossible de supprimer le téléchargement",
 		"removeTooltip": "Supprimer le téléchargement",
 		"songCount": "{count, plural, one {# chanson} other {# chansons}}",
+		"storage": {
+			"cap": "",
+			"capUnlimited": "",
+			"clear": "",
+			"full": "",
+			"title": "",
+			"used": "",
+			"usedNoCap": ""
+		},
 		"stats": {
 			"artistCount": "{count, plural, one {# chanson} other {# chansons}}",
 			"bitrate": "",
@@ -47,6 +82,15 @@
 			"songs": "Chansons",
 			"title": "",
 			"unknownQuota": ""
+		},
+		"toast": {
+			"cleared": "",
+			"existing": "",
+			"inUse": "",
+			"queued": "",
+			"refused": "",
+			"removed": "",
+			"skipped": ""
 		},
 		"storedOnDevice": "stockées sur cet appareil",
 		"title": "Téléchargements"
@@ -162,10 +206,27 @@
 		"serverOnline": "",
 		"serverSummary": ""
 	},
+	"manage": {
+		"title": "",
+		"nameLabel": "Nom de la bibliothèque",
+		"contents": "",
+		"countTracks": "Morceaux",
+		"countAlbums": "",
+		"countArtists": "Artistes",
+		"countsUnavailable": "",
+		"serverSection": "",
+		"sharingSection": "",
+		"overridesSection": "Métadonnées",
+		"openOverrides": "",
+		"notOwner": ""
+	},
 	"metadata": {
 		"intro": "Modifiez les métadonnées de cette bibliothèque uniquement. Vos modifications s'appliquent à toutes vos vues ; tout champ laissé vide conserve la valeur d'origine. Les modifications du catalogue global se font dans la page d'administration.",
 		"noMatches": "Aucun résultat.",
 		"overrides": {
+			"applyToCatalog": "",
+			"applyToCatalogHint": "",
+			"editTitle": "",
 			"field": {
 				"album": "",
 				"album_type": "",
@@ -183,6 +244,7 @@
 				"track_no": "",
 				"year": "Année"
 			},
+			"inherited": "",
 			"kind": {
 				"album": "",
 				"artist": "Artiste",
@@ -193,6 +255,8 @@
 			"reset": "Réinitialiser",
 			"resetConfirm": "",
 			"resetDone": "",
+			"saveFailed": "",
+			"saved": "",
 			"title": "",
 			"wasCalled": ""
 		},
@@ -222,6 +286,36 @@
 		"dialogTitle": "",
 		"notPairedHere": "",
 		"sandboxNote": ""
+	},
+	"pairing": {
+		"title": "",
+		"intro": "",
+		"stepStartTitle": "",
+		"stepStartBody": "",
+		"stepLinkTitle": "",
+		"stepLinkBody": "",
+		"linkLabel": "",
+		"linkInvalid": "",
+		"connect": "Connecter",
+		"checkingTitle": "",
+		"checkingBody": "",
+		"trustTitle": "",
+		"trustBody": "",
+		"trustFingerprint": "",
+		"trustConfirm": "",
+		"claimingTitle": "",
+		"claimingBody": "",
+		"ticketExpired": "",
+		"nameTitle": "",
+		"nameBody": "",
+		"namePlaceholder": "Ma musique",
+		"registering": "",
+		"doneTitle": "",
+		"doneBody": "",
+		"doneAction": "",
+		"unreachable": "",
+		"refused": "",
+		"startOver": ""
 	},
 	"pin": {
 		"pin": "Épingler",
@@ -288,13 +382,12 @@
 		"empty": "Partagée avec personne pour l'instant. Ajoutez un ami ci-dessous pour lui donner accès.",
 		"addFriend": "Ajouter un ami",
 		"revoke": "Retirer l'accès",
-		"canRequest": "Peut demander des téléchargements",
 		"directories": "Bibliothèques :",
 		"thisLibrary": "Cette bibliothèque",
 		"grantAccess": "Donner accès à {name}",
 		"removeAccess": "Retirer l'accès à {name}",
 		"streamingNow": "",
-		"statsLine": "{requests} demandes · {downloads} téléchargements · {plays} écoutes · {time} d'écoute",
+		"statsLine": "",
 		"lastPlayed": "dernière écoute {date}",
 		"updateFailed": "",
 		"timeDaysHours": "{days}j {hours}h",
