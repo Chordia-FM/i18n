@@ -5,12 +5,15 @@
 		"changeEmailBody": "",
 		"changeEmailTitle": "",
 		"changePhoto": "",
+		"deleteTypeHandle": "",
 		"displayName": "",
 		"emailChangeSent": "",
 		"emailTitle": "",
 		"handle": "",
 		"handleHint": "",
 		"handlePlaceholder": "",
+		"leaveDesc": "",
+		"leaveTitle": "",
 		"newEmailPlaceholder": "",
 		"noEmail": "",
 		"pendingChange": "",
@@ -20,6 +23,7 @@
 		"resendVerification": "",
 		"saveProfile": "",
 		"sendConfirmation": "",
+		"signOutConfirm": "",
 		"title": "",
 		"unverified": "",
 		"verificationSent": "",
@@ -28,6 +32,7 @@
 	"appearance": {
 		"accentColour": "",
 		"accentHexAria": "",
+		"accentProfileHint": "",
 		"accents": {
 			"amber": "",
 			"blue": "",
@@ -45,6 +50,7 @@
 		"customAccentAria": "",
 		"customColour": "",
 		"customColourHint": "",
+		"languageHint": "",
 		"mode": {
 			"artwork": "",
 			"artworkHint": "",
@@ -78,6 +84,12 @@
 		"title": ""
 	},
 	"connections": {
+		"discord": {
+			"desc": "",
+			"label": "",
+			"linked": "",
+			"notLinked": ""
+		},
 		"lastfm": {
 			"connect": "",
 			"connectedAs": "",
@@ -87,8 +99,10 @@
 			"disconnect": "",
 			"disconnected": "",
 			"failed": "",
-			"label": ""
+			"label": "",
+			"opensBrowser": ""
 		},
+		"refresh": "",
 		"title": ""
 	},
 	"data": {
@@ -101,6 +115,8 @@
 		"exportFailedBody": "",
 		"exportFailedTitle": "",
 		"exportMyData": "",
+		"exportReady": "",
+		"exportSubject": "",
 		"title": ""
 	},
 	"desktop": {
@@ -208,6 +224,7 @@
 	"import": {
 		"body": "",
 		"chooseFile": "",
+		"empty": "",
 		"errors": {
 			"internal": "",
 			"interrupted": "",
@@ -217,6 +234,7 @@
 		"hint": "",
 		"progress": "",
 		"sourceAuto": "",
+		"startInBrowser": "",
 		"status": {
 			"done": "",
 			"failed": "",
@@ -246,6 +264,9 @@
 		"title": ""
 	},
 	"plan": {
+		"current": "",
+		"includes": "",
+		"opensInBrowser": "",
 		"selfHosted": "",
 		"title": ""
 	},
@@ -258,6 +279,8 @@
 			"desc": "",
 			"label": ""
 		},
+		"crossfadeSeconds": "",
+		"equalizerDesc": "",
 		"normalize": {
 			"desc": "",
 			"label": "Normalise volume"
@@ -292,6 +315,7 @@
 				"label": ""
 			}
 		},
+		"storageDesc": "",
 		"streamingQuality": "",
 		"title": ""
 	},
@@ -401,6 +425,16 @@
 			"zoneWithOffset": ""
 		},
 		"title": ""
+	},
+	"sections": {
+		"account": "",
+		"appearance": "",
+		"connections": "",
+		"data": "",
+		"plan": "",
+		"playback": "",
+		"privacy": "",
+		"security": ""
 	},
 	"security": {
 		"password": {
