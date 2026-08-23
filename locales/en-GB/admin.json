@@ -104,6 +104,16 @@
 		"translatorPlaceholder": "",
 		"translatorHint": ""
 	},
+	"content": {
+		"albums": "",
+		"artists": "",
+		"description": "",
+		"empty": ""
+	},
+	"desktopOnly": {
+		"body": "",
+		"title": ""
+	},
 	"editCatalog": {
 		"title": "Edit catalogue metadata"
 	},
@@ -185,6 +195,7 @@
 	"noAccess": {
 		"backToApp": "",
 		"body": "",
+		"plainBody": "",
 		"title": ""
 	},
 	"overview": {
@@ -261,6 +272,9 @@
 		"dismiss": "",
 		"empty": "",
 		"resolve": "",
+		"statusDismissed": "",
+		"statusOpen": "",
+		"statusResolved": "",
 		"title": "",
 		"titleWithCount": ""
 	},
@@ -296,29 +310,12 @@
 		"behind": "",
 		"biggestTables": "",
 		"database": "",
-		"downloadQueue": "",
 		"enrichment": "",
-		"jobStatus": {
-			"awaiting_selection": "",
-			"cancelled": "",
-			"claimed": "",
-			"completed": "",
-			"downloading": "",
-			"failed": "",
-			"grabbing": "",
-			"importing": "",
-			"no_results": "",
-			"queued": "",
-			"searching": ""
-		},
 		"keepingUp": "",
 		"loadFailed": "",
 		"migrations": "",
 		"noRollups": "",
 		"partitions": "",
-		"queue": "",
-		"queueEmpty": "",
-		"queueJobs": "",
 		"rollupLag": "",
 		"rollupLagHelp": "",
 		"rollups": "",
@@ -406,6 +403,7 @@
 		"unsuspend": "",
 		"user": "",
 		"verified": "",
+		"loadMore": "",
 		"noEmail": ""
 	}
 }
