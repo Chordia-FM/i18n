@@ -2,7 +2,6 @@
 	"album": {
 		"coverage": "",
 		"disc": "",
-		"downloadEdition": "",
 		"editionCount": "",
 		"fetching": "",
 		"loadFailed": "",
@@ -60,18 +59,6 @@
 		},
 		"openIn": ""
 	},
-	"download": {
-		"ackConfirm": "",
-		"ackMessage": "",
-		"ackTitle": "",
-		"button": "",
-		"chooseLibrary": "",
-		"failed": "",
-		"noLibrary": "",
-		"notEnabled": "",
-		"queued": "",
-		"viewQueue": ""
-	},
 	"follow": {
 		"follow": "",
 		"following": ""
@@ -93,72 +80,11 @@
 	},
 	"loadFailed": "",
 	"nav": "",
-	"queue": {
-		"cancel": "",
-		"choose": "",
-		"empty": "",
-		"intoLibrary": "",
-		"loadFailed": "",
-		"pickHint": "",
-		"requestedBy": "",
-		"retry": "",
-		"selectFailed": "",
-		"status": {
-			"awaiting_selection": "",
-			"cancelled": "",
-			"claimed": "",
-			"completed": "",
-			"downloading": "",
-			"failed": "",
-			"grabbing": "",
-			"importing": "",
-			"no_results": "",
-			"queued": "",
-			"searching": ""
-		},
-		"subtitle": "",
-		"title": ""
-	},
-	"settings": {
-		"created": "",
-		"default": "",
-		"delete": "",
-		"destinationAsk": "",
-		"destinationHelp": "",
-		"destinationSaved": "",
-		"destinationTitle": "",
-		"disabled": "",
-		"enabled": "",
-		"formats": "",
-		"indexers": "",
-		"libraries": "",
-		"librariesHint": "",
-		"makeDefault": "",
-		"maxSize": "",
-		"name": "",
-		"newProfile": "",
-		"preferSeeders": "",
-		"profiles": "",
-		"profilesHint": "",
-		"save": "",
-		"saveFailed": "",
-		"subtitle": "",
-		"title": ""
-	},
 	"subtitle": "",
 	"tabs": {
 		"coverage": "",
 		"discover": "",
-		"downloads": "",
-		"follows": "",
-		"settings": ""
+		"follows": ""
 	},
-	"title": "",
-	"upgrade": {
-		"check": "",
-		"failed": "",
-		"inProgress": "",
-		"notIdentified": "",
-		"queued": ""
-	}
+	"title": ""
 }
