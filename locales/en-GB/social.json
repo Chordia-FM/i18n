@@ -71,9 +71,11 @@
 		}
 	},
 	"block": {
+		"blockedHeading": "",
 		"confirmLabel": "",
 		"confirmMessage": "",
-		"confirmTitle": ""
+		"confirmTitle": "",
+		"unblock": ""
 	},
 	"discovery": {
 		"addFriend": "",
@@ -114,6 +116,7 @@
 		"empty": "",
 		"heading": "",
 		"removing": "",
+		"requestByHandle": "",
 		"title": ""
 	},
 	"modMenu": {
@@ -169,7 +172,9 @@
 	"requests": {
 		"accept": "",
 		"accepting": "",
-		"pendingHeading": ""
+		"cancel": "",
+		"pendingHeading": "",
+		"sentHeading": ""
 	},
 	"search": {
 		"noResults": "",
