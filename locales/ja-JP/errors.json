@@ -44,7 +44,11 @@
 		"albumLoadFailed": "",
 		"artistLoadFailed": "",
 		"artistNameTaken": "その名前は既に別のアーティストが使用しています。",
+		"genreLoadFailed": "",
+		"genresLoadFailed": "",
 		"labelLoadFailed": "このレーベルを読み込めませんでした",
+		"labelsLoadFailed": "",
+		"trackLoadFailed": "",
 		"unknownArtist": "不明なアーティストです。",
 		"unknownImageHash": "不明な画像です。"
 	},
