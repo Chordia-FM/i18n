@@ -28,5 +28,19 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+          # Cache npm's download cache (~/.npm). Deliberately NOT node_modules: this repo has no
+          # package-lock.json, so the installed tree is re-resolved from floating ranges every run
+          # and a cached tree would silently pin whichever versions the cache happened to hold.
+          # ~/.npm is content-addressed and integrity-verified, and npm still revalidates registry
+          # metadata, so a restored entry can only ever supply a tarball npm independently chose.
+          #
+          # Nothing the gate reads comes from this cache. `npm run check` validates locales/ as it
+          # came out of the checkout; no generated or built artifact is cached anywhere here, so a
+          # stale entry cannot make a drifted catalog pass.
+          cache: npm
+          # Required: setup-node's lockfile auto-discovery looks for package-lock/npm-shrinkwrap/
+          # yarn.lock and hard-errors when it finds none. package.json is the only file that
+          # decides what gets installed, so it is also the honest thing to key on.
+          cache-dependency-path: package.json
       - run: npm ci || npm install
       - run: npm run check
