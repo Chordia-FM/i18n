@@ -136,6 +136,11 @@
 	"plan": {
 		"required": ""
 	},
+	"playback": {
+		"retrying": "",
+		"skipped": "",
+		"stopped": ""
+	},
 	"playlist": {
 		"limitReached": "Das Playlist-Limit für dieses Konto ist erreicht."
 	},
