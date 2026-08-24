@@ -136,6 +136,11 @@
 	"plan": {
 		"required": ""
 	},
+	"playback": {
+		"retrying": "",
+		"skipped": "",
+		"stopped": ""
+	},
 	"playlist": {
 		"limitReached": "이 계정의 플레이리스트 개수 한도에 도달했습니다."
 	},
