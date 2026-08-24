@@ -136,6 +136,11 @@
 	"plan": {
 		"required": ""
 	},
+	"playback": {
+		"retrying": "",
+		"skipped": "",
+		"stopped": ""
+	},
 	"playlist": {
 		"limitReached": "Has alcanzado el límite de listas de reproducción de esta cuenta."
 	},
