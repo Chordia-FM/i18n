@@ -198,12 +198,12 @@
 		"sharedWithYou": "Mit Ihnen geteilt",
 		"title": "Ihre Bibliotheken",
 		"addLibrary": "Bibliothek hinzufügen",
-		"connectServer": "",
-		"connectServerBody": "",
-		"openSetup": "",
+		"addServerHint": "",
 		"copyServerId": "",
+		"serverLastSeen": "",
 		"serverOffline": "",
 		"serverOnline": "",
+		"serverStale": "",
 		"serverSummary": ""
 	},
 	"manage": {
@@ -377,22 +377,29 @@
 		"title": "„{name}“ teilen"
 	},
 	"shareManager": {
-		"title": "Freunde & Freigabe",
-		"help": "Wer Zugriff auf diese Bibliothek hat, was damit geschieht und was erlaubt ist.",
-		"empty": "Noch mit niemandem geteilt. Fügen Sie unten einen Freund hinzu, um ihm Zugriff zu geben.",
 		"addFriend": "Freund hinzufügen",
-		"revoke": "Zugriff entziehen",
 		"directories": "Bibliotheken:",
-		"thisLibrary": "Diese Bibliothek",
+		"empty": "Noch mit niemandem geteilt. Fügen Sie unten einen Freund hinzu, um ihm Zugriff zu geben.",
+		"folders": {
+			"allShared": "",
+			"someWithheld": "",
+			"help": "",
+			"saved": "",
+			"unreachable": ""
+		},
 		"grantAccess": "{name} Zugriff gewähren",
-		"removeAccess": "{name} den Zugriff entziehen",
-		"streamingNow": "",
-		"statsLine": "",
+		"help": "Wer Zugriff auf diese Bibliothek hat, was damit geschieht und was erlaubt ist.",
 		"lastPlayed": "zuletzt gehört {date}",
-		"updateFailed": "",
+		"removeAccess": "{name} den Zugriff entziehen",
+		"revoke": "Zugriff entziehen",
+		"statsLine": "",
+		"streamingNow": "",
+		"thisLibrary": "Diese Bibliothek",
 		"timeDaysHours": "{days} T {hours} Std.",
 		"timeHoursMinutes": "{hours} Std. {minutes} Min.",
-		"timeMinutes": "{minutes} Min."
+		"timeMinutes": "{minutes} Min.",
+		"title": "Freunde & Freigabe",
+		"updateFailed": ""
 	},
 	"sidebar": {
 		"pinned": "Angeheftet",
@@ -400,5 +407,25 @@
 		"yourLibrary": "Ihre Bibliothek",
 		"sharedWithYou": "Mit Ihnen geteilt"
 	},
-	"trackCount": "{count, plural, one {# Titel} other {# Titel}}"
+	"trackCount": "{count, plural, one {# Titel} other {# Titel}}",
+	"tabs": {
+		"music": "",
+		"stats": "Statistiken",
+		"settings": "Einstellungen"
+	},
+	"stats": {
+		"plays": "Wiedergaben",
+		"listened": "",
+		"reached": "",
+		"reachedValue": "",
+		"listeners": "",
+		"topTracks": "",
+		"topArtists": "Top-Künstler",
+		"topAlbums": "Top-Alben",
+		"trackingSince": "",
+		"empty": {
+			"title": "",
+			"body": ""
+		}
+	}
 }
