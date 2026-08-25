@@ -101,6 +101,7 @@
 	"nowPlaying": {
 		"aboutArtist": "{name} 정보",
 		"albumFallback": "앨범",
+		"onAlbum": "",
 		"playingFrom": "재생 위치",
 		"title": "지금 재생 중"
 	},
