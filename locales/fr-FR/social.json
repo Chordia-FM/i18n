@@ -164,7 +164,8 @@
 		"topTracks": "Top morceaux",
 		"totalPlays": "{count, plural, one {# écoute} other {# écoutes}}",
 		"totalPlaysCount": "",
-		"listTabs": ""
+		"listTabs": "",
+		"listeningNow": "À l'écoute"
 	},
 	"report": {
 		"promptMessage": ""
