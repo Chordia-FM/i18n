@@ -164,7 +164,8 @@
 		"topTracks": "Principais faixas",
 		"totalPlays": "{count, plural, one {# reprodução} other {# reproduções}}",
 		"totalPlaysCount": "",
-		"listTabs": ""
+		"listTabs": "",
+		"listeningNow": "Ouvindo agora"
 	},
 	"report": {
 		"promptMessage": ""
