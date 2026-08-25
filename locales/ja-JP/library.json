@@ -198,12 +198,12 @@
 		"sharedWithYou": "あなたと共有中",
 		"title": "ライブラリ一覧",
 		"addLibrary": "ライブラリを追加",
-		"connectServer": "",
-		"connectServerBody": "",
-		"openSetup": "",
+		"addServerHint": "",
 		"copyServerId": "",
+		"serverLastSeen": "",
 		"serverOffline": "",
 		"serverOnline": "",
+		"serverStale": "",
 		"serverSummary": ""
 	},
 	"manage": {
@@ -377,22 +377,29 @@
 		"title": "「{name}」を共有"
 	},
 	"shareManager": {
-		"title": "フレンドと共有",
-		"help": "このライブラリに誰がアクセスでき、何をしていて、何が許可されているかを表示します。",
-		"empty": "まだ誰とも共有していません。下からフレンドを追加してアクセスを許可しましょう。",
 		"addFriend": "フレンドを追加",
-		"revoke": "アクセスを削除",
 		"directories": "ライブラリ:",
-		"thisLibrary": "このライブラリ",
+		"empty": "まだ誰とも共有していません。下からフレンドを追加してアクセスを許可しましょう。",
+		"folders": {
+			"allShared": "",
+			"someWithheld": "",
+			"help": "",
+			"saved": "",
+			"unreachable": ""
+		},
 		"grantAccess": "{name}にアクセスを許可",
-		"removeAccess": "{name}のアクセスを削除",
-		"streamingNow": "",
-		"statsLine": "",
+		"help": "このライブラリに誰がアクセスでき、何をしていて、何が許可されているかを表示します。",
 		"lastPlayed": "最終再生: {date}",
-		"updateFailed": "",
+		"removeAccess": "{name}のアクセスを削除",
+		"revoke": "アクセスを削除",
+		"statsLine": "",
+		"streamingNow": "",
+		"thisLibrary": "このライブラリ",
 		"timeDaysHours": "{days}日{hours}時間",
 		"timeHoursMinutes": "{hours}時間{minutes}分",
-		"timeMinutes": "{minutes}分"
+		"timeMinutes": "{minutes}分",
+		"title": "フレンドと共有",
+		"updateFailed": ""
 	},
 	"sidebar": {
 		"pinned": "ピン留め",
@@ -400,5 +407,25 @@
 		"yourLibrary": "マイライブラリ",
 		"sharedWithYou": "あなたと共有中"
 	},
-	"trackCount": "{count, plural, other {#曲}}"
+	"trackCount": "{count, plural, other {#曲}}",
+	"tabs": {
+		"music": "",
+		"stats": "統計",
+		"settings": "設定"
+	},
+	"stats": {
+		"plays": "再生回数",
+		"listened": "",
+		"reached": "",
+		"reachedValue": "",
+		"listeners": "",
+		"topTracks": "",
+		"topArtists": "トップアーティスト",
+		"topAlbums": "トップアルバム",
+		"trackingSince": "",
+		"empty": {
+			"title": "",
+			"body": ""
+		}
+	}
 }
