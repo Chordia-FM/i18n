@@ -218,6 +218,7 @@
 	},
 	"panels": {
 		"activity": "",
+		"activityCalendar": "",
 		"byWeekday": "",
 		"clockHeatmap": "",
 		"decades": "",
