@@ -218,6 +218,7 @@
 	},
 	"panels": {
 		"activity": "アクティビティ",
+		"activityCalendar": "",
 		"byWeekday": "曜日別",
 		"clockHeatmap": "曜日・時間帯別のリスニング",
 		"decades": "年代別の音楽",
