@@ -18,8 +18,7 @@
 		}
 	},
 	"hero": {
-		"onboardBody": "Chordia plays music straight from your own server. Pair a library and this page comes to life.",
-		"onboardCta": "Pair a library",
+		"onboardBody": "Chordia plays music straight from your own server. Start Chordia's library server on the machine that holds your music, then open the setup link it prints. That link pairs it to this account, and this page comes to life.",
 		"onboardTitle": "Welcome to Chordia",
 		"resumeTitle": "Pick up where you left off",
 		"seeAll": "See all",
@@ -27,8 +26,7 @@
 	},
 	"home": {
 		"empty": {
-			"body": "Chordia streams from your own library server. Pair one and everything you own shows up here.",
-			"cta": "Pair a library",
+			"body": "Your library is paired, so this is a scan away from filling up. Check which folders it's watching on the Libraries page.",
 			"title": "Your music isn't here yet"
 		},
 		"emptyState": "Nothing here yet - pair a library server and your catalog will appear.",

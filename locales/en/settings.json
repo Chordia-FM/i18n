@@ -291,6 +291,7 @@
 			"label": "Output device",
 			"reset": "Use system default",
 			"system": "System default",
+			"unavailable": "This browser will not let a page choose an output device. Sound follows your system default.",
 			"unknown": "Selected device"
 		},
 		"preload": {

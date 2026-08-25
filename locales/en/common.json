@@ -26,6 +26,7 @@
 		"next": "Next",
 		"ok": "OK",
 		"open": "Open",
+		"openInApp": "Open in the desktop app",
 		"pause": "Pause",
 		"pin": "Pin",
 		"play": "Play",
@@ -49,7 +50,8 @@
 		"undo": "Undo",
 		"unpin": "Unpin",
 		"verify": "Verify",
-		"view": "View"
+		"view": "View",
+		"viewArtwork": "View artwork"
 	},
 	"appName": "Chordia",
 	"commandPalette": {
