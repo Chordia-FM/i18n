@@ -19,7 +19,6 @@
 	},
 	"hero": {
 		"onboardBody": "",
-		"onboardCta": "",
 		"onboardTitle": "Chordiaへようこそ",
 		"resumeTitle": "",
 		"seeAll": "すべて表示",
@@ -28,7 +27,6 @@
 	"home": {
 		"empty": {
 			"body": "",
-			"cta": "",
 			"title": ""
 		},
 		"emptyState": "まだ何もありません。ライブラリサーバーをペアリングすると、カタログが表示されます。",
