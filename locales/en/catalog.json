@@ -268,5 +268,11 @@
 			"single_version": "Single version"
 		}
 	},
-	"trackCount": "{count, plural, one {# track} other {# tracks}}"
+	"trackCount": "{count, plural, one {# track} other {# tracks}}",
+	"credits": {
+		"title": "Credits",
+		"empty": "No credits yet. These come from MusicBrainz, or from a Tracklist.txt beside the album in your library.",
+		"failed": "Could not load credits.",
+		"coverage": "{count, plural, one {From # of {total} tracks} other {From # of {total} tracks}}"
+	}
 }

@@ -407,5 +407,25 @@
 		"yourLibrary": "Your Library",
 		"sharedWithYou": "Shared with you"
 	},
-	"trackCount": "{count, plural, one {# track} other {# tracks}}"
+	"trackCount": "{count, plural, one {# track} other {# tracks}}",
+	"tabs": {
+		"music": "Music",
+		"stats": "Stats",
+		"settings": "Settings"
+	},
+	"stats": {
+		"plays": "Plays",
+		"listened": "Listened",
+		"reached": "Reached",
+		"reachedValue": "{count, number} / {total, number}",
+		"listeners": "Listeners",
+		"topTracks": "Most played",
+		"topArtists": "Top artists",
+		"topAlbums": "Top albums",
+		"trackingSince": "Per-library play tracking began {date}. Earlier plays are counted only where this library still holds the track.",
+		"empty": {
+			"title": "Nothing played yet",
+			"body": "Once anyone streams from this library, whether you or someone you share it with, this is where it shows up."
+		}
+	}
 }
