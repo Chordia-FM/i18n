@@ -218,6 +218,7 @@
 	},
 	"panels": {
 		"activity": "Actividad",
+		"activityCalendar": "",
 		"byWeekday": "Por día de la semana",
 		"clockHeatmap": "Escuchas por día y hora",
 		"decades": "Música por década",
