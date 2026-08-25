@@ -101,6 +101,7 @@
 	"nowPlaying": {
 		"aboutArtist": "{name}について",
 		"albumFallback": "アルバム",
+		"onAlbum": "",
 		"playingFrom": "再生元",
 		"title": "再生中"
 	},
