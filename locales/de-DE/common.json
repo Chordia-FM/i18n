@@ -26,6 +26,7 @@
 		"next": "Weiter",
 		"ok": "",
 		"open": "Öffnen",
+		"openInApp": "",
 		"pause": "",
 		"pin": "Anheften",
 		"play": "Abspielen",
@@ -49,7 +50,8 @@
 		"undo": "Rückgängig",
 		"unpin": "Nicht mehr anheften",
 		"verify": "Verifizieren",
-		"view": "Ansehen"
+		"view": "Ansehen",
+		"viewArtwork": ""
 	},
 	"appName": "",
 	"commandPalette": {
