@@ -377,22 +377,29 @@
 		"title": "Share \"{name}\""
 	},
 	"shareManager": {
-		"title": "Friends & sharing",
-		"help": "Who has access to this library, what they're doing with it, and what they're allowed to do.",
-		"empty": "Not shared with anyone yet. Add a friend below to give them access.",
 		"addFriend": "Add friend",
-		"revoke": "Remove access",
 		"directories": "Libraries:",
-		"thisLibrary": "This library",
+		"empty": "Not shared with anyone yet. Add a friend below to give them access.",
+		"folders": {
+			"allShared": "All folders shared",
+			"someWithheld": "{count, plural, one {# folder withheld} other {# folders withheld}}",
+			"help": "Untick a folder to keep it from this person. It stays in your library and everyone else can still play it.",
+			"saved": "Folder access updated for {name}.",
+			"unreachable": "Couldn't reach the library server, so folders can't be changed from here."
+		},
 		"grantAccess": "Give access to {name}",
-		"removeAccess": "Remove access to {name}",
-		"streamingNow": "Streaming now: {title} · {artist}",
-		"statsLine": "{plays} plays · {time} listened",
+		"help": "Who has access to this library, what they're doing with it, and what they're allowed to do.",
 		"lastPlayed": "last played {date}",
-		"updateFailed": "Couldn't update sharing. Try again.",
+		"removeAccess": "Remove access to {name}",
+		"revoke": "Remove access",
+		"statsLine": "{plays} plays · {time} listened",
+		"streamingNow": "Streaming now: {title} · {artist}",
+		"thisLibrary": "This library",
 		"timeDaysHours": "{days}d {hours}h",
 		"timeHoursMinutes": "{hours}h {minutes}m",
-		"timeMinutes": "{minutes}m"
+		"timeMinutes": "{minutes}m",
+		"title": "Friends & sharing",
+		"updateFailed": "Couldn't update sharing. Try again."
 	},
 	"sidebar": {
 		"pinned": "Pinned",
