@@ -101,6 +101,7 @@
 	"nowPlaying": {
 		"aboutArtist": "Über {name}",
 		"albumFallback": "",
+		"onAlbum": "",
 		"playingFrom": "Wiedergabe von",
 		"title": "Läuft gerade"
 	},
