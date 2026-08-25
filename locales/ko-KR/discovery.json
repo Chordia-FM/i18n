@@ -19,7 +19,6 @@
 	},
 	"hero": {
 		"onboardBody": "",
-		"onboardCta": "",
 		"onboardTitle": "Chordia에 오신 것을 환영합니다",
 		"resumeTitle": "",
 		"seeAll": "모두 보기",
@@ -28,7 +27,6 @@
 	"home": {
 		"empty": {
 			"body": "",
-			"cta": "",
 			"title": ""
 		},
 		"emptyState": "아직 아무것도 없습니다 - 라이브러리 서버를 연결하면 카탈로그가 표시됩니다.",
