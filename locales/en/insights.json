@@ -218,6 +218,7 @@
 	},
 	"panels": {
 		"activity": "Activity",
+		"activityCalendar": "Activity calendar",
 		"byWeekday": "By weekday",
 		"clockHeatmap": "Listening by weekday and hour",
 		"decades": "Music by decade",
