@@ -101,6 +101,7 @@
 	"nowPlaying": {
 		"aboutArtist": "",
 		"albumFallback": "",
+		"onAlbum": "",
 		"playingFrom": "",
 		"title": ""
 	},
