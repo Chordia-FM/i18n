@@ -198,12 +198,12 @@
 		"sharedWithYou": "Compartidas contigo",
 		"title": "Tus bibliotecas",
 		"addLibrary": "Añadir biblioteca",
-		"connectServer": "",
-		"connectServerBody": "",
-		"openSetup": "",
+		"addServerHint": "",
 		"copyServerId": "",
+		"serverLastSeen": "",
 		"serverOffline": "",
 		"serverOnline": "",
+		"serverStale": "",
 		"serverSummary": ""
 	},
 	"manage": {
@@ -377,22 +377,29 @@
 		"title": "Compartir «{name}»"
 	},
 	"shareManager": {
-		"title": "Amigos y uso compartido",
-		"help": "Quién tiene acceso a esta biblioteca, qué está haciendo con ella y qué puede hacer.",
-		"empty": "Aún no la compartes con nadie. Añade abajo a un amigo para darle acceso.",
 		"addFriend": "Añadir amigo",
-		"revoke": "Quitar acceso",
 		"directories": "Bibliotecas:",
-		"thisLibrary": "Esta biblioteca",
+		"empty": "Aún no la compartes con nadie. Añade abajo a un amigo para darle acceso.",
+		"folders": {
+			"allShared": "",
+			"someWithheld": "",
+			"help": "",
+			"saved": "",
+			"unreachable": ""
+		},
 		"grantAccess": "Dar acceso a {name}",
-		"removeAccess": "Quitar el acceso de {name}",
-		"streamingNow": "",
-		"statsLine": "",
+		"help": "Quién tiene acceso a esta biblioteca, qué está haciendo con ella y qué puede hacer.",
 		"lastPlayed": "última reproducción {date}",
-		"updateFailed": "",
+		"removeAccess": "Quitar el acceso de {name}",
+		"revoke": "Quitar acceso",
+		"statsLine": "",
+		"streamingNow": "",
+		"thisLibrary": "Esta biblioteca",
 		"timeDaysHours": "",
 		"timeHoursMinutes": "{hours}h {minutes}min",
-		"timeMinutes": "{minutes}min"
+		"timeMinutes": "{minutes}min",
+		"title": "Amigos y uso compartido",
+		"updateFailed": ""
 	},
 	"sidebar": {
 		"pinned": "Fijados",
@@ -400,5 +407,25 @@
 		"yourLibrary": "Tu biblioteca",
 		"sharedWithYou": "Compartidas contigo"
 	},
-	"trackCount": "{count, plural, one {# pista} other {# pistas}}"
+	"trackCount": "{count, plural, one {# pista} other {# pistas}}",
+	"tabs": {
+		"music": "",
+		"stats": "Estadísticas",
+		"settings": "Ajustes"
+	},
+	"stats": {
+		"plays": "Reproducciones",
+		"listened": "",
+		"reached": "",
+		"reachedValue": "",
+		"listeners": "",
+		"topTracks": "",
+		"topArtists": "Artistas principales",
+		"topAlbums": "Álbumes principales",
+		"trackingSince": "",
+		"empty": {
+			"title": "",
+			"body": ""
+		}
+	}
 }
