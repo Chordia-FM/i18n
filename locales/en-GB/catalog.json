@@ -268,5 +268,11 @@
 			"single_version": ""
 		}
 	},
-	"trackCount": ""
+	"trackCount": "",
+	"credits": {
+		"title": "",
+		"empty": "",
+		"failed": "",
+		"coverage": ""
+	}
 }
