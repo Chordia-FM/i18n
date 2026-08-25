@@ -268,5 +268,11 @@
 			"single_version": ""
 		}
 	},
-	"trackCount": "{count, plural, one {# Titel} other {# Titel}}"
+	"trackCount": "{count, plural, one {# Titel} other {# Titel}}",
+	"credits": {
+		"title": "",
+		"empty": "",
+		"failed": "",
+		"coverage": ""
+	}
 }
