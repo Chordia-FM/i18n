@@ -15,7 +15,6 @@
 	},
 	"hero": {
 		"onboardBody": "Chordia plays shanties straight from yer own server. Pair a hoard an' this page comes t' life.",
-		"onboardCta": "Pair a hoard",
 		"onboardTitle": "Welcome aboard Chordia",
 		"resumeTitle": "Pick up where ye left off",
 		"startTitle": "Put somethin' on"
@@ -23,7 +22,6 @@
 	"home": {
 		"empty": {
 			"body": "Chordia streams from yer own hoard server. Pair one an' everythin' ye own shows up here.",
-			"cta": "Pair a hoard",
 			"title": "Yer shanties ain't here yet"
 		},
 		"emptyState": "Nothin' here yet - pair a hoard server an' yer catalog will appear.",
