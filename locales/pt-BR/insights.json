@@ -218,6 +218,7 @@
 	},
 	"panels": {
 		"activity": "Atividade",
+		"activityCalendar": "",
 		"byWeekday": "Por dia da semana",
 		"clockHeatmap": "Audição por dia da semana e hora",
 		"decades": "Música por década",
