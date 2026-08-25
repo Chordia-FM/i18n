@@ -26,6 +26,7 @@
 		"next": "次へ",
 		"ok": "",
 		"open": "開く",
+		"openInApp": "",
 		"pause": "一時停止",
 		"pin": "ピン留め",
 		"play": "再生",
@@ -49,7 +50,8 @@
 		"undo": "元に戻す",
 		"unpin": "ピン留めを解除",
 		"verify": "確認",
-		"view": "表示"
+		"view": "表示",
+		"viewArtwork": ""
 	},
 	"appName": "",
 	"commandPalette": {
