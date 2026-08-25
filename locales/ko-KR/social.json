@@ -164,7 +164,8 @@
 		"topTracks": "인기 트랙",
 		"totalPlays": "{count, plural, other {#회 재생}}",
 		"totalPlaysCount": "",
-		"listTabs": ""
+		"listTabs": "",
+		"listeningNow": "지금 감상 중"
 	},
 	"report": {
 		"promptMessage": ""
