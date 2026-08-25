@@ -198,12 +198,12 @@
 		"sharedWithYou": "공유받음",
 		"title": "내 라이브러리",
 		"addLibrary": "라이브러리 추가",
-		"connectServer": "",
-		"connectServerBody": "",
-		"openSetup": "",
+		"addServerHint": "",
 		"copyServerId": "",
+		"serverLastSeen": "",
 		"serverOffline": "",
 		"serverOnline": "",
+		"serverStale": "",
 		"serverSummary": ""
 	},
 	"manage": {
@@ -377,22 +377,29 @@
 		"title": "\"{name}\" 공유"
 	},
 	"shareManager": {
-		"title": "친구 및 공유",
-		"help": "이 라이브러리에 접근할 수 있는 사람, 그들의 활동, 허용된 권한을 확인합니다.",
-		"empty": "아직 아무에게도 공유하지 않았습니다. 아래에서 친구를 추가해 접근 권한을 주세요.",
 		"addFriend": "친구 추가",
-		"revoke": "접근 권한 해제",
 		"directories": "라이브러리:",
-		"thisLibrary": "이 라이브러리",
+		"empty": "아직 아무에게도 공유하지 않았습니다. 아래에서 친구를 추가해 접근 권한을 주세요.",
+		"folders": {
+			"allShared": "",
+			"someWithheld": "",
+			"help": "",
+			"saved": "",
+			"unreachable": ""
+		},
 		"grantAccess": "{name}에게 접근 권한 주기",
-		"removeAccess": "{name}의 접근 권한 해제",
-		"streamingNow": "",
-		"statsLine": "",
+		"help": "이 라이브러리에 접근할 수 있는 사람, 그들의 활동, 허용된 권한을 확인합니다.",
 		"lastPlayed": "마지막 재생 {date}",
-		"updateFailed": "",
+		"removeAccess": "{name}의 접근 권한 해제",
+		"revoke": "접근 권한 해제",
+		"statsLine": "",
+		"streamingNow": "",
+		"thisLibrary": "이 라이브러리",
 		"timeDaysHours": "{days}일 {hours}시간",
 		"timeHoursMinutes": "{hours}시간 {minutes}분",
-		"timeMinutes": "{minutes}분"
+		"timeMinutes": "{minutes}분",
+		"title": "친구 및 공유",
+		"updateFailed": ""
 	},
 	"sidebar": {
 		"pinned": "고정됨",
@@ -400,5 +407,25 @@
 		"yourLibrary": "내 라이브러리",
 		"sharedWithYou": "공유받음"
 	},
-	"trackCount": "{count, plural, other {트랙 #개}}"
+	"trackCount": "{count, plural, other {트랙 #개}}",
+	"tabs": {
+		"music": "",
+		"stats": "통계",
+		"settings": "설정"
+	},
+	"stats": {
+		"plays": "재생 횟수",
+		"listened": "",
+		"reached": "",
+		"reachedValue": "",
+		"listeners": "",
+		"topTracks": "",
+		"topArtists": "인기 아티스트",
+		"topAlbums": "인기 앨범",
+		"trackingSince": "",
+		"empty": {
+			"title": "",
+			"body": ""
+		}
+	}
 }
