@@ -19,7 +19,6 @@
 	},
 	"hero": {
 		"onboardBody": "",
-		"onboardCta": "",
 		"onboardTitle": "Bienvenue sur Chordia",
 		"resumeTitle": "",
 		"seeAll": "Voir tout",
@@ -28,7 +27,6 @@
 	"home": {
 		"empty": {
 			"body": "",
-			"cta": "",
 			"title": ""
 		},
 		"emptyState": "Rien ici pour l'instant — associez un serveur de bibliothèque et votre catalogue apparaîtra.",
