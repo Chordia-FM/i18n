@@ -200,8 +200,10 @@
 		"addLibrary": "Add library",
 		"addServerHint": "To add a server, start Chordia's library server on that machine and open the setup link it prints. Pairing begins there, not here.",
 		"copyServerId": "Copy the server id",
+		"serverLastSeen": "last seen {when}",
 		"serverOffline": "Offline",
 		"serverOnline": "Online",
+		"serverStale": "Not responding",
 		"serverSummary": "{libraries, plural, one {# library} other {# libraries}} · {tracks, plural, one {# track} other {# tracks}}"
 	},
 	"manage": {

@@ -49,7 +49,8 @@
 		"undo": "Undo",
 		"unpin": "Unpin",
 		"verify": "Verify",
-		"view": "View"
+		"view": "View",
+		"viewArtwork": "View artwork"
 	},
 	"appName": "Chordia",
 	"commandPalette": {
