@@ -164,7 +164,8 @@
 		"topTracks": "",
 		"totalPlays": "",
 		"totalPlaysCount": "",
-		"listTabs": ""
+		"listTabs": "",
+		"listeningNow": ""
 	},
 	"report": {
 		"promptMessage": ""
