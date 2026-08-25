@@ -26,6 +26,7 @@
 		"next": "Suivant",
 		"ok": "",
 		"open": "Ouvrir",
+		"openInApp": "",
 		"pause": "",
 		"pin": "Épingler",
 		"play": "Lire",
@@ -49,7 +50,8 @@
 		"undo": "Annuler",
 		"unpin": "Désépingler",
 		"verify": "Vérifier",
-		"view": "Voir"
+		"view": "Voir",
+		"viewArtwork": ""
 	},
 	"appName": "",
 	"commandPalette": {
