@@ -26,6 +26,7 @@
 		"next": "다음",
 		"ok": "확인",
 		"open": "열기",
+		"openInApp": "",
 		"pause": "일시정지",
 		"pin": "고정",
 		"play": "재생",
@@ -49,7 +50,8 @@
 		"undo": "실행 취소",
 		"unpin": "고정 해제",
 		"verify": "인증",
-		"view": "보기"
+		"view": "보기",
+		"viewArtwork": ""
 	},
 	"appName": "",
 	"commandPalette": {
