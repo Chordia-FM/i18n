@@ -218,6 +218,7 @@
 	},
 	"panels": {
 		"activity": "활동",
+		"activityCalendar": "",
 		"byWeekday": "요일별",
 		"clockHeatmap": "요일·시간대별 감상",
 		"decades": "연대별 음악",
