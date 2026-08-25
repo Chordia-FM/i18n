@@ -198,12 +198,12 @@
 		"sharedWithYou": "Partagées avec vous",
 		"title": "Vos bibliothèques",
 		"addLibrary": "Ajouter une bibliothèque",
-		"connectServer": "",
-		"connectServerBody": "",
-		"openSetup": "",
+		"addServerHint": "",
 		"copyServerId": "",
+		"serverLastSeen": "",
 		"serverOffline": "",
 		"serverOnline": "",
+		"serverStale": "",
 		"serverSummary": ""
 	},
 	"manage": {
@@ -377,22 +377,29 @@
 		"title": "Partager « {name} »"
 	},
 	"shareManager": {
-		"title": "Amis et partage",
-		"help": "Qui a accès à cette bibliothèque, ce qu'ils en font et ce qu'ils sont autorisés à faire.",
-		"empty": "Partagée avec personne pour l'instant. Ajoutez un ami ci-dessous pour lui donner accès.",
 		"addFriend": "Ajouter un ami",
-		"revoke": "Retirer l'accès",
 		"directories": "Bibliothèques :",
-		"thisLibrary": "Cette bibliothèque",
+		"empty": "Partagée avec personne pour l'instant. Ajoutez un ami ci-dessous pour lui donner accès.",
+		"folders": {
+			"allShared": "",
+			"someWithheld": "",
+			"help": "",
+			"saved": "",
+			"unreachable": ""
+		},
 		"grantAccess": "Donner accès à {name}",
-		"removeAccess": "Retirer l'accès à {name}",
-		"streamingNow": "",
-		"statsLine": "",
+		"help": "Qui a accès à cette bibliothèque, ce qu'ils en font et ce qu'ils sont autorisés à faire.",
 		"lastPlayed": "dernière écoute {date}",
-		"updateFailed": "",
+		"removeAccess": "Retirer l'accès à {name}",
+		"revoke": "Retirer l'accès",
+		"statsLine": "",
+		"streamingNow": "",
+		"thisLibrary": "Cette bibliothèque",
 		"timeDaysHours": "{days}j {hours}h",
 		"timeHoursMinutes": "{hours}h {minutes}min",
-		"timeMinutes": "{minutes}min"
+		"timeMinutes": "{minutes}min",
+		"title": "Amis et partage",
+		"updateFailed": ""
 	},
 	"sidebar": {
 		"pinned": "Épinglés",
@@ -400,5 +407,25 @@
 		"yourLibrary": "Votre bibliothèque",
 		"sharedWithYou": "Partagées avec vous"
 	},
-	"trackCount": "{count, plural, one {# morceau} other {# morceaux}}"
+	"trackCount": "{count, plural, one {# morceau} other {# morceaux}}",
+	"tabs": {
+		"music": "",
+		"stats": "Statistiques",
+		"settings": "Paramètres"
+	},
+	"stats": {
+		"plays": "Écoutes",
+		"listened": "",
+		"reached": "",
+		"reachedValue": "",
+		"listeners": "",
+		"topTracks": "",
+		"topArtists": "Top artistes",
+		"topAlbums": "",
+		"trackingSince": "",
+		"empty": {
+			"title": "",
+			"body": ""
+		}
+	}
 }
