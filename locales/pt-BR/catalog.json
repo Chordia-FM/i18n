@@ -268,5 +268,11 @@
 			"single_version": ""
 		}
 	},
-	"trackCount": "{count, plural, one {# faixa} other {# faixas}}"
+	"trackCount": "{count, plural, one {# faixa} other {# faixas}}",
+	"credits": {
+		"title": "",
+		"empty": "",
+		"failed": "",
+		"coverage": ""
+	}
 }
