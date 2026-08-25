@@ -164,7 +164,8 @@
 		"topTracks": "トップトラック",
 		"totalPlays": "{count, plural, other {#回再生}}",
 		"totalPlaysCount": "",
-		"listTabs": ""
+		"listTabs": "",
+		"listeningNow": "再生中"
 	},
 	"report": {
 		"promptMessage": ""
