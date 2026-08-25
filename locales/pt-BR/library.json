@@ -198,12 +198,12 @@
 		"sharedWithYou": "Compartilhadas com você",
 		"title": "Suas bibliotecas",
 		"addLibrary": "Adicionar biblioteca",
-		"connectServer": "",
-		"connectServerBody": "",
-		"openSetup": "",
+		"addServerHint": "",
 		"copyServerId": "",
+		"serverLastSeen": "",
 		"serverOffline": "",
 		"serverOnline": "",
+		"serverStale": "",
 		"serverSummary": ""
 	},
 	"manage": {
@@ -377,22 +377,29 @@
 		"title": "Compartilhar \"{name}\""
 	},
 	"shareManager": {
-		"title": "Amigos e compartilhamento",
-		"help": "Quem tem acesso a esta biblioteca, o que essas pessoas estão fazendo com ela e o que elas podem fazer.",
-		"empty": "Ainda não foi compartilhada com ninguém. Adicione um amigo abaixo para dar acesso a ele.",
 		"addFriend": "Adicionar amigo",
-		"revoke": "Remover acesso",
 		"directories": "Bibliotecas:",
-		"thisLibrary": "Esta biblioteca",
+		"empty": "Ainda não foi compartilhada com ninguém. Adicione um amigo abaixo para dar acesso a ele.",
+		"folders": {
+			"allShared": "",
+			"someWithheld": "",
+			"help": "",
+			"saved": "",
+			"unreachable": ""
+		},
 		"grantAccess": "Dar acesso a {name}",
-		"removeAccess": "Remover o acesso de {name}",
-		"streamingNow": "",
-		"statsLine": "",
+		"help": "Quem tem acesso a esta biblioteca, o que essas pessoas estão fazendo com ela e o que elas podem fazer.",
 		"lastPlayed": "ouviu pela última vez {date}",
-		"updateFailed": "",
+		"removeAccess": "Remover o acesso de {name}",
+		"revoke": "Remover acesso",
+		"statsLine": "",
+		"streamingNow": "",
+		"thisLibrary": "Esta biblioteca",
 		"timeDaysHours": "",
 		"timeHoursMinutes": "",
-		"timeMinutes": ""
+		"timeMinutes": "",
+		"title": "Amigos e compartilhamento",
+		"updateFailed": ""
 	},
 	"sidebar": {
 		"pinned": "Fixados",
@@ -400,5 +407,25 @@
 		"yourLibrary": "Sua biblioteca",
 		"sharedWithYou": "Compartilhadas com você"
 	},
-	"trackCount": "{count, plural, one {# faixa} other {# faixas}}"
+	"trackCount": "{count, plural, one {# faixa} other {# faixas}}",
+	"tabs": {
+		"music": "",
+		"stats": "Estatísticas",
+		"settings": "Configurações"
+	},
+	"stats": {
+		"plays": "Reproduções",
+		"listened": "",
+		"reached": "",
+		"reachedValue": "",
+		"listeners": "",
+		"topTracks": "",
+		"topArtists": "Principais artistas",
+		"topAlbums": "Principais álbuns",
+		"trackingSince": "",
+		"empty": {
+			"title": "",
+			"body": ""
+		}
+	}
 }
