@@ -198,12 +198,12 @@
 		"sharedWithYou": "",
 		"title": "",
 		"addLibrary": "",
-		"connectServer": "",
-		"connectServerBody": "",
-		"openSetup": "",
+		"addServerHint": "",
 		"copyServerId": "",
+		"serverLastSeen": "",
 		"serverOffline": "",
 		"serverOnline": "",
+		"serverStale": "",
 		"serverSummary": ""
 	},
 	"manage": {
@@ -377,22 +377,29 @@
 		"title": ""
 	},
 	"shareManager": {
-		"title": "",
-		"help": "",
-		"empty": "",
 		"addFriend": "",
-		"revoke": "",
 		"directories": "",
-		"thisLibrary": "",
+		"empty": "",
+		"folders": {
+			"allShared": "",
+			"someWithheld": "",
+			"help": "",
+			"saved": "",
+			"unreachable": ""
+		},
 		"grantAccess": "",
-		"removeAccess": "",
-		"streamingNow": "",
-		"statsLine": "",
+		"help": "",
 		"lastPlayed": "",
-		"updateFailed": "",
+		"removeAccess": "",
+		"revoke": "",
+		"statsLine": "",
+		"streamingNow": "",
+		"thisLibrary": "",
 		"timeDaysHours": "",
 		"timeHoursMinutes": "",
-		"timeMinutes": ""
+		"timeMinutes": "",
+		"title": "",
+		"updateFailed": ""
 	},
 	"sidebar": {
 		"pinned": "",
@@ -400,5 +407,25 @@
 		"yourLibrary": "",
 		"sharedWithYou": ""
 	},
-	"trackCount": ""
+	"trackCount": "",
+	"tabs": {
+		"music": "",
+		"stats": "Statistics",
+		"settings": ""
+	},
+	"stats": {
+		"plays": "",
+		"listened": "",
+		"reached": "",
+		"reachedValue": "",
+		"listeners": "",
+		"topTracks": "",
+		"topArtists": "",
+		"topAlbums": "",
+		"trackingSince": "",
+		"empty": {
+			"title": "",
+			"body": ""
+		}
+	}
 }
