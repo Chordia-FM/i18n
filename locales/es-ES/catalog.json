@@ -169,7 +169,6 @@
 			"note": "Nota para los revisores (opcional)"
 		},
 		"genresHint": "Separa varios géneros con comas.",
-		"helpText": "Edita abajo los datos de {name}. Guarda los cambios al instante en una biblioteca tuya o envíalos como sugerencia para todos (las revisa un administrador). Solo se envían los campos modificados.",
 		"imageAlt": "Imagen del artista",
 		"libraryTarget": "Elige en qué biblioteca guardar",
 		"noteHint": "Solo se envía con una sugerencia. Cualquier cosa que ayude a los revisores (por ejemplo, un enlace a la fuente).",

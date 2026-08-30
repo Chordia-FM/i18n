@@ -70,6 +70,91 @@ export const NAMESPACES: string[] = Object.keys(resources[DEFAULT_LOCALE] ?? {})
  * Curated native display names for the picker. Anything not listed is derived automatically via
  * `localeName()` (so a new regional variant from Crowdin shows a real name with no code change).
  */
+/**
+ * Where someone can help translate. Public crowdsourcing page for the Crowdin project.
+ *
+ * Lives here rather than in a client because every surface that offers a language picker wants it,
+ * and because it belongs next to the catalogs it is about.
+ */
+export const TRANSLATION_PROJECT_URL = "https://naila.crowdin.com/chordia";
+
+/** How much of the source catalog a locale actually supplies. */
+export interface LocaleCoverage {
+	/** Keys this catalog holds that the source also has. */
+	translated: number;
+	/** Keys in the source catalog. */
+	total: number;
+	/** 0-100. `undefined` for an override-only catalog, where a percentage means nothing. */
+	percent?: number;
+	/**
+	 * True when this catalog only overrides a base language that is itself shipped.
+	 *
+	 * `en-GB` has `en` behind it, so its 32 keys are the whole job and "1% translated" would be a
+	 * lie. `pt-BR` has no `pt` catalog to fall back to, so it resolves straight to English and its
+	 * gaps are real gaps. Same rule the catalog check uses; the two must agree or the settings
+	 * screen and CI will describe the same locale differently.
+	 */
+	overridesOnly: boolean;
+}
+
+const coverageCache = new Map<string, LocaleCoverage>();
+
+/**
+ * Count what a locale covers, from the catalogs themselves.
+ *
+ * Derived rather than generated into a file on purpose: a checked-in number is a number that can
+ * disagree with the catalogs beside it, and this one is cheap — a few thousand key comparisons,
+ * once, the first time a language picker asks.
+ */
+export function localeCoverage(locale: string): LocaleCoverage {
+	const cached = coverageCache.get(locale);
+	if (cached) return cached;
+
+	const source = resources[DEFAULT_LOCALE] ?? {};
+	const target = resources[locale] ?? {};
+	let total = 0;
+	let translated = 0;
+	for (const [ns, keys] of Object.entries(source)) {
+		const flatSource = flattenKeys(keys);
+		total += flatSource.size;
+		const flatTarget = flattenKeys(target[ns] ?? {});
+		for (const key of flatSource) if (flatTarget.has(key)) translated++;
+	}
+
+	const base = locale.split("-")[0];
+	const overridesOnly =
+		locale.includes("-") && locale !== base && base in resources;
+
+	const result: LocaleCoverage = {
+		translated,
+		total,
+		overridesOnly,
+		percent:
+			overridesOnly || total === 0
+				? undefined
+				: Math.round((translated / total) * 100),
+	};
+	coverageCache.set(locale, result);
+	return result;
+}
+
+/** Dotted leaf keys of one namespace, so nested objects compare like the check's flatten does. */
+function flattenKeys(
+	node: Record<string, unknown>,
+	prefix = "",
+	out = new Set<string>(),
+): Set<string> {
+	for (const [k, v] of Object.entries(node)) {
+		const key = prefix ? `${prefix}.${k}` : k;
+		if (v && typeof v === "object" && !Array.isArray(v)) {
+			flattenKeys(v as Record<string, unknown>, key, out);
+		} else {
+			out.add(key);
+		}
+	}
+	return out;
+}
+
 export const LOCALE_NAMES: Record<string, string> = {
 	en: "English",
 	// Curated because the derived names read as bureaucracy once the tags carry a region:

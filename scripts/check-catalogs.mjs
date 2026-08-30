@@ -495,6 +495,23 @@ if (import.meta.url === pathToFileURL(process.argv[1]).href) {
 						errors++;
 					}
 				}
+				// ...and INVENTING one is the same bug seen from the other side, with a nastier cause.
+				// It means the translation is of a PREVIOUS version of this string: Crowdin keeps a
+				// translation when its source is edited, so rewording the English silently leaves every
+				// locale describing the old copy. `catalog:report.helpText` sat like that in six
+				// languages — the English lost its {name} in a rewrite and the translations kept it.
+				//
+				// That one happened to stay harmless because the call site still passes `name`. The
+				// same staleness the other way round drops a value the reader needed, and nothing says
+				// so at runtime; i18next renders the literal text and moves on.
+				for (const p of got) {
+					if (!want.has(p)) {
+						problems.push(
+							`${locale}/${ns}: ${key} invents placeholder {${p}} — the source has no such argument, so this is a translation of an older version of the string`,
+						);
+						errors++;
+					}
+				}
 				// A category outside the language's CLDR set never matches, so that branch is dead and
 				// the string falls through to `other` — silently, at runtime, only for some counts.
 				// Plural and ordinal have different category sets; `=0`-style exact matches are

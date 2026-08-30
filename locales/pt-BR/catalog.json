@@ -171,7 +171,6 @@
 			"note": "Observação para os revisores (opcional)"
 		},
 		"genresHint": "Separe vários gêneros por vírgulas.",
-		"helpText": "Edite os dados de {name} abaixo. Salve as alterações numa biblioteca sua na hora, ou envie como sugestão para todo mundo (um administrador revisa). Só os campos alterados são enviados.",
 		"imageAlt": "Imagem do artista",
 		"libraryTarget": "Escolha em qual biblioteca salvar",
 		"noteHint": "Enviada apenas junto com uma sugestão. Qualquer coisa que ajude os revisores (um link da fonte, por exemplo).",
