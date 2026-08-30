@@ -159,7 +159,8 @@
 		},
 		"autoRescanEvery": "rescans every {count, plural, one {# minute} other {# minutes}}",
 		"lastScanned": "Last scanned {date, date, medium} at {date, time, short}",
-		"lastScanUnknown": "Not scanned since this server started"
+		"lastScanUnknown": "Not scanned since this server started",
+		"foldersHint": "Unticking a folder removes it from the library for everyone, at the next scan. The files stay on disk."
 	},
 	"hidden": {
 		"hide": "Hide this song",
@@ -427,5 +428,11 @@
 			"title": "Nothing played yet",
 			"body": "Once anyone streams from this library, whether you or someone you share it with, this is where it shows up."
 		}
+	},
+	"folders": {
+		"search": "Search folders",
+		"noMatches": "No folder matches “{query}”",
+		"none": "No sub-folders",
+		"hiddenCount": "{count, plural, one {# folder hidden} other {# folders hidden}}"
 	}
 }
