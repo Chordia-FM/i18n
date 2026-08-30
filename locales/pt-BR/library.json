@@ -159,7 +159,8 @@
 		},
 		"autoRescanEvery": "",
 		"lastScanned": "",
-		"lastScanUnknown": ""
+		"lastScanUnknown": "",
+		"foldersHint": ""
 	},
 	"hidden": {
 		"hide": "Ocultar esta música",
@@ -385,7 +386,8 @@
 			"someWithheld": "",
 			"help": "",
 			"saved": "",
-			"unreachable": ""
+			"unreachable": "",
+			"title": ""
 		},
 		"grantAccess": "Dar acesso a {name}",
 		"help": "Quem tem acesso a esta biblioteca, o que essas pessoas estão fazendo com ela e o que elas podem fazer.",
@@ -427,5 +429,11 @@
 			"title": "",
 			"body": ""
 		}
+	},
+	"folders": {
+		"search": "",
+		"noMatches": "",
+		"none": "",
+		"hiddenCount": ""
 	}
 }
