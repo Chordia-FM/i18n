@@ -386,7 +386,8 @@
 			"someWithheld": "{count, plural, one {# folder withheld} other {# folders withheld}}",
 			"help": "Untick a folder to keep it from this person. It stays in your library and everyone else can still play it.",
 			"saved": "Folder access updated for {name}.",
-			"unreachable": "Couldn't reach the library server, so folders can't be changed from here."
+			"unreachable": "Couldn't reach the library server, so folders can't be changed from here.",
+			"title": "Folder access"
 		},
 		"grantAccess": "Give access to {name}",
 		"help": "Who has access to this library, what they're doing with it, and what they're allowed to do.",
