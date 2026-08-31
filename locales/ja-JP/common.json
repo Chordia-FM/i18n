@@ -117,7 +117,9 @@
 	},
 	"language": {
 		"description": "インターフェース全体で使用する言語。",
-		"label": "言語"
+		"label": "言語",
+		"machineTranslated": "",
+		"help": ""
 	},
 	"menu": {
 		"back": "戻る",
