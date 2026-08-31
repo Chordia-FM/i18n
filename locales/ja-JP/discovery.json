@@ -22,7 +22,8 @@
 		"onboardTitle": "Chordiaへようこそ",
 		"resumeTitle": "",
 		"seeAll": "すべて表示",
-		"startTitle": ""
+		"startTitle": "",
+		"onboardCta": ""
 	},
 	"home": {
 		"empty": {
