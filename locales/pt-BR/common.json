@@ -117,7 +117,9 @@
 	},
 	"language": {
 		"description": "Idioma usado em toda a interface.",
-		"label": "Idioma"
+		"label": "Idioma",
+		"machineTranslated": "",
+		"help": ""
 	},
 	"menu": {
 		"back": "Voltar",
