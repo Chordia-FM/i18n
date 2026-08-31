@@ -22,7 +22,8 @@
 		"onboardTitle": "Chordia에 오신 것을 환영합니다",
 		"resumeTitle": "",
 		"seeAll": "모두 보기",
-		"startTitle": ""
+		"startTitle": "",
+		"onboardCta": ""
 	},
 	"home": {
 		"empty": {
