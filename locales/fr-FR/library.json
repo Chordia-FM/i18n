@@ -205,7 +205,10 @@
 		"serverOffline": "",
 		"serverOnline": "",
 		"serverStale": "",
-		"serverSummary": ""
+		"serverSummary": "",
+		"connectServer": "",
+		"connectServerBody": "",
+		"openSetup": ""
 	},
 	"manage": {
 		"title": "",
