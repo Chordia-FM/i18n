@@ -22,7 +22,8 @@
 		"onboardTitle": "Willkommen bei Chordia",
 		"resumeTitle": "",
 		"seeAll": "Alle anzeigen",
-		"startTitle": ""
+		"startTitle": "",
+		"onboardCta": ""
 	},
 	"home": {
 		"empty": {
