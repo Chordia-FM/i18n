@@ -117,7 +117,9 @@
 	},
 	"language": {
 		"description": "Sprache der gesamten Benutzeroberfläche.",
-		"label": "Sprache"
+		"label": "Sprache",
+		"machineTranslated": "",
+		"help": ""
 	},
 	"menu": {
 		"back": "Zurück",
