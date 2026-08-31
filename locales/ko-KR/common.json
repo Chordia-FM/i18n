@@ -117,7 +117,9 @@
 	},
 	"language": {
 		"description": "인터페이스 전체에 사용할 언어입니다.",
-		"label": "언어"
+		"label": "언어",
+		"machineTranslated": "",
+		"help": ""
 	},
 	"menu": {
 		"back": "뒤로",
