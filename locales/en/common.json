@@ -117,7 +117,9 @@
 	},
 	"language": {
 		"description": "Language used across the interface.",
-		"label": "Language"
+		"label": "Language",
+		"machineTranslated": "{language} is about {percent}% translated, by machine, and nobody has reviewed it yet. The rest falls back to English.",
+		"help": "Help translate Chordia"
 	},
 	"menu": {
 		"back": "Back",

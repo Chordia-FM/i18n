@@ -27,6 +27,8 @@ import {
 } from "node:fs";
 import { join } from "node:path";
 
+import { makeSourceLookup, pruneStale } from "./stale.mjs";
+
 const ROOT = new URL("../locales", import.meta.url).pathname.replace(
 	/^\/([A-Z]:)/,
 	"$1",
@@ -82,6 +84,9 @@ if (run.status !== 0) {
 
 let removed = 0;
 let files = 0;
+/** Translations dropped because their placeholders no longer match the English. */
+const staleKeys = [];
+const sourceOf = makeSourceLookup(ROOT, SOURCE);
 /** Namespaces that held nothing but untranslated strings, so the file was dropped entirely. */
 const emptied = [];
 for (const locale of readdirSync(ROOT)) {
@@ -98,7 +103,9 @@ for (const locale of readdirSync(ROOT)) {
 			continue;
 		}
 		const n = prune(json);
-		if (n === 0) continue;
+		const stale = pruneStale(json, ns, sourceOf);
+		for (const key of stale) staleKeys.push(`${locale}/${ns}: ${key}`);
+		if (n === 0 && stale.length === 0) continue;
 		removed += n;
 		files += 1;
 		// Crowdin exports all 16 namespaces for every target language regardless of coverage, so a
@@ -123,6 +130,14 @@ console.log(
 				"Each one is an untranslated string, and omitting the key is what lets it fall back to English."
 		: "\nNo empty values in the download.",
 );
+if (staleKeys.length) {
+	console.log(
+		`\nDropped ${staleKeys.length} translation(s) whose placeholders no longer match the English. ` +
+			"Each was written against an older version of its source string, so it falls back to English " +
+			"until Crowdin re-translates the current one:",
+	);
+	console.log(staleKeys.map((k) => `  ${k}`).join("\n"));
+}
 if (emptied.length) {
 	console.log(
 		`Removed ${emptied.length} catalog(s) with no translations at all: ${emptied.join(", ")}`,

@@ -154,7 +154,6 @@
 			"note": "Hinweis für Prüfer (optional)"
 		},
 		"genresHint": "Trennen Sie mehrere Genres durch Kommas.",
-		"helpText": "Bearbeiten Sie unten die Details zu {name}. Speichern Sie Änderungen sofort in einer eigenen Bibliothek oder reichen Sie sie als Vorschlag für alle ein (ein Administrator prüft diese). Es werden nur geänderte Felder gesendet.",
 		"imageAlt": "Künstlerbild",
 		"libraryTarget": "Zielbibliothek auswählen",
 		"noteHint": "Wird nur mit einem Vorschlag gesendet. Alles, was den Prüfern hilft (z. B. ein Quellenlink).",

@@ -97,7 +97,6 @@
 			"note": "Note fer reviewers (optional)"
 		},
 		"genresHint": "Separate multiple genres wi' commas.",
-		"helpText": "Edit {name}'s details below. Stow changes t' a hoard ye own instantly, or submit 'em as a suggestion fer all hands (an admin reviews those). Only changed fields be sent.",
 		"libraryTarget": "Choose which hoard t' stow t'",
 		"noteHint": "Only sent wi' a suggestion. Anythin' that helps reviewers (e.g. a source link).",
 		"saveFailed": "Couldn't stow yer changes.",
