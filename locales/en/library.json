@@ -205,7 +205,10 @@
 		"serverOffline": "Offline",
 		"serverOnline": "Online",
 		"serverStale": "Not responding",
-		"serverSummary": "{libraries, plural, one {# library} other {# libraries}} · {tracks, plural, one {# track} other {# tracks}}"
+		"serverSummary": "{libraries, plural, one {# library} other {# libraries}} · {tracks, plural, one {# track} other {# tracks}}",
+		"connectServer": "Pair a server",
+		"connectServerBody": "A server is a machine of yours running Chordia’s library server. Start it on that machine, then pair it here to reach the music on it.",
+		"openSetup": "Pair a server"
 	},
 	"manage": {
 		"title": "Manage library",

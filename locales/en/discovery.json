@@ -22,7 +22,8 @@
 		"onboardTitle": "Welcome to Chordia",
 		"resumeTitle": "Pick up where you left off",
 		"seeAll": "See all",
-		"startTitle": "Put something on"
+		"startTitle": "Put something on",
+		"onboardCta": "Pair a library"
 	},
 	"home": {
 		"empty": {
