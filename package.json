@@ -22,7 +22,7 @@
 		"check": "node scripts/check-catalogs.test.mjs && node scripts/check-catalogs.mjs"
 	},
 	"devDependencies": {
-		"@crowdin/cli": "^4.15.0",
+		"@crowdin/cli": "^5.0.0",
 		"@formatjs/icu-messageformat-parser": "^3.5.15"
 	}
 }
