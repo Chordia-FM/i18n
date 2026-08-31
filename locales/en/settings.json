@@ -120,6 +120,12 @@
 		"title": "Your data"
 	},
 	"desktop": {
+		"audio": {
+			"desc": "Chordia decodes and plays the music itself instead of handing it to the built-in browser. Windows then sees the sound as coming from Chordia, so apps that route audio per program, like SteelSeries Sonar or Voicemeeter, can finally reach it, and a file can get to your speakers untouched.",
+			"label": "Play audio natively",
+			"title": "Audio engine",
+			"tradeoff": "Crossfade, the equalizer and the visualizer don't work yet with this on, and downloaded songs still play the old way. Takes effect on the next song."
+		},
 		"close": {
 			"desc": "Chordia can keep playing in the background. Closing quits instead if your desktop has no tray.",
 			"quit": "Quit",
