@@ -1,0 +1,16 @@
+# Without this file nothing here ever gets bumped, and it showed: every other repo moved to
+# `actions/checkout@v7` through Dependabot while this one sat on v4, because there was nothing to
+# move it. Same for `setup-node`. The catalogs themselves have no runtime dependencies, so the
+# whole surface is the two devDependencies and the workflow actions -- small, and precisely the
+# kind of small that goes unnoticed for a year.
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: "/"
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: weekly
