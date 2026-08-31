@@ -117,7 +117,9 @@
 	},
 	"language": {
 		"description": "Langue utilisée dans l'interface.",
-		"label": "Langue"
+		"label": "Langue",
+		"machineTranslated": "",
+		"help": ""
 	},
 	"menu": {
 		"back": "Retour",
