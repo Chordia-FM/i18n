@@ -3,14 +3,29 @@
 // Single source of truth for every Chordia surface (frontend now, mobile/desktop later). The Rust
 // crate in this same package serves the backend off the same `locales/` files. Crowdin syncs only
 // `locales/`. This JS entry exposes the catalogs i18next-shaped, plus the supported-locale list.
-
-// Eager-glob every catalog: locales/<lng>/<ns>.json. This is a Vite feature, and the only JS
-// consumer is the Vite frontend. A new locale directory (e.g. from a Crowdin download) is picked
-// up automatically.
-const modules = import.meta.glob("./locales/*/*.json", {
+//
+// ## The source locale is eager; every other one is fetched when it is wanted
+//
+// Globbing all of them eagerly put 1.2 MB of catalogs into the client bundle so that each visitor
+// could use roughly 185 KB of it. Nine languages downloaded by everyone, including two joke
+// locales that are 274 KB between them, on the chance that one of them is the one you asked for.
+//
+// `en` stays eager and cannot become lazy: it is the fallback every other catalog resolves missing
+// keys through, it is the source `localeCoverage` measures against, and the server-error titles in
+// `problem.ts` read it synchronously. The rest are dynamic imports, which Vite splits into a chunk
+// per file and fetches only for the locale in use.
+//
+// A new locale directory (e.g. from a Crowdin download) is still picked up with no code change.
+const eager = import.meta.glob("./locales/en/*.json", {
 	eager: true,
 	import: "default",
 }) as Record<string, Record<string, unknown>>;
+
+// The negative pattern is what stops `en` being emitted a second time as a lazy chunk. Without it
+// every English catalog exists twice in the build: once inlined, once as a chunk nothing fetches.
+const lazy = import.meta.glob(["./locales/*/*.json", "!./locales/en/*.json"], {
+	import: "default",
+}) as Record<string, () => Promise<Record<string, unknown>>>;
 
 /** i18next-shaped resources: `{ en: { common: {…}, player: {…} }, es: {…} }`. */
 export type Resources = Record<string, Record<string, Record<string, unknown>>>;
@@ -25,17 +40,106 @@ function canonicalDir(dir: string): string {
 	}
 }
 
-export const resources: Resources = {};
-for (const [path, json] of Object.entries(modules)) {
+/** `./locales/de-DE/player.json` becomes `["de-DE", "player"]`, or null for anything else. */
+function parsePath(path: string): [string, string] | null {
 	const m = path.match(/\.\/locales\/([^/]+)\/([^/]+)\.json$/);
-	if (!m) continue;
-	const [, lng, ns] = m;
-	const key = canonicalDir(lng);
-	resources[key] ??= {};
-	resources[key][ns] = json;
+	return m ? [canonicalDir(m[1]), m[2]] : null;
+}
+
+/**
+ * Catalogs currently in memory.
+ *
+ * `en` is always here. Everything else appears once {@link loadLocale} has fetched it, so reading
+ * `resources[locale]` without loading it first gets `undefined` rather than a catalog — which is
+ * why the two places that read this directly (i18next init and the server-error titles) run after
+ * the root route has loaded the active locale.
+ *
+ * On an SSR server this is module state shared by every request, so it accumulates catalogs as
+ * different visitors arrive and settles at the full set. That is a cache rather than a leak: the
+ * contents are the same read-only files for everybody and nothing here is per-request. Which
+ * locale a given render USES is decided by the `lng` passed to i18next, not by what is in here.
+ */
+export const resources: Resources = {};
+for (const [path, json] of Object.entries(eager)) {
+	const parsed = parsePath(path);
+	if (!parsed) continue;
+	const [lng, ns] = parsed;
+	resources[lng] ??= {};
+	resources[lng][ns] = json;
 }
 
 export const DEFAULT_LOCALE = "en";
+
+/** In-flight loads, so ten components asking at once cause one fetch rather than ten. */
+const pending = new Map<string, Promise<void>>();
+
+/** Whether a locale's catalogs are in memory and can be read synchronously. */
+export function isLocaleLoaded(locale: string): boolean {
+	return locale in resources;
+}
+
+/**
+ * Put catalogs into {@link resources} without fetching them.
+ *
+ * For the case where they arrived by some other route than a dynamic import — the SSR document
+ * inlines the active locale so the client has it before hydration, and re-fetching what is already
+ * in the page would be a request for bytes already paid for.
+ */
+export function adoptCatalogs(
+	locale: string,
+	catalogs: Record<string, Record<string, unknown>>,
+): void {
+	const key = canonicalDir(locale);
+	resources[key] = { ...catalogs, ...resources[key] };
+	pending.set(key, Promise.resolve());
+}
+
+/**
+ * Fetch one locale's catalogs into {@link resources}.
+ *
+ * Idempotent and safe to call for `en` or for anything unrecognised: both resolve immediately
+ * without a request. Failures resolve rather than reject -- a catalog that will not load leaves
+ * i18next to fall back to English, which is a degraded interface rather than a broken one, and
+ * throwing here would take the route load down with it.
+ */
+export function loadLocale(locale: string): Promise<void> {
+	const key = canonicalDir(locale);
+	if (isLocaleLoaded(key)) return Promise.resolve();
+	const existing = pending.get(key);
+	if (existing) return existing;
+
+	const entries = Object.entries(lazy).filter(
+		([path]) => parsePath(path)?.[0] === key,
+	);
+	if (entries.length === 0) return Promise.resolve();
+
+	const load = Promise.all(
+		entries.map(async ([path, importer]) => {
+			const ns = parsePath(path)?.[1];
+			if (!ns) return;
+			try {
+				const json = await importer();
+				resources[key] ??= {};
+				resources[key][ns] = json;
+			} catch {
+				// One namespace missing is a gap i18next fills from English, not a reason to fail.
+			}
+		}),
+	).then(() => {});
+	pending.set(key, load);
+	return load;
+}
+
+/**
+ * Fetch every catalog.
+ *
+ * Exists for the language picker, which shows a coverage percentage for each locale and therefore
+ * genuinely needs all of them. That is the whole 1.2 MB -- paid once, by someone who opened the
+ * language settings, instead of by everyone on first paint.
+ */
+export function loadAllLocales(): Promise<void> {
+	return Promise.all(SUPPORTED_LOCALES.map(loadLocale)).then(() => {});
+}
 
 /**
  * Locales we ship catalogs for, source `en` first then the rest alphabetically.
@@ -51,7 +155,13 @@ export const DEFAULT_LOCALE = "en";
  * browser asking for `de` gets `de-DE`. `en-GB` is the one true override catalog — it has `en`
  * behind it, so it carries only the keys where British spelling differs.
  */
-export const SUPPORTED_LOCALES: string[] = Object.keys(resources).sort((a, b) =>
+export const SUPPORTED_LOCALES: string[] = [
+	...new Set(
+		[...Object.keys(eager), ...Object.keys(lazy)]
+			.map((path) => parsePath(path)?.[0])
+			.filter((l): l is string => Boolean(l)),
+	),
+].sort((a, b) =>
 	a === DEFAULT_LOCALE ? -1 : b === DEFAULT_LOCALE ? 1 : a.localeCompare(b),
 );
 
@@ -63,7 +173,12 @@ function baseLang(tag: string): string {
 	return tag.toLowerCase().split("-")[0];
 }
 
-/** Namespaces present in the source locale (e.g. "common", "player"). */
+/**
+ * Namespaces present in the source locale (e.g. "common", "player").
+ *
+ * From the eager catalog rather than from whatever happens to be loaded, so this is the same list
+ * on the first render as on the hundredth.
+ */
 export const NAMESPACES: string[] = Object.keys(resources[DEFAULT_LOCALE] ?? {});
 
 /**
@@ -112,6 +227,10 @@ export function localeCoverage(locale: string): LocaleCoverage {
 
 	const source = resources[DEFAULT_LOCALE] ?? {};
 	const target = resources[locale] ?? {};
+	// Not loaded yet is not the same as empty. Counting an absent catalog would report a real
+	// language as 0% translated, and caching that would keep saying so after it arrived -- so this
+	// answers "unknown" and, crucially, does not remember the answer.
+	const known = isLocaleLoaded(locale);
 	let total = 0;
 	let translated = 0;
 	for (const [ns, keys] of Object.entries(source)) {
@@ -122,19 +241,22 @@ export function localeCoverage(locale: string): LocaleCoverage {
 	}
 
 	const base = locale.split("-")[0];
+	// Against the shipped list, not against what is loaded. `base in resources` used to mean the
+	// same thing when every catalog was in memory; with lazy loading it would call `en-GB` an
+	// override-only catalog or not depending on whether `en` happened to be loaded yet.
 	const overridesOnly =
-		locale.includes("-") && locale !== base && base in resources;
+		locale.includes("-") && locale !== base && SUPPORTED_LOCALES.includes(base);
 
 	const result: LocaleCoverage = {
 		translated,
 		total,
 		overridesOnly,
 		percent:
-			overridesOnly || total === 0
+			overridesOnly || total === 0 || !known
 				? undefined
 				: Math.round((translated / total) * 100),
 	};
-	coverageCache.set(locale, result);
+	if (known) coverageCache.set(locale, result);
 	return result;
 }
 
