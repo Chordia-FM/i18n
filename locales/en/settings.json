@@ -122,9 +122,19 @@
 	"desktop": {
 		"audio": {
 			"desc": "Chordia decodes and plays the music itself instead of handing it to the built-in browser. Windows then sees the sound as coming from Chordia, so apps that route audio per program, like SteelSeries Sonar or Voicemeeter, can finally reach it, and a file can get to your speakers untouched.",
+			"exclusive": {
+				"label": "Take over the sound device",
+				"desc": "Chordia holds the device for itself and sends the music straight to it, with the Windows mixer out of the way. Nothing else on the computer can make a sound while it plays: not another app, not notifications.",
+				"needsNative": "Available when Chordia is playing audio natively.",
+				"device": "Device to take",
+				"systemDefault": "System default",
+				"deviceDefault": "{name} (default)",
+				"deviceHint": "Using a mixer like SteelSeries Sonar or Voicemeeter? Pick the real headphones or speakers here. Those apps hold the hardware and hand out stand-ins, so the default output is one Chordia cannot take over.",
+				"fallback": "If a device will not allow it, Chordia goes back to normal playback rather than going quiet. Some devices only accept one rate, and music at any other is converted once here instead of twice by Windows."
+			},
 			"label": "Play audio natively",
 			"title": "Audio engine",
-			"tradeoff": "Crossfade, the equalizer and the visualizer don't work yet with this on, and downloaded songs still play the old way. Takes effect on the next song."
+			"tradeoff": "Downloaded songs still play the old way, and anything Chordia cannot decode itself falls back on its own. Takes effect on the next song."
 		},
 		"close": {
 			"desc": "Chordia can keep playing in the background. Closing quits instead if your desktop has no tray.",
