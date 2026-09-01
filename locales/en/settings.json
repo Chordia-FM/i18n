@@ -134,7 +134,7 @@
 			},
 			"label": "Play audio natively",
 			"title": "Audio engine",
-			"tradeoff": "The visualizer does not run with this on, and downloaded songs still play the old way. Takes effect on the next song."
+			"tradeoff": "Downloaded songs still play the old way, and anything Chordia cannot decode itself falls back on its own. Takes effect on the next song."
 		},
 		"close": {
 			"desc": "Chordia can keep playing in the background. Closing quits instead if your desktop has no tray.",
