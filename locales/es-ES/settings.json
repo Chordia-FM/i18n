@@ -122,6 +122,16 @@
 	"desktop": {
 		"audio": {
 			"desc": "",
+			"exclusive": {
+				"label": "",
+				"desc": "",
+				"needsNative": "",
+				"device": "",
+				"systemDefault": "",
+				"deviceDefault": "",
+				"deviceHint": "",
+				"fallback": ""
+			},
 			"label": "",
 			"title": "",
 			"tradeoff": ""
