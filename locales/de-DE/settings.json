@@ -120,6 +120,12 @@
 		"title": "Ihre Daten"
 	},
 	"desktop": {
+		"audio": {
+			"desc": "",
+			"label": "",
+			"title": "",
+			"tradeoff": ""
+		},
 		"close": {
 			"desc": "",
 			"quit": "",
