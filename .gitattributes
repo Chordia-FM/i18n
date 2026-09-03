@@ -1,0 +1,14 @@
+# Line endings, decided here rather than by each machine's git config.
+#
+# Git already stores LF in the object database. What it does to the WORKING TREE is a per-machine
+# setting, and `core.autocrlf=true` on Windows checks files out as CRLF -- which is where this bill
+# comes due: biome formats to LF and has no autodetect, so `bun run check` reported a format error
+# on every file it had never been asked to change. 116 of them, on a clean tree, for months. CI
+# passed the whole time because a Linux checkout is LF, so the local gate was simply unusable and
+# the difference between "my change broke it" and "it has always been broken" was unavailable.
+#
+# `eol=lf` makes the working tree LF everywhere, so a Windows checkout and a CI checkout are the
+# same bytes and the local gate means what the remote one means.
+#
+# `text=auto` still detects binaries and leaves them alone -- this does not corrupt an image.
+* text=auto eol=lf
