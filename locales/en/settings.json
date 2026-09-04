@@ -401,6 +401,10 @@
 			"friends": "Friends",
 			"private": "Only me",
 			"public": "Everyone"
+		},
+		"discordListening": {
+			"label": "Count what I hear in Discord",
+			"desc": "A library's Discord bot may add what you hear in a voice channel to your history, through your linked Discord account."
 		}
 	},
 	"profile": {
