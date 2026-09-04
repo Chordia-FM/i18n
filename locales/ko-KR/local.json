@@ -1,9 +1,11 @@
 {
 	"empty": "",
+	"emptyTitle": "",
 	"folders": {
 		"add": "폴더 추가",
 		"remove": "제거",
 		"removeConfirm": "",
+		"title": "",
 		"trackCount": "{count, plural, other {트랙 #개}}"
 	},
 	"hubEntry": "",
