@@ -185,7 +185,8 @@
 			"varsDesc": "Click one to insert it where your cursor is. Anything that turns out to be empty is removed along with the punctuation around it.",
 			"varsTitle": "Variables",
 			"whenPaused": "Keep showing while paused",
-			"whenPausedDesc": "Discord adds a time counter of its own to a paused song, counting up from when the status was last updated. It isn't the song's position or its length, and there is no way to turn it off."
+			"whenPausedDesc": "Discord adds a time counter of its own to a paused song, counting up from when the status was last updated. It isn't the song's position or its length, and there is no way to turn it off.",
+			"template": "Status template"
 		},
 		"title": "Desktop",
 		"updates": {
@@ -279,7 +280,9 @@
 			"help": "Drag to reorder the top of your sidebar, and untick anything you would rather not see. Hidden entries stay reachable from search and keyboard shortcuts.",
 			"title": "Sidebar"
 		},
-		"title": "Layout"
+		"title": "Layout",
+		"order": "Order",
+		"hidden": "Hidden"
 	},
 	"plan": {
 		"current": "Current plan",

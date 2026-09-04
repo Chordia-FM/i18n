@@ -102,7 +102,10 @@
 		"title": "Badges",
 		"translator": "Translator",
 		"translatorPlaceholder": "Languages, e.g. Japanese, Korean",
-		"translatorHint": "Naming the languages grants the badge; clearing the field removes it."
+		"translatorHint": "Naming the languages grants the badge; clearing the field removes it.",
+		"developerTitle": "Developer title",
+		"developerTagline": "Developer tagline",
+		"translatorLanguages": "Translator languages"
 	},
 	"content": {
 		"albums": "Albums",
@@ -265,7 +268,9 @@
 		"granted": "Plan granted.",
 		"revoked": "Plan revoked.",
 		"current": "Currently granted {tier}, {when}.",
-		"forever": "no expiry"
+		"forever": "no expiry",
+		"noteLabel": "Note",
+		"tierRequired": "Choose a tier to grant."
 	},
 	"reports": {
 		"createdAt": "{date}",
