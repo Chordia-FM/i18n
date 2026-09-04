@@ -191,5 +191,15 @@
 		"settings": "Settings",
 		"signOut": "Sign out",
 		"stats": "Stats"
+	},
+	"unsaved": {
+		"title": "Unsaved changes",
+		"count": "{count, plural, one {# unsaved change} other {# unsaved changes}}",
+		"saveAll": "Save all",
+		"undoAll": "Undo all",
+		"saved": "Saved.",
+		"failed": "{count, plural, one {# change} other {# changes}} could not be saved.",
+		"blocked": "Save or undo your changes before leaving.",
+		"leaveAnyway": "Leave anyway"
 	}
 }
