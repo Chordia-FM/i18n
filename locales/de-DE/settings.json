@@ -123,14 +123,15 @@
 		"audio": {
 			"desc": "",
 			"exclusive": {
-				"label": "",
 				"desc": "",
-				"needsNative": "",
 				"device": "",
-				"systemDefault": "",
 				"deviceDefault": "",
 				"deviceHint": "",
-				"fallback": ""
+				"fallback": "",
+				"label": "",
+				"needsNative": "",
+				"refused": "",
+				"systemDefault": ""
 			},
 			"label": "",
 			"title": "",
@@ -269,7 +270,8 @@
 		"playerBar": {
 			"allHidden": "",
 			"help": "",
-			"title": ""
+			"title": "",
+			"widerScreens": ""
 		},
 		"reset": "",
 		"sidebar": {
@@ -304,7 +306,10 @@
 		"output": {
 			"choose": "",
 			"desc": "",
+			"descNative": "",
+			"deviceDefault": "",
 			"label": "",
+			"nativeFallback": "",
 			"reset": "",
 			"system": "",
 			"unavailable": "",
