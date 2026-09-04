@@ -542,6 +542,8 @@
 		"statuses": "Statuses",
 		"singleStatusesHelp": "Shown in turn while a track plays. Variables: {vars}.",
 		"badgeAlwaysOn": "24/7",
-		"badgeAutoplay": "Autoplay"
+		"badgeAutoplay": "Autoplay",
+		"expandServer": "Show this server's settings",
+		"collapseServer": "Hide this server's settings"
 	}
 }
