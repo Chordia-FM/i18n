@@ -1,9 +1,11 @@
 {
 	"empty": "",
+	"emptyTitle": "",
 	"folders": {
 		"add": "フォルダを追加",
 		"remove": "削除",
 		"removeConfirm": "",
+		"title": "",
 		"trackCount": "{count, plural, other {#曲}}"
 	},
 	"hubEntry": "",
