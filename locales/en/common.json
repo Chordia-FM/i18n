@@ -209,6 +209,7 @@
 		"undoChange": "Undo this change",
 		"undoDraft": "Undo everything in {label}",
 		"show": "Show changes",
-		"hide": "Hide changes"
+		"hide": "Hide changes",
+		"reopen": "Open its tab to save this change."
 	}
 }
