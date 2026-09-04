@@ -1,9 +1,11 @@
 {
 	"empty": "",
+	"emptyTitle": "",
 	"folders": {
 		"add": "Adicionar pasta",
 		"remove": "Remover",
 		"removeConfirm": "",
+		"title": "",
 		"trackCount": "{count, plural, one {# faixa} other {# faixas}}"
 	},
 	"hubEntry": "",
