@@ -1,9 +1,11 @@
 {
 	"empty": "",
+	"emptyTitle": "",
 	"folders": {
 		"add": "Ordner hinzufügen",
 		"remove": "Entfernen",
 		"removeConfirm": "",
+		"title": "",
 		"trackCount": "{count, plural, one {# Titel} other {# Titel}}"
 	},
 	"hubEntry": "",
