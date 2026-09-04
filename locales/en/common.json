@@ -200,6 +200,15 @@
 		"saved": "Saved.",
 		"failed": "{count, plural, one {# change} other {# changes}} could not be saved.",
 		"blocked": "Save or undo your changes before leaving.",
-		"leaveAnyway": "Leave anyway"
+		"leaveAnyway": "Leave anyway",
+		"on": "on",
+		"off": "off",
+		"empty": "(empty)",
+		"changedValue": "{label} · {from} → {to}",
+		"listValue": "{label} · {value}",
+		"undoChange": "Undo this change",
+		"undoDraft": "Undo everything in {label}",
+		"show": "Show changes",
+		"hide": "Hide changes"
 	}
 }
