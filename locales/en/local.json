@@ -1,9 +1,11 @@
 {
 	"empty": "No folders yet. Add one to start playing music from this computer.",
+	"emptyTitle": "No music from this computer yet",
 	"folders": {
 		"add": "Add folder",
 		"remove": "Remove",
 		"removeConfirm": "Remove {name} from your local library? The files on disk are not touched.",
+		"title": "Folders",
 		"trackCount": "{count, plural, one {# track} other {# tracks}}"
 	},
 	"hubEntry": "Local (this device)",
