@@ -631,7 +631,10 @@
 			"preview": "Preview",
 			"previewHelp": "Rendered by the bot over a sample track, exactly as Discord will get it.",
 			"previewFailed": "This layout can't be rendered.",
-			"rendering": "Rendering…"
+			"rendering": "Rendering…",
+			"openEditor": "Edit message layout",
+			"summary": "{now_playing, plural, one {# block} other {# blocks}} on the now-playing message, {views} views laid out.",
+			"backToLibrary": "Back to the library"
 		}
 	}
 }
