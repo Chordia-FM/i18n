@@ -546,75 +546,61 @@
 		"expandServer": "Show this server's settings",
 		"collapseServer": "Hide this server's settings",
 		"layout": {
-			"title": "Message layout",
-			"help": "Which parts each message shows, and in what order. Drag to reorder.",
-			"draft": "{bot} · message layout",
+			"title": "Messages",
+			"help": "What each message the bot sends says, and how it is put together.",
+			"openEditor": "Edit",
+			"draft": "{bot} · messages",
+			"draftServer": "{bot} · messages in {server}",
+			"target": "Editing",
+			"targetBot": "Every server",
+			"targetGuild": "{server} only",
 			"views": {
 				"now_playing": "Now playing",
 				"idle": "Nothing playing",
 				"queued": "Added to queue",
-				"left": "Left the channel"
+				"left": "Left the channel",
+				"queue": "Queue",
+				"history": "History"
 			},
-			"addBlock": "Add a block",
+			"ownVersion": "This server has its own version",
+			"usesBot": "Uses the bot's version",
+			"parts": "parts",
+			"addBlock": "Add a part",
 			"reset": "Reset to default",
-			"removeBlock": "Remove this block",
+			"resetToBot": "Reset to the bot's version",
+			"removeBlock": "Remove this part",
 			"dragHandle": "Drag to reorder",
 			"moveUp": "Move up",
 			"moveDown": "Move down",
 			"blocks": {
-				"header": "Header",
-				"track": "Track",
-				"progress": "Progress bar",
-				"controls": "Controls",
-				"separator": "Separator",
 				"text": "Text",
-				"summary": "Summary"
+				"section": "Text with something beside it",
+				"gallery": "Pictures",
+				"separator": "Separator",
+				"row": "Buttons",
+				"list": "List"
 			},
-			"blockHelp": {
-				"header": "The title line with the message's icon.",
-				"track": "Title, artist and album, with the art.",
-				"progress": "The bar, the times and the line under them.",
-				"controls": "Rows of buttons, up to five each.",
-				"separator": "A gap, with or without a line.",
-				"text": "Your own words, with variables.",
-				"summary": "What was added, where it sits, who asked."
+			"accessory": "Beside the text",
+			"accessories": {
+				"image": "A picture",
+				"button": "A button"
 			},
-			"subtitle": "Subtitle",
-			"subtitles": {
-				"channel": "Channel",
-				"bot": "Bot name",
-				"none": "None"
+			"source": "Picture",
+			"sources": {
+				"cover": "Cover art",
+				"artist": "Artist picture",
+				"bot_avatar": "Bot avatar",
+				"url": "Address"
 			},
-			"art": "Picture",
-			"arts": {
-				"thumbnail": "Small, beside the text",
-				"gallery": "Large, below",
-				"none": "Hidden"
+			"urlPlaceholder": "https://… or a variable",
+			"addImage": "Add a picture",
+			"removeImage": "Remove this picture",
+			"buttonKind": "Button",
+			"buttonKinds": {
+				"control": "One of the bot's controls",
+				"link": "A link"
 			},
-			"album": "Show the album",
-			"badges": "Show the file badges",
-			"cells": "Bar segments",
-			"times": "Show the times",
-			"meta": "Line under the bar",
-			"metas": {
-				"requested_by": "Who asked",
-				"queue": "Queue count",
-				"volume": "Volume",
-				"modes": "Loop, shuffle, autoplay"
-			},
-			"divider": "With a line",
-			"spacing": "Spacing",
-			"spacings": {
-				"small": "Small",
-				"large": "Large"
-			},
-			"text": "Text",
-			"textHelp": "Discord markdown. Variables: {vars}",
-			"rows": "Rows",
-			"addRow": "Add a row",
-			"removeRow": "Remove this row",
-			"addControl": "Add a control",
-			"removeControl": "Remove {name}",
+			"control": "Control",
 			"controls": {
 				"previous": "Previous",
 				"play_pause": "Play / Pause",
@@ -628,13 +614,36 @@
 				"autoplay": "Autoplay",
 				"lyrics": "Lyrics"
 			},
+			"label": "Label",
+			"url": "Address",
+			"addButton": "Add a button",
+			"removeButton": "Remove this button",
+			"buttonN": "Button {n}",
+			"text": "Text",
+			"item": "Each entry",
+			"empty": "When there is nothing",
+			"pageSize": "Entries per page",
+			"divider": "With a line",
+			"spacing": "Spacing",
+			"spacings": {
+				"small": "Small",
+				"large": "Large"
+			},
+			"insertVariable": "Insert a variable",
+			"insertMention": "Mention a channel or someone",
+			"suggest": {
+				"variables": "Variables",
+				"emojis": "Emojis",
+				"channels": "Channels",
+				"roles": "Roles",
+				"members": "Members",
+				"none": "Nothing matches",
+				"searching": "Searching…"
+			},
 			"preview": "Preview",
-			"previewHelp": "Rendered by the bot over a sample track, exactly as Discord will get it.",
+			"previewHelp": "Rendered by the bot over a sample evening, exactly as Discord will get it.",
 			"previewFailed": "This layout can't be rendered.",
-			"rendering": "Rendering…",
-			"openEditor": "Edit message layout",
-			"summary": "{now_playing, plural, one {# block} other {# blocks}} on the now-playing message, {views} views laid out.",
-			"backToLibrary": "Back to the library"
+			"rendering": "Rendering…"
 		}
 	}
 }
