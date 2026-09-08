@@ -573,19 +573,19 @@
 			"moveUp": "Move up",
 			"moveDown": "Move down",
 			"blocks": {
-				"text": "Text",
-				"section": "Text with something beside it",
-				"gallery": "Pictures",
+				"text": "Text display",
+				"section": "Section",
+				"gallery": "Media gallery",
 				"separator": "Separator",
-				"row": "Buttons",
+				"row": "Action row",
 				"list": "List"
 			},
-			"accessory": "Beside the text",
+			"accessory": "Accessory",
 			"accessories": {
-				"image": "A picture",
-				"button": "A button"
+				"image": "Thumbnail",
+				"button": "Button"
 			},
-			"source": "Picture",
+			"source": "Media",
 			"sources": {
 				"cover": "Cover art",
 				"artist": "Artist picture",
@@ -593,8 +593,8 @@
 				"url": "Address"
 			},
 			"urlPlaceholder": "https://… or a variable",
-			"addImage": "Add a picture",
-			"removeImage": "Remove this picture",
+			"addImage": "Add media",
+			"removeImage": "Remove this media",
 			"buttonKind": "Button",
 			"buttonKinds": {
 				"control": "One of the bot's controls",
@@ -630,7 +630,7 @@
 				"large": "Large"
 			},
 			"insertVariable": "Insert a variable",
-			"insertMention": "Mention a channel or someone",
+			"insertMention": "Mention a channel, a role or someone",
 			"suggest": {
 				"variables": "Variables",
 				"emojis": "Emojis",
@@ -641,9 +641,15 @@
 				"searching": "Searching…"
 			},
 			"preview": "Preview",
-			"previewHelp": "Rendered by the bot over a sample evening, exactly as Discord will get it.",
+			"previewHelp": "Rendered by the bot from your library, exactly as Discord will get it.",
 			"previewFailed": "This layout can't be rendered.",
-			"rendering": "Rendering…"
+			"rendering": "Rendering…",
+			"reference": {
+				"variables": "Variables",
+				"emojis": "Emojis",
+				"copy": "Copy {token}",
+				"copied": "Copied"
+			}
 		}
 	}
 }
