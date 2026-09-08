@@ -578,7 +578,8 @@
 				"gallery": "Media gallery",
 				"separator": "Separator",
 				"row": "Action row",
-				"list": "List"
+				"list": "List",
+				"container": "Container"
 			},
 			"accessory": "Accessory",
 			"accessories": {
@@ -649,6 +650,20 @@
 				"emojis": "Emojis",
 				"copy": "Copy {token}",
 				"copied": "Copied"
+			},
+			"accent": "Accent",
+			"accents": {
+				"bot": "Bot's color",
+				"fixed": "One color",
+				"none": "None"
+			},
+			"accentHex": "Color",
+			"addHere": "Add a part here",
+			"dropHere": "Drop here",
+			"panel": {
+				"preview": "Preview",
+				"variables": "Variables",
+				"emojis": "Emojis"
 			}
 		}
 	}
