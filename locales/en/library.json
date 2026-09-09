@@ -672,7 +672,8 @@
 			"removeText": "Remove this text",
 			"buttonPick": "What the button does",
 			"linkOption": "A link",
-			"moveButton": "Drag to move; drop onto another button to swap"
+			"moveButton": "Drag to move; drop onto another button to swap",
+			"addButtonHere": "Add a button here"
 		}
 	}
 }
