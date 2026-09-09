@@ -1,0 +1,176 @@
+{
+	"commands": {
+		"play": {
+			"description": "ライブラリのトラック、アルバム、アーティストを再生",
+			"params": {
+				"query": "トラック、アルバム、アーティスト",
+				"position": "キューの最後に追加(既定)か、次に再生"
+			}
+		},
+		"album": {
+			"description": "アルバムを丸ごとキューに追加",
+			"params": {
+				"query": "アルバム名",
+				"position": "キューの最後に追加(既定)か、次に再生"
+			}
+		},
+		"playlist": {
+			"description": "自分のChordiaプレイリスト、または公開プレイリストをキューに追加",
+			"params": {
+				"query": "プレイリスト名",
+				"position": "キューの最後に追加(既定)か、次に再生"
+			}
+		},
+		"artist": {
+			"description": "アーティストのトラックをアルバムごとにキューに追加",
+			"params": {
+				"query": "アーティスト名",
+				"position": "キューの最後に追加(既定)か、次に再生"
+			}
+		},
+		"search": {
+			"description": "ライブラリを検索して再生するものを選ぶ",
+			"params": {
+				"query": "検索する内容"
+			}
+		},
+		"queue": {
+			"description": "キューを表示",
+			"params": {
+				"page": "ページ番号"
+			}
+		},
+		"nowplaying": {
+			"description": "今再生中のもの"
+		},
+		"history": {
+			"description": "最近再生したトラック"
+		},
+		"remove": {
+			"description": "トラック、または連続する複数のトラックをキューから削除",
+			"params": {
+				"index": "/queue での番号",
+				"to": "複数削除する場合、範囲の最後の番号"
+			}
+		},
+		"move": {
+			"description": "トラックをキュー内の別の位置へ移動",
+			"params": {
+				"from": "/queue での番号",
+				"to": "移動先"
+			}
+		},
+		"jump": {
+			"description": "キュー内のトラックへ飛び、その前をすべてスキップ",
+			"params": {
+				"index": "/queue での番号"
+			}
+		},
+		"clear": {
+			"description": "キューを空にする(再生中のトラックはそのまま)"
+		},
+		"shuffle": {
+			"description": "キューをランダムな順で再生、または元の順に戻す"
+		},
+		"skip": {
+			"description": "現在のトラックをスキップ。投票制のサーバーではスキップに投票"
+		},
+		"forceskip": {
+			"description": "現在のトラックを即スキップ: DJ、またはDJロールがない場合はサーバー管理者"
+		},
+		"vote": {
+			"description": "現在のトラックのスキップに投票"
+		},
+		"back": {
+			"description": "前のトラックに戻る"
+		},
+		"pause": {
+			"description": "再生を一時停止"
+		},
+		"resume": {
+			"description": "再生を再開"
+		},
+		"stop": {
+			"description": "再生を停止してキューを空にする"
+		},
+		"seek": {
+			"description": "現在のトラック内を移動",
+			"params": {
+				"position": "1:23 のような時間、または今から +30 / -30"
+			}
+		},
+		"volume": {
+			"description": "音量を設定(100 が標準、150 が上限)",
+			"params": {
+				"level": "0〜150"
+			}
+		},
+		"loop": {
+			"description": "トラックまたはキュー全体をリピート",
+			"params": {
+				"mode": "リピートする対象"
+			}
+		},
+		"join": {
+			"description": "ボットを自分のボイスチャンネルに呼ぶ"
+		},
+		"leave": {
+			"description": "停止してボイスチャンネルから退出"
+		},
+		"eq": {
+			"description": "イコライザー: 表示、プリセット選択、バンド設定、オン/オフ",
+			"params": {
+				"preset": "適用するプリセット",
+				"band": "設定するバンド",
+				"gain": "バンドのゲイン(dB)、-15〜15",
+				"on": "オンまたはオフ"
+			}
+		},
+		"crossfade": {
+			"description": "各トラックを数秒かけて次のトラックへクロスフェード、またはしない",
+			"params": {
+				"seconds": "重なる秒数、0〜12。0 でオフ"
+			}
+		},
+		"radio": {
+			"description": "キューが尽きたら似たトラックで再生を続ける",
+			"params": {
+				"on": "オンまたはオフ"
+			}
+		},
+		"stats": {
+			"description": "このサーバーがボットで過去30日間に再生したもの",
+			"params": {
+				"scope": "全員の再生、または自分がリクエストしたものだけ"
+			}
+		},
+		"lyrics": {
+			"description": "再生中のトラックの歌詞。ファイルのタグまたはChordiaから"
+		},
+		"bots": {
+			"description": "すべてのボットと、空いているものを確認"
+		},
+		"skipmode": {
+			"description": "トラックのスキップ方法: 一人で、またはリスナーの投票で",
+			"params": {
+				"mode": "Single: 再生を操作できる人が即スキップ。Vote: リスナーが投票",
+				"percent": "投票に必要なリスナーの割合、1〜100(既定 50)"
+			}
+		},
+		"settings": {
+			"description": "このサーバーのボット設定"
+		},
+		"dj": {
+			"description": "DJロールを追加または削除(DJロールは共有再生を操作できます)",
+			"params": {
+				"role": "追加するロール。既にDJロールなら削除。空にするとすべて解除"
+			}
+		},
+		"247": {
+			"description": "ボットをボイスチャンネルに常駐させる",
+			"params": {
+				"on": "オンまたはオフ"
+			}
+		}
+	}
+}

@@ -1,0 +1,176 @@
+{
+	"commands": {
+		"play": {
+			"description": "Reproducir una pista, un álbum o un artista de la biblioteca",
+			"params": {
+				"query": "Pista, álbum o artista",
+				"position": "Añadir al final de la cola (por defecto) o reproducir a continuación"
+			}
+		},
+		"album": {
+			"description": "Poner un álbum entero en la cola",
+			"params": {
+				"query": "Título del álbum",
+				"position": "Añadir al final de la cola (por defecto) o reproducir a continuación"
+			}
+		},
+		"playlist": {
+			"description": "Poner en la cola una de tus playlists de Chordia, o una pública",
+			"params": {
+				"query": "Nombre de la playlist",
+				"position": "Añadir al final de la cola (por defecto) o reproducir a continuación"
+			}
+		},
+		"artist": {
+			"description": "Poner en la cola las pistas de un artista, álbum por álbum",
+			"params": {
+				"query": "Nombre del artista",
+				"position": "Añadir al final de la cola (por defecto) o reproducir a continuación"
+			}
+		},
+		"search": {
+			"description": "Buscar en la biblioteca y elegir qué reproducir",
+			"params": {
+				"query": "Qué buscar"
+			}
+		},
+		"queue": {
+			"description": "Mostrar la cola",
+			"params": {
+				"page": "Número de página"
+			}
+		},
+		"nowplaying": {
+			"description": "Qué está sonando ahora"
+		},
+		"history": {
+			"description": "Pistas reproducidas recientemente"
+		},
+		"remove": {
+			"description": "Quitar una pista, o una serie de pistas, de la cola",
+			"params": {
+				"index": "Su número en /queue",
+				"to": "El último número del rango a quitar, para más de una"
+			}
+		},
+		"move": {
+			"description": "Mover una pista a otra posición de la cola",
+			"params": {
+				"from": "Su número en /queue",
+				"to": "Adónde debe ir"
+			}
+		},
+		"jump": {
+			"description": "Saltar a una pista de la cola, omitiendo todo lo anterior",
+			"params": {
+				"index": "Su número en /queue"
+			}
+		},
+		"clear": {
+			"description": "Vaciar la cola (la pista actual sigue sonando)"
+		},
+		"shuffle": {
+			"description": "Reproducir la cola en orden aleatorio, o de nuevo en orden"
+		},
+		"skip": {
+			"description": "Saltar la pista actual, o votar por ello si este servidor salta por votación"
+		},
+		"forceskip": {
+			"description": "Saltar la pista actual al instante: DJs, o gestores del servidor donde no hay roles de DJ"
+		},
+		"vote": {
+			"description": "Votar por saltar la pista actual"
+		},
+		"back": {
+			"description": "Volver a la pista anterior"
+		},
+		"pause": {
+			"description": "Pausar la reproducción"
+		},
+		"resume": {
+			"description": "Reanudar la reproducción"
+		},
+		"stop": {
+			"description": "Detener la reproducción y vaciar la cola"
+		},
+		"seek": {
+			"description": "Moverse dentro de la pista actual",
+			"params": {
+				"position": "Un tiempo como 1:23, o +30 / -30 relativo a ahora"
+			}
+		},
+		"volume": {
+			"description": "Ajustar el volumen (100 es normal, 150 el máximo)",
+			"params": {
+				"level": "0–150"
+			}
+		},
+		"loop": {
+			"description": "Repetir la pista o toda la cola",
+			"params": {
+				"mode": "Qué repetir"
+			}
+		},
+		"join": {
+			"description": "Traer el bot a tu canal de voz"
+		},
+		"leave": {
+			"description": "Detener y salir del canal de voz"
+		},
+		"eq": {
+			"description": "El ecualizador: verlo, elegir un preajuste, ajustar una banda, o activarlo o apagarlo",
+			"params": {
+				"preset": "Un preajuste que aplicar",
+				"band": "Una banda que ajustar",
+				"gain": "La ganancia de la banda en dB, de -15 a 15",
+				"on": "Activado o apagado"
+			}
+		},
+		"crossfade": {
+			"description": "Fundir cada pista con la siguiente durante unos segundos, o no hacerlo",
+			"params": {
+				"seconds": "Segundos de solapamiento, de 0 a 12; 0 lo desactiva"
+			}
+		},
+		"radio": {
+			"description": "Seguir con pistas parecidas cuando la cola se acaba",
+			"params": {
+				"on": "Activado o apagado"
+			}
+		},
+		"stats": {
+			"description": "Lo que este servidor ha reproducido con el bot en los últimos 30 días",
+			"params": {
+				"scope": "Todas las reproducciones, o solo lo que pediste tú"
+			}
+		},
+		"lyrics": {
+			"description": "La letra de la pista que suena, de las etiquetas del archivo o de Chordia"
+		},
+		"bots": {
+			"description": "Ver todas las identidades del bot y cuáles están libres"
+		},
+		"skipmode": {
+			"description": "Cómo se salta una pista: por una persona, o por votación entre los oyentes",
+			"params": {
+				"mode": "Single: quien puede controlar la reproducción salta al instante. Vote: los oyentes votan",
+				"percent": "Parte de los oyentes que necesita una votación, de 1 a 100 (50 por defecto)"
+			}
+		},
+		"settings": {
+			"description": "Los ajustes de este servidor para el bot"
+		},
+		"dj": {
+			"description": "Añadir o quitar un rol de DJ (esos roles pueden controlar la reproducción compartida)",
+			"params": {
+				"role": "Un rol que añadir, o quitar si ya es DJ; déjalo vacío para borrar todos"
+			}
+		},
+		"247": {
+			"description": "Mantener el bot en su canal de voz las 24 horas",
+			"params": {
+				"on": "Activado o apagado"
+			}
+		}
+	}
+}

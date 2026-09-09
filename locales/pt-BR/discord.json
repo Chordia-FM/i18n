@@ -1,0 +1,176 @@
+{
+	"commands": {
+		"play": {
+			"description": "Tocar uma faixa, um álbum ou um artista da biblioteca",
+			"params": {
+				"query": "Faixa, álbum ou artista",
+				"position": "Adicionar ao fim da fila (padrão) ou tocar em seguida"
+			}
+		},
+		"album": {
+			"description": "Colocar um álbum inteiro na fila",
+			"params": {
+				"query": "Título do álbum",
+				"position": "Adicionar ao fim da fila (padrão) ou tocar em seguida"
+			}
+		},
+		"playlist": {
+			"description": "Colocar na fila uma das suas playlists do Chordia, ou uma pública",
+			"params": {
+				"query": "Nome da playlist",
+				"position": "Adicionar ao fim da fila (padrão) ou tocar em seguida"
+			}
+		},
+		"artist": {
+			"description": "Colocar na fila as faixas de um artista, álbum por álbum",
+			"params": {
+				"query": "Nome do artista",
+				"position": "Adicionar ao fim da fila (padrão) ou tocar em seguida"
+			}
+		},
+		"search": {
+			"description": "Buscar na biblioteca e escolher o que tocar",
+			"params": {
+				"query": "O que procurar"
+			}
+		},
+		"queue": {
+			"description": "Mostrar a fila",
+			"params": {
+				"page": "Número da página"
+			}
+		},
+		"nowplaying": {
+			"description": "O que está tocando agora"
+		},
+		"history": {
+			"description": "Faixas tocadas recentemente"
+		},
+		"remove": {
+			"description": "Remover uma faixa, ou uma sequência de faixas, da fila",
+			"params": {
+				"index": "O número dela em /queue",
+				"to": "O último número do intervalo a remover, para mais de uma"
+			}
+		},
+		"move": {
+			"description": "Mover uma faixa para outra posição na fila",
+			"params": {
+				"from": "O número dela em /queue",
+				"to": "Para onde ela vai"
+			}
+		},
+		"jump": {
+			"description": "Pular para uma faixa da fila, ignorando tudo antes dela",
+			"params": {
+				"index": "O número dela em /queue"
+			}
+		},
+		"clear": {
+			"description": "Limpar a fila (a faixa atual continua tocando)"
+		},
+		"shuffle": {
+			"description": "Tocar a fila em ordem aleatória, ou de volta em ordem"
+		},
+		"skip": {
+			"description": "Pular a faixa atual, ou votar para pular se este servidor pula por votação"
+		},
+		"forceskip": {
+			"description": "Pular a faixa atual na hora: DJs, ou gerentes do servidor onde não há cargos de DJ"
+		},
+		"vote": {
+			"description": "Votar para pular a faixa atual"
+		},
+		"back": {
+			"description": "Voltar para a faixa anterior"
+		},
+		"pause": {
+			"description": "Pausar a reprodução"
+		},
+		"resume": {
+			"description": "Retomar a reprodução"
+		},
+		"stop": {
+			"description": "Parar de tocar e limpar a fila"
+		},
+		"seek": {
+			"description": "Avançar ou voltar dentro da faixa atual",
+			"params": {
+				"position": "Um tempo como 1:23, ou +30 / -30 em relação a agora"
+			}
+		},
+		"volume": {
+			"description": "Definir o volume (100 é o normal, 150 o máximo)",
+			"params": {
+				"level": "0–150"
+			}
+		},
+		"loop": {
+			"description": "Repetir a faixa ou a fila inteira",
+			"params": {
+				"mode": "O que repetir"
+			}
+		},
+		"join": {
+			"description": "Trazer o bot para o seu canal de voz"
+		},
+		"leave": {
+			"description": "Parar e sair do canal de voz"
+		},
+		"eq": {
+			"description": "O equalizador: ver, escolher um preset, ajustar uma banda, ou ligar e desligar",
+			"params": {
+				"preset": "Um preset para aplicar",
+				"band": "Uma banda para ajustar",
+				"gain": "O ganho da banda em dB, de -15 a 15",
+				"on": "Ligado ou desligado"
+			}
+		},
+		"crossfade": {
+			"description": "Mesclar cada faixa com a próxima por alguns segundos, ou não mesclar",
+			"params": {
+				"seconds": "Segundos de sobreposição, de 0 a 12; 0 desliga"
+			}
+		},
+		"radio": {
+			"description": "Continuar com faixas parecidas quando a fila acabar",
+			"params": {
+				"on": "Ligado ou desligado"
+			}
+		},
+		"stats": {
+			"description": "O que este servidor tocou pelo bot nos últimos 30 dias",
+			"params": {
+				"scope": "Todas as reproduções, ou só o que você pediu"
+			}
+		},
+		"lyrics": {
+			"description": "A letra da faixa que está tocando, das tags do arquivo ou do Chordia"
+		},
+		"bots": {
+			"description": "Ver todas as identidades do bot e quais estão livres"
+		},
+		"skipmode": {
+			"description": "Como uma faixa é pulada: por uma pessoa, ou por votação entre os ouvintes",
+			"params": {
+				"mode": "Single: quem pode controlar a reprodução pula na hora. Vote: os ouvintes votam",
+				"percent": "Parcela dos ouvintes que uma votação precisa, de 1 a 100 (padrão 50)"
+			}
+		},
+		"settings": {
+			"description": "As configurações deste servidor para o bot"
+		},
+		"dj": {
+			"description": "Adicionar ou remover um cargo de DJ (esses cargos podem controlar a reprodução compartilhada)",
+			"params": {
+				"role": "Um cargo para adicionar, ou remover se já for DJ; deixe vazio para limpar todos"
+			}
+		},
+		"247": {
+			"description": "Manter o bot no canal de voz o tempo todo",
+			"params": {
+				"on": "Ligado ou desligado"
+			}
+		}
+	}
+}
