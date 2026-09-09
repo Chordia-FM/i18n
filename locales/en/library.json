@@ -568,6 +568,7 @@
 				"now_playing": "Now playing",
 				"idle": "Nothing playing",
 				"left": "Left the channel",
+				"equalizer": "Equalizer",
 				"queued": "Added a track",
 				"queued_album": "Added an album",
 				"queued_artist": "Added an artist",
@@ -599,6 +600,7 @@
 				"row": "Action row",
 				"list": "List",
 				"pager": "Page buttons",
+				"eq_controls": "Equalizer controls",
 				"container": "Container"
 			},
 			"accessory": "Accessory",
@@ -613,6 +615,7 @@
 				"artist_banner": "Artist banner",
 				"bot_avatar": "Bot avatar",
 				"server_icon": "Server icon",
+				"equalizer": "Equalizer curve",
 				"url": "Address"
 			},
 			"urlPlaceholder": "https://… or a variable",
@@ -702,7 +705,8 @@
 				"adding": "Adding to the queue",
 				"lists": "Lists",
 				"replies": "Replies"
-			}
+			},
+			"eqControlsNote": "The preset and band menus, the nudge buttons and the switch. Four rows."
 		}
 	}
 }
