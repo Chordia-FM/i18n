@@ -598,11 +598,6 @@
 			"urlPlaceholder": "https://… or a variable",
 			"addImage": "Add media",
 			"removeImage": "Remove this media",
-			"buttonKind": "Button",
-			"buttonKinds": {
-				"control": "One of the bot's controls",
-				"link": "A link"
-			},
 			"control": "Control",
 			"controls": {
 				"previous": "Previous",
@@ -627,7 +622,6 @@
 			"url": "Address",
 			"addButton": "Add a button",
 			"removeButton": "Remove this button",
-			"buttonN": "Button {n}",
 			"text": "Text",
 			"item": "Each entry",
 			"empty": "When there is nothing",
@@ -675,7 +669,10 @@
 			},
 			"textN": "Text {n}",
 			"addText": "Add a text",
-			"removeText": "Remove this text"
+			"removeText": "Remove this text",
+			"buttonPick": "What the button does",
+			"linkOption": "A link",
+			"moveButton": "Drag to move; drop onto another button to swap"
 		}
 	}
 }
