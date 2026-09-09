@@ -590,7 +590,9 @@
 			"sources": {
 				"cover": "Cover art",
 				"artist": "Artist picture",
+				"artist_banner": "Artist banner",
 				"bot_avatar": "Bot avatar",
+				"server_icon": "Server icon",
 				"url": "Address"
 			},
 			"urlPlaceholder": "https://… or a variable",
@@ -611,9 +613,15 @@
 				"loop": "Loop",
 				"volume_down": "Volume down",
 				"volume_up": "Volume up",
+				"mute": "Mute",
+				"seek_back": "Back 10 seconds",
+				"seek_forward": "Forward 10 seconds",
 				"queue": "Queue",
+				"clear": "Clear the queue",
 				"autoplay": "Autoplay",
-				"lyrics": "Lyrics"
+				"lyrics": "Lyrics",
+				"history": "History",
+				"leave": "Leave"
 			},
 			"label": "Label",
 			"url": "Address",
@@ -664,7 +672,10 @@
 				"preview": "Preview",
 				"variables": "Variables",
 				"emojis": "Emojis"
-			}
+			},
+			"textN": "Text {n}",
+			"addText": "Add a text",
+			"removeText": "Remove this text"
 		}
 	}
 }
