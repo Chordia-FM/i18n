@@ -557,10 +557,16 @@
 			"views": {
 				"now_playing": "Now playing",
 				"idle": "Nothing playing",
-				"queued": "Added to queue",
 				"left": "Left the channel",
+				"queued": "Added a track",
+				"queued_album": "Added an album",
+				"queued_artist": "Added an artist",
 				"queue": "Queue",
-				"history": "History"
+				"history": "History",
+				"lyrics": "Lyrics",
+				"done": "Done",
+				"notice": "Heads-up",
+				"error": "Error"
 			},
 			"ownVersion": "This server has its own version",
 			"usesBot": "Uses the bot's version",
@@ -675,7 +681,14 @@
 			"linkOption": "A link",
 			"moveButton": "Drag to move; drop onto another button to swap",
 			"addButtonHere": "Add a button here",
-			"pagerNote": "First, back, next and last. Drawn when the list runs past one page."
+			"pagerNote": "First, back, next and last. Drawn when the list runs past one page.",
+			"view": "Message",
+			"viewGroups": {
+				"player": "The player",
+				"adding": "Adding to the queue",
+				"lists": "Lists",
+				"replies": "Replies"
+			}
 		}
 	}
 }
