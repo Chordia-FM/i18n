@@ -537,6 +537,10 @@
 		"skipVote": "A vote",
 		"votePercent": "Votes needed (%)",
 		"votePercentHelp": "The share of the people in the voice channel who must vote before the track skips.",
+		"eq": "Equalizer",
+		"eqHelp": "Shapes what the bot plays in this server. DJs change it from Discord too; without DJ roles, anyone in the channel can.",
+		"eqEnabled": "Equalizer on",
+		"eqCustom": "Custom",
 		"permissions": "Permissions",
 		"permissionsHelp": "What this server may turn on for itself, with a command or a button.",
 		"canAlwaysOn": "May use 24/7",
@@ -632,7 +636,8 @@
 				"autoplay": "Autoplay",
 				"lyrics": "Lyrics",
 				"history": "History",
-				"leave": "Leave"
+				"leave": "Leave",
+				"equalizer": "Equalizer"
 			},
 			"label": "Label",
 			"url": "Address",
