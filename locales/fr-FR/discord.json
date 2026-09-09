@@ -157,6 +157,12 @@
 				"percent": "Part des auditeurs qu'un vote requiert, de 1 à 100 (50 par défaut)"
 			}
 		},
+		"pickup": {
+			"description": "Où le bot reprend après un redémarrage : là où il s'est arrêté, ou au début du titre",
+			"params": {
+				"mode": "Là où il s'est arrêté, ou au début du titre"
+			}
+		},
 		"settings": {
 			"description": "Les réglages de ce serveur pour le bot"
 		},

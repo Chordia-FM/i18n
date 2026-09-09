@@ -157,6 +157,12 @@
 				"percent": "Share of the listeners a vote needs, 1 to 100 (default 50)"
 			}
 		},
+		"pickup": {
+			"description": "Where the bot picks up after a restart: where it left off, or at the start of the track",
+			"params": {
+				"mode": "Where it left off, or the start of the track"
+			}
+		},
 		"settings": {
 			"description": "This server's settings for the bot"
 		},

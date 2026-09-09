@@ -157,6 +157,12 @@
 				"percent": "Parcela dos ouvintes que uma votação precisa, de 1 a 100 (padrão 50)"
 			}
 		},
+		"pickup": {
+			"description": "Onde o bot retoma após um reinício: de onde parou, ou do início da faixa",
+			"params": {
+				"mode": "De onde parou, ou do início da faixa"
+			}
+		},
 		"settings": {
 			"description": "As configurações deste servidor para o bot"
 		},

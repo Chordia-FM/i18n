@@ -157,6 +157,12 @@
 				"percent": "Anteil der Zuhörer, den eine Abstimmung braucht, 1 bis 100 (Standard 50)"
 			}
 		},
+		"pickup": {
+			"description": "Wo der Bot nach einem Neustart weitermacht: wo er aufgehört hat, oder am Anfang des Titels",
+			"params": {
+				"mode": "Wo er aufgehört hat, oder am Anfang des Titels"
+			}
+		},
 		"settings": {
 			"description": "Die Einstellungen dieses Servers für den Bot"
 		},
