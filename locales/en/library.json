@@ -579,6 +579,7 @@
 				"separator": "Separator",
 				"row": "Action row",
 				"list": "List",
+				"pager": "Page buttons",
 				"container": "Container"
 			},
 			"accessory": "Accessory",
@@ -673,7 +674,8 @@
 			"buttonPick": "What the button does",
 			"linkOption": "A link",
 			"moveButton": "Drag to move; drop onto another button to swap",
-			"addButtonHere": "Add a button here"
+			"addButtonHere": "Add a button here",
+			"pagerNote": "First, back, next and last. Drawn when the list runs past one page."
 		}
 	}
 }
