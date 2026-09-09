@@ -600,7 +600,9 @@
 				"row": "Action row",
 				"list": "List",
 				"pager": "Page buttons",
-				"eq_controls": "Equalizer controls",
+				"eq_presets": "Equalizer presets",
+				"eq_bands": "Equalizer bands",
+				"eq_nudges": "Equalizer nudges",
 				"container": "Container"
 			},
 			"accessory": "Accessory",
@@ -640,7 +642,8 @@
 				"lyrics": "Lyrics",
 				"history": "History",
 				"leave": "Leave",
-				"equalizer": "Equalizer"
+				"equalizer": "Equalizer",
+				"eq_toggle": "Equalizer on/off"
 			},
 			"label": "Label",
 			"url": "Address",
@@ -706,7 +709,9 @@
 				"lists": "Lists",
 				"replies": "Replies"
 			},
-			"eqControlsNote": "The preset and band menus, the nudge buttons and the switch. Four rows."
+			"eqPresetsNote": "A menu of the presets, the current one chosen.",
+			"eqBandsNote": "A menu of the ten bands with their gains; the nudge buttons act on the chosen one.",
+			"eqNudgesNote": "-3 dB, -1 dB, +1 dB, +3 dB and Flat, for the chosen band."
 		}
 	}
 }
