@@ -458,6 +458,7 @@
 		},
 		"invite": "Invite to a server",
 		"copyInvite": "Copy invite link",
+		"inviteOpenFailed": "Couldn't open your browser. Copy the link instead.",
 		"restart": "Restart bot",
 		"restartConfirm": {
 			"title": "Restart this bot?",
