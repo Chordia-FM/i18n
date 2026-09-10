@@ -102,7 +102,10 @@
 		"title": "",
 		"translator": "",
 		"translatorPlaceholder": "",
-		"translatorHint": ""
+		"translatorHint": "",
+		"developerTitle": "",
+		"developerTagline": "",
+		"translatorLanguages": ""
 	},
 	"content": {
 		"albums": "앨범",
@@ -265,7 +268,9 @@
 		"granted": "",
 		"revoked": "",
 		"current": "",
-		"forever": ""
+		"forever": "",
+		"noteLabel": "",
+		"tierRequired": ""
 	},
 	"reports": {
 		"createdAt": "",
