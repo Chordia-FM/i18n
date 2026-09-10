@@ -1,0 +1,182 @@
+{
+	"commands": {
+		"play": {
+			"description": "Lire un titre, un album ou un artiste de la bibliothèque",
+			"params": {
+				"query": "Titre, album ou artiste",
+				"position": "Ajouter en fin de file (par défaut) ou lire ensuite"
+			}
+		},
+		"album": {
+			"description": "Mettre un album entier en file",
+			"params": {
+				"query": "Titre de l'album",
+				"position": "Ajouter en fin de file (par défaut) ou lire ensuite"
+			}
+		},
+		"playlist": {
+			"description": "Mettre en file une de tes playlists Chordia, ou une playlist publique",
+			"params": {
+				"query": "Nom de la playlist",
+				"position": "Ajouter en fin de file (par défaut) ou lire ensuite"
+			}
+		},
+		"artist": {
+			"description": "Mettre en file les titres d'un artiste, album par album",
+			"params": {
+				"query": "Nom de l'artiste",
+				"position": "Ajouter en fin de file (par défaut) ou lire ensuite"
+			}
+		},
+		"search": {
+			"description": "Chercher dans la bibliothèque et choisir quoi lire",
+			"params": {
+				"query": "Ce qu'il faut chercher"
+			}
+		},
+		"queue": {
+			"description": "Afficher la file d'attente",
+			"params": {
+				"page": "Numéro de page"
+			}
+		},
+		"nowplaying": {
+			"description": "Ce qui joue en ce moment"
+		},
+		"history": {
+			"description": "Titres joués récemment"
+		},
+		"remove": {
+			"description": "Retirer un titre, ou une série de titres, de la file",
+			"params": {
+				"index": "Son numéro dans /queue",
+				"to": "Le dernier numéro de la plage à retirer, pour en retirer plusieurs"
+			}
+		},
+		"move": {
+			"description": "Déplacer un titre à une autre position dans la file",
+			"params": {
+				"from": "Son numéro dans /queue",
+				"to": "Où il doit aller"
+			}
+		},
+		"jump": {
+			"description": "Sauter à un titre de la file, en passant tout ce qui le précède",
+			"params": {
+				"index": "Son numéro dans /queue"
+			}
+		},
+		"clear": {
+			"description": "Vider la file (le titre en cours continue)"
+		},
+		"shuffle": {
+			"description": "Lire la file dans un ordre aléatoire, ou de nouveau dans l'ordre"
+		},
+		"skip": {
+			"description": "Passer le titre en cours, ou voter pour, si ce serveur passe par vote"
+		},
+		"forceskip": {
+			"description": "Passer le titre en cours immédiatement : les DJ, ou les gérants du serveur sans rôle DJ"
+		},
+		"vote": {
+			"description": "Voter pour passer le titre en cours"
+		},
+		"back": {
+			"description": "Revenir au titre précédent"
+		},
+		"pause": {
+			"description": "Mettre en pause"
+		},
+		"resume": {
+			"description": "Reprendre la lecture"
+		},
+		"stop": {
+			"description": "Arrêter la lecture et vider la file"
+		},
+		"seek": {
+			"description": "Se déplacer dans le titre en cours",
+			"params": {
+				"position": "Un temps comme 1:23, ou +30 / -30 par rapport à maintenant"
+			}
+		},
+		"volume": {
+			"description": "Régler le volume (100 est normal, 150 le maximum)",
+			"params": {
+				"level": "0–150"
+			}
+		},
+		"loop": {
+			"description": "Répéter le titre ou toute la file",
+			"params": {
+				"mode": "Quoi répéter"
+			}
+		},
+		"join": {
+			"description": "Faire venir le bot dans ton salon vocal"
+		},
+		"leave": {
+			"description": "Arrêter et quitter le salon vocal"
+		},
+		"eq": {
+			"description": "L'égaliseur : le voir, choisir un préréglage, régler une bande, ou l'activer ou le couper",
+			"params": {
+				"preset": "Un préréglage à appliquer",
+				"band": "Une bande à régler",
+				"gain": "Le gain de la bande en dB, de -15 à 15",
+				"on": "Activé ou coupé"
+			}
+		},
+		"crossfade": {
+			"description": "Fondre chaque titre dans le suivant sur quelques secondes, ou pas du tout",
+			"params": {
+				"seconds": "Secondes de chevauchement, de 0 à 12 ; 0 désactive"
+			}
+		},
+		"radio": {
+			"description": "Continuer avec des titres similaires quand la file est vide",
+			"params": {
+				"on": "Activé ou coupé"
+			}
+		},
+		"stats": {
+			"description": "Ce que ce serveur a joué via le bot ces 30 derniers jours",
+			"params": {
+				"scope": "Toutes les lectures, ou seulement ce que tu as demandé"
+			}
+		},
+		"lyrics": {
+			"description": "Les paroles du titre en cours, depuis les tags du fichier ou Chordia"
+		},
+		"bots": {
+			"description": "Voir chaque identité du bot et lesquelles sont libres"
+		},
+		"skipmode": {
+			"description": "Comment un titre est passé : par une personne, ou par un vote des auditeurs",
+			"params": {
+				"mode": "Single : qui peut contrôler la lecture passe aussitôt. Vote : les auditeurs votent",
+				"percent": "Part des auditeurs qu'un vote requiert, de 1 à 100 (50 par défaut)"
+			}
+		},
+		"pickup": {
+			"description": "Où le bot reprend après un redémarrage : là où il s'est arrêté, ou au début du titre",
+			"params": {
+				"mode": "Là où il s'est arrêté, ou au début du titre"
+			}
+		},
+		"settings": {
+			"description": "Les réglages de ce serveur pour le bot"
+		},
+		"dj": {
+			"description": "Ajouter ou retirer un rôle DJ (ces rôles peuvent contrôler la lecture partagée)",
+			"params": {
+				"role": "Un rôle à ajouter, ou à retirer s'il est déjà DJ ; vide pour tout effacer"
+			}
+		},
+		"247": {
+			"description": "Garder le bot dans son salon vocal en permanence",
+			"params": {
+				"on": "Activé ou coupé"
+			}
+		}
+	}
+}

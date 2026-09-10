@@ -1,0 +1,182 @@
+{
+	"commands": {
+		"play": {
+			"description": "Einen Titel, ein Album oder einen Künstler aus der Bibliothek abspielen",
+			"params": {
+				"query": "Titel, Album oder Künstler",
+				"position": "Ans Ende der Warteschlange (Standard) oder als Nächstes abspielen"
+			}
+		},
+		"album": {
+			"description": "Ein ganzes Album in die Warteschlange stellen",
+			"params": {
+				"query": "Albumtitel",
+				"position": "Ans Ende der Warteschlange (Standard) oder als Nächstes abspielen"
+			}
+		},
+		"playlist": {
+			"description": "Eine deiner Chordia-Playlists oder eine öffentliche in die Warteschlange stellen",
+			"params": {
+				"query": "Playlist-Name",
+				"position": "Ans Ende der Warteschlange (Standard) oder als Nächstes abspielen"
+			}
+		},
+		"artist": {
+			"description": "Die Titel eines Künstlers, Album für Album, in die Warteschlange stellen",
+			"params": {
+				"query": "Künstlername",
+				"position": "Ans Ende der Warteschlange (Standard) oder als Nächstes abspielen"
+			}
+		},
+		"search": {
+			"description": "Die Bibliothek durchsuchen und auswählen, was gespielt wird",
+			"params": {
+				"query": "Wonach gesucht wird"
+			}
+		},
+		"queue": {
+			"description": "Die Warteschlange anzeigen",
+			"params": {
+				"page": "Seitenzahl"
+			}
+		},
+		"nowplaying": {
+			"description": "Was gerade läuft"
+		},
+		"history": {
+			"description": "Zuletzt gespielte Titel"
+		},
+		"remove": {
+			"description": "Einen Titel oder eine Reihe von Titeln aus der Warteschlange entfernen",
+			"params": {
+				"index": "Seine Nummer in /queue",
+				"to": "Die letzte Nummer eines Bereichs, um mehrere zu entfernen"
+			}
+		},
+		"move": {
+			"description": "Einen Titel an eine andere Stelle der Warteschlange verschieben",
+			"params": {
+				"from": "Seine Nummer in /queue",
+				"to": "Wohin er soll"
+			}
+		},
+		"jump": {
+			"description": "Zu einem Titel in der Warteschlange springen und alles davor überspringen",
+			"params": {
+				"index": "Seine Nummer in /queue"
+			}
+		},
+		"clear": {
+			"description": "Die Warteschlange leeren (der aktuelle Titel läuft weiter)"
+		},
+		"shuffle": {
+			"description": "Die Warteschlange in zufälliger Reihenfolge abspielen, oder wieder der Reihe nach"
+		},
+		"skip": {
+			"description": "Aktuellen Titel überspringen, oder dafür stimmen, wenn dieser Server per Abstimmung überspringt"
+		},
+		"forceskip": {
+			"description": "Den aktuellen Titel sofort überspringen: DJs, oder Server-Manager, wo es keine DJ-Rollen gibt"
+		},
+		"vote": {
+			"description": "Dafür stimmen, den aktuellen Titel zu überspringen"
+		},
+		"back": {
+			"description": "Zum vorherigen Titel zurückgehen"
+		},
+		"pause": {
+			"description": "Wiedergabe pausieren"
+		},
+		"resume": {
+			"description": "Wiedergabe fortsetzen"
+		},
+		"stop": {
+			"description": "Wiedergabe stoppen und die Warteschlange leeren"
+		},
+		"seek": {
+			"description": "Im aktuellen Titel springen",
+			"params": {
+				"position": "Eine Zeit wie 1:23, oder +30 / -30 relativ zu jetzt"
+			}
+		},
+		"volume": {
+			"description": "Die Lautstärke setzen (100 ist normal, 150 das Maximum)",
+			"params": {
+				"level": "0–150"
+			}
+		},
+		"loop": {
+			"description": "Den Titel oder die ganze Warteschlange wiederholen",
+			"params": {
+				"mode": "Was wiederholt wird"
+			}
+		},
+		"join": {
+			"description": "Den Bot in deinen Sprachkanal holen"
+		},
+		"leave": {
+			"description": "Stoppen und den Sprachkanal verlassen"
+		},
+		"eq": {
+			"description": "Der Equalizer: ansehen, ein Preset wählen, ein Band setzen oder ein- bzw. ausschalten",
+			"params": {
+				"preset": "Ein Preset zum Anwenden",
+				"band": "Ein Band zum Setzen",
+				"gain": "Die Verstärkung des Bands in dB, -15 bis 15",
+				"on": "An oder aus"
+			}
+		},
+		"crossfade": {
+			"description": "Jeden Titel über ein paar Sekunden in den nächsten überblenden, oder gar nicht",
+			"params": {
+				"seconds": "Sekunden Überlappung, 0 bis 12; 0 ist aus"
+			}
+		},
+		"radio": {
+			"description": "Mit ähnlichen Titeln weitermachen, wenn die Warteschlange leer ist",
+			"params": {
+				"on": "An oder aus"
+			}
+		},
+		"stats": {
+			"description": "Was dieser Server in den letzten 30 Tagen über den Bot gespielt hat",
+			"params": {
+				"scope": "Alle Wiedergaben, oder nur was du angefragt hast"
+			}
+		},
+		"lyrics": {
+			"description": "Der Songtext des laufenden Titels, aus den Tags der Datei oder von Chordia"
+		},
+		"bots": {
+			"description": "Alle Bot-Identitäten sehen und welche frei sind"
+		},
+		"skipmode": {
+			"description": "Wie ein Titel übersprungen wird: von einer Person oder per Abstimmung unter den Zuhörern",
+			"params": {
+				"mode": "Single: wer die Wiedergabe steuern darf, überspringt sofort. Vote: die Zuhörer stimmen ab",
+				"percent": "Anteil der Zuhörer, den eine Abstimmung braucht, 1 bis 100 (Standard 50)"
+			}
+		},
+		"pickup": {
+			"description": "Wo der Bot nach einem Neustart weitermacht: wo er aufgehört hat, oder am Anfang des Titels",
+			"params": {
+				"mode": "Wo er aufgehört hat, oder am Anfang des Titels"
+			}
+		},
+		"settings": {
+			"description": "Die Einstellungen dieses Servers für den Bot"
+		},
+		"dj": {
+			"description": "Eine DJ-Rolle hinzufügen oder entfernen (diese Rollen dürfen die gemeinsame Wiedergabe steuern)",
+			"params": {
+				"role": "Rolle hinzufügen, oder entfernen, wenn sie schon DJ-Rolle ist; leer lassen löscht alle"
+			}
+		},
+		"247": {
+			"description": "Den Bot rund um die Uhr in seinem Sprachkanal lassen",
+			"params": {
+				"on": "An oder aus"
+			}
+		}
+	}
+}

@@ -1,0 +1,182 @@
+{
+	"commands": {
+		"play": {
+			"description": "Play a track, album or artist from the library",
+			"params": {
+				"query": "Track, album or artist",
+				"position": "Add to the end of the queue (default) or play next"
+			}
+		},
+		"album": {
+			"description": "Queue a whole album",
+			"params": {
+				"query": "Album title",
+				"position": "Add to the end of the queue (default) or play next"
+			}
+		},
+		"playlist": {
+			"description": "Queue one of your Chordia playlists, or a public one",
+			"params": {
+				"query": "Playlist name",
+				"position": "Add to the end of the queue (default) or play next"
+			}
+		},
+		"artist": {
+			"description": "Queue an artist's tracks, album by album",
+			"params": {
+				"query": "Artist name",
+				"position": "Add to the end of the queue (default) or play next"
+			}
+		},
+		"search": {
+			"description": "Search the library and pick what to play",
+			"params": {
+				"query": "What to look for"
+			}
+		},
+		"queue": {
+			"description": "Show the queue",
+			"params": {
+				"page": "Page number"
+			}
+		},
+		"nowplaying": {
+			"description": "What's playing right now"
+		},
+		"history": {
+			"description": "Recently played tracks"
+		},
+		"remove": {
+			"description": "Remove a track, or a run of tracks, from the queue",
+			"params": {
+				"index": "Its number in /queue",
+				"to": "The last number of a range to remove, for more than one"
+			}
+		},
+		"move": {
+			"description": "Move a track to another position in the queue",
+			"params": {
+				"from": "Its number in /queue",
+				"to": "Where it should go"
+			}
+		},
+		"jump": {
+			"description": "Jump to a track in the queue, skipping everything before it",
+			"params": {
+				"index": "Its number in /queue"
+			}
+		},
+		"clear": {
+			"description": "Clear the queue (keeps the current track playing)"
+		},
+		"shuffle": {
+			"description": "Play the queue in random order, or back in order"
+		},
+		"skip": {
+			"description": "Skip the current track, or vote to when this server skips by vote"
+		},
+		"forceskip": {
+			"description": "Skip the current track at once: DJs, or server managers where there are no DJ roles"
+		},
+		"vote": {
+			"description": "Vote to skip the current track"
+		},
+		"back": {
+			"description": "Go back to the previous track"
+		},
+		"pause": {
+			"description": "Pause playback"
+		},
+		"resume": {
+			"description": "Resume playback"
+		},
+		"stop": {
+			"description": "Stop playing and clear the queue"
+		},
+		"seek": {
+			"description": "Seek within the current track",
+			"params": {
+				"position": "A time like 1:23, or +30 / -30 to move relative to now"
+			}
+		},
+		"volume": {
+			"description": "Set the volume (100 is normal, 150 the ceiling)",
+			"params": {
+				"level": "0–150"
+			}
+		},
+		"loop": {
+			"description": "Repeat the track or the whole queue",
+			"params": {
+				"mode": "What to repeat"
+			}
+		},
+		"join": {
+			"description": "Bring the bot into your voice channel"
+		},
+		"leave": {
+			"description": "Stop and leave the voice channel"
+		},
+		"eq": {
+			"description": "The equalizer: see it, pick a preset, set a band, or turn it on or off",
+			"params": {
+				"preset": "A preset to apply",
+				"band": "A band to set",
+				"gain": "The band's gain in dB, -15 to 15",
+				"on": "On or off"
+			}
+		},
+		"crossfade": {
+			"description": "Blend each track into the next over a few seconds, or not at all",
+			"params": {
+				"seconds": "Seconds of overlap, 0 to 12; 0 is off"
+			}
+		},
+		"radio": {
+			"description": "Keep the music going with similar tracks when the queue runs out",
+			"params": {
+				"on": "On or off"
+			}
+		},
+		"stats": {
+			"description": "What this server has played through the bot in the last 30 days",
+			"params": {
+				"scope": "Everyone's plays, or only what you asked for"
+			}
+		},
+		"lyrics": {
+			"description": "Lyrics for the track that is playing, from the file's tags or Chordia"
+		},
+		"bots": {
+			"description": "See every bot identity and which are free"
+		},
+		"skipmode": {
+			"description": "How a track gets skipped: by one person, or by a vote among the listeners",
+			"params": {
+				"mode": "Single: whoever may control playback skips at once. Vote: listeners vote",
+				"percent": "Share of the listeners a vote needs, 1 to 100 (default 50)"
+			}
+		},
+		"pickup": {
+			"description": "Where the bot picks up after a restart: where it left off, or at the start of the track",
+			"params": {
+				"mode": "Where it left off, or the start of the track"
+			}
+		},
+		"settings": {
+			"description": "This server's settings for the bot"
+		},
+		"dj": {
+			"description": "Add or remove a DJ role (those roles may control shared playback)",
+			"params": {
+				"role": "A role to add, or remove if it is already a DJ role; leave empty to clear all"
+			}
+		},
+		"247": {
+			"description": "Keep the bot in its voice channel around the clock",
+			"params": {
+				"on": "On or off"
+			}
+		}
+	}
+}
