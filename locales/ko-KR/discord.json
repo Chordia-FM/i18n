@@ -1,0 +1,182 @@
+{
+	"commands": {
+		"play": {
+			"description": "",
+			"params": {
+				"query": "",
+				"position": ""
+			}
+		},
+		"album": {
+			"description": "",
+			"params": {
+				"query": "",
+				"position": ""
+			}
+		},
+		"playlist": {
+			"description": "",
+			"params": {
+				"query": "플레이리스트 이름",
+				"position": ""
+			}
+		},
+		"artist": {
+			"description": "",
+			"params": {
+				"query": "",
+				"position": ""
+			}
+		},
+		"search": {
+			"description": "",
+			"params": {
+				"query": ""
+			}
+		},
+		"queue": {
+			"description": "",
+			"params": {
+				"page": ""
+			}
+		},
+		"nowplaying": {
+			"description": ""
+		},
+		"history": {
+			"description": ""
+		},
+		"remove": {
+			"description": "",
+			"params": {
+				"index": "",
+				"to": ""
+			}
+		},
+		"move": {
+			"description": "",
+			"params": {
+				"from": "",
+				"to": ""
+			}
+		},
+		"jump": {
+			"description": "",
+			"params": {
+				"index": ""
+			}
+		},
+		"clear": {
+			"description": ""
+		},
+		"shuffle": {
+			"description": ""
+		},
+		"skip": {
+			"description": ""
+		},
+		"forceskip": {
+			"description": ""
+		},
+		"vote": {
+			"description": ""
+		},
+		"back": {
+			"description": ""
+		},
+		"pause": {
+			"description": ""
+		},
+		"resume": {
+			"description": ""
+		},
+		"stop": {
+			"description": ""
+		},
+		"seek": {
+			"description": "",
+			"params": {
+				"position": ""
+			}
+		},
+		"volume": {
+			"description": "",
+			"params": {
+				"level": ""
+			}
+		},
+		"loop": {
+			"description": "",
+			"params": {
+				"mode": ""
+			}
+		},
+		"join": {
+			"description": ""
+		},
+		"leave": {
+			"description": ""
+		},
+		"eq": {
+			"description": "",
+			"params": {
+				"preset": "",
+				"band": "",
+				"gain": "",
+				"on": ""
+			}
+		},
+		"crossfade": {
+			"description": "",
+			"params": {
+				"seconds": ""
+			}
+		},
+		"radio": {
+			"description": "",
+			"params": {
+				"on": ""
+			}
+		},
+		"stats": {
+			"description": "",
+			"params": {
+				"scope": ""
+			}
+		},
+		"lyrics": {
+			"description": ""
+		},
+		"bots": {
+			"description": ""
+		},
+		"skipmode": {
+			"description": "",
+			"params": {
+				"mode": "",
+				"percent": ""
+			}
+		},
+		"pickup": {
+			"description": "",
+			"params": {
+				"mode": ""
+			}
+		},
+		"settings": {
+			"description": ""
+		},
+		"dj": {
+			"description": "",
+			"params": {
+				"role": ""
+			}
+		},
+		"247": {
+			"description": "",
+			"params": {
+				"on": ""
+			}
+		}
+	}
+}
