@@ -191,5 +191,25 @@
 		"settings": "設定",
 		"signOut": "ログアウト",
 		"stats": "統計"
+	},
+	"unsaved": {
+		"title": "",
+		"count": "",
+		"saveAll": "",
+		"undoAll": "",
+		"saved": "",
+		"failed": "",
+		"blocked": "",
+		"leaveAnyway": "",
+		"on": "",
+		"off": "",
+		"empty": "",
+		"changedValue": "",
+		"listValue": "",
+		"undoChange": "",
+		"undoDraft": "",
+		"show": "",
+		"hide": "",
+		"reopen": ""
 	}
 }
