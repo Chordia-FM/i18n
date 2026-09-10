@@ -191,5 +191,25 @@
 		"settings": "Configurações",
 		"signOut": "Sair",
 		"stats": "Estatísticas"
+	},
+	"unsaved": {
+		"title": "",
+		"count": "",
+		"saveAll": "",
+		"undoAll": "",
+		"saved": "",
+		"failed": "",
+		"blocked": "",
+		"leaveAnyway": "",
+		"on": "",
+		"off": "",
+		"empty": "",
+		"changedValue": "",
+		"listValue": "",
+		"undoChange": "",
+		"undoDraft": "",
+		"show": "",
+		"hide": "",
+		"reopen": ""
 	}
 }
