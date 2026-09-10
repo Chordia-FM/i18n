@@ -185,7 +185,8 @@
 			"varsDesc": "",
 			"varsTitle": "",
 			"whenPaused": "",
-			"whenPausedDesc": ""
+			"whenPausedDesc": "",
+			"template": ""
 		},
 		"title": "",
 		"updates": {
@@ -279,7 +280,9 @@
 			"help": "",
 			"title": ""
 		},
-		"title": ""
+		"title": "",
+		"order": "",
+		"hidden": ""
 	},
 	"plan": {
 		"current": "",
@@ -398,6 +401,10 @@
 			"friends": "Freunde",
 			"private": "Nur ich",
 			"public": "Alle"
+		},
+		"discordListening": {
+			"label": "",
+			"desc": ""
 		}
 	},
 	"profile": {
