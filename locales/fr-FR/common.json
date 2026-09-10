@@ -191,5 +191,25 @@
 		"settings": "Paramètres",
 		"signOut": "Se déconnecter",
 		"stats": "Statistiques"
+	},
+	"unsaved": {
+		"title": "",
+		"count": "",
+		"saveAll": "",
+		"undoAll": "",
+		"saved": "",
+		"failed": "",
+		"blocked": "",
+		"leaveAnyway": "",
+		"on": "",
+		"off": "",
+		"empty": "",
+		"changedValue": "",
+		"listValue": "",
+		"undoChange": "",
+		"undoDraft": "",
+		"show": "",
+		"hide": "",
+		"reopen": ""
 	}
 }
