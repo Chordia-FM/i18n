@@ -358,10 +358,20 @@
 		"noFolderSelected": "No folder selected",
 		"noSubdirectories": "No subdirectories here",
 		"pair": {
+			"approve": "Yes, connect this server",
+			"confirmBody": "A setup link asked to connect a library server to your Chordia account. Nothing is sent to it until you approve.",
+			"confirmTitle": "Connect this library server?",
 			"connect": "Connect",
 			"connecting": "Connecting…",
+			"decline": "No, cancel",
+			"declined": "Nothing was connected. You can close this tab.",
 			"description": "This will link {url} to your Chordia account.",
-			"title": "Connect library server"
+			"invalidAddress": "That setup link does not contain a valid library server address.",
+			"labelAccount": "Account",
+			"labelHub": "Hub",
+			"labelServer": "Library server",
+			"title": "Connect library server",
+			"warning": "Only approve this if you run the server at that address and started this setup yourself. Approving gives it a lasting key that can add libraries to your account and write your listening history."
 		},
 		"pairingFailed": "Pairing failed",
 		"sessionExpired": "Your session has expired - please log out and back in, then retry.",
