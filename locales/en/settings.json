@@ -247,9 +247,10 @@
 			"internal": "Something went wrong while importing. Try again.",
 			"interrupted": "The import was interrupted before it finished. Upload the file again; rows already imported are recognized and never doubled.",
 			"malformed": "The file could not be read all the way through. Export it again and retry.",
-			"unrecognized": "This file does not look like a Spotify or Last.fm export."
+			"unrecognized": "This file does not look like a Spotify or Last.fm export.",
+			"tooManyRows": "That export holds more plays than one upload can take. Split it and upload the parts one at a time; nothing is counted twice."
 		},
-		"hint": "Accepts a Spotify extended streaming history (.json) or a Last.fm export (.csv), up to 200 MB. Uploading the same file twice never duplicates plays.",
+		"hint": "Accepts a Spotify extended streaming history (.json) or a Last.fm export (.csv), up to 64 MB. Uploading the same file twice never duplicates plays.",
 		"progress": "{processed} of {total} rows",
 		"sourceAuto": "Detect source",
 		"startInBrowser": "Uploading an export file needs the Chordia website. Jobs you start there show their progress here.",
@@ -342,7 +343,12 @@
 		},
 		"storageDesc": "Music saved on this device, and the room it takes.",
 		"streamingQuality": "Streaming quality",
-		"title": "Playback"
+		"title": "Playback",
+		"externalBrowsing": {
+			"title": "Cars and other apps",
+			"label": "Let cars and other apps browse",
+			"desc": "Android Auto, CarPlay and anything else using the system media service can list your playlists, liked songs and downloads. The system does not say which app is asking, so this stays off until you turn it on."
+		}
 	},
 	"privacy": {
 		"activityVisibility": {
