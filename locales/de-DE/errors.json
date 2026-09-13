@@ -186,5 +186,11 @@
 		"nameRequired": "Name ist erforderlich.",
 		"invalidIcon": ""
 	},
-	"valueEmpty": "Der Wert darf nicht leer sein."
+	"valueEmpty": "Der Wert darf nicht leer sein.",
+	"import": {
+		"alreadyRunning": "",
+		"tooLarge": "",
+		"unrecognizedFile": "",
+		"uploadBusy": ""
+	}
 }
