@@ -17,7 +17,8 @@
 			"removeTitle": "Remover downloads",
 			"removed": "Downloads removidos",
 			"savedCount": "{count, plural, one {# música baixada} other {# músicas baixadas}}",
-			"savedPartial": "{saved} baixadas, {failed} com falha"
+			"savedPartial": "{saved} baixadas, {failed} com falha",
+			"streamOnly": ""
 		},
 		"durationHrMin": "{count, plural, one {# h} other {# h}} {minutes} min",
 		"durationMin": "",
