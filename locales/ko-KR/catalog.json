@@ -17,7 +17,8 @@
 			"removeTitle": "다운로드 제거",
 			"removed": "다운로드를 제거했습니다",
 			"savedCount": "{count, plural, other {#곡 다운로드함}}",
-			"savedPartial": "{saved}곡 다운로드, {failed}곡 실패"
+			"savedPartial": "{saved}곡 다운로드, {failed}곡 실패",
+			"streamOnly": ""
 		},
 		"durationHrMin": "{count, plural, other {#시간}} {minutes}분",
 		"durationMin": "{minutes}분",
