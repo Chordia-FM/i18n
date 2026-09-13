@@ -247,7 +247,8 @@
 			"internal": "",
 			"interrupted": "",
 			"malformed": "",
-			"unrecognized": ""
+			"unrecognized": "",
+			"tooManyRows": ""
 		},
 		"hint": "",
 		"progress": "",
@@ -342,7 +343,12 @@
 		},
 		"storageDesc": "",
 		"streamingQuality": "Calidad de streaming",
-		"title": "Reproducción"
+		"title": "Reproducción",
+		"externalBrowsing": {
+			"title": "",
+			"label": "",
+			"desc": ""
+		}
 	},
 	"privacy": {
 		"activityVisibility": {
