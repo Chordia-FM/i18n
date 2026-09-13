@@ -186,5 +186,11 @@
 		"nameRequired": "El nombre es obligatorio.",
 		"invalidIcon": ""
 	},
-	"valueEmpty": "El valor no puede estar vacío."
+	"valueEmpty": "El valor no puede estar vacío.",
+	"import": {
+		"alreadyRunning": "",
+		"tooLarge": "",
+		"unrecognizedFile": "",
+		"uploadBusy": ""
+	}
 }
