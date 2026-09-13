@@ -17,7 +17,8 @@
 			"removeTitle": "Supprimer les téléchargements",
 			"removed": "Téléchargements supprimés",
 			"savedCount": "{count, plural, one {# chanson téléchargée} other {# chansons téléchargées}}",
-			"savedPartial": "{saved} téléchargées, {failed} en échec"
+			"savedPartial": "{saved} téléchargées, {failed} en échec",
+			"streamOnly": ""
 		},
 		"durationHrMin": "{count, plural, one {# h} other {# h}} {minutes} min",
 		"durationMin": "",
