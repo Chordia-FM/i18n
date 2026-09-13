@@ -247,7 +247,8 @@
 			"internal": "",
 			"interrupted": "",
 			"malformed": "",
-			"unrecognized": ""
+			"unrecognized": "",
+			"tooManyRows": ""
 		},
 		"hint": "",
 		"progress": "",
@@ -342,7 +343,12 @@
 		},
 		"storageDesc": "",
 		"streamingQuality": "ストリーミング品質",
-		"title": "再生"
+		"title": "再生",
+		"externalBrowsing": {
+			"title": "",
+			"label": "",
+			"desc": ""
+		}
 	},
 	"privacy": {
 		"activityVisibility": {
