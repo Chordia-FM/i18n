@@ -247,7 +247,8 @@
 			"internal": "",
 			"interrupted": "",
 			"malformed": "",
-			"unrecognized": ""
+			"unrecognized": "",
+			"tooManyRows": ""
 		},
 		"hint": "",
 		"progress": "",
@@ -342,7 +343,12 @@
 		},
 		"storageDesc": "",
 		"streamingQuality": "스트리밍 품질",
-		"title": "재생"
+		"title": "재생",
+		"externalBrowsing": {
+			"title": "",
+			"label": "",
+			"desc": ""
+		}
 	},
 	"privacy": {
 		"activityVisibility": {
