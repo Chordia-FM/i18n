@@ -17,7 +17,8 @@
 			"removeTitle": "ダウンロードを削除",
 			"removed": "ダウンロードを削除しました",
 			"savedCount": "{count, plural, other {#曲をダウンロードしました}}",
-			"savedPartial": "{saved}曲をダウンロード、{failed}曲失敗"
+			"savedPartial": "{saved}曲をダウンロード、{failed}曲失敗",
+			"streamOnly": "This library is shared with you for streaming only."
 		},
 		"durationHrMin": "{count, plural, other {#時間}}{minutes}分",
 		"durationMin": "{minutes}分",

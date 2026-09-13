@@ -155,5 +155,11 @@
 		"nameRequired": "Amenay isway equiredray.",
 		"invalidIcon": "Atthay isway otnay anway iconway Chordia ancay orestay. Ickpay oneway omfray ethay istlay, orway away inglesay emojiway."
 	},
-	"valueEmpty": "Aluevay annotcay ebay emptyway."
+	"valueEmpty": "Aluevay annotcay ebay emptyway.",
+	"import": {
+		"alreadyRunning": "An import is already running for this account. Wait for it to finish, then upload the next file.",
+		"tooLarge": "That file is over {maxMb} MB. Split the export and upload the parts one at a time; nothing is counted twice.",
+		"unrecognizedFile": "This file does not look like a Spotify or Last.fm export.",
+		"uploadBusy": "Another upload for this account is still being received. Wait for it to finish, then try again."
+	}
 }

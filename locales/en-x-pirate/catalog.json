@@ -9,7 +9,8 @@
 			"removeTitle": "Cast off booty",
 			"removed": "Removed booty",
 			"savedCount": "{count, plural, one {Plundered # shanty} other {Plundered # shanties}}",
-			"savedPartial": "Plundered {saved}, {failed} failed"
+			"savedPartial": "Plundered {saved}, {failed} failed",
+			"streamOnly": "This library is shared with you for streaming only."
 		},
 		"goToRadio": "Go t' artist radio",
 		"songCount": "{count, plural, one {# shanty} other {# shanties}}"

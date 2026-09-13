@@ -14,7 +14,8 @@
 			"removeTitle": "Emoveray ownloadsday",
 			"removed": "Emovedray ownloadsday",
 			"savedCount": "{count, plural, one {Ownloadedday # ongsay} other {Ownloadedday # ongssay}}",
-			"savedPartial": "Ownloadedday {saved}, {failed} ailedfay"
+			"savedPartial": "Ownloadedday {saved}, {failed} ailedfay",
+			"streamOnly": "This library is shared with you for streaming only."
 		},
 		"durationHrMin": "{count, plural, one {# hr} other {# hr}} {minutes} inmay",
 		"durationMin": "{minutes} inmay",
