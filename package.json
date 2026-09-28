@@ -23,6 +23,6 @@
 	},
 	"devDependencies": {
 		"@crowdin/cli": "^4.15.0",
-		"@formatjs/icu-messageformat-parser": "^3.5.15"
+		"@formatjs/icu-messageformat-parser": "^3.5.20"
 	}
 }
